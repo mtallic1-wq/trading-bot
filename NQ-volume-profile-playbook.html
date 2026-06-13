@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NQ Playbook — 6 Strategies · Volume Profile + Order Flow</title>
+<style>
+  :root {
+    --bg: #f7f8fd;
+    --card: #ffffff;
+    --border: #e7e9f3;
+    --text: #1f2333;
+    --muted: #6b7188;
+    --purple: #6042ec;
+    --purple-soft: #efedfd;
+    --green: #0fa977;
+    --green-soft: #e7f7f1;
+    --red: #e5484d;
+    --red-soft: #fdeeee;
+    --amber: #d97706;
+    --amber-soft: #fdf3e3;
+    --blue: #2f6fed;
+    --blue-soft: #eaf1fe;
+    --shadow: 0 1px 3px rgba(16,24,40,.07), 0 4px 14px rgba(16,24,40,.04);
+    --mono: "SF Mono", "JetBrains Mono", Consolas, monospace;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+    padding-bottom: 90px;
+  }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
+
+  header {
+    background: linear-gradient(135deg, #6042ec 0%, #7d5cf5 55%, #9a7df8 100%);
+    color: #fff;
+    padding: 54px 0 44px;
+    margin-bottom: 40px;
+  }
+  .ticker {
+    font-family: var(--mono); font-size: 12.5px; letter-spacing: 2px;
+    text-transform: uppercase; opacity: .85; margin-bottom: 12px;
+  }
+  h1 { font-size: 33px; font-weight: 800; letter-spacing: -.5px; }
+  .subtitle { margin-top: 10px; font-size: 15.5px; opacity: .9; max-width: 640px; }
+  .specs { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; font-family: var(--mono); font-size: 12.5px; }
+  .spec { background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.25); border-radius: 8px; padding: 5px 13px; }
+  .spec b { font-weight: 700; }
+
+  .notice {
+    background: var(--amber-soft); border: 1px solid #f3ddb5; border-left: 4px solid var(--amber);
+    border-radius: 10px; padding: 15px 20px; margin-bottom: 40px; font-size: 14px; color: #6b4e10;
+  }
+  .notice b { color: var(--amber); }
+
+  h2 { font-size: 21px; font-weight: 800; margin: 54px 0 6px; display: flex; align-items: center; gap: 12px; letter-spacing: -.3px; }
+  h2 .pill {
+    font-family: var(--mono); font-size: 12px; font-weight: 700; letter-spacing: 1px;
+    border-radius: 99px; padding: 3px 13px;
+  }
+  .pill.step { background: var(--purple-soft); color: var(--purple); }
+  .pill.range { background: var(--green-soft); color: var(--green); }
+  .pill.trend { background: var(--red-soft); color: var(--red); }
+  .h2-sub { color: var(--muted); font-size: 14px; margin-bottom: 22px; }
+
+  /* prep grid */
+  .marklist { display: grid; gap: 10px; counter-reset: mk; }
+  .mk {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 18px 14px 56px; position: relative; counter-increment: mk; box-shadow: var(--shadow);
+  }
+  .mk::before {
+    content: counter(mk);
+    position: absolute; left: 16px; top: 15px; width: 26px; height: 26px; border-radius: 50%;
+    background: var(--purple-soft); color: var(--purple);
+    font-family: var(--mono); font-size: 13px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .mk b { color: var(--text); }
+  .mk small { color: var(--muted); display: block; font-size: 13px; }
+
+  .decide { margin-top: 18px; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px 22px; box-shadow: var(--shadow); }
+  .decide .q { font-weight: 700; margin-bottom: 8px; }
+  .decide .ans { font-size: 14px; margin-bottom: 6px; }
+  .decide .ans b.t { color: var(--red); }
+  .decide .ans b.r { color: var(--green); }
+  .decide .none { color: var(--muted); font-size: 13.5px; }
+
+  /* strategy cards */
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; margin-bottom: 26px; overflow: hidden; box-shadow: var(--shadow); }
+  .card-head { padding: 20px 24px 16px; border-bottom: 1px solid var(--border); }
+  .badges { display: flex; gap: 8px; flex-wrap: wrap; }
+  .tag {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 1.2px; font-weight: 700;
+    padding: 4px 11px; border-radius: 99px;
+  }
+  .tag.range { background: var(--green-soft); color: var(--green); }
+  .tag.trend { background: var(--red-soft); color: var(--red); }
+  .tag.mine  { background: var(--purple-soft); color: var(--purple); }
+  .card-head h3 { font-size: 18.5px; margin-top: 10px; font-weight: 800; letter-spacing: -.2px; }
+  .card-body { padding: 20px 24px; }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); gap: 10px; margin-bottom: 20px; }
+  .stat { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; }
+  .stat .k { font-size: 10.5px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); font-weight: 600; }
+  .stat .v { font-family: var(--mono); font-size: 15.5px; font-weight: 700; color: var(--green); margin-top: 2px; }
+  .stat .v.red { color: var(--red); }
+  .stat .v.amber { color: var(--amber); }
+  .stat .v.purple { color: var(--purple); }
+
+  .sec { margin-bottom: 16px; }
+  .sec-title {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 1.2px; font-weight: 700; margin-bottom: 6px; color: var(--purple);
+  }
+  .sec p, .sec li { font-size: 14px; }
+  .sec ol, .sec ul { margin-left: 20px; }
+  .sec li { margin-bottom: 4px; }
+
+  .box { border-radius: 10px; padding: 12px 16px; font-size: 14px; }
+  .box.context { background: var(--blue-soft); border: 1px solid #cfdefb; }
+  .box.context b { color: var(--blue); }
+  .box.location { background: var(--green-soft); border: 1px solid #c6ecdd; }
+  .box.location b { color: var(--green); }
+  .box.confirm { background: var(--amber-soft); border: 1px solid #f3ddb5; }
+  .box.confirm b { color: var(--amber); }
+  .kill {
+    margin-top: 4px; padding: 12px 16px; background: var(--red-soft);
+    border: 1px solid #f6cdce; border-left: 4px solid var(--red); border-radius: 10px; font-size: 13.5px;
+  }
+  .kill b { color: var(--red); }
+
+  table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13.5px; background: var(--card); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); }
+  th, td { padding: 11px 13px; text-align: center; border-bottom: 1px solid var(--border); }
+  tr:last-child td { border-bottom: none; }
+  th { background: var(--purple-soft); color: var(--purple); font-size: 11.5px; text-transform: uppercase; letter-spacing: .8px; }
+  td:first-child, th:first-child { text-align: left; }
+  .on { color: var(--green); font-weight: 700; }
+  .off { color: var(--red); font-weight: 700; }
+  .na { color: var(--muted); }
+
+  .disc { display: grid; gap: 10px; }
+  .disc-item { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px; font-size: 14px; box-shadow: var(--shadow); }
+  .disc-item b { color: var(--purple); }
+  .disc-item code { font-family: var(--mono); font-size: 12.5px; background: var(--purple-soft); color: var(--purple); padding: 1px 7px; border-radius: 5px; }
+
+  footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+  footer b { color: var(--text); }
+  @media (max-width: 640px) {
+    h1 { font-size: 25px; }
+    .card-body, .card-head { padding: 16px; }
+    table { font-size: 11.5px; }
+    th, td { padding: 8px 6px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="ticker">NQ · E-MINI NASDAQ-100 · VOLUME PROFILE + ORDER FLOW</div>
+    <h1>NQ Scalping Playbook — 6 Setups</h1>
+    <p class="subtitle">2 trend + 2 range from the CBOT floor tradition, plus 2 of my own setups. Every card: Context → Location → Entry → Confirmation → Stops &amp; Targets.</p>
+    <div class="specs">
+      <div class="spec">1 point = <b>$20</b></div>
+      <div class="spec">Tick = <b>0.25 ($5)</b></div>
+      <div class="spec">RTH = <b>9:30–16:00 ET</b></div>
+      <div class="spec">Best hours = <b>9:30–11:30 ET</b></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="notice">
+    <b>Honest note:</b> Win rates shown are commonly reported ranges from Market Profile literature and prop-desk practice — not guarantees. For my own two setups, the numbers are targets to verify. Log 100 tagged trades per setup; your journal overrides every number on this page.
+  </div>
+
+  <!-- PREP -->
+  <h2><span class="pill step">STEP 1</span> Mark These Levels Before 9:30 ET</h2>
+  <p class="h2-sub">The complete map. All six strategies trade off these levels and nothing else.</p>
+  <div class="marklist">
+    <div class="mk"><b>Yesterday's RTH profile (9:30–16:00 ET):</b> VAH, VAL, POC.<small>Used by R1, R2, T1.</small></div>
+    <div class="mk"><b>Overnight profile (18:00–9:30 ET):</b> overnight high, low, POC.<small>Breakout levels for T1.</small></div>
+    <div class="mk"><b>Big composite profile</b> — anchored at the first day of the current large multi-day range: composite VAH, VAL, POC + every HVN (fat zone) and LVN (thin gap).<small>The map for T2 and MY-R.</small></div>
+    <div class="mk"><b>Naked POCs</b> from the last ~10 days within ~1% of price.<small>Trend targets for T1, T2, MY-T.</small></div>
+    <div class="mk"><b>Intraday:</b> when price builds a fresh medium range (30–60 min), mark that range's developing VAH, VAL, POC on the session profile.<small>The map for MY-T. After 10:30 also note the first-hour high/low for day type.</small></div>
+  </div>
+
+  <div class="decide">
+    <div class="q">STEP 2 — Decide the day type before any trade:</div>
+    <div class="ans"><b class="r">RANGE day</b> — overnight inside yesterday's range, value overlapping, narrow two-sided first hour → trade <b>R1, R2, MY-R</b> only.</div>
+    <div class="ans"><b class="t">TREND day</b> — open drove away from value, first hour extended one way, one-sided delta → trade <b>T1, T2, MY-T</b> only.</div>
+    <div class="none">Can't tell? No trades until it's obvious. Mixing range trades into a trend day is the account-killer.</div>
+  </div>
+
+  <!-- ================= RANGE ================= -->
+  <h2><span class="pill range">RANGE</span> Three Setups for Sideways Days</h2>
+  <p class="h2-sub">R1 fires multiple times per range day; R2 most weeks; MY-R whenever price reaches the extremes of a big balance.</p>
+
+  <!-- R1 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="badges"><span class="tag range">R1 · RANGE</span><span class="tag range">2–4× PER RANGE DAY</span></div>
+      <h3>Value Area Edge Fade — sell the top of value, buy the bottom</h3>
+    </div>
+    <div class="card-body">
+      <div class="stats">
+        <div class="stat"><div class="k">Win rate</div><div class="v">~60–70%</div></div>
+        <div class="stat"><div class="k">Reward : Risk</div><div class="v amber">1 : 1 – 1.5</div></div>
+        <div class="stat"><div class="k">Stop</div><div class="v amber">10–15 pts</div></div>
+        <div class="stat"><div class="k">Targets</div><div class="v purple">POC → far edge</div></div>
+      </div>
+      <div class="sec"><div class="sec-title">Context</div>
+        <div class="box context"><b>Range day only.</b> Value overlapping yesterday's, overnight inside range, narrow two-sided first hour. Price rotates edge → middle → edge.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Location — profile to mark</div>
+        <div class="box location"><b>Yesterday's VAH and VAL</b> (entry zones) · <b>yesterday's POC</b> (target 1) · after 10:30 add <b>today's developing VAH/VAL</b> — where yesterday's edge and today's edge overlap is the strongest zone.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Entry</div>
+        <ol>
+          <li>Price pushes into VAL (long) or VAH (short); a small poke past the line is normal.</li>
+          <li>Wait for the confirmation below — never enter on the touch alone.</li>
+          <li>Enter at/just inside the edge on the delta flip.</li>
+        </ol>
+      </div>
+      <div class="sec"><div class="sec-title">Confirmation — order flow</div>
+        <div class="box confirm"><b>Absorption + delta flip.</b> At VAL: footprint shows heavy selling (clearly negative delta) but price stops going down — absorption. Next 1–2 bars flip to positive delta and lift off the low → enter. Mirror at VAH.</div>
+      </div>
+      <div class="kill"><b>Kill switch:</b> 15+ minutes of volume builds OUTSIDE the edge → range is breaking into trend. Stop fading, switch to T1.</div>
+    </div>
+  </div>
+
+  <!-- R2 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="badges"><span class="tag range">R2 · RANGE</span><span class="tag range">2–3× PER WEEK</span></div>
+      <h3>The 80% Rule — open outside value, accepted back in, ride across</h3>
+    </div>
+    <div class="card-body">
+      <div class="stats">
+        <div class="stat"><div class="k">Win rate (to POC)</div><div class="v">~70–80%</div></div>
+        <div class="stat"><div class="k">Reward : Risk</div><div class="v">1 : 1.5 – 3</div></div>
+        <div class="stat"><div class="k">Stop</div><div class="v amber">10–15 pts</div></div>
+        <div class="stat"><div class="k">Targets</div><div class="v purple">POC → far edge</div></div>
+      </div>
+      <div class="sec"><div class="sec-title">Context</div>
+        <div class="box context"><b>Open outside yesterday's value</b> (NQ gaps often), then price pulls back inside and stays 15–20 min (acceptance). Once accepted, price usually crosses the whole value area.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Location — profile to mark</div>
+        <div class="box location"><b>Yesterday's VAH, VAL, POC — nothing else.</b> The edge price re-enters through = entry level · POC = target 1 · far edge = target 2.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Entry</div>
+        <ol>
+          <li>Open below VAL (long version; above VAH = mirror short).</li>
+          <li>Price climbs inside value and holds 15–20 min — a quick in-and-out poke doesn't count.</li>
+          <li>Price retests VAL from above; retest holds → <b>long at VAL</b>.</li>
+        </ol>
+      </div>
+      <div class="sec"><div class="sec-title">Confirmation — order flow</div>
+        <div class="box confirm"><b>CVD divergence at the retest.</b> Price makes an equal/slightly lower low at VAL but cumulative delta makes a higher low — sellers press and get nothing. Enter when bar delta turns positive off the level. Close back below VAL on negative delta = failed re-entry, no trade.</div>
+      </div>
+      <div class="kill"><b>Kill switch:</b> price drops back out of value and builds volume outside → the acceptance was fake, flat immediately.</div>
+    </div>
+  </div>
+
+  <!-- MY-R -->
+  <div class="card">
+    <div class="card-head">
+      <div class="badges"><span class="tag mine">MY-R · MY SETUP</span><span class="tag range">RANGE</span></div>
+      <h3>Big Balance Extreme Fade — long the VAL / short the VAH of the BIG range</h3>
+    </div>
+    <div class="card-body">
+      <div class="stats">
+        <div class="stat"><div class="k">Win rate</div><div class="v purple">Track your data</div></div>
+        <div class="stat"><div class="k">Reward : Risk</div><div class="v">1 : 2 – 4</div></div>
+        <div class="stat"><div class="k">Stop</div><div class="v amber">15–25 pts</div></div>
+        <div class="stat"><div class="k">Targets</div><div class="v purple">Comp. POC → far edge</div></div>
+      </div>
+      <div class="sec"><div class="sec-title">Context</div>
+        <div class="box context"><b>Price is in balance inside a BIG multi-day range</b> and has rotated all the way to one extreme of it — the composite VAL (for longs) or composite VAH (for shorts). The bigger the balance, the stronger the fade — these extremes are where the biggest players defend.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Location — profile to mark</div>
+        <div class="box location"><b>Big composite profile</b> (anchored at the first day of the large range): <b>composite VAH</b> (short zone) · <b>composite VAL</b> (long zone) · <b>composite POC</b> (target 1). Bonus: note the HVN nearest each extreme — price often stalls there on the way back.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Entry</div>
+        <ol>
+          <li>Confirm the big balance is intact (no acceptance outside it in recent days).</li>
+          <li>Price reaches composite VAL (long) or composite VAH (short) — usually late in a rotation, often on a range day or a fading trend move.</li>
+          <li>Wait for BOTH confirmations below — this is a big-level fade, so demand the most proof of any setup in the book.</li>
+          <li>Enter at/just inside the extreme on the delta flip.</li>
+        </ol>
+      </div>
+      <div class="sec"><div class="sec-title">Confirmation — order flow (both required)</div>
+        <div class="box confirm"><b>1 · Big-trade absorption:</b> large prints hit the extreme aggressively (big sell market orders into VAL) but price stops moving — someone big is taking every contract.<br><b>2 · CVD divergence:</b> price makes a new push low at VAL while cumulative delta makes a higher low (sellers exhausted). When both are on and bar delta flips positive → enter. One without the other = no trade.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Stops &amp; targets</div>
+        <ul>
+          <li><b>Stop:</b> 15–25 pts beyond the absorption extreme (it must hold).</li>
+          <li><b>Target 1 (take most off):</b> composite POC.</li>
+          <li><b>Runner:</b> the opposite extreme of the big range.</li>
+        </ul>
+      </div>
+      <div class="kill"><b>Kill switch:</b> price accepts beyond the big range edge (builds 15+ min of volume outside) → the entire balance is breaking. Exit instantly — that's the start of a real breakout, and the market becomes T1/T2 territory.</div>
+    </div>
+  </div>
+
+  <!-- ================= TREND ================= -->
+  <h2><span class="pill trend">TREND</span> Three Setups for One-Way Days</h2>
+  <p class="h2-sub">When NQ leaves value and drives — stop fading, start joining.</p>
+
+  <!-- T1 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="badges"><span class="tag trend">T1 · TREND</span><span class="tag trend">1–2× PER TREND DAY</span></div>
+      <h3>Break of Value + Retest — buy the first pullback to the broken level</h3>
+    </div>
+    <div class="card-body">
+      <div class="stats">
+        <div class="stat"><div class="k">Win rate</div><div class="v red">~50–60%</div></div>
+        <div class="stat"><div class="k">Reward : Risk</div><div class="v">1 : 2 – 3</div></div>
+        <div class="stat"><div class="k">Stop</div><div class="v amber">12–20 pts</div></div>
+        <div class="stat"><div class="k">Targets</div><div class="v purple">NPOC → next HVN</div></div>
+      </div>
+      <div class="sec"><div class="sec-title">Context</div>
+        <div class="box context"><b>Trend day.</b> Open drove away from value, one-sided delta since the open. Price breaks above value, returns once to the broken level, then continues. You buy the pullback — never the breakout itself.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Location — profile to mark</div>
+        <div class="box location">For longs: <b>yesterday's VAH</b> and the <b>overnight high</b> (whichever breaks = your level) · targets: <b>nearest naked POC above</b> + <b>near edge of the next HVN</b> on the composite. Mirror for shorts.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Entry</div>
+        <ol>
+          <li>Price breaks the level and HOLDS above — 10–15 min of volume builds above it.</li>
+          <li>Wait for the first pullback down to the broken level.</li>
+          <li>Pullback holds (confirmation below) → <b>long at the level</b>.</li>
+        </ol>
+      </div>
+      <div class="sec"><div class="sec-title">Confirmation — order flow</div>
+        <div class="box confirm"><b>Weak pullback, strong return.</b> Pullback arrives on shrinking volume and small delta (profit-taking, not real sellers). At the level, delta flips back positive — ideally with stacked buy imbalances as price turns. Heavy negative delta + rising volume into the level = real sellers, skip.</div>
+      </div>
+      <div class="kill"><b>Kill switch:</b> price closes back inside yesterday's value and stays → breakout failed, exit; the day may be turning into R1 conditions.</div>
+    </div>
+  </div>
+
+  <!-- T2 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="badges"><span class="tag trend">T2 · TREND</span><span class="tag trend">1–3× PER TREND DAY</span></div>
+      <h3>Thin Zone Break (LVN Air Pocket) — join the fast move through low volume</h3>
+    </div>
+    <div class="card-body">
+      <div class="stats">
+        <div class="stat"><div class="k">Win rate</div><div class="v red">~45–55%</div></div>
+        <div class="stat"><div class="k">Reward : Risk</div><div class="v">1 : 2 – 4</div></div>
+        <div class="stat"><div class="k">Stop</div><div class="v amber">12–20 pts</div></div>
+        <div class="stat"><div class="k">Targets</div><div class="v purple">Next HVN edge → its POC</div></div>
+      </div>
+      <div class="sec"><div class="sec-title">Context</div>
+        <div class="box context"><b>Trend day only — never in midday chop.</b> Price grinds at the edge of a fat zone (HVN) with a thin gap (LVN) directly beyond. Almost no business was done in the gap, so once it breaks, price shoots across to the next fat zone.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Location — profile to mark</div>
+        <div class="box location">On the <b>composite profile</b>: the <b>HVN edge price is sitting at</b> · the <b>LVN just beyond it</b> · the <b>near edge + POC of the next HVN</b> across the gap. Entry = start of the gap, target = far side.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Entry</div>
+        <ol>
+          <li>Stop order just past the LVN edge as the HVN gives way — or first tiny pullback after price enters the gap.</li>
+          <li>Golden rule: enter at the START of the gap, never its middle.</li>
+        </ol>
+      </div>
+      <div class="sec"><div class="sec-title">Confirmation — order flow</div>
+        <div class="box confirm"><b>Aggression through the edge.</b> Delta strongly positive and GROWING, rising volume, stacked buy imbalances, no absorption capping it. Delta flat or volume dying on the poke = fake break, skip. Delta stalls mid-gap while in = take profit, exit.</div>
+      </div>
+      <div class="kill"><b>Kill switch:</b> price falls back inside the fat zone it broke from — out immediately, no hoping.</div>
+    </div>
+  </div>
+
+  <!-- MY-T -->
+  <div class="card">
+    <div class="card-head">
+      <div class="badges"><span class="tag mine">MY-T · MY SETUP</span><span class="tag trend">TREND</span></div>
+      <h3>Medium Range Acceptance Break — value accepted, then aggression at the top</h3>
+    </div>
+    <div class="card-body">
+      <div class="stats">
+        <div class="stat"><div class="k">Win rate</div><div class="v purple">Track your data</div></div>
+        <div class="stat"><div class="k">Reward : Risk</div><div class="v">1 : 2 – 3</div></div>
+        <div class="stat"><div class="k">Stop</div><div class="v amber">12–18 pts</div></div>
+        <div class="stat"><div class="k">Targets</div><div class="v purple">Measured move / NPOC</div></div>
+      </div>
+      <div class="sec"><div class="sec-title">Context</div>
+        <div class="box context"><b>Trend day, during a pause.</b> Price builds a MEDIUM range — not a big multi-day balance, a 30–60 minute pause of roughly 20–40 NQ points — and value gets ACCEPTED inside it (a clear developing POC forms, price rotates around it). The trend is resting, not reversing. The break of this range with aggression is the next leg.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Location — profile to mark</div>
+        <div class="box location">The <b>developing profile of the medium range itself</b>: its <b>VAH (the top — your trigger level for longs)</b>, its <b>POC</b> (must be clearly formed = acceptance; also your stop reference), its <b>VAL</b>. Targets: <b>measured move</b> (range height projected from the break) and the <b>nearest naked POC / HVN edge beyond</b>.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Entry</div>
+        <ol>
+          <li>Confirm the range is MEDIUM (20–40 pts, 30–60 min) — too small = noise, too big = it's a balance, use T2/MY-R logic instead.</li>
+          <li>Confirm acceptance: a fat developing POC inside the range, price rotating around it. No POC = no acceptance = no trade.</li>
+          <li>Watch the top of the range (VAH/range high) for the aggression signal below.</li>
+          <li>Enter on the break of the range top with confirmation live — or on the first micro-pullback to the broken VAH.</li>
+        </ol>
+      </div>
+      <div class="sec"><div class="sec-title">Confirmation — order flow (both required)</div>
+        <div class="box confirm"><b>1 · Big trades at the top:</b> large aggressive prints lifting the offers at and through the range high — size stepping in, not small lots.<br><b>2 · Strong CVD:</b> cumulative delta breaks to new highs WITH price (no divergence) and keeps climbing — the buying is real and persistent. Both on → enter. Big prints but flat CVD = one player, not a move — skip.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Stops &amp; targets</div>
+        <ul>
+          <li><b>Stop:</b> 12–18 pts, below the range POC (back below the accepted value = the break failed).</li>
+          <li><b>Target 1:</b> measured move — range height added to the breakout point.</li>
+          <li><b>Runner:</b> nearest naked POC or next HVN edge above.</li>
+        </ul>
+      </div>
+      <div class="kill"><b>Kill switch:</b> price breaks out, then closes back inside the medium range below its VAH — trapped breakout, exit immediately and stand down; the next signal is often the opposite-direction break.</div>
+    </div>
+  </div>
+
+  <!-- MATRIX -->
+  <h2><span class="pill step">STEP 3</span> Which Strategy When</h2>
+  <p class="h2-sub">One day type → three allowed setups. Never mix.</p>
+  <table>
+    <thead>
+      <tr><th>Day type</th><th>R1 Edge Fade</th><th>R2 80% Rule</th><th>MY-R Big Fade</th><th>T1 Break+Retest</th><th>T2 LVN Break</th><th>MY-T Range Break</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Range day</td><td class="on">ON</td><td class="on">ON*</td><td class="on">ON at extremes</td><td class="off">OFF</td><td class="off">OFF</td><td class="off">OFF</td></tr>
+      <tr><td>Trend day</td><td class="off">NEVER</td><td class="off">OFF</td><td class="na">only at big-range extreme</td><td class="on">ON</td><td class="on">ON</td><td class="on">ON</td></tr>
+      <tr><td>Can't tell yet</td><td class="na" colspan="6">No trades until the day type is obvious</td></tr>
+      <tr><td>CPI / FOMC / NFP</td><td class="na" colspan="6">Flat into the number — after it, trend setups only at half size</td></tr>
+    </tbody>
+  </table>
+  <p style="color: var(--muted); font-size: 12.5px; margin-top: 8px;">*R2 only when today opened outside yesterday's value.</p>
+
+  <!-- RISK -->
+  <h2><span class="pill step">STEP 4</span> Risk Rules</h2>
+  <p class="h2-sub">The setups don't work without this part.</p>
+  <div class="disc">
+    <div class="disc-item"><b>Trade the good hours:</b> 9:30–11:30 ET, optional 14:00–15:30. Skip lunch — levels stop working in thin volume.</div>
+    <div class="disc-item"><b>Size from the stop:</b> 15-pt NQ stop = <code>$300/contract</code>. Risk a fixed 0.25–0.5% per trade. Never pick contract size first.</div>
+    <div class="disc-item"><b>Daily stop:</b> 3 losers in a row OR <code>−1.5R</code> → done for the day, no exceptions.</div>
+    <div class="disc-item"><b>Profile = location, order flow = trigger.</b> The level says WHERE, the delta/absorption/CVD rule says WHEN. Take neither alone.</div>
+    <div class="disc-item"><b>Journal every trade by tag</b> (R1, R2, MY-R, T1, T2, MY-T). 100 tagged trades per setup = your real numbers.</div>
+  </div>
+
+  <footer>
+    <b>Sources for the four floor setups:</b> Peter Steidlmayer — <i>Markets and Market Logic</i> · Jim Dalton — <i>Mind Over Markets</i>, <i>Markets in Profile</i>. MY-R and MY-T are personal setups built on the same profile + order flow framework.<br>
+    Educational material, not financial advice. Futures trading involves substantial risk of loss.
+  </footer>
+
+</div>
+</body>
+</html>

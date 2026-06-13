@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from config import ANTHROPIC_API_KEY; print\\(repr\\(ANTHROPIC_API_KEY[:20] if ANTHROPIC_API_KEY else ''EMPTY''\\)\\)\")",
+      "Bash(python -c \":*)",
+      "Bash(pip install:*)",
+      "Bash(python -c \"from web import app; print\\(''OK''\\)\")",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c \"taskkill /F /PID 17288\" 2>&1)",
+      "Bash(python web.py)",
+      "Bash(curl -s http://localhost:5050/)",
+      "Bash(python -c \"import sys,json;d=json.load\\(sys.stdin\\);print\\(''''keys:'''',list\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(cmd /c \"netstat -ano | findstr :5050\" 2>&1)",
+      "Bash(netstat -ano)",
+      "Bash(for pid:*)",
+      "Bash(do cmd:*)",
+      "Bash(cmd /c \"taskkill /F /IM python.exe\")",
+      "mcp__mcp-obsidian__obsidian_list_files_in_vault",
+      "mcp__mcp-obsidian__obsidian_append_content",
+      "Bash(pip show:*)",
+      "WebFetch(domain:ai.google.dev)"
+    ]
+  }
+}
