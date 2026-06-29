@@ -29,7 +29,7 @@ export default function Sidebar({
   isLoading
 }: SidebarProps) {
   return (
-    <aside className="w-64 border-r border-zinc-800 bg-zinc-950 flex flex-col shrink-0 select-none text-zinc-400 font-sans h-screen">
+    <aside className="relative z-20 w-64 border-r border-zinc-800 bg-zinc-950 flex flex-col shrink-0 select-none text-zinc-400 font-sans h-screen">
       {/* Brand Header */}
       <div className="p-4 flex items-center justify-between border-b border-zinc-900">
         <div className="flex items-center gap-2 text-zinc-100">
