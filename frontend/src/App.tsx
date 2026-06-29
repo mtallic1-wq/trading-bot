@@ -4,7 +4,9 @@ import {
   Cpu,
   RefreshCw,
   CheckCircle,
-  XCircle
+  XCircle,
+  X,
+  HelpCircle
 } from "lucide-react";
 
 import InteractiveSpace from "./components/InteractiveSpace";
@@ -50,6 +52,7 @@ export default function App() {
   const [token, setToken] = useState<string>("");
   const [subStatus, setSubStatus] = useState<string>("free");
   const [userEmail, setUserEmail] = useState<string>("");
+  const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
 
   // Sub-tabs in the bottom section of dashboard
   const [dashboardTab, setDashboardTab] = useState<"playbook" | "structure" | "catalysts" | "ai_analysis">("playbook");
@@ -260,6 +263,7 @@ export default function App() {
         isLoading={!!activeJob}
         subStatus={subStatus}
         userEmail={userEmail}
+        onHelpClick={() => setIsHelpOpen(true)}
       />
 
       {/* Main Panel Content Area */}
@@ -530,6 +534,65 @@ export default function App() {
           </AnimatePresence>
         </main>
       </div>
+
+      {/* Support & Help Center Modal */}
+      <AnimatePresence>
+        {isHelpOpen && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              className="bg-zinc-950 border border-zinc-800 rounded-xl max-w-md w-full p-6 relative font-sans shadow-2xl"
+            >
+              <button
+                onClick={() => setIsHelpOpen(false)}
+                className="absolute top-4 right-4 text-zinc-500 hover:text-zinc-300 transition"
+              >
+                <X className="w-4 h-4" />
+              </button>
+              
+              <div className="flex items-center gap-2 mb-4 border-b border-zinc-900 pb-3">
+                <HelpCircle className="w-4 h-4 text-zinc-400" />
+                <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
+                  Support & Help Center
+                </h3>
+              </div>
+
+              <div className="space-y-4 text-xs">
+                <div className="space-y-1.5">
+                  <h4 className="font-semibold text-zinc-300">📧 Email Support</h4>
+                  <p className="text-zinc-500">Contact us directly at:</p>
+                  <a href="mailto:support@nqbiasengine.qzz.io" className="text-zinc-200 hover:underline block font-mono">
+                    support@nqbiasengine.qzz.io
+                  </a>
+                </div>
+
+                <div className="space-y-1.5">
+                  <h4 className="font-semibold text-zinc-300 font-sans">🔑 Activating Premium</h4>
+                  <p className="text-zinc-500 leading-relaxed">
+                    After subscribing via Lemon Squeezy, check your email for your unique access link. Use that link to configure your WhatsApp alerts and timezone preferences.
+                  </p>
+                </div>
+
+                <div className="space-y-1.5">
+                  <h4 className="font-semibold text-zinc-300">📊 Report Schedule</h4>
+                  <p className="text-zinc-500 leading-relaxed">
+                    Market forecasts are updated daily. Alerts are sent out automatically relative to your configured timezone before the session opens.
+                  </p>
+                </div>
+              </div>
+
+              <button
+                onClick={() => setIsHelpOpen(false)}
+                className="w-full mt-6 py-2 bg-zinc-100 hover:bg-zinc-200 text-zinc-950 font-bold rounded-lg text-xs transition"
+              >
+                Got it
+              </button>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

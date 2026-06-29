@@ -19,6 +19,7 @@ interface SidebarProps {
   isLoading: boolean;
   subStatus: string;
   userEmail: string;
+  onHelpClick: () => void;
 }
 
 export default function Sidebar({
@@ -30,7 +31,8 @@ export default function Sidebar({
   runAnalysis,
   isLoading,
   subStatus,
-  userEmail
+  userEmail,
+  onHelpClick
 }: SidebarProps) {
   return (
     <aside className="relative z-20 w-64 border-r border-zinc-800 bg-zinc-950 flex flex-col shrink-0 select-none text-zinc-400 font-sans h-screen">
@@ -159,7 +161,10 @@ export default function Sidebar({
           <Settings className="w-3.5 h-3.5" />
           Settings
         </button>
-        <button className="w-full flex items-center gap-2 px-3 py-1.5 hover:bg-zinc-900/50 rounded-md text-xs text-zinc-500 hover:text-zinc-300 transition">
+        <button
+          onClick={onHelpClick}
+          className="w-full flex items-center gap-2 px-3 py-1.5 hover:bg-zinc-900/50 rounded-md text-xs text-zinc-500 hover:text-zinc-300 transition"
+        >
           <HelpCircle className="w-3.5 h-3.5" />
           Get Help
         </button>
