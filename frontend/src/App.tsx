@@ -349,7 +349,7 @@ export default function App() {
                       <button
                         onClick={() => setDashboardTab("playbook")}
                         className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
-                          dashboardTab === "playbook" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-350"
+                          dashboardTab === "playbook" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
                         }`}
                       >
                         Outline Playbook
@@ -357,7 +357,7 @@ export default function App() {
                       <button
                         onClick={() => setDashboardTab("structure")}
                         className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
-                          dashboardTab === "structure" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-350"
+                          dashboardTab === "structure" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
                         }`}
                       >
                         Market Structure
@@ -365,7 +365,7 @@ export default function App() {
                       <button
                         onClick={() => setDashboardTab("catalysts")}
                         className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
-                          dashboardTab === "catalysts" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-350"
+                          dashboardTab === "catalysts" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
                         }`}
                       >
                         Sentiment Catalysts
@@ -373,7 +373,7 @@ export default function App() {
                       <button
                         onClick={() => setDashboardTab("ai_analysis")}
                         className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
-                          dashboardTab === "ai_analysis" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-350"
+                          dashboardTab === "ai_analysis" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
                         }`}
                       >
                         AI Prediction Matrix
@@ -397,10 +397,10 @@ export default function App() {
                       />
                     )}
                     {dashboardTab === "ai_analysis" && (
-                      <div className="bg-zinc-950 border border-zinc-850 rounded-xl overflow-hidden p-6 max-h-[500px] overflow-y-auto">
+                      <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden p-6 max-h-[500px] overflow-y-auto">
                         <div className="flex items-center gap-2 mb-4 border-b border-zinc-900 pb-3">
                           <Cpu className="w-4 h-4 text-zinc-400" />
-                          <h3 className="text-sm font-semibold text-zinc-150 uppercase tracking-wider">
+                          <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
                             AI Bias Summary Report ({activeReport.analysis?.source?.split(" (")[0] || "AI System"})
                           </h3>
                         </div>
@@ -442,9 +442,9 @@ export default function App() {
                 animate={{ opacity: 1 }}
                 className="space-y-4 max-w-5xl mx-auto"
               >
-                <div className="bg-zinc-950 border border-zinc-850 rounded-xl overflow-hidden">
+                <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden">
                   <div className="px-5 py-4 border-b border-zinc-900">
-                    <h3 className="text-sm font-semibold text-zinc-150 uppercase tracking-wider">
+                    <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
                       Saved Signal Forecasts History
                     </h3>
                   </div>

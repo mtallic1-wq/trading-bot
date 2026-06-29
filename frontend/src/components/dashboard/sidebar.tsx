@@ -120,8 +120,8 @@ export default function Sidebar({
                 onClick={() => loadReport(date)}
                 className={`w-full flex items-center justify-between px-3 py-1.5 rounded-md text-left transition-all ${
                   isActive
-                    ? "bg-zinc-900 text-zinc-100 border border-zinc-850 font-medium"
-                    : "hover:bg-zinc-900/30 text-zinc-500 hover:text-zinc-350"
+                    ? "bg-zinc-900 text-zinc-100 border border-zinc-800 font-medium"
+                    : "hover:bg-zinc-900/30 text-zinc-500 hover:text-zinc-300"
                 }`}
               >
                 <div className="flex items-center gap-2">

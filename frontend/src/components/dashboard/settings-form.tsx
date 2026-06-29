@@ -83,10 +83,10 @@ export default function SettingsForm({ token }: SettingsFormProps) {
   };
 
   return (
-    <Card className="bg-zinc-950 border border-zinc-850 rounded-xl overflow-hidden font-sans select-none max-w-xl mx-auto">
+    <Card className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden font-sans select-none max-w-xl mx-auto">
       <CardHeader className="px-5 py-4 border-b border-zinc-900 flex flex-row items-center gap-2">
         <Sliders className="w-4 h-4 text-zinc-400" />
-        <CardTitle className="text-sm font-semibold text-zinc-150 uppercase tracking-wider">
+        <CardTitle className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
           Alert Preferences Setup
         </CardTitle>
       </CardHeader>
@@ -101,7 +101,7 @@ export default function SettingsForm({ token }: SettingsFormProps) {
               type="text"
               value={email}
               disabled
-              className="bg-zinc-900 border border-zinc-850/60 text-zinc-400 px-3 py-2 rounded-lg cursor-not-allowed opacity-60 focus:outline-none"
+              className="bg-zinc-900 border border-zinc-800/60 text-zinc-400 px-3 py-2 rounded-lg cursor-not-allowed opacity-60 focus:outline-none"
             />
           </div>
 
@@ -113,7 +113,7 @@ export default function SettingsForm({ token }: SettingsFormProps) {
               placeholder="+923001234567"
               value={whatsapp}
               onChange={(e) => setWhatsapp(e.target.value)}
-              className="bg-zinc-950 border border-zinc-850 text-white placeholder-zinc-700 px-3 py-2 rounded-lg focus:outline-none focus:border-zinc-750 transition"
+              className="bg-zinc-950 border border-zinc-800 text-white placeholder-zinc-700 px-3 py-2 rounded-lg focus:outline-none focus:border-zinc-700 transition"
             />
             <span className="text-[10px] text-zinc-600">Enter your full international format phone number.</span>
           </div>
@@ -127,7 +127,7 @@ export default function SettingsForm({ token }: SettingsFormProps) {
                 type="time"
                 value={deliveryTime}
                 onChange={(e) => setDeliveryTime(e.target.value)}
-                className="bg-zinc-950 border border-zinc-850 text-white px-3 py-2 rounded-lg focus:outline-none focus:border-zinc-750 transition"
+                className="bg-zinc-950 border border-zinc-800 text-white px-3 py-2 rounded-lg focus:outline-none focus:border-zinc-700 transition"
               />
             </div>
 
@@ -136,7 +136,7 @@ export default function SettingsForm({ token }: SettingsFormProps) {
               <select
                 value={timezone}
                 onChange={(e) => setTimezone(e.target.value)}
-                className="bg-zinc-950 border border-zinc-850 text-white px-3 py-2 rounded-lg focus:outline-none focus:border-zinc-750 transition cursor-pointer"
+                className="bg-zinc-950 border border-zinc-800 text-white px-3 py-2 rounded-lg focus:outline-none focus:border-zinc-700 transition cursor-pointer"
               >
                 {timezones.map(tz => (
                   <option key={tz} value={tz} className="bg-zinc-950 text-zinc-300">
@@ -173,7 +173,7 @@ export default function SettingsForm({ token }: SettingsFormProps) {
             <div className={`p-2.5 rounded-lg flex items-center gap-2 border ${
               statusMsg.type === "success" ? "bg-emerald-950/20 text-emerald-400 border-emerald-900/30" : 
               statusMsg.type === "error" ? "bg-rose-950/20 text-rose-400 border-rose-900/30" :
-              "bg-zinc-900/40 text-zinc-400 border-zinc-850"
+              "bg-zinc-900/40 text-zinc-400 border-zinc-800"
             }`}>
               {statusMsg.type === "info" && <RefreshCw className="w-3.5 h-3.5 animate-spin" />}
               {statusMsg.type === "success" && <CheckCircle className="w-3.5 h-3.5" />}

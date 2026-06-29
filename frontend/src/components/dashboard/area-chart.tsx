@@ -112,10 +112,10 @@ export default function AreaChart({ candles = [] }: AreaChartProps) {
     .filter(t => t.date);
 
   return (
-    <Card className="bg-zinc-950 border border-zinc-850 rounded-xl overflow-hidden font-sans">
+    <Card className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden font-sans">
       <CardHeader className="flex flex-row items-center justify-between border-b border-zinc-900 px-5 py-4">
         <div>
-          <CardTitle className="text-sm font-semibold text-zinc-150 uppercase tracking-wider">
+          <CardTitle className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
             NQ Market Trend Index
           </CardTitle>
           <span className="text-[10px] text-zinc-500 mt-1 block">
@@ -128,7 +128,7 @@ export default function AreaChart({ candles = [] }: AreaChartProps) {
           <button
             onClick={() => setActiveRange("5d")}
             className={`px-2.5 py-1 text-[10px] font-medium rounded transition ${
-              activeRange === "5d" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-350"
+              activeRange === "5d" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
             }`}
           >
             Last 5 days
@@ -136,7 +136,7 @@ export default function AreaChart({ candles = [] }: AreaChartProps) {
           <button
             onClick={() => setActiveRange("30d")}
             className={`px-2.5 py-1 text-[10px] font-medium rounded transition ${
-              activeRange === "30d" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-350"
+              activeRange === "30d" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
             }`}
           >
             Last 30 days
@@ -144,7 +144,7 @@ export default function AreaChart({ candles = [] }: AreaChartProps) {
           <button
             onClick={() => setActiveRange("7d")}
             className={`px-2.5 py-1 text-[10px] font-medium rounded transition ${
-              activeRange === "7d" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-350"
+              activeRange === "7d" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
             }`}
           >
             Last 7 days

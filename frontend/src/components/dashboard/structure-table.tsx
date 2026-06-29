@@ -16,7 +16,7 @@ interface StructureTableProps {
 export default function StructureTable({ priceAction }: StructureTableProps) {
   if (!priceAction || priceAction.error) {
     return (
-      <div className="bg-zinc-950 border border-zinc-850 rounded-xl p-6 text-center text-zinc-500 font-sans">
+      <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-6 text-center text-zinc-500 font-sans">
         Price action structure is currently offline or unavailable.
       </div>
     );
@@ -45,7 +45,7 @@ export default function StructureTable({ priceAction }: StructureTableProps) {
       );
     }
     return (
-      <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] font-medium bg-zinc-900 text-zinc-400 border border-zinc-850">
+      <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] font-medium bg-zinc-900 text-zinc-400 border border-zinc-800">
         <span className="w-1.5 h-1.5 rounded-full bg-zinc-600" />
         Ranging
       </span>
@@ -53,10 +53,10 @@ export default function StructureTable({ priceAction }: StructureTableProps) {
   };
 
   return (
-    <div className="bg-zinc-950 border border-zinc-850 rounded-xl overflow-hidden font-sans select-none">
+    <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden font-sans select-none">
       <div className="px-5 py-4 border-b border-zinc-900 flex items-center justify-between">
         <div>
-          <h3 className="text-sm font-semibold text-zinc-150 uppercase tracking-wider">
+          <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
             Multi-Timeframe Structure (Gen1 PA)
           </h3>
           <span className="text-[10px] text-zinc-500 mt-1 block">

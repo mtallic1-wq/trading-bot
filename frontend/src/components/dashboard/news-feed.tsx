@@ -19,10 +19,10 @@ export default function NewsFeed({ yahooNews = [], tvNews = [], calendar = [] }:
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 font-sans select-none">
       
       {/* 1. Economic Calendar */}
-      <Card className="bg-zinc-950 border border-zinc-850 rounded-xl overflow-hidden">
+      <Card className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden">
         <CardHeader className="px-5 py-4 border-b border-zinc-900 flex flex-row items-center gap-2">
           <Calendar className="w-4 h-4 text-zinc-400" />
-          <CardTitle className="text-sm font-semibold text-zinc-150 uppercase tracking-wider">
+          <CardTitle className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
             Economic Calendar Releases
           </CardTitle>
         </CardHeader>
@@ -62,7 +62,7 @@ export default function NewsFeed({ yahooNews = [], tvNews = [], calendar = [] }:
                     );
                   })
               ) : (
-                <div className="text-center text-zinc-650 text-xs py-8">
+                <div className="text-center text-zinc-600 text-xs py-8">
                   No economic releases listed.
                 </div>
               )}
@@ -72,11 +72,11 @@ export default function NewsFeed({ yahooNews = [], tvNews = [], calendar = [] }:
       </Card>
 
       {/* 2. News Headings */}
-      <Card className="bg-zinc-950 border border-zinc-850 rounded-xl overflow-hidden">
+      <Card className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden">
         <CardHeader className="px-5 py-4 border-b border-zinc-900 flex flex-row items-center justify-between">
           <div className="flex items-center gap-2">
             <Newspaper className="w-4 h-4 text-zinc-400" />
-            <CardTitle className="text-sm font-semibold text-zinc-150 uppercase tracking-wider">
+            <CardTitle className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
               Market Sentiment News
             </CardTitle>
           </div>
@@ -85,7 +85,7 @@ export default function NewsFeed({ yahooNews = [], tvNews = [], calendar = [] }:
             <button
               onClick={() => setActiveNewsTab("yahoo")}
               className={`px-2 py-0.5 text-[9px] font-medium rounded transition ${
-                activeNewsTab === "yahoo" ? "bg-zinc-800 text-zinc-150" : "text-zinc-500 hover:text-zinc-350"
+                activeNewsTab === "yahoo" ? "bg-zinc-800 text-zinc-200" : "text-zinc-500 hover:text-zinc-300"
               }`}
             >
               Yahoo
@@ -93,7 +93,7 @@ export default function NewsFeed({ yahooNews = [], tvNews = [], calendar = [] }:
             <button
               onClick={() => setActiveNewsTab("tradingview")}
               className={`px-2 py-0.5 text-[9px] font-medium rounded transition ${
-                activeNewsTab === "tradingview" ? "bg-zinc-800 text-zinc-150" : "text-zinc-500 hover:text-zinc-350"
+                activeNewsTab === "tradingview" ? "bg-zinc-800 text-zinc-200" : "text-zinc-500 hover:text-zinc-300"
               }`}
             >
               TradingView
@@ -122,7 +122,7 @@ export default function NewsFeed({ yahooNews = [], tvNews = [], calendar = [] }:
                   </a>
                 ))
               ) : (
-                <div className="text-center text-zinc-650 text-xs py-8">
+                <div className="text-center text-zinc-600 text-xs py-8">
                   No headlines fetched.
                 </div>
               )}

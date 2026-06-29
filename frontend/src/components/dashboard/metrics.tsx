@@ -27,7 +27,7 @@ export default function Metrics({ report }: MetricsProps) {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 font-sans select-none">
       
       {/* CARD 1: Session Bias */}
-      <Card className="bg-zinc-950 border border-zinc-850 hover:border-zinc-800 transition rounded-xl">
+      <Card className="bg-zinc-950 border border-zinc-800 hover:border-zinc-800 transition rounded-xl">
         <CardHeader className="flex flex-row items-center justify-between pb-2 space-y-0 p-5">
           <CardTitle className="text-xs font-medium text-zinc-500 uppercase tracking-wider">
             NYSE Bias Prediction
@@ -54,7 +54,7 @@ export default function Metrics({ report }: MetricsProps) {
       </Card>
 
       {/* CARD 2: Confidence Score */}
-      <Card className="bg-zinc-950 border border-zinc-850 hover:border-zinc-800 transition rounded-xl">
+      <Card className="bg-zinc-950 border border-zinc-800 hover:border-zinc-800 transition rounded-xl">
         <CardHeader className="flex flex-row items-center justify-between pb-2 space-y-0 p-5">
           <CardTitle className="text-xs font-medium text-zinc-500 uppercase tracking-wider">
             Model Confidence
@@ -81,7 +81,7 @@ export default function Metrics({ report }: MetricsProps) {
       </Card>
 
       {/* CARD 3: Key Levels */}
-      <Card className="bg-zinc-950 border border-zinc-850 hover:border-zinc-800 transition rounded-xl">
+      <Card className="bg-zinc-950 border border-zinc-800 hover:border-zinc-800 transition rounded-xl">
         <CardHeader className="flex flex-row items-center justify-between pb-2 space-y-0 p-5">
           <CardTitle className="text-xs font-medium text-zinc-500 uppercase tracking-wider">
             Prev High / Low
@@ -102,7 +102,7 @@ export default function Metrics({ report }: MetricsProps) {
       </Card>
 
       {/* CARD 4: Daily Trend */}
-      <Card className="bg-zinc-950 border border-zinc-850 hover:border-zinc-800 transition rounded-xl">
+      <Card className="bg-zinc-950 border border-zinc-800 hover:border-zinc-800 transition rounded-xl">
         <CardHeader className="flex flex-row items-center justify-between pb-2 space-y-0 p-5">
           <CardTitle className="text-xs font-medium text-zinc-500 uppercase tracking-wider">
             Daily Trend Direction
