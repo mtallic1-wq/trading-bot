@@ -6,7 +6,8 @@ import {
   CheckCircle,
   XCircle,
   X,
-  HelpCircle
+  HelpCircle,
+  Menu
 } from "lucide-react";
 
 import InteractiveSpace from "./components/InteractiveSpace";
@@ -53,6 +54,7 @@ export default function App() {
   const [subStatus, setSubStatus] = useState<string>("free");
   const [userEmail, setUserEmail] = useState<string>("");
   const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
   // Sub-tabs in the bottom section of dashboard
   const [dashboardTab, setDashboardTab] = useState<"playbook" | "structure" | "catalysts" | "ai_analysis">("playbook");
@@ -257,6 +259,7 @@ export default function App() {
           if (v === "news") runNews();
           else if (v === "history") loadHistoryView();
           else setCurrentView(v);
+          setIsMobileMenuOpen(false);
         }}
         loadReport={loadReport}
         runAnalysis={runAnalysis}
@@ -264,19 +267,31 @@ export default function App() {
         subStatus={subStatus}
         userEmail={userEmail}
         onHelpClick={() => setIsHelpOpen(true)}
+        isOpen={isMobileMenuOpen}
+        onClose={() => setIsMobileMenuOpen(false)}
       />
 
       {/* Main Panel Content Area */}
       <div className="flex-1 flex flex-col overflow-hidden relative z-10 bg-zinc-950/20">
         
         {/* Top Header Breadcrumbs & Status */}
-        <header className="h-14 border-b border-zinc-900 bg-zinc-950/60 backdrop-blur-md px-6 flex items-center justify-between shrink-0 select-none">
-          <div className="flex items-center gap-2">
-            <span className="text-xs text-zinc-500 font-medium">Dashboard</span>
-            <span className="text-zinc-700 text-xs">/</span>
-            <span className="text-xs text-zinc-200 font-semibold uppercase tracking-wider font-mono">
-              {currentView === "dashboard" ? activeDate || "Live Report" : currentView}
-            </span>
+        <header className="h-14 border-b border-zinc-900 bg-zinc-950/60 backdrop-blur-md px-4 md:px-6 flex items-center justify-between shrink-0 select-none">
+          <div className="flex items-center gap-3">
+            {/* Hamburger Toggle */}
+            <button
+              onClick={() => setIsMobileMenuOpen(true)}
+              className="p-1.5 text-zinc-400 hover:text-zinc-200 md:hidden rounded-lg hover:bg-zinc-900 transition"
+            >
+              <Menu className="w-5 h-5" />
+            </button>
+            
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-zinc-500 font-medium">Dashboard</span>
+              <span className="text-zinc-700 text-xs">/</span>
+              <span className="text-xs text-zinc-200 font-semibold uppercase tracking-wider font-mono">
+                {currentView === "dashboard" ? activeDate || "Live Report" : currentView}
+              </span>
+            </div>
           </div>
 
           {/* Banner logs */}

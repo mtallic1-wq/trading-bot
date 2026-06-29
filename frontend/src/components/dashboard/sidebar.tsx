@@ -20,6 +20,8 @@ interface SidebarProps {
   subStatus: string;
   userEmail: string;
   onHelpClick: () => void;
+  isOpen?: boolean;
+  onClose?: () => void;
 }
 
 export default function Sidebar({
@@ -32,10 +34,23 @@ export default function Sidebar({
   isLoading,
   subStatus,
   userEmail,
-  onHelpClick
+  onHelpClick,
+  isOpen = false,
+  onClose
 }: SidebarProps) {
   return (
-    <aside className="relative z-20 w-64 border-r border-zinc-800 bg-zinc-950 flex flex-col shrink-0 select-none text-zinc-400 font-sans h-screen">
+    <>
+      {/* Backdrop overlay for mobile screens */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 z-30 bg-black/60 backdrop-blur-xs md:hidden"
+          onClick={onClose}
+        />
+      )}
+
+      <aside className={`fixed inset-y-0 left-0 z-40 w-64 border-r border-zinc-800 bg-zinc-950 flex flex-col shrink-0 select-none text-zinc-400 font-sans h-screen transition-transform duration-300 md:static md:translate-x-0 ${
+        isOpen ? "translate-x-0" : "-translate-x-full"
+      }`}>
       {/* Brand Header */}
       <div className="p-4 flex items-center justify-between border-b border-zinc-900">
         <div className="flex items-center gap-2 text-zinc-100">
@@ -185,5 +200,6 @@ export default function Sidebar({
         </div>
       </div>
     </aside>
+  </>
   );
 }
