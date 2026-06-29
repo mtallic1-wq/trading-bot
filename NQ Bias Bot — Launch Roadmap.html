@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)file:///E:/nq-bot-roadmap.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NQ Bias Bot — Launch Roadmap</title>
+<link href="./NQ Bias Bot — Launch Roadmap_files/css2" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --black:    #0A0A0F;
+    --panel:    #111118;
+    --border:   #1E1E2E;
+    --mid:      #2A2A3E;
+    --muted:    #6B6B8A;
+    --text:     #C8C8DC;
+    --white:    #EEEEF8;
+    --green:    #00FF94;
+    --amber:    #FFB830;
+    --red:      #FF4D6A;
+    --blue:     #4D9EFF;
+  }
+
+  body {
+    background: var(--black);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── TICKER TAPE ── */
+  .ticker-wrap {
+    width: 100%;
+    background: var(--green);
+    overflow: hidden;
+    padding: 6px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .ticker-track {
+    display: flex;
+    gap: 0;
+    animation: ticker 28s linear infinite;
+    white-space: nowrap;
+  }
+  .ticker-track span {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--black);
+    padding: 0 32px;
+    letter-spacing: 0.08em;
+  }
+  @keyframes ticker {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ── HERO ── */
+  .hero {
+    padding: 80px 40px 60px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .hero-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    color: var(--green);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-size: clamp(36px, 6vw, 64px);
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .hero h1 em {
+    font-style: normal;
+    color: var(--green);
+  }
+  .hero-sub {
+    font-size: 16px;
+    color: var(--muted);
+    max-width: 560px;
+    margin-bottom: 40px;
+  }
+
+  /* stat bar */
+  .stat-row {
+    display: flex;
+    gap: 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 620px;
+  }
+  .stat {
+    flex: 1;
+    padding: 18px 24px;
+    border-right: 1px solid var(--border);
+  }
+  .stat:last-child { border-right: none; }
+  .stat-val {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--white);
+    display: block;
+  }
+  .stat-val.green { color: var(--green); }
+  .stat-val.amber { color: var(--amber); }
+  .stat-val.blue  { color: var(--blue); }
+  .stat-label {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 2px;
+    display: block;
+  }
+
+  /* ── MAIN ── */
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 40px 80px;
+  }
+
+  /* phase section */
+  .phase {
+    margin-bottom: 56px;
+    position: relative;
+  }
+  .phase-header {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 24px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .phase-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .tag-build  { background: rgba(77,158,255,0.12); color: var(--blue); border: 1px solid rgba(77,158,255,0.25); }
+  .tag-proof  { background: rgba(0,255,148,0.10); color: var(--green); border: 1px solid rgba(0,255,148,0.2); }
+  .tag-launch { background: rgba(255,184,48,0.10); color: var(--amber); border: 1px solid rgba(255,184,48,0.2); }
+  .tag-scale  { background: rgba(255,77,106,0.10); color: var(--red); border: 1px solid rgba(255,77,106,0.2); }
+
+  .phase-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--white);
+    letter-spacing: -0.01em;
+  }
+  .phase-timeline {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  /* cards */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 22px;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: var(--mid); }
+
+  .card-icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .card-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 6px;
+  }
+  .card-body {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.55;
+  }
+  .card-body code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    background: var(--mid);
+    padding: 1px 5px;
+    border-radius: 3px;
+    color: var(--text);
+  }
+  .card-pill {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    background: var(--mid);
+    color: var(--muted);
+  }
+
+  /* wide card */
+  .card.wide {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  .card.wide .card-icon { font-size: 28px; flex-shrink: 0; margin-bottom: 0; }
+  .card.wide .card-content { flex: 1; }
+
+  /* checklist */
+  .checklist {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 8px;
+  }
+  .checklist li {
+    font-size: 13px;
+    color: var(--muted);
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .checklist li::before {
+    content: '→';
+    color: var(--green);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* revenue table */
+  .rev-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    font-size: 13px;
+  }
+  .rev-table th {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: left;
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .rev-table td {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+  .rev-table tr:last-child td { border-bottom: none; }
+  .rev-table .highlight { color: var(--green); font-weight: 600; font-family: 'JetBrains Mono', monospace; }
+  .rev-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+  /* signal preview */
+  .signal-preview {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    grid-column: 1 / -1;
+  }
+  .signal-bar {
+    background: var(--mid);
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .signal-bar .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .dot-r { background: #FF4D6A; }
+  .dot-y { background: #FFB830; }
+  .dot-g { background: #00FF94; }
+  .signal-body {
+    padding: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+  .signal-body .s-label { color: var(--muted); }
+  .signal-body .s-bull { color: var(--green); font-weight: 600; }
+  .signal-body .s-bear { color: var(--red); font-weight: 600; }
+  .signal-body .s-val  { color: var(--amber); }
+  .signal-body .s-ai   { color: var(--blue); }
+
+  /* stack */
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .tech-pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    padding: 5px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    color: var(--text);
+    background: var(--panel);
+  }
+  .tech-pill.free { border-color: rgba(0,255,148,0.25); color: var(--green); }
+  .tech-pill.paid { border-color: rgba(255,184,48,0.25); color: var(--amber); }
+
+  /* footer */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 32px 40px;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  footer p {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .status-dot {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--green);
+  }
+  .status-dot::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--green);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.3; }
+  }
+
+  /* section divider */
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 32px;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  @media (max-width: 600px) {
+    .hero, main { padding-left: 20px; padding-right: 20px; }
+    .stat-row { flex-wrap: wrap; }
+    .stat { border-right: none; border-bottom: 1px solid var(--border); }
+    .stat:last-child { border-bottom: none; }
+    .card.wide { flex-direction: column; }
+    footer { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span>NQ BIAS BOT</span><span>▲ BULLISH MOMENTUM</span><span>RESISTANCE: 19,850</span>
+    <span>SUPPORT: 19,420</span><span>AI ANALYSIS: ACTIVE</span><span>SIGNAL DELIVERY: EMAIL + WHATSAPP</span>
+    <span>TARGET: 100 SUBSCRIBERS</span><span>REVENUE GOAL: $1,000/MO</span><span>LAUNCH: 6 WEEKS</span>
+    <!-- duplicate for seamless loop -->
+    <span>NQ BIAS BOT</span><span>▲ BULLISH MOMENTUM</span><span>RESISTANCE: 19,850</span>
+    <span>SUPPORT: 19,420</span><span>AI ANALYSIS: ACTIVE</span><span>SIGNAL DELIVERY: EMAIL + WHATSAPP</span>
+    <span>TARGET: 100 SUBSCRIBERS</span><span>REVENUE GOAL: $1,000/MO</span><span>LAUNCH: 6 WEEKS</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="hero-eyebrow">// NQ Bias Bot — Product Launch Roadmap</p>
+  <h1>From Flask Script<br>to <em>$1K/month</em><br>Signal Service</h1>
+  <p class="hero-sub">A phased plan to turn your NQ bias analysis bot into a paid signal delivery business — email, WhatsApp, $10/month.</p>
+  <div class="stat-row">
+    <div class="stat">
+      <span class="stat-val green">6 wks</span>
+      <span class="stat-label">To Launch</span>
+    </div>
+    <div class="stat">
+      <span class="stat-val amber">$10</span>
+      <span class="stat-label">Per Subscriber</span>
+    </div>
+    <div class="stat">
+      <span class="stat-val blue">100</span>
+      <span class="stat-label">Target Users</span>
+    </div>
+    <div class="stat">
+      <span class="stat-val green">$1K</span>
+      <span class="stat-label">Monthly Goal</span>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN -->
+<main>
+
+  <!-- PHASE 1 -->
+  <div class="section-label">Phase 1</div>
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-tag tag-build">Build</span>
+      <h2 class="phase-title">Upgrade the Bot</h2>
+      <span class="phase-timeline">Week 1 – 2</span>
+    </div>
+    <div class="cards">
+
+      <div class="card">
+        <span class="card-icon">📊</span>
+        <div class="card-title">Polish the Analysis Output</div>
+        <div class="card-body">
+          Make sure every report has 4 clear sections: Market Direction (Bullish/Bearish/Neutral), Key Levels (Support + Resistance), News Catalyst, and AI Summary. Format it cleanly for both email HTML and WhatsApp plain text.
+        </div>
+        <span class="card-pill">core product</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🗄️</span>
+        <div class="card-title">Add a Database</div>
+        <div class="card-body">
+          Replace any in-memory state with <code>SQLite</code> or <code>PostgreSQL</code>. Store: user email, WhatsApp number, delivery time (their timezone), subscription status, and join date.
+        </div>
+        <span class="card-pill">backend</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">⏰</span>
+        <div class="card-title">Scheduler System</div>
+        <div class="card-body">
+          Use <code>APScheduler</code> inside Flask to run delivery jobs. Each user's chosen time triggers their personal report. Handle timezones with <code>pytz</code>. Test with 5 fake users first.
+        </div>
+        <span class="card-pill">backend</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">📧</span>
+        <div class="card-title">Email Delivery</div>
+        <div class="card-body">
+          Integrate <code>Brevo</code> (formerly Sendinblue) — free up to 300 emails/day. Build an HTML email template that looks like a real trading brief. Subject line: <em>"NQ Bias — [Date] Pre-Market Report"</em>
+        </div>
+        <span class="card-pill">delivery</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">💬</span>
+        <div class="card-title">WhatsApp Delivery</div>
+        <div class="card-body">
+          Use <code>Twilio WhatsApp API</code>. ~$0.005/message, negligible at your scale. Format as clean plain text with emojis for readability. Users enter their WhatsApp number on signup.
+        </div>
+        <span class="card-pill">delivery</span>
+      </div>
+
+      <div class="card wide">
+        <span class="card-icon">📩</span>
+        <div class="card-content">
+          <div class="card-title">Sample Signal Format (What Users Receive)</div>
+          <div class="signal-preview">
+            <div class="signal-bar">
+              <span class="dot dot-r"></span>
+              <span class="dot dot-y"></span>
+              <span class="dot dot-g"></span>
+              <span style="margin-left:4px">nq-bias-report · Monday June 30 · Pre-Market</span>
+            </div>
+            <div class="signal-body">
+              <span class="s-label">DIRECTION   </span><span class="s-bull">▲ BULLISH</span><br>
+              <span class="s-label">BIAS SCORE  </span><span class="s-val">7.2 / 10</span><br>
+              <span class="s-label">RESISTANCE  </span><span class="s-val">19,850 · 19,920</span><br>
+              <span class="s-label">SUPPORT     </span><span class="s-val">19,420 · 19,310</span><br>
+              <span class="s-label">KEY NEWS    </span><span class="s-val">Fed speakers at 10AM EST · ISM data 9AM</span><br>
+              <br>
+              <span class="s-label">AI ANALYSIS </span><br>
+              <span class="s-ai">NQ opened above VWAP and held overnight highs. Combined</span><br>
+              <span class="s-ai">with a low-VIX environment and positive futures breadth,</span><br>
+              <span class="s-ai">bias favors longs on any early pullback to 19,420 zone.</span><br>
+              <span class="s-ai">Invalidation below 19,310. Watch Fed speakers for vol spike.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PHASE 2 -->
+  <div class="section-label">Phase 2</div>
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-tag tag-proof">Proof</span>
+      <h2 class="phase-title">Build a Track Record</h2>
+      <span class="phase-timeline">Week 3 – 4 (Free Period)</span>
+    </div>
+    <div class="cards">
+
+      <div class="card">
+        <span class="card-icon">🆓</span>
+        <div class="card-title">Run 100% Free for 4 Weeks</div>
+        <div class="card-body">
+          Open signups for free during this phase. No payment required. Your only goal: get 30–50 early users and collect their feedback and results.
+        </div>
+        <span class="card-pill">strategy</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">📸</span>
+        <div class="card-title">Screenshot Every Good Call</div>
+        <div class="card-body">
+          When your bias is correct, screenshot the signal + the chart showing the move. This becomes your sales proof. Keep a folder of 15–20 solid calls before you charge anyone.
+        </div>
+        <span class="card-pill">social proof</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🐦</span>
+        <div class="card-title">Post Daily on X (Twitter)</div>
+        <div class="card-body">
+          Every morning post your NQ bias publicly. Tag it: <em>#NQ #NasdaqFutures #DayTrading</em>. After market close, post if it was right or wrong. Consistency builds followers faster than accuracy alone.
+        </div>
+        <span class="card-pill">marketing</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">💬</span>
+        <div class="card-title">Join Trading Communities</div>
+        <div class="card-body">
+          Reddit: <code>r/Daytrading</code>, <code>r/FuturesTrading</code>. Discord: NinjaTrader community, Tradovate Discord. Drop your free signal link naturally when relevant. No spamming — add value first.
+        </div>
+        <span class="card-pill">marketing</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PHASE 3 -->
+  <div class="section-label">Phase 3</div>
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-tag tag-launch">Launch</span>
+      <h2 class="phase-title">Go Paid</h2>
+      <span class="phase-timeline">Week 5 – 6</span>
+    </div>
+    <div class="cards">
+
+      <div class="card">
+        <span class="card-icon">💳</span>
+        <div class="card-title">Payment Setup (Pakistan-Friendly)</div>
+        <div class="card-body">
+          Use <code>Lemon Squeezy</code> — accepts global cards, pays out via Wise or Payoneer. Set up a $10/month product. Embed their checkout link on your site. No Stripe Atlas needed.
+        </div>
+        <span class="card-pill">payments</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🔐</span>
+        <div class="card-title">Freemium Gate</div>
+        <div class="card-body">
+          Free users: web dashboard only, delayed by 2 hours. Paid users: real-time delivery to email + WhatsApp at their chosen time. The delay alone is enough reason to upgrade.
+        </div>
+        <span class="card-pill">product</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🎯</span>
+        <div class="card-title">Launch Offer</div>
+        <div class="card-body">
+          First 50 subscribers get locked in at $10/month forever. After that, price goes to $20/month. Creates urgency. Announce it to your free users first — they're your warmest audience.
+        </div>
+        <span class="card-pill">pricing</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🌐</span>
+        <div class="card-title">Deploy Your Flask App</div>
+        <div class="card-body">
+          Host on <code>Railway.app</code> or <code>Render.com</code> — both have free tiers for Flask. Add a custom domain (~$10/year on Namecheap). Use <code>nqbiasbot.com</code> or similar.
+        </div>
+        <span class="card-pill">infra</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PHASE 4 -->
+  <div class="section-label">Phase 4</div>
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-tag tag-scale">Scale</span>
+      <h2 class="phase-title">Grow to $3K+/month</h2>
+      <span class="phase-timeline">Month 2 – 6</span>
+    </div>
+    <div class="cards">
+
+      <div class="card">
+        <span class="card-icon">📈</span>
+        <div class="card-title">Raise the Price</div>
+        <div class="card-body">
+          Once you hit 100 subscribers and have a 2–3 month track record, move new signups to $25/month. Your early adopters stay at $10. At 150 users avg $18 → $2,700/month.
+        </div>
+        <span class="card-pill">revenue</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🔗</span>
+        <div class="card-title">Broker Affiliate Program</div>
+        <div class="card-body">
+          Apply to NinjaTrader, Tradovate, or IBKR affiliate programs. Add a "Recommended Broker" page. Each signup earns $100–$500. With 200 monthly visitors, even 2 signups = $200–$1,000 extra.
+        </div>
+        <span class="card-pill">revenue</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">📦</span>
+        <div class="card-title">Add More Instruments</div>
+        <div class="card-body">
+          Expand to ES (S&amp;P futures), CL (Crude Oil), GC (Gold). Offer a "Full Package" tier at $35/month covering all 4 instruments. Traders who trade multiple markets will upgrade immediately.
+        </div>
+        <span class="card-pill">product</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🤝</span>
+        <div class="card-title">Telegram Community</div>
+        <div class="card-body">
+          Create a free Telegram group where you post signals publicly, but the detailed analysis + WhatsApp delivery is paid only. The free group acts as a marketing funnel to your paid tier.
+        </div>
+        <span class="card-pill">growth</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- REVENUE TABLE -->
+  <div class="section-label">Revenue Projection</div>
+  <div class="card" style="padding: 0; overflow: hidden; margin-bottom: 56px;">
+    <table class="rev-table">
+      <thead>
+        <tr>
+          <th>Milestone</th>
+          <th>Subscribers</th>
+          <th>Avg Price</th>
+          <th>Monthly Revenue</th>
+          <th>Annual</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>🟡 Launch Day</td>
+          <td>0 → 20</td>
+          <td>$10</td>
+          <td class="highlight">$200</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>🟢 Month 1</td>
+          <td>50</td>
+          <td>$10</td>
+          <td class="highlight">$500</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>🟢 Month 2</td>
+          <td>100</td>
+          <td>$12</td>
+          <td class="highlight">$1,200</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>🔵 Month 4</td>
+          <td>200</td>
+          <td>$18</td>
+          <td class="highlight">$3,600</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>🔵 Month 6</td>
+          <td>300</td>
+          <td>$22</td>
+          <td class="highlight">$6,600</td>
+          <td class="highlight">$79,200</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TECH STACK -->
+  <div class="section-label">Full Tech Stack</div>
+  <div class="card" style="margin-bottom: 0;">
+    <div class="card-title" style="margin-bottom: 4px;">Everything You Need to Build This</div>
+    <div class="card-body" style="margin-bottom: 0;">Tools marked green are free. Amber are paid but cheap.</div>
+    <div class="tech-stack">
+      <span class="tech-pill free">Flask (you have it)</span>
+      <span class="tech-pill free">SQLite / PostgreSQL</span>
+      <span class="tech-pill free">APScheduler</span>
+      <span class="tech-pill free">Brevo Email API</span>
+      <span class="tech-pill free">Railway / Render hosting</span>
+      <span class="tech-pill free">X (Twitter) marketing</span>
+      <span class="tech-pill paid">Twilio WhatsApp ~$5/mo</span>
+      <span class="tech-pill paid">Lemon Squeezy (5% fee)</span>
+      <span class="tech-pill paid">Domain ~$10/yr</span>
+      <span class="tech-pill paid">Wise / Payoneer payouts</span>
+    </div>
+  </div>
+
+
+  <!-- EXTRA REVENUE STREAMS -->
+  <div class="section-label">Extra Revenue Streams</div>
+
+  <!-- Easy Tier -->
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-tag tag-proof">🟢 Easy</span>
+      <h2 class="phase-title">Add These First</h2>
+      <span class="phase-timeline">Month 1</span>
+    </div>
+    <div class="cards">
+
+      <div class="card">
+        <span class="card-icon">📰</span>
+        <div class="card-title">Google AdSense</div>
+        <div class="card-body">
+          Place display ads on the free dashboard page. Trading niche has very high CPM ($8–$20 per 1,000 views). At 5,000 monthly visitors you earn $50–$150/month completely passively on top of subscriptions.
+        </div>
+        <span class="card-pill">est. $50–$150/mo</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🏦</span>
+        <div class="card-title">Sponsored Broker Banner</div>
+        <div class="card-body">
+          Charge a broker or trading tool $100–$300/month for a "Broker of the Month" banner on your site. One sponsorship deal equals 30 extra subscribers worth of income with zero extra work.
+        </div>
+        <span class="card-pill">est. $100–$300/mo</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🔗</span>
+        <div class="card-title">Affiliate Links in Every Report</div>
+        <div class="card-body">
+          Add a small footer inside every signal email: <em>"Trade NQ with our recommended broker →"</em> — that's your affiliate link. Every subscriber you already have becomes a passive click funnel. Set it once, earn forever.
+        </div>
+        <span class="card-pill">est. $100–$400/mo</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Medium Tier -->
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-tag tag-build">🔵 Medium</span>
+      <h2 class="phase-title">Build These in Month 2–3</h2>
+      <span class="phase-timeline">Month 2 – 3</span>
+    </div>
+    <div class="cards">
+
+      <div class="card">
+        <span class="card-icon">📄</span>
+        <div class="card-title">One-Time PDF Strategy Guide</div>
+        <div class="card-body">
+          Write a $15–$30 PDF: <em>"How to Trade NQ Using Pre-Market Bias"</em>. Sell it via Gumroad. One product, zero recurring work, sells forever. Your existing subscriber list is the first audience.
+        </div>
+        <span class="card-pill">est. $100–$300/mo</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">💬</span>
+        <div class="card-title">Premium Telegram Group</div>
+        <div class="card-body">
+          Charge $5–$15/month for a live intraday Telegram group — separate from your main subscription. Real-time commentary during market hours. Traders love community and will pay extra for it.
+        </div>
+        <span class="card-pill">est. $150–$500/mo</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🎓</span>
+        <div class="card-title">Recorded Trading Workshop</div>
+        <div class="card-body">
+          Record a 2-hour Zoom: <em>"How I Built My NQ Bias System"</em>. Sell it for $49–$99. Both traders and aspiring algo developers will buy this. Record once, sell indefinitely via Gumroad or Lemon Squeezy.
+        </div>
+        <span class="card-pill">est. $200–$600/mo</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🏆</span>
+        <div class="card-title">Prop Firm Affiliates</div>
+        <div class="card-body">
+          Apply to FTMO, Topstep, or Apex Trader Funding affiliate programs. They pay $100–$200 per funded trader referral. These convert extremely well with a trading audience — better than any broker affiliate.
+        </div>
+        <span class="card-pill">est. $200–$800/mo</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Big Plays Tier -->
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-tag tag-scale">🔴 Big Plays</span>
+      <h2 class="phase-title">Unlock These at Scale</h2>
+      <span class="phase-timeline">Month 4+</span>
+    </div>
+    <div class="cards">
+
+      <div class="card">
+        <span class="card-icon">🏷️</span>
+        <div class="card-title">White Label the Bot</div>
+        <div class="card-body">
+          Other traders or trading communities pay you $200–$500/month to run your bot privately under their own brand. You just spin up a separate instance. Pure margin — your bot already exists.
+        </div>
+        <span class="card-pill">est. $400–$1,500/mo</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🛠️</span>
+        <div class="card-title">Custom Bot Development</div>
+        <div class="card-body">
+          Once people see your bot works, they'll DM you to build custom ones. Charge $300–$1,000 per project. Your Pakistan-based cost advantage means this is extremely profitable. Even 1 client/month changes everything.
+        </div>
+        <span class="card-pill">est. $300–$2,000/mo</span>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">📦</span>
+        <div class="card-title">Multi-Instrument Tier</div>
+        <div class="card-body">
+          Expand bias analysis to ES (S&amp;P), CL (Crude Oil), and GC (Gold). Offer a "Full Package" at $35/month. Traders who trade multiple instruments will upgrade immediately — it's a no-brainer for them.
+        </div>
+        <span class="card-pill">est. $500–$2,000/mo</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Stacked Revenue Table -->
+  <div class="section-label">Stacked Revenue Potential</div>
+  <div class="card" style="padding: 0; overflow: hidden; margin-bottom: 56px;">
+    <table class="rev-table">
+      <thead>
+        <tr>
+          <th>Revenue Stream</th>
+          <th>Effort</th>
+          <th>When to Add</th>
+          <th>Monthly (Conservative)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>📬 Subscriptions (100 users × $10)</td>
+          <td>Core</td>
+          <td>Launch</td>
+          <td class="highlight">$1,000</td>
+        </tr>
+        <tr>
+          <td>📰 Google AdSense</td>
+          <td>🟢 Easy</td>
+          <td>Month 1</td>
+          <td class="highlight">$80</td>
+        </tr>
+        <tr>
+          <td>🔗 Broker Affiliate Links</td>
+          <td>🟢 Easy</td>
+          <td>Month 1</td>
+          <td class="highlight">$200</td>
+        </tr>
+        <tr>
+          <td>🏦 Sponsored Banner</td>
+          <td>🟢 Easy</td>
+          <td>Month 1</td>
+          <td class="highlight">$150</td>
+        </tr>
+        <tr>
+          <td>🏆 Prop Firm Affiliates (FTMO etc.)</td>
+          <td>🔵 Medium</td>
+          <td>Month 2</td>
+          <td class="highlight">$300</td>
+        </tr>
+        <tr>
+          <td>📄 PDF Guide Sales</td>
+          <td>🔵 Medium</td>
+          <td>Month 2</td>
+          <td class="highlight">$150</td>
+        </tr>
+        <tr>
+          <td>🎓 Workshop / Course Sales</td>
+          <td>🔵 Medium</td>
+          <td>Month 3</td>
+          <td class="highlight">$250</td>
+        </tr>
+        <tr>
+          <td>🛠️ Custom Bot Dev (1 client)</td>
+          <td>🔴 Big</td>
+          <td>Month 4+</td>
+          <td class="highlight">$500</td>
+        </tr>
+        <tr style="background: rgba(0,255,148,0.04);">
+          <td style="color: var(--white); font-weight: 600;">💰 Total (Month 4)</td>
+          <td></td>
+          <td></td>
+          <td style="color: var(--green); font-family: &#39;JetBrains Mono&#39;, monospace; font-size: 16px; font-weight: 700;">$2,630 / mo</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Full Tech Stack -->
+  <div class="section-label">Full Tech Stack</div>
+  <div class="card" style="margin-bottom: 0;">
+    <div class="card-title" style="margin-bottom: 4px;">Everything You Need to Build This</div>
+    <div class="card-body" style="margin-bottom: 0;">Tools marked green are free. Amber are paid but cheap.</div>
+    <div class="tech-stack">
+      <span class="tech-pill free">Flask (you have it)</span>
+      <span class="tech-pill free">SQLite / PostgreSQL</span>
+      <span class="tech-pill free">APScheduler</span>
+      <span class="tech-pill free">Brevo Email API</span>
+      <span class="tech-pill free">Railway / Render hosting</span>
+      <span class="tech-pill free">X (Twitter) marketing</span>
+      <span class="tech-pill free">Gumroad (PDF + courses)</span>
+      <span class="tech-pill paid">Twilio WhatsApp ~$5/mo</span>
+      <span class="tech-pill paid">Lemon Squeezy (5% fee)</span>
+      <span class="tech-pill paid">Domain ~$10/yr</span>
+      <span class="tech-pill paid">Wise / Payoneer payouts</span>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>NQ Bias Bot — Full Roadmap + Revenue Streams · Built for Umer · June 2026</p>
+  <span class="status-dot">Ready to build</span>
+</footer>
+
+
+
+</body></html>

@@ -7,3 +7,7 @@ venv/
 reports/
 *.log
 .DS_Store
+storage/*.db
+storage/__pycache__/
+frontend/node_modules/
+frontend/dist/
