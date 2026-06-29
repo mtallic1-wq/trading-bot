@@ -163,7 +163,7 @@ export default function SettingsForm({ token }: SettingsFormProps) {
               </span>
             ) : (
               <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-zinc-900 text-zinc-400 border border-zinc-800">
-                Free Mode (Delayed)
+                Free Tier (No Alerts)
               </span>
             )}
           </div>

@@ -156,7 +156,7 @@ def list_reports_endpoint():
     return jsonify([f.stem for f in files])
 
 
-# Report detail with 2-hour freemium delay
+# Report detail
 @app.route("/api/report/<date>")
 def get_report(date):
     fp = REPORTS_DIR / f"{date}.json"
@@ -164,42 +164,6 @@ def get_report(date):
         abort(404, description=f"No report for {date}")
         
     report = json.loads(fp.read_text(encoding="utf-8"))
-
-    # Check if a valid token for subscription access is provided
-    token = request.args.get("token") or request.headers.get("Authorization")
-    is_active_sub = False
-    if token:
-        user = get_user_by_token(token)
-        if user and user["subscription_status"] == "active":
-            is_active_sub = True
-
-    # Limit today's report access on free tier
-    created_str = report.get("created")
-    if created_str and not is_active_sub:
-        try:
-            created_dt = datetime.fromisoformat(created_str)
-            age_seconds = (datetime.now() - created_dt).total_seconds()
-            # If report is less than 2 hours old, strip out actionable data
-            if age_seconds < 7200:
-                delayed_report = report.copy()
-                delayed_report["side"] = "DELAYED"
-                delayed_report["bias_nq"] = "DELAYED"
-                delayed_report["playbook"] = {
-                    "day_type": "DELAYED",
-                    "risk_note": "Upgrade to paid tier ($10/mo) for real-time pre-market signals",
-                    "active_strategies": [],
-                    "key_levels": []
-                }
-                delayed_report["analysis"] = {
-                    "analysis": "### 🔒 SIGNAL DELAYED\nPre-market analysis is delayed by 2 hours for the free tier. Please upgrade to a paid subscription for instant pre-market email & WhatsApp delivery.",
-                    "bias_nq": "DELAYED",
-                    "side": "DELAYED"
-                }
-                delayed_report["is_delayed"] = True
-                return jsonify(delayed_report)
-        except Exception:
-            pass
-
     return jsonify(report)
 
 
