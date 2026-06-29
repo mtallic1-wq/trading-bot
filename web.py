@@ -293,6 +293,30 @@ def lemonsqueezy_webhook():
     return jsonify({"success": True})
 
 
+# Admin/Developer Testing Upgrades
+@app.route("/api/admin/upgrade")
+def admin_upgrade():
+    email = request.args.get("email")
+    if not email or "@" not in email:
+        return jsonify({"success": False, "error": "Valid email address required"}), 400
+        
+    # Retrieve user or register if they don't exist
+    user = get_user_by_email(email)
+    if not user:
+        user = register_user(email)
+        
+    update_user_subscription(email, "active")
+    updated_user = get_user_by_email(email)
+    
+    return jsonify({
+        "success": True,
+        "message": f"User {email} successfully upgraded to active Premium status.",
+        "token": updated_user["token"],
+        "login_link": f"https://nqbiasengine.qzz.io/?token={updated_user['token']}"
+    })
+
+
+
 if __name__ == "__main__":
     STATIC_DIR.mkdir(exist_ok=True)
     port = int(os.environ.get("PORT", 8080))
