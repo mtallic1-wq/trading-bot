@@ -145,7 +145,7 @@ export default function Sidebar({
       <div className="p-3 border-t border-zinc-900 mt-auto space-y-1">
         {subStatus !== "active" && (
           <a
-            href="https://lemonsqueezy.com/"
+            href="https://nqbiasengine.lemonsqueezy.com/checkout/buy/05daaba5-3c34-450e-bd1e-34bef59c6981"
             target="_blank"
             rel="noreferrer"
             className="w-full block text-center py-2 px-3 bg-zinc-100 hover:bg-zinc-200 text-zinc-950 rounded-lg text-xs font-bold transition shadow my-2"
