@@ -443,9 +443,9 @@ export default function App() {
                 className="max-w-5xl mx-auto"
               >
                 <NewsFeed
-                  yahooNews={liveNewsData.yahoo || []}
-                  tvNews={liveNewsData.tradingview || []}
-                  calendar={liveNewsData.calendar || []}
+                  yahooNews={liveNewsData.yahoo?.items || []}
+                  tvNews={liveNewsData.tradingview?.news || []}
+                  calendar={liveNewsData.tradingview?.economic_calendar || []}
                 />
               </motion.div>
             ) : currentView === "history" ? (
