@@ -571,7 +571,7 @@ export default function App() {
                 <div className="space-y-1.5">
                   <h4 className="font-semibold text-zinc-300 font-sans">🔑 Activating Premium</h4>
                   <p className="text-zinc-500 leading-relaxed">
-                    After subscribing via Lemon Squeezy, check your email for your unique access link. Use that link to configure your WhatsApp alerts and timezone preferences.
+                    After subscribing via Lemon Squeezy, check your email for your unique access link. Use that link to configure your email alerts and timezone preferences.
                   </p>
                 </div>
 

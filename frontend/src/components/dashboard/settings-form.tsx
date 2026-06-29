@@ -8,7 +8,6 @@ interface SettingsFormProps {
 
 export default function SettingsForm({ token }: SettingsFormProps) {
   const [email, setEmail] = useState("");
-  const [whatsapp, setWhatsapp] = useState("");
   const [deliveryTime, setDeliveryTime] = useState("08:30");
   const [timezone, setTimezone] = useState("America/New_York");
   const [subStatus, setSubStatus] = useState("free");
@@ -40,7 +39,6 @@ export default function SettingsForm({ token }: SettingsFormProps) {
       const data = await res.json();
       if (data.success && data.user) {
         setEmail(data.user.email);
-        setWhatsapp(data.user.whatsapp || "");
         setDeliveryTime(data.user.delivery_time || "08:30");
         setTimezone(data.user.timezone || "America/New_York");
         setSubStatus(data.user.subscription_status || "free");
@@ -62,7 +60,6 @@ export default function SettingsForm({ token }: SettingsFormProps) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          whatsapp: whatsapp || null,
           delivery_time: deliveryTime,
           timezone: timezone
         })
@@ -105,18 +102,7 @@ export default function SettingsForm({ token }: SettingsFormProps) {
             />
           </div>
 
-          {/* WhatsApp Channel */}
-          <div className="flex flex-col gap-1.5">
-            <label className="text-zinc-400 font-medium">WhatsApp Number (E.164 format)</label>
-            <input
-              type="text"
-              placeholder="+923001234567"
-              value={whatsapp}
-              onChange={(e) => setWhatsapp(e.target.value)}
-              className="bg-zinc-950 border border-zinc-800 text-white placeholder-zinc-700 px-3 py-2 rounded-lg focus:outline-none focus:border-zinc-700 transition"
-            />
-            <span className="text-[10px] text-zinc-600">Enter your full international format phone number.</span>
-          </div>
+
 
           {/* Grid: Delivery Time & Timezone */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

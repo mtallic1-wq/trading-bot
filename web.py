@@ -59,8 +59,8 @@ def check_and_send_scheduled_reports():
         
     from bot import TradingBot
     from delivery import (
-        format_report_html, format_report_whatsapp,
-        send_email_via_brevo, send_whatsapp_via_twilio
+        format_report_html,
+        send_email_via_brevo
     )
     from storage.store import load_report
 
@@ -109,29 +109,7 @@ def check_and_send_scheduled_reports():
                         None if success else "Email transmission error"
                     )
 
-            # Deliver WhatsApp if configured
-            if user["whatsapp"] and not check_delivery_logged(user["id"], report_date, "whatsapp"):
-                if report_date not in report_cache:
-                    report = load_report(report_date)
-                    if not report:
-                        bot = TradingBot()
-                        try:
-                            report = bot.run_analysis(report_date)
-                        except Exception as e:
-                            print(f"[Scheduler] Run analysis failed for {report_date}: {e}")
-                            report = None
-                    if report:
-                        report_cache[report_date] = report
 
-                if report_date in report_cache:
-                    report = report_cache[report_date]
-                    text_content = format_report_whatsapp(report)
-                    success = send_whatsapp_via_twilio(user["whatsapp"], text_content)
-                    log_delivery(
-                        user["id"], report_date, "whatsapp",
-                        "success" if success else "failed",
-                        None if success else "WhatsApp transmission error"
-                    )
 
 
 # Start Scheduler
@@ -212,13 +190,12 @@ def register():
     if not email or "@" not in email:
         return jsonify({"success": False, "error": "Invalid email address"}), 400
         
-    whatsapp = data.get("whatsapp")
     delivery_time = data.get("delivery_time", "08:30")
     timezone = data.get("timezone", "America/New_York")
     
     user = register_user(
         email=email,
-        whatsapp=whatsapp,
+        whatsapp=None,
         delivery_time=delivery_time,
         timezone=timezone,
         subscription_status="free"  # default to free tier until webhook processes payment
@@ -231,7 +208,7 @@ def register():
     <h2>Welcome to NQ Bias Bot Alerts!</h2>
     <p>Thank you for signing up. You can manage your delivery preferences and update your timezone/time at any time using your personal portal link below:</p>
     <p><a href="{portal_url}" style="font-weight: bold; color: #4D9EFF;">Manage Notification Settings</a></p>
-    <p>If you'd like to get real-time pre-market delivery via email and WhatsApp, make sure to upgrade to our premium tier!</p>
+    <p>If you'd like to get real-time pre-market delivery via email, make sure to upgrade to our premium tier!</p>
     """
     send_email_via_brevo(email, "Welcome to NQ Bias Bot!", welcome_html)
     
@@ -260,11 +237,10 @@ def user_settings():
         
     if request.method == "POST":
         data = request.get_json(silent=True) or {}
-        whatsapp = data.get("whatsapp", user["whatsapp"])
         delivery_time = data.get("delivery_time", user["delivery_time"])
         timezone = data.get("timezone", user["timezone"])
         
-        success = update_user_settings(token, whatsapp, delivery_time, timezone)
+        success = update_user_settings(token, None, delivery_time, timezone)
         if success:
             user = get_user_by_token(token)  # reload updated row
             return jsonify({"success": True, "user": user})
