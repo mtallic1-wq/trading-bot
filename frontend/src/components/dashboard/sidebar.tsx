@@ -17,6 +17,8 @@ interface SidebarProps {
   loadReport: (date: string) => void;
   runAnalysis: () => void;
   isLoading: boolean;
+  subStatus: string;
+  userEmail: string;
 }
 
 export default function Sidebar({
@@ -26,7 +28,9 @@ export default function Sidebar({
   setView,
   loadReport,
   runAnalysis,
-  isLoading
+  isLoading,
+  subStatus,
+  userEmail
 }: SidebarProps) {
   return (
     <aside className="relative z-20 w-64 border-r border-zinc-800 bg-zinc-950 flex flex-col shrink-0 select-none text-zinc-400 font-sans h-screen">
@@ -137,6 +141,17 @@ export default function Sidebar({
 
       {/* Sidebar footer items */}
       <div className="p-3 border-t border-zinc-900 mt-auto space-y-1">
+        {subStatus !== "active" && (
+          <a
+            href="https://lemonsqueezy.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="w-full block text-center py-2 px-3 bg-zinc-100 hover:bg-zinc-200 text-zinc-950 rounded-lg text-xs font-bold transition shadow my-2"
+          >
+            Upgrade to Premium
+          </a>
+        )}
+
         <button
           onClick={() => setView("settings")}
           className="w-full flex items-center gap-2 px-3 py-1.5 hover:bg-zinc-900/50 rounded-md text-xs text-zinc-500 hover:text-zinc-300 transition"
@@ -151,12 +166,16 @@ export default function Sidebar({
 
         {/* User profile card bottom */}
         <div className="pt-2 flex items-center gap-3 border-t border-zinc-900/80 mt-2 px-1">
-          <div className="w-8 h-8 rounded-full bg-zinc-800 border border-zinc-700 flex items-center justify-center text-zinc-200 font-bold text-xs">
-            U
+          <div className="w-8 h-8 rounded-full bg-zinc-800 border border-zinc-700 flex items-center justify-center text-zinc-200 font-bold text-xs uppercase">
+            {userEmail ? userEmail[0] : "G"}
           </div>
           <div className="flex flex-col min-w-0">
-            <span className="text-xs font-semibold text-zinc-200 truncate">Umer</span>
-            <span className="text-[10px] text-zinc-500 truncate">subscriber@free.tier</span>
+            <span className="text-xs font-semibold text-zinc-200 truncate capitalize">
+              {userEmail ? userEmail.split("@")[0] : "Guest User"}
+            </span>
+            <span className="text-[10px] text-zinc-500 truncate">
+              {subStatus === "active" ? "Premium Subscriber" : "Free Tier Account"}
+            </span>
           </div>
         </div>
       </div>

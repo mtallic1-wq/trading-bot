@@ -48,6 +48,8 @@ export default function App() {
   const [historyReports, setHistoryReports] = useState<any[]>([]);
   const [liveNewsData, setLiveNewsData] = useState<any>(null);
   const [token, setToken] = useState<string>("");
+  const [subStatus, setSubStatus] = useState<string>("free");
+  const [userEmail, setUserEmail] = useState<string>("");
 
   // Sub-tabs in the bottom section of dashboard
   const [dashboardTab, setDashboardTab] = useState<"playbook" | "structure" | "catalysts" | "ai_analysis">("playbook");
@@ -71,6 +73,17 @@ export default function App() {
     const params = new URLSearchParams(window.location.search);
     const tokenParam = params.get("token") || "";
     setToken(tokenParam);
+    if (tokenParam) {
+      fetch(`/api/user/settings?token=${tokenParam}`)
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.success && data.user) {
+            setSubStatus(data.user.subscription_status || "free");
+            setUserEmail(data.user.email || "");
+          }
+        })
+        .catch((e) => console.error(e));
+    }
   }, []);
 
   // Load report list on mount
@@ -245,6 +258,8 @@ export default function App() {
         loadReport={loadReport}
         runAnalysis={runAnalysis}
         isLoading={!!activeJob}
+        subStatus={subStatus}
+        userEmail={userEmail}
       />
 
       {/* Main Panel Content Area */}
