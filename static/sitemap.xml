@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage / Main Dashboard -->
   <url>
     <loc>https://nqbiasengine.qzz.io/</loc>
     <lastmod>2026-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://nqbiasengine.qzz.io/logo.jpg</image:loc>
+      <image:title>NQ Bias Engine — Pre-Market Nasdaq Futures Dashboard</image:title>
+      <image:caption>Free daily NQ Nasdaq-100 futures pre-market bias prediction and volume profile playbook dashboard</image:caption>
+    </image:image>
   </url>
+
+  <!-- Dashboard sub-views (rendered by React router but crawlable as canonical pages) -->
+  <url>
+    <loc>https://nqbiasengine.qzz.io/#dashboard</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://nqbiasengine.qzz.io/#playbook</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://nqbiasengine.qzz.io/#levels</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://nqbiasengine.qzz.io/#macro</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nqbiasengine.qzz.io/#alerts</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
