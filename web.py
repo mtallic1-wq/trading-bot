@@ -127,6 +127,11 @@ def index():
     return send_from_directory(str(STATIC_DIR), "index.html")
 
 
+@app.route("/wiki")
+def wiki():
+    return send_from_directory(str(STATIC_DIR), "wiki.html")
+
+
 # Reports listing
 @app.route("/api/reports")
 def list_reports_endpoint():

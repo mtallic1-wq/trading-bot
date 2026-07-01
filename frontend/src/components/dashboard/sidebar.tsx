@@ -153,6 +153,19 @@ export default function Sidebar({
           </div>
           {!hasPlaybook && <Lock className="w-3 h-3 text-zinc-600" />}
         </button>
+
+        <a
+          href="/wiki"
+          target="_blank"
+          rel="noreferrer"
+          className="w-full flex items-center justify-between px-3 py-1.5 rounded-md text-xs font-medium transition hover:bg-zinc-900/50 text-zinc-400 hover:text-zinc-200"
+        >
+          <div className="flex items-center gap-2.5">
+            <HelpCircle className="w-3.5 h-3.5 text-zinc-500" />
+            <span>Profile Wiki / Glossary</span>
+          </div>
+          <ChevronRight className="w-3 h-3 opacity-40" />
+        </a>
       </div>
 
       {/* Reports Header label */}

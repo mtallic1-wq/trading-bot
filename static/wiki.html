@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volume Profile & Order Flow Trading Glossary | NQ Bias Engine</title>
+  <meta name="description" content="Master Volume Profile and Order Flow trading concepts. Comprehensive definitions of Point of Control (POC), Value Area (VAH/VAL), Initial Balance (IB), and CVD Divergence for Nasdaq (NQ) futures.">
+  <link rel="canonical" href="https://nqbiasengine.qzz.io/wiki">
+  <style>
+    :root {
+      --bg: #09090b;
+      --border: #27272a;
+      --text: #a1a1aa;
+      --text-light: #f4f4f5;
+      --cyan: #00e5ff;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    h1 {
+      color: var(--text-light);
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      color: var(--cyan);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: var(--text-light);
+      font-size: 1.4rem;
+      font-weight: 700;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 0.95rem;
+    }
+    strong {
+      color: var(--text-light);
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      color: var(--cyan);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+      border: 1px solid var(--border);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      background-color: rgba(0, 229, 255, 0.03);
+      transition: all 0.2s ease;
+    }
+    .back-link:hover {
+      background-color: rgba(0, 229, 255, 0.1);
+      border-color: var(--cyan);
+    }
+  </style>
+
+  <!-- Schema.org FAQ JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the Point of Control (POC) in trading?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Point of Control (POC) is the specific price level where the highest volume of trading activity occurred during a given period. It represents the fair value price agreed upon by buyers and sellers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the Value Area (VAH and VAL) in Volume Profile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Value Area represents the price range where 70% of the daily trading volume took place. The boundaries are called the Value Area High (VAH) at the top, and the Value Area Low (VAL) at the bottom."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the Initial Balance (IB) in market profile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Initial Balance (IB) is the high and low price range established during the first hour of the regular trading session (9:30 AM to 10:30 AM EST). It represents the initial range set by institutional participants."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <header>
+    <h1>Volume Profile & Order Flow Glossary</h1>
+    <div class="subtitle">NQ Bias Engine Reference Guide</div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Point of Control (POC)</h2>
+      <p>The <strong>Point of Control (POC)</strong> is the price level at which the greatest amount of volume was traded during the session. It represents the ultimate level of acceptance or "fair value" for the day. Traders use the POC as a powerful magnet; price frequently returns to this level during range-bound conditions.</p>
+    </section>
+
+    <section>
+      <h2>Value Area High (VAH) & Value Area Low (VAL)</h2>
+      <p>The <strong>Value Area</strong> defines the price range where 70% of the session's total volume was transacted. The upper boundary is the <strong>Value Area High (VAH)</strong>, and the lower boundary is the <strong>Value Area Low (VAL)</strong>. Prices inside the Value Area are considered fair, while prices outside are considered cheap (below VAL) or expensive (above VAH), triggering potential reversal or breakout trades.</p>
+    </section>
+
+    <section>
+      <h2>Initial Balance (IB)</h2>
+      <p>The <strong>Initial Balance (IB)</strong> is the price range established during the first 60 minutes of the regular trading session (typically 9:30 AM to 10:30 AM EST for US index futures). The high and low of this hour create structural boundaries. Breakthroughs of the IB boundaries often indicate the start of a strong trend day (T1 continuation setup).</p>
+    </section>
+
+    <section>
+      <h2>Cumulative Volume Delta (CVD) Divergence</h2>
+      <p><strong>Cumulative Volume Delta (CVD)</strong> tracks the net difference between buying and selling pressure at the bid and ask. A **CVD Divergence** occurs when the price makes a new high/low, but the CVD fails to make a corresponding high/low. This indicates exhaustion or absorption by passive buyers/sellers, frequently signaling an imminent reversal (R1 reversal setup).</p>
+    </section>
+
+    <section>
+      <h2>Single Prints & Excess</h2>
+      <p><strong>Single Prints</strong> are thin areas of volume on a profile chart where price moved rapidly, leaving behind low volume nodes. These act as support/resistance zones. **Excess** refers to rapid rejection at session highs or lows (buying/selling tails), confirming that institutional traders have rejected prices outside of value.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://nqbiasengine.qzz.io/" class="back-link">
+      ← Return to NQ Bias Engine Dashboard
+    </a>
+  </footer>
+
+</body>
+</html>
