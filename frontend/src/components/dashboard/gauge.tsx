@@ -7,8 +7,8 @@ export default function Gauge({ score, label }: GaugeProps) {
   // Clamp score
   const clampedScore = Math.max(0, Math.min(100, score));
   
-  // Calculate angle for needle: 0% is -180deg (left), 100% is 0deg (right)
-  const angle = -180 + (clampedScore / 100) * 180;
+  // Calculate angle for needle: 0% is -90deg (left), 100% is 90deg (right)
+  const angle = -90 + (clampedScore / 100) * 180;
   
   // Determine color matching sentiment
   const strokeColor = 
