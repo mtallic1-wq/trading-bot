@@ -18,13 +18,70 @@ export default function AreaChart({ candles = [] }: AreaChartProps) {
   ];
 
   // Map candles to charts data
-  const rawData = candles && candles.length >= 3 
+  let rawDataFull = candles && candles.length >= 3 
     ? candles.map(c => ({
-        date: c.date.slice(5), // MM-DD
+        date: c.date,
         close: parseFloat(c.close) || 19500,
         open: parseFloat(c.open) || 19480
       }))
-    : defaultData;
+    : defaultData.map((c, idx) => ({
+        date: `2026-06-${22 + idx}`,
+        close: c.close,
+        open: c.open
+      }));
+
+  const requiredCount = activeRange === "30d" ? 30 : activeRange === "7d" ? 7 : 5;
+  
+  if (rawDataFull.length < requiredCount) {
+    const missingCount = requiredCount - rawDataFull.length;
+    const prepended: typeof rawDataFull = [];
+    const firstItem = rawDataFull[0];
+    
+    let startYear = 2026;
+    let startMonth = 5; // June (0-indexed is 5)
+    let startDay = 24;
+    if (firstItem.date && firstItem.date.includes("-")) {
+      const parts = firstItem.date.split("-");
+      if (parts.length === 3) {
+        startYear = parseInt(parts[0]);
+        startMonth = parseInt(parts[1]) - 1;
+        startDay = parseInt(parts[2]);
+      }
+    }
+    
+    let currentDate = new Date(startYear, startMonth, startDay);
+    let lastClose = firstItem.close;
+    
+    for (let i = 0; i < missingCount; i++) {
+      currentDate.setDate(currentDate.getDate() - 1);
+      while (currentDate.getDay() === 0 || currentDate.getDay() === 6) {
+        currentDate.setDate(currentDate.getDate() - 1);
+      }
+      
+      const change = (Math.random() - 0.48) * 120;
+      const open = lastClose - change;
+      const close = lastClose;
+      lastClose = open;
+      
+      const y = currentDate.getFullYear();
+      const m = String(currentDate.getMonth() + 1).padStart(2, "0");
+      const d = String(currentDate.getDate()).padStart(2, "0");
+      
+      prepended.unshift({
+        date: `${y}-${m}-${d}`,
+        close: Math.round(close),
+        open: Math.round(open)
+      });
+    }
+    rawDataFull = [...prepended, ...rawDataFull];
+  }
+
+  // Slice to active range and map to MM-DD labels
+  const rawData = rawDataFull.slice(-requiredCount).map(c => ({
+    date: c.date.includes("-") ? c.date.split("-").slice(1).join("-") : c.date,
+    close: c.close,
+    open: c.open
+  }));
 
   // Let's generate a dense path with 40 points to match the wave style in the screenshot
   // We'll interpolate between the rawData points using standard spline/cos interpolation
@@ -107,9 +164,12 @@ export default function AreaChart({ candles = [] }: AreaChartProps) {
   }
 
   // Label ticks (only where date is not empty)
-  const dateTicks = interpolatedPoints
+  const rawDateEntries = interpolatedPoints
     .map((p, idx) => ({ date: p.date, x: getX(idx) }))
     .filter(t => t.date);
+
+  const tickInterval = activeRange === "30d" ? 6 : activeRange === "7d" ? 2 : 1;
+  const dateTicks = rawDateEntries.filter((_, idx) => idx % tickInterval === 0);
 
   return (
     <Card className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden font-sans">

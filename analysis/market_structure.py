@@ -98,8 +98,8 @@ def get_instrument_data(ticker: str, name: str, end_date: Optional[str] = None) 
         trend = _simple_trend(daily)
         perf  = _recent_performance(daily)
 
-        # Last 5 candles
-        last5 = daily.tail(5)[["Open", "High", "Low", "Close"]].copy()
+        # Last 30 candles for monthly chart history
+        last30 = daily.tail(30)[["Open", "High", "Low", "Close"]].copy()
         candles = [
             {
                 "date":  str(idx.date()),
@@ -109,7 +109,7 @@ def get_instrument_data(ticker: str, name: str, end_date: Optional[str] = None) 
                 "close": round(float(r["Close"]), 2),
                 "direction": "UP" if r["Close"] >= r["Open"] else "DOWN",
             }
-            for idx, r in last5.iterrows()
+            for idx, r in last30.iterrows()
         ]
 
         result.update({
