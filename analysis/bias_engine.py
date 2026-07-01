@@ -6,7 +6,7 @@ NQ (Nasdaq-100 futures) focused.
 
 import time
 from typing import Dict, Optional
-from config import GROQ_API_KEY, GROQ_MODEL
+from config import GROQ_API_KEY, GROQ_MODEL, GEMINI_API_KEY
 from analysis.price_action import format_for_prompt as format_pa
 from scrapers.tradingview_live import format_for_prompt as format_tv_live
 
@@ -206,6 +206,34 @@ Based on ALL the above — news, macro, multi-TF structure, and the trader's own
 """
 
 
+def _call_gemini(prompt: str) -> Optional[str]:
+    if not GEMINI_API_KEY:
+        return None
+    import requests
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    headers = {"Content-Type": "application/json"}
+    payload = {
+        "contents": [{
+            "parts": [{
+                "text": f"{SYSTEM_PROMPT}\n\n[USER INPUT]:\n{prompt}"
+            }]
+        }],
+        "generationConfig": {
+            "temperature": 0.0
+        }
+    }
+    try:
+        response = requests.post(url, headers=headers, json=payload, timeout=20)
+        if response.status_code == 200:
+            res_json = response.json()
+            return res_json["candidates"][0]["content"]["parts"][0]["text"]
+        else:
+            print(f"[Gemini Failover Error] status {response.status_code}: {response.text}")
+    except Exception as e:
+        print(f"[Gemini Failover Error] failed: {e}")
+    return None
+
+
 def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
              worldmonitor: Dict, tradingview: Dict, date_str: str,
              price_action: Optional[Dict] = None,
@@ -214,6 +242,7 @@ def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
     prompt = build_prompt(nq, macro, yahoo, worldmonitor, tradingview, date_str,
                           price_action=price_action, tv_live=tv_live)
 
+    # 1. Try Groq (Llama 3.3 70B) first
     if GROQ_API_KEY:
         for attempt in range(3):
             try:
@@ -238,28 +267,39 @@ def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
                 }
             except Exception as e:
                 err_str = str(e)
+                print(f"[Groq Error] attempt {attempt+1} failed: {e}")
                 if "rate" in err_str.lower() and attempt < 2:
                     wait = 2 ** attempt
                     time.sleep(wait)
                     continue
-                fb = _simple_fallback(nq, macro, yahoo)
+                break
+
+    # 2. Try Gemini 1.5 Flash as dynamic API failover
+    if GEMINI_API_KEY:
+        try:
+            print("[Failover] Attempting Gemini 1.5 Flash api failover...")
+            text = _call_gemini(prompt)
+            if text:
+                bias_nq, side = _parse_bias(text)
                 return {
-                    "analysis": f"Groq API error: {e}\n\n{fb}",
-                    "bias_nq":  _rule_bias(nq, macro),
-                    "side":     _rule_side(nq, macro),
-                    "source":   "Fallback (API error)",
+                    "analysis": text,
+                    "bias_nq":  bias_nq,
+                    "side":     side,
+                    "source":   "Gemini (1.5-flash) — Failover Analysis",
                 }
-    else:
-        fb = _simple_fallback(nq, macro, yahoo)
-        return {
-            "analysis": (
-                "No GROQ_API_KEY set — using simple rule-based fallback.\n"
-                "Add your key to .env for full news-driven AI analysis.\n\n" + fb
-            ),
-            "bias_nq":  _rule_bias(nq, macro),
-            "side":     _rule_side(nq, macro),
-            "source":   "Rule-based (no API key)",
-        }
+        except Exception as e:
+            print(f"[Gemini Failover Error] failed: {e}")
+
+    # 3. Simple rule fallback if both APIs fail/are not set
+    fb = _simple_fallback(nq, macro, yahoo)
+    return {
+        "analysis": (
+            "LLM API synthesis unavailable — using simple rule-based fallback.\n\n" + fb
+        ),
+        "bias_nq":  _rule_bias(nq, macro),
+        "side":     _rule_side(nq, macro),
+        "source":   "Rule-based (fallback)",
+    }
 
 
 # ── Simple rule-based fallback ────────────────────────────────────────────────

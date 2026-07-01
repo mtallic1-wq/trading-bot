@@ -36,14 +36,22 @@ _jobs = {}   # job_id -> {"status": "running"|"done"|"error", "result": ..., "er
 def _run_job(job_id, fn, *args):
     try:
         result = fn(*args)
-        _jobs[job_id] = {"status": "done", "result": result}
+        job_info = _jobs.get(job_id, {})
+        job_info.update({"status": "done", "result": result})
+        _jobs[job_id] = job_info
     except Exception as e:
-        _jobs[job_id] = {"status": "error", "error": str(e)}
+        job_info = _jobs.get(job_id, {})
+        job_info.update({"status": "error", "error": str(e)})
+        _jobs[job_id] = job_info
 
 
-def _start_job(fn, *args):
+def _start_job(fn, *args, job_type=None, target_date=None):
     job_id = str(uuid.uuid4())[:8]
-    _jobs[job_id] = {"status": "running"}
+    _jobs[job_id] = {
+        "status": "running",
+        "type": job_type,
+        "target_date": target_date
+    }
     t = threading.Thread(target=_run_job, args=(job_id, fn) + args, daemon=True)
     t.start()
     return job_id
@@ -155,9 +163,33 @@ def get_report(date):
 def analyze():
     data = request.get_json(silent=True) or {}
     date_str = data.get("date") or None
+    
+    target_date = date_str or datetime.now().strftime("%Y-%m-%d")
+    
+    # 1. Cached Short-Circuit: If report already exists, return virtual completed job
+    fp = REPORTS_DIR / f"{target_date}.json"
+    if fp.exists():
+        job_id = f"cached_{target_date}"
+        _jobs[job_id] = {
+            "status": "done",
+            "result": target_date,
+            "type": "analysis",
+            "target_date": target_date
+        }
+        return jsonify({"job_id": job_id})
+
+    # 2. Single-Job Lock: If a job is already calculating today's report, join it
+    for j_id, job in _jobs.items():
+        if (
+            job.get("type") == "analysis" and 
+            job.get("status") == "running" and 
+            job.get("target_date") == target_date
+        ):
+            return jsonify({"job_id": j_id})
+
     from bot import TradingBot
     bot = TradingBot()
-    job_id = _start_job(bot.run_analysis, date_str)
+    job_id = _start_job(bot.run_analysis, date_str, job_type="analysis", target_date=target_date)
     return jsonify({"job_id": job_id})
 
 
