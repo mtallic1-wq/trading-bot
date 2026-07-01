@@ -7,9 +7,16 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
+import os
 from config import BASE_DIR
 
-DB_PATH = BASE_DIR / "storage" / "database.db"
+PERSISTENT_STORAGE_DIR = os.environ.get("PERSISTENT_STORAGE_DIR")
+if PERSISTENT_STORAGE_DIR:
+    PERSISTENT_DIR = Path(PERSISTENT_STORAGE_DIR)
+else:
+    PERSISTENT_DIR = BASE_DIR
+
+DB_PATH = PERSISTENT_DIR / "storage" / "database.db"
 
 
 def get_db_connection() -> sqlite3.Connection:

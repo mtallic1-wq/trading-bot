@@ -7,7 +7,14 @@ BASE_DIR = Path(__file__).parent
 
 # Always load .env from the project root, regardless of working directory
 load_dotenv(BASE_DIR / ".env")
-REPORTS_DIR = BASE_DIR / "reports"
+
+PERSISTENT_STORAGE_DIR = os.environ.get("PERSISTENT_STORAGE_DIR")
+if PERSISTENT_STORAGE_DIR:
+    PERSISTENT_DIR = Path(PERSISTENT_STORAGE_DIR)
+else:
+    PERSISTENT_DIR = BASE_DIR
+
+REPORTS_DIR = PERSISTENT_DIR / "reports"
 REPORTS_DIR.mkdir(exist_ok=True)
 
 # --- API ---
