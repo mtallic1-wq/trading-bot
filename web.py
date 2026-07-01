@@ -166,17 +166,26 @@ def analyze():
     
     target_date = date_str or datetime.now().strftime("%Y-%m-%d")
     
-    # 1. Cached Short-Circuit: If report already exists, return virtual completed job
+    # 1. Cached Short-Circuit: If report exists and is less than 3 hours old, return virtual completed job
     fp = REPORTS_DIR / f"{target_date}.json"
     if fp.exists():
-        job_id = f"cached_{target_date}"
-        _jobs[job_id] = {
-            "status": "done",
-            "result": target_date,
-            "type": "analysis",
-            "target_date": target_date
-        }
-        return jsonify({"job_id": job_id})
+        import time
+        try:
+            mtime = fp.stat().st_mtime
+            age_hours = (time.time() - mtime) / 3600.0
+            if age_hours < 3.0:
+                job_id = f"cached_{target_date}"
+                _jobs[job_id] = {
+                    "status": "done",
+                    "result": target_date,
+                    "type": "analysis",
+                    "target_date": target_date
+                }
+                return jsonify({"job_id": job_id})
+            else:
+                print(f"[Cache Bypass] Report for {target_date} is {age_hours:.2f} hours old. Regenerating...")
+        except Exception as e:
+            print(f"[Cache Warning] Failed checking file age: {e}")
 
     # 2. Single-Job Lock: If a job is already calculating today's report, join it
     for j_id, job in _jobs.items():
