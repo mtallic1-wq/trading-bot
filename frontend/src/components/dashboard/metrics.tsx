@@ -130,8 +130,10 @@ export default function Metrics({ report }: MetricsProps) {
           </span>
         </CardHeader>
         <CardContent className="px-5 pb-5">
-          <div className="text-xl font-bold tracking-tight text-white font-mono truncate">
-            {num(ph)} <span className="text-zinc-700 text-xs">/</span> {num(pl)}
+          <div className="text-[14px] xl:text-[15px] font-bold tracking-tight text-white font-mono flex items-center gap-1.5 whitespace-nowrap">
+            <span>{num(ph)}</span>
+            <span className="text-zinc-700 text-xs">/</span>
+            <span>{num(pl)}</span>
           </div>
           <p className="text-[11px] text-zinc-500 mt-2 flex items-center gap-1.5">
             <ShieldAlert className="w-3.5 h-3.5 text-zinc-500" />

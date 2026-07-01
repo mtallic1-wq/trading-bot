@@ -76,12 +76,33 @@ export default function AreaChart({ candles = [] }: AreaChartProps) {
     rawDataFull = [...prepended, ...rawDataFull];
   }
 
-  // Slice to active range and map to MM-DD labels
-  const rawData = rawDataFull.slice(-requiredCount).map(c => ({
-    date: c.date.includes("-") ? c.date.split("-").slice(1).join("-") : c.date,
-    close: c.close,
-    open: c.open
-  }));
+  const MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+
+  // Slice to active range and map to month name labels (e.g. JUN 22)
+  const rawData = rawDataFull.slice(-requiredCount).map(c => {
+    let dateLabel = c.date;
+    if (c.date && c.date.includes("-")) {
+      const parts = c.date.split("-");
+      if (parts.length === 3) {
+        const monthIdx = parseInt(parts[1], 10) - 1;
+        const day = parseInt(parts[2], 10);
+        if (monthIdx >= 0 && monthIdx < 12) {
+          dateLabel = `${MONTHS[monthIdx]} ${day}`;
+        }
+      } else if (parts.length === 2) {
+        const monthIdx = parseInt(parts[0], 10) - 1;
+        const day = parseInt(parts[1], 10);
+        if (monthIdx >= 0 && monthIdx < 12) {
+          dateLabel = `${MONTHS[monthIdx]} ${day}`;
+        }
+      }
+    }
+    return {
+      date: dateLabel,
+      close: c.close,
+      open: c.open
+    };
+  });
 
   // Let's generate a dense path with 40 points to match the wave style in the screenshot
   // We'll interpolate between the rawData points using standard spline/cos interpolation
