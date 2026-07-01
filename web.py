@@ -181,6 +181,87 @@ def news():
     return jsonify({"job_id": job_id})
 
 
+# Bias prediction performance metrics
+@app.route("/api/bias/win-rate")
+def get_bias_win_rate():
+    files = sorted(REPORTS_DIR.glob("*.json"))
+    predictions = {}
+    actual_directions = {}
+
+    for fp in files:
+        try:
+            with open(fp, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            
+            date = data.get("date")
+            bias = data.get("bias_nq") or data.get("side")
+            
+            if date and bias:
+                bias = bias.upper()
+                if "BULL" in bias or "BUY" in bias:
+                    bias_type = "BULLISH"
+                elif "BEAR" in bias or "SELL" in bias:
+                    bias_type = "BEARISH"
+                else:
+                    bias_type = "NEUTRAL"
+                predictions[date] = bias_type
+
+            # Extract actual candle directions
+            candles = data.get("nq", {}).get("recent_candles", [])
+            for c in candles:
+                c_date = c.get("date")
+                c_dir = c.get("direction")
+                if c_date and c_dir:
+                    actual_directions[c_date] = "BULLISH" if c_dir == "UP" else "BEARISH"
+        except Exception as e:
+            print(f"[Win Rate Error] failed parsing {fp.name}: {e}")
+
+    correct = 0
+    total = 0
+    details = []
+
+    for date, pred in sorted(predictions.items()):
+        actual = actual_directions.get(date)
+        # We only count active bullish/bearish biases that have completed
+        if actual and pred != "NEUTRAL":
+            is_correct = (pred == actual)
+            if is_correct:
+                correct += 1
+            total += 1
+            details.append({
+                "date": date,
+                "predicted": pred,
+                "actual": actual,
+                "result": "WIN" if is_correct else "LOSS"
+            })
+
+    # Sort details in reverse chronological order for table listing
+    details = sorted(details, key=lambda x: x["date"], reverse=True)
+
+    win_rate = round((correct / total * 100), 2) if total > 0 else 0.0
+    
+    # Calculate current streak
+    streak_count = 0
+    streak_type = None
+    if details:
+        streak_type = details[0]["result"]
+        for d in details:
+            if d["result"] == streak_type:
+                streak_count += 1
+            else:
+                break
+                
+    return jsonify({
+        "success": True,
+        "total_evaluated": total,
+        "correct_predictions": correct,
+        "win_rate": win_rate,
+        "streak_count": streak_count,
+        "streak_type": streak_type,
+        "details": details
+    })
+
+
 # ── Onboarding & Settings Routes ──────────────────────────────────────────────
 
 @app.route("/api/register", methods=["POST"])

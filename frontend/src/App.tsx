@@ -19,6 +19,7 @@ import PlaybookTable from "./components/dashboard/playbook-table";
 import NewsFeed from "./components/dashboard/news-feed";
 import SettingsForm from "./components/dashboard/settings-form";
 import PlaybookPremium from "./components/dashboard/playbook-premium";
+import BiasTracker from "./components/dashboard/bias-tracker";
 
 import {
   badgeCls,
@@ -47,8 +48,8 @@ export default function App() {
   const [activeReport, setActiveReport] = useState<any>(null);
   const [activeDate, setActiveDate] = useState<string>("");
   
-  // App views: "dashboard" | "history" | "news" | "settings" | "playbook"
-  const [currentView, setCurrentView] = useState<"dashboard" | "history" | "news" | "settings" | "playbook">("dashboard");
+  // App views: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker"
+  const [currentView, setCurrentView] = useState<"dashboard" | "history" | "news" | "settings" | "playbook" | "tracker">("dashboard");
   const [historyReports, setHistoryReports] = useState<any[]>([]);
   const [liveNewsData, setLiveNewsData] = useState<any>(null);
   const [token, setToken] = useState<string>("");
@@ -554,6 +555,17 @@ export default function App() {
                 className="max-w-5xl mx-auto"
               >
                 <PlaybookPremium hasPlaybook={hasPlaybook} userEmail={userEmail} />
+              </motion.div>
+            ) : currentView === "tracker" ? (
+              
+              /* ACCURACY PERFORMANCE TRACKER */
+              <motion.div
+                key="tracker-content"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="max-w-5xl mx-auto"
+              >
+                <BiasTracker loadReport={loadReport} setView={setCurrentView} />
               </motion.div>
             ) : (
               <div className="text-center text-zinc-600 text-xs py-8">

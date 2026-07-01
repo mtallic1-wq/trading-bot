@@ -8,14 +8,15 @@ import {
   Sliders,
   FileText,
   BookOpen,
-  Lock
+  Lock,
+  TrendingUp
 } from "lucide-react";
 
 interface SidebarProps {
   reports: string[];
   activeDate: string;
-  currentView: "dashboard" | "history" | "news" | "settings" | "playbook";
-  setView: (view: "dashboard" | "history" | "news" | "settings" | "playbook") => void;
+  currentView: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker";
+  setView: (view: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker") => void;
   loadReport: (date: string) => void;
   runAnalysis: () => void;
   isLoading: boolean;
@@ -112,6 +113,18 @@ export default function Sidebar({
         >
           <History className="w-3.5 h-3.5" />
           History Logs
+        </button>
+
+        <button
+          onClick={() => setView("tracker")}
+          className={`w-full flex items-center gap-2.5 px-3 py-1.5 rounded-md text-xs font-medium transition ${
+            currentView === "tracker"
+              ? "bg-zinc-900 text-zinc-100 border border-zinc-800"
+              : "hover:bg-zinc-900/50 text-zinc-400 hover:text-zinc-200"
+          }`}
+        >
+          <TrendingUp className="w-3.5 h-3.5 text-cyan-400" />
+          Accuracy Tracker
         </button>
 
         <button
