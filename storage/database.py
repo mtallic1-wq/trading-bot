@@ -46,6 +46,15 @@ def init_db():
                 FOREIGN KEY (user_id) REFERENCES users (id)
             )
         """)
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS purchases (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                email TEXT NOT NULL,
+                product_name TEXT NOT NULL,
+                purchased_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                UNIQUE(email, product_name)
+            )
+        """)
         conn.commit()
 
 
@@ -168,3 +177,34 @@ def get_all_users() -> List[Dict]:
     with get_db_connection() as conn:
         rows = conn.execute("SELECT * FROM users").fetchall()
         return [dict(r) for r in rows]
+
+
+def register_purchase(email: str, product_name: str) -> bool:
+    """Register a new one-time purchase for a user."""
+    with get_db_connection() as conn:
+        try:
+            conn.execute(
+                """
+                INSERT OR IGNORE INTO purchases (email, product_name)
+                VALUES (?, ?)
+                """,
+                (email.strip().lower(), product_name.strip())
+            )
+            conn.commit()
+            return True
+        except Exception as e:
+            print(f"[Database Error] register_purchase failed: {e}")
+            return False
+
+
+def has_purchased_product(email: str, product_name: str) -> bool:
+    """Check if a user has purchased a specific product by product name."""
+    with get_db_connection() as conn:
+        row = conn.execute(
+            """
+            SELECT 1 FROM purchases
+            WHERE email = ? AND product_name = ?
+            """,
+            (email.strip().lower(), product_name.strip())
+        ).fetchone()
+        return row is not None

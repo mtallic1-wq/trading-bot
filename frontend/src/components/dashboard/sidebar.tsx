@@ -6,14 +6,16 @@ import {
   HelpCircle,
   ChevronRight,
   Sliders,
-  FileText
+  FileText,
+  BookOpen,
+  Lock
 } from "lucide-react";
 
 interface SidebarProps {
   reports: string[];
   activeDate: string;
-  currentView: "dashboard" | "history" | "news" | "settings";
-  setView: (view: "dashboard" | "history" | "news" | "settings") => void;
+  currentView: "dashboard" | "history" | "news" | "settings" | "playbook";
+  setView: (view: "dashboard" | "history" | "news" | "settings" | "playbook") => void;
   loadReport: (date: string) => void;
   runAnalysis: () => void;
   isLoading: boolean;
@@ -22,6 +24,7 @@ interface SidebarProps {
   onHelpClick: () => void;
   isOpen?: boolean;
   onClose?: () => void;
+  hasPlaybook?: boolean;
 }
 
 export default function Sidebar({
@@ -36,7 +39,8 @@ export default function Sidebar({
   userEmail,
   onHelpClick,
   isOpen = false,
-  onClose
+  onClose,
+  hasPlaybook = false
 }: SidebarProps) {
   return (
     <>
@@ -120,6 +124,21 @@ export default function Sidebar({
         >
           <Sliders className="w-3.5 h-3.5" />
           Alert Setup
+        </button>
+
+        <button
+          onClick={() => setView("playbook")}
+          className={`w-full flex items-center justify-between px-3 py-1.5 rounded-md text-xs font-medium transition ${
+            currentView === "playbook"
+              ? "bg-zinc-900 text-zinc-100 border border-zinc-800"
+              : "hover:bg-zinc-900/50 text-zinc-400 hover:text-zinc-200"
+          }`}
+        >
+          <div className="flex items-center gap-2.5">
+            <BookOpen className="w-3.5 h-3.5 text-cyan-400" />
+            <span>Playbook Library</span>
+          </div>
+          {!hasPlaybook && <Lock className="w-3 h-3 text-zinc-600" />}
         </button>
       </div>
 

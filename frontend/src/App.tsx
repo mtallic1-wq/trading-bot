@@ -18,6 +18,7 @@ import StructureTable from "./components/dashboard/structure-table";
 import PlaybookTable from "./components/dashboard/playbook-table";
 import NewsFeed from "./components/dashboard/news-feed";
 import SettingsForm from "./components/dashboard/settings-form";
+import PlaybookPremium from "./components/dashboard/playbook-premium";
 
 import {
   badgeCls,
@@ -46,13 +47,14 @@ export default function App() {
   const [activeReport, setActiveReport] = useState<any>(null);
   const [activeDate, setActiveDate] = useState<string>("");
   
-  // App views: "dashboard" | "history" | "news" | "settings"
-  const [currentView, setCurrentView] = useState<"dashboard" | "history" | "news" | "settings">("dashboard");
+  // App views: "dashboard" | "history" | "news" | "settings" | "playbook"
+  const [currentView, setCurrentView] = useState<"dashboard" | "history" | "news" | "settings" | "playbook">("dashboard");
   const [historyReports, setHistoryReports] = useState<any[]>([]);
   const [liveNewsData, setLiveNewsData] = useState<any>(null);
   const [token, setToken] = useState<string>("");
   const [subStatus, setSubStatus] = useState<string>("free");
   const [userEmail, setUserEmail] = useState<string>("");
+  const [hasPlaybook, setHasPlaybook] = useState<boolean>(false);
   const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
@@ -85,6 +87,7 @@ export default function App() {
           if (data.success && data.user) {
             setSubStatus(data.user.subscription_status || "free");
             setUserEmail(data.user.email || "");
+            setHasPlaybook(!!data.user.has_playbook);
           }
         })
         .catch((e) => console.error(e));
@@ -269,6 +272,7 @@ export default function App() {
         onHelpClick={() => setIsHelpOpen(true)}
         isOpen={isMobileMenuOpen}
         onClose={() => setIsMobileMenuOpen(false)}
+        hasPlaybook={hasPlaybook}
       />
 
       {/* Main Panel Content Area */}
@@ -539,6 +543,17 @@ export default function App() {
                 className="max-w-5xl mx-auto"
               >
                 <SettingsForm token={token} />
+              </motion.div>
+            ) : currentView === "playbook" ? (
+              
+              /* PREMIUM PLAYBOOK WINDOW */
+              <motion.div
+                key="playbook-premium-content"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="max-w-5xl mx-auto"
+              >
+                <PlaybookPremium hasPlaybook={hasPlaybook} userEmail={userEmail} />
               </motion.div>
             ) : (
               <div className="text-center text-zinc-600 text-xs py-8">

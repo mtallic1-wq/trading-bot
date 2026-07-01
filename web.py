@@ -20,7 +20,7 @@ from config import REPORTS_DIR, BASE_DIR
 from storage.database import (
     init_db, register_user, get_user_by_email, get_user_by_token,
     update_user_settings, update_user_subscription, log_delivery,
-    check_delivery_logged, get_all_users
+    check_delivery_logged, get_all_users, register_purchase, has_purchased_product
 )
 
 STATIC_DIR = BASE_DIR / "static"
@@ -220,7 +220,8 @@ def register():
             "whatsapp": user["whatsapp"],
             "delivery_time": user["delivery_time"],
             "timezone": user["timezone"],
-            "subscription_status": user["subscription_status"]
+            "subscription_status": user["subscription_status"],
+            "has_playbook": False
         }
     })
 
@@ -243,10 +244,16 @@ def user_settings():
         success = update_user_settings(token, None, delivery_time, timezone)
         if success:
             user = get_user_by_token(token)  # reload updated row
-            return jsonify({"success": True, "user": user})
-        return jsonify({"success": False, "error": "Failed to update settings"}), 500
-        
-    return jsonify({"success": True, "user": user})
+            
+    user_data = {
+        "email": user["email"],
+        "whatsapp": user["whatsapp"],
+        "delivery_time": user["delivery_time"],
+        "timezone": user["timezone"],
+        "subscription_status": user["subscription_status"],
+        "has_playbook": has_purchased_product(user["email"], "Volume Profile Playbook")
+    }
+    return jsonify({"success": True, "user": user_data})
 
 
 # ── Lemon Squeezy Webhook ─────────────────────────────────────────────────────
@@ -289,6 +296,22 @@ def lemonsqueezy_webhook():
         if email:
             update_user_subscription(email, "free")
             print(f"[Webhook] User {email} subscription state cancelled -> free tier")
+            
+    elif event_name == "order_created":
+        attrs = data.get("data", {}).get("attributes", {})
+        email = attrs.get("user_email") or attrs.get("customer_email")
+        
+        first_item = attrs.get("first_order_item") or {}
+        # Safely extract product or variant name to identify the playbook
+        product_name = (
+            first_item.get("product_name") or 
+            attrs.get("variant_name") or 
+            ""
+        ).lower()
+        
+        if email and "playbook" in product_name:
+            register_purchase(email, "Volume Profile Playbook")
+            print(f"[Webhook] User {email} purchased Volume Profile Playbook")
             
     return jsonify({"success": True})
 
