@@ -12,6 +12,21 @@ import {
   TrendingUp
 } from "lucide-react";
 
+function formatReportDate(dateStr: string): string {
+  if (!dateStr || !dateStr.includes("-")) return dateStr;
+  const parts = dateStr.split("-");
+  if (parts.length === 3) {
+    const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+    const year = parts[0];
+    const monthIdx = parseInt(parts[1], 10) - 1;
+    const day = parseInt(parts[2], 10);
+    if (monthIdx >= 0 && monthIdx < 12) {
+      return `${months[monthIdx]} ${day}, ${year}`;
+    }
+  }
+  return dateStr;
+}
+
 interface SidebarProps {
   reports: string[];
   activeDate: string;
@@ -192,7 +207,7 @@ export default function Sidebar({
               >
                 <div className="flex items-center gap-2">
                   <FileText className="w-3 h-3 text-zinc-600" />
-                  <span className="text-xs font-mono">{date}</span>
+                  <span className="text-xs font-mono">{formatReportDate(date)}</span>
                 </div>
                 <ChevronRight className="w-3 h-3 opacity-40" />
               </button>

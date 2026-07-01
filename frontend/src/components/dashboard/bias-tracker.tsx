@@ -1,6 +1,22 @@
 import { useEffect, useState } from "react";
 import { TrendingUp, Award, Flame, CheckCircle2, XCircle, AlertCircle, RefreshCw } from "lucide-react";
 
+function formatReportDate(dateStr: string): string {
+  if (!dateStr || !dateStr.includes("-")) return dateStr;
+  const parts = dateStr.split("-");
+  if (parts.length === 3) {
+    const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+    const year = parts[0];
+    const monthIdx = parseInt(parts[1], 10) - 1;
+    const day = parseInt(parts[2], 10);
+    if (monthIdx >= 0 && monthIdx < 12) {
+      return `${months[monthIdx]} ${day}, ${year}`;
+    }
+  }
+  return dateStr;
+}
+
+
 interface BiasTrackerProps {
   loadReport: (date: string) => void;
   setView: (view: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker") => void;
@@ -179,7 +195,7 @@ export default function BiasTracker({ loadReport, setView }: BiasTrackerProps) {
                   title="Click to view detailed daily analysis report"
                 >
                   <td className="px-6 py-4 font-mono font-bold text-zinc-200 text-sm">
-                    {row.date}
+                    {formatReportDate(row.date)}
                   </td>
                   <td className="px-6 py-4 text-center">
                     <span className={`px-2.5 py-0.5 rounded text-[10px] font-bold border ${
