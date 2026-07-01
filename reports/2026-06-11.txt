@@ -1,0 +1,125 @@
+ANALYSIS DATE: 2026-06-11
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 100.092 | Day: +0.142% | 5-Day: +0.69%
+  VIX (Fear Index): 21.07 | Day: -5.176% | 5-Day: +36.82%
+  10Y Treasury Yield: 4.519 | Day: -0.506% | 5-Day: +0.94%
+  Gold: 4110.2 | Day: +0.049% | 5-Day: -8.17%
+  Crude Oil: 89.16 | Day: -0.966% | 5-Day: -4.17%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 28948.5 | Trend: DOWN
+  1D: 1.38% | 5D: -5.05% | 10D: -4.48%
+  Prev High: 29250.0 | Prev Low: 28409.0 | Prev Close: 28554.0
+  Week High: 30603.25 | Week Low: 28227.75
+  Last 5 Candles: 2026-06-05 DOWN (O:30414.0 H:30422.0 L:28781.25 C:29026.5) | 2026-06-08 UP (O:28844.5 H:29743.0 L:28822.25 C:29454.75) | 2026-06-09 DOWN (O:29435.0 H:29848.25 L:28227.75 C:29117.0) | 2026-06-10 DOWN (O:29094.75 H:29250.0 L:28409.0 C:28554.0) | 2026-06-11 UP (O:28455.0 H:28968.0 L:28265.75 C:28948.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. US wholesale inflation soars to highest since 2022
+  2. Stocks rise amid Iran tensions, inflation surge
+  3. Inside the $2T 'Mag 7' wipeout
+  4. SpaceX is set for its mega debut. Here's what to expect.
+  5. IPO will mint billions for a new Silicon Valley hierarchy
+  6. Trump vows more Iran strikes if it holds out on deal
+  7. ECB hikes rates in first since inflation resurgence
+  8. World Bank projects ominous global growth forecast
+  9. The US just paid out more tariff refunds than it took in
+  10. Oracle sinks as cloud sales miss overshadows earnings beat
+  11. Intel jumps on double upgrade from BofA
+  12. Why Starlink is so important to SpaceX's IPO
+  13. Anthropic vs. OpenAI: Behind the bitter battle for the future of AI
+  14. SpaceX's IPO has Wall Street torn between Musk 'holy grail' and leap of faith
+  15. Cathie Wood's latest big bet on Elon Musk is about to pay off
+  16. How Tesla handles 'parking and traffic violations' after $75 ticket
+  17. 8 money moves to make now to strengthen your retirement
+  18. At what age can a typical middle-class family expect to hit $1M?
+  19. World Bank forecasts global growth to drop to lowest level since the pandemic amid Iran war
+  20. PPI wholesale inflation hit 6.5% in May, highest since 2022
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor | — geopolitics, conflicts, military, infrastructure 
+  Tech Monitor | — AI labs, startups, cloud, cybersecurity 
+  Finance Monitor | — global markets, central banks, forex, crypto 
+  Commodity Monitor | — mining, energy, supply chains, freight 
+  Happy Monitor | — positive news, breakthroughs, conservation 
+  Energy Monitor | — oil, gas, chokepoints, energy security 
+  World Monitor Pro | — AI analyst, personalized digests, MCP for Claude & GPT 
+  Blog | — OSINT guides, geopolitics, market intelligence 
+  What is World Monitor? 
+  OSINT for everyone — open-source intelligence democratized 
+  Dashboard variants guide 
+  Open source on GitHub (AGPL-3.0) 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Investors Shrug Off Iran Tensions, Oracle Earnings — WSJ
+  2. Stocks Rebound as US Central Command Ends Iran Strike Campaign Four Hours After Launch
+  3. STOCKS | U.S. Stock Index Futures Rise, Led by Nasdaq 100
+  4. When will SpaceX Show Up in Your Portfolio?
+  5. Wall St set to drop as tech declines, Middle East tensions mount
+  6. Wall St futures pare declines after May inflation data
+  7. Tom Lee says the tech-stock dip ahead of SpaceX's IPO will reverse afterwards
+  8. Dow Futures Slip as Investors Await CPI Report — WSJ
+  9. Dow futures edge down as investors focus on US inflation
+  10. Asian markets slump after latest escalation between US and Iran leads to oil spike
+  11. Deja Vu? AI Overspending Fears Renew
+  12. Dow Jones ETFs: Better Than S&P 500 & Nasdaq Now?
+  13. Intuit stock is the worst performer in the Nasdaq 100 Index this year: buy the dip?
+  14. OKX expands X-Perps in Europe with Magnificent 7, gold and oil futures
+  15. Dow futures climb 125 points: 5 things to know before Wall Street opens
+
+=== ECONOMIC CALENDAR — 2026-06-11 ===
+  [0] Initial Jobless Claims — Actual: 229 | Forecast: 219 | Prev: 225
+  [-1] Jobless Claims 4-week Average — Actual: 219 | Forecast: None | Prev: 214.75
+  [-1] Continuing Jobless Claims — Actual: 1795 | Forecast: 1780 | Prev: 1771
+  [0] Core PPI MoM — Actual: 0.4 | Forecast: 0.5 | Prev: 0.7
+  [-1] PPI YoY — Actual: 6.5 | Forecast: 6.4 | Prev: 5.7
+  [-1] PPI Ex Food, Energy and Trade MoM — Actual: 0.8 | Forecast: None | Prev: 0.5
+  [1] PPI MoM — Actual: 1.1 | Forecast: 0.7 | Prev: 1.1
+  [-1] PPI — Actual: 157.659 | Forecast: None | Prev: 156.011
+  [-1] PPI Ex Food, Energy and Trade YoY — Actual: 5.1 | Forecast: None | Prev: 4.4
+  [-1] Core PPI YoY — Actual: 4.9 | Forecast: 5.4 | Prev: 4.9
+  [-1] EIA Natural Gas Stocks Change — Actual: None | Forecast: 101 | Prev: 95
+  [-1] 4-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.615
+  [-1] 8-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.61
+  [-1] 15-Year Mortgage Rate — Actual: None | Forecast: None | Prev: 5.79
+  [-1] 30-Year Mortgage Rate — Actual: None | Forecast: None | Prev: 6.48
+  [-1] WASDE Report — Actual: None | Forecast: None | Prev: None
+  [-1] 30-Year Bond Auction — Actual: None | Forecast: None | Prev: 5.046
+  [-1] Fed Balance Sheet — Actual: None | Forecast: None | Prev: 6.711
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: 0.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 28945.75 | PrevH: 29250.0 | PrevL: 28409.0
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-09 DOWN(29435.0->29117.0) > 2026-06-10 DOWN(29094.75->28554.0) > 2026-06-11 UP(28455.0->28945.75)
+
+  [4H] Structure: RANGING
+    Price: 28945.75 | PrevH: 28936.0 | PrevL: 28812.5
+    Nearest Resistance (swing high above): 29126.5
+    Nearest Support (swing low below): 28926.0
+    Recent: 2026-06-11 UP(28726.75->28844.25) > 2026-06-11 UP(28845.0->28901.0) > 2026-06-11 UP(28900.25->28945.75)
+
+  [1H] Structure: RANGING
+    Price: 28945.75 | PrevH: 28915.0 | PrevL: 28637.5
+    Nearest Resistance (swing high above): 29068.0
+    Nearest Support (swing low below): 28926.0
+    Recent: 2026-06-11 UP(28878.0->28901.0) > 2026-06-11 DOWN(28900.25->28812.5) > 2026-06-11 UP(28814.5->28945.75)
+
+  [15m] Structure: RANGING
+    Price: 28950.25 | PrevH: 28786.25 | PrevL: 28650.75
+    Nearest Resistance (swing high above): 28992.25
+    Nearest Support (swing low below): 28872.25
+    Recent: 2026-06-11 DOWN(28777.0->28753.0) > 2026-06-11 DOWN(28753.25->28737.75) > 2026-06-11 UP(28739.0->28950.25)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-11.

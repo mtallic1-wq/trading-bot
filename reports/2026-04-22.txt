@@ -1,0 +1,92 @@
+ANALYSIS DATE: 2026-04-22
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.486 | Day: +0.077% | 5-Day: +0.43%
+  VIX (Fear Index): 19.06 | Day: -2.256% | 5-Day: +4.90%
+  10Y Treasury Yield: 4.282 | Day: -0.233% | 5-Day: +0.00%
+  Gold: 4761.6 | Day: +1.345% | 5-Day: -0.80%
+  Crude Oil: 91.32 | Day: -0.879% | 5-Day: +0.03%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 26834.75 | Trend: UP
+  1D: 0.75% | 5D: 1.78% | 10D: 7.02%
+  Prev High: 26901.75 | Prev Low: 26551.75 | Prev Close: 26634.75
+  Week High: 26901.75 | Week Low: 25933.75
+  Last 5 Candles: 2026-04-16 UP (O:26350.0 H:26564.0 L:26275.5 C:26487.25) | 2026-04-17 UP (O:26460.0 H:26884.75 L:26440.0 C:26825.5) | 2026-04-20 UP (O:26599.75 H:26827.75 L:26535.0 C:26748.75) | 2026-04-21 DOWN (O:26776.75 H:26901.75 L:26551.75 C:26634.75) | 2026-04-22 UP (O:26729.5 H:26900.5 L:26727.75 C:26834.75)
+
+=== ES — S&P 500 Futures ===
+  Price: 7143.0 | Trend: UP
+  1D: 0.61% | 5D: 1.17% | 10D: 4.68%
+  Prev High: 7183.0 | Prev Low: 7085.0 | Prev Close: 7100.0
+  Week High: 7185.75 | Week Low: 6991.75
+  Last 5 Candles: 2026-04-16 UP (O:7057.25 H:7089.0 L:7046.5 C:7077.0) | 2026-04-17 UP (O:7077.25 H:7185.75 L:7075.25 C:7161.5) | 2026-04-20 UP (O:7102.5 H:7160.5 L:7085.0 C:7148.0) | 2026-04-21 DOWN (O:7150.75 H:7183.0 L:7085.0 C:7100.0) | 2026-04-22 UP (O:7125.0 H:7157.25 L:7121.25 C:7143.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Best Buy taps insider Bonfig for new CEO, as Barry steps downThe retailer's first female CEO Corie Barry will be succeeded by Jason Bonfig, head of supply chain and marketing.
+  2. Stock futures rise after Trump bumps truce, earnings roll in
+  3. Warsh set to lead Fed as a potentially major crisis looms
+  4. Google deepens Thinking Machines Lab ties with multi-billion-dollar deal
+  5. One Elon Musk superpower to remember on Tesla earnings day
+  6. Iran gunboats menace Hormuz as its tankers test US blockade
+  7. Are American consumers finally cracking under the weight of $4 gas?
+  8. Boeing's Q1 results beat as deliveries boost turnaround
+  9. SpaceX seals option to buy AI startup Cursor for $60 billion
+  10. What Apple's choice of Ternus as CEO tells us about its future
+  11. GE Vernova stock soars 8% on strong quarter, guidance raise
+  12. Gaming industry could unlock $22 billion in profits on AI-driven cost cuts, says Morgan Stanley
+  13. Delay in Medicare pilot for obesity drugs may not hurt near-term demand, analysts say
+  14. How to invest in silver: A beginner's guide
+  15. Fed rate cut pushed back to late 2026 on war-related inflation risks: Reuters poll
+  16. Oil Rises on Elusive Peace Deal Outlook, Iran Gunboat Attacks
+  17. ServiceNow draws hedge fund shorts as AI concerns dent sentiment, J.P. Morgan says
+  18. SpaceX IPO: could Musk pick Texas over Nasdaq?Exchanges are clamoring over SpaceX's highly anticipated IPO, but could Elon Musk and Company defy norms and list on the Texas Stock Exchange rather than the Nasdaq or NYSE? Trader Talk host Kenny Polcari is joined by Amy Wu Silverman, RBC Capital Markets Head of Derivatives Strategy, Kevin Kelly, Kelly Intelligence Founder, CEO and CCO, and former Ellevest Head of People Ops Amanda Polcari to discuss.
+  19. This is the 'number one job' for entry-level workers right now
+  20. Tech Earnings: expect cautious guidance in 2026
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Investors are yet to notice AI efficiency in emerging markets, says HSBC
+  2. Too far, too fast? SOX stretch raises red flags 
+  3. Wall Street poised to open higher on ceasefire extension relief
+  4. US stock index futures climb after Trump extends Iran truce
+  5. Another deadline dodged
+  6. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-21
+  7. Small names, big gains: Small caps take the lead in 2026
+  8. Wall St set to open higher as AI optimism, earnings counter Middle East concerns
+  9. US stock futures climb as AI optimism, earnings counter Middle East concerns
+  10. Tech overwhelms Iran tension
+  11. US stock futures climb as AI optimism tempers Middle East concerns
+  12. Records all around, but the Dow RSVP's 'No'
+  13. Why Coinbase and Robinhood Are Among the S&P 500's Biggest Risers Today — Barrons.com
+  14. US Stock Futures Rise Toward Records
+  15. US MBA 30-YEAR FIXED CONTRACT MORTGAGE RATE 6.35% IN APRIL 17 WEEK; -7 BPS VS 1 WEEK AGO, -8 BPS VS 4 WEEKS AGO, -55 BPS VS 1 YEAR AGO
+
+=== ECONOMIC CALENDAR — 2026-04-22 ===
+  [-1] MBA Mortgage Market Index — Actual: 303.3 | Forecast: None | Prev: 281
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.35 | Forecast: None | Prev: 6.42
+  [-1] MBA Mortgage Refinance Index — Actual: 1023.1 | Forecast: None | Prev: 966.8
+  [-1] MBA Mortgage Applications — Actual: 7.9 | Forecast: None | Prev: 1.8
+  [-1] MBA Purchase Index — Actual: 175.6 | Forecast: None | Prev: 159.5
+  [-1] EIA Crude Oil Imports Change — Actual: None | Forecast: None | Prev: -2.109
+  [-1] EIA Distillate Fuel Production Change — Actual: None | Forecast: None | Prev: -0.169
+  [-1] EIA Heating Oil Stocks Change — Actual: None | Forecast: None | Prev: -0.463
+  [0] EIA Gasoline Stocks Change — Actual: None | Forecast: -1.5 | Prev: -6.328
+  [-1] EIA Refinery Crude Runs Change — Actual: None | Forecast: None | Prev: -0.208
+  [-1] EIA Gasoline Production Change — Actual: None | Forecast: None | Prev: 0.392
+  [-1] EIA Cushing Crude Oil Stocks Change — Actual: None | Forecast: None | Prev: -1.727
+  [0] EIA Crude Oil Stocks Change — Actual: None | Forecast: -1.2 | Prev: -0.913
+  [-1] EIA Distillate Stocks Change — Actual: None | Forecast: -2.5 | Prev: -3.122
+  [-1] 17-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.625
+  [-1] 20-Year Bond Auction — Actual: None | Forecast: None | Prev: 4.817
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-22.

@@ -1,0 +1,590 @@
+{
+  "date": "2026-05-06",
+  "created": "2026-05-06T18:15:04.336030",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 28448.25,
+    "prev_day_high": 28247.0,
+    "prev_day_low": 27731.75,
+    "prev_day_close": 28136.0,
+    "week_high": 28247.0,
+    "week_low": 27094.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 1.11,
+      "5d_pct": 4.11,
+      "10d_pct": 5.04
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-30",
+        "open": 27207.0,
+        "high": 27622.75,
+        "low": 27163.25,
+        "close": 27596.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-01",
+        "open": 27631.75,
+        "high": 27917.0,
+        "low": 27536.25,
+        "close": 27835.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-04",
+        "open": 27890.0,
+        "high": 27965.75,
+        "low": 27613.0,
+        "close": 27776.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-05-05",
+        "open": 27760.0,
+        "high": 28247.0,
+        "low": 27731.75,
+        "close": 28136.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-06",
+        "open": 28250.0,
+        "high": 28634.25,
+        "low": 28243.0,
+        "close": 28448.25,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 97.92,
+      "day_chg": -0.569,
+      "5d_chg": -1.01
+    },
+    "VIX (Fear Index)": {
+      "price": 16.72,
+      "day_chg": -3.797,
+      "5d_chg": -11.11
+    },
+    "10Y Treasury Yield": {
+      "price": 4.354,
+      "day_chg": -1.404,
+      "5d_chg": -1.45
+    },
+    "Gold": {
+      "price": 4701.5,
+      "day_chg": 3.198,
+      "5d_chg": 3.44
+    },
+    "Crude Oil": {
+      "price": 95.13,
+      "day_chg": -6.982,
+      "5d_chg": -10.99
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Stocks rise on report US, Iran close in on peace dealMarkets are eyeing signs of easing in Mideast tensions and impressive AI-fueled tech earnings.",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-may-6-fresh-records-231128701.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "AMD stock soars after earnings beat, rosy outlook",
+        "url": "https://finance.yahoo.com/sectors/technology/article/amd-stock-soars-on-q1-earnings-beat-better-than-expected-outlook-195252263.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Private employers added 109,000 roles in April",
+        "url": "https://finance.yahoo.com/economy/article/private-employers-added-109000-roles-in-april-122411352.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SpaceX isn't public yet, but Wall Street already has ETFs for it",
+        "url": "https://finance.yahoo.com/markets/article/spacex-isnt-public-yet-but-wall-street-is-already-building-etfs-for-it-100000701.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Samsung reaches $1 trillion valuation on strong AI demand",
+        "url": "https://finance.yahoo.com/markets/article/samsung-reaches-1-trillion-valuation-on-strong-ai-demand-130735998.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "An Iranian official's China visit sets the tone for Trump's next trip",
+        "url": "https://finance.yahoo.com/economy/article/a-top-iranian-official-is-in-china-its-setting-the-tone-for-trumps-big-trip-next-week-125528209.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil plunges on reports that US, Iran may be close to deal to end the war",
+        "url": "https://finance.yahoo.com/markets/article/oil-plunges-on-reports-that-us-iran-may-be-close-to-deal-to-end-the-war-124117819.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Disney rises after earnings beat in strong start for new CEO",
+        "url": "https://finance.yahoo.com/markets/stocks/article/disney-stock-rises-on-q2-earnings-beat-as-us-park-attendance-dips-in-first-report-under-new-ceo-josh-damaro-104420089.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Supermicro stock soars on strong margin, revenue forecast",
+        "url": "https://finance.yahoo.com/markets/stocks/article/supermicro-stock-soars-on-strong-margin-revenue-forecast-121430095.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Uber stock surges as Q1 results show rising revenue, trips",
+        "url": "https://finance.yahoo.com/markets/stocks/article/uber-stock-surges-after-q1-results-show-rising-revenue-and-trips-174648130.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Lilly commits additional $4.5 billion across Indiana manufacturing sites",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/lilly-commits-additional-4-5-130933606.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Lucid sales miss estimates as supplier issue slows EV deliveries",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/lucid-sales-miss-estimates-supplier-113359834.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trimble raises annual forecast on upbeat Q1 results, strong software demand",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trimble-raises-annual-forecast-upbeat-130308667.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US dollar to remain stuck in range, dependent on the Strait of Hormuz",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-remain-stuck-range-115058676.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "China Urges Opening of Hormuz in Iran Talks Before Xi-Trump Meet",
+        "url": "https://finance.yahoo.com/economy/policy/articles/iran-top-diplomat-makes-first-042928699.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Wall St set to extend rally as Middle East peace hopes, AI optimism boost sentiment",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rally-middle-103241228.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Jobs data live updates: Layoffs tick up amid high-profile job cuts at Coinbase, Meta, and other workplaces",
+        "url": "https://finance.yahoo.com/economy/live/bls-jobs-report-friday-may-8-jolts-142101464.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Rate hike: the real possibility for Kevin Warsh this yearCould Kevin Warsh be forced to raise rates? Trader Talk host discusses the real possibility facing the next Fed Chair with Eddie Ghabour, CEO of Key Advisors Wealth Management, and Jay Pelosky, Founder of TPW Advisory.",
+        "url": "https://finance.yahoo.com/video/rate-hike-the-real-possibility-for-kevin-warsh-this-year-110000660.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Is OpenAI showing red flags? IBM vice chair discusses",
+        "url": "https://finance.yahoo.com/video/openai-showing-red-flags-ibm-100000038.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Disney and WBD earnings, ADP data, Fed comments: What to Watch",
+        "url": "https://finance.yahoo.com/video/disney-and-wbd-earnings-adp-data-fed-comments-what-to-watch-230000142.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bond traders eye Treasury refunding, Fed speakers and jobs",
+        "url": "https://finance.yahoo.com/economy/policy/articles/bond-traders-look-treasury-refunding-104532499.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kashkari says Iran war limits Fed rate guidance",
+        "url": "https://finance.yahoo.com/economy/policy/articles/kashkari-says-iran-war-limits-175425920.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Tech boom exposes glaring economic division, strategist says",
+        "url": "https://finance.yahoo.com/economy/policy/articles/markets-tech-boom-points-glaring-142750676.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed faces rate-cut trap as Japan defends yen",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/fed-faces-rate-cut-trap-130014287.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Savings account interest rates today: May 4, 2026",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/todays-savings-account-interest-rates-141211128.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Best money market account rates today: up to 4.01% APY",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-monday-may-4-2026-100000325.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "How the Fed could crush Trump's bull market",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-could-crush-trump-bull-125443046.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Foreclosure rates climb to 6-year highs",
+        "url": "https://finance.yahoo.com/economy/articles/foreclosure-rates-climb-six-highs-133559433.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed whisperer gives Powell A+ as steward, low marks on economy",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-whisperer-splits-powell-steward-090000192.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Bank of America drops take on the economy",
+        "url": "https://finance.yahoo.com/economy/articles/bank-america-drops-stunning-economy-191300117.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 46
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "S&P 500 tests the ceiling as bulls step on the gas",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778072203"
+      },
+      {
+        "title": "Wall St set to extend rally as Middle East peace hopes, AI optimism boost sentiment",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778071600"
+      },
+      {
+        "title": "End in sight?",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778064573"
+      },
+      {
+        "title": "US stock futures rally on Middle East peace hopes, AI optimism",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778063551"
+      },
+      {
+        "title": "US stock index futures rise on Middle East peace hopes, AI optimism",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778057662"
+      },
+      {
+        "title": "S&P 500 and Nasdaq notch records as AI chip stocks surge",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778012342"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-05",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778006705"
+      },
+      {
+        "title": "Nasdaq hits record as AI chip stocks surge",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778005870"
+      },
+      {
+        "title": "Wall St surges as US-Iran ceasefire holds after earlier jitters",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778000253"
+      },
+      {
+        "title": "Wall St rebounds as oil drops despite Middle East tensions",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777991238"
+      },
+      {
+        "title": "IGV at a crossroads as software stocks show signs of life\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777985643"
+      },
+      {
+        "title": "Wall St eyes rebound as oil ticks lower despite Middle East tensions",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777985159"
+      },
+      {
+        "title": "US stock futures up as oil dips; Middle East tensions linger",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777978450"
+      },
+      {
+        "title": "Gulf singe, AI binge",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777977653"
+      },
+      {
+        "title": "US TSY QUARTERLY REFUNDING: CASH BALANCE COULD PEAK AT RECORD $1 TRILLION IN LATE JULY",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778070780"
+      },
+      {
+        "title": "US TSY QUARTERLY REFUNDING: AGAIN $58 BLN 3-YRS; $42 BLN 10-YRS, $25 BLN 30-YRS",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778070600"
+      },
+      {
+        "title": "US TSY QUARTERLY REFUNDING: REPEATS, AUCTION SIZES 'WELL POSITIONED;' TO MAINTAIN 'FOR AT LEAST NEXT SEVERAL QTRS'",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778070600"
+      },
+      {
+        "title": "US TSY QUARTERLY REFUNDING: TBAC DISCUSSED INVESTMENT OF 'EXCESS CASH' IN ONITE TSY REPO MKT; NO DECISIONS YET; DID INVEST IN DEPOSIT ACCTS IN 2008",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778070600"
+      },
+      {
+        "title": "US TSY QUARTERLY REFUNDING: US TSY OFFL - NEED TO KNOW IF CAN GENERATE INCOME, AVOID MKT DISRUPTIONS, MAINTAIN RISK MANAGEMENT",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778070600"
+      },
+      {
+        "title": "US TSY QUARTERLY REFUNDING:MODIFYING SETTLEMENT TIMING FOR 20-YR BOND REOPENING AUCTIONS TO FRIDAY OF AUCTION WK; NEW ISSUES STILL SETTLE MONTH END",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778070600"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "MBA Mortgage Applications",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-4.4",
+        "forecast": "None",
+        "previous": "-1.6"
+      },
+      {
+        "title": "MBA Purchase Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "171.1",
+        "forecast": "None",
+        "previous": "177.7"
+      },
+      {
+        "title": "MBA 30-Year Mortgage Rate",
+        "country": "US",
+        "impact": "0",
+        "actual": "6.45",
+        "forecast": "None",
+        "previous": "6.37"
+      },
+      {
+        "title": "MBA Mortgage Market Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "285.3",
+        "forecast": "None",
+        "previous": "298.5"
+      },
+      {
+        "title": "MBA Mortgage Refinance Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "928.6",
+        "forecast": "None",
+        "previous": "977.9"
+      },
+      {
+        "title": "ADP Employment Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "109",
+        "forecast": "99",
+        "previous": "61"
+      },
+      {
+        "title": "Treasury Refunding Announcement",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Fed Musalem Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "EIA Refinery Crude Runs Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "0.084"
+      },
+      {
+        "title": "EIA Distillate Fuel Production Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.013"
+      },
+      {
+        "title": "EIA Cushing Crude Oil Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.796"
+      },
+      {
+        "title": "EIA Gasoline Stocks Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-1.7",
+        "previous": "-6.075"
+      },
+      {
+        "title": "EIA Crude Oil Imports Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-1.968"
+      },
+      {
+        "title": "EIA Distillate Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "-2",
+        "previous": "-4.494"
+      },
+      {
+        "title": "EIA Heating Oil Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.625"
+      },
+      {
+        "title": "EIA Crude Oil Stocks Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-2.8",
+        "previous": "-6.233"
+      },
+      {
+        "title": "EIA Gasoline Production Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.238"
+      },
+      {
+        "title": "17-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.62"
+      },
+      {
+        "title": "Fed Goolsbee Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Fed Hammack Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is down by 0.569% on the day and 1.01% over the past 5 days, indicating a weakening dollar which is generally supportive of tech and growth stocks.\n* The VIX (Fear Index) has decreased by 3.797% on the day and 11.11% over the past 5 days, suggesting reduced market volatility and a more risk-on environment.\n* The 10Y Treasury Yield has fallen by 1.404% on the day and 1.45% over the past 5 days, which could be seen as positive for tech stocks as lower yields reduce the pressure on growth stocks.\n* Gold is up by 3.198% on the day and 3.44% over the past 5 days, possibly indicating a flight to safety, but its impact on NQ is less direct compared to other macro indicators.\n* Crude Oil has dropped by 6.982% on the day and 10.99% over the past 5 days, which could be seen as positive for the economy and stocks, given the potential for reduced inflationary pressures.\nState: RISK-ON environment, given the decrease in VIX and the drop in yields, which are supportive of a bullish stance for NQ.\n\n## KEY NEWS ANALYSIS\nThe major headlines from Yahoo Finance, World Monitor, and TradingView suggest a positive outlook for the tech and growth sectors, driven by reports of a potential US-Iran peace deal, impressive AI-fueled tech earnings, and strong performances from key tech stocks like AMD, Samsung, and Disney. The overall news sentiment is BULLISH for Nasdaq, as the combination of easing geopolitical tensions, strong tech earnings, and a supportive macro environment (weakening dollar, lower yields, and reduced volatility) all contribute to a favorable backdrop for tech and growth stocks.\n\n## ECONOMIC EVENTS IMPACT\nThe ADP Employment Change came in at 109, beating the forecast of 99, which is a positive indicator for the labor market and the economy. The MBA Mortgage Applications data showed a decline, but this is less directly impactful on the NQ's performance. The overall economic calendar events suggest a stable to positive economic outlook, which supports the bullish case for NQ.\n\n## NQ MARKET CONTEXT\nThe NQ is currently in an uptrend, with a 1.11% gain on the day and a 4.11% gain over the past 5 days. The previous day's high and low were 28247.0 and 27731.75, respectively, and the week's high and low were 28247.0 and 27094.0. The recent candle structure shows a strong upward momentum, supporting the bullish outlook.\n\n## PREDICTION\n**NYSE SESSION SIDE: BUY SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | BULLISH | 80% | HIGH |\n\n**NQ Prediction: BULLISH**\n**Confidence: 80% \u2014 HIGH**\n\n## TOP REASONS\n1. The potential US-Iran peace deal and easing Middle East tensions are expected to boost market sentiment and support tech and growth stocks.\n2. Strong earnings reports from key tech companies like AMD and Samsung, fueled by AI demand, are likely to continue driving the sector higher.\n3. The macro environment, characterized by a weakening dollar, lower yields, and reduced volatility, is supportive of a risk-on environment and bullish for NQ.\n\n## KEY RISKS\n- Unexpected escalation of geopolitical tensions could rapidly change market sentiment.\n- A significant increase in yields or a sudden strengthening of the dollar could pressure tech and growth stocks.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- Any updates on the US-Iran peace deal and its potential impact on market sentiment.\n- Earnings reports from other key tech companies and their influence on sector performance.\n- Key NQ price levels, including the previous day's high of 28247.0 and the week's high of 28247.0, as well as any key round numbers that could act as support or resistance.\n\n## ONE-LINE SUMMARY\n\"2026-05-06 NYSE SESSION: BUY SIDE \u2014 Easing Middle East tensions, strong AI-fueled tech earnings, and a supportive macro environment are expected to drive NQ higher.\"",
+    "bias_nq": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

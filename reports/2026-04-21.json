@@ -1,0 +1,610 @@
+{
+  "date": "2026-04-21",
+  "created": "2026-04-21T21:24:44.498053",
+  "is_historical": false,
+  "bias_nq": "NEUTRAL",
+  "bias_es": "NEUTRAL",
+  "side": "NEUTRAL",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 26731.0,
+    "prev_day_high": 26827.75,
+    "prev_day_low": 26535.0,
+    "prev_day_close": 26748.75,
+    "week_high": 26884.75,
+    "week_low": 25560.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": -0.07,
+      "5d_pct": 2.82,
+      "10d_pct": 9.68
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-15",
+        "open": 25985.75,
+        "high": 26377.5,
+        "low": 25933.75,
+        "close": 26365.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-16",
+        "open": 26350.0,
+        "high": 26564.0,
+        "low": 26275.5,
+        "close": 26487.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-17",
+        "open": 26460.0,
+        "high": 26884.75,
+        "low": 26440.0,
+        "close": 26825.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-20",
+        "open": 26599.75,
+        "high": 26827.75,
+        "low": 26535.0,
+        "close": 26748.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-21",
+        "open": 26776.75,
+        "high": 26901.75,
+        "low": 26662.5,
+        "close": 26731.0,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 7127.0,
+    "prev_day_high": 7160.5,
+    "prev_day_low": 7085.0,
+    "prev_day_close": 7148.0,
+    "week_high": 7185.75,
+    "week_low": 6920.25,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": -0.29,
+      "5d_pct": 1.75,
+      "10d_pct": 7.06
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-15",
+        "open": 7004.0,
+        "high": 7064.5,
+        "low": 6991.75,
+        "close": 7060.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-16",
+        "open": 7057.25,
+        "high": 7089.0,
+        "low": 7046.5,
+        "close": 7077.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-17",
+        "open": 7077.25,
+        "high": 7185.75,
+        "low": 7075.25,
+        "close": 7161.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-20",
+        "open": 7102.5,
+        "high": 7160.5,
+        "low": 7085.0,
+        "close": 7148.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-21",
+        "open": 7150.75,
+        "high": 7183.0,
+        "low": 7119.25,
+        "close": 7127.0,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.306,
+      "day_chg": 0.261,
+      "5d_chg": 0.19
+    },
+    "VIX (Fear Index)": {
+      "price": 19.78,
+      "day_chg": 4.822,
+      "5d_chg": 7.73
+    },
+    "10Y Treasury Yield": {
+      "price": 4.292,
+      "day_chg": 0.988,
+      "5d_chg": 0.85
+    },
+    "Gold": {
+      "price": 4748.7,
+      "day_chg": -1.205,
+      "5d_chg": -1.58
+    },
+    "Crude Oil": {
+      "price": 90.08,
+      "day_chg": 0.524,
+      "5d_chg": -1.31
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "WATCHFed chair nominee Kevin Warsh's confirmation hearing",
+        "url": "https://finance.yahoo.com/economy/policy/live/fed-confirmation-hearing-live-kevin-warsh-faces-senate-lawmakers-214813901.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Warsh grilled on President Trump influence on Fed, personal assetsKevin Warsh, President Trump's pick to lead the Federal Reserve, testifies in front of the Senate Banking Committee.",
+        "url": "https://finance.yahoo.com/economy/policy/live/fed-confirmation-hearing-live-kevin-warsh-faces-senate-lawmakers-214813901.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stocks fall into red during contentious Warsh hearing",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-dow-sp-500-and-nasdaq-turn-negative-amid-warsh-hearing-apple-ceo-change-iran-uncertainty-231748783.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US waits for Iran to signal it's ready for new round of talks",
+        "url": "https://finance.yahoo.com/economy/policy/articles/trump-signals-no-truce-extension-060711967.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "7 big challenges for new Apple CEO John Ternus",
+        "url": "https://finance.yahoo.com/news/new-apple-ceo-john-ternus-faces-7-big-challenges-as-tim-cook-steps-down-233730670.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tim Cook is stepping down just as its stock breakout is in trouble",
+        "url": "https://finance.yahoo.com/markets/article/apple-ceo-tim-cook-is-stepping-down-just-as-its-stock-breakout-is-in-trouble-155227846.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tesla registrations plunge in California, industry body says",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/tesla-registrations-plunge-california-industry-150945804.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Beyond Meat stock is on a tear \u2014 here's why",
+        "url": "https://finance.yahoo.com/markets/article/beyond-meat-stock-is-on-a-tear--heres-why-144347348.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What Wall Street is saying about Amazon's ties to Anthropic",
+        "url": "https://finance.yahoo.com/news/what-wall-street-is-saying-about-amazons-deepening-ties-with-anthropic-141650676.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump administration, Anthropic may be close to deal",
+        "url": "https://finance.yahoo.com/markets/article/trump-administration-anthropic-may-be-close-to-deal-on-pentagon-standoff-140210360.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Home contract signings increased in March",
+        "url": "https://finance.yahoo.com/sectors/real-estate/article/home-contract-signings-increased-in-march-the-latest-sign-of-a-topsy-turvy-housing-market-140444154.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Workers might be feeling better about the job market",
+        "url": "https://finance.yahoo.com/economy/article/workers-might-be-feeling-better-about-the-job-market-160911498.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "ASM International forecasts second-quarter revenue above estimates",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/asm-international-forecasts-second-quarter-160842163.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "New York sues Coinbase Financial Markets, Gemini Titan for allegedly violating state law",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/york-sues-coinbase-financial-markets-160504421.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Intel results to show if supply chain issues are dimming its AI ambitions",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/intel-results-show-supply-chain-160155896.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Microsoft cuts Xbox subscription prices, bucking industry trends",
+        "url": "https://finance.yahoo.com/markets/stocks/article/microsoft-cuts-xbox-subscription-prices-bucking-industry-trends-160000160.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Your credit card's 0% intro APR is ending soon. How to avoid a costly surprise.",
+        "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/your-credit-cards-0-intro-apr-is-ending-soon-how-to-avoid-a-costly-surprise-154341006.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Gold Falls as Traders Weigh Next Round of US-Iran Peace Talks",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-traders-weigh-next-042705966.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Senator Warren grills Kevin Warsh at confirmation hearingSenator Elizabeth Warren aggressively questions Kevin Warsh, President Trump\u2019s nominee to be the next chair of the Federal Reserve.",
+        "url": "https://finance.yahoo.com/video/senator-warren-grills-kevin-warsh-at-confirmation-hearing-152517391.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Apple's Tim Cook will still be around to help with China",
+        "url": "https://finance.yahoo.com/video/apples-tim-cook-will-still-be-around-to-help-with-china-135727217.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Kevin Warsh testifies that the Fed will remain \"strictly independent\"Warsh, nominated by President Trump to replace Fed Chair Jerome Powell, also said he'll work with the White House on some matters.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-set-testify-fed-135330512.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Oil Rises as Traders Await US-Iran Talks With Truce Winding Down(Bloomberg) -- Oil prices rose as traders await potential talks between the US and Iran, with the two sides deadlocked as the deadline to extend a tenuous ceasefire draws close.Most Read from BloombergKuwait Declares Further Force Majeure on Oil ShipmentsInside Alex Cooper\u2019s Unwell: Tears, Screaming and Employees Looking for the ExitTrump Aims to Seal Iran Deal, Says Truce Extension UnlikelyThree Ships Including an Iranian Vessel Cross Hormuz StraitCruise Ships Seized Brief Hormuz Reopening to F",
+        "url": "https://finance.yahoo.com/news/oil-slips-as-iran-set-to-attend-negotiations-with-us-in-pakistan-002045814.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kevin Warsh faces lawmakers in Fed chair confirmation hearing todaySenators are likely to press Warsh, President Trump's nominee to succeed Jerome Powell as Fed chair, on his views about inflation and interest rates.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-set-face-lawmakers-211718045.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Trucking stocks have been surging, signaling underlying economic strengthThe truck has been backed up on transports, literally.",
+        "url": "https://finance.yahoo.com/news/trucking-stocks-have-been-surging-signaling-underlying-economic-strength-132322879.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Current price of oil as of April 21, 2026When oil prices change, it affects your energy costs\u2014and even the price of everyday items. Here\u2019s why.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/current-price-oil-april-21-124926427.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Warsh commits to monetary policy independence, says president expressing views on rates isn't a threatFederal Reserve chair nominee Kevin Warsh will tell Senate lawmakers Tuesday that setting interest rates independently is \"essential,\" but that the president's views on monetary policy don't threaten central bank independence.",
+        "url": "https://finance.yahoo.com/economy/policy/article/warsh-commits-to-monetary-policy-independence-says-president-expressing-views-on-rates-isnt-a-threat-172825788.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Workers aren't happy with their pay. But they're not looking to switch jobs, either.Workers' satisfaction with wage compensation plunged from 55.6% in November to 52.3% in March, a New York Fed survey showed.",
+        "url": "https://finance.yahoo.com/economy/article/workers-arent-happy-with-their-pay-but-theyre-not-looking-to-switch-jobs-either-172151650.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Central bank independence in focus as Fed chair nominee Kevin Warsh faces confirmation hearingKevin Warsh, President Trump's nominee to be the next chair of the Federal Reserve, is finally set to have his confirmation hearing on Tuesday in Washington.",
+        "url": "https://finance.yahoo.com/economy/policy/article/central-bank-independence-in-focus-as-fed-chair-nominee-kevin-warsh-faces-confirmation-hearing-112647540.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Waller strikes a cautious tone on rate cuts amid oil shockFederal Reserve governor Chris Waller said Friday that whether or not the Iran war ends soon, he's cautious about cutting interest rates right now.",
+        "url": "https://finance.yahoo.com/economy/article/feds-waller-strikes-a-cautious-tone-on-rate-cuts-amid-oil-shock-182620919.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Miran says inflation picture has deteriorated \u2014 but still favors multiple rate cuts this yearFederal Reserve Governor Stephen Miran suggested on Thursday that he's become slightly more hawkish because inflation looks a bit stickier and he now sees less reason for accommodative monetary policy than he once did.",
+        "url": "https://finance.yahoo.com/economy/article/feds-miran-says-inflation-picture-has-deteriorated--but-still-favors-multiple-rate-cuts-this-year-190100956.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 58
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 11:01 a.m. EDT on 2026-04-21",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776783665"
+      },
+      {
+        "title": "Small names, big gains: Small caps take the lead in 2026",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776776499"
+      },
+      {
+        "title": "Wall St set to open higher as AI optimism, earnings counter Middle East concerns",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776776120"
+      },
+      {
+        "title": "US stock futures climb as AI optimism, earnings counter Middle East concerns",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776769612"
+      },
+      {
+        "title": "Tech overwhelms Iran tension",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776768575"
+      },
+      {
+        "title": "US stock futures climb as AI optimism tempers Middle East concerns",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776763299"
+      },
+      {
+        "title": "Records all around, but the Dow RSVP's 'No'",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776690313"
+      },
+      {
+        "title": "Wall Street set for lower open as U.S.-Iran tensions rise",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776689113"
+      },
+      {
+        "title": "US stock futures fall after rally as Mideast tensions flare",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776684899"
+      },
+      {
+        "title": "Green light, red light",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776681423"
+      },
+      {
+        "title": "Wall Street indexes hit record\u00a0 highs as oil falls with Strait of Hormuz declared open",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776458945"
+      },
+      {
+        "title": "Wall Street indexes rally as oil falls with Strait of Hormuz opening",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776456043"
+      },
+      {
+        "title": "Wall Street indexes rally after Iran says Strait of Hormuz 'completely open'",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776452052"
+      },
+      {
+        "title": "Wall Street's rally fades as Middle East angst overshadows earnings optimism",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1776788610"
+      },
+      {
+        "title": "NOMINEE WARSH Q&A: FED NEEDS ACCESS TO BETTER DATA; NEED TO ASSESS FUTURE OF ARTIFICIAL INTELLIGENCE; WORK NEEDS TO BE DONE EVALUATING PRODUCTIVITY",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776788220"
+      },
+      {
+        "title": "FED NOMINEE WARSH Q&A: OUTSIDE OF MONETARY POLICY FED CAN WORK WITH FEDERAL GOVERNMENT TO SUPPORT DOLLAR; NEED IMPROVED PAYMENTS SYSTEM",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776787980"
+      },
+      {
+        "title": "FED NOMINEE WARSH Q&A: TAKE PERSONAL INTEGRITY VERY SERIOUSLY, STAND BY STATEMENT TRUMP NEVER ASKED TO LOWER RATES; DOLLAR 'LINCHPIN' OF GLOBAL ECON",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776787800"
+      },
+      {
+        "title": "US Stocks Swing Lower",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1776787538"
+      },
+      {
+        "title": "BUZZ - S&P 500 sector performance at 12:01 p.m. EDT",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1776787266"
+      },
+      {
+        "title": "FED NOMINEE WARSH Q&A: INFLATION HAPPENS WHEN CENBANK 'PRINTS TOO MUCH' MONEY AND GOVERNMENT 'SPENDS TOO MUCH'",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776787140"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "ADP Employment Change Weekly",
+        "country": "US",
+        "impact": "0",
+        "actual": "54.75",
+        "forecast": "None",
+        "previous": "40.25"
+      },
+      {
+        "title": "Retail Sales MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "1.7",
+        "forecast": "1.4",
+        "previous": "0.7"
+      },
+      {
+        "title": "Retail Sales Ex Autos MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "1.9",
+        "forecast": "1.4",
+        "previous": "0.7"
+      },
+      {
+        "title": "Retail Sales Ex Gas/Autos MoM",
+        "country": "US",
+        "impact": "-1",
+        "actual": "0.6",
+        "forecast": "None",
+        "previous": "0.6"
+      },
+      {
+        "title": "Retail Sales YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "4",
+        "forecast": "None",
+        "previous": "4"
+      },
+      {
+        "title": "Retail Sales Control Group MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.7",
+        "forecast": "0.2",
+        "previous": "0.6"
+      },
+      {
+        "title": "Redbook YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "6.7",
+        "forecast": "None",
+        "previous": "7"
+      },
+      {
+        "title": "Pending Home Sales YoY",
+        "country": "US",
+        "impact": "0",
+        "actual": "-1.1",
+        "forecast": "None",
+        "previous": "-0.8"
+      },
+      {
+        "title": "Business Inventories MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.4",
+        "forecast": "0.3",
+        "previous": "0"
+      },
+      {
+        "title": "Retail Inventories Ex Autos MoM",
+        "country": "US",
+        "impact": "-1",
+        "actual": "0.3",
+        "forecast": "0.3",
+        "previous": "0.3"
+      },
+      {
+        "title": "Pending Home Sales MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "1.5",
+        "forecast": "0.1",
+        "previous": "2.5"
+      },
+      {
+        "title": "Fed Chair Nominee Kevin Warsh Confirmation Hearing",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "NY Fed Bill Purchases 1 to 4 months",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "7.587",
+        "previous": "None"
+      },
+      {
+        "title": "Fed Waller Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "API Crude Oil Stock Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-1",
+        "previous": "6.1"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "Gemini API error: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]\n\n## Macro Environment\n- DXY: 98.306 (day +0.26%) \n- VIX: 19.78 (day +4.82%) (Fear low \u2014 risk-on)\n- 10Y Yield: 4.292 (day +0.99%) \n- Gold: 4748.7 (day -1.21%)\n- Oil: 90.08 (day +0.52%)\n- Environment: **MIXED**\n\n## Recent Headlines (Yahoo Finance)\n  - WATCHFed chair nominee Kevin Warsh's confirmation hearing\n  - Warsh grilled on President Trump influence on Fed, personal assetsKevin Warsh, President Trump's pick to lead the Federal Reserve, testifies in front of the Senate Banking Committee.\n  - Stocks fall into red during contentious Warsh hearing\n  - US waits for Iran to signal it's ready for new round of talks\n  - 7 big challenges for new Apple CEO John Ternus\n  - Tim Cook is stepping down just as its stock breakout is in trouble\n  - Tesla registrations plunge in California, industry body says\n  - Beyond Meat stock is on a tear \u2014 here's why\n\n## Market Trend\n- NQ: UP | Price: 26731.0 | 1D: -0.07% | 5D: 2.82%\n- ES: UP | Price: 7127.0 | 1D: -0.29% | 5D: 1.75%\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: NEUTRAL**\n**NQ: NEUTRAL** | **ES: NEUTRAL**\n\n_Note: Add ANTHROPIC_API_KEY to .env for full news-driven AI analysis with detailed reasoning._",
+    "bias_nq": "NEUTRAL",
+    "bias_es": "NEUTRAL",
+    "side": "NEUTRAL",
+    "source": "Fallback (API error)"
+  },
+  "errors": []
+}

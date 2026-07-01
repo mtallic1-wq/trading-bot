@@ -1,0 +1,546 @@
+{
+  "date": "2026-04-24",
+  "created": "2026-04-24T19:23:06.750578",
+  "is_historical": false,
+  "bias_nq": "NEUTRAL",
+  "bias_es": "NEUTRAL",
+  "side": "NEUTRAL",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 27244.0,
+    "prev_day_high": 27155.75,
+    "prev_day_low": 26681.75,
+    "prev_day_close": 26934.0,
+    "week_high": 27155.75,
+    "week_low": 26440.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 1.15,
+      "5d_pct": 1.56,
+      "10d_pct": 7.76
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-20",
+        "open": 26599.75,
+        "high": 26827.75,
+        "low": 26535.0,
+        "close": 26748.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-21",
+        "open": 26776.75,
+        "high": 26901.75,
+        "low": 26551.75,
+        "close": 26634.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-22",
+        "open": 26729.5,
+        "high": 27136.0,
+        "low": 26727.75,
+        "close": 27083.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-23",
+        "open": 27075.0,
+        "high": 27155.75,
+        "low": 26681.75,
+        "close": 26934.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-24",
+        "open": 26992.0,
+        "high": 27363.75,
+        "low": 26992.0,
+        "close": 27244.0,
+        "direction": "UP"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 7158.25,
+    "prev_day_high": 7181.5,
+    "prev_day_low": 7079.25,
+    "prev_day_close": 7143.5,
+    "week_high": 7185.75,
+    "week_low": 7075.25,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.21,
+      "5d_pct": -0.05,
+      "10d_pct": 4.42
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-20",
+        "open": 7102.5,
+        "high": 7160.5,
+        "low": 7085.0,
+        "close": 7148.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-21",
+        "open": 7150.75,
+        "high": 7183.0,
+        "low": 7085.0,
+        "close": 7100.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-22",
+        "open": 7125.0,
+        "high": 7173.0,
+        "low": 7121.25,
+        "close": 7171.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-23",
+        "open": 7163.0,
+        "high": 7181.5,
+        "low": 7079.25,
+        "close": 7143.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-24",
+        "open": 7143.0,
+        "high": 7189.5,
+        "low": 7135.5,
+        "close": 7158.25,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.604,
+      "day_chg": -0.198,
+      "5d_chg": 0.51
+    },
+    "VIX (Fear Index)": {
+      "price": 19.19,
+      "day_chg": -0.621,
+      "5d_chg": 9.78
+    },
+    "10Y Treasury Yield": {
+      "price": 4.32,
+      "day_chg": -0.069,
+      "5d_chg": 1.74
+    },
+    "Gold": {
+      "price": 4751.3,
+      "day_chg": 0.982,
+      "5d_chg": -2.19
+    },
+    "Crude Oil": {
+      "price": 94.98,
+      "day_chg": -0.908,
+      "5d_chg": 13.27
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Intel just cleared its dot-com-era ceilingThe old-school chipmaker is soaring after earnings, topping the high-water mark it set in 2000 thanks to AI data center hopes.",
+        "url": "https://finance.yahoo.com/markets/article/intel-just-cleared-its-dot-com-era-ceiling-after-earnings-chart-of-the-day-110711546.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Nasdaq jumps amid AI boom as stocks open mixed",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-friday-april-24-224547261.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Meta to buy Graviton chips from Amazon as CPU sales soar",
+        "url": "https://finance.yahoo.com/sectors/technology/article/meta-to-use-amazon-graviton-chips-to-power-ai-services-120000276.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Warsh wants the Fed to adopt a new approach to inflation",
+        "url": "https://finance.yahoo.com/economy/policy/article/warsh-says-he-wants-the-fed-to-adopt-a-new-approach-to-measuring-inflation-100100867.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump says gas prices could be high for 'a little while'",
+        "url": "https://finance.yahoo.com/economy/article/trump-says-gas-prices-could-be-high-for-a-little-while-experts-say-the-rest-of-the-year-183024656.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "NIO bets on in-house chips to cut reliance on Nvidia",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/chinese-ev-maker-nio-bets-132732562.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "AMD stock jumps to record high on upgrade, Intel results",
+        "url": "https://finance.yahoo.com/markets/stocks/article/amd-stock-jumps-to-record-high-on-upgrade-intel-results-130600322.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock buybacks stay hot, while Big Tech beasts lay off workers",
+        "url": "https://finance.yahoo.com/news/stock-buybacks-stay-hot-while-big-tech-beasts-like-meta-lay-off-workers-en-masse-130850382.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why this Tesla bear still sees a 60% crash in the EV maker's stock",
+        "url": "https://finance.yahoo.com/news/why-this-tesla-bear-still-sees-a-60-crash-in-the-ev-makers-stock-121404808.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tide maker P&G's earnings beat but Iran war drives up costs",
+        "url": "https://finance.yahoo.com/news/tide-maker-pg-beats-earnings-estimates-as-iran-war-drives-up-costs-112844060.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Companies turn to temporary hires amid reluctance to commit to full-timers",
+        "url": "https://finance.yahoo.com/economy/article/companies-turn-to-temporary-hires-amid-reluctance-to-commit-to-full-timers-141805999.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Factbox-Airlines cancel flights amid Middle East conflict",
+        "url": "https://finance.yahoo.com/news/factbox-airlines-cancel-flights-us-123532820.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US chipmakers hit record highs as Intel turbocharges AI rally",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-chipmakers-hit-record-highs-141119439.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oklo stock on pace to close out the week with gains. Here's why",
+        "url": "https://finance.yahoo.com/markets/article/oklo-stock-on-pace-to-close-out-the-week-with-gains-heres-why-133725604.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Meta to cut 8,000 jobs, Microsoft offers buyouts to staff as AI spending costs hit Big Tech workers",
+        "url": "https://finance.yahoo.com/markets/article/meta-to-cut-8000-jobs-microsoft-offers-buyouts-to-staff-as-ai-spending-costs-hit-big-tech-workers-182722409.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US health insurers advance measures to standardize prior authorization requirements",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/us-health-insurers-advance-measures-131626532.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Swiss National Bank defends investment approach after calls to ditch Palantir stake",
+        "url": "https://finance.yahoo.com/news/swiss-national-bank-defends-investment-111957673.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Robinhood earnings on tap as stock rebounds: A closer lookMizuho Americas senior financial technology analyst Dan Dolev chats with Yahoo Finance about Robinhood's (HOOD) upcoming earnings results next week, how the stock could recover, and more.",
+        "url": "https://finance.yahoo.com/video/robinhood-earnings-on-tap-as-stock-rebounds-a-closer-look-100000988.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What Microsoft buyouts, Meta layoffs signal about Big Tech in AI age",
+        "url": "https://finance.yahoo.com/video/microsoft-buyouts-meta-layoffs-signal-140000518.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Intel stock soars on Q1 earnings. Is this too good to be true?",
+        "url": "https://finance.yahoo.com/video/intel-stock-soars-on-q1-earnings-is-this-too-good-to-be-true-132926551.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil Eases After Pakistan Says US-Iran Peace Talks Are Expected(Bloomberg) -- Oil eased as officials in Pakistan said a second round of US-Iran talks was expected, without saying when the negotiations would take place.Most Read from BloombergUS Reduces Marijuana Restrictions in Lift to Ailing IndustryMeta Tells Staff It Will Cut 10% of Jobs in Push for EfficiencyAnthropic\u2019s Mythos Model Is Being Accessed by Unauthorized UsersTrump\u2019s Messaging Blitz Divides Advisers as Iran Talks WaverInside Alex Cooper\u2019s Unwell: Tears, Screaming and Employees Looking for th",
+        "url": "https://finance.yahoo.com/news/oil-rises-fifth-day-as-iran-talks-impasse-adds-to-uncertainty-001855331.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "US-Sanctioned Supertanker With Iran Oil Halts Hormuz Transit(Bloomberg) -- A US-sanctioned supertanker laden with Iranian oil appeared to halt its transit through the Strait of Hormuz on Friday, with traffic through the waterway otherwise at a virtual standstill.Most Read from BloombergUS Reduces Marijuana Restrictions in Lift to Ailing IndustryMeta Tells Staff It Will Cut 10% of Jobs in Push for EfficiencyAnthropic\u2019s Mythos Model Is Being Accessed by Unauthorized UsersTrump\u2019s Messaging Blitz Divides Advisers as Iran Talks WaverInside Alex Cooper\u2019s Unwel",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/us-sanctioned-supertanker-iranian-oil-040140006.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed Chair Nominee Kevin Warsh Just Said 9 Words That Should Have Wall Street WorriedWarsh's Senate Banking Committee testimony shed light on one way he'd transform the nation's central bank.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-chair-nominee-kevin-warsh-112600338.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gold and silver prices today, Friday, April 24: Gold and silver slipping as oil prices and dollar gain strengthGold June futures opened at $4,715.60 per troy ounce on Friday, and moved lower to $4,700.20 at 6:35 a.m. ET. Silver May futures opened at $75.56 per ounce on Friday, and continued to slide to $74.83 as of 6:35 a.m. ET.",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-and-silver-prices-today-friday-april-24-gold-and-silver-slipping-as-oil-prices-and-dollar-gain-strength-105942338.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Warsh signals that he would lead a less-transparent Federal ReserveKevin Warsh said this week that he believes members of the Fed should speak less frequently, pull back forward guidance, and stop telegraphing what the central bank will do before interest rate meetings.",
+        "url": "https://finance.yahoo.com/economy/policy/article/warsh-signals-that-he-would-lead-a-less-transparent-federal-reserve-200547632.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Shipping companies begin tariff refund push \u2014 and promise to pass along the money to customersShipping companies have begun applying to collect refunds for tariffs, even as President Trump applies political pressure for them to forgo the money.",
+        "url": "https://finance.yahoo.com/economy/policy/article/shipping-companies-begin-tariff-refund-push--and-promise-to-pass-along-the-money-to-customers-190651076.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Are consumers finally cracking under the weight of $4 gas?The warning signals from the consumer mount.",
+        "url": "https://finance.yahoo.com/news/are-consumers-finally-cracking-under-the-weight-of-4-gas-111859680.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kevin Warsh set to lead the US economy facing a 'very wide' range of outcomes as Iran war, energy shock, and labor uncertainty loomIf Kevin Warsh is confirmed as the next chair of the Federal Reserve, he will inherit the largest energy crisis on record.",
+        "url": "https://finance.yahoo.com/economy/policy/article/kevin-warsh-set-to-lead-the-us-economy-facing-a-very-wide-range-of-outcomes-as-iran-war-energy-shock-and-labor-uncertainty-loom-100000526.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Warsh commits to monetary policy independence, says president expressing views on rates isn't a threatFederal Reserve chair nominee Kevin Warsh will tell Senate lawmakers Tuesday that setting interest rates independently is \"essential,\" but that the president's views on monetary policy don't threaten central bank independence.",
+        "url": "https://finance.yahoo.com/economy/policy/article/warsh-commits-to-monetary-policy-independence-says-president-expressing-views-on-rates-isnt-a-threat-172825788.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Workers aren't happy with their pay. But they're not looking to switch jobs, either.Workers' satisfaction with wage compensation plunged from 55.6% in November to 52.3% in March, a New York Fed survey showed.",
+        "url": "https://finance.yahoo.com/economy/article/workers-arent-happy-with-their-pay-but-theyre-not-looking-to-switch-jobs-either-172151650.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 56
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Benchmark Treasury yield coils like a spring as traders brace for a breakout",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777036076"
+      },
+      {
+        "title": "S&P 500, Nasdaq set for firmer open on fresh hopes of US-Iran talks",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777032985"
+      },
+      {
+        "title": "Wall Street futures mixed as US-Iran stalemate keeps investors on edge",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777029534"
+      },
+      {
+        "title": "Schr\u00f6dinger\u2019s ceasefire",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777027506"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-23",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776969919"
+      },
+      {
+        "title": "After its biggest burst since 2020, can the S&P 500 push higher?\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776949348"
+      },
+      {
+        "title": "Wall St set to open lower in absence of clarity on Iran de-escalation; earnings mixed",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776949170"
+      },
+      {
+        "title": "Wall St futures slip as investors pause for clarity on US-Iran war; earnings mixed",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776942820"
+      },
+      {
+        "title": "Tech checked as oil boils",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776940773"
+      },
+      {
+        "title": "Investors are yet to notice AI efficiency in emerging markets, says HSBC",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776864013"
+      },
+      {
+        "title": "Too far, too fast? SOX stretch raises red flags\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776863395"
+      },
+      {
+        "title": "S&P 500 and Nasdaq rise on fresh hopes of US-Iran talks, Intel boost",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1777039474"
+      },
+      {
+        "title": "MORE US CONSUMER SENTIMENT: 5-YEAR INFLATION EXPECTATION NOW HIGHEST SINCE OCT. 2025",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777039380"
+      },
+      {
+        "title": "MORE US CONSUMER SENTIMENT: SENTIMENT IMPROVED A BIT AFTER IRAN CEASEFIRE ANNOUNCED, GAS PRICES SOFTENED A TOUCH",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777039320"
+      },
+      {
+        "title": "US CONSUMER 1-YEAR INFLATION EXPECTATION 4.7% IN APRIL FINAL REPORT VS. 4.8% IN APRIL PRELIM., 3.8% IN MARCH FINAL (VS. 4.8% EXPECTED IN APRIL FINAL)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777039260"
+      },
+      {
+        "title": "US CONSUMER 5-YEAR INFLATION EXPECTATION 3.5% IN APRIL FINAL REPORT VS. 3.4% IN APRIL PRELIM., 3.2% IN MARCH FINAL (VS. 3.4% EXPECTED IN APRIL FINAL)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777039260"
+      },
+      {
+        "title": "The Dow Jones Index Opens 0.30% Lower",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1777039216"
+      },
+      {
+        "title": "US CONSUMER CURRENT CONDITIONS INDEX 52.5 IN APRIL FINAL REPORT VS. 50.1 IN APRIL PRELIMINARY, 55.8 IN MARCH FINAL (VS. 50.1 EXPECTED IN APRIL FINAL)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777039200"
+      },
+      {
+        "title": "US CONSUMER EXPECTATIONS INDEX 48.1 IN APRIL FINAL REPORT VS. 46.1 IN APRIL PRELIMINARY, 51.7 IN MARCH FINAL (VS. 46.1 EXPECTED IN APRIL FINAL)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777039200"
+      },
+      {
+        "title": "US CONSUMER SENTIMENT INDEX 49.8 IN APRIL FINAL REPORT VS. 47.6 IN APRIL PRELIMINARY, 53.3 IN MARCH FINAL (VS. 47.6 EXPECTED IN APRIL FINAL)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777039200"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Michigan Consumer Sentiment Final",
+        "country": "US",
+        "impact": "0",
+        "actual": "49.8",
+        "forecast": "47.6",
+        "previous": "53.3"
+      },
+      {
+        "title": "Michigan Current Conditions Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "52.5",
+        "forecast": "50.1",
+        "previous": "55.8"
+      },
+      {
+        "title": "Michigan Consumer Expectations Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "48.1",
+        "forecast": "46.1",
+        "previous": "51.7"
+      },
+      {
+        "title": "Michigan Inflation Expectations Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "4.7",
+        "forecast": "4.8",
+        "previous": "3.8"
+      },
+      {
+        "title": "Michigan 5 Year Inflation Expectations Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "3.5",
+        "forecast": "3.4",
+        "previous": "3.2"
+      },
+      {
+        "title": "Baker Hughes Total Rigs Count",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "543"
+      },
+      {
+        "title": "Baker Hughes Oil Rig Count",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "410"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "---\n## MACRO ENVIRONMENT SUMMARY\n*   **DXY (Dollar Index):** Slightly down today (-0.198%), offering a minor tailwind for equities, though still up over the last 5 days.\n*   **VIX (Fear Index):** Down today (-0.621%) and just below 20, indicating a slight easing of immediate market fear, despite a significant rise over the past 5 days (+9.78%).\n*   **10Y Treasury Yield:** Down today (-0.069%), providing some relief for growth stocks, but the 5-day trend shows a notable increase (+1.74%), suggesting underlying interest rate concerns.\n*   **Gold:** Up today (+0.982%), potentially reflecting some ongoing safe-haven demand or inflation hedges despite easing broader fears.\n*   **Crude Oil:** Down today (-0.908%), which is a positive for inflation outlook, but the significant 5-day surge (+13.27%) underscores persistent geopolitical and supply concerns.\n*   **RISK-ON environment** (for today's session, despite underlying longer-term risks)\n\n## KEY NEWS ANALYSIS\nThe overall news flow for US equities is predominantly positive, driven by the strong performance in the technology sector and tentative signs of de-escalation in",
+    "bias_nq": "NEUTRAL",
+    "bias_es": "NEUTRAL",
+    "side": "NEUTRAL",
+    "source": "Gemini (gemini-2.5-flash) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

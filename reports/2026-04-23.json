@@ -1,0 +1,618 @@
+{
+  "date": "2026-04-23",
+  "created": "2026-04-23T18:18:50.785223",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "bias_es": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 27023.75,
+    "prev_day_high": 27136.0,
+    "prev_day_low": 26727.75,
+    "prev_day_close": 27083.0,
+    "week_high": 27136.0,
+    "week_low": 26275.5,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": -0.22,
+      "5d_pct": 2.03,
+      "10d_pct": 7.02
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-17",
+        "open": 26460.0,
+        "high": 26884.75,
+        "low": 26440.0,
+        "close": 26825.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-20",
+        "open": 26599.75,
+        "high": 26827.75,
+        "low": 26535.0,
+        "close": 26748.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-21",
+        "open": 26776.75,
+        "high": 26901.75,
+        "low": 26551.75,
+        "close": 26634.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-22",
+        "open": 26729.5,
+        "high": 27136.0,
+        "low": 26727.75,
+        "close": 27083.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-23",
+        "open": 27075.0,
+        "high": 27099.75,
+        "low": 26848.0,
+        "close": 27023.75,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 7153.5,
+    "prev_day_high": 7173.0,
+    "prev_day_low": 7121.25,
+    "prev_day_close": 7171.25,
+    "week_high": 7185.75,
+    "week_low": 7046.5,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": -0.25,
+      "5d_pct": 1.08,
+      "10d_pct": 4.23
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-17",
+        "open": 7077.25,
+        "high": 7185.75,
+        "low": 7075.25,
+        "close": 7161.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-20",
+        "open": 7102.5,
+        "high": 7160.5,
+        "low": 7085.0,
+        "close": 7148.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-21",
+        "open": 7150.75,
+        "high": 7183.0,
+        "low": 7085.0,
+        "close": 7100.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-22",
+        "open": 7125.0,
+        "high": 7173.0,
+        "low": 7121.25,
+        "close": 7171.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-23",
+        "open": 7163.0,
+        "high": 7169.5,
+        "low": 7105.5,
+        "close": 7153.5,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.713,
+      "day_chg": 0.125,
+      "5d_chg": 0.5
+    },
+    "VIX (Fear Index)": {
+      "price": 19.33,
+      "day_chg": 2.167,
+      "5d_chg": 7.75
+    },
+    "10Y Treasury Yield": {
+      "price": 4.3,
+      "day_chg": 0.14,
+      "5d_chg": -0.21
+    },
+    "Gold": {
+      "price": 4744.5,
+      "day_chg": 0.254,
+      "5d_chg": -0.85
+    },
+    "Crude Oil": {
+      "price": 93.43,
+      "day_chg": 0.506,
+      "5d_chg": -1.33
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Why Tesla investors should love this version of CEO Elon MuskA subdued Musk is what Tesla investors need in what is arguably the most important moment for the company in years.",
+        "url": "https://finance.yahoo.com/news/why-tesla-investors-should-love-this-version-of-ceo-elon-musk-115307738.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock futures slide as Iran tensions bubble, Tesla slips",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-dow-sp-500-and-nasdaq-futures-slide-as-oil-rises-tesla-slips-after-earnings-233045757.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Software stocks slide as IBM, ServiceNow revive AI fears",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-software-stocks-slide-ibm-105043820.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US intercepts Iran supertankers as Tehran keeps Hormuz shut",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/us-intercepts-iran-oil-supertankers-085211552.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil steadies above $100 as Hormuz stays blocked",
+        "url": "https://finance.yahoo.com/news/oil-extends-gain-as-peace-negotiations-between-us-and-iran-stall-030937661.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Netflix announces $25 billion share buyback, stock rises",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-announces-25-billion-share-101845782.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US weekly jobless claims tick up as labor market stays stable",
+        "url": "https://finance.yahoo.com/economy/articles/us-weekly-jobless-claims-increase-124003060.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "ServiceNow tumbles as war in Iran hits sales growth",
+        "url": "https://finance.yahoo.com/markets/stocks/article/servicenow-stock-tumbles-12-as-war-in-iran-impacts-sales-growth-122641438.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "American Q1 results beat, but airline sees $4B in added fuel costs",
+        "url": "https://finance.yahoo.com/markets/stocks/article/american-q1-results-beat-but-airline-sees-4-billion-in-added-fuel-costs-this-year-121909569.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "CEO turnover is near record highs as veterans like Cook exit",
+        "url": "https://finance.yahoo.com/markets/article/ceo-turnover-is-near-record-highs-and-more-experienced-execs-are-making-for-the-exits-100000505.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Leidos gets $617 million U.S. Army contract as Pentagon steps up replenishment",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/leidos-gets-617-million-u-125957108.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "JPMorgan Readies Fresh Private Credit Push After Needling Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-readies-fresh-private-credit-123026851.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US to speed up payments for new medical devices under Medicare, FT reports",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/us-speed-payments-medical-devices-121849931.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Roper Technologies raises 2026 profit forecast as AI demand boosts software sales",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/roper-technologies-raises-2026-profit-120945767.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tesla's $25 billion spending plan tests investor faith in unproven AI bets",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/teslas-25-billion-spending-plan-120631772.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Intel to report first quarter earnings as CPUs become key to AI growth",
+        "url": "https://finance.yahoo.com/sectors/technology/article/intel-to-report-first-quarter-earnings-as-cpus-become-key-to-ai-growth-191552358.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Huawei to invest $2.6 billion on R&D in smart driving technologies",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/huawei-invest-2-63-billion-114836550.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Optimus 3: Musk teases plans for unveilingTesla (TSLA) reported first quarter results on Wednesday after the closing bell. Adjusted earnings per share (EPS) came in at $0.41 (compared to analyst estimates of $0.34), and revenue came in at $22.39 billion (compared to analyst estimates of $22.19 billion). On the earnings call, CEO Elon Musk projects that Tesla's Optimus humanoid robot will become the \"biggest product ever,\" with production starting in Fremont later this year and expanding to Giga Texas by summer 2027.",
+        "url": "https://finance.yahoo.com/video/optimus-3-musk-teases-plans-for-unveiling-225227515.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "KFC's hidden ingredient for massive expansion",
+        "url": "https://finance.yahoo.com/video/kfcs-hidden-ingredient-for-massive-expansion-110000879.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Alibaba.com president on the state of global e-commerce",
+        "url": "https://finance.yahoo.com/video/alibabacom-president-on-the-state-of-global-e-commerce-110000520.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil Steadies as US-Iran Talks Stall, Keeping Hormuz Blocked(Bloomberg) -- Oil steadied as the US and Iran remained locked in a battle for control of the Strait of Hormuz, after failing to meet for a fresh round of peace talks. Most Read from BloombergAnthropic\u2019s Mythos Model Is Being Accessed by Unauthorized UsersInside Alex Cooper\u2019s Unwell: Tears, Screaming and Employees Looking for the ExitTrump Encourages Companies Not to Seek Tariff RefundsAlex Cooper, Husband Skip Team Meeting After Behavior ComplaintsUkraine\u2019s Richest Man Bought Monaco Flat for Re",
+        "url": "https://finance.yahoo.com/news/oil-extends-gain-as-peace-negotiations-between-us-and-iran-stall-030937661.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "U.S. stocks fall as oil rises on Iran uncertaintyThe S&P 500 and the Nasdaq had hit record highs the day before, but stalled diplomacy and Strait of Hormuz tensions are pushing oil prices back above $103",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/u-stocks-fall-oil-rises-115247588.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Why the Fed's Next Move Could Be the Most Important Catalyst for Stocks This SpringAll eyes are on interest rates as the war in Iran complicates the Federal Reserve's strategy.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/why-feds-next-move-could-115000514.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "President Donald Trump's Right-Hand Man at the Federal Reserve Is Reconsidering His Interest-Rate Outlook. Are Rate Cuts Off the Table in 2026?Last year, Trump appointed Stephen Miran to the Federal Reserve's Board of Governors.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/president-donald-trumps-hand-man-105000805.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Morning Bid: Tech checked as oil boilsBy Mike Dolan April 23 (Reuters) - What matters in U.S. and global markets today By Mike Dolan, Editor-At-Large for Finance and Markets While stock markets have impressively filtered out much of the",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/morning-bid-tech-checked-oil-104541247.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Warsh signals that he would lead a less-transparent Federal ReserveKevin Warsh said this week that he believes members of the Fed should speak less frequently, pull back forward guidance, and stop telegraphing what the central bank will do before interest rate meetings.",
+        "url": "https://finance.yahoo.com/economy/policy/article/warsh-signals-that-he-would-lead-a-less-transparent-federal-reserve-200547632.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Shipping companies begin tariff refund push \u2014 and promise to pass along the money to customersShipping companies have begun applying to collect refunds for tariffs, even as President Trump applies political pressure for them to forgo the money.",
+        "url": "https://finance.yahoo.com/economy/policy/article/shipping-companies-begin-tariff-refund-push--and-promise-to-pass-along-the-money-to-customers-190651076.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Are consumers finally cracking under the weight of $4 gas?The warning signals from the consumer mount.",
+        "url": "https://finance.yahoo.com/news/are-consumers-finally-cracking-under-the-weight-of-4-gas-111859680.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kevin Warsh set to lead the US economy facing a 'very wide' range of outcomes as Iran war, energy shock, and labor uncertainty loomIf Kevin Warsh is confirmed as the next chair of the Federal Reserve, he will inherit the largest energy crisis on record.",
+        "url": "https://finance.yahoo.com/economy/policy/article/kevin-warsh-set-to-lead-the-us-economy-facing-a-very-wide-range-of-outcomes-as-iran-war-energy-shock-and-labor-uncertainty-loom-100000526.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Warsh commits to monetary policy independence, says president expressing views on rates isn't a threatFederal Reserve chair nominee Kevin Warsh will tell Senate lawmakers Tuesday that setting interest rates independently is \"essential,\" but that the president's views on monetary policy don't threaten central bank independence.",
+        "url": "https://finance.yahoo.com/economy/policy/article/warsh-commits-to-monetary-policy-independence-says-president-expressing-views-on-rates-isnt-a-threat-172825788.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 58
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "After its biggest burst since 2020, can the S&P 500 push higher?\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776949348"
+      },
+      {
+        "title": "Wall St set to open lower in absence of clarity on Iran de-escalation; earnings mixed",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776949170"
+      },
+      {
+        "title": "Wall St futures slip as investors pause for clarity on US-Iran war; earnings mixed",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776942820"
+      },
+      {
+        "title": "Tech checked as oil boils",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776940773"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-22",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776883521"
+      },
+      {
+        "title": "Investors are yet to notice AI efficiency in emerging markets, says HSBC",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776864013"
+      },
+      {
+        "title": "Too far, too fast? SOX stretch raises red flags\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776863395"
+      },
+      {
+        "title": "Wall Street poised to open higher on ceasefire extension relief",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776862616"
+      },
+      {
+        "title": "US stock index futures climb after Trump extends Iran truce",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776856490"
+      },
+      {
+        "title": "Another deadline dodged",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776854752"
+      },
+      {
+        "title": "Small names, big gains: Small caps take the lead in 2026",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776776499"
+      },
+      {
+        "title": "A historic rally for the S&P 500 is just getting started, says Wall Street veteran who called the April 2025 bottom",
+        "summary": "",
+        "source": "TradingView/ES Headlines (MarketWatch)",
+        "published": "1776949500"
+      },
+      {
+        "title": "RECAPPING:  US CHICAGO FED NATL ACTIVITY INDEX 3-MONTH MOVING AVERAGE -0.03 IN MARCH VS +0.03 IN FEBRUARY (PREV -0.01); +0.05 IN MARCH 2025",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776948000"
+      },
+      {
+        "title": "RECAPPING: US CHICAGO FED NATIONAL ACTIVITY INDEX -0.20 IN MARCH VS +0.03 IN FEBRUARY (PREV -0.11); +0.03 IN MARCH 2025",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776948000"
+      },
+      {
+        "title": "US INITIAL CLAIMS FOR JOBLESS BENEFITS: UNADJUSTED WKLY CLAIMS 205,306, -9,736; UNADJUSTED INSURED UNEMP RATE TWO WKS AGO 1.2%, UNCHANGED",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776947940"
+      },
+      {
+        "title": "US INITIAL CLAIMS FOR JOBLESS BENEFITS: CONTINUING CLAIMS TWO WKS AGO 1.821 MLN, +12,000",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776947760"
+      },
+      {
+        "title": "REPEATING: INITIAL CLAIMS: 4-WK MOVING AVG 210,750, +750 ; INSURED UNEMP RATE TWO WKS AGO 1.2%, UNCHANGED",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776947700"
+      },
+      {
+        "title": "BENEFITS:  4-WK MOVING AVG 210,750, +750 ; INSURED UNEMP  RATE TWO WKS AGO 1.2%, UNCHANGED",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776947460"
+      },
+      {
+        "title": "US INITIAL CLAIMS FOR JOBLESS BENEFITS: 214,000, +6,000",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776947400"
+      },
+      {
+        "title": "Honeywell's stock drops as sales miss confirms fears of Middle East shipping disruptions",
+        "summary": "",
+        "source": "TradingView/ES Headlines (MarketWatch)",
+        "published": "1776945720"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Continuing Jobless Claims",
+        "country": "US",
+        "impact": "-1",
+        "actual": "1821",
+        "forecast": "1820",
+        "previous": "1809"
+      },
+      {
+        "title": "Jobless Claims 4-week Average",
+        "country": "US",
+        "impact": "-1",
+        "actual": "210.75",
+        "forecast": "None",
+        "previous": "210"
+      },
+      {
+        "title": "Initial Jobless Claims",
+        "country": "US",
+        "impact": "0",
+        "actual": "214",
+        "forecast": "212",
+        "previous": "208"
+      },
+      {
+        "title": "Chicago Fed National Activity Index",
+        "country": "US",
+        "impact": "0",
+        "actual": "-0.2",
+        "forecast": "None",
+        "previous": "0.03"
+      },
+      {
+        "title": "S&P Global Services PMI Flash",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "50",
+        "previous": "49.8"
+      },
+      {
+        "title": "S&P Global Manufacturing PMI Flash",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "52.5",
+        "previous": "52.3"
+      },
+      {
+        "title": "S&P Global Composite PMI Flash",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "50.3"
+      },
+      {
+        "title": "EIA Natural Gas Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "94",
+        "previous": "59"
+      },
+      {
+        "title": "Kansas Fed Manufacturing Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "11"
+      },
+      {
+        "title": "Kansas Fed Composite Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "11"
+      },
+      {
+        "title": "4-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.595"
+      },
+      {
+        "title": "8-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.615"
+      },
+      {
+        "title": "30-Year Mortgage Rate",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "6.3"
+      },
+      {
+        "title": "15-Year Mortgage Rate",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "5.65"
+      },
+      {
+        "title": "5-Year TIPS Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "1.433"
+      },
+      {
+        "title": "Fed Balance Sheet",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "6.71"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "Gemini API error: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]\n\n## Macro Environment\n- DXY: 98.713 (day +0.12%) \n- VIX: 19.33 (day +2.17%) (Fear low \u2014 risk-on)\n- 10Y Yield: 4.3 (day +0.14%) \n- Gold: 4744.5 (day +0.25%)\n- Oil: 93.43 (day +0.51%)\n- Environment: **MIXED**\n\n## Recent Headlines (Yahoo Finance)\n  - Why Tesla investors should love this version of CEO Elon MuskA subdued Musk is what Tesla investors need in what is arguably the most important moment for the company in years.\n  - Stock futures slide as Iran tensions bubble, Tesla slips\n  - Software stocks slide as IBM, ServiceNow revive AI fears\n  - US intercepts Iran supertankers as Tehran keeps Hormuz shut\n  - Oil steadies above $100 as Hormuz stays blocked\n  - Netflix announces $25 billion share buyback, stock rises\n  - US weekly jobless claims tick up as labor market stays stable\n  - ServiceNow tumbles as war in Iran hits sales growth\n\n## Market Trend\n- NQ: UP | Price: 27023.75 | 1D: -0.22% | 5D: 2.03%\n- ES: UP | Price: 7153.5 | 1D: -0.25% | 5D: 1.08%\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: BUY SIDE**\n**NQ: BULLISH** | **ES: BULLISH**\n\n_Note: Add ANTHROPIC_API_KEY to .env for full news-driven AI analysis with detailed reasoning._",
+    "bias_nq": "BULLISH",
+    "bias_es": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Fallback (API error)"
+  },
+  "errors": []
+}

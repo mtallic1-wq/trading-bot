@@ -17,6 +17,19 @@ else:
 REPORTS_DIR = PERSISTENT_DIR / "reports"
 REPORTS_DIR.mkdir(exist_ok=True)
 
+# Auto-populate persistent directory with default reports from the repo if using a volume
+if PERSISTENT_STORAGE_DIR:
+    base_reports_dir = BASE_DIR / "reports"
+    if base_reports_dir.exists() and base_reports_dir != REPORTS_DIR:
+        import shutil
+        for f in base_reports_dir.glob("*.json"):
+            dest_file = REPORTS_DIR / f.name
+            if not dest_file.exists():
+                try:
+                    shutil.copy2(f, dest_file)
+                except Exception as e:
+                    print(f"[Storage Warning] Failed to copy default report {f.name}: {e}")
+
 # --- API ---
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODEL   = "llama-3.3-70b-versatile"

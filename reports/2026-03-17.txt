@@ -1,0 +1,85 @@
+ANALYSIS DATE: 2026-03-17
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.58 | Day: -0.130% | 5-Day: +0.76%
+  VIX (Fear Index): 22.37 | Day: -4.849% | 5-Day: -10.27%
+  10Y Treasury Yield: 4.202 | Day: -0.427% | 5-Day: +1.60%
+  Gold: 5001.0 | Day: +0.140% | 5-Day: -4.37%
+  Crude Oil: 96.21 | Day: +2.898% | 5-Day: +15.29%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 24795.5 | Trend: DOWN
+  1D: 0.49% | 5D: -0.75% | 10D: 0.16%
+  Prev High: 24816.25 | Prev Low: 24278.0 | Prev Close: 24675.75
+  Week High: 25217.5 | Week Low: 24278.0
+  Last 5 Candles: 2026-03-11 DOWN (O:25010.25 H:25180.0 L:24873.5 C:24983.5) | 2026-03-12 DOWN (O:24934.5 H:24949.25 L:24517.75 C:24560.0) | 2026-03-13 DOWN (O:24567.0 H:24805.25 L:24333.75 C:24394.25) | 2026-03-16 UP (O:24285.0 H:24816.25 L:24278.0 C:24675.75) | 2026-03-17 UP (O:24668.75 H:24896.0 L:24517.0 C:24795.5)
+
+=== ES — S&P 500 Futures ===
+  Price: 6721.75 | Trend: DOWN
+  1D: 0.25% | 5D: -0.97% | 10D: -1.51%
+  Prev High: 6734.25 | Prev Low: 6608.5 | Prev Close: 6704.75
+  Week High: 6852.0 | Week Low: 6608.5
+  Last 5 Candles: 2026-03-11 DOWN (O:6796.75 H:6822.5 L:6749.75 C:6779.5) | 2026-03-12 DOWN (O:6766.0 H:6769.5 L:6671.75 C:6677.5) | 2026-03-13 DOWN (O:6684.25 H:6737.5 L:6625.0 C:6636.0) | 2026-03-16 UP (O:6608.5 H:6734.25 L:6608.5 C:6704.75) | 2026-03-17 UP (O:6700.0 H:6757.5 L:6665.25 C:6721.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. CPI inflation soars by most since 2022 as gas prices biteHeadline inflation clocked in at 3.3% on a year ago, a rapid acceleration from February's levels.
+  2. Stocks edge up after inflation heats up, with Iran talks in focus
+  3. Has Hormuz reopened after Trump's demands? Where things stand.
+  4. Consumer sentiment sinks to record low as war tanks economic outlook
+  5. Why Shaquille O'Neal is investing his money in an adult toy store
+  6. TSMC sales smash record as war fails to dent AI demand
+  7. Why the Fed is likely to hold on rates despite soaring energy prices
+  8. March CPI breakdown: Iran war sends gas prices skyrocketing
+  9. Anthropic and CoreWeave sign AI agreement, as chip deals explode
+  10. Snap unit to use Qualcomm chips for upcoming AI smart glasses
+  11. Space analytics firm HawkEye's revenue jumped 74% in 2025, US IPO filing shows
+  12. Analysis-Iran war leaves crisis-scarred countries counting the cost
+  13. Goldman’s ‘Unwavering’ Support Shows Gulf’s Lure for Wall Street
+  14. Meta must face youth addiction lawsuit by Massachusetts, court rules
+  15. Iran war oil shock pushes US inflation to highest level in almost two years
+  16. Demand for Dollars in Swaps Ebbs Alongside Global Risks
+  17. Americans close to retirement are saving for later, but they're worried about getting by right now
+  18. We're living in a 'whiplash economy': Claudia Sahm on CPI dataNew Century Advisors chief economist Claudia Sahm and UBS Global Wealth Management head of taxable fixed income strategy Leslie Falconio chat with Yahoo Finance's Julie Hyman and Myles Udland about the breaking data. Sahm also served as a Federal Reserve Board economist and is the creator of the central bank's Sahm Rule recession indicator.
+  19. Bitcoin climbs above $72K following March's hot inflation data
+  20. Inflation rose 0.9% in March amid energy price shocks
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. BUZZ - Nasdaq top and bottom performing stocks at about 11:01 a.m. EDT on 2026-04-10
+  2. Wall St set for muted open after in-line inflation data; Mideast truce in focus
+  3. US stock index futures near flat after as-expected CPI
+  4. Wall St futures gain after March inflation data
+  5. US stock futures steady ahead of inflation data, Mideast truce in focus
+  6. Back from the brink?
+  7. US stock futures subdued ahead of inflation data, Mideast in focus
+  8. Dow Transports hit record high, bulls watch for Dow Industrials to follow
+  9. Wall St set for lower open over shaky Mideast truce; inflation data assessed
+  10. Wall St futures little changed after inflation data
+  11. US stock futures fall over shaky Mideast truce; inflation in focus
+  12. Relief rally hits pause
+  13. US stock futures dip over shaky Mideast truce; inflation in focus
+  14. S&P 500, Nasdaq gain on tech boost after inflation data; Mideast tensions in focus
+  15. The great American wage divide
+
+=== ECONOMIC CALENDAR — 2026-03-17 ===
+  [0] ADP Employment Change Weekly — Actual: 9 | Forecast: None | Prev: 14.75
+  [-1] NY Fed Services Activity Index — Actual: -22.6 | Forecast: None | Prev: -25.7
+  [-1] Redbook YoY — Actual: 6.4 | Forecast: None | Prev: 6.2
+  [0] Pending Home Sales YoY — Actual: -0.8 | Forecast: None | Prev: -0.4
+  [0] Pending Home Sales MoM — Actual: 1.8 | Forecast: -0.5 | Prev: -1
+  [-1] 52-Week Bill Auction — Actual: 3.485 | Forecast: None | Prev: 3.345
+  [-1] 6-Week Bill Auction — Actual: 3.635 | Forecast: None | Prev: 3.635
+  [-1] 20-Year Bond Auction — Actual: 4.817 | Forecast: None | Prev: 4.664
+  [0] API Crude Oil Stock Change — Actual: 6.6 | Forecast: -0.6 | Prev: -1.7
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-03-17.

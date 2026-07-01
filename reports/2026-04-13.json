@@ -1,0 +1,530 @@
+{
+  "date": "2026-04-13",
+  "created": "2026-04-14T18:49:30.760238",
+  "is_historical": true,
+  "bias_nq": "NEUTRAL",
+  "bias_es": "NEUTRAL",
+  "side": "NEUTRAL",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 25543.5,
+    "prev_day_high": 25393.0,
+    "prev_day_low": 25193.0,
+    "prev_day_close": 25281.25,
+    "week_high": 25393.0,
+    "week_low": 23941.5,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 1.04,
+      "5d_pct": 4.86,
+      "10d_pct": 9.49
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-07",
+        "open": 24348.75,
+        "high": 24451.5,
+        "low": 23941.5,
+        "close": 24371.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-08",
+        "open": 24514.0,
+        "high": 25257.0,
+        "low": 24355.0,
+        "close": 25074.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-09",
+        "open": 25037.75,
+        "high": 25269.75,
+        "low": 24953.0,
+        "close": 25251.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-10",
+        "open": 25237.0,
+        "high": 25393.0,
+        "low": 25193.0,
+        "close": 25281.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-13",
+        "open": 24980.0,
+        "high": 25599.25,
+        "low": 24904.5,
+        "close": 25543.5,
+        "direction": "UP"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 6922.75,
+    "prev_day_high": 6888.0,
+    "prev_day_low": 6846.25,
+    "prev_day_close": 6855.25,
+    "week_high": 6888.0,
+    "week_low": 6567.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.98,
+      "5d_pct": 4.09,
+      "10d_pct": 7.96
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-07",
+        "open": 6650.5,
+        "high": 6673.5,
+        "low": 6572.75,
+        "close": 6656.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-08",
+        "open": 6689.0,
+        "high": 6847.25,
+        "low": 6652.25,
+        "close": 6823.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-09",
+        "open": 6814.25,
+        "high": 6876.0,
+        "low": 6792.5,
+        "close": 6863.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-10",
+        "open": 6858.0,
+        "high": 6888.0,
+        "low": 6846.25,
+        "close": 6855.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-13",
+        "open": 6780.0,
+        "high": 6928.25,
+        "low": 6767.0,
+        "close": 6922.75,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.37,
+      "day_chg": -0.284,
+      "5d_chg": -1.61
+    },
+    "VIX (Fear Index)": {
+      "price": 19.12,
+      "day_chg": -0.572,
+      "5d_chg": -20.89
+    },
+    "10Y Treasury Yield": {
+      "price": 4.297,
+      "day_chg": -0.463,
+      "5d_chg": -0.88
+    },
+    "Gold": {
+      "price": 4742.4,
+      "day_chg": -0.41,
+      "5d_chg": 1.84
+    },
+    "Crude Oil": {
+      "price": 99.08,
+      "day_chg": 2.599,
+      "5d_chg": -11.86
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "US stocks rise as Iran hopes rise, PPI comes in coolThe Nasdaq led the S&P 500 and Dow higher after wholesale inflation undershot estimates amid Iran deal hopes and a rush of earnings.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/stock-market-today-dow-sp-500-nasdaq-rise-amid-iran-deal-hopes-earnings-rush-225637251.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "JPMorgan profits rise as Dimon warns of 'complex' risks ahead",
+        "url": "https://finance.yahoo.com/markets/article/jpmorgan-and-other-big-banks-see-profits-rise-as-dimon-warns-of-increasingly-complex-set-of-risks-105717454.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Goldman rakes it in, but issues a warning",
+        "url": "https://finance.yahoo.com/news/morning-brief-goldman-rakes-it-in-but-issues-a-warning-100029998.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "A US-blacklisted tanker is putting Trump's blockade to the test",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/us-sanctioned-tanker-tests-trump-024445421.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why Starlink is so important to SpaceX's IPO",
+        "url": "https://finance.yahoo.com/sectors/technology/article/why-starlink-is-so-important-to-spacexs-ipo-174446711.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil falls, gold rises as investors hope for US-Iran talks to restart",
+        "url": "https://finance.yahoo.com/news/oil-falls-gold-rises-as-investors-hope-for-us-iran-talks-to-restart-time-remains-of-the-essence-131807713.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Sandisk is one of the hottest stocks in the market in 2026",
+        "url": "https://finance.yahoo.com/news/sandisk-is-up-nearly-250-this-year-and-a-new-wall-street-superbull-emerges-heres-their-thesis-131144453.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "IMF lowers growth outlook, warns of global recession amid Iran oil shock",
+        "url": "https://finance.yahoo.com/economy/article/imf-lowers-growth-outlook-warns-of-global-recession-if-iran-oil-shock-is-severe-130000854.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Lucid stock pops on new CEO, fresh funding from Saudi PIF, Uber",
+        "url": "https://finance.yahoo.com/markets/article/lucid-stock-pops-on-new-ceo-fresh-funding-from-saudi-pif-uber-131046857.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Fed nominee Warsh takes step closer to confirmation",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-nominee-warsh-files-financial-094957133.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Fed nominee Warsh's holdings include SpaceX, Polymarket, crypto and AI",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/fed-nominee-warshs-holdings-spacex-133919663.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "French group Veolia aims $1.2 billion in revenue from data centres, chips by 2030",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/french-group-veolia-aims-1-132159682.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Factbox-Airlines cancel flights amid Middle East conflict",
+        "url": "https://finance.yahoo.com/news/factbox-airlines-cancel-flights-us-123532820.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Long Iran war may require painful central bank tightening, IMF chief economist says",
+        "url": "https://finance.yahoo.com/news/long-iran-war-may-require-130526676.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oracle Agrees to Buy Power From Bloom for AI Data Centers",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/oracle-agrees-buy-power-bloom-220211426.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil Slips as US and Iran Weigh More Talks With Blockade in Place",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-drops-us-iran-weigh-220104014.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Factbox-Global satellite internet companies at a glance",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/factbox-global-satellite-internet-companies-125647384.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "JPMorgan earnings, Amazon buys SpaceX rival Globalstar: Top themesYahoo Finance's Myles Udland takes a look at the biggest themes and events that could shape the tone of Tuesday's trading session, including the S&P 500 (^GSPC) erasing all Iran war\u2013fueled losses; bank earnings from JPMorgan (JPM), Wells Fargo (WFC), and Citi (C); and SpaceX (SPAX.PVT) rival Globalstar (GSAT) being acquired by Amazon (AMZN).",
+        "url": "https://finance.yahoo.com/video/jpmorgan-earnings-amazon-buys-spacex-rival-globalstar-top-themes-133411777.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Is Wall Street beginning to look past Iran war risks?",
+        "url": "https://finance.yahoo.com/video/is-wall-street-beginning-to-look-past-iran-war-risks-132515934.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "How the World Bank plans to create 1.2B jobs in emerging markets",
+        "url": "https://finance.yahoo.com/video/how-the-world-bank-plans-to-create-12b-jobs-in-emerging-markets-113000605.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Wholesale inflation rose in March to three year-highFast-rising oil prices sent US businesses\u2019 costs higher in March, lifting wholesale inflation to 4%, the highest annual rate in three years, according to Bureau of Labor Statistics data released Tuesday.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/wholesale-inflation-rose-march-three-123756354.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "'The largest energy security threat in history' is about to push oil prices further up, IEA warnsNo new energy shipments have been loaded in April, signalling a worsening disruption that could intensify the global energy and economic impact, IEA Executive Director Fatih Birol said on Monday.View on euronews",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/largest-energy-security-threat-history-071023782.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Warning Sign for Stocks Seen in Surging Inflation Expectations(Bloomberg) -- Soaring inflation expectations are a warning sign for investors who have bought into the ceasefire-fueled rebound in stocks over the past few trading sessions, say some Wall Street market-watchers.The S&P 500 Index climbed on Monday and has now erased all of its declines since the Iran war began. That\u2019s even as oil prices remain close to the highest level since 2022 and with the US blockade of Iranian ports threatening to tighten global markets further. A report last week showing",
+        "url": "https://finance.yahoo.com/economy/policy/articles/warning-sign-stocks-seen-surging-113225792.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Goldman Sachs warning on consumers: Gas price spike will be feltConsumers can't outrun higher gas prices forever.",
+        "url": "https://finance.yahoo.com/news/goldman-sachs-warning-on-consumers-gas-price-spike-will-be-felt-145418482.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "US tariff revenue dropped by over $4 billion in March. It's down almost 30% since October.Tariff revenue totaling $22.15 billion came into US coffers in March, yet another monthly decline.",
+        "url": "https://finance.yahoo.com/economy/policy/article/us-tariff-revenue-dropped-by-over-4-billion-in-march-its-down-almost-30-since-october-190535076.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "From coffee to home prices, costs are up everywhereThough overall inflation is somewhat tame at an annual rate of 2.4% \u2014\u00a0with average hourly earnings growth so far outpacing that increase \u2014 Americans continue to reel from prices that soared during the pandemic, never came back to earth, and keep ticking higher.",
+        "url": "https://finance.yahoo.com/economy/article/from-coffee-to-home-prices-costs-are-up-everywhere-174715881.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Consumer sentiment sinks to record low in April as US-Iran war tanks economic outlookConsumer sentiment in April fell sharply to a record low as high energy prices and market volatility weighed on American households.",
+        "url": "https://finance.yahoo.com/news/consumer-sentiment-sinks-to-record-low-in-april-as-us-iran-war-tanks-economic-outlook-145132785.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Why the Fed is likely to hold on rates despite soaring energy pricesThe first major inflation reading after the Iran war began showed a jump in energy prices that pulled up overall inflation but didn't filter through to core inflation.",
+        "url": "https://finance.yahoo.com/economy/article/why-the-fed-is-likely-to-hold-on-rates-despite-soaring-energy-prices-143755918.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "CPI inflation soars by most since 2022 as gas prices biteHeadline CPI inflation clocked in 3.3% higher than a year ago while being up 0.9% on a monthly basis, a rapid acceleration from February's levels.",
+        "url": "https://finance.yahoo.com/economy/article/cpi-inflation-soars-by-most-since-2022-as-gas-prices-bite-191214395.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gap between high-income households' wage growth and everyone else is at its widest since 2015After-tax wage growth is accelerating faster among higher-income households as other households trail behind, a new Bank of America Institute report shows.",
+        "url": "https://finance.yahoo.com/news/gap-between-high-income-households-wage-growth-and-everyone-else-is-at-its-widest-since-2015-152406175.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 57
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Value trade could be back in business in Europe - Barclays",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776172493"
+      },
+      {
+        "title": "Wall St indexes set to open higher on Mideast de-escalation hopes, earnings in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776171694"
+      },
+      {
+        "title": "Nasdaq's hot streak and a cold signal: Death Cross in focus\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776171660"
+      },
+      {
+        "title": "S&P 500, Nasdaq futures rise on Mideast de-escalation hopes, earnings in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776167670"
+      },
+      {
+        "title": "War-weary markets filter out noise",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776164237"
+      },
+      {
+        "title": "US stock futures climb as traders cling to de-escalation hopes, await earnings",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776157639"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-13",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776105937"
+      },
+      {
+        "title": "Chip stock rally faces key test after US\u2013Iran talks stall",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776085242"
+      },
+      {
+        "title": "Wall St set for subdued open as failed US-Iran peace talks fuel investor angst",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776084635"
+      },
+      {
+        "title": "Wall St futures slip as failed US-Iran peace talks fuel investor angst",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776079629"
+      },
+      {
+        "title": "Blockade takes its toll",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776077202"
+      },
+      {
+        "title": "Wall Street futures drop after US-Iran peace talks fail",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776072033"
+      },
+      {
+        "title": "S&P 500 Rises 20.57 Points (0.30%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1776173580"
+      },
+      {
+        "title": "Wall St opens higher as Mideast de-escalation hopes lift sentiment",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1776173562"
+      },
+      {
+        "title": "MORE U.S. MAR PPI-FD: AIRLINE PASSENGER SERVICES +2.8% M/M, +7.5% Y/Y",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776170460"
+      },
+      {
+        "title": "MORE U.S. MAR PPI-FD: APPAREL WHOLESALING -7.2% M/M, -6.7% Y/Y",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776170400"
+      },
+      {
+        "title": "MORE U.S. MAR PPI-FD: ELECTRONIC COMPONENTS & ACCESSORIES +2.1% M/M, +19.1% Y/Y",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776170340"
+      },
+      {
+        "title": "MORE U.S. MAR PPI-FD: INDUSTRIAL CHEMICALS +2.3% M/M, -0.5% Y/Y",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776170340"
+      },
+      {
+        "title": "MORE U.S. MAR PPI-FD: DAIRY PRODUCTS +2.7% M/M, -3.6% Y/Y",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776170280"
+      },
+      {
+        "title": "MORE U.S. MAR PPI-FD: FRESH & DRY VEGETABLES -10.7% M/M, +49.0% Y/Y",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776170220"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Existing Home Sales MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "-3.6",
+        "forecast": "None",
+        "previous": "2.7"
+      },
+      {
+        "title": "Existing Home Sales",
+        "country": "US",
+        "impact": "1",
+        "actual": "3.98",
+        "forecast": "4.06",
+        "previous": "4.13"
+      },
+      {
+        "title": "6-Month Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "3.61",
+        "forecast": "None",
+        "previous": "3.615"
+      },
+      {
+        "title": "3-Month Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "3.62",
+        "forecast": "None",
+        "previous": "3.635"
+      },
+      {
+        "title": "Fed Miran Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "---\n## MACRO ENVIRONMENT SUMMARY\n*   **DXY (Dollar Index)**: Down significantly over 5 days and today, suggesting weaker dollar, which is generally supportive of risk assets and US multinational earnings.\n*   **VIX (Fear Index)**: Significantly down over 5 days and today, now below 20 at 19.12, indicating decreasing market fear and increasing risk appetite.\n*   **10Y Treasury Yield**: Down over 5 days and today, currently at 4.297%. Falling yields are bullish for equities, particularly growth and tech stocks (NQ).\n*   **Gold**: Up over 5 days, though slightly down today. This indicates some underlying geopolitical or inflation concerns persist, but not strongly enough to deter risk-on for equities today.\n*   **Crude Oil**: Up significantly today after a steep 5-day decline. This daily rise could be a concern if it signals renewed geopolitical tensions or supply issues, but context from other indicators suggests this is not currently dominant.\n**RISK-ON environment**\n\n## KEY NEWS ANALYSIS\nThe overall news flow presents a mixed but predominantly bullish picture for US equities, especially NQ, primarily driven by hopes for de-escalation in the Middle East and favorable inflation data, despite some conflicting reports and underlying warnings.\n\n*   **Mideast De-escalation Hopes**: Multiple headlines from Yahoo (1, 6, 16, 19) and TradingView (2, 4, 5, 6, 14) emphasize that hopes for US-Iran talks and general de-escalation are lifting market sentiment and allowing stocks to erase \"Iran war-fueled losses.\" This is a significant BULLISH driver for broad market confidence (ES) and tech (NQ).\n*   **Cool PPI Data**: \"PPI comes in cool\" (Yahoo 1) is a strong BULLISH signal as it suggests wholesale inflation is undershooting estimates, reducing the likelihood of aggressive Fed tightening and supporting rate cut expectations. This directly benefits equity valuations.\n*   **Bank Earnings**: JPMorgan and Goldman Sachs reported rising profits (Yahoo 2, 3, 18). While both issued warnings about \"complex risks,\" the",
+    "bias_nq": "NEUTRAL",
+    "bias_es": "NEUTRAL",
+    "side": "NEUTRAL",
+    "source": "Gemini (gemini-2.5-flash) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

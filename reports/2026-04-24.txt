@@ -1,0 +1,83 @@
+ANALYSIS DATE: 2026-04-24
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.604 | Day: -0.198% | 5-Day: +0.51%
+  VIX (Fear Index): 19.19 | Day: -0.621% | 5-Day: +9.78%
+  10Y Treasury Yield: 4.32 | Day: -0.069% | 5-Day: +1.74%
+  Gold: 4751.3 | Day: +0.982% | 5-Day: -2.19%
+  Crude Oil: 94.98 | Day: -0.908% | 5-Day: +13.27%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 27244.0 | Trend: UP
+  1D: 1.15% | 5D: 1.56% | 10D: 7.76%
+  Prev High: 27155.75 | Prev Low: 26681.75 | Prev Close: 26934.0
+  Week High: 27155.75 | Week Low: 26440.0
+  Last 5 Candles: 2026-04-20 UP (O:26599.75 H:26827.75 L:26535.0 C:26748.75) | 2026-04-21 DOWN (O:26776.75 H:26901.75 L:26551.75 C:26634.75) | 2026-04-22 UP (O:26729.5 H:27136.0 L:26727.75 C:27083.0) | 2026-04-23 DOWN (O:27075.0 H:27155.75 L:26681.75 C:26934.0) | 2026-04-24 UP (O:26992.0 H:27363.75 L:26992.0 C:27244.0)
+
+=== ES — S&P 500 Futures ===
+  Price: 7158.25 | Trend: UP
+  1D: 0.21% | 5D: -0.05% | 10D: 4.42%
+  Prev High: 7181.5 | Prev Low: 7079.25 | Prev Close: 7143.5
+  Week High: 7185.75 | Week Low: 7075.25
+  Last 5 Candles: 2026-04-20 UP (O:7102.5 H:7160.5 L:7085.0 C:7148.0) | 2026-04-21 DOWN (O:7150.75 H:7183.0 L:7085.0 C:7100.0) | 2026-04-22 UP (O:7125.0 H:7173.0 L:7121.25 C:7171.25) | 2026-04-23 DOWN (O:7163.0 H:7181.5 L:7079.25 C:7143.5) | 2026-04-24 UP (O:7143.0 H:7189.5 L:7135.5 C:7158.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Intel just cleared its dot-com-era ceilingThe old-school chipmaker is soaring after earnings, topping the high-water mark it set in 2000 thanks to AI data center hopes.
+  2. Nasdaq jumps amid AI boom as stocks open mixed
+  3. Meta to buy Graviton chips from Amazon as CPU sales soar
+  4. Warsh wants the Fed to adopt a new approach to inflation
+  5. Trump says gas prices could be high for 'a little while'
+  6. NIO bets on in-house chips to cut reliance on Nvidia
+  7. AMD stock jumps to record high on upgrade, Intel results
+  8. Stock buybacks stay hot, while Big Tech beasts lay off workers
+  9. Why this Tesla bear still sees a 60% crash in the EV maker's stock
+  10. Tide maker P&G's earnings beat but Iran war drives up costs
+  11. Companies turn to temporary hires amid reluctance to commit to full-timers
+  12. Factbox-Airlines cancel flights amid Middle East conflict
+  13. US chipmakers hit record highs as Intel turbocharges AI rally
+  14. Oklo stock on pace to close out the week with gains. Here's why
+  15. Meta to cut 8,000 jobs, Microsoft offers buyouts to staff as AI spending costs hit Big Tech workers
+  16. US health insurers advance measures to standardize prior authorization requirements
+  17. Swiss National Bank defends investment approach after calls to ditch Palantir stake
+  18. Robinhood earnings on tap as stock rebounds: A closer lookMizuho Americas senior financial technology analyst Dan Dolev chats with Yahoo Finance about Robinhood's (HOOD) upcoming earnings results next week, how the stock could recover, and more.
+  19. What Microsoft buyouts, Meta layoffs signal about Big Tech in AI age
+  20. Intel stock soars on Q1 earnings. Is this too good to be true?
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Benchmark Treasury yield coils like a spring as traders brace for a breakout
+  2. S&P 500, Nasdaq set for firmer open on fresh hopes of US-Iran talks
+  3. Wall Street futures mixed as US-Iran stalemate keeps investors on edge
+  4. Schrödinger’s ceasefire
+  5. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-23
+  6. After its biggest burst since 2020, can the S&P 500 push higher? 
+  7. Wall St set to open lower in absence of clarity on Iran de-escalation; earnings mixed
+  8. Wall St futures slip as investors pause for clarity on US-Iran war; earnings mixed
+  9. Tech checked as oil boils
+  10. Investors are yet to notice AI efficiency in emerging markets, says HSBC
+  11. Too far, too fast? SOX stretch raises red flags 
+  12. S&P 500 and Nasdaq rise on fresh hopes of US-Iran talks, Intel boost
+  13. MORE US CONSUMER SENTIMENT: 5-YEAR INFLATION EXPECTATION NOW HIGHEST SINCE OCT. 2025
+  14. MORE US CONSUMER SENTIMENT: SENTIMENT IMPROVED A BIT AFTER IRAN CEASEFIRE ANNOUNCED, GAS PRICES SOFTENED A TOUCH
+  15. US CONSUMER 1-YEAR INFLATION EXPECTATION 4.7% IN APRIL FINAL REPORT VS. 4.8% IN APRIL PRELIM., 3.8% IN MARCH FINAL (VS. 4.8% EXPECTED IN APRIL FINAL)
+
+=== ECONOMIC CALENDAR — 2026-04-24 ===
+  [0] Michigan Consumer Sentiment Final — Actual: 49.8 | Forecast: 47.6 | Prev: 53.3
+  [-1] Michigan Current Conditions Final — Actual: 52.5 | Forecast: 50.1 | Prev: 55.8
+  [-1] Michigan Consumer Expectations Final — Actual: 48.1 | Forecast: 46.1 | Prev: 51.7
+  [-1] Michigan Inflation Expectations Final — Actual: 4.7 | Forecast: 4.8 | Prev: 3.8
+  [-1] Michigan 5 Year Inflation Expectations Final — Actual: 3.5 | Forecast: 3.4 | Prev: 3.2
+  [-1] Baker Hughes Total Rigs Count — Actual: None | Forecast: None | Prev: 543
+  [-1] Baker Hughes Oil Rig Count — Actual: None | Forecast: None | Prev: 410
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-24.

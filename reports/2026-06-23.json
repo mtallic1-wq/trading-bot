@@ -1,0 +1,972 @@
+{
+  "date": "2026-06-23",
+  "created": "2026-06-23T19:17:38.165073",
+  "is_historical": false,
+  "bias_nq": "BEARISH",
+  "side": "SELL SIDE",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 29966.25,
+    "prev_day_high": 30968.0,
+    "prev_day_low": 30337.5,
+    "prev_day_close": 30653.5,
+    "week_high": 30968.0,
+    "week_low": 29616.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": -2.24,
+      "5d_pct": -1.94,
+      "10d_pct": 1.74
+    },
+    "recent_candles": [
+      {
+        "date": "2026-06-16",
+        "open": 30539.75,
+        "high": 30664.5,
+        "low": 29956.75,
+        "close": 29995.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-06-17",
+        "open": 30006.75,
+        "high": 30268.5,
+        "low": 29616.0,
+        "close": 29687.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-06-18",
+        "open": 29758.5,
+        "high": 30285.75,
+        "low": 29758.5,
+        "close": 30263.35,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-06-22",
+        "open": 30577.0,
+        "high": 30968.0,
+        "low": 30337.5,
+        "close": 30653.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-06-23",
+        "open": 30662.75,
+        "high": 30701.25,
+        "low": 29616.5,
+        "close": 29966.25,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 101.306,
+      "day_chg": 0.283,
+      "5d_chg": 1.68
+    },
+    "VIX (Fear Index)": {
+      "price": 19.3,
+      "day_chg": 11.69,
+      "5d_chg": 19.14
+    },
+    "10Y Treasury Yield": {
+      "price": 4.481,
+      "day_chg": 0.674,
+      "5d_chg": -0.13
+    },
+    "Gold": {
+      "price": 4156.7,
+      "day_chg": -0.603,
+      "5d_chg": -3.96
+    },
+    "Crude Oil": {
+      "price": 72.71,
+      "day_chg": -2.82,
+      "5d_chg": -9.96
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Nasdaq plunges as tech sell-off gains steam",
+        "url": "https://finance.yahoo.com/economy/live/stock-market-today-nasdaq-sp-500-plunge-as-global-chip-sell-off-spurs-ai-doubts-230258084.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Big Tech's heavy hitters lead market rout as AI trade cools",
+        "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-micron-amd-lead-tech-sell-off-as-ai-trade-cools-125946422.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SpaceX stock wipes out post-IPO gains",
+        "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-dips-below-150-before-rebounding-140331911.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The AI rally has a new test \u2014 a rising dollar",
+        "url": "https://finance.yahoo.com/markets/article/the-ai-rally-has-a-new-test--a-rising-dollar-chart-of-the-day-100000746.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Micron to post Q3 earnings amid sky-high data center demand",
+        "url": "https://finance.yahoo.com/technology/article/micron-to-report-third-quarter-earnings-amid-sky-high-demand-from-data-centers-113000152.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "'Looking over our shoulder': Traders load up on VIX calls",
+        "url": "https://finance.yahoo.com/markets/options/articles/looking-over-shoulder-traders-loading-120652466.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Your 401(k) match may not be as generous as it used to be",
+        "url": "https://finance.yahoo.com/markets/article/your-401k-match-may-not-be-as-generous-as-it-used-to-be-100000215.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bitcoin sinks amid tech rout and may be 'vulnerable to further weakness'",
+        "url": "https://finance.yahoo.com/markets/article/bitcoin-vulnerable-to-further-weakness-as-token-tumbles-amid-tech-rout-123504444.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SpaceX's retail boom runs into its first price wall",
+        "url": "https://finance.yahoo.com/markets/article/spacexs-retail-boom-runs-into-its-first-price-wall-185036364.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The cover-your-eyes year for Salesforce keeps getting worse",
+        "url": "https://finance.yahoo.com/markets/stocks/article/spacex-isnt-the-only-big-tech-stock-getting-crushed--check-out-the-destruction-in-salesforce-122756818.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oracle slashes 21,000 jobs as AI build-out continues",
+        "url": "https://finance.yahoo.com/technology/article/oracle-cut-21000-jobs-as-ai-buildout-continues-125918523.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Amazon Prime Day shoppers plan to hold out for steep discounts",
+        "url": "https://finance.yahoo.com/markets/articles/amazon-prime-day-shoppers-plan-110000360.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Meta debuts AI-powered smart glasses, starting at $299",
+        "url": "https://finance.yahoo.com/technology/article/meta-debuts-ai-powered-meta-glasses-starting-at-299-130000232.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Nvidia just pushed deeper into biomedical research",
+        "url": "https://finance.yahoo.com/technology/article/nvidia-pushes-deeper-into-biomedical-research-130000481.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Wimbledon investors cash in with VIP seats costing over $500,000",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wimbledon-investors-cash-vip-seats-063000801.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Elon Musk's mom on trillionaire's only $99 suit amid early struggles",
+        "url": "https://finance.yahoo.com/small-business/articles/elon-musks-mom-recalls-buying-120036817.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Student loan borrowers can get a 1% interest rate discount",
+        "url": "https://finance.yahoo.com/personal-finance/student-loans/article/student-loan-borrowers-can-get-a-1-interest-rate-discount--how-to-make-sure-you-qualify-202124973.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tesla leads Cars.com's American-Made Index again",
+        "url": "https://finance.yahoo.com/markets/stocks/article/tesla-leads-carscoms-american-made-index-again-even-as-ev-sales-slump-122043806.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil steady as investors focus on Hormuz flows after peace talks",
+        "url": "https://finance.yahoo.com/news/oil-gains-selloff-awaits-progress-003527539.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Explainer-What are the Fed's bank 'stress tests' and what's new this year?",
+        "url": "https://finance.yahoo.com/economy/policy/articles/explainer-feds-bank-stress-tests-100627391.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "United Nations: business can\u2019t build economic resilience from the sidelines",
+        "url": "https://finance.yahoo.com/economy/policy/articles/united-nations-business-t-build-093000490.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed Chair Kevin Warsh Dropped a Bombshell at the FOMC Meeting -- and It's What He Didn't Say That Matters Most",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-chair-kevin-warsh-dropped-082600060.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Oil Prices Are Falling, but the Fed's Decision to Hold Interest Rates Steady May Challenge Opendoor Stock",
+        "url": "https://finance.yahoo.com/real-estate/articles/oil-prices-falling-feds-decision-080500280.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "A decade on from the Brexit vote, the U.K. will have 7 prime ministers, hit a demographic trap, and taken a 6% hit to its economy",
+        "url": "https://finance.yahoo.com/economy/articles/decade-brexit-vote-u-k-070000329.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kevin Warsh Is Shifting the Future of the Fed in 1 Major Way -- and It Might Rattle Wall Street",
+        "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-shifting-future-fed-052000192.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Why can\u2019t Britain hold on to prime ministers? It\u2019s the economy",
+        "url": "https://finance.yahoo.com/economy/articles/why-t-britain-hold-prime-040125108.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Santos Starts Continuous Oil Production at Alaska\u2019s Pikka Project",
+        "url": "https://finance.yahoo.com/energy/articles/santos-starts-continuous-oil-production-033000615.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "How Many Barrels of Oil Do AI Data Centers Consume on a Daily Basis?",
+        "url": "https://finance.yahoo.com/energy/articles/many-barrels-oil-ai-data-000000968.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Half-Open, Half-Closed Strait of Hormuz Baffles Oil Markets",
+        "url": "https://finance.yahoo.com/energy/articles/half-open-half-closed-strait-230000747.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Goolsbee says labor market stable, inflation going the wrong way",
+        "url": "https://finance.yahoo.com/economy/policy/articles/feds-goolsbee-says-labor-market-213231927.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 51
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "World Monitor Pro \u2014 AI analyst, digest & MCP",
+        "values": []
+      },
+      {
+        "label": "World Monitor Blog \u2014 OSINT guides & analysis",
+        "values": []
+      },
+      {
+        "label": "What is World Monitor?",
+        "values": []
+      },
+      {
+        "label": "Open source on GitHub (AGPL-3.0)",
+        "values": []
+      },
+      {
+        "label": "Featured in WIRED",
+        "values": []
+      },
+      {
+        "label": "See | \u2014 56 map layers across a dual 3D-globe/WebGL map: conflicts, vessels, flights, satellites, pipelines, submarine cables, AI datacenters.",
+        "values": []
+      },
+      {
+        "label": "Understand | \u2014 daily AI brief, Country Instability Index across 196 countries, cross-source correlation, Scenario Engine.",
+        "values": []
+      },
+      {
+        "label": "Act | \u2014 custom monitors and alerts, Route Explorer, 39-tool MCP server and API for Claude, GPT and custom agents.",
+        "values": []
+      }
+    ],
+    "notes": [
+      "By the time it's news, you already knew.",
+      "Free global intelligence dashboard \u00b7 live now. Headlines are the lag. World Monitor streams the world's raw signals \u2014 ships, jets, sirens, cables, markets \u2014 onto one live map, with AI that flags when they converge into something that matters.",
+      "2M+ users \u00b7 Open source \u00b7 AGPL-3.0.Launch the dashboard\u2014 Free \u00b7 No signup \u00b7 Loads in seconds.",
+      "This page is plugged into the same APIs as the dashboard.",
+      "Four of the hundred-plus signals World Monitor watches around the clock.",
+      "Top signals \u00b7 Instability index \u00b7 Maritime chokepoints \u00b7 Markets",
+      "What is World Monitor?",
+      "Best real-time geopolitical intelligence dashboard for markets",
+      "Commodity disruption monitoring",
+      "How World Monitor is different from a conflict map or market terminal"
+    ],
+    "raw_snippet": "World Monitor \u2014 Free Real-Time Global Intelligence Dashboard\nBy the time it's news, you already knew.\nFree global intelligence dashboard \u00b7 live now. Headlines are the lag. World Monitor streams the world's raw signals \u2014 ships, jets, sirens, cables, markets \u2014 onto one live map, with AI that flags when they converge into something that matters.\n2M+ users \u00b7 Open source \u00b7 AGPL-3.0.\nLaunch the dashboard\n\u2014 Free \u00b7 No signup \u00b7 Loads in seconds.\nThis page is plugged into the same APIs as the dashboard.\nFour of the hundred-plus signals World Monitor watches around the clock.\nTop signals \u00b7 Instability index \u00b7 Maritime chokepoints \u00b7 Markets\nWhat is World Monitor?\nWorld Monitor is a free real-time global intelligence dashboard that correlates geopolitics, markets, commodities, shipping, aviation, infrastructure, cyber threats, weather and live news on one map. It is designed for people who need to see when separate signals converge before they become a consensus headline.\nBest real-time geopolitical intelligence dashboard for markets\nFor market analysis, World Monitor combines country risk, conflict events, sanctions, shipping chokepoints, military flight activity, macro indicators, FX, equities, crypto, energy and safe-haven assets. The value is the correlation layer: geopolitical pressure, transmission path and price action are visible together instead of split across news, maps and market terminals.\nCommodity disruption monitoring\nFor commodity intelligence, World Monitor connects physical supply signals with traded markets: AIS vessel movement, ports, pipelines, LNG, refineries, waterways, chokepoints, weather, fires, earthquakes, outages, conflict layers, oil, gas, gold, metals, grains, miners, shipping names and commodity-linked currencies. Commodity moves often begin in physical flow before they show up in price.\nHow World Monitor is different from a conflict map or market terminal\nConflict maps show events. Market terminals show prices. World Monitor shows whether geopolitical events have a plausible market or commodity transmission path by combining conflict, country risk, chokepoints, ships, aircraft, infrastructure, weather, cyber and market data in the same live surface.\nSource-backed intelligence surfaces\nWorld Monitor cites sources inside the dashboard and uses public or documented feeds including\nACLED\n,\nUCDP\n,\nAISStream\n,\nOpenSky\n,\nNASA FIRMS\n,\nUSGS\n,\nFRED\n,\nIMF\n,\nBIS\n,\nEIA\nand\nFinnhub\n.\nThe edge is seeing the signals move together.\nYou can find the feeds in a hundred places. The edge is one surface where geopolitics, shipping, commodities, macro, markets, weather, infrastructure, cyber, news and country risk can explain each other.\nThe market move has a map.\nGeopolitics + markets + macro.\nCountry risk, sanctions, hotspot escalation, official alerts and news velocity show where geopolitical pressure is rising. Ships, chokepoints, flights, cables and infrastructure proximity show whether that pressure can hit supply, trade or capital routes. Ra"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Wall St tumbles on tech selloff as concerns about hawkish Fed, AI spending mount",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1782222667"
+      },
+      {
+        "title": "US futures fall on tech selloff as concerns about hawkish Fed, AI spending mount",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1782220111"
+      },
+      {
+        "title": "Nasdaq 100 set to shed over $1 trillion as tech selloff deepens; SpaceX slides",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1782210647"
+      },
+      {
+        "title": "Tech Selloff Deepens \u2014 WSJ",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Dow Jones Newswires)",
+        "published": "1782206940"
+      },
+      {
+        "title": "Wall Street crash: Why S&P 500, Nasdaq futures tumbled today after KOSPI\u2019s 10% fall; AI sell-off deepens",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Moneycontrol)",
+        "published": "1782199845"
+      },
+      {
+        "title": "Netweb, Orient Tech, E2E Networks shares decline up to 3% amid global AI selloff; Black Box bucks trend",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Moneycontrol)",
+        "published": "1782197365"
+      },
+      {
+        "title": "U.S. Stock Indexes Mostly Fall Led by Tech Names \u2014 Market Talk",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Dow Jones Newswires)",
+        "published": "1782159060"
+      },
+      {
+        "title": "S&P 500, Nasdaq close lower, dragged by Alphabet and megacap tech; focus on Iran",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1782158437"
+      },
+      {
+        "title": "US futures muted as markets weigh Iran talks, inflation data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (CNBC TV18)",
+        "published": "1782134176"
+      },
+      {
+        "title": "Nebius, CoreWeave Join Nasdaq-100 Today: Which Neocloud Stock Has Better Upside On Wall Street?",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Stocktwits)",
+        "published": "1782113150"
+      },
+      {
+        "title": "Peace now or maybe later?",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1781865578"
+      },
+      {
+        "title": "Asian stocks hit record, oil heads for weekly loss",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Moneycontrol)",
+        "published": "1781830545"
+      },
+      {
+        "title": "Wall St indexes advance with boost from chips, Iran optimism",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1781815949"
+      },
+      {
+        "title": "Wall St indexes advance with boost from chips, falling oil prices",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1781807991"
+      },
+      {
+        "title": "Wall St advances as Iran deal optimism offsets hawkish Fed; Intel jumps",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1781797269"
+      },
+      {
+        "title": "US RICHMOND FED MANUFACTURING EMPLOYMENT INDEX -1 IN JUNE VS. 3 IN MAY, 0 IN APRIL",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1782223260"
+      },
+      {
+        "title": "US RICHMOND FED MANUFACTURING NEW ORDERS INDEX 9 IN JUNE VS. 17 IN MAY, 8 IN APRIL",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1782223260"
+      },
+      {
+        "title": "US RICHMOND FED MANUFACTURING PRICES PAID INDEX 6.99 IN JUNE VS. 5.96 IN MAY, 6.40 IN APRIL, NOT SEASONALLY ADJUSTED",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1782223260"
+      },
+      {
+        "title": "US RICHMOND FED MANUFACTURING INDEX 4 IN JUNE VS. 13 IN MAY, 3 IN APRIL (VS. 8 MARKETS EXPECTED FOR JUNE)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1782223200"
+      },
+      {
+        "title": "PRELIMINARY US MANUFACTURING PMI 55.7 IN JUNE VS 54.7 EXPECTED AND 55.1 IN MAY",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1782222360"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "ADP Employment Change Weekly",
+        "country": "US",
+        "impact": "0",
+        "actual": "30.75",
+        "forecast": "None",
+        "previous": "26.5"
+      },
+      {
+        "title": "Redbook YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "10",
+        "forecast": "None",
+        "previous": "9.4"
+      },
+      {
+        "title": "S&P Global Manufacturing PMI Flash",
+        "country": "US",
+        "impact": "0",
+        "actual": "55.7",
+        "forecast": "54.8",
+        "previous": "55.1"
+      },
+      {
+        "title": "S&P Global Composite PMI Flash",
+        "country": "US",
+        "impact": "0",
+        "actual": "52.2",
+        "forecast": "None",
+        "previous": "51.5"
+      },
+      {
+        "title": "S&P Global Services PMI Flash",
+        "country": "US",
+        "impact": "0",
+        "actual": "51.3",
+        "forecast": "51",
+        "previous": "50.7"
+      },
+      {
+        "title": "Richmond Fed Manufacturing Shipments Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "3",
+        "forecast": "None",
+        "previous": "16"
+      },
+      {
+        "title": "Richmond Fed Manufacturing Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "4",
+        "forecast": "9",
+        "previous": "13"
+      },
+      {
+        "title": "Richmond Fed Services Revenues Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-1",
+        "forecast": "None",
+        "previous": "14"
+      },
+      {
+        "title": "6-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.6"
+      },
+      {
+        "title": "Money Supply",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "22.8"
+      },
+      {
+        "title": "2-Year Note Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "4.071"
+      },
+      {
+        "title": "API Crude Oil Stock Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-8.33"
+      }
+    ]
+  },
+  "price_action": {
+    "ticker": "NQ=F",
+    "bias": "LEANING BULLISH",
+    "score_pct": 20.0,
+    "alignment": "NO ALIGNMENT \u2014 mixed structure across timeframes",
+    "tf_summary": [
+      "Daily: RANGING",
+      "4H: BULLISH",
+      "1H: RANGING",
+      "15m: BEARISH"
+    ],
+    "timeframes": {
+      "Daily": {
+        "structure": "RANGING",
+        "sh_score": 0.2,
+        "sl_score": -0.6,
+        "swings": [
+          {
+            "type": "SH",
+            "price": 25250.0,
+            "date": "2026-03-05"
+          },
+          {
+            "type": "SL",
+            "price": 24000.0,
+            "date": "2026-03-09"
+          },
+          {
+            "type": "SH",
+            "price": 24989.0,
+            "date": "2026-03-18"
+          },
+          {
+            "type": "SL",
+            "price": 22961.5,
+            "date": "2026-03-31"
+          },
+          {
+            "type": "SH",
+            "price": 29782.0,
+            "date": "2026-05-14"
+          },
+          {
+            "type": "SL",
+            "price": 28663.0,
+            "date": "2026-05-19"
+          },
+          {
+            "type": "SH",
+            "price": 30807.75,
+            "date": "2026-06-03"
+          },
+          {
+            "type": "SL",
+            "price": 28227.75,
+            "date": "2026-06-09"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "Daily",
+        "current": 29980.5,
+        "prev_high": 30968.0,
+        "prev_low": 30337.5,
+        "prev_close": 30653.5,
+        "resistance": 30807.75,
+        "support": 28663.0,
+        "recent_candles": [
+          {
+            "date": "2026-06-18",
+            "open": 29758.5,
+            "high": 30285.75,
+            "low": 29758.5,
+            "close": 30263.35,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-22",
+            "open": 30577.0,
+            "high": 30968.0,
+            "low": 30337.5,
+            "close": 30653.5,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-23",
+            "open": 30662.75,
+            "high": 30701.25,
+            "low": 29616.5,
+            "close": 29980.5,
+            "direction": "DOWN"
+          }
+        ],
+        "bar_count": 124
+      },
+      "4H": {
+        "structure": "BULLISH",
+        "sh_score": 0.6,
+        "sl_score": 0.6,
+        "swings": [
+          {
+            "type": "SH",
+            "price": 30915.0,
+            "date": "2026-06-15"
+          },
+          {
+            "type": "SH",
+            "price": 30975.5,
+            "date": "2026-06-16"
+          },
+          {
+            "type": "SL",
+            "price": 30272.25,
+            "date": "2026-06-16"
+          },
+          {
+            "type": "SH",
+            "price": 30584.5,
+            "date": "2026-06-17"
+          },
+          {
+            "type": "SL",
+            "price": 29923.0,
+            "date": "2026-06-17"
+          },
+          {
+            "type": "SH",
+            "price": 30783.25,
+            "date": "2026-06-18"
+          },
+          {
+            "type": "SL",
+            "price": 30337.5,
+            "date": "2026-06-21"
+          },
+          {
+            "type": "SH",
+            "price": 30968.0,
+            "date": "2026-06-22"
+          }
+        ],
+        "bos": null,
+        "choch": {
+          "direction": "BEARISH",
+          "level": 30337.5,
+          "date": "2026-06-21",
+          "label": "CHoCH \u2014 broke below swing low (structure flip)"
+        },
+        "label": "4H",
+        "current": 29981.75,
+        "prev_high": 29933.75,
+        "prev_low": 29752.0,
+        "prev_close": 29873.25,
+        "resistance": 30379.0,
+        "support": 29923.0,
+        "recent_candles": [
+          {
+            "date": "2026-06-23",
+            "open": 30370.0,
+            "high": 30370.25,
+            "low": 29889.0,
+            "close": 29909.0,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-06-23",
+            "open": 29909.5,
+            "high": 29933.75,
+            "low": 29752.0,
+            "close": 29873.25,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-06-23",
+            "open": 29872.0,
+            "high": 30004.25,
+            "low": 29616.5,
+            "close": 29981.75,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 151
+      },
+      "1H": {
+        "structure": "RANGING",
+        "sh_score": 0.2,
+        "sl_score": 0.2,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 30355.0,
+            "date": "2026-06-18"
+          },
+          {
+            "type": "SL",
+            "price": 30337.5,
+            "date": "2026-06-21"
+          },
+          {
+            "type": "SH",
+            "price": 30659.0,
+            "date": "2026-06-22"
+          },
+          {
+            "type": "SH",
+            "price": 30781.75,
+            "date": "2026-06-22"
+          },
+          {
+            "type": "SH",
+            "price": 30968.0,
+            "date": "2026-06-22"
+          },
+          {
+            "type": "SH",
+            "price": 30701.25,
+            "date": "2026-06-22"
+          },
+          {
+            "type": "SL",
+            "price": 30524.0,
+            "date": "2026-06-22"
+          },
+          {
+            "type": "SL",
+            "price": 30503.0,
+            "date": "2026-06-22"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "1H",
+        "current": 29981.75,
+        "prev_high": 29934.75,
+        "prev_low": 29616.5,
+        "prev_close": 29926.0,
+        "resistance": 30112.0,
+        "support": 29923.0,
+        "recent_candles": [
+          {
+            "date": "2026-06-23",
+            "open": 29872.0,
+            "high": 29900.75,
+            "low": 29706.5,
+            "close": 29735.0,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-06-23",
+            "open": 29735.0,
+            "high": 29934.75,
+            "low": 29616.5,
+            "close": 29926.0,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-23",
+            "open": 29926.0,
+            "high": 30004.25,
+            "low": 29921.0,
+            "close": 29981.75,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 563
+      },
+      "15m": {
+        "structure": "BEARISH",
+        "sh_score": -0.2,
+        "sl_score": -0.6,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 30534.5,
+            "date": "2026-06-22"
+          },
+          {
+            "type": "SH",
+            "price": 30636.0,
+            "date": "2026-06-23"
+          },
+          {
+            "type": "SH",
+            "price": 29933.75,
+            "date": "2026-06-23"
+          },
+          {
+            "type": "SH",
+            "price": 29900.75,
+            "date": "2026-06-23"
+          },
+          {
+            "type": "SL",
+            "price": 30461.25,
+            "date": "2026-06-23"
+          },
+          {
+            "type": "SL",
+            "price": 30301.0,
+            "date": "2026-06-23"
+          },
+          {
+            "type": "SL",
+            "price": 29776.0,
+            "date": "2026-06-23"
+          },
+          {
+            "type": "SL",
+            "price": 29752.0,
+            "date": "2026-06-23"
+          }
+        ],
+        "bos": null,
+        "choch": {
+          "direction": "BULLISH",
+          "level": 29900.75,
+          "date": "2026-06-23",
+          "label": "CHoCH \u2014 broke above swing high (structure flip)"
+        },
+        "label": "15m",
+        "current": 29972.75,
+        "prev_high": 29934.75,
+        "prev_low": 29724.0,
+        "prev_close": 29926.0,
+        "resistance": 30419.75,
+        "support": 29923.0,
+        "recent_candles": [
+          {
+            "date": "2026-06-23",
+            "open": 29718.25,
+            "high": 29806.0,
+            "low": 29616.5,
+            "close": 29749.25,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-23",
+            "open": 29758.75,
+            "high": 29934.75,
+            "low": 29724.0,
+            "close": 29926.0,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-23",
+            "open": 29926.0,
+            "high": 30004.25,
+            "low": 29921.0,
+            "close": 29972.75,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 341
+      }
+    }
+  },
+  "tv_live": {
+    "available": false,
+    "error": "TradingView Desktop not running."
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is up 1.68% over the past 5 days, indicating a strong dollar which could be a headwind for NQ.\n* The VIX (Fear Index) has risen 19.14% over the past 5 days, suggesting increased fear and risk aversion in the market.\n* The 10Y Treasury Yield is up 0.674% today, indicating a potential increase in borrowing costs and pressure on tech/growth stocks.\n* Gold and Crude Oil are down, indicating a risk-off environment.\n* Overall, the macro environment is RISK-OFF, with a strong dollar, rising yields, and increased fear, all of which are bearish for NQ.\n\n## KEY NEWS ANALYSIS\n* The Nasdaq has plunged due to a tech sell-off, with Big Tech's heavy hitters leading the market rout.\n* The AI rally is being tested by a rising dollar, which could further exacerbate the sell-off.\n* Micron is set to post Q3 earnings, which could provide some insight into the demand for data center equipment.\n* Overall news sentiment is BEARISH for Nasdaq, with a focus on the tech sell-off and rising dollar.\n\n## ECONOMIC EVENTS IMPACT\n* The ADP Employment Change Weekly came in at 30.75, which is slightly above expectations, but the impact on NQ is likely to be limited.\n* The S&P Global Manufacturing PMI Flash came in at 55.7, which is slightly above expectations, but the impact on NQ is likely to be limited.\n* The Richmond Fed Manufacturing Index came in at 4, which is below expectations, indicating a potential slowdown in manufacturing.\n\n## MULTI-TIMEFRAME STRUCTURE\n* The Daily structure is RANGING, with a nearest resistance at 30807.75 and a nearest support at 28663.0.\n* The 4H structure is BULLISH, with a nearest resistance at 30379.0 and a nearest support at 29923.0.\n* The 1H structure is RANGING, with a nearest resistance at 30112.0 and a nearest support at 29923.0.\n* The 15m structure is BEARISH, with a nearest resistance at 30419.75 and a nearest support at 29923.0.\n* Overall multi-TF bias is LEANING BULLISH, but with NO ALIGNMENT across timeframes, indicating a mixed and potentially volatile market.\n\n## PREDICTION\n**NYSE SESSION SIDE: SELL SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | BEARISH | 60% | MEDIUM |\n\n**NQ Prediction: BEARISH**\n**Confidence: 60% \u2014 MEDIUM**\n\n## TOP REASONS\n1. The strong dollar and rising yields are likely to continue to put pressure on tech/growth stocks, leading to a bearish bias for NQ.\n2. The tech sell-off and AI rally test are likely to continue, with a focus on the rising dollar and increasing fear in the market.\n3. The mixed multi-TF structure and lack of alignment across timeframes indicate a potentially volatile market, with a leaning bearish bias.\n\n## KEY RISKS\n- A surprise bullish news event or economic data release could invalidate the bearish prediction.\n- A sudden change in market sentiment or a short squeeze could lead to a rapid reversal of the bearish trend.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- Watch for any surprise news events or economic data releases that could impact the market.\n- Keep an eye on the key levels, including the nearest resistance at 30807.75 and the nearest support at 28663.0.\n- Monitor the VIX and DXY for any changes in market sentiment or dollar strength.\n\n## ONE-LINE SUMMARY\n\"2026-06-23 NYSE SESSION: SELL SIDE \u2014 Strong dollar, rising yields, and tech sell-off are likely to continue to put pressure on NQ, with a medium confidence bearish bias.\"",
+    "bias_nq": "BEARISH",
+    "side": "SELL SIDE",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "playbook": {
+    "day_type": "TREND",
+    "day_confidence": "MEDIUM",
+    "day_score": 2,
+    "day_reasons": [
+      "NQ trend UP -> directional momentum",
+      "Weak TF alignment (+20%) -> range day",
+      "Daily structure RANGING",
+      "AI bias BEARISH",
+      "VIX elevated (19.3) -> trending/volatile"
+    ],
+    "bias": "BEARISH",
+    "side": "SELL SIDE",
+    "active_strategies": [
+      {
+        "name": "Break of Value + Retest",
+        "type": "TREND",
+        "win_rate": "50-60%",
+        "rr": "1:2 \u2013 1:3",
+        "stop": "12-20 pts",
+        "setup": "Trend day; price breaks VAH/VAL, then retests the broken level",
+        "bull_entry": "Buy first pullback to broken VAH (now support) \u2014 weak pullback + delta flip",
+        "bear_entry": "Sell first rally to broken VAL (now resistance) \u2014 weak pullback + delta flip",
+        "kill_switch": "Price closes back inside yesterday's value and stays",
+        "key": "T1",
+        "direction": "SELL",
+        "entry": "Sell first rally to broken VAL (now resistance) \u2014 weak pullback + delta flip",
+        "note": "Wait for the retest \u2014 NEVER chase the initial breakout",
+        "condition_met": true
+      },
+      {
+        "name": "Thin Zone Break (LVN Air Pocket)",
+        "type": "TREND",
+        "win_rate": "45-55%",
+        "rr": "1:2 \u2013 1:4",
+        "stop": "12-20 pts",
+        "setup": "Price at edge of HVN with LVN (thin gap) beyond it",
+        "bull_entry": "Stop-buy just above LVN edge \u2014 enter at START of gap, target next HVN",
+        "bear_entry": "Stop-sell just below LVN edge \u2014 enter at START of gap, target next HVN",
+        "kill_switch": "Price falls back inside the fat zone (HVN) it broke from",
+        "key": "T2",
+        "direction": "SELL",
+        "entry": "Stop-sell just below LVN edge \u2014 enter at START of gap, target next HVN",
+        "note": "Enter at START of LVN gap only \u2014 stacked buy/sell imbalances required",
+        "condition_met": true
+      },
+      {
+        "name": "Medium Range Acceptance Break",
+        "type": "TREND",
+        "win_rate": "Track own data",
+        "rr": "1:2 \u2013 1:3",
+        "stop": "12-18 pts below range POC",
+        "setup": "30-60 min medium range (20-40 NQ pts) builds, clear POC forms",
+        "bull_entry": "Buy break above range VAH or first micro-pullback to broken VAH",
+        "bear_entry": "Sell break below range VAL or first micro-pullback to broken VAL",
+        "kill_switch": "Breakout closes back inside medium range -> trapped breakout",
+        "key": "MY-T",
+        "direction": "SELL",
+        "entry": "Sell break below range VAL or first micro-pullback to broken VAL",
+        "note": "Wait 30-60 min for a medium range to build and accept (clear POC must form)",
+        "condition_met": true
+      }
+    ],
+    "off_strategies": [
+      "R1",
+      "R2",
+      "MY-R"
+    ],
+    "key_levels": [
+      "Daily Resistance: 30807.75",
+      "Daily Support: 28663.0",
+      "4H Resistance: 30379.0",
+      "4H Support: 29923.0",
+      "1H Resistance: 30112.0",
+      "1H Support: 29923.0",
+      "Prev Day High: 30968.0",
+      "Prev Day Low: 30337.5"
+    ],
+    "risk_note": "TREND RULES: Never fade the trend. Only trade retests/pullbacks. Stop 12-20 pts. 3 losers -> quit for the day."
+  },
+  "errors": []
+}

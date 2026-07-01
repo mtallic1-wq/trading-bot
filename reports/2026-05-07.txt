@@ -1,0 +1,89 @@
+ANALYSIS DATE: 2026-05-07
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 97.864 | Day: -0.159% | 5-Day: -0.22%
+  VIX (Fear Index): 17.34 | Day: -0.288% | 5-Day: +2.66%
+  10Y Treasury Yield: 4.318 | Day: -0.872% | 5-Day: -1.64%
+  Gold: 4750.4 | Day: +1.463% | 5-Day: +2.94%
+  Crude Oil: 91.42 | Day: -3.849% | 5-Day: -12.99%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 28729.75 | Trend: UP
+  1D: 0.05% | 5D: 4.11% | 10D: 6.67%
+  Prev High: 28800.0 | Prev Low: 28243.0 | Prev Close: 28716.75
+  Week High: 28800.0 | Week Low: 27163.25
+  Last 5 Candles: 2026-05-01 UP (O:27631.75 H:27917.0 L:27536.25 C:27835.75) | 2026-05-04 DOWN (O:27890.0 H:27965.75 L:27613.0 C:27776.0) | 2026-05-05 UP (O:27760.0 H:28247.0 L:27731.75 C:28136.0) | 2026-05-06 UP (O:28250.0 H:28800.0 L:28243.0 C:28716.75) | 2026-05-07 UP (O:28662.75 H:28814.5 L:28637.0 C:28729.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Stocks stall in wait for update on Iran-US deal proposalInvestors are waiting to hear Iran's response to a US peace push and bracing for fresh earnings to cement a standout season.
+  2. McDonald's earnings beat as value meals drive sales
+  3. AI gold rush leads to big pay hikes for Wall Street bankers
+  4. The S&P 500 is blowing up earnings estimates. But there's a catch.
+  5. How Tony Robbins is investing in the AI boom
+  6. Why Arm Holdings stock is sinking
+  7. Iran deal might take months, and they won't unconditionally surrender: Esper
+  8. UAE slips hidden oil tankers through Strait of Hormuz
+  9. Arm falls as supply worries cloud AI demand hopes
+  10. Whirlpool CFO says appliance demand is reaching 'recession-level lows'
+  11. Meta challenges UK media regulator over online safety fees
+  12. US startup Lunar Outpost raises $30 million to speed moon rover development
+  13. Fed’s Collins Favored Changing FOMC Statement With Dissenters
+  14. US productivity slows further in first quarter
+  15. Oil falls below $100 a barrel on Middle East peace hopes
+  16. US Waits on Iran’s Peace Deal Response as Israel Strikes Lebanon
+  17. Mexico's annual inflation eases in April for the first time in 2026
+  18. We're seeing 'the most impressive' earnings cycle in 2+ yearsInsigneo chief investment officer Ahmed Riesgo joins Yahoo Finance to share his thoughts on the current earnings cycle.
+  19. U.S.-Iran war may drag on: Former Secretary of Defense warns
+  20. AI in the grocery store: How this CEO is changing shopping
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St set to open near record highs as oil extends losses
+  2. Benchmark Treasury yield: Still coiling, but history warns calm won’t last
+  3. S&P 500, Nasdaq futures touch record highs as oil extends losses
+  4. Chip frenzy goes global
+  5. S&P 500, Nasdaq futures hit records as oil extends losses
+  6. S&P 500 and Nasdaq notch records; AMD results spark AI stock rally
+  7. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-06
+  8. S&P 500 and Nasdaq hit records; AMD results spark AI stock rally
+  9. S&P 500, Nasdaq hit fresh peak on Iran peace deal hope, strong AMD earnings
+  10. S&P 500, Nasdaq hit record highs on AI optimism, Middle East peace hopes
+  11. S&P 500 tests the ceiling as bulls step on the gas
+  12. Wall St set to extend rally as Middle East peace hopes, AI optimism boost sentiment
+  13. End in sight?
+  14. US stock futures rally on Middle East peace hopes, AI optimism
+  15. IBD: S&P 500 Stocks: Lithium Play Albemarle Eyes Breakout On Blowout Earnings
+
+=== ECONOMIC CALENDAR — 2026-05-07 ===
+  [-1] Challenger Job Cuts — Actual: 83.387 | Forecast: None | Prev: 60.62
+  [-1] Continuing Jobless Claims — Actual: 1766 | Forecast: 1800 | Prev: 1776
+  [-1] Jobless Claims 4-week Average — Actual: 203.25 | Forecast: None | Prev: 207.75
+  [0] Initial Jobless Claims — Actual: 200 | Forecast: 205 | Prev: 190
+  [0] Unit Labour Costs QoQ Prel — Actual: 2.3 | Forecast: 2.6 | Prev: 4.6
+  [0] Nonfarm Productivity QoQ Prel — Actual: 0.8 | Forecast: 1.4 | Prev: 1.6
+  [-1] Used Car Prices MoM — Actual: -1.6 | Forecast: None | Prev: 1.4
+  [-1] Used Car Prices YoY — Actual: 1.8 | Forecast: None | Prev: 6.2
+  [-1] Construction Spending MoM — Actual: None | Forecast: 0.2 | Prev: -0.3
+  [-1] Construction Spending MoM — Actual: None | Forecast: None | Prev: None
+  [-1] NY Fed Bill Purchases 1 to 4 months — Actual: None | Forecast: 7.585 | Prev: None
+  [-1] EIA Natural Gas Stocks Change — Actual: None | Forecast: 72 | Prev: 79
+  [-1] Consumer Inflation Expectations — Actual: None | Forecast: None | Prev: 3.4
+  [-1] 4-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.6
+  [-1] 8-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.62
+  [-1] 15-Year Mortgage Rate — Actual: None | Forecast: None | Prev: 5.64
+  [-1] 30-Year Mortgage Rate — Actual: None | Forecast: None | Prev: 6.3
+  [0] Fed Hammack Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Consumer Credit Change — Actual: None | Forecast: 12.5 | Prev: 9.48
+  [0] Fed Williams Speech — Actual: None | Forecast: None | Prev: None
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-07.

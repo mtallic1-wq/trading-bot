@@ -1,0 +1,88 @@
+ANALYSIS DATE: 2026-05-20
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.367 | Day: +0.067% | 5-Day: +0.90%
+  VIX (Fear Index): 17.94 | Day: -0.664% | 5-Day: +0.39%
+  10Y Treasury Yield: 4.651 | Day: -0.343% | 5-Day: +3.79%
+  Gold: 4497.0 | Day: -0.206% | 5-Day: -4.27%
+  Crude Oil: 101.7 | Day: -5.632% | 5-Day: +0.67%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29118.25 | Trend: SIDEWAYS
+  1D: 0.67% | 5D: -1.22% | 10D: 1.4%
+  Prev High: 29188.5 | Prev Low: 28663.0 | Prev Close: 28924.25
+  Week High: 29782.0 | Week Low: 28663.0
+  Last 5 Candles: 2026-05-14 UP (O:29537.0 H:29782.0 L:29448.25 C:29687.75) | 2026-05-15 DOWN (O:29690.0 H:29734.0 L:29089.75 C:29231.75) | 2026-05-18 DOWN (O:29135.0 H:29419.75 L:28814.75 C:29096.0) | 2026-05-19 DOWN (O:29100.0 H:29188.5 L:28663.0 C:28924.25) | 2026-05-20 UP (O:28929.75 H:29169.25 L:28797.25 C:29118.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Nvidia's high-stakes earnings are on deck. What to expect.The world's most valuable company is set to report results as its stock continues to rally even as rivals gain ground.
+  2. Stock futures rise in countdown to Nvidia earnings
+  3. Build-to-rent split could derail a bill to make houses affordable
+  4. Trump acquired stock in Disney, Netflix as he slammed them
+  5. CEOs are getting ruthless about worker performance
+  6. Value stocks with earnings strength post 3,500% run since 2000
+  7. Iran threatens to retaliate beyond Middle East if US attacks
+  8. Investors might be penalizing Nvidia for not boosting cash returns
+  9. Intel, Micron, other chip stocks extend bounce ahead of Nvidia results
+  10. US mortgage rates rise to highest level in 7 weeks: MBA
+  11. Exclusive-ASML CEO sees tight supply in booming chip market as AI demand soars
+  12. AI shift forces skills rethink at India tech hubs, Kimberly-Clark executive says
+  13. When will gas prices go down? Brace for 'most volatile summer at the pump in years.'
+  14. Wall St set to open higher as chip stocks rally ahead of Nvidia results
+  15. Meta Begins 8,000 Global Job Cuts in AI Efficiency Push
+  16. Bond yields pause near recent highs, stocks steady ahead of Nvidia results
+  17. India's Nykaa seeks to include Meta in music copyright fight with Zee
+  18. There are '2 bear cases' for Nvidia ahead of earningsNvidia (NVDA) reports first quarter earnings results on Wednesday after the closing bell. Gabelli Funds portfolio manager John Belton joins Yahoo Finance to share his expectations for the print, as well as two reasons one might be bearish on the stock.
+  19. Forget "k-shape", this is a "Pac-Man" economy
+  20. Nvidia earnings: TSM's results may give 'a clue' on what to expect
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  500+ curated RSS news feeds, 65+ external data sources, 50+ map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St set to open higher as chip stocks rally ahead of Nvidia results
+  2. Wall Street futures climb as chip stocks rebound ahead of Nvidia results
+  3. Nvidia vigil
+  4. US stock futures climb as chip stocks rebound ahead of Nvidia results
+  5. Wall St ends lower as inflation worries push up yields
+  6. Wall St slips as inflation worries push yields higher
+  7. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-19
+  8. Wall St slips as inflation worries push yields to new highs
+  9. Tax refund season fuels retail investor frenzy, with May set to smash records
+  10. Wall St slips as inflation fears push yields higher
+  11. US stock futures fall with investor focus on Nvidia 
+  12. Wall St eyes lower open on extended chip selloff, inflation concerns
+  13. US stock futures fall on extended chip losses, inflation worries
+  14. US stock futures fall as chips extend slide, inflation worries persist
+  15. HEADS UP: FED GOV BARR REMARKS ON CONSUMER FINANCIAL HEALTH METRICS AT FINANCIAL HEALTH NETWORK CONFERENCE COMING UP AT 9:15A ET
+
+=== ECONOMIC CALENDAR — 2026-05-20 ===
+  [-1] MBA Mortgage Market Index — Actual: 283.5 | Forecast: None | Prev: 290.1
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.56 | Forecast: None | Prev: 6.46
+  [-1] MBA Mortgage Refinance Index — Actual: 920.2 | Forecast: None | Prev: 921.1
+  [-1] MBA Mortgage Applications — Actual: -2.3 | Forecast: None | Prev: 1.7
+  [-1] MBA Purchase Index — Actual: 170.4 | Forecast: None | Prev: 177.7
+  [0] Fed Paulson Speech — Actual: None | Forecast: None | Prev: None
+  [0] Fed Barr Speech — Actual: None | Forecast: None | Prev: None
+  [-1] EIA Heating Oil Stocks Change — Actual: None | Forecast: None | Prev: 0.153
+  [-1] EIA Distillate Fuel Production Change — Actual: None | Forecast: None | Prev: -0.124
+  [-1] EIA Crude Oil Imports Change — Actual: None | Forecast: None | Prev: -0.318
+  [0] EIA Gasoline Stocks Change — Actual: None | Forecast: -2.1 | Prev: -4.084
+  [-1] EIA Refinery Crude Runs Change — Actual: None | Forecast: None | Prev: 0.37
+  [-1] EIA Gasoline Production Change — Actual: None | Forecast: None | Prev: 0.222
+  [-1] EIA Cushing Crude Oil Stocks Change — Actual: None | Forecast: None | Prev: -1.702
+  [0] EIA Crude Oil Stocks Change — Actual: None | Forecast: -2.9 | Prev: -4.306
+  [-1] EIA Distillate Stocks Change — Actual: None | Forecast: -1.1 | Prev: 0.19
+  [-1] 17-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.615
+  [-1] 20-Year Bond Auction — Actual: None | Forecast: None | Prev: 4.883
+  [1] FOMC Minutes — Actual: None | Forecast: None | Prev: None
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-20.

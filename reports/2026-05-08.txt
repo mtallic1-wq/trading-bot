@@ -1,0 +1,89 @@
+ANALYSIS DATE: 2026-05-08
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 97.916 | Day: -0.340% | 5-Day: -0.30%
+  VIX (Fear Index): 16.91 | Day: -0.995% | 5-Day: -0.47%
+  10Y Treasury Yield: 4.364 | Day: -0.638% | 5-Day: -0.32%
+  Gold: 4734.7 | Day: +0.743% | 5-Day: +2.26%
+  Crude Oil: 95.31 | Day: +0.527% | 5-Day: -6.50%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 28917.0 | Trend: UP
+  1D: 0.82% | 5D: 3.88% | 10D: 5.4%
+  Prev High: 28944.75 | Prev Low: 28552.0 | Prev Close: 28682.25
+  Week High: 28944.75 | Week Low: 27536.25
+  Last 5 Candles: 2026-05-04 DOWN (O:27890.0 H:27965.75 L:27613.0 C:27776.0) | 2026-05-05 UP (O:27760.0 H:28247.0 L:27731.75 C:28136.0) | 2026-05-06 UP (O:28250.0 H:28800.0 L:28243.0 C:28716.75) | 2026-05-07 UP (O:28662.75 H:28944.75 L:28552.0 C:28682.25) | 2026-05-08 UP (O:28582.0 H:28976.0 L:28541.0 C:28917.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. April jobs reportThe US economy added 115,000 jobs, far better than expected
+  2. The AI arms race is eating into Big Tech's cash flowThe AI boom has made Big Tech richer, bigger, and suddenly much hungrier for cash.
+  3. Stock futures rise with investors eyeing US-Iran, jobs
+  4. Trade court strikes down Trump's 10% blanket tariffs
+  5. What the latest ruling on Trump's tariffs could mean for businesses
+  6. Jobs report on deck as Cloudflare, Upwork add to tech layoffs
+  7. US said to suspect Nvidia chips smuggled to Alibaba via Thailand
+  8. Food prices rise to highest in 3 years on Iran war costs
+  9. Iran turns to China rail link to try to bypass US blockade
+  10. Toyota expects $4.3 billion hit from effects of Iran war
+  11. Anthropic weighs deal for near $1tn valuation as revenue surges
+  12. April jobs report: Economy adds 115,000 jobs, far better than expected
+  13. Amazon's Chile data center moves ahead after residents lose environmental challenge
+  14. Lilly's obesity pill tops 7,000 prescriptions in fourth week, signals modest uptake
+  15. Global equity funds draw inflows for the seventh week on earnings optimism
+  16. US job growth beats expectations in April; unemployment rate steady at 4.3%
+  17. US stock futures extend gains after April non-farm payrolls data
+  18. Oil pares early gains a day after renewed US-Iran fighting
+  19. US economy adds 115,000 jobs in AprilThe US economy grew by 115,000 non-farm payroll jobs in April, according to the US Bureau of Labor Statistics (BLS), well above economists' forecasts of 65,000.  Additionally, average hourly earnings rose by 3.6% year-over-year while the unemployment rate held at 4.3%. Morning Brief Host Julie Hyman and Yahoo Finance Head of News Myles Udland dive into the details of the April jobs report.
+  20. Kevin Warsh will be a 'healthy' change for the Fed: Sheila Bair
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St set to open higher after strong jobs data, chip recovery
+  2. US stock futures add slightly to gains after latest jobs data 
+  3. US stock futures extend gains after April non-farm payrolls data
+  4. US stock futures rise as chips rebound ahead of jobs data
+  5. Chip push, crude pull
+  6. S&P 500 ends down as chip stocks give up gains
+  7. S&P 500 dips as chip stocks give up gains
+  8. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-07
+  9. Wall St stalls as chips retreat after record run; jobs data in focus
+  10. S&P 500, Nasdaq at record highs as oil pullback brings relief
+  11. Wall St set to open near record highs as oil extends losses
+  12. Benchmark Treasury yield: Still coiling, but history warns calm won’t last
+  13. S&P 500, Nasdaq futures touch record highs as oil extends losses
+  14. Chip frenzy goes global
+  15. US Futures Rebound to Record Highs
+
+=== ECONOMIC CALENDAR — 2026-05-08 ===
+  [0] Fed Cook Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Manufacturing Payrolls — Actual: -2 | Forecast: 5 | Prev: 15
+  [1] Non Farm Payrolls — Actual: 115 | Forecast: 62 | Prev: 185
+  [0] Average Hourly Earnings MoM — Actual: 0.2 | Forecast: 0.3 | Prev: 0.2
+  [1] Unemployment Rate — Actual: 4.3 | Forecast: 4.3 | Prev: 4.3
+  [0] Average Hourly Earnings YoY — Actual: 3.6 | Forecast: 3.8 | Prev: 3.4
+  [-1] Nonfarm Payrolls Private — Actual: 123 | Forecast: 75 | Prev: 190
+  [-1] Government Payrolls — Actual: -8 | Forecast: None | Prev: -5
+  [-1] U-6 Unemployment Rate — Actual: 8.2 | Forecast: None | Prev: 8
+  [0] Participation Rate — Actual: 61.8 | Forecast: None | Prev: 61.9
+  [-1] Average Weekly Hours — Actual: 34.3 | Forecast: 34.2 | Prev: 34.2
+  [1] Michigan Consumer Sentiment Prel — Actual: None | Forecast: 49.5 | Prev: 49.8
+  [-1] Michigan Current Conditions Prel — Actual: None | Forecast: 52 | Prev: 52.5
+  [-1] Michigan Inflation Expectations Prel — Actual: None | Forecast: None | Prev: 4.7
+  [-1] Michigan 5 Year Inflation Expectations Prel — Actual: None | Forecast: None | Prev: 3.5
+  [-1] Michigan Consumer Expectations Prel — Actual: None | Forecast: 48.1 | Prev: 48.1
+  [-1] Wholesale Inventories MoM — Actual: None | Forecast: 1.4 | Prev: 0.8
+  [0] Fed Goolsbee Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Baker Hughes Oil Rig Count — Actual: None | Forecast: None | Prev: 408
+  [-1] Baker Hughes Total Rigs Count — Actual: None | Forecast: None | Prev: 547
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-08.

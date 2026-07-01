@@ -1,0 +1,75 @@
+ANALYSIS DATE: 2026-05-11
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 97.88 | Day: +0.041% | 5-Day: -0.60%
+  VIX (Fear Index): 18.23 | Day: +6.050% | 5-Day: -0.33%
+  10Y Treasury Yield: 4.378 | Day: +0.321% | 5-Day: -1.53%
+  Gold: 4746.0 | Day: +0.542% | 5-Day: +5.01%
+  Crude Oil: 96.25 | Day: +0.870% | 5-Day: -9.56%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29362.0 | Trend: UP
+  1D: 0.1% | 5D: 5.71% | 10D: 7.0%
+  Prev High: 29386.75 | Prev Low: 28541.0 | Prev Close: 29332.5
+  Week High: 29386.75 | Week Low: 27613.0
+  Last 5 Candles: 2026-05-05 UP (O:27760.0 H:28247.0 L:27731.75 C:28136.0) | 2026-05-06 UP (O:28250.0 H:28800.0 L:28243.0 C:28716.75) | 2026-05-07 UP (O:28662.75 H:28944.75 L:28552.0 C:28682.25) | 2026-05-08 UP (O:28582.0 H:29386.75 L:28541.0 C:29332.5) | 2026-05-11 UP (O:29294.0 H:29434.75 L:29225.75 C:29362.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. A surprising thing is happening under the S&P 500's record runDon't overlook the warning signs in the market.
+  2. Stocks muted as Trump rejects Iran response to deal
+  3. Trump goes to China, inflation comes to America
+  4. Massive AI investments come with one downside for Big Tech investors
+  5. Goldman Sachs explains why the war hasn't derailed the global economy
+  6. Former X CEO: 'I couldn't have been prouder' of X's transformation
+  7. The CEO of this crashed-out software stock just made a stunning $1T prediction
+  8. Tariffs, AI, and Strait of Hormuz in focus for Trump's Beijing visit
+  9. The economic warning stock market bulls are probably forgetting
+  10. Moderna stock adds to gains on hantavirus research
+  11. Cloudflare stock rebounds from steep post-earnings sell-off
+  12. AI Wins Have Alphabet Poised to Become World’s Biggest Company
+  13. Wall St slips at open as US-Iran impasse lifts oil
+  14. OpenAI to Buy Consulting Firm for JV With Private Equity
+  15. Stock market concentration - a feature, not a bug: McGeever
+  16. China Warns of Imported Inflation Risk as Oil Prices Increase
+  17. Bill Gates-Backed Fervo Energy Boosts IPO Target to $1.8 Billion
+  18. Tony Robbins: How to future-proof your job in the age of AIArtificial intelligence (AI) has become the defining buzzword across the business world in recent years. While companies are racing to adopt it, many workers worry about its impact on jobs. Yahoo Finance Executive Editor Brian Sozzi sat down with serial entrepreneur and author Tony Robbins at the Milken Institute Global Conference in Beverly Hills, CA, to break down the AI landscape, what re-skilling really looks like, and how to navigate a future shaped by
+  19. Rebuilding X was messy: Former CEO shares why
+  20. Young people shouldn't do prediction markets at all: Sheila Bair
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  500+ curated RSS news feeds, 65+ external data sources, 50+ map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Nasdaq 100's AI glow masks a higher bar
+  2. Energy’s big lead comes with a big warning
+  3. Wall St set for subdued open as US-Iran impasse lifts oil
+  4. Wall St futures subdued as U.S.-Iran talks stall
+  5. 11 weeks and counting
+  6. U.S. stock futures subdued as talks with Iran stall
+  7. S&P 500 and Nasdaq notch records, boosted by AI and earnings optimism
+  8. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-08
+  9. S&P 500 and Nasdaq hit records, boosted by AI and earnings optimism
+  10. S&P 500, Nasdaq hit record highs on tech rally, strong jobs data
+  11. S&P 500, Nasdaq hit fresh peaks as tech stocks, jobs data lift sentiment
+  12. Wall St set to open higher after strong jobs data, chip recovery
+  13. US stock futures add slightly to gains after latest jobs data 
+  14. US stock futures extend gains after April non-farm payrolls data
+  15. US stock futures rise as chips rebound ahead of jobs data
+
+=== ECONOMIC CALENDAR — 2026-05-11 ===
+  [1] Existing Home Sales — Actual: 4.02 | Forecast: 4.05 | Prev: 4.01
+  [0] Existing Home Sales MoM — Actual: 0.2 | Forecast: None | Prev: -2.9
+  [-1] NY Fed Bill Purchases 1 to 4 months — Actual: None | Forecast: 7.587 | Prev: None
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.61
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.61
+  [-1] 3-Year Note Auction — Actual: None | Forecast: None | Prev: 3.897
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-11.

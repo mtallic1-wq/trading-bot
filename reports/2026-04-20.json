@@ -1,0 +1,506 @@
+{
+  "date": "2026-04-20",
+  "created": "2026-04-20T18:52:09.015648",
+  "is_historical": false,
+  "bias_nq": "NEUTRAL",
+  "bias_es": "NEUTRAL",
+  "side": "NEUTRAL",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 26748.0,
+    "prev_day_high": 26884.75,
+    "prev_day_low": 26440.0,
+    "prev_day_close": 26825.5,
+    "week_high": 26884.75,
+    "week_low": 24904.5,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": -0.29,
+      "5d_pct": 4.72,
+      "10d_pct": 9.81
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-14",
+        "open": 25575.25,
+        "high": 26003.25,
+        "low": 25560.0,
+        "close": 25996.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-15",
+        "open": 25985.75,
+        "high": 26377.5,
+        "low": 25933.75,
+        "close": 26365.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-16",
+        "open": 26350.0,
+        "high": 26564.0,
+        "low": 26275.5,
+        "close": 26487.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-17",
+        "open": 26460.0,
+        "high": 26884.75,
+        "low": 26440.0,
+        "close": 26825.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-20",
+        "open": 26599.75,
+        "high": 26827.75,
+        "low": 26535.0,
+        "close": 26748.0,
+        "direction": "UP"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 7145.5,
+    "prev_day_high": 7185.75,
+    "prev_day_low": 7075.25,
+    "prev_day_close": 7161.5,
+    "week_high": 7185.75,
+    "week_low": 6767.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": -0.22,
+      "5d_pct": 3.22,
+      "10d_pct": 7.43
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-14",
+        "open": 6925.25,
+        "high": 7008.0,
+        "low": 6920.25,
+        "close": 7004.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-15",
+        "open": 7004.0,
+        "high": 7064.5,
+        "low": 6991.75,
+        "close": 7060.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-16",
+        "open": 7057.25,
+        "high": 7089.0,
+        "low": 7046.5,
+        "close": 7077.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-17",
+        "open": 7077.25,
+        "high": 7185.75,
+        "low": 7075.25,
+        "close": 7161.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-20",
+        "open": 7102.5,
+        "high": 7154.5,
+        "low": 7085.0,
+        "close": 7145.5,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.147,
+      "day_chg": 0.048,
+      "5d_chg": -0.23
+    },
+    "VIX (Fear Index)": {
+      "price": 18.93,
+      "day_chg": 8.295,
+      "5d_chg": -0.99
+    },
+    "10Y Treasury Yield": {
+      "price": 4.248,
+      "day_chg": 0.047,
+      "5d_chg": -1.14
+    },
+    "Gold": {
+      "price": 4841.2,
+      "day_chg": -0.338,
+      "5d_chg": 2.08
+    },
+    "Crude Oil": {
+      "price": 86.09,
+      "day_chg": 2.671,
+      "5d_chg": -13.11
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Stock sag as US-Iran tensions increase againMajor gauges slipped after an Iranian tanker was seized by US forces in the Strait of Hormuz",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-sp-500-nasdaq-dow-edge-lower-as-us-iran-tensions-flare-up-again-shuttering-hormuz-230354669.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Hormuz traffic at standstill after US seizes Iran-linked ship, oil surges",
+        "url": "https://finance.yahoo.com/news/oil-surges-back-up-as-iran-says-strait-of-hormuz-is-closed-us-navy-seizes-iranian-vessel-130246378.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "How Charlie Ergen's SpaceX windfall could net billions",
+        "url": "https://finance.yahoo.com/markets/stocks/article/how-charlie-ergens-spacex-windfall-could-net-billions-140250505.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Psychedelic drugmakers jump as Trump fast-tracks FDA reviews",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/psychedelic-drug-makers-rally-trump-104310985.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Consumers think 2026 won't be the year of bitcoin's comeback: Deutsche Bank",
+        "url": "https://finance.yahoo.com/news/majority-of-consumers-think-2026-wont-be-the-year-of-bitcoins-comeback-deutsche-bank-134056670.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Amazon expected to report a strong quarter on the backs of AI demand",
+        "url": "https://finance.yahoo.com/news/amazon-expected-to-report-a-strong-quarter-on-the-backs-of-anthropics-claude-ai-demand-133116973.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Refund portal opens for tariffs struck down by Supreme Court",
+        "url": "https://finance.yahoo.com/markets/article/refund-portal-opens-for-tariffs-struck-down-by-supreme-court-132057361.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "CEOs should ring 'the fire alarm' on AI reorganization: Writer co-founder",
+        "url": "https://finance.yahoo.com/news/ceos-should-be-ringing-the-fire-alarm-on-ai-reorganization-writer-co-founder-says-131409292.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Semiconductor stocks haven't been this hot since the dot-com bubble",
+        "url": "https://finance.yahoo.com/news/semiconductor-stocks-havent-been-this-hot-since-the-dot-com-bubble--and-it-could-end-badly-131124176.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tesla earnings: Energy storage to pick up the slack",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/teslas-energy-storage-division-pick-100741770.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "India and South Korea plan $50 billion trade push with new deals",
+        "url": "https://finance.yahoo.com/news/south-koreas-lee-seek-big-021457774.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Factbox-Airlines cancel flights amid Middle East conflict",
+        "url": "https://finance.yahoo.com/news/factbox-airlines-cancel-flights-us-123532820.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Biogen buys China rights to immune disease drug in up to $850 million deal with TJ Biopharma",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/biogen-buys-china-rights-immune-130402388.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bond investors propose crisis 'pause clauses' for emerging countries",
+        "url": "https://finance.yahoo.com/news/bond-investors-propose-crisis-pause-114937177.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Central bank independence in focus as Fed chair nominee Kevin Warsh faces confirmation hearing",
+        "url": "https://finance.yahoo.com/economy/policy/article/central-bank-independence-in-focus-as-fed-chair-nominee-kevin-warsh-faces-confirmation-hearing-112647540.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Copper Wavers Near Two-Month High as US-Iran Tensions Escalate",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/copper-wavers-near-two-month-111443185.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Here's the stealthy reason stocks are at record highs",
+        "url": "https://finance.yahoo.com/news/heres-the-stealthy-reason-stocks-are-at-record-highs-110852589.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The hidden genius behind Babybel's cheese wax coatingBel North America CEO Peter McGuiness and Yahoo Finance Executive Editor Brian Sozzi break down how Babybel cheese\u2019s iconic red wax coating became a hands-on ritual that transformed cheese into a fun, portion-controlled snack.",
+        "url": "https://finance.yahoo.com/video/the-hidden-genius-behind-babybels-cheese-wax-coating-110000447.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What is Anthropic Mythos? And is it dangerous?",
+        "url": "https://finance.yahoo.com/video/what-is-anthropic-mythos-and-is-it-dangerous-100000675.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Blocking Kevin Warsh's confirmation could have 'grave' consequences",
+        "url": "https://finance.yahoo.com/video/blocking-kevin-warshs-confirmation-could-have-grave-consequences-100000092.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil surges back up as Iran says Strait of Hormuz is closed, US Navy seizes Iranian vesselOil prices climbed back up on Monday after Iran's Revolutionary Guard Corps said the Strait of Hormuz was closed and the US Navy fired upon and boarded an Iranian cargo ship.",
+        "url": "https://finance.yahoo.com/news/oil-surges-back-up-as-iran-says-strait-of-hormuz-is-closed-us-navy-seizes-iranian-vessel-130246378.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Oil and Gas Rise After US Seizure of Iranian Ship Imperils Talks(Bloomberg) -- Oil and natural gas prices rose after the US Navy seized an Iranian ship during a chaotic weekend that saw Tehran firing at vessels and reimposing controls in the Strait of Hormuz.Most Read from BloombergCruise Ships Seized Brief Hormuz Reopening to Flee Persian GulfUS Seizes Iranian Ship in Blockade, Casting Doubt on Peace TalksHormuz Chaos, Lebanon Clashes Dent Trump Peace Deal HopesNvidia Makes Quantum Computing CEO a Billionaire in DaysSingapore Tycoon Seeks $1 Billion From Ba",
+        "url": "https://finance.yahoo.com/news/oil-gas-jump-us-seizure-004914524.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Oil prices climb as US-Iran stand-off keeps Strait of Hormuz in limboOil prices climbed more than 5% while European markets fell on Monday morning as a stand-off between Iran and the US prevented tankers from using the Strait of Hormuz.View on euronews",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-climb-us-iran-053633648.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Oil rises 5%, stocks fall as tensions flare again over Strait of HormuzThe market moves followed Trump's announcement that the U.S. had fired on and seized an Iranian-flagged cargo ship in the Gulf of Oman",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/oil-jumps-6-u-iran-114026802.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Waller strikes a cautious tone on rate cuts amid oil shockFederal Reserve governor Chris Waller said Friday that whether or not the Iran war ends soon, he's cautious about cutting interest rates right now.",
+        "url": "https://finance.yahoo.com/economy/article/feds-waller-strikes-a-cautious-tone-on-rate-cuts-amid-oil-shock-182620919.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Miran says inflation picture has deteriorated \u2014 but still favors multiple rate cuts this yearFederal Reserve Governor Stephen Miran suggested on Thursday that he's become slightly more hawkish because inflation looks a bit stickier and he now sees less reason for accommodative monetary policy than he once did.",
+        "url": "https://finance.yahoo.com/economy/article/feds-miran-says-inflation-picture-has-deteriorated--but-still-favors-multiple-rate-cuts-this-year-190100956.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "An AI economic boom may be underway, and economists say the US is best positioned to benefitUS GDP could grow by more than 10% by 2034 on the back of large-scale economic growth driven by the boom in AI, according to BNP Paribas economists.",
+        "url": "https://finance.yahoo.com/news/an-ai-economic-boom-may-be-underway-and-economists-say-the-us-is-best-positioned-to-benefit-182949936.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Williams warns Iran war could boost inflation, hurt growthNew York Federal Reserve president John Williams said Thursday that the Middle East conflict has introduced \"substantial risks\" and heightened uncertainty for the US economy, signaling the central bank is intent on holding interest rates steady.",
+        "url": "https://finance.yahoo.com/economy/article/feds-williams-warns-iran-war-could-boost-inflation-hurt-growth-133038395.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Some companies are pulling back on hiring thanks to AIAI is leading some businesses to pump the brakes on hiring plans, according to the Federal Reserve's Beige Book.",
+        "url": "https://finance.yahoo.com/economy/policy/article/some-companies-are-pulling-back-on-hiring-thanks-to-ai-100000642.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Beige Book: Iran war has businesses on edgeThe war in Iran is complicating investment and hiring plans and creating new cost pressures for businesses, according to the Federal Reserve's Beige Book released Wednesday.",
+        "url": "https://finance.yahoo.com/economy/article/feds-beige-book-iran-war-has-businesses-on-edge-190550150.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 57
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Records all around, but the Dow RSVP's 'No'",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776690313"
+      },
+      {
+        "title": "Wall Street set for lower open as U.S.-Iran tensions rise",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776689113"
+      },
+      {
+        "title": "US stock futures fall after rally as Mideast tensions flare",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776684899"
+      },
+      {
+        "title": "Green light, red light",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776681423"
+      },
+      {
+        "title": "Wall Street indexes hit record\u00a0 highs as oil falls with Strait of Hormuz declared open",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776458945"
+      },
+      {
+        "title": "Wall Street indexes rally as oil falls with Strait of Hormuz opening",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776456043"
+      },
+      {
+        "title": "Wall Street indexes rally after Iran says Strait of Hormuz 'completely open'",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776452052"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-17",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776451505"
+      },
+      {
+        "title": "Wall Street poised for strong open after Iran says Strait of Hormuz open during ceasefire",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776432082"
+      },
+      {
+        "title": "From selloff to stampede: Magnificent Seven ETF nears a crossroads",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776430805"
+      },
+      {
+        "title": "Wall St poised to open higher on Middle East peace hopes",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776430757"
+      },
+      {
+        "title": "Wall St poised for weekly gain as futures climb on Middle East peace hopes",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776424507"
+      },
+      {
+        "title": "Investors give peace a chance",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776423442"
+      },
+      {
+        "title": "Wall St futures climb on Middle East peace hopes as investors eye strong finish to week",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776418877"
+      },
+      {
+        "title": "S&P 500 Falls 12.97 Points (0.18%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1776691980"
+      },
+      {
+        "title": "Wall St opens muted as US-Iran tensions escalate",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1776691951"
+      },
+      {
+        "title": "Crypto adoption shows signs of recovery",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1776691135"
+      },
+      {
+        "title": "'AI or die' - but can Big Tech's profits survive the energy squeeze?: McGeever",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1776690000"
+      },
+      {
+        "title": "The S&P 500 has blown past 7,000 in an epic comeback rally. Here's why it can keep going.",
+        "summary": "",
+        "source": "TradingView/ES Headlines (MarketWatch)",
+        "published": "1776689160"
+      },
+      {
+        "title": "US Futures Fall from Records",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1776686662"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "6-Month Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.61"
+      },
+      {
+        "title": "3-Month Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.62"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "Gemini API error: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]\n\n## Macro Environment\n- DXY: 98.147 (day +0.05%) \n- VIX: 18.93 (day +8.29%) (Fear low \u2014 risk-on)\n- 10Y Yield: 4.248 (day +0.05%) \n- Gold: 4841.2 (day -0.34%)\n- Oil: 86.09 (day +2.67%)\n- Environment: **MIXED**\n\n## Recent Headlines (Yahoo Finance)\n  - Stock sag as US-Iran tensions increase againMajor gauges slipped after an Iranian tanker was seized by US forces in the Strait of Hormuz\n  - Hormuz traffic at standstill after US seizes Iran-linked ship, oil surges\n  - How Charlie Ergen's SpaceX windfall could net billions\n  - Psychedelic drugmakers jump as Trump fast-tracks FDA reviews\n  - Consumers think 2026 won't be the year of bitcoin's comeback: Deutsche Bank\n  - Amazon expected to report a strong quarter on the backs of AI demand\n  - Refund portal opens for tariffs struck down by Supreme Court\n  - CEOs should ring 'the fire alarm' on AI reorganization: Writer co-founder\n\n## Market Trend\n- NQ: UP | Price: 26748.0 | 1D: -0.29% | 5D: 4.72%\n- ES: UP | Price: 7145.5 | 1D: -0.22% | 5D: 3.22%\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: NEUTRAL**\n**NQ: NEUTRAL** | **ES: NEUTRAL**\n\n_Note: Add ANTHROPIC_API_KEY to .env for full news-driven AI analysis with detailed reasoning._",
+    "bias_nq": "NEUTRAL",
+    "bias_es": "NEUTRAL",
+    "side": "NEUTRAL",
+    "source": "Fallback (API error)"
+  },
+  "errors": []
+}

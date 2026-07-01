@@ -1,0 +1,123 @@
+ANALYSIS DATE: 2026-06-17
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.689 | Day: +0.150% | 5-Day: -0.26%
+  VIX (Fear Index): 16.99 | Day: +3.534% | 5-Day: -23.54%
+  10Y Treasury Yield: 4.434 | Day: -1.181% | 5-Day: -2.59%
+  Gold: 4382.3 | Day: +1.187% | 5-Day: +6.67%
+  Crude Oil: 75.43 | Day: -0.815% | 5-Day: -16.22%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30406.5 | Trend: UP
+  1D: 1.37% | 5D: 6.49% | 10D: -0.74%
+  Prev High: 30664.5 | Prev Low: 29956.75 | Prev Close: 29995.0
+  Week High: 30664.5 | Week Low: 28265.75
+  Last 5 Candles: 2026-06-11 UP (O:28455.0 H:29544.25 L:28265.75 C:29464.75) | 2026-06-12 UP (O:29456.75 H:29760.0 L:29230.0 C:29662.0) | 2026-06-15 UP (O:29907.0 H:30612.5 L:29907.0 C:30559.25) | 2026-06-16 DOWN (O:30539.75 H:30664.5 L:29956.75 C:29995.0) | 2026-06-17 UP (O:30306.5 H:30584.5 L:30284.75 C:30406.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. All eyes on Warsh as Fed decision looms
+  2. Stocks waver as Wall Street braces for Fed decision
+  3. SpaceX stock slips for first time since blockbuster debut
+  4. Most Americans are OK with trillionaires — under one condition
+  5. Trump's nuclear deal risks falling short of Obama's
+  6. SpaceX's near $3T rally comes with one big catch
+  7. Billions in SpaceX trades jolt ETFs, including Wood's ARKK
+  8. White House woos Wall Street dealmakers with $400,000 jobs
+  9. Retail sales jump as consumers spend despite higher gas prices
+  10. Allbirds soars as AI pivot continues with name change
+  11. Snubbing Nvidia for Adobe costs Florida stock-picker $50B
+  12. Apple investors are losing patience with AI promises
+  13. SpaceX is sucking the oxygen out of the new space trade
+  14. Got SpaceX stock? Here's what to do next.
+  15. 'The conflicted middle': Half of America belongs to a new financial class
+  16. Apple may owe you up to $95 from a $250 million settlement
+  17. Scott Bessent confronted on Trump's 'A+++' economy
+  18. 'Collision course': Social Security hasn't been this bad since 1983
+  19. Q1 Earnings Highs And Lows: DoorDash (NASDAQ:DASH) Vs The Rest Of The Gig Economy Stocks
+  20. Oil rises 1% on US-Iran deal doubts; IEA warns of supply glut
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor Pro — AI analyst, digest & MCP 
+  World Monitor Blog — OSINT guides & analysis 
+  What is World Monitor? 
+  Open source on GitHub (AGPL-3.0) 
+  Featured in WIRED 
+  See | — 56 map layers across a dual 3D-globe/WebGL map: conflicts, vessels, flights, satellites, pipelines, submarine cables, AI datacenters. 
+  Understand | — daily AI brief, Country Instability Index across 196 countries, cross-source correlation, Scenario Engine. 
+  Act | — custom monitors and alerts, Route Explorer, 39-tool MCP server and API for Claude, GPT and custom agents. 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Why Rocket Lab (RKLB) Stock Is Up Today
+  2. Benchmark Treasury yield steadies ahead of Fed, bigger move still brewing
+  3. Wall Street futures mixed ahead of Fed meeting: 5 things to know before markets open
+  4. Tech Stocks Set for Rebound as Investors Await Fed Meeting — WSJ
+  5. Asian stocks edge lower with Fed decision in focus
+  6. Why is Nebius stock rising today?
+  7. SpaceX Is Already Having an Impact on One Major Stock Benchmark — WSJ
+  8. This Overlooked CoreWeave Disclosure Has Cantor Growing More Bullish — What Investors Need To Know
+  9. Asian stocks edge up with rate decisions in focus
+  10. Asian shares edge higher on Iran deal relief rally
+  11. Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide
+  12. SpaceX stock: prediction markets suggest it will fail to hit key milestone by 2030
+  13. SpaceX Soars in Historic IPO: Should You Play SPCX ETFs or the Stock?
+  14. 'Let the oil flow'
+  15. SpaceX IPO adds a dash of volatility to index-investing recipe
+
+=== ECONOMIC CALENDAR — 2026-06-17 ===
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.6 | Forecast: None | Prev: 6.6
+  [-1] MBA Mortgage Market Index — Actual: 269.5 | Forecast: None | Prev: 280.1
+  [-1] MBA Mortgage Applications — Actual: -3.8 | Forecast: None | Prev: 10.8
+  [-1] MBA Mortgage Refinance Index — Actual: 810.2 | Forecast: None | Prev: 848.7
+  [-1] MBA Purchase Index — Actual: 170.8 | Forecast: None | Prev: 176.9
+  [-1] Retail Sales Ex Gas/Autos MoM — Actual: 0.5 | Forecast: None | Prev: 0.5
+  [-1] Retail Sales YoY — Actual: 6.9 | Forecast: None | Prev: 4.8
+  [1] Retail Sales MoM — Actual: 0.9 | Forecast: 0.5 | Prev: 0.4
+  [0] Retail Sales Ex Autos MoM — Actual: 0.8 | Forecast: 0.5 | Prev: 0.7
+  [0] Retail Sales Control Group MoM — Actual: 0.7 | Forecast: 0.4 | Prev: 0.5
+  [-1] Retail Inventories Ex Autos MoM — Actual: 0.6 | Forecast: 0.6 | Prev: 0.6
+  [0] Pending Home Sales MoM — Actual: 3.8 | Forecast: 0.8 | Prev: 0.3
+  [0] Business Inventories MoM — Actual: 0.5 | Forecast: 0.5 | Prev: 1
+  [0] Pending Home Sales YoY — Actual: 4.8 | Forecast: None | Prev: 3.2
+  [-1] EIA Heating Oil Stocks Change — Actual: -0.204 | Forecast: None | Prev: -0.246
+  [-1] EIA Distillate Fuel Production Change — Actual: -0.029 | Forecast: None | Prev: 0.024
+  [-1] EIA Crude Oil Imports Change — Actual: -0.241 | Forecast: None | Prev: 0.525
+  [0] EIA Gasoline Stocks Change — Actual: -0.906 | Forecast: -1 | Prev: 0.186
+  [-1] EIA Refinery Crude Runs Change — Actual: 0.23 | Forecast: None | Prev: 0.081
+  [-1] EIA Gasoline Production Change — Actual: 0.356 | Forecast: None | Prev: 0.296
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: -10.0%)
+  Alignment: PARTIAL ALIGNMENT — 1/4 TFs bearish
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: BEARISH
+
+  [Daily] Structure: RANGING
+    Price: 30404.25 | PrevH: 30664.5 | PrevL: 29956.75
+    Nearest Resistance (swing high above): 30807.75
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-15 UP(29907.0->30559.25) > 2026-06-16 DOWN(30539.75->29995.0) > 2026-06-17 UP(30306.5->30404.25)
+
+  [4H] Structure: RANGING
+    Price: 30404.25 | PrevH: 30545.75 | PrevL: 30284.75
+    Nearest Resistance (swing high above): 30536.0
+    Nearest Support (swing low below): 30291.5
+    Recent: 2026-06-17 DOWN(30560.5->30416.0) > 2026-06-17 UP(30416.75->30450.0) > 2026-06-17 DOWN(30450.0->30404.25)
+
+  [1H] Structure: RANGING
+    Price: 30404.25 | PrevH: 30472.25 | PrevL: 30396.25
+    Nearest Resistance (swing high above): 30531.0
+    Nearest Support (swing low below): 30368.5
+    Recent: 2026-06-17 UP(30357.5->30450.0) > 2026-06-17 DOWN(30450.0->30410.25) > 2026-06-17 DOWN(30408.25->30404.25)
+
+  [15m] Structure: BEARISH
+    Price: 30404.25 | PrevH: 30410.25 | PrevL: 30326.5
+    Nearest Resistance (swing high above): 30463.0
+    Nearest Support (swing low below): 30401.75
+    Recent: 2026-06-17 DOWN(30430.25->30410.25) > 2026-06-17 DOWN(30408.25->30377.0) > 2026-06-17 UP(30376.25->30404.25)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-17.

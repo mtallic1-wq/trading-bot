@@ -1,0 +1,80 @@
+ANALYSIS DATE: 2026-06-01
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.366 | Day: +0.461% | 5-Day: +0.05%
+  VIX (Fear Index): 16.16 | Day: +5.483% | 5-Day: -2.59%
+  10Y Treasury Yield: 4.508 | Day: +1.235% | 5-Day: -1.10%
+  Gold: 4481.3 | Day: -1.737% | 5-Day: -0.88%
+  Crude Oil: 94.21 | Day: +7.841% | 5-Day: -2.47%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30324.5 | Trend: UP
+  1D: -0.27% | 5D: 2.59% | 10D: 3.74%
+  Prev High: 30536.0 | Prev Low: 30216.5 | Prev Close: 30405.25
+  Week High: 30536.0 | Week Low: 29436.0
+  Last 5 Candles: 2026-05-26 UP (O:29676.25 H:30118.75 L:29676.25 C:30073.5) | 2026-05-27 DOWN (O:30050.0 H:30379.0 L:29877.5 C:30047.25) | 2026-05-28 UP (O:30120.0 H:30344.5 L:29763.0 C:30307.0) | 2026-05-29 UP (O:30328.0 H:30536.0 L:30216.5 C:30405.25) | 2026-06-01 DOWN (O:30415.5 H:30595.25 L:30291.5 C:30324.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Nvidia unveils new processor for Windows laptops, taking on Intel and AMDJensen Huang described the new offering during Nvidia's GTC Taipei event.
+  2. Stocks slip from records as oil surges
+  3. Trump says Iran war deal will 'work out well' as more clashes erupt
+  4. Nvidia's Huang just perfectly explained the AI stock boom
+  5. A jobs report, more big chip earnings, and sticky inflation: What to watch this week
+  6. This stock market has a key factor the dot-com boom lacked
+  7. Microsoft, Dell, HP stocks get Nvidia tailwind
+  8. Micron stock hasn't been this overbought in nearly 30 years
+  9. US takes step to halt Nvidia AI chip shipments to Chinese firms outside China
+  10. Goldman says hedge funds buy stocks at fastest pace in 6 months
+  11. US manufacturing activity scales four-year high in May, ISM says
+  12. Wall St near record levels as AI optimism tempers war concerns; Nvidia, Microsoft up
+  13. Meta, Alphabet, Amazon, and Microsoft are getting hooked on debt to fuel AI boom
+  14. Factories face soaring costs as Iran war causes supply shocks
+  15. Anthropic killing all software companies? This chart says nope.
+  16. Nvidia Is Taking On Intel and AMD With New AI Chip for Computers
+  17. Oil Soars After Report Iran Is Set to Halt Messages With US
+  18. Nvidia to enter personal computers with new chip reveals at ComputexNvidia (NVDA) debuted its RTX Spark and N1X chips at Computex Taipei 2026 over the weekend. Morning Brief Host Julie Hyman, Yahoo Finance Breaking News Reporter Jake Conley, and Barron's Investor Circle Newsletter editor Josh Schafer dive into the details and examine the new businesses that the chipmaker is trying to get into with its latest products.
+  19. Why May jobs data will be so important for Fed's Kevin Warsh
+  20. Max Levchin to CEOs blaming AI for layoffs: Own it
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor | — geopolitics, conflicts, military, infrastructure 
+  Tech Monitor | — AI labs, startups, cloud, cybersecurity 
+  Finance Monitor | — global markets, central banks, forex, crypto 
+  Commodity Monitor | — mining, energy, supply chains, freight 
+  Happy Monitor | — positive news, breakthroughs, conservation 
+  World Monitor Pro | — AI analyst, personalized digests, MCP for Claude & GPT 
+  Blog | — OSINT guides, geopolitics, market intelligence 
+  What is World Monitor? 
+  OSINT for everyone — open-source intelligence democratized 
+  Five dashboards, one platform — the variants explained 
+  Open source on GitHub (AGPL-3.0) 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Dell Jumps 30% As AI Rally Pushes Stocks Higher
+  2. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-29
+  3. Dow, S&P 500, Nasdaq futures edge higher as oil prices fall
+  4. Wall Street: US stock futures extend gains from record highs as traders await Iran deal
+  5. Here’s why Alibaba, Tencent, Xiaomi stocks are falling amid the AI boom
+  6. Wall St futures dip on escalating Mideast tensions; inflation data awaited
+  7. US stock futures slip as Iran tensions rise ahead of inflation data
+  8. The AI capital-spending boom looks historic. Eleven other booms suggest a bust is inevitable.
+  9. Benchmark Treasury yield breakout fails, range reasserts
+  10. Wall St set to open higher on AI optimism, Mideast truce hopes
+  11. US ISM MAY MANUFACTURING: 25% OF COMMENTS WERE POSITIVE, 69% NEGATIVE, WITH A 1-TO-2.7 RATIO OF POSITIVE TO NEGATIVE SENTIMENT
+  12. US ISM: IRAN WAR MENTIONED IN 42% IN COMMENTS, TARIFFS IN 18%; 57% OF PANELISTS MENTIONED PRICING VOLATILITY AS AN ISSUE FOR THEIR COMPANIES
+  13. US ISM MANUFACTURING REPORT: IRAN WAR STARTING TO HIT SUPPLY CHAIN DIRECTLY, RAISE COSTS, CAUSING SHIPMENT DELAYS, UNCERTAINTIES
+  14. US ISM MANUFACTURING REPORT: NEW EXPORT ORDERS BACK TO EXPANSION AT 50.6 VS. 47.9 IN APRIL
+  15. Wall St near record levels as AI optimism tempers war concerns; Nvidia, Microsoft up
+
+=== ECONOMIC CALENDAR — 2026-06-01 ===
+  [-1] S&P Global Manufacturing PMI Final — Actual: 55.1 | Forecast: 55.3 | Prev: 54.5
+  [-1] ISM Manufacturing Prices — Actual: 82.1 | Forecast: 85.5 | Prev: 84.6
+  [1] ISM Manufacturing PMI — Actual: 54 | Forecast: 53 | Prev: 52.7
+  [-1] ISM Manufacturing New Orders — Actual: 56.8 | Forecast: None | Prev: 54.1
+  [0] ISM Manufacturing Employment — Actual: 48.6 | Forecast: None | Prev: 46.4
+  [-1] Construction Spending MoM — Actual: 0.4 | Forecast: 0.2 | Prev: 0.6
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.65
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.595
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-06-01.

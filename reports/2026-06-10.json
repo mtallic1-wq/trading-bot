@@ -1,0 +1,964 @@
+{
+  "date": "2026-06-10",
+  "created": "2026-06-10T19:08:10.427067",
+  "is_historical": false,
+  "bias_nq": "BEARISH",
+  "side": "SELL SIDE",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 29081.0,
+    "prev_day_high": 29848.25,
+    "prev_day_low": 28227.75,
+    "prev_day_close": 29117.0,
+    "week_high": 30807.75,
+    "week_low": 28227.75,
+    "trend": "DOWN",
+    "performance": {
+      "1d_pct": -0.12,
+      "5d_pct": -5.07,
+      "10d_pct": -3.22
+    },
+    "recent_candles": [
+      {
+        "date": "2026-06-04",
+        "open": 30453.0,
+        "high": 30603.25,
+        "low": 30151.0,
+        "close": 30488.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-06-05",
+        "open": 30414.0,
+        "high": 30422.0,
+        "low": 28781.25,
+        "close": 29026.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-06-08",
+        "open": 28844.5,
+        "high": 29743.0,
+        "low": 28822.25,
+        "close": 29454.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-06-09",
+        "open": 29435.0,
+        "high": 29848.25,
+        "low": 28227.75,
+        "close": 29117.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-06-10",
+        "open": 29094.75,
+        "high": 29169.0,
+        "low": 28610.0,
+        "close": 29081.0,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 99.799,
+      "day_chg": -0.111,
+      "5d_chg": 0.27
+    },
+    "VIX (Fear Index)": {
+      "price": 20.61,
+      "day_chg": 3.724,
+      "5d_chg": 28.33
+    },
+    "10Y Treasury Yield": {
+      "price": 4.524,
+      "day_chg": -0.088,
+      "5d_chg": 0.73
+    },
+    "Gold": {
+      "price": 4205.7,
+      "day_chg": -1.275,
+      "5d_chg": -5.21
+    },
+    "Crude Oil": {
+      "price": 89.8,
+      "day_chg": 1.814,
+      "5d_chg": -6.48
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Inflation soars to highest level since 2023",
+        "url": "https://finance.yahoo.com/economy/article/annual-cpi-inflation-surges-to-42-in-may-the-highest-level-since-2023-as-energy-prices-rise-182143107.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US stocks slide as techs falter amid surging inflation",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-slide-as-cpi-report-lands-us-iran-truce-teeters-215056930.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SpaceX mega-IPO fever is testing the chip trade",
+        "url": "https://finance.yahoo.com/markets/article/spacex-fever-is-testing-the-chip-trade-chart-of-the-day-100000045.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump: Iran will 'pay the price' for delaying talks",
+        "url": "https://finance.yahoo.com/economy/policy/articles/trump-says-iran-pay-price-131620726.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oracle to report Q4 earnings amid AI trade jitters",
+        "url": "https://finance.yahoo.com/sectors/technology/article/oracle-to-report-q4-earnings-amid-ai-trade-jitters-221337653.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Hot inflation reinforces Fed's steady path",
+        "url": "https://finance.yahoo.com/economy/article/hot-may-inflation-reading-reinforces-feds-path-to-hold-interest-rates-next-week-130456665.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why the blockbuster SpaceX IPO may spell more bad news for crypto",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/analysis-why-blockbuster-spacex-ipo-100210910.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "We're looking at one of the most expensive stock markets in decades",
+        "url": "https://finance.yahoo.com/markets/article/you-are-looking-at-one-of-the-most-expensive-stock-markets-in-decades--and-it-may-not-end-well-114308941.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Lilly cements lead as rivals jump on obesity drug bandwagon",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/lilly-stays-ahead-pack-rivals-100535149.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Super Micro sinks on $7B equity raise",
+        "url": "https://finance.yahoo.com/markets/stocks/article/supermicro-computer-stock-sinks-on-7-billion-equity-raise-124041144.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Wall Street braces for SpaceX with stress test, 'watch parties'",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-braces-spacex-stress-120006946.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SoftBank falters in bid to get $6B loan backed by OpenAI stake",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/softbank-attempt-6-billion-openai-042525869.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Rivian begins deliveries of cheaper electric vehicles",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/rivian-begins-deliveries-cheaper-electric-100000988.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Want to work for SpaceX? 3 traits you must have, according to COO",
+        "url": "https://finance.yahoo.com/markets/article/elon-musks-spacex-looks-for-3-vital-traits-in-its-potential-employees-132227864.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Warren Buffett's favorite stock market indicator is screaming sell",
+        "url": "https://finance.yahoo.com/markets/article/warren-buffetts-favorite-stock-market-indicator-is-screaming-sell-134201478.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why SpaceX is the hottest trade on college campuses",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-hottest-trade-college-campuses-095001877.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "'Dead money': 3 financial advisers reveal where they're parking cash",
+        "url": "https://finance.yahoo.com/economy/articles/dead-money-3-financial-advisors-105500641.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Top JPM strategist: 4 ways to prep portfolio for 'considerable danger'",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-jpmorgan-strategist-shares-4-094501115.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "More war-driven inflation seen in Fed's favored gauge",
+        "url": "https://finance.yahoo.com/economy/policy/articles/more-war-driven-inflation-seen-115519421.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kevin Warsh hints at Greenspan-style Fed approach",
+        "url": "https://finance.yahoo.com/economy/policy/article/new-fed-chair-kevin-warsh-suggests-he-may-take-an-alan-greenspan-style-approach-at-the-central-bank-135046787.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Hassett says ending Iran war May open room for rate cut",
+        "url": "https://finance.yahoo.com/news/hassett-says-ending-iran-war-may-create-room-for-fed-rate-cut-190954086.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gold flows in Sudan's war economy as miners risk danger",
+        "url": "https://www.yahoo.com/news/world/articles/sudan-war-economy-gold-keeps-052108163.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Bond markets bet on 2026 rate hike as Warsh takes helm",
+        "url": "https://finance.yahoo.com/economy/policy/articles/treasury-market-ushers-warsh-era-190000320.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "What rising inflation means for mortgage rates now",
+        "url": "https://finance.yahoo.com/economy/policy/articles/heres-experts-expect-mortgage-rates-164749060.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Best money market account rates today: Earn up to 4.01%",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-monday-may-25-2026-100000515.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Strategists warn yields stay high even if Iran war ends",
+        "url": "https://finance.yahoo.com/news/bond-strategists-warn-yields-to-stay-high-even-if-iran-war-ends-130000537.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "SpaceX stock set to join public space economy companies",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-is-about-to-join-this-growing-constellation-of-public-companies-building-a-space-based-economy-193309368.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "What surging mortgage rates mean for home sales",
+        "url": "https://finance.yahoo.com/economy/policy/articles/surging-mortgage-rates-mean-summer-130411888.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "The phrases that define the AI economy",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nobody-knows-anything-time-different-120000041.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "How Baby Boomers are strangling the economy they built",
+        "url": "https://finance.yahoo.com/economy/articles/pig-python-baby-boomers-strangling-080000169.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 44
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "World Monitor | \u2014 geopolitics, conflicts, military, infrastructure",
+        "values": []
+      },
+      {
+        "label": "Tech Monitor | \u2014 AI labs, startups, cloud, cybersecurity",
+        "values": []
+      },
+      {
+        "label": "Finance Monitor | \u2014 global markets, central banks, forex, crypto",
+        "values": []
+      },
+      {
+        "label": "Commodity Monitor | \u2014 mining, energy, supply chains, freight",
+        "values": []
+      },
+      {
+        "label": "Happy Monitor | \u2014 positive news, breakthroughs, conservation",
+        "values": []
+      },
+      {
+        "label": "Energy Monitor | \u2014 oil, gas, chokepoints, energy security",
+        "values": []
+      },
+      {
+        "label": "World Monitor Pro | \u2014 AI analyst, personalized digests, MCP for Claude & GPT",
+        "values": []
+      },
+      {
+        "label": "Blog | \u2014 OSINT guides, geopolitics, market intelligence",
+        "values": []
+      },
+      {
+        "label": "What is World Monitor?",
+        "values": []
+      },
+      {
+        "label": "OSINT for everyone \u2014 open-source intelligence democratized",
+        "values": []
+      },
+      {
+        "label": "Dashboard variants guide",
+        "values": []
+      },
+      {
+        "label": "Open source on GitHub (AGPL-3.0)",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "Free, open-source intelligence platform aggregating live news, markets, military movements, conflicts, and infrastructure into one real-time dashboard. Used by 2M+ people across 190+ countries.Featured in WIRED.",
+      "Six dashboards, one platform",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.Featured in WIRED.",
+      "The platform combines real-time conflict events fromACLEDandUCDP, satellite fire detection fromNASA FIRMS, earthquakes fromUSGS, aircraft tracking fromOpenSky, ship AIS fromAISStream, and macro data fromFRED,IMF, andBIS.",
+      "Six dashboards, one platform"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nFree, open-source intelligence platform aggregating live news, markets, military movements, conflicts, and infrastructure into one real-time dashboard. Used by 2M+ people across 190+ countries.\nFeatured in WIRED\n.\nWhat it tracks\nLive conflict events from\nACLED\nand\nUCDP\n, satellite fire detection from\nNASA FIRMS\n, earthquakes from\nUSGS\n, military and civilian aircraft from\nOpenSky Network\n, ship AIS positions from\nAISStream\n, macro and central bank data from\nFRED\n,\nIMF\n, and\nBIS\n, plus 500+ curated RSS feeds, 56 map layer types, and AI-synthesized country briefings.\nSix dashboards, one platform\nWorld Monitor\n\u2014 geopolitics, conflicts, military, infrastructure\nTech Monitor\n\u2014 AI labs, startups, cloud, cybersecurity\nFinance Monitor\n\u2014 global markets, central banks, forex, crypto\nCommodity Monitor\n\u2014 mining, energy, supply chains, freight\nHappy Monitor\n\u2014 positive news, breakthroughs, conservation\nEnergy Monitor\n\u2014 oil, gas, chokepoints, energy security\nLearn more\nWorld Monitor Pro\n\u2014 AI analyst, personalized digests, MCP for Claude & GPT\nBlog\n\u2014 OSINT guides, geopolitics, market intelligence\nWhat is World Monitor?\nOSINT for everyone \u2014 open-source intelligence democratized\nDashboard variants guide\nOpen source on GitHub (AGPL-3.0)\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatured in WIRED\n.\nThe platform combines real-time conflict events from\nACLED\nand\nUCDP\n, satellite fire detection from\nNASA FIRMS\n, earthquakes from\nUSGS\n, aircraft tracking from\nOpenSky\n, ship AIS from\nAISStream\n, and macro data from\nFRED\n,\nIMF\n, and\nBIS\n.\nSix dashboards, one platform\nExplore the variant that matches what you track:\nWorld Monitor\nfor geopolitics and conflicts,\nTech Monitor\nfor AI labs and startups,\nFinance Monitor\nfor markets and central banks,\nCommodity Monitor\nfor mining and supply chains,\nHappy Monitor\nfor positive news and progress, and\nEnergy Monitor\nfor oil, gas, chokepoints, and energy security.\nRead more\nLearn what the platform does in\nWhat is World Monitor?\n, how OSINT applies in\nOSINT for everyone\n, or compare to traditional tools in\nWorld Monitor vs Bloomberg, Palantir, Dataminr\n. Full source on\nGitHub (AGPL-3.0)\n, or\nupgrade to World Monitor Pro\nfor the AI analyst, custom widget builder, and MCP for Claude and GPT."
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Wall St set to drop as tech declines, Middle East tensions mount",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1781097251"
+      },
+      {
+        "title": "Wall St futures pare declines after May inflation data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1781095136"
+      },
+      {
+        "title": "Tom Lee says the tech-stock dip ahead of SpaceX's IPO will reverse afterwards",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (MarketWatch)",
+        "published": "1781086380"
+      },
+      {
+        "title": "Dow Futures Slip as Investors Await CPI Report \u2014 WSJ",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Dow Jones Newswires)",
+        "published": "1781084760"
+      },
+      {
+        "title": "Asian markets slump after latest escalation between US and Iran leads to oil spike",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (CNBC TV18)",
+        "published": "1781053398"
+      },
+      {
+        "title": "Deja Vu? AI Overspending Fears Renew",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Zacks)",
+        "published": "1781030880"
+      },
+      {
+        "title": "Dow Jones ETFs: Better Than S&P 500 & Nasdaq Now?",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Zacks)",
+        "published": "1781014740"
+      },
+      {
+        "title": "Intuit stock is the worst performer in the Nasdaq 100 Index this year: buy the dip?",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Invezz)",
+        "published": "1781012768"
+      },
+      {
+        "title": "OKX expands X-Perps in Europe with Magnificent 7, gold and oil futures",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Cointelegraph)",
+        "published": "1781005935"
+      },
+      {
+        "title": "Dow futures climb 125 points: 5 things to know before Wall Street opens",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Invezz)",
+        "published": "1781003040"
+      },
+      {
+        "title": "Stocks Continue Recovery \u2014 WSJ",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Dow Jones Newswires)",
+        "published": "1781002620"
+      },
+      {
+        "title": "Buy the chip",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1781001108"
+      },
+      {
+        "title": " Asia report: Global tech rally drives regional gains ",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (ShareCast)",
+        "published": "1780996579"
+      },
+      {
+        "title": "STOCKS | S&P 500 And Nasdaq 100 Pull Back From Intraday Highs, Still Up 0.7% And 2%",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Binance News)",
+        "published": "1780933007"
+      },
+      {
+        "title": "Oil Rallies After Mideast Strikes \u2014 WSJ",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Dow Jones Newswires)",
+        "published": "1780916640"
+      },
+      {
+        "title": "Super Micro Stock Sale Lays Bare the Market's AI Growing Pains \u2014 Barrons.com",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1781100060"
+      },
+      {
+        "title": "Dow Opens Lower, Inflation Rises to 4.2% in May \u2014 WSJ",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1781099220"
+      },
+      {
+        "title": "CPI rises at fastest rate in three years but meets market expectations",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1781098978"
+      },
+      {
+        "title": "US Stocks Lower as Tech Sector Drags",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1781098806"
+      },
+      {
+        "title": "The Dow Jones Index Opens 0.52% Lower",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1781098801"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "MBA 30-Year Mortgage Rate",
+        "country": "US",
+        "impact": "0",
+        "actual": "6.6",
+        "forecast": "None",
+        "previous": "6.57"
+      },
+      {
+        "title": "MBA Mortgage Market Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "280.1",
+        "forecast": "None",
+        "previous": "252.8"
+      },
+      {
+        "title": "MBA Mortgage Applications",
+        "country": "US",
+        "impact": "-1",
+        "actual": "10.8",
+        "forecast": "None",
+        "previous": "-2.5"
+      },
+      {
+        "title": "MBA Mortgage Refinance Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "848.7",
+        "forecast": "None",
+        "previous": "736.2"
+      },
+      {
+        "title": "MBA Purchase Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "176.9",
+        "forecast": "None",
+        "previous": "164.8"
+      },
+      {
+        "title": "Core Inflation Rate MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "0.2",
+        "forecast": "0.3",
+        "previous": "0.4"
+      },
+      {
+        "title": "Inflation Rate MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "0.5",
+        "forecast": "0.5",
+        "previous": "0.6"
+      },
+      {
+        "title": "CPI",
+        "country": "US",
+        "impact": "0",
+        "actual": "335.12",
+        "forecast": "335.11",
+        "previous": "333.02"
+      },
+      {
+        "title": "Core Inflation Rate YoY",
+        "country": "US",
+        "impact": "1",
+        "actual": "2.9",
+        "forecast": "2.9",
+        "previous": "2.8"
+      },
+      {
+        "title": "Inflation Rate YoY",
+        "country": "US",
+        "impact": "1",
+        "actual": "4.2",
+        "forecast": "4.2",
+        "previous": "3.8"
+      },
+      {
+        "title": "CPI s.a",
+        "country": "US",
+        "impact": "0",
+        "actual": "333.979",
+        "forecast": "None",
+        "previous": "332.407"
+      },
+      {
+        "title": "EIA Cushing Crude Oil Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.583"
+      },
+      {
+        "title": "EIA Gasoline Stocks Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-0.5",
+        "previous": "3.364"
+      },
+      {
+        "title": "EIA Refinery Crude Runs Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.09"
+      },
+      {
+        "title": "EIA Distillate Fuel Production Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "0.098"
+      },
+      {
+        "title": "EIA Crude Oil Imports Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.249"
+      },
+      {
+        "title": "EIA Crude Oil Stocks Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-4",
+        "previous": "-7.974"
+      },
+      {
+        "title": "EIA Heating Oil Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "0.255"
+      },
+      {
+        "title": "EIA Gasoline Production Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.515"
+      },
+      {
+        "title": "EIA Distillate Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "-0.5",
+        "previous": "1.502"
+      }
+    ]
+  },
+  "price_action": {
+    "ticker": "NQ=F",
+    "bias": "RANGING / NEUTRAL",
+    "score_pct": -10.0,
+    "alignment": "PARTIAL ALIGNMENT \u2014 1/4 TFs bearish",
+    "tf_summary": [
+      "Daily: RANGING",
+      "4H: RANGING",
+      "1H: RANGING",
+      "15m: BEARISH"
+    ],
+    "timeframes": {
+      "Daily": {
+        "structure": "RANGING",
+        "sh_score": 0.2,
+        "sl_score": -0.2,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 24352.0,
+            "date": "2026-03-03"
+          },
+          {
+            "type": "SH",
+            "price": 25250.0,
+            "date": "2026-03-05"
+          },
+          {
+            "type": "SL",
+            "price": 24000.0,
+            "date": "2026-03-09"
+          },
+          {
+            "type": "SH",
+            "price": 24989.0,
+            "date": "2026-03-18"
+          },
+          {
+            "type": "SL",
+            "price": 22961.5,
+            "date": "2026-03-31"
+          },
+          {
+            "type": "SH",
+            "price": 29782.0,
+            "date": "2026-05-14"
+          },
+          {
+            "type": "SL",
+            "price": 28663.0,
+            "date": "2026-05-19"
+          },
+          {
+            "type": "SH",
+            "price": 30807.75,
+            "date": "2026-06-03"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "Daily",
+        "current": 29079.0,
+        "prev_high": 29848.25,
+        "prev_low": 28227.75,
+        "prev_close": 29117.0,
+        "resistance": 29782.0,
+        "support": 28663.0,
+        "recent_candles": [
+          {
+            "date": "2026-06-08",
+            "open": 28844.5,
+            "high": 29743.0,
+            "low": 28822.25,
+            "close": 29454.75,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-09",
+            "open": 29435.0,
+            "high": 29848.25,
+            "low": 28227.75,
+            "close": 29117.0,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-06-10",
+            "open": 29094.75,
+            "high": 29169.0,
+            "low": 28610.0,
+            "close": 29079.0,
+            "direction": "DOWN"
+          }
+        ],
+        "bar_count": 125
+      },
+      "4H": {
+        "structure": "RANGING",
+        "sh_score": 0.2,
+        "sl_score": 0.2,
+        "swings": [
+          {
+            "type": "SH",
+            "price": 30693.0,
+            "date": "2026-06-01"
+          },
+          {
+            "type": "SL",
+            "price": 30291.5,
+            "date": "2026-06-01"
+          },
+          {
+            "type": "SH",
+            "price": 30807.75,
+            "date": "2026-06-03"
+          },
+          {
+            "type": "SH",
+            "price": 30603.25,
+            "date": "2026-06-04"
+          },
+          {
+            "type": "SL",
+            "price": 28781.25,
+            "date": "2026-06-05"
+          },
+          {
+            "type": "SH",
+            "price": 29743.0,
+            "date": "2026-06-08"
+          },
+          {
+            "type": "SH",
+            "price": 29848.25,
+            "date": "2026-06-09"
+          },
+          {
+            "type": "SL",
+            "price": 28227.75,
+            "date": "2026-06-09"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "4H",
+        "current": 29079.0,
+        "prev_high": 28965.0,
+        "prev_low": 28610.0,
+        "prev_close": 28679.5,
+        "resistance": 29126.5,
+        "support": 28926.0,
+        "recent_candles": [
+          {
+            "date": "2026-06-10",
+            "open": 28956.0,
+            "high": 29014.0,
+            "low": 28853.75,
+            "close": 28964.25,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-10",
+            "open": 28964.25,
+            "high": 28965.0,
+            "low": 28610.0,
+            "close": 28679.5,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-06-10",
+            "open": 28680.75,
+            "high": 29163.25,
+            "low": 28657.75,
+            "close": 29079.0,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 150
+      },
+      "1H": {
+        "structure": "RANGING",
+        "sh_score": -0.2,
+        "sl_score": 0.6,
+        "swings": [
+          {
+            "type": "SH",
+            "price": 29743.0,
+            "date": "2026-06-08"
+          },
+          {
+            "type": "SL",
+            "price": 28972.75,
+            "date": "2026-06-08"
+          },
+          {
+            "type": "SH",
+            "price": 29848.25,
+            "date": "2026-06-09"
+          },
+          {
+            "type": "SH",
+            "price": 29196.25,
+            "date": "2026-06-09"
+          },
+          {
+            "type": "SL",
+            "price": 29303.5,
+            "date": "2026-06-09"
+          },
+          {
+            "type": "SL",
+            "price": 29566.0,
+            "date": "2026-06-09"
+          },
+          {
+            "type": "SL",
+            "price": 28227.75,
+            "date": "2026-06-09"
+          },
+          {
+            "type": "SL",
+            "price": 28960.0,
+            "date": "2026-06-10"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "1H",
+        "current": 29079.0,
+        "prev_high": 28992.25,
+        "prev_low": 28657.75,
+        "prev_close": 28832.0,
+        "resistance": 29125.25,
+        "support": 29075.0,
+        "recent_candles": [
+          {
+            "date": "2026-06-10",
+            "open": 28831.5,
+            "high": 28845.25,
+            "low": 28610.0,
+            "close": 28679.5,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-06-10",
+            "open": 28680.75,
+            "high": 28992.25,
+            "low": 28657.75,
+            "close": 28832.0,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-10",
+            "open": 28833.25,
+            "high": 29163.25,
+            "low": 28772.5,
+            "close": 29079.0,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 556
+      },
+      "15m": {
+        "structure": "BEARISH",
+        "sh_score": -0.2,
+        "sl_score": -0.6,
+        "swings": [
+          {
+            "type": "SH",
+            "price": 28830.0,
+            "date": "2026-06-10"
+          },
+          {
+            "type": "SH",
+            "price": 28845.25,
+            "date": "2026-06-10"
+          },
+          {
+            "type": "SH",
+            "price": 28992.25,
+            "date": "2026-06-10"
+          },
+          {
+            "type": "SL",
+            "price": 28960.0,
+            "date": "2026-06-10"
+          },
+          {
+            "type": "SL",
+            "price": 28960.25,
+            "date": "2026-06-10"
+          },
+          {
+            "type": "SL",
+            "price": 28853.75,
+            "date": "2026-06-10"
+          },
+          {
+            "type": "SL",
+            "price": 28684.0,
+            "date": "2026-06-10"
+          },
+          {
+            "type": "SL",
+            "price": 28610.0,
+            "date": "2026-06-10"
+          }
+        ],
+        "bos": null,
+        "choch": {
+          "direction": "BULLISH",
+          "level": 28992.25,
+          "date": "2026-06-10",
+          "label": "CHoCH \u2014 broke above swing high (structure flip)"
+        },
+        "label": "15m",
+        "current": 29084.0,
+        "prev_high": 29092.75,
+        "prev_low": 28772.5,
+        "prev_close": 29079.5,
+        "resistance": 29146.5,
+        "support": 29025.25,
+        "recent_candles": [
+          {
+            "date": "2026-06-10",
+            "open": 28855.5,
+            "high": 28891.75,
+            "low": 28838.75,
+            "close": 28853.0,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-06-10",
+            "open": 28852.75,
+            "high": 29092.75,
+            "low": 28772.5,
+            "close": 29079.5,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-10",
+            "open": 29077.5,
+            "high": 29163.25,
+            "low": 28984.0,
+            "close": 29084.0,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 316
+      }
+    }
+  },
+  "tv_live": {
+    "available": false,
+    "error": "TradingView Desktop not running."
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is down 0.111% on the day, indicating a slight decrease in the value of the US dollar, which could be beneficial for tech stocks.\n* The VIX (Fear Index) is up 3.724% on the day, indicating increased market volatility and fear, which is bearish for NQ.\n* The 10Y Treasury Yield is down 0.088% on the day, indicating a slight decrease in interest rates, which could be beneficial for tech stocks.\n* Gold is down 1.275% on the day, indicating a decrease in safe-haven demand, which could be bearish for NQ.\n* Crude Oil is up 1.814% on the day, indicating an increase in energy prices, which could be bearish for NQ.\nState: RISK-OFF environment\n\n## KEY NEWS ANALYSIS\n* Inflation soars to highest level since 2023, which is bearish for NQ as it may lead to higher interest rates.\n* US stocks slide as techs falter amid surging inflation, which is bearish for NQ.\n* SpaceX mega-IPO fever is testing the chip trade, which could be bullish for NQ if the IPO is successful.\n* Overall news sentiment: BEARISH for Nasdaq\n\n## ECONOMIC EVENTS IMPACT\n* The Core Inflation Rate MoM came in at 0.2, which is lower than the forecast of 0.3, indicating a slight decrease in inflation, which could be beneficial for NQ.\n* The Inflation Rate MoM came in at 0.5, which is in line with the forecast, indicating no surprise in inflation, which could be neutral for NQ.\n* The CPI came in at 335.12, which is higher than the previous reading, indicating an increase in inflation, which could be bearish for NQ.\n\n## MULTI-TIMEFRAME STRUCTURE\n* Daily structure: RANGING, with a nearest resistance at 29782.0 and a nearest support at 28663.0.\n* 4H structure: RANGING, with a nearest resistance at 29126.5 and a nearest support at 28926.0.\n* 1H structure: RANGING, with a nearest resistance at 29125.25 and a nearest support at 29075.0.\n* 15m structure: BEARISH, with a CHoCH (Change of Character) at 28992.25, indicating a potential reversal.\n* Overall multi-TF bias: RANGING / NEUTRAL, with a score of -10.0% and partial alignment of 1/4 TFs bearish.\n\n## PREDICTION\n**NYSE SESSION SIDE: SELL SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | BEARISH | 60% | MEDIUM |\n\n**NQ Prediction: BEARISH**\n**Confidence: 60% \u2014 MEDIUM**\n\n## TOP REASONS\n1. The surge in inflation is bearish for NQ as it may lead to higher interest rates.\n2. The increase in the VIX (Fear Index) indicates increased market volatility and fear, which is bearish for NQ.\n3. The 15m structure is bearish, with a CHoCH at 28992.25, indicating a potential reversal.\n\n## KEY RISKS\n- A successful SpaceX IPO could be bullish for NQ.\n- A decrease in interest rates could be beneficial for tech stocks.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- The reaction to the SpaceX IPO.\n- The movement of the VIX (Fear Index).\n- The price action around the nearest resistance and support levels.\n\n## ONE-LINE SUMMARY\n\"2026-06-10 NYSE SESSION: SELL SIDE \u2014 Inflation surge and increased market volatility are bearish for NQ.\"",
+    "bias_nq": "BEARISH",
+    "side": "SELL SIDE",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

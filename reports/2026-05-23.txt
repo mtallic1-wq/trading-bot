@@ -1,0 +1,70 @@
+ANALYSIS DATE: 2026-05-23
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.32 | Day: +0.131% | 5-Day: +0.05%
+  VIX (Fear Index): 16.7 | Day: -0.358% | 5-Day: -9.39%
+  10Y Treasury Yield: 4.558 | Day: -0.611% | 5-Day: -0.81%
+  Gold: 4521.0 | Day: -0.414% | 5-Day: -0.76%
+  Crude Oil: 96.6 | Day: +0.259% | 5-Day: -8.37%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29558.75 | Trend: SIDEWAYS
+  1D: 0.38% | 5D: 1.12% | 10D: 0.77%
+  Prev High: 29554.0 | Prev Low: 29113.0 | Prev Close: 29447.25
+  Week High: 29734.0 | Week Low: 28663.0
+  Last 5 Candles: 2026-05-18 DOWN (O:29135.0 H:29419.75 L:28814.75 C:29096.0) | 2026-05-19 DOWN (O:29100.0 H:29188.5 L:28663.0 C:28924.25) | 2026-05-20 UP (O:28929.75 H:29397.5 L:28797.25 C:29390.5) | 2026-05-21 UP (O:29253.0 H:29554.0 L:29113.0 C:29447.25) | 2026-05-22 UP (O:29444.0 H:29749.0 L:29436.0 C:29558.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Homebuyers and sellers are finally aligned on priceFewer sellers have had to cut prices this spring, a sign that the housing market is finding balance.
+  2. More older Americans are rejoining the workforce out of financial need
+  3. SpaceX upgraded Starship V3 blasts off in debut test flight from Texas
+  4. Why bonds may not save investors from the next market shock
+  5. Job applications using AI 'are starting to look more and more alike'
+  6. 'Not a cost-cutting exercise': How tech CEOs frame AI-driven layoffs
+  7. Automakers' main problem with AI features? Turning a profit.
+  8. Nvidia says its forecast for $200 billion CPU market includes China
+  9. Rubio to meet India's Modi with energy, trade ties in focus
+  10. Blue Origin to expand Florida campus with new $600 million facility
+  11. Retailers look to bridge the K-shaped economy with dual playbooks of price cuts and premiumization
+  12. Uber Proposes Delivery Hero Takeover in €33-Per-Share Offer
+  13. Iran, US Signal Progress in Peace Talks as Issues Unresolved
+  14. Bangladesh central bank unveils $4.9 billion in stimulus as growth slows
+  15. China's DeepSeek to make permanent 75% price cut on flagship V4‑Pro AI model
+  16. Warsh’s Fed ‘Regime Change’ May Require Patience, Consensus
+  17. Everything to know about Nvidia's autonomous driving businessNvidia (NVDA) reports first quarter earnings on Wednesday after the closing bell. Yahoo Finance Senior Autos Reporter Pras Subramanian explains everything investors need to know about Nvidia's autonomous driving business.
+  18. US–Iran stalemate: A look at year-end oil price predictions
+  19. Food price inflation: Why Stew Leonard's CEO is 'optimistic'
+  20. Fed officials weigh holding rates longer, consider hikes
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  500+ curated RSS news feeds, 65+ external data sources, 50+ map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-22
+  2. Dow futures climb 124 points: 5 things to know before markets open
+  3. Asian markets rise further on optimism over Iran-US talks
+  4. Market Crosscurrents: Bulls in Control, Macro Headwinds Loom
+  5. Argentina's road back to MSCI is no straight line
+  6. Wall St rises on chips' strength ahead of Nvidia results
+  7. U.S. stock index futures edge higher ahead of Nvidia earnings
+  8. Wall St set to open higher as chip stocks rally ahead of Nvidia results
+  9. Wall Street futures climb as chip stocks rebound ahead of Nvidia results
+  10. Nvidia vigil
+  11. These 4 market sectors look frothy - and Nvidia's isn't even the biggest bubble
+  12. Trump's 3,711 trades point to multiple stock-market strategies
+  13. Stocks tend to sink during the summer before midterm elections. Will history repeat itself?
+  14. Market View — Barron's
+  15. Investors Just Can't Get Enough of Stocks These Days — WSJ
+
+=== ECONOMIC CALENDAR — 2026-05-23 ===
+  No scheduled events
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-23.

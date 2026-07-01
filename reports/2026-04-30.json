@@ -1,0 +1,650 @@
+{
+  "date": "2026-04-30",
+  "created": "2026-04-30T18:15:21.536367",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "bias_es": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 27531.5,
+    "prev_day_high": 27414.0,
+    "prev_day_low": 27094.0,
+    "prev_day_close": 27325.25,
+    "week_high": 27542.5,
+    "week_low": 26681.75,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.75,
+      "5d_pct": 2.22,
+      "10d_pct": 3.94
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-24",
+        "open": 26992.0,
+        "high": 27462.5,
+        "low": 26992.0,
+        "close": 27435.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-27",
+        "open": 27403.25,
+        "high": 27542.5,
+        "low": 27298.5,
+        "close": 27440.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-28",
+        "open": 27423.0,
+        "high": 27512.0,
+        "low": 27009.5,
+        "close": 27168.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-29",
+        "open": 27197.25,
+        "high": 27414.0,
+        "low": 27094.0,
+        "close": 27325.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-30",
+        "open": 27207.0,
+        "high": 27622.75,
+        "low": 27185.25,
+        "close": 27531.5,
+        "direction": "UP"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 7207.0,
+    "prev_day_high": 7190.75,
+    "prev_day_low": 7131.25,
+    "prev_day_close": 7168.0,
+    "week_high": 7223.25,
+    "week_low": 7079.25,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.54,
+      "5d_pct": 0.89,
+      "10d_pct": 1.84
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-24",
+        "open": 7143.0,
+        "high": 7200.5,
+        "low": 7135.5,
+        "close": 7194.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-27",
+        "open": 7185.0,
+        "high": 7211.25,
+        "low": 7171.5,
+        "close": 7206.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-28",
+        "open": 7204.75,
+        "high": 7223.25,
+        "low": 7146.25,
+        "close": 7171.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-29",
+        "open": 7172.5,
+        "high": 7190.75,
+        "low": 7131.25,
+        "close": 7168.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-30",
+        "open": 7150.0,
+        "high": 7211.5,
+        "low": 7133.75,
+        "close": 7207.0,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.478,
+      "day_chg": -0.447,
+      "5d_chg": -0.33
+    },
+    "VIX (Fear Index)": {
+      "price": 17.77,
+      "day_chg": -5.529,
+      "5d_chg": -7.98
+    },
+    "10Y Treasury Yield": {
+      "price": 4.392,
+      "day_chg": -0.589,
+      "5d_chg": 1.6
+    },
+    "Gold": {
+      "price": 4653.3,
+      "day_chg": 2.378,
+      "5d_chg": -1.1
+    },
+    "Crude Oil": {
+      "price": 104.71,
+      "day_chg": -2.03,
+      "5d_chg": 9.24
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Nvidia has powered a third of the Mag 7's bull-market gainsAI bellwether Nvidia didn't start this bull market. But the chipmaker has come to define it.",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-has-powered-one-third-of-the-magnificent-7s-bull-market-gains-chart-of-the-day-110000790.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock futures climb as Big Tech earnings buoy AI hopes",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-thursday-april-30-dow-nasdaq-sp-mixed-earnings-fed-233115208.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil swings after hitting 4-year high on US military plans",
+        "url": "https://finance.yahoo.com/news/oil-hits-wartime-high-on-report-us-eyeing-iran-military-options-052834606.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "'Mag 7' earnings show AI spending isn't slowing",
+        "url": "https://finance.yahoo.com/markets/article/magnificent-7-earnings-rush-reveals-ai-spending-surge-with-hyperscaler-capex-set-to-reach-725-billion-in-2026-224901707.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Fed's favored inflation gauge shows rising prices as war heated up",
+        "url": "https://finance.yahoo.com/economy/policy/article/feds-favored-inflation-gauge-shows-rising-prices-as-war-heated-up-131007113.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Caterpillar jumps on boom in power and energy equipment for data centers",
+        "url": "https://finance.yahoo.com/markets/article/caterpillar-stock-jumps-on-record-backlog-boom-in-power-and-energy-equipment-for-data-centers-130525638.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Semiconductor stocks rise on Big Tech earnings, Qualcomm beat",
+        "url": "https://finance.yahoo.com/markets/article/semiconductor-stocks-rise-on-big-tech-earnings-qualcomm-beat-122353859.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bill Ackman on stocks: There are lots of reasons to be bullish",
+        "url": "https://finance.yahoo.com/markets/article/bill-ackman-on-the-stock-market-there-are-lots-of-reasons-to-be-bullish-112439578.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Berkshire's ailing stock clouds Abel's first annual meeting as CEO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-ailing-share-price-clouds-100000023.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "China software maker gets rare approval for Nasdaq listing",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/chinese-software-maker-gets-rare-095143175.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why I hate Meta's latest quarter",
+        "url": "https://finance.yahoo.com/markets/article/why-i-hate-metas-latest-quarter-131243609.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Ford stock down despite Q1 beat and tariff repeal; rising commodity costs to weigh on second half",
+        "url": "https://finance.yahoo.com/markets/stocks/article/ford-stock-down-despite-q1-beat-and-tariff-repeal-rising-commodity-costs-to-weigh-on-second-half-132246516.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tech stocks today: Big Tech earnings highlight AI strength, Musk battles OpenAI",
+        "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-magnificent-seven-113535737.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "LEO Pharma to buy U.S. drug developer Replay for $50 million upfront",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/leo-pharma-buy-u-drug-130550987.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Meta looks to raise up to $25 billion with bond sale, Bloomberg News reports",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/meta-looks-raise-25-billion-130141093.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The average cost of college in 2026 (and how to pay for it)",
+        "url": "https://finance.yahoo.com/personal-finance/student-loans/article/average-cost-of-college-how-to-pay-for-it-130109010.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US growth picks up in the first quarter",
+        "url": "https://finance.yahoo.com/economy/articles/us-growth-picks-first-quarter-123935406.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What Apple's new CEO announcement signals ahead of earnings?Wall Street investors have been abuzz around Apple (AAPL) this past week after CEO Tim Cook announced his plans to depart from the chief executive role this September, handing the reins off to John Ternus. Apple is also expected to report its latest earnings results this Thursday, April 30. Baird senior research analyst of cloud software William Power comes on Market Domination to discuss these headlines making waves ahead of Apple's earnings release.",
+        "url": "https://finance.yahoo.com/video/apples-ceo-announcement-signals-ahead-103000156.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "How Goodles CEO built a successful brand after 100 VC's said no",
+        "url": "https://finance.yahoo.com/video/goodles-ceo-built-successful-brand-110000986.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Alphabet 2026 capex hits $190B; expects even more spend in 2027",
+        "url": "https://finance.yahoo.com/video/alphabet-2026-capex-hits-190b-expects-even-more-spend-in-2027-223804412.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Senate panel confirms Kevin Warsh for Fed chair vote",
+        "url": "https://finance.yahoo.com/economy/article/senate-committee-confirms-kevin-warsh-sets-up-full-senate-vote-for-new-fed-chair-141614334.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Canada holds rate steady, warns on war inflation",
+        "url": "https://finance.yahoo.com/economy/policy/articles/canada-holds-key-rate-steady-154044561.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Elizabeth Warren: Trump is wielding a sword over the Fed",
+        "url": "https://finance.yahoo.com/economy/policy/article/elizabeth-warren-trump-is-wielding-a-sword-over-the-fed-215033583.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gas prices jump to highest since July 2022 as oil nears $110",
+        "url": "https://finance.yahoo.com/personal-finance/article/gas-prices-jump-to-highest-level-since-july-2022-as-oil-hovers-near-110-154947778.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Mortgage rates stable ahead of Fed meeting",
+        "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-wednesday-april-29-2026-100000413.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Treasuries fall as rising oil lifts inflation expectations",
+        "url": "https://finance.yahoo.com/economy/policy/articles/treasuries-fall-rising-oil-prices-141734979.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Warsh set to clear key confirmation hurdle",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-chief-nominee-warsh-set-100613294.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed expected to hold rates as Warsh nears confirmation",
+        "url": "https://finance.yahoo.com/economy/policy/articles/federal-likely-hold-rates-steady-135624906.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed to announce latest interest rate decision",
+        "url": "https://finance.yahoo.com/economy/policy/articles/federal-announce-latest-interest-rate-151830239.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Rate cuts unlikely even if Warsh leads the Fed",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-chair-same-reality-imminent-093051708.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 46
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "S&P 500 hovers near highs as tech earnings counter crude and data crosscurrents\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777554293"
+      },
+      {
+        "title": "Wall St set to climb at open as earnings optimism overshadows oil woes",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777554236"
+      },
+      {
+        "title": "Wall St futures climb as investors balance earnings optimism against oil woes",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777548829"
+      },
+      {
+        "title": "Oil fear shrouds tech splurge",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777545792"
+      },
+      {
+        "title": "Wall Street futures mixed as oil spike overshadows tech earnings strength",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777541096"
+      },
+      {
+        "title": "Wall Street ends mixed ahead of big tech earnings",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777494811"
+      },
+      {
+        "title": "Wall Street ends mixed after Fed decision, big tech earnings on tap",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777492827"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-29",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777488305"
+      },
+      {
+        "title": "Wall Street extends losses after Fed decision, big tech earnings on tap",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777488141"
+      },
+      {
+        "title": "Wall Street loses steam ahead of Big Tech earnings, Fed meeting",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777479379"
+      },
+      {
+        "title": "Wall Street slips ahead of Big Tech earnings, Fed meeting",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777471721"
+      },
+      {
+        "title": "Growth flexes again as April rally vs Value nears a dot\u2011com-era record",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777468737"
+      },
+      {
+        "title": "Wall Street eyes mixed open ahead of Big Tech earnings, Fed meeting",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777467867"
+      },
+      {
+        "title": "Wall Street futures mixed ahead of Big Tech earnings, Fed meeting",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777460366"
+      },
+      {
+        "title": "MORE ECB'S LAGARDE: I AM NOT GOING TO TELL YOU WHICH SCENARIO OUTLINED AT LAST MEETING IS MOST LIKELY BUT WE ARE MOVING AWAY FROM OUR BASELINE",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777554240"
+      },
+      {
+        "title": "MORE ECB'S LAGARDE: FINANCIAL CONDITIONS REMAIN TIGHTER THAN BEFORE THE WAR",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777554000"
+      },
+      {
+        "title": "MORE ECB'S LAGARDE: UNDERLYING INFLATION HAS CHANGED LITTLE OVER THE PAST FEW MONTHS",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777553700"
+      },
+      {
+        "title": "ECB PRESIDENT CHRISTINE LAGARDE: INCOMING INFORMATION SUGGEST MIDDLE EAST CONFLICT IS ADVERSELY AFFECTING EUROZONE ECONOMY",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777553520"
+      },
+      {
+        "title": "US INITIAL CLAIMS FOR JOBLESS BENEFITS: UNADJUSTED WKLY CLAIMS 179,765, -26,668; UNADJUSTED INSURED UNEMP RATE TWO WKS AGO 1.2%, UNCHANGED",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777552500"
+      },
+      {
+        "title": "US CORE PCE PRICES +3.2% IN MARCH FROM YEAR AGO (VS. +3.2% MARKETS EXPECTED)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777552380"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Initial Jobless Claims",
+        "country": "US",
+        "impact": "0",
+        "actual": "189",
+        "forecast": "215",
+        "previous": "215"
+      },
+      {
+        "title": "Jobless Claims 4-week Average",
+        "country": "US",
+        "impact": "-1",
+        "actual": "207.5",
+        "forecast": "None",
+        "previous": "211"
+      },
+      {
+        "title": "Continuing Jobless Claims",
+        "country": "US",
+        "impact": "-1",
+        "actual": "1785",
+        "forecast": "1820",
+        "previous": "1808"
+      },
+      {
+        "title": "Core PCE Price Index MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "0.3",
+        "forecast": "0.3",
+        "previous": "0.4"
+      },
+      {
+        "title": "PCE Price Index YoY",
+        "country": "US",
+        "impact": "0",
+        "actual": "3.5",
+        "forecast": "3.5",
+        "previous": "2.8"
+      },
+      {
+        "title": "GDP Price Index QoQ Adv",
+        "country": "US",
+        "impact": "0",
+        "actual": "4.5",
+        "forecast": "3.8",
+        "previous": "3.7"
+      },
+      {
+        "title": "Employment Cost Index QoQ",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.9",
+        "forecast": "0.8",
+        "previous": "0.7"
+      },
+      {
+        "title": "GDP Sales QoQ Adv",
+        "country": "US",
+        "impact": "-1",
+        "actual": "1.6",
+        "forecast": "None",
+        "previous": "0.3"
+      },
+      {
+        "title": "Core PCE Price Index YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "3.2",
+        "forecast": "3.2",
+        "previous": "3"
+      },
+      {
+        "title": "Personal Spending MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "0.9",
+        "forecast": "0.9",
+        "previous": "0.6"
+      },
+      {
+        "title": "Personal Income MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "0.6",
+        "forecast": "0.3",
+        "previous": "0"
+      },
+      {
+        "title": "Employment Cost - Wages QoQ",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.8",
+        "forecast": "None",
+        "previous": "0.7"
+      },
+      {
+        "title": "Employment Cost - Benefits QoQ",
+        "country": "US",
+        "impact": "0",
+        "actual": "1.2",
+        "forecast": "None",
+        "previous": "0.8"
+      },
+      {
+        "title": "PCE Prices QoQ Adv",
+        "country": "US",
+        "impact": "-1",
+        "actual": "4.5",
+        "forecast": "None",
+        "previous": "2.9"
+      },
+      {
+        "title": "GDP Growth Rate QoQ Adv",
+        "country": "US",
+        "impact": "1",
+        "actual": "2",
+        "forecast": "2.3",
+        "previous": "0.5"
+      },
+      {
+        "title": "Core PCE Prices QoQ Adv",
+        "country": "US",
+        "impact": "-1",
+        "actual": "4.3",
+        "forecast": "4.1",
+        "previous": "2.7"
+      },
+      {
+        "title": "Real Consumer Spending QoQ Adv",
+        "country": "US",
+        "impact": "-1",
+        "actual": "1.6",
+        "forecast": "None",
+        "previous": "1.9"
+      },
+      {
+        "title": "PCE Price Index MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.7",
+        "forecast": "0.7",
+        "previous": "0.4"
+      },
+      {
+        "title": "Real Personal Spending MoM",
+        "country": "US",
+        "impact": "-1",
+        "actual": "0.2",
+        "forecast": "None",
+        "previous": "0.3"
+      },
+      {
+        "title": "Chicago PMI",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "53",
+        "previous": "52.8"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "Gemini API error: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]\n\n## Macro Environment\n- DXY: 98.478 (day -0.45%) (USD weak \u2014 tailwind for stocks)\n- VIX: 17.77 (day -5.53%) (Fear low \u2014 risk-on)\n- 10Y Yield: 4.392 (day -0.59%) \n- Gold: 4653.3 (day +2.38%)\n- Oil: 104.71 (day -2.03%)\n- Environment: **RISK-ON**\n\n## Recent Headlines (Yahoo Finance)\n  - Nvidia has powered a third of the Mag 7's bull-market gainsAI bellwether Nvidia didn't start this bull market. But the chipmaker has come to define it.\n  - Stock futures climb as Big Tech earnings buoy AI hopes\n  - Oil swings after hitting 4-year high on US military plans\n  - 'Mag 7' earnings show AI spending isn't slowing\n  - Fed's favored inflation gauge shows rising prices as war heated up\n  - Caterpillar jumps on boom in power and energy equipment for data centers\n  - Semiconductor stocks rise on Big Tech earnings, Qualcomm beat\n  - Bill Ackman on stocks: There are lots of reasons to be bullish\n\n## Market Trend\n- NQ: UP | Price: 27531.5 | 1D: 0.75% | 5D: 2.22%\n- ES: UP | Price: 7207.0 | 1D: 0.54% | 5D: 0.89%\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: BUY SIDE**\n**NQ: BULLISH** | **ES: BULLISH**\n\n_Note: Add ANTHROPIC_API_KEY to .env for full news-driven AI analysis with detailed reasoning._",
+    "bias_nq": "BULLISH",
+    "bias_es": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Fallback (API error)"
+  },
+  "errors": []
+}

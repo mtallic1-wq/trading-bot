@@ -1,0 +1,562 @@
+{
+  "date": "2026-03-17",
+  "created": "2026-04-10T20:04:39.946688",
+  "is_historical": true,
+  "bias_nq": "BEARISH",
+  "bias_es": "BEARISH",
+  "side": "SELL SIDE",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 24795.5,
+    "prev_day_high": 24816.25,
+    "prev_day_low": 24278.0,
+    "prev_day_close": 24675.75,
+    "week_high": 25217.5,
+    "week_low": 24278.0,
+    "trend": "DOWN",
+    "performance": {
+      "1d_pct": 0.49,
+      "5d_pct": -0.75,
+      "10d_pct": 0.16
+    },
+    "recent_candles": [
+      {
+        "date": "2026-03-11",
+        "open": 25010.25,
+        "high": 25180.0,
+        "low": 24873.5,
+        "close": 24983.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-12",
+        "open": 24934.5,
+        "high": 24949.25,
+        "low": 24517.75,
+        "close": 24560.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-13",
+        "open": 24567.0,
+        "high": 24805.25,
+        "low": 24333.75,
+        "close": 24394.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-16",
+        "open": 24285.0,
+        "high": 24816.25,
+        "low": 24278.0,
+        "close": 24675.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-03-17",
+        "open": 24668.75,
+        "high": 24896.0,
+        "low": 24517.0,
+        "close": 24795.5,
+        "direction": "UP"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 6721.75,
+    "prev_day_high": 6734.25,
+    "prev_day_low": 6608.5,
+    "prev_day_close": 6704.75,
+    "week_high": 6852.0,
+    "week_low": 6608.5,
+    "trend": "DOWN",
+    "performance": {
+      "1d_pct": 0.25,
+      "5d_pct": -0.97,
+      "10d_pct": -1.51
+    },
+    "recent_candles": [
+      {
+        "date": "2026-03-11",
+        "open": 6796.75,
+        "high": 6822.5,
+        "low": 6749.75,
+        "close": 6779.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-12",
+        "open": 6766.0,
+        "high": 6769.5,
+        "low": 6671.75,
+        "close": 6677.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-13",
+        "open": 6684.25,
+        "high": 6737.5,
+        "low": 6625.0,
+        "close": 6636.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-16",
+        "open": 6608.5,
+        "high": 6734.25,
+        "low": 6608.5,
+        "close": 6704.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-03-17",
+        "open": 6700.0,
+        "high": 6757.5,
+        "low": 6665.25,
+        "close": 6721.75,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 99.58,
+      "day_chg": -0.13,
+      "5d_chg": 0.76
+    },
+    "VIX (Fear Index)": {
+      "price": 22.37,
+      "day_chg": -4.849,
+      "5d_chg": -10.27
+    },
+    "10Y Treasury Yield": {
+      "price": 4.202,
+      "day_chg": -0.427,
+      "5d_chg": 1.6
+    },
+    "Gold": {
+      "price": 5001.0,
+      "day_chg": 0.14,
+      "5d_chg": -4.37
+    },
+    "Crude Oil": {
+      "price": 96.21,
+      "day_chg": 2.898,
+      "5d_chg": 15.29
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "CPI inflation soars by most since 2022 as gas prices biteHeadline inflation clocked in at 3.3% on a year ago, a rapid acceleration from February's levels.",
+        "url": "https://finance.yahoo.com/news/cpi-inflation-soars-by-most-since-2022-as-gas-prices-rise-191214655.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stocks edge up after inflation heats up, with Iran talks in focus",
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-stocks-mixed-as-nasdaq-rises-dow-falls-after-march-cpi-data-shows-surging-energy-costs-230420728.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Has Hormuz reopened after Trump's demands? Where things stand.",
+        "url": "https://finance.yahoo.com/news/trump-demanded-a-complete-reopening-of-the-strait-of-hormuz-heres-where-things-actually-stand-100023273.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Consumer sentiment sinks to record low as war tanks economic outlook",
+        "url": "https://finance.yahoo.com/news/consumer-sentiment-sinks-to-record-low-in-april-as-us-iran-tanks-economic-outlook-145132243.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why Shaquille O'Neal is investing his money in an adult toy store",
+        "url": "https://finance.yahoo.com/news/why-shaquille-oneal-is-investing-his-money-in-an-adult-toy-store-144922712.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "TSMC sales smash record as war fails to dent AI demand",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/tsmcs-q1-revenue-jumps-35-053612040.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why the Fed is likely to hold on rates despite soaring energy prices",
+        "url": "https://finance.yahoo.com/economy/article/why-the-fed-is-likely-to-hold-on-rates-despite-soaring-energy-prices-143755918.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "March CPI breakdown: Iran war sends gas prices skyrocketing",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/march-cpi-breakdown-iran-war-sends-gas-prices-skyrocketing-airfare-climbing-142208770.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Anthropic and CoreWeave sign AI agreement, as chip deals explode",
+        "url": "https://finance.yahoo.com/sectors/technology/article/coreweave-stock-soars-13-on-anthropic-deal-141357680.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Snap unit to use Qualcomm chips for upcoming AI smart glasses",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/snap-unit-qualcomm-chips-upcoming-120344000.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Space analytics firm HawkEye's revenue jumped 74% in 2025, US IPO filing shows",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/space-analytics-firm-hawkeyes-revenue-143823992.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Analysis-Iran war leaves crisis-scarred countries counting the cost",
+        "url": "https://finance.yahoo.com/news/analysis-iran-war-leaves-crisis-141703771.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Goldman\u2019s \u2018Unwavering\u2019 Support Shows Gulf\u2019s Lure for Wall Street",
+        "url": "https://finance.yahoo.com/economy/policy/articles/finance-titans-bet-mideast-resilience-112228720.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Meta must face youth addiction lawsuit by Massachusetts, court rules",
+        "url": "https://finance.yahoo.com/news/meta-must-face-youth-addiction-135900643.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Iran war oil shock pushes US inflation to highest level in almost two years",
+        "url": "https://finance.yahoo.com/economy/articles/expect-first-us-inflation-report-090056686.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Demand for Dollars in Swaps Ebbs Alongside Global Risks",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/demand-dollars-swaps-ebbs-alongside-132321797.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Americans close to retirement are saving for later, but they're worried about getting by right now",
+        "url": "https://finance.yahoo.com/economy/article/americans-close-to-retirement-are-saving-for-later-but-theyre-worried-about-getting-by-right-now-182653896.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "We're living in a 'whiplash economy': Claudia Sahm on CPI dataNew Century Advisors chief economist Claudia Sahm and UBS Global Wealth Management head of taxable fixed income strategy Leslie Falconio chat with Yahoo Finance's Julie Hyman and Myles Udland about the breaking data. Sahm also served as a Federal Reserve Board economist and is the creator of the central bank's Sahm Rule recession indicator.",
+        "url": "https://finance.yahoo.com/video/were-living-in-a-whiplash-economy-claudia-sahm-on-cpi-data-132628213.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bitcoin climbs above $72K following March's hot inflation data",
+        "url": "https://finance.yahoo.com/video/bitcoin-climbs-above-72k-following-marchs-hot-inflation-data-145909318.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Inflation rose 0.9% in March amid energy price shocks",
+        "url": "https://finance.yahoo.com/video/inflation-rose-09-in-march-amid-energy-price-shocks-124110093.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Consumer sentiment sinks to record low in April as US-Iran tanks economic outlookConsumer sentiment in April fell sharply to a record low as high energy prices and market volatility weighed on American households.",
+        "url": "https://finance.yahoo.com/news/consumer-sentiment-sinks-to-record-low-in-april-as-us-iran-tanks-economic-outlook-145132243.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Inflation surged in March as Iran war drove up energy costsInflation rose at an annual rate of 3.3% in March, driven by the sharpest monthly increase in gas prices since 1967.",
+        "url": "https://finance.yahoo.com/economy/articles/inflation-surged-march-iran-war-125153650.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "US inflation surges to 3.3% as Iran war fuels energy price shockUS consumer prices rose sharply in March, with headline inflation climbing to 3.3% year-on-year as energy costs spiked in the wake of the Iran war, official data showed on Friday.View on euronews",
+        "url": "https://finance.yahoo.com/economy/policy/articles/us-inflation-surges-3-3-130716757.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "CPI inflation soars by most since 2022 as gas prices riseHeadline CPI inflation clocked in 3.3% higher than a year ago while being up 0.9% on a monthly basis, a rapid acceleration from February's levels.",
+        "url": "https://finance.yahoo.com/news/cpi-inflation-soars-by-most-since-2022-as-gas-prices-rise-191214655.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gap between high-income households' wage growth and everyone else is at its widest since 2015After-tax wage growth is accelerating faster among higher-income households as other households trail behind, a new Bank of America Institute report shows.",
+        "url": "https://finance.yahoo.com/economy/article/gap-between-high-income-households-wage-growth-and-everyone-else-is-at-its-widest-since-2015-152406175.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "IMF head says global growth outlook is lower due to war in IranInternational Monetary Fund managing director Kristalina Georgieva said Thursday that the fund has lowered its global growth outlook even in the most optimistic scenario on account of the conflict in the Middle East.",
+        "url": "https://finance.yahoo.com/economy/article/imf-head-says-global-growth-outlook-is-lower-due-to-war-in-iran-142300705.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's March minutes: Officials saw Iran war increasing inflation, delaying rate cutsFederal Reserve officials expected that higher oil prices resulting from the Iran war would increase inflation in the near term and delay price inflation falling back toward their 2% goal, according to minutes from the central bank\u2019s March policy meeting released Wednesday.",
+        "url": "https://finance.yahoo.com/economy/article/feds-march-minutes-officials-saw-iran-war-increasing-inflation-delaying-rate-cuts-192333569.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Dallas Fed study: Inflation expectations could improve quickly if Strait of Hormuz reopensWith a two-week ceasefire underway in Iran, oil prices are dropping. If the situation holds, expectations for higher inflation could also drop.",
+        "url": "https://finance.yahoo.com/economy/article/dallas-fed-study-inflation-expectations-could-improve-quickly-if-strait-of-hormuz-reopens-172850125.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's vice chair says oil price shock complicates inflation outlookFederal Reserve Vice Chair Philip Jefferson said Tuesday that the jolt in energy prices complicates his inflation outlook, and depending on how long the Middle East conflict lasts, elevated oil prices could weigh on consumer and business spending.",
+        "url": "https://finance.yahoo.com/economy/article/feds-vice-chair-says-oil-price-shock-complicates-inflation-outlook-100000919.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "US households see their finances deteriorating amid rising gas pricesMore US households anticipate they'll be financially worse off in the year ahead as gas prices increase amid the US-Israel war on Iran, according to the New York Federal Reserve's March survey of consumer expectations.",
+        "url": "https://finance.yahoo.com/economy/article/us-households-see-their-finances-deteriorating-amid-rising-gas-prices-151638457.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 55
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 11:01 a.m. EDT on 2026-04-10",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775833265"
+      },
+      {
+        "title": "Wall St set for muted open after in-line inflation data; Mideast truce in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775827000"
+      },
+      {
+        "title": "US stock index futures near flat after as-expected CPI",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775826664"
+      },
+      {
+        "title": "Wall St futures gain after March inflation data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775824633"
+      },
+      {
+        "title": "US stock futures steady ahead of inflation data, Mideast truce in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775820225"
+      },
+      {
+        "title": "Back from the brink?",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775818228"
+      },
+      {
+        "title": "US stock futures subdued ahead of inflation data, Mideast in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775812981"
+      },
+      {
+        "title": "Dow Transports hit record high, bulls watch for Dow Industrials to follow",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775739804"
+      },
+      {
+        "title": "Wall St set for lower open over shaky Mideast truce; inflation data assessed",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775739718"
+      },
+      {
+        "title": "Wall St futures little changed after inflation data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775738197"
+      },
+      {
+        "title": "US stock futures fall over shaky Mideast truce; inflation in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775734367"
+      },
+      {
+        "title": "Relief rally hits pause",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775731536"
+      },
+      {
+        "title": "US stock futures dip over shaky Mideast truce; inflation in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775727121"
+      },
+      {
+        "title": "S&P 500, Nasdaq gain on tech boost after inflation data; Mideast tensions in focus",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1775832375"
+      },
+      {
+        "title": "The great American wage divide",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1775830659"
+      },
+      {
+        "title": "S&P 500 near flat as investors watch for next Middle East developments",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1775829904"
+      },
+      {
+        "title": "US NONDURABLE ORDERS +1.5% IN FEBRUAR VS +0.5% IN JANUARY (PREVIOUS +0.3%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1775829780"
+      },
+      {
+        "title": "US CONSUMER 5-YEAR INFLATION EXPECTATIONS 3.4% IN  APR VS. 3.2% IN MAR",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1775829720"
+      },
+      {
+        "title": "US DURABLE ORDERS -1.3% IN FEBRUARY (PREVIOUS -1.4%) VS -0.4% IN JANUARY (PREVIOUS -0.5%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1775829720"
+      },
+      {
+        "title": "US FACTORY ORDERS 0.0% IN FEBRUARY VS 0.0% IN JANUARY (PREVIOUS -0.1%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1775829720"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "ADP Employment Change Weekly",
+        "country": "US",
+        "impact": "0",
+        "actual": "9",
+        "forecast": "None",
+        "previous": "14.75"
+      },
+      {
+        "title": "NY Fed Services Activity Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-22.6",
+        "forecast": "None",
+        "previous": "-25.7"
+      },
+      {
+        "title": "Redbook YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "6.4",
+        "forecast": "None",
+        "previous": "6.2"
+      },
+      {
+        "title": "Pending Home Sales YoY",
+        "country": "US",
+        "impact": "0",
+        "actual": "-0.8",
+        "forecast": "None",
+        "previous": "-0.4"
+      },
+      {
+        "title": "Pending Home Sales MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "1.8",
+        "forecast": "-0.5",
+        "previous": "-1"
+      },
+      {
+        "title": "52-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "3.485",
+        "forecast": "None",
+        "previous": "3.345"
+      },
+      {
+        "title": "6-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "3.635",
+        "forecast": "None",
+        "previous": "3.635"
+      },
+      {
+        "title": "20-Year Bond Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "4.817",
+        "forecast": "None",
+        "previous": "4.664"
+      },
+      {
+        "title": "API Crude Oil Stock Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "6.6",
+        "forecast": "-0.6",
+        "previous": "-1.7"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZvJ7viD3dJm4PscepDtq'}\n\n## Macro Environment\n- DXY: 99.58 (day -0.13%) \n- VIX: 22.37 (day -4.85%) (Fear HIGH \u2014 risk-off)\n- 10Y Yield: 4.202 (day -0.43%) \n- Gold: 5001.0 (day +0.14%)\n- Oil: 96.21 (day +2.90%)\n- Environment: **RISK-OFF**\n\n## Recent Headlines (Yahoo Finance)\n  - CPI inflation soars by most since 2022 as gas prices biteHeadline inflation clocked in at 3.3% on a year ago, a rapid acceleration from February's levels.\n  - Stocks edge up after inflation heats up, with Iran talks in focus\n  - Has Hormuz reopened after Trump's demands? Where things stand.\n  - Consumer sentiment sinks to record low as war tanks economic outlook\n  - Why Shaquille O'Neal is investing his money in an adult toy store\n  - TSMC sales smash record as war fails to dent AI demand\n  - Why the Fed is likely to hold on rates despite soaring energy prices\n  - March CPI breakdown: Iran war sends gas prices skyrocketing\n\n## Market Trend\n- NQ: DOWN | Price: 24795.5 | 1D: 0.49% | 5D: -0.75%\n- ES: DOWN | Price: 6721.75 | 1D: 0.25% | 5D: -0.97%\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: SELL SIDE**\n**NQ: BEARISH** | **ES: BEARISH**\n\n_Note: Add ANTHROPIC_API_KEY to .env for full news-driven AI analysis with detailed reasoning._",
+    "bias_nq": "BEARISH",
+    "bias_es": "BEARISH",
+    "side": "SELL SIDE",
+    "source": "Fallback (API error)"
+  },
+  "errors": []
+}

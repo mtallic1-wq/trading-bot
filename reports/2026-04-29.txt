@@ -1,0 +1,96 @@
+ANALYSIS DATE: 2026-04-29
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.768 | Day: +0.150% | 5-Day: +0.18%
+  VIX (Fear Index): 18.05 | Day: +1.234% | 5-Day: -4.60%
+  10Y Treasury Yield: 4.372 | Day: +0.413% | 5-Day: +1.82%
+  Gold: 4559.2 | Day: -0.703% | 5-Day: -3.66%
+  Crude Oil: 103.4 | Day: +3.472% | 5-Day: +11.23%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 27244.5 | Trend: UP
+  1D: 0.28% | 5D: 0.6% | 10D: 3.33%
+  Prev High: 27512.0 | Prev Low: 27009.5 | Prev Close: 27168.75
+  Week High: 27542.5 | Week Low: 26681.75
+  Last 5 Candles: 2026-04-23 DOWN (O:27075.0 H:27155.75 L:26681.75 C:26934.0) | 2026-04-24 UP (O:26992.0 H:27462.5 L:26992.0 C:27435.0) | 2026-04-27 UP (O:27403.25 H:27542.5 L:27298.5 C:27440.5) | 2026-04-28 DOWN (O:27423.0 H:27512.0 L:27009.5 C:27168.75) | 2026-04-29 UP (O:27197.25 H:27317.25 L:27191.75 C:27244.5)
+
+=== ES — S&P 500 Futures ===
+  Price: 7171.75 | Trend: UP
+  1D: 0.01% | 5D: 0.01% | 10D: 1.58%
+  Prev High: 7223.25 | Prev Low: 7146.25 | Prev Close: 7171.0
+  Week High: 7223.25 | Week Low: 7079.25
+  Last 5 Candles: 2026-04-23 DOWN (O:7163.0 H:7181.5 L:7079.25 C:7143.5) | 2026-04-24 UP (O:7143.0 H:7200.5 L:7135.5 C:7194.75) | 2026-04-27 UP (O:7185.0 H:7211.25 L:7171.5 C:7206.0) | 2026-04-28 DOWN (O:7204.75 H:7223.25 L:7146.25 C:7171.0) | 2026-04-29 DOWN (O:7172.5 H:7188.5 L:7161.25 C:7171.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Fed 'firmly parked' on interest rate pauseThe Fed is expected to hold interest rates steady amid uncertainty over the conflict in the Middle East.
+  2. Stock futures muted in wait for Mag 7 earnings, Fed rate call
+  3. Amazon earnings put the spotlight on AI spending
+  4. Oil surges as White House signals it will continue Hormuz blockade
+  5. Ford Q1 earnings preview: F-150 production and tariff relief in focus
+  6. Trump tells aides to prep for lengthy Hormuz blockade
+  7. Wall Street braces for Fed's next move on interest rates
+  8. Why data storage stocks are a key AI play
+  9. The bond market is testing Washington again
+  10. SoFi stock sinks despite solid earnings as tech platform struggles
+  11. Tech stocks today: Big Tech earnings on deck, Musk versus Altman and OpenAI trial continues
+  12. Italy's Fincantieri and KAYO to work together on strengthening Albania's navy
+  13. US goods trade deficit widens in March as imports rise sharply
+  14. How the Fed's rate decision affects your bank accounts, loans, credit cards, and investments
+  15. US core capital goods orders blow past expectations in March
+  16. Humana reports quarterly beat, unchanged forecast underwhelms market
+  17. Amphenol forecasts upbeat quarterly results on AI data center demand
+  18. Powell's last meeting: What Fed rhetoric may look like under Kevin WarshWall Street expects the Federal Reserve to hold interest rates steady at what is possibly Jerome Powell's final FOMC meeting as Fed chair on Wednesday. Many investors are speculating whether Powell will stay on the Fed's Board of Governors after his term at the US central bank concludes on May 15. Thornburg Investment Management head of fixed income Christian Hoffmann and 42 Macro founder and CEO Darius Dale come on Market Domination to talk about what investors are expecting from Powell's press conference tomorrow, and what may change for the Fed if Kevin Warsh is confirmed to succeed Powell.
+  19. Trump is still holding 'a sword' above Fed's Powell: Sen. Warren
+  20. Big Tech: What this strategist is looking for on earnings calls
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Growth flexes again as April rally vs Value nears a dot‑com-era record
+  2. Wall Street eyes mixed open ahead of Big Tech earnings, Fed meeting
+  3. Wall Street futures mixed ahead of Big Tech earnings, Fed meeting
+  4. Whirlwind Wednesday
+  5. Nasdaq, S&P 500 end lower on renewed AI growth worries ahead of big tech earnings
+  6. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-28
+  7. Nasdaq, S&P 500 fall on renewed AI growth worries ahead of big tech earnings
+  8. Nasdaq trails S&P 500, Dow as AI growth worries hit tech stocks
+  9. Nasdaq underperforms S&P 500, Dow as AI growth worries hit tech stocks
+  10. Stocks are scoring records, but the Dow is still benched
+  11. Nasdaq futures slide as fresh concerns around AI pressure tech stocks
+  12. US stock index futures mixed as Mideast stalemate keeps oil risks in focus
+  13. Talons on show
+  14. US stock index futures fall as Middle East stalemate keeps oil risks in focus
+  15. MARCH US TRADE IN GOODS: EXPORTS FOOD $14,953 BLN, INDUSTRIAL $85,603; BLN CAP GOODS $66,729 BLN; AUTOS $15,565 BLN; CONSUMER $21,257 BLN
+
+=== ECONOMIC CALENDAR — 2026-04-29 ===
+  [-1] MBA Mortgage Market Index — Actual: 298.5 | Forecast: None | Prev: 303.3
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.37 | Forecast: None | Prev: 6.35
+  [-1] MBA Mortgage Refinance Index — Actual: 977.9 | Forecast: None | Prev: 1023.1
+  [-1] MBA Mortgage Applications — Actual: -1.6 | Forecast: None | Prev: 7.9
+  [-1] MBA Purchase Index — Actual: 177.7 | Forecast: None | Prev: 175.6
+  [-1] Non Defense Goods Orders Ex Air — Actual: 3.3 | Forecast: 0.5 | Prev: 1.6
+  [1] Building Permits Prel — Actual: 1.538 | Forecast: None | Prev: 1.386
+  [1] Housing Starts — Actual: 1.356 | Forecast: None | Prev: 1.398
+  [1] Durable Goods Orders MoM — Actual: 0.8 | Forecast: 0.5 | Prev: -1.2
+  [0] Building Permits MoM Prel — Actual: 10.9 | Forecast: None | Prev: -4.7
+  [-1] Durable Goods Orders ex Defense MoM — Actual: -0.3 | Forecast: None | Prev: -1.2
+  [0] Housing Starts MoM — Actual: 10.8 | Forecast: None | Prev: -3
+  [0] Durable Goods Orders Ex Transp MoM — Actual: 0.9 | Forecast: 0.4 | Prev: 1.2
+  [0] Goods Trade Balance Adv — Actual: -87.87 | Forecast: -87 | Prev: -83.5
+  [0] Building Permits MoM Prel — Actual: -10.8 | Forecast: None | Prev: 10.9
+  [0] Housing Starts MoM — Actual: -3 | Forecast: None | Prev: 1.8
+  [0] Wholesale Inventories MoM Adv — Actual: 1.4 | Forecast: 0.4 | Prev: 0.9
+  [0] Retail Inventories Ex Autos MoM Adv — Actual: 0.5 | Forecast: None | Prev: 0.3
+  [1] Building Permits Prel — Actual: 1.372 | Forecast: 1.39 | Prev: 1.538
+  [1] Housing Starts — Actual: 1.502 | Forecast: 1.4 | Prev: 1.356
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-29.

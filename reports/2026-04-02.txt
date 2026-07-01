@@ -1,0 +1,94 @@
+ANALYSIS DATE: 2026-04-02
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 100.03 | Day: +0.381% | 5-Day: +0.13%
+  VIX (Fear Index): 23.87 | Day: -2.730% | 5-Day: -13.01%
+  10Y Treasury Yield: 4.313 | Day: -0.139% | 5-Day: -2.33%
+  Gold: 4651.5 | Day: -2.753% | 5-Day: +6.31%
+  Crude Oil: 111.54 | Day: +11.406% | 5-Day: +18.06%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 24218.0 | Trend: DOWN
+  1D: 0.1% | 5D: 1.78% | 10D: -0.6%
+  Prev High: 24348.25 | Prev Low: 23880.0 | Prev Close: 24194.75
+  Week High: 24421.25 | Week Low: 22961.5
+  Last 5 Candles: 2026-03-27 DOWN (O:23824.0 H:23976.0 L:23232.5 C:23328.5) | 2026-03-30 DOWN (O:23189.5 H:23574.0 L:23024.5 C:23139.75) | 2026-03-31 UP (O:23119.5 H:23975.25 L:22961.5 C:23915.0) | 2026-04-01 UP (O:23889.0 H:24348.25 L:23880.0 C:24194.75) | 2026-04-02 UP (O:24180.0 H:24266.75 L:23666.0 C:24218.0)
+
+=== ES — S&P 500 Futures ===
+  Price: 6622.25 | Trend: DOWN
+  1D: 0.07% | 5D: 1.49% | 10D: 0.2%
+  Prev High: 6653.75 | Prev Low: 6561.0 | Prev Close: 6617.75
+  Week High: 6653.75 | Week Low: 6353.25
+  Last 5 Candles: 2026-03-27 DOWN (O:6536.0 H:6568.5 L:6389.0 C:6412.25) | 2026-03-30 UP (O:6380.0 H:6481.75 L:6359.5 C:6388.25) | 2026-03-31 UP (O:6385.25 H:6583.25 L:6353.25 C:6570.75) | 2026-04-01 UP (O:6562.0 H:6653.75 L:6561.0 C:6617.75) | 2026-04-02 UP (O:6618.5 H:6644.5 L:6503.75 C:6622.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Has Hormuz reopened after Trump's demands? Where things stand.As the US and Iran prepare for talks to begin on Saturday, traffic through the world's most critical chokepoint for global energy flows is still thin.
+  2. Stock futures stall as CPI data, Iran war talks loom
+  3. US consumer inflation expected to have surged amid Iran war
+  4. TSMC sales smash record as war fails to dent AI demand
+  5. Oil rises after attacks slash Saudi production capacity
+  6. Chips are still where the AI trade rubber meets the road
+  7. This is where US home buyers or sellers have the upper hand
+  8. The S&P 500 just edged bulls back in control: Chart of the Day
+  9. As airfares spiral, cruise lines are offering summer deals
+  10. Russian-flagged tanker transits Hormuz in rare passage
+  11. Big Tech puts financial heft behind next-gen nuclear power as AI demand surges
+  12. Shippers weigh unusual routes as high air cargo rates, ocean gridlock persist
+  13. Analysis-Crypto giant Kraken's Fed payment account sparks concerns about risks
+  14. Morning Brief: A big day for inflation
+  15. US consumer inflation expected to have surged in March amid Iran war
+  16. Apple leads smartphone market even as overall shipments decline, Counterpoint says
+  17. What to expect from the first US inflation report since the Iran war began
+  18. Investors ignoring inflation are doing so 'at their own risk'February's Personal Consumption Expenditures index (PCE) — the Federal Reserve's preferred inflation gauge — rose 2.8% from this time last year, while not accounting for March price shocks resulting from the US-Iran war. RSM chief economist Joe Brusuelas comes on Market Domination to discuss the latest inflation data in relation to energy price shocks and the American working class. The US Bureau of Labor Statistics (BLS) are scheduled to release March's Consumer Price Index survey (CPI) on Friday, April 10.
+  19. Why Palo Alto Networks is a 'winner' amid a sea of software losers
+  20. Why Microsoft and Google could be the best Mag 7 stock picks
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. US stock futures steady ahead of inflation data, Mideast truce in focus
+  2. Back from the brink?
+  3. US stock futures subdued ahead of inflation data, Mideast in focus
+  4. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-09
+  5. Dow Transports hit record high, bulls watch for Dow Industrials to follow
+  6. Wall St set for lower open over shaky Mideast truce; inflation data assessed
+  7. Wall St futures little changed after inflation data
+  8. US stock futures fall over shaky Mideast truce; inflation in focus
+  9. Relief rally hits pause
+  10. US stock futures dip over shaky Mideast truce; inflation in focus
+  11. US futures jump on Iran ceasefire; S&P 500 eyes key technical levels 
+  12. Wall St set for higher open as US-Iran ceasefire lifts sentiment
+  13. Intel, Sandisk and Other Big Winners in the S&P 500's Hot Streak — Barrons.com
+  14. Wall Street's fear gauge just flashed an unusual signal that could carry the S&P 500 to 7,400 within months
+  15. SPX: S&P 500 Futures Hug the Flatline as Iran War Keeps Traders on Their Toes
+
+=== ECONOMIC CALENDAR — 2026-04-02 ===
+  [1] US President Trump Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Challenger Job Cuts — Actual: 60.62 | Forecast: None | Prev: 48.307
+  [0] Initial Jobless Claims — Actual: 202 | Forecast: 212 | Prev: 211
+  [-1] Jobless Claims 4-week Average — Actual: 207.75 | Forecast: None | Prev: 210.75
+  [-1] Continuing Jobless Claims — Actual: 1841 | Forecast: 1840 | Prev: 1816
+  [0] Exports — Actual: 314.8 | Forecast: None | Prev: 302.2
+  [0] Balance of Trade — Actual: -57.3 | Forecast: -59.2 | Prev: -54.7
+  [0] Imports — Actual: 372.1 | Forecast: None | Prev: 356.9
+  [0] Goods Trade Balance — Actual: -83.5 | Forecast: None | Prev: -80.9
+  [-1] EIA Natural Gas Stocks Change — Actual: 36 | Forecast: 34 | Prev: -54
+  [0] Fed Logan Speech — Actual: None | Forecast: None | Prev: None
+  [-1] 4-Week Bill Auction — Actual: 3.62 | Forecast: None | Prev: 3.62
+  [-1] 8-Week Bill Auction — Actual: 3.62 | Forecast: None | Prev: 3.63
+  [-1] 15-Year Mortgage Rate — Actual: 5.77 | Forecast: None | Prev: 5.75
+  [-1] 30-Year Mortgage Rate — Actual: 6.46 | Forecast: None | Prev: 6.38
+  [-1] Baker Hughes Total Rigs Count — Actual: 548 | Forecast: None | Prev: 543
+  [-1] Baker Hughes Oil Rig Count — Actual: 411 | Forecast: None | Prev: 409
+  [-1] Fed Balance Sheet — Actual: 6.68 | Forecast: None | Prev: 6.66
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-02.

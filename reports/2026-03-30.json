@@ -1,0 +1,538 @@
+{
+  "date": "2026-03-30",
+  "created": "2026-04-10T16:54:04.316065",
+  "is_historical": true,
+  "bias_nq": "BEARISH",
+  "bias_es": "BEARISH",
+  "side": "SELL SIDE",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 23139.75,
+    "prev_day_high": 23976.0,
+    "prev_day_low": 23232.5,
+    "prev_day_close": 23328.5,
+    "week_high": 24763.0,
+    "week_low": 23232.5,
+    "trend": "DOWN",
+    "performance": {
+      "1d_pct": -0.81,
+      "5d_pct": -5.2,
+      "10d_pct": -6.22
+    },
+    "recent_candles": [
+      {
+        "date": "2026-03-24",
+        "open": 24417.25,
+        "high": 24550.0,
+        "low": 24134.0,
+        "close": 24213.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-25",
+        "open": 24420.0,
+        "high": 24539.75,
+        "low": 24286.5,
+        "close": 24367.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-26",
+        "open": 24373.5,
+        "high": 24421.25,
+        "low": 23763.25,
+        "close": 23794.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-27",
+        "open": 23824.0,
+        "high": 23976.0,
+        "low": 23232.5,
+        "close": 23328.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-30",
+        "open": 23189.5,
+        "high": 23574.0,
+        "low": 23024.5,
+        "close": 23139.75,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 6388.25,
+    "prev_day_high": 6568.5,
+    "prev_day_low": 6389.0,
+    "prev_day_close": 6412.25,
+    "week_high": 6748.0,
+    "week_low": 6389.0,
+    "trend": "DOWN",
+    "performance": {
+      "1d_pct": -0.37,
+      "5d_pct": -3.72,
+      "10d_pct": -4.72
+    },
+    "recent_candles": [
+      {
+        "date": "2026-03-24",
+        "open": 6635.0,
+        "high": 6680.5,
+        "low": 6573.5,
+        "close": 6606.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-25",
+        "open": 6646.5,
+        "high": 6684.75,
+        "low": 6616.5,
+        "close": 6640.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-26",
+        "open": 6641.5,
+        "high": 6647.0,
+        "low": 6517.0,
+        "close": 6525.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-27",
+        "open": 6536.0,
+        "high": 6568.5,
+        "low": 6389.0,
+        "close": 6412.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-03-30",
+        "open": 6380.0,
+        "high": 6481.75,
+        "low": 6359.5,
+        "close": 6388.25,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 100.51,
+      "day_chg": 0.359,
+      "5d_chg": 1.58
+    },
+    "VIX (Fear Index)": {
+      "price": 30.61,
+      "day_chg": -1.417,
+      "5d_chg": 17.06
+    },
+    "10Y Treasury Yield": {
+      "price": 4.342,
+      "day_chg": -2.207,
+      "5d_chg": 0.18
+    },
+    "Gold": {
+      "price": 4526.0,
+      "day_chg": 0.757,
+      "5d_chg": 2.77
+    },
+    "Crude Oil": {
+      "price": 102.88,
+      "day_chg": 3.252,
+      "5d_chg": 16.74
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Has Hormuz reopened after Trump's demands? Where things stand.As the US and Iran prepare for talks to begin on Saturday, traffic through the world's most critical chokepoint for global energy flows is still thin.",
+        "url": "https://finance.yahoo.com/news/trump-demanded-a-complete-reopening-of-the-strait-of-hormuz-heres-where-things-actually-stand-100023273.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock futures stall as CPI data, Iran war talks loom",
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-stall-in-cautious-wait-for-inflation-print-iran-peace-talks-230420279.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US consumer inflation expected to have surged amid Iran war",
+        "url": "https://finance.yahoo.com/economy/article/cpi-inflation-data-expected-to-show-energy-price-spike-amid-early-impacts-of-iran-war-191214193.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "TSMC sales smash record as war fails to dent AI demand",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/tsmcs-q1-revenue-jumps-35-053612040.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil rises after attacks slash Saudi production capacity",
+        "url": "https://finance.yahoo.com/news/oil-extends-gain-attacks-lower-010624319.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Chips are still where the AI trade rubber meets the road",
+        "url": "https://finance.yahoo.com/news/chips-are-still-where-the-ai-trades-rubber-meets-the-road-100022558.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "This is where US home buyers or sellers have the upper hand",
+        "url": "https://finance.yahoo.com/sectors/real-estate/article/buyers-markets-dominate-in-florida-while-sellers-still-have-upper-hand-in-the-northeast-110000751.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The S&P 500 just edged bulls back in control: Chart of the Day",
+        "url": "https://finance.yahoo.com/news/sp-500-is-back-above-a-key-level-putting-stock-market-bulls-in-control-chart-of-the-day-100047880.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "As airfares spiral, cruise lines are offering summer deals",
+        "url": "https://finance.yahoo.com/economy/article/as-airfares-spiral-cruise-lines-are-offering-summer-deals-103000827.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Russian-flagged tanker transits Hormuz in rare passage",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/russian-flagged-tanker-transits-hormuz-074515703.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Big Tech puts financial heft behind next-gen nuclear power as AI demand surges",
+        "url": "https://finance.yahoo.com/news/big-tech-puts-financial-heft-103254759.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Shippers weigh unusual routes as high air cargo rates, ocean gridlock persist",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/shippers-weigh-unusual-routes-high-100425283.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Analysis-Crypto giant Kraken's Fed payment account sparks concerns about risks",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/analysis-crypto-giant-krakens-fed-100319719.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Morning Brief: A big day for inflation",
+        "url": "https://finance.yahoo.com/news/morning-brief-a-big-day-for-inflation-100052155.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US consumer inflation expected to have surged in March amid Iran war",
+        "url": "https://finance.yahoo.com/economy/policy/articles/us-consumer-inflation-expected-surged-040706782.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Apple leads smartphone market even as overall shipments decline, Counterpoint says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-leads-global-smartphone-shipments-090358471.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What to expect from the first US inflation report since the Iran war began",
+        "url": "https://finance.yahoo.com/economy/articles/expect-first-us-inflation-report-090056686.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Investors ignoring inflation are doing so 'at their own risk'February's Personal Consumption Expenditures index (PCE) \u2014 the Federal Reserve's preferred inflation gauge \u2014 rose 2.8% from this time last year, while not accounting for March price shocks resulting from the US-Iran war. RSM chief economist Joe Brusuelas comes on Market Domination to discuss the latest inflation data in relation to energy price shocks and the American working class. The US Bureau of Labor Statistics (BLS) are scheduled to release March's Consumer Price Index survey (CPI) on Friday, April 10.",
+        "url": "https://finance.yahoo.com/video/investors-ignoring-inflation-are-doing-so-at-their-own-risk-201500434.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why Palo Alto Networks is a 'winner' amid a sea of software losers",
+        "url": "https://finance.yahoo.com/video/why-palo-alto-networks-is-a-winner-amid-a-sea-of-software-losers-113000959.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why Microsoft and Google could be the best Mag 7 stock picks",
+        "url": "https://finance.yahoo.com/video/why-microsoft-and-google-could-be-the-best-mag-7-stock-picks-110000864.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Inflation Recently Did Something It Hasn't Done Since April 2021, and It Could Spell Trouble for the Stock MarketThe Federal Reserve is faced with a very difficult decision that could make or break the stock market.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/inflation-recently-did-something-hasnt-111500323.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Q4 Earnings Outperformers: Magnolia Oil & Gas (NYSE:MGY) And The Rest Of The Mixed or Offshore Upstream E&P StocksThe end of the earnings season is always a good time to take a step back and see who shined (and who not so much). Let\u2019s take a look at how mixed or offshore upstream e&p stocks fared in Q4, starting with Magnolia Oil & Gas (NYSE:MGY).",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/q4-earnings-outperformers-magnolia-oil-110244915.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gold and silver prices today, Friday, April 10: Gold and silver steady ahead of inflation reportGold (GC=F) June futures opened at $4,790.50 per troy ounce on Friday, 0.6% lower than Thursday\u2019s closing price of $4,818.00.",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-and-silver-prices-today-friday-april-10-gold-and-silver-steady-ahead-of-inflation-report-104133660.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Oil Holds Gain After Iran Attacks Lower Saudi Output Capacity(Bloomberg) -- Oil rose for a second day after Saudi Arabia said a recent wave of Iranian attacks slashed its production capacity, tempering this week\u2019s sharp plunge triggered by a US-Iran ceasefire. Brent traded above $96 a barrel after adding 1.2% on Thursday, though futures are still down about 11% this week, on track for their biggest retreat since June. The attacks on Saudi Arabia\u2019s energy infrastructure also crimped flows through an East-West pipeline the kingdom has been using to export c",
+        "url": "https://finance.yahoo.com/news/oil-extends-gain-attacks-lower-010624319.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "CPI inflation data expected to show energy price spike amid early impacts of Iran warEconomists anticipate headline inflation in March rose 3.4% from a year ago and 0.9% from a month prior \u2014\u00a0a rapid acceleration from February's levels.",
+        "url": "https://finance.yahoo.com/economy/article/cpi-inflation-data-expected-to-show-energy-price-spike-amid-early-impacts-of-iran-war-191214193.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gap between high-income households' wage growth and everyone else is at its widest since 2015After-tax wage growth is accelerating faster among higher-income households as other households trail behind, a new Bank of America Institute report shows.",
+        "url": "https://finance.yahoo.com/economy/article/gap-between-high-income-households-wage-growth-and-everyone-else-is-at-its-widest-since-2015-152406175.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "IMF head says global growth outlook is lower due to war in IranInternational Monetary Fund managing director Kristalina Georgieva said Thursday that the fund has lowered its global growth outlook even in the most optimistic scenario on account of the conflict in the Middle East.",
+        "url": "https://finance.yahoo.com/economy/article/imf-head-says-global-growth-outlook-is-lower-due-to-war-in-iran-142300705.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's March minutes: Officials saw Iran war increasing inflation, delaying rate cutsFederal Reserve officials expected that higher oil prices resulting from the Iran war would increase inflation in the near term and delay price inflation falling back toward their 2% goal, according to minutes from the central bank\u2019s March policy meeting released Wednesday.",
+        "url": "https://finance.yahoo.com/economy/article/feds-march-minutes-officials-saw-iran-war-increasing-inflation-delaying-rate-cuts-192333569.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Dallas Fed study: Inflation expectations could improve quickly if Strait of Hormuz reopensWith a two-week ceasefire underway in Iran, oil prices are dropping. If the situation holds, expectations for higher inflation could also drop.",
+        "url": "https://finance.yahoo.com/economy/article/dallas-fed-study-inflation-expectations-could-improve-quickly-if-strait-of-hormuz-reopens-172850125.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's vice chair says oil price shock complicates inflation outlookFederal Reserve Vice Chair Philip Jefferson said Tuesday that the jolt in energy prices complicates his inflation outlook, and depending on how long the Middle East conflict lasts, elevated oil prices could weigh on consumer and business spending.",
+        "url": "https://finance.yahoo.com/economy/article/feds-vice-chair-says-oil-price-shock-complicates-inflation-outlook-100000919.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 56
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "US stock futures steady ahead of inflation data, Mideast truce in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775820225"
+      },
+      {
+        "title": "Back from the brink?",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775818228"
+      },
+      {
+        "title": "US stock futures subdued ahead of inflation data, Mideast in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775812981"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-09",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775760319"
+      },
+      {
+        "title": "Dow Transports hit record high, bulls watch for Dow Industrials to follow",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775739804"
+      },
+      {
+        "title": "Wall St set for lower open over shaky Mideast truce; inflation data assessed",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775739718"
+      },
+      {
+        "title": "Wall St futures little changed after inflation data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775738197"
+      },
+      {
+        "title": "US stock futures fall over shaky Mideast truce; inflation in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775734367"
+      },
+      {
+        "title": "Relief rally hits pause",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775731536"
+      },
+      {
+        "title": "US stock futures dip over shaky Mideast truce; inflation in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775727121"
+      },
+      {
+        "title": "US futures jump on Iran ceasefire; S&P 500 eyes key technical levels\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775653068"
+      },
+      {
+        "title": "Wall St set for higher open as US-Iran ceasefire lifts sentiment",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775651780"
+      },
+      {
+        "title": "Intel, Sandisk and Other Big Winners in the S&P 500's Hot Streak \u2014 Barrons.com",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1775821080"
+      },
+      {
+        "title": "Wall Street's fear gauge just flashed an unusual signal that could carry the S&P 500 to 7,400 within months",
+        "summary": "",
+        "source": "TradingView/ES Headlines (MarketWatch)",
+        "published": "1775820540"
+      },
+      {
+        "title": "SPX: S&P 500 Futures Hug the Flatline as Iran War Keeps Traders on Their Toes",
+        "summary": "",
+        "source": "TradingView/ES Headlines (TradingView)",
+        "published": "1775808483"
+      },
+      {
+        "title": "'That is not the agreement we have!'",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1775796383"
+      },
+      {
+        "title": "FRIDAY-SUNDAY WHITE HOUSE SCHEDULE - President Trump travels to Charlottesville and Miami",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1775794260"
+      },
+      {
+        "title": "Asian shares rise, oil up as focus turns on upcoming US-Iran talks",
+        "summary": "",
+        "source": "TradingView/ES Headlines (CNBC TV18)",
+        "published": "1775783363"
+      },
+      {
+        "title": "S&P 500 Index, SPY, and VOO set to hit ATH as key catalysts near",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Invezz)",
+        "published": "1775781303"
+      },
+      {
+        "title": "US Futures Edge Lower on Ceasefire Uncertainty",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1775779412"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "NY Fed Bill Purchases 4 to 12 months",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "6.726",
+        "previous": "None"
+      },
+      {
+        "title": "Dallas Fed Manufacturing Index",
+        "country": "US",
+        "impact": "0",
+        "actual": "-0.2",
+        "forecast": "None",
+        "previous": "0.2"
+      },
+      {
+        "title": "Fed Chair Powell Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "3-Month Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "3.62",
+        "forecast": "None",
+        "previous": "3.635"
+      },
+      {
+        "title": "6-Month Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "3.605",
+        "forecast": "None",
+        "previous": "3.63"
+      },
+      {
+        "title": "Fed Williams Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "---\n## MACRO ENVIRONMENT SUMMARY\n- DXY at 100.51, +0.36% today, +1.58% 5-day \u2014 Dollar strengthening persistently above 100. Sustained headwind for NQ and risk assets. A trend, not a one-day move.\n- VIX at 30.61, +17% over 5 days \u2014 Full fear mode. Above 30 means options markets pricing sustained large daily moves. Institutional desks hedging aggressively. Every bounce gets sold.\n- 10Y Yield at 4.342%, -2.21% today \u2014 Yields falling on flight-to-safety. Fear-driven, not optimism-driven. Bearish context.\n- Gold at $4,526, +0.76% today, +2.77% 5-day \u2014 Consistent safe haven bid 5 days straight. Institutional money in full defense mode.\n- Crude Oil at $102.88, +3.25% today, +16.74% 5-day \u2014 Oil up nearly 17% in 5 days, still climbing. Iran war premium fully embedded. $100+ oil means every macro data point looks inflationary.\nEnvironment: FULL RISK-OFF \u2014 VIX above 30, oil +17% in 5 days, gold bid, dollar surging, yields falling on fear.\n\n## KEY NEWS ANALYSIS\nIran/Hormuz active war, no resolution: strait partially closed, talks not started yet. Oil at $102 and rising = market pricing in continued supply disruption.\n\n5 consecutive DOWN candles on NQ (Mar 24-30): price fallen from 24,763 to 23,024 low \u2014 a -7% move in 5 sessions. Waterfall selling, not a controlled pullback.\n\nFed Chair Powell speech scheduled \u2014 single most important event of the day. Markets will parse every word: does he acknowledge oil inflation risk (rate hikes back on table = bearish) or signal transitory view (dovish = relief bounce)?\n\nDallas Fed Manufacturing slipped to -0.2 (prior +0.2) \u2014 manufacturing entering contraction. Stagflation confirmed: oil inflation + slowing manufacturing.\n\nTwo Fed speakers (Powell + Williams) in one day = deliberate coordination to manage market panic.\n\nOverall News Sentiment: STRONGLY BEARISH\n\n## ECONOMIC EVENTS IMPACT\nFed Chair Powell Speech \u2014 the single most important event. Hawkish/concerned tone = deeper selloff. Dovish/transitory language = sharp relief bounce.\nDallas Fed Manufacturing -0.2 \u2014 barely contracting, adds stagflation evidence.\n3-Month Bill Auction 3.62% (down from 3.635%) \u2014 slight flight-to-safety in bills, confirms defensive positioning.\n\n## MARKET TREND CONTEXT\n- NQ: Firmly DOWN. 5 consecutive red candles. Price 23,139 down from 24,763 week high (-6.6%). Today recovered only 115pts off the low (23,024) before closing near lows. Sellers in full control.\n- ES: Trend DOWN, -4.72% 10-day. Today slightly positive candle but made new week low 6,359. ES showing relative strength vs NQ (less rate-sensitive).\n\n## PREDICTION\n**NYSE SESSION SIDE: SELL SIDE**\n**Confidence: 72% \u2014 HIGH**\n\n**NQ Prediction: BEARISH**\n**ES Prediction: BEARISH**\n\n## TOP REASONS\n1. VIX at 30+ sustained \u2014 at VIX 30, every intraday rally is a selling opportunity. 5-day +17% VIX surge confirms structural fear, not a spike.\n2. 5 consecutive DOWN candles on NQ, -6.6% from week high \u2014 fully bearish momentum, no technical basis for reversal without macro catalyst.\n3. Oil +17% in 5 days, Hormuz unresolved, DXY above 100 \u2014 stagflation setup destroys NQ multiples: inflation too high to cut rates, uncertainty too high to buy growth.\n\n## KEY RISKS\n- Powell delivers dovish surprise \u2014 signals oil shock is temporary, maintains easing stance. Would trigger powerful short-squeeze relief rally. #1 risk to bearish call.\n- Hormuz ceasefire headline \u2014 surprise diplomatic breakthrough instantly reverses oil and spikes equities.\n- VIX at 30 = contrarian medium-term buy signal \u2014 smart money may start accumulating, showing up as sharp intraday bounces.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- Powell speech \u2014 every word. \"Oil shock is transitory\" = bull. \"Monitoring inflation closely\" = bear.\n- NQ key levels: Critical support 23,024 (war-shock low). Break below opens 22,500-22,000. Resistance 23,574 (today high) / 23,976 (prev high). Rally to 23,574 without Powell catalyst = sell.\n- ES key levels: Critical support 6,359 (today low / week low). Break = significant breakdown. Resistance 6,481.\n- Oil: above $100 = fear stays; below $98 = relief begins.\n- VIX: break above 32 = aggressive selling accelerates; fall below 28 post-Powell = relief bounce.\n\n## ONE-LINE SUMMARY\n\"2026-03-30 NYSE SESSION: SELL SIDE \u2014 VIX above 30 in full fear mode, NQ down 5 consecutive days -6.6% from week highs, oil +17% in 5 days with Hormuz unresolved; Powell speech is the sole wildcard but macro setup is definitively bearish.\"\n---",
+    "bias_nq": "BEARISH",
+    "bias_es": "BEARISH",
+    "side": "SELL SIDE",
+    "source": "Claude AI via Claude Code (Pro plan)"
+  },
+  "errors": []
+}

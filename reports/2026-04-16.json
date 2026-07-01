@@ -1,0 +1,650 @@
+{
+  "date": "2026-04-16",
+  "created": "2026-04-16T18:32:40.933622",
+  "is_historical": false,
+  "bias_nq": "NEUTRAL",
+  "bias_es": "NEUTRAL",
+  "side": "NEUTRAL",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 26418.5,
+    "prev_day_high": 26377.5,
+    "prev_day_low": 25933.75,
+    "prev_day_close": 26365.5,
+    "week_high": 26377.5,
+    "week_low": 24904.5,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.2,
+      "5d_pct": 4.62,
+      "10d_pct": 9.19
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-10",
+        "open": 25237.0,
+        "high": 25393.0,
+        "low": 25193.0,
+        "close": 25281.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-13",
+        "open": 24980.0,
+        "high": 25599.25,
+        "low": 24904.5,
+        "close": 25543.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-14",
+        "open": 25575.25,
+        "high": 26003.25,
+        "low": 25560.0,
+        "close": 25996.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-15",
+        "open": 25985.75,
+        "high": 26377.5,
+        "low": 25933.75,
+        "close": 26365.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-16",
+        "open": 26350.0,
+        "high": 26488.0,
+        "low": 26345.0,
+        "close": 26418.5,
+        "direction": "UP"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 7069.75,
+    "prev_day_high": 7064.5,
+    "prev_day_low": 6991.75,
+    "prev_day_close": 7060.5,
+    "week_high": 7064.5,
+    "week_low": 6767.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.13,
+      "5d_pct": 3.01,
+      "10d_pct": 6.83
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-10",
+        "open": 6858.0,
+        "high": 6888.0,
+        "low": 6846.25,
+        "close": 6855.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-13",
+        "open": 6780.0,
+        "high": 6928.25,
+        "low": 6767.0,
+        "close": 6922.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-14",
+        "open": 6925.25,
+        "high": 7008.0,
+        "low": 6920.25,
+        "close": 7004.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-15",
+        "open": 7004.0,
+        "high": 7064.5,
+        "low": 6991.75,
+        "close": 7060.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-16",
+        "open": 7057.25,
+        "high": 7078.5,
+        "low": 7055.5,
+        "close": 7069.75,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.171,
+      "day_chg": 0.113,
+      "5d_chg": -0.66
+    },
+    "VIX (Fear Index)": {
+      "price": 18.24,
+      "day_chg": 0.385,
+      "5d_chg": -6.41
+    },
+    "10Y Treasury Yield": {
+      "price": 4.272,
+      "day_chg": -0.234,
+      "5d_chg": -0.49
+    },
+    "Gold": {
+      "price": 4839.0,
+      "day_chg": 0.812,
+      "5d_chg": 0.98
+    },
+    "Crude Oil": {
+      "price": 89.07,
+      "day_chg": -2.432,
+      "5d_chg": -8.99
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "It's our 'Long Island AI' era as Allbirds goes full in on pivotWhat Allbirds is doing isn't so different from Big Tech's embarrassing trend-jacking turn to AI not long ago.",
+        "url": "https://finance.yahoo.com/news/were-in-our-long-island-ai-era-as-shoe-brand-allbirds-goes-full-ai-100009894.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "TSMC's CEO just dropped a clue to next move in AI stocks",
+        "url": "https://finance.yahoo.com/news/taiwan-semiconductor-ceo-just-dropped-a-hint-about-the-next-move-in-ai-stocks-120227431.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock futures hold near records as bets on Iran truce grow",
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-sp-500-nasdaq-steady-after-record-high-closes-amid-hopes-for-renewed-iran-truce-230116905.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Strong ASML, TSMC forecasts signal AI spending boom is intact",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/strong-asml-tsmc-forecasts-signal-104729496.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tesla stock up again as Musk's chip plans boost sentiment",
+        "url": "https://finance.yahoo.com/markets/stocks/article/tesla-stock-up-again-as-musks-chip-plans-boost-sentiment-132513487.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "PepsiCo may be leaving behind $7 Doritos with price cuts",
+        "url": "https://finance.yahoo.com/news/pepsico-may-be-leaving-behind-7-doritos-with-price-cuts-112833478.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Musk asks suppliers to move at 'light speed' on chipmaking plan",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/musk-asks-suppliers-move-light-025431179.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stellantis, Microsoft sign five-year partnership for AI push",
+        "url": "https://finance.yahoo.com/news/stellantis-microsoft-sign-five-partnership-120212213.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US weekly jobless claims fall as labor market stays stable",
+        "url": "https://finance.yahoo.com/news/us-weekly-jobless-claims-decline-123856207.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Chef Jos\u00e9 Andr\u00e9s: World hunger to get worse on war inflation",
+        "url": "https://finance.yahoo.com/news/chef-jose-andres-warns-war-driven-inflation-will-cause-a-larger-world-hunger-problem-122235931.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Google, Pentagon discuss classified AI deal, the Information reports",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/google-pentagon-discuss-classified-ai-132358928.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil prices hold steady as investors watch for second-round peace talk updates",
+        "url": "https://finance.yahoo.com/news/oil-prices-hold-steady-as-investors-watch-for-second-round-peace-talk-updates-130923150.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "TPG to invest $100 million in student mobility company Zum",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tpg-invest-100-million-student-130822652.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Louis Vuitton, Gucci, Herm\u00e8s luxury sales decline as Iran war hits crucial Middle East demand",
+        "url": "https://finance.yahoo.com/markets/stocks/article/louis-vuitton-gucci-hermes-luxury-sales-decline-as-iran-war-hits-crucial-middle-east-demand-114914361.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Roche launches new Elevidys study after feedback from European regulator",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/roche-launches-elevidys-study-feedback-112522866.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "India's Wipro unveils record buyback after slight quarterly revenue miss",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/indias-wipro-misses-fourth-quarter-110251068.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Markets are finally broadening out in 2026. Is that a problem?US stock futures (ES=F, NQ=F, YM=F) edge higher Thursday morning after the S&P 500 (^GSPC) and Nasdaq Composite (^IXIC) closed yesterday's session at new record highs.  Morning Brief Anchor Julie Hyman and Yahoo Finance Head of News Myles Udland examine the year-to-date moves across sectors and how the market indexes are holding up compared to their equal-weight counterparts.",
+        "url": "https://finance.yahoo.com/video/markets-are-finally-broadening-out-in-2026-is-that-a-problem-132030726.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Fed is getting a 'stagflationary impulse': Austan Goolsbee",
+        "url": "https://finance.yahoo.com/video/fed-is-getting-a-stagflationary-impulse-austan-goolsbee-120000111.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Avoid these common small business tax mistakes",
+        "url": "https://finance.yahoo.com/video/avoid-these-common-small-business-tax-mistakes-120000713.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US jobless claims fall last week as layoffs remain low despite global economic uncertaintyU.S. applications for unemployment benefits fell last week, remaining in the range of the past few years even as the war in Iran continues to threaten the global economy.  The number of Americans applying for jobless aid for the week ending April 11 fell by 11,000 to 207,000 from the previous week\u2019s 218,000, the Labor Department reported Thursday.  Filings for unemployment benefits are considered representative of U.S. layoffs and are close to a real-time indicator of the health of the job market.",
+        "url": "https://finance.yahoo.com/economy/articles/us-jobless-claims-fall-last-124043546.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Chef Jos\u00e9 Andr\u00e9s warns war-driven inflation will cause a larger world hunger problemChef Jos\u00e9 Andr\u00e9s shares one of his biggest concerns as the US war on Iran continues.",
+        "url": "https://finance.yahoo.com/news/chef-jose-andres-warns-war-driven-inflation-will-cause-a-larger-world-hunger-problem-122235931.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Repsol agrees Venezuela deal to boost oil production and regain control of assetsSpanish energy company Repsol has reached an agreement with Venezuela\u2019s government and state-owned company Petr\u00f3leos de Venezuela (PDVSA) to regain operational control of key oil assets and sharply increase production over the next three years.View on euronews",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/repsol-agrees-venezuela-deal-boost-115142922.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Repsol Regains Control of Venezuela Oil Fields, Aims to Boost ProductionThe company aims to increase gross oil production in Venezuela by 50% within 12 months and triple it in the next three years.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/repsol-regains-control-venezuela-oil-112600692.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Some companies are pulling back on hiring thanks to AIAI is leading some businesses to pump the brakes on hiring plans, according to the Federal Reserve's Beige Book.",
+        "url": "https://finance.yahoo.com/economy/policy/article/some-companies-are-pulling-back-on-hiring-thanks-to-ai-100000642.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Beige Book: Iran war has businesses on edgeThe war in Iran is complicating investment and hiring plans and creating new cost pressures for businesses, according to the Federal Reserve's Beige Book released Wednesday.",
+        "url": "https://finance.yahoo.com/economy/article/feds-beige-book-iran-war-has-businesses-on-edge-190550150.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Tax Day: Refunds are up as filing deadline hitsApril 15 \u2014\u00a0today \u2014\u00a0is the last day for filers to get their tax return in and pay their bill without incurring penalties.",
+        "url": "https://finance.yahoo.com/economy/article/tax-day-refunds-are-up-as-filing-deadline-hits-170032543.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Trump threatens to fire Powell if he stays on after his term as Fed Chair ends next monthPresident Trump is threatening to fire Federal Reserve Chair Jerome Powell if he does not step aside when his term leading the central bank expires next month.",
+        "url": "https://finance.yahoo.com/economy/policy/article/trump-threatens-to-fire-powell-if-he-stays-on-after-his-term-as-fed-chair-ends-next-month-150905200.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Workers who want AI training the most are using it the leastWhen it comes to using generative AI in the workplace, adoption skews highest among currently employed college graduates, big earners, and those with full-time jobs, according to a new analysis from New York Federal Reserve researchers.",
+        "url": "https://finance.yahoo.com/economy/article/workers-who-want-ai-training-the-most-are-using-it-the-least-160312664.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Chicago Fed president Austan Goolsbee: The longer the war goes on, the more a rate cut gets pushed offChicago Fed president Austan Goolsbee said the Fed isn't planning to hike rates currently, but a negative supply shock like oil prices can be problematic because it can raise people's expectations of inflation.",
+        "url": "https://finance.yahoo.com/news/chicago-fed-president-austan-goolsbee-the-longer-the-war-goes-on-the-more-a-rate-cut-gets-pushed-off-155208464.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Goldman Sachs warning on consumers: Gas price spike will be feltConsumers can't outrun higher gas prices forever.",
+        "url": "https://finance.yahoo.com/news/goldman-sachs-warning-on-consumers-gas-price-spike-will-be-felt-145418482.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 57
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Wall St indexes set to open higher as Mideast diplomacy hopes, earnings lift sentiment",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776344549"
+      },
+      {
+        "title": "From trough to triumph: Nasdaq\u2019s surge delivers fresh records",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776344446"
+      },
+      {
+        "title": "Wall St futures edge higher on Mideast diplomacy hopes, strong earnings",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776338177"
+      },
+      {
+        "title": "Six-week roundtrip",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776336967"
+      },
+      {
+        "title": "S&P 500, Nasdaq push to closing records on optimism around Middle East talks, earnings\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776287459"
+      },
+      {
+        "title": "S&P 500, Nasdaq push to closing records on earnings and Middle East optimism",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776283242"
+      },
+      {
+        "title": "S&P 500, Nasdaq advance on earnings and Middle East optimism",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776279764"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-15",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776278707"
+      },
+      {
+        "title": "S&P 500, Nasdaq extend rally as investors weigh earnings, Mideast de-escalation signals",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776269922"
+      },
+      {
+        "title": "S&P 500, Nasdaq rise as focus shifts to earnings",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776263508"
+      },
+      {
+        "title": "S&P 500 within striking distance of record after biggest 10-day rally since 2020",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776258051"
+      },
+      {
+        "title": "Wall St indexes set for breather after rally as focus shifts to earnings",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776257495"
+      },
+      {
+        "title": "Wall Street futures hold steady with earnings in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776252897"
+      },
+      {
+        "title": "Back to business",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776249685"
+      },
+      {
+        "title": "Wall Street indexes open higher as Mideast diplomacy hopes, earnings lift sentiment",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1776346309"
+      },
+      {
+        "title": "ECB GOVERNING COUNCIL MEMBER ISABEL SCHNABEL ON PIIE PANEL: EUROZONE HAS PROVEN RESILIENT TO RECENT SHOCK",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776345780"
+      },
+      {
+        "title": "MORE U.S. MARCH INDUSTRIAL PRODUCTION: BUSINESS EQUIPMENT -0.3% M/M",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776345540"
+      },
+      {
+        "title": "MORE U.S. MARCH INDUSTRIAL PRODUCTION: MATERIALS -0.6% M/M",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776345540"
+      },
+      {
+        "title": "MORE U.S. MARCH INDUSTRIAL PRODUCTION: MINING -1.2% M/M",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776345540"
+      },
+      {
+        "title": "MORE U.S. MARCH INDUSTRIAL PRODUCTION: UTILITIES -2.3% M/M",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776345540"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Initial Jobless Claims",
+        "country": "US",
+        "impact": "0",
+        "actual": "207",
+        "forecast": "215",
+        "previous": "218"
+      },
+      {
+        "title": "Jobless Claims 4-week Average",
+        "country": "US",
+        "impact": "-1",
+        "actual": "209.75",
+        "forecast": "None",
+        "previous": "209.25"
+      },
+      {
+        "title": "Continuing Jobless Claims",
+        "country": "US",
+        "impact": "-1",
+        "actual": "1818",
+        "forecast": "1810",
+        "previous": "1787"
+      },
+      {
+        "title": "NY Fed Services Activity Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-14",
+        "forecast": "None",
+        "previous": "-22.6"
+      },
+      {
+        "title": "Philly Fed Prices Paid",
+        "country": "US",
+        "impact": "-1",
+        "actual": "59.3",
+        "forecast": "None",
+        "previous": "44.7"
+      },
+      {
+        "title": "Philly Fed Business Conditions",
+        "country": "US",
+        "impact": "-1",
+        "actual": "40.8",
+        "forecast": "None",
+        "previous": "40"
+      },
+      {
+        "title": "Philadelphia Fed Manufacturing Index",
+        "country": "US",
+        "impact": "0",
+        "actual": "26.7",
+        "forecast": "10",
+        "previous": "18.1"
+      },
+      {
+        "title": "Philly Fed CAPEX Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "35.2",
+        "forecast": "None",
+        "previous": "25.8"
+      },
+      {
+        "title": "Philly Fed Employment",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-5.1",
+        "forecast": "None",
+        "previous": "0.8"
+      },
+      {
+        "title": "Philly Fed New Orders",
+        "country": "US",
+        "impact": "-1",
+        "actual": "33",
+        "forecast": "None",
+        "previous": "8.6"
+      },
+      {
+        "title": "Fed Williams Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Industrial Production YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "0.7",
+        "forecast": "None",
+        "previous": "1.4"
+      },
+      {
+        "title": "Capacity Utilization",
+        "country": "US",
+        "impact": "-1",
+        "actual": "75.7",
+        "forecast": "76.3",
+        "previous": "76.1"
+      },
+      {
+        "title": "Industrial Production MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "-0.5",
+        "forecast": "0.1",
+        "previous": "0.7"
+      },
+      {
+        "title": "Manufacturing Production YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "0.5",
+        "forecast": "None",
+        "previous": "1.3"
+      },
+      {
+        "title": "Manufacturing Production MoM",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-0.1",
+        "forecast": "0.1",
+        "previous": "0.4"
+      },
+      {
+        "title": "EIA Natural Gas Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "51",
+        "previous": "50"
+      },
+      {
+        "title": "Fed Miran Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "4-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.56"
+      },
+      {
+        "title": "8-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.575"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "---\n## MACRO ENVIRONMENT SUMMARY\n*   **DXY (Dollar Index):** Slightly up on the day, but overall down for the past 5 days, suggesting mild dollar weakness or stabilization which is generally favorable for risk assets.\n*   **VIX (Fear Index):** Marginally up today but significantly down (-6.41%) over the last 5 days and comfortably below 20 (18.24), indicating decreasing market fear and a risk-on sentiment.\n*   **10Y Treasury Yield:** Down both today and over the last 5 days, easing pressure on growth and technology stocks. This is a significant tailwind for NQ.\n*   **Gold:** Up today and over 5 days, which can sometimes signal safe-haven demand, but in this context, it appears more likely to be reacting to geopolitical uncertainty or inflation expectations rather than broad risk-off, especially with VIX falling.\n*   **Crude Oil:** Significantly down today (-2.43%) and over the last 5 days (-8.99%), easing inflation concerns and supporting consumer spending, which is generally positive for equities.\n*   **Overall Environment:** Predominantly **RISK-ON**. Falling VIX, falling yields, and falling oil prices provide a supportive backdrop for equities, despite a slight DXY uptick and gold's rise.\n\n## KEY NEWS ANALYSIS\n*   **\"Stock futures hold near records as bets on Iran truce grow\" & \"Mideast diplomacy hopes, earnings lift sentiment\" (Yahoo Finance, TradingView):** Multiple headlines emphasize optimism surrounding de-escalation in the Middle East. This is a significant geopolitical risk reduction, leading to increased investor confidence and a strong **BULLISH** sentiment for overall market stability (ES) and growth (NQ).\n*   **\"TSMC's CEO just dropped a clue to next move in AI stocks\", \"Strong ASML, TSMC forecasts signal AI spending boom is intact\", \"Tesla stock up again as Musk's chip plans boost sentiment\", \"Stellantis, Microsoft sign five-year partnership for AI push\", \"Google, Pentagon discuss classified AI deal\" (Yahoo Finance):** A consistent stream of news indicates robust and growing investment/innovation in AI across various sectors. This is highly **BULLISH** for technology and growth stocks, particularly NQ, as it points to continued strong corporate earnings and future growth drivers.\n*   **\"US weekly jobless claims fall as labor market stays stable\" (Yahoo Finance):** The labor market remains strong, with fewer Americans applying for unemployment benefits. This indicates a healthy consumer base and a resilient economy, reinforcing a soft-landing narrative and is **BULLISH** for equities.\n*   **\"S&P 500, Nasdaq push to closing records on optimism around Middle East talks, earnings\" (TradingView):** The market's current momentum is strong, with both major indices closing at new record highs. This confirms positive investor sentiment and suggests continuation of the uptrend, signaling **BULLISH** momentum.\n*   **\"PepsiCo may be leaving behind $7 Doritos with price cuts\" (Yahoo Finance):** This could be a mixed signal. While price cuts can boost consumer demand, they might also indicate easing inflation or competitive pressures impacting corporate margins. However, given other strong positive news, its impact is likely limited or seen as a sign of disinflation.\n*   **\"Luxury sales decline as Iran war hits crucial Middle East demand\" (Yahoo Finance):** This is a minor **BEARISH** note for specific sectors exposed to luxury goods and Middle East markets, but it's largely overshadowed by broader positive macro and tech news.\n*   **\"Fed is getting a 'stagflationary impulse': Austan Goolsbee\" (Yahoo Finance):** This is a lone **BEARISH** opinion on a potential stagflationary environment. However, it's contradicted by the positive labor market data and market's current risk-on sentiment, thus likely to be downplayed by market participants today.\n*   **Overall News Sentiment:** Overwhelmingly **BULLISH** for US equities, driven by geopolitical de-escalation hopes, strong AI-driven tech outlook, and positive labor market data.\n\n## ECONOMIC EVENTS IMPACT\n*   **Initial Jobless Claims (Actual: 207k | Forecast: 215k):** Better than forecast, indicating a stronger-than-expected labor market. This is **BULLISH**.\n*   **Philadelphia Fed Manufacturing Index (Actual: 26.7 | Forecast: 10):** Significantly better than forecast, showing robust manufacturing activity in the region. This is highly **BULLISH**.\n*   **Industrial Production MoM (Actual: -0.5% | Forecast: 0.1%):** Worse than forecast, indicating a contraction in industrial output for the month. This is **BEARISH**.\n*   **Other Philly Fed Sub-components (Prices Paid, Employment, New Orders) & Industrial/Manufacturing Production:** Mixed signals, with some components stronger (Prices Paid, New Orders) and some weaker (Employment, overall Industrial/Manufacturing production).\n*   **Overall Impact:** While Industrial Production MoM and some sub-components were weaker, the headline Jobless Claims and Philadelphia Fed Manufacturing Index (",
+    "bias_nq": "NEUTRAL",
+    "bias_es": "NEUTRAL",
+    "side": "NEUTRAL",
+    "source": "Gemini (gemini-2.5-flash) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

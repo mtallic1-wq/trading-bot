@@ -1,0 +1,78 @@
+ANALYSIS DATE: 2026-05-22
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.281 | Day: +0.092% | 5-Day: +0.01%
+  VIX (Fear Index): 16.73 | Day: -0.179% | 5-Day: -9.22%
+  10Y Treasury Yield: 4.548 | Day: -0.829% | 5-Day: -1.02%
+  Gold: 4525.5 | Day: -0.315% | 5-Day: -0.67%
+  Crude Oil: 96.79 | Day: +0.457% | 5-Day: -8.19%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29562.25 | Trend: UP
+  1D: 0.39% | 5D: 1.13% | 10D: 0.78%
+  Prev High: 29554.0 | Prev Low: 29113.0 | Prev Close: 29447.25
+  Week High: 29734.0 | Week Low: 28663.0
+  Last 5 Candles: 2026-05-18 DOWN (O:29135.0 H:29419.75 L:28814.75 C:29096.0) | 2026-05-19 DOWN (O:29100.0 H:29188.5 L:28663.0 C:28924.25) | 2026-05-20 UP (O:28929.75 H:29397.5 L:28797.25 C:29390.5) | 2026-05-21 UP (O:29253.0 H:29554.0 L:29113.0 C:29447.25) | 2026-05-22 UP (O:29444.0 H:29665.25 L:29436.0 C:29562.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. IBM just scored a $26B quantum windfall — and the stock's rally isn't overIBM stock surged over 11% on Thursday following a landmark announcement by the US Commerce Department detailing a $2 billion CHIPS and Science Act initiative to fund domestic quantum computing firms.
+  2. Walmart stock just violated a key technical level
+  3. How CEOs are framing AI-driven layoffs
+  4. Stocks waver amid US-Iran uncertainty, strong earnings season
+  5. Gas prices in all 50 states sit above $4 ahead of Memorial Day
+  6. Musk's SpaceX postpones Starship launch as mega share sale looms
+  7. Space ETFs booming in anticipation of SpaceX IPO
+  8. Nomura pivots away from Fed rate cuts in 2026 as inflation risks linger
+  9. JPMorgan sees Turkey central bank lift interest rates to 40% imminently
+  10. Investors look beyond TSMC as AI boom spreads to new winners
+  11. Cybersecurity stocks are hitting records again as chips play catch-up: Chart of the Day
+  12. What to do when your pay raises aren't keeping up with inflation
+  13. Oil prices rise as investors doubt breakthrough in US-Iran peace talks
+  14. Oil Pares Gain With Market Swinging on US-Iran Peace Prospects
+  15. Wall St eyes higher open as investors monitor US-Iran peace talks
+  16. Gold Edges Down as Traders Weigh Prospects of US-Iran Peace Deal
+  17. Dollar nears six-week high; mixed signals on US-Iran deal feed uncertainty
+  18. US-Iran war is 'reigniting' inflation fears while markets hit new highsUS stocks (^DJI, ^IXIC, ^GSPC) rebound to end Thursday trading higher, the Dow Jones Industrial Average closing at a new record high. Apollon Wealth Management CIO Eric Sterner addresses the contrast between consumer sentiment slipping to record lows as markets ascend to new highs, noting how the US-Iran was is "reigniting" inflation worries as rising oil (CL=F, BZ=F) and gas prices (RB=F) squeeze already panicked consumers.
+  19. Oil prices are hard-pressing consumers at bottom of K-shaped economy
+  20. Walmart, Home Depot, & the consumer: Retail earnings takeaways
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  500+ curated RSS news feeds, 65+ external data sources, 50+ map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Dow futures climb 124 points: 5 things to know before markets open
+  2. Asian markets rise further on optimism over Iran-US talks
+  3. Market Crosscurrents: Bulls in Control, Macro Headwinds Loom
+  4. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-21
+  5. Argentina's road back to MSCI is no straight line
+  6. Wall St rises on chips' strength ahead of Nvidia results
+  7. U.S. stock index futures edge higher ahead of Nvidia earnings
+  8. Wall St set to open higher as chip stocks rally ahead of Nvidia results
+  9. Wall Street futures climb as chip stocks rebound ahead of Nvidia results
+  10. Nvidia vigil
+  11. US stock futures climb as chip stocks rebound ahead of Nvidia results
+  12. Wall St ends lower as inflation worries push up yields
+  13. US stocks eye best weekly run of gains since 2023
+  14. Wall St eyes higher open as investors monitor US-Iran peace talks
+  15. US Futures Inch Higher
+
+=== ECONOMIC CALENDAR — 2026-05-22 ===
+  [-1] Michigan Current Conditions Final — Actual: None | Forecast: 47.9 | Prev: 52.5
+  [0] Michigan Consumer Sentiment Final — Actual: None | Forecast: 48.2 | Prev: 49.8
+  [-1] Michigan Consumer Expectations Final — Actual: None | Forecast: 48.4 | Prev: 48.1
+  [-1] Michigan Inflation Expectations Final — Actual: None | Forecast: 4.5 | Prev: 4.7
+  [-1] Michigan 5 Year Inflation Expectations Final — Actual: None | Forecast: 3.4 | Prev: 3.5
+  [-1] CB Leading Index MoM — Actual: None | Forecast: -0.2 | Prev: -0.6
+  [0] Fed Waller Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Baker Hughes Oil Rig Count — Actual: None | Forecast: 416 | Prev: 415
+  [-1] Baker Hughes Total Rigs Count — Actual: None | Forecast: None | Prev: 551
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-22.

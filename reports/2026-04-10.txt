@@ -1,0 +1,92 @@
+ANALYSIS DATE: 2026-04-10
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.659 | Day: -0.163% | 5-Day: -1.37%
+  VIX (Fear Index): 19.18 | Day: -1.591% | 5-Day: -19.65%
+  10Y Treasury Yield: 4.303 | Day: +0.233% | 5-Day: -0.23%
+  Gold: 4796.0 | Day: +0.079% | 5-Day: +3.11%
+  Crude Oil: 98.03 | Day: +0.163% | 5-Day: -12.11%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 25310.25 | Trend: UP
+  1D: 0.23% | 5D: 4.51% | 10D: 6.37%
+  Prev High: 25269.75 | Prev Low: 24953.0 | Prev Close: 25251.5
+  Week High: 25269.75 | Week Low: 23666.0
+  Last 5 Candles: 2026-04-06 UP (O:24093.5 H:24452.25 L:23981.5 C:24358.5) | 2026-04-07 UP (O:24348.75 H:24451.5 L:23941.5 C:24371.0) | 2026-04-08 UP (O:24514.0 H:25257.0 L:24355.0 C:25074.25) | 2026-04-09 UP (O:25037.75 H:25269.75 L:24953.0 C:25251.5) | 2026-04-10 UP (O:25237.0 H:25386.0 L:25193.0 C:25310.25)
+
+=== ES — S&P 500 Futures ===
+  Price: 6872.5 | Trend: UP
+  1D: 0.13% | 5D: 3.78% | 10D: 5.33%
+  Prev High: 6876.0 | Prev Low: 6792.5 | Prev Close: 6863.25
+  Week High: 6876.0 | Week Low: 6503.75
+  Last 5 Candles: 2026-04-06 UP (O:6590.0 H:6661.0 L:6567.0 C:6651.0) | 2026-04-07 UP (O:6650.5 H:6673.5 L:6572.75 C:6656.75) | 2026-04-08 UP (O:6689.0 H:6847.25 L:6652.25 C:6823.75) | 2026-04-09 UP (O:6814.25 H:6876.0 L:6792.5 C:6863.25) | 2026-04-10 UP (O:6858.0 H:6888.0 L:6850.5 C:6872.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. CPI inflation soars by most since 2022 as gas prices biteHeadline inflation clocked in 3.3% higher than a year ago, a rapid acceleration from February's levels.
+  2. Stock futures stall with CPI data, Iran talks in focus
+  3. TSMC sales smash record as war fails to dent AI demand
+  4. Has Hormuz reopened after Trump's demands? Where things stand.
+  5. CoreWeave strikes AI cloud deal with Anthropic, shares rise
+  6. Why the Meta Muse Spark rally is continuing
+  7. Chips are still where the AI trade rubber meets the road
+  8. This is where US home buyers or sellers have the upper hand
+  9. Russian-flagged tanker transits Hormuz in rare passage
+  10. As airfares spiral, cruise lines are offering summer deals
+  11. Americans close to retirement are saving for later, but they're worried about getting by right now
+  12. Geospatial analytics firm HawkEye 360 files for US IPO
+  13. Iran war oil shock pushes US inflation to highest level in almost two years
+  14. Lithium bulls set to gatecrash Chile's copper party
+  15. Snap unit to use Qualcomm chips for upcoming AI smart glasses
+  16. Big Tech puts financial heft behind next-gen nuclear power as AI demand surges
+  17. Oil Holds Gain After Iran Attacks Lower Saudi Output Capacity
+  18. Inflation rose 0.9% in March amid energy price shocksConsumer prices saw a rise of 0.9% month-over-month that was in line with estimates, as reported by the US Bureau of Labor Statistics (BLS), while inflation rose 3.3% year-over-year (vs. estimates of 3.4%). Core CPI — which excludes food and energy costs — rose by 0.2% monthly (vs. estimates of 0.3%) and 2.6% annually (vs. estimates of 2.7%). Morning Brief Host Julie Hyman and Yahoo Finance Head of News Myles Udland break down the fresh inflation data, taking into account the massive energy and oil (CL=F, BZ=F) price shocks experienced over this last month.
+  19. Mortgage rates fall on Iran ceasefire: What it means for home sales
+  20. Inflation from Iran, oil shocks won't be going away anytime soon
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St set for muted open after in-line inflation data; Mideast truce in focus
+  2. US stock index futures near flat after as-expected CPI
+  3. Wall St futures gain after March inflation data
+  4. US stock futures steady ahead of inflation data, Mideast truce in focus
+  5. Back from the brink?
+  6. US stock futures subdued ahead of inflation data, Mideast in focus
+  7. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-09
+  8. Dow Transports hit record high, bulls watch for Dow Industrials to follow
+  9. Wall St set for lower open over shaky Mideast truce; inflation data assessed
+  10. Wall St futures little changed after inflation data
+  11. US stock futures fall over shaky Mideast truce; inflation in focus
+  12. Relief rally hits pause
+  13. US stock futures dip over shaky Mideast truce; inflation in focus
+  14. US Futures Gain for 8th Session
+  15. MORE U.S. MARCH CPI:  FUEL OIL +30.7% M/M, +44.2% Y/Y
+
+=== ECONOMIC CALENDAR — 2026-04-10 ===
+  [0] CPI — Actual: 330.21 | Forecast: 330.41 | Prev: 326.79
+  [0] CPI s.a — Actual: 330.293 | Forecast: None | Prev: 327.46
+  [1] Core Inflation Rate MoM — Actual: 0.2 | Forecast: 0.3 | Prev: 0.2
+  [1] Inflation Rate MoM — Actual: 0.9 | Forecast: 0.9 | Prev: 0.3
+  [1] Core Inflation Rate YoY — Actual: 2.6 | Forecast: 2.7 | Prev: 2.5
+  [1] Inflation Rate YoY — Actual: 3.3 | Forecast: 3.3 | Prev: 2.4
+  [1] Michigan Consumer Sentiment Prel — Actual: None | Forecast: 52 | Prev: 53.3
+  [-1] Michigan Current Conditions Prel — Actual: None | Forecast: None | Prev: 55.8
+  [-1] Michigan Inflation Expectations Prel — Actual: None | Forecast: None | Prev: 3.8
+  [-1] Michigan 5 Year Inflation Expectations Prel — Actual: None | Forecast: None | Prev: 3.2
+  [-1] Michigan Consumer Expectations Prel — Actual: None | Forecast: None | Prev: 51.7
+  [-1] Factory Orders ex Transportation — Actual: None | Forecast: None | Prev: 0.4
+  [0] Factory Orders MoM — Actual: None | Forecast: -0.2 | Prev: 0.1
+  [-1] Baker Hughes Oil Rig Count — Actual: None | Forecast: None | Prev: 411
+  [-1] Baker Hughes Total Rigs Count — Actual: None | Forecast: None | Prev: 548
+  [0] Monthly Budget Statement — Actual: None | Forecast: -156.75 | Prev: -308
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-10.

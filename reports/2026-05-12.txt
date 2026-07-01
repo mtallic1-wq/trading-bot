@@ -1,0 +1,87 @@
+ANALYSIS DATE: 2026-05-12
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.347 | Day: +0.416% | 5-Day: -0.14%
+  VIX (Fear Index): 18.68 | Day: +1.632% | 5-Day: +7.48%
+  10Y Treasury Yield: 4.443 | Day: +0.748% | 5-Day: +0.61%
+  Gold: 4695.0 | Day: -0.502% | 5-Day: +3.06%
+  Crude Oil: 101.36 | Day: +3.355% | 5-Day: -0.89%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29197.75 | Trend: UP
+  1D: -0.77% | 5D: 3.77% | 10D: 7.47%
+  Prev High: 29480.0 | Prev Low: 29225.75 | Prev Close: 29424.0
+  Week High: 29480.0 | Week Low: 27731.75
+  Last 5 Candles: 2026-05-06 UP (O:28250.0 H:28800.0 L:28243.0 C:28716.75) | 2026-05-07 UP (O:28662.75 H:28944.75 L:28552.0 C:28682.25) | 2026-05-08 UP (O:28582.0 H:29386.75 L:28541.0 C:29332.5) | 2026-05-11 UP (O:29294.0 H:29480.0 L:29225.75 C:29424.0) | 2026-05-12 DOWN (O:29399.0 H:29455.75 L:29113.0 C:29197.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Inflation data mostly in line with estimates, core hotterRises in consumer prices are driven by soaring energy costs, with food prices also in focus.
+  2. Tech stock slide deepens as Wall Street weighs inflation data
+  3. eBay rejects GameStop's bold $56 billion takeover bid
+  4. Market euphoria feels like 1999, but there's one crucial difference
+  5. Hims & Hers stock sinks after quarterly loss, sales miss
+  6. Wendy's has a billionaire circling its ailing business
+  7. Amazon launches 30-minute delivery in cities across the US
+  8. Million-dollar home listings surge across South, Mountain West
+  9. Microsoft CEO says he never got 'clarity' on Altman's OpenAI firing
+  10. Tech rally fades, Altman to take stand in Musk v. OpenAI
+  11. Inflation’s old ceiling is starting to look like a floor — why that's a problem for paychecks
+  12. Why Circle stock has gone parabolic in May
+  13. Factbox-Airlines cancel flights in response to Middle East conflict
+  14. Oil Extends Gain as Trump Casts Doubt Over Ceasefire With Iran
+  15. US stock futures hold losses after April inflation data
+  16. Russia’s Oil Flows Slide as Drone, Storm Alerts Disrupt Key Port
+  17. Nokia wins UK appeal to block Acer, Asus video streaming patent lawsuits
+  18. April inflation comes in hotter than expected: CPI data breakdownPrices rose 0.6% month over month and 3.8% year over year in April, according to the latest Consumer Price Index (CPI) survey. Core CPI — which excludes food and energy costs — rose 0.4% monthly and 2.8% yearly. Yahoo Finance's Julie Hyman and Myles Udland take a closer look at the breaking numbers.
+  19. Why AMD's AI roadmap is 'very competitive' with Nvidia's
+  20. CPI data on deck, Under Armour and On Holdings report earnings
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  500+ curated RSS news feeds, 65+ external data sources, 50+ map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St set for lower open after April inflation data, Mideast in focus
+  2. S&P 500 futures pare losses slightly after CPI 
+  3. US stock futures hold losses after April inflation data
+  4. Wall St futures fall as AI rally cools; inflation data in focus
+  5. Ceasefire on life support
+  6. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-11
+  7. Nasdaq 100's AI glow masks a higher bar
+  8. Energy’s big lead comes with a big warning
+  9. Wall St set for subdued open as US-Iran impasse lifts oil
+  10. Wall St futures subdued as U.S.-Iran talks stall
+  11. 11 weeks and counting
+  12. U.S. stock futures subdued as talks with Iran stall
+  13. S&P 500 and Nasdaq notch records, boosted by AI and earnings optimism
+  14. April CPI rises more than expected; bond yields climb
+  15. CHI FED'S GOOLSBEE Q&A/NPR: WORST THING ABOUT CPI REPORT NOT THE HEADLINE BUT THE NON-ENERGY PRICE INCREASES; ENDS Q&A
+
+=== ECONOMIC CALENDAR — 2026-05-12 ===
+  [0] Fed Williams Speech — Actual: None | Forecast: None | Prev: None
+  [-1] NFIB Business Optimism Index — Actual: 95.9 | Forecast: 96.1 | Prev: 95.8
+  [0] ADP Employment Change Weekly — Actual: 33 | Forecast: None | Prev: 30.25
+  [1] Core Inflation Rate MoM — Actual: 0.4 | Forecast: 0.3 | Prev: 0.2
+  [1] Inflation Rate MoM — Actual: 0.6 | Forecast: 0.6 | Prev: 0.9
+  [1] Core Inflation Rate YoY — Actual: 2.8 | Forecast: 2.7 | Prev: 2.6
+  [1] Inflation Rate YoY — Actual: 3.8 | Forecast: 3.7 | Prev: 3.3
+  [0] CPI — Actual: 333.02 | Forecast: None | Prev: 330.21
+  [0] CPI s.a — Actual: 332.407 | Forecast: None | Prev: 330.293
+  [-1] Redbook YoY — Actual: 9.6 | Forecast: None | Prev: 7.8
+  [-1] Total Household Debt — Actual: None | Forecast: None | Prev: 18.8
+  [-1] 52-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.56
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.63
+  [-1] WASDE Report — Actual: None | Forecast: None | Prev: None
+  [-1] 10-Year Note Auction — Actual: None | Forecast: None | Prev: 4.282
+  [0] Fed Goolsbee Speech — Actual: None | Forecast: None | Prev: None
+  [0] Monthly Budget Statement — Actual: None | Forecast: 157.2 | Prev: -164.1
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: None | Prev: -8.1
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-12.

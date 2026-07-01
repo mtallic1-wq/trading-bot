@@ -1,0 +1,96 @@
+ANALYSIS DATE: 2026-04-30
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.478 | Day: -0.447% | 5-Day: -0.33%
+  VIX (Fear Index): 17.77 | Day: -5.529% | 5-Day: -7.98%
+  10Y Treasury Yield: 4.392 | Day: -0.589% | 5-Day: +1.60%
+  Gold: 4653.3 | Day: +2.378% | 5-Day: -1.10%
+  Crude Oil: 104.71 | Day: -2.030% | 5-Day: +9.24%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 27531.5 | Trend: UP
+  1D: 0.75% | 5D: 2.22% | 10D: 3.94%
+  Prev High: 27414.0 | Prev Low: 27094.0 | Prev Close: 27325.25
+  Week High: 27542.5 | Week Low: 26681.75
+  Last 5 Candles: 2026-04-24 UP (O:26992.0 H:27462.5 L:26992.0 C:27435.0) | 2026-04-27 UP (O:27403.25 H:27542.5 L:27298.5 C:27440.5) | 2026-04-28 DOWN (O:27423.0 H:27512.0 L:27009.5 C:27168.75) | 2026-04-29 UP (O:27197.25 H:27414.0 L:27094.0 C:27325.25) | 2026-04-30 UP (O:27207.0 H:27622.75 L:27185.25 C:27531.5)
+
+=== ES — S&P 500 Futures ===
+  Price: 7207.0 | Trend: UP
+  1D: 0.54% | 5D: 0.89% | 10D: 1.84%
+  Prev High: 7190.75 | Prev Low: 7131.25 | Prev Close: 7168.0
+  Week High: 7223.25 | Week Low: 7079.25
+  Last 5 Candles: 2026-04-24 UP (O:7143.0 H:7200.5 L:7135.5 C:7194.75) | 2026-04-27 UP (O:7185.0 H:7211.25 L:7171.5 C:7206.0) | 2026-04-28 DOWN (O:7204.75 H:7223.25 L:7146.25 C:7171.0) | 2026-04-29 DOWN (O:7172.5 H:7190.75 L:7131.25 C:7168.0) | 2026-04-30 UP (O:7150.0 H:7211.5 L:7133.75 C:7207.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Nvidia has powered a third of the Mag 7's bull-market gainsAI bellwether Nvidia didn't start this bull market. But the chipmaker has come to define it.
+  2. Stock futures climb as Big Tech earnings buoy AI hopes
+  3. Oil swings after hitting 4-year high on US military plans
+  4. 'Mag 7' earnings show AI spending isn't slowing
+  5. Fed's favored inflation gauge shows rising prices as war heated up
+  6. Caterpillar jumps on boom in power and energy equipment for data centers
+  7. Semiconductor stocks rise on Big Tech earnings, Qualcomm beat
+  8. Bill Ackman on stocks: There are lots of reasons to be bullish
+  9. Berkshire's ailing stock clouds Abel's first annual meeting as CEO
+  10. China software maker gets rare approval for Nasdaq listing
+  11. Why I hate Meta's latest quarter
+  12. Ford stock down despite Q1 beat and tariff repeal; rising commodity costs to weigh on second half
+  13. Tech stocks today: Big Tech earnings highlight AI strength, Musk battles OpenAI
+  14. LEO Pharma to buy U.S. drug developer Replay for $50 million upfront
+  15. Meta looks to raise up to $25 billion with bond sale, Bloomberg News reports
+  16. The average cost of college in 2026 (and how to pay for it)
+  17. US growth picks up in the first quarter
+  18. What Apple's new CEO announcement signals ahead of earnings?Wall Street investors have been abuzz around Apple (AAPL) this past week after CEO Tim Cook announced his plans to depart from the chief executive role this September, handing the reins off to John Ternus. Apple is also expected to report its latest earnings results this Thursday, April 30. Baird senior research analyst of cloud software William Power comes on Market Domination to discuss these headlines making waves ahead of Apple's earnings release.
+  19. How Goodles CEO built a successful brand after 100 VC's said no
+  20. Alphabet 2026 capex hits $190B; expects even more spend in 2027
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. S&P 500 hovers near highs as tech earnings counter crude and data crosscurrents 
+  2. Wall St set to climb at open as earnings optimism overshadows oil woes
+  3. Wall St futures climb as investors balance earnings optimism against oil woes
+  4. Oil fear shrouds tech splurge
+  5. Wall Street futures mixed as oil spike overshadows tech earnings strength
+  6. Wall Street ends mixed ahead of big tech earnings
+  7. Wall Street ends mixed after Fed decision, big tech earnings on tap
+  8. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-29
+  9. Wall Street extends losses after Fed decision, big tech earnings on tap
+  10. Wall Street loses steam ahead of Big Tech earnings, Fed meeting
+  11. Wall Street slips ahead of Big Tech earnings, Fed meeting
+  12. Growth flexes again as April rally vs Value nears a dot‑com-era record
+  13. Wall Street eyes mixed open ahead of Big Tech earnings, Fed meeting
+  14. Wall Street futures mixed ahead of Big Tech earnings, Fed meeting
+  15. MORE ECB'S LAGARDE: I AM NOT GOING TO TELL YOU WHICH SCENARIO OUTLINED AT LAST MEETING IS MOST LIKELY BUT WE ARE MOVING AWAY FROM OUR BASELINE
+
+=== ECONOMIC CALENDAR — 2026-04-30 ===
+  [0] Initial Jobless Claims — Actual: 189 | Forecast: 215 | Prev: 215
+  [-1] Jobless Claims 4-week Average — Actual: 207.5 | Forecast: None | Prev: 211
+  [-1] Continuing Jobless Claims — Actual: 1785 | Forecast: 1820 | Prev: 1808
+  [1] Core PCE Price Index MoM — Actual: 0.3 | Forecast: 0.3 | Prev: 0.4
+  [0] PCE Price Index YoY — Actual: 3.5 | Forecast: 3.5 | Prev: 2.8
+  [0] GDP Price Index QoQ Adv — Actual: 4.5 | Forecast: 3.8 | Prev: 3.7
+  [0] Employment Cost Index QoQ — Actual: 0.9 | Forecast: 0.8 | Prev: 0.7
+  [-1] GDP Sales QoQ Adv — Actual: 1.6 | Forecast: None | Prev: 0.3
+  [-1] Core PCE Price Index YoY — Actual: 3.2 | Forecast: 3.2 | Prev: 3
+  [1] Personal Spending MoM — Actual: 0.9 | Forecast: 0.9 | Prev: 0.6
+  [1] Personal Income MoM — Actual: 0.6 | Forecast: 0.3 | Prev: 0
+  [0] Employment Cost - Wages QoQ — Actual: 0.8 | Forecast: None | Prev: 0.7
+  [0] Employment Cost - Benefits QoQ — Actual: 1.2 | Forecast: None | Prev: 0.8
+  [-1] PCE Prices QoQ Adv — Actual: 4.5 | Forecast: None | Prev: 2.9
+  [1] GDP Growth Rate QoQ Adv — Actual: 2 | Forecast: 2.3 | Prev: 0.5
+  [-1] Core PCE Prices QoQ Adv — Actual: 4.3 | Forecast: 4.1 | Prev: 2.7
+  [-1] Real Consumer Spending QoQ Adv — Actual: 1.6 | Forecast: None | Prev: 1.9
+  [0] PCE Price Index MoM — Actual: 0.7 | Forecast: 0.7 | Prev: 0.4
+  [-1] Real Personal Spending MoM — Actual: 0.2 | Forecast: None | Prev: 0.3
+  [0] Chicago PMI — Actual: None | Forecast: 53 | Prev: 52.8
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-30.

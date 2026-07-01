@@ -1,0 +1,78 @@
+ANALYSIS DATE: 2026-05-19
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.295 | Day: +0.328% | 5-Day: +1.02%
+  VIX (Fear Index): 18.08 | Day: +1.459% | 5-Day: +0.50%
+  10Y Treasury Yield: 4.661 | Day: +0.822% | 5-Day: +4.44%
+  Gold: 4498.1 | Day: -1.195% | 5-Day: -3.84%
+  Crude Oil: 103.68 | Day: -4.583% | 5-Day: +1.47%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 28971.5 | Trend: UP
+  1D: -0.43% | 5D: -0.68% | 10D: 2.97%
+  Prev High: 29419.75 | Prev Low: 28814.75 | Prev Close: 29096.0
+  Week High: 29782.0 | Week Low: 28742.0
+  Last 5 Candles: 2026-05-13 UP (O:29143.75 H:29565.5 L:29055.5 C:29479.25) | 2026-05-14 UP (O:29537.0 H:29782.0 L:29448.25 C:29687.75) | 2026-05-15 DOWN (O:29690.0 H:29734.0 L:29089.75 C:29231.75) | 2026-05-18 DOWN (O:29135.0 H:29419.75 L:28814.75 C:29096.0) | 2026-05-19 DOWN (O:29100.0 H:29188.5 L:28802.75 C:28971.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Trump traded over $50M in 'Mag 7' stocks as he met with techsThe 94 different trades of 'Magnificent 7' stocks came as Trump was often promoting the top tech companies.
+  2. Stocks slide as rising yields keep up pressure, techs fall
+  3. Yahoo Finance launches AlphaSpace: How to use it to unlock Nvidia
+  4. SpaceX IPO adds second Musk stock. It's a problem for Tesla
+  5. Semiconductor stocks like Sandisk and Micron are now in meltdown mode
+  6. JPMorgan, Goldman Sachs CEOs join Mamdani's engagement tour
+  7. ServiceNow jumps as software stocks rebound
+  8. Tech stocks today: Chip stocks take a breather, Samsung strike looms
+  9. 3 factors set the stage for summer stock market correction
+  10. Joint bank account? Pass. More couples keep money separate.
+  11. Home contract signings rose in April as some buyers shake off higher mortgage rates
+  12. Polymarket debuts prediction markets tied to private companies
+  13. Brazil central bank flags concern over long-term inflation expectations drift
+  14. Brazil's central bank rules out forward guidance as Middle East risks cloud outlook
+  15. S&P 500 and Nasdaq open lower as chip stocks drag, inflation fears persist
+  16. US small caps, consumer stocks, housing shares could bear brunt of yield spike
+  17. Canada's inflation rate accelerates to 2.8% as Iran war pushes up gasoline prices
+  18. The World Cup and its 'phenomenal' pop-up economy: Visa exec.FIFA's World Cup kicks off on June 11 and goes through July 19, during which time it is expected to add $40 billion to gross domestic product (GDP). Visa (V) chief marketing officer Frank Cooper joins Yahoo Finance to explain why he thinks this year's World Cup will be "the greatest pop-up economy" in the history of sporting events.
+  19. Home Depot, CAVA earnings, Housing data top Tuesday watchlist
+  20. Homebuilder sentiment moves higher, but barely. NAHB CEO explains.
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  500+ curated RSS news feeds, 65+ external data sources, 50+ map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. US stock futures fall with investor focus on Nvidia 
+  2. Wall St eyes lower open on extended chip selloff, inflation concerns
+  3. US stock futures fall on extended chip losses, inflation worries
+  4. US stock futures fall as chips extend slide, inflation worries persist
+  5. Nasdaq leads equity losses with oil, borrowing costs in focus
+  6. Oil stocks rise and chipmakers fall as inflation worries weigh
+  7. Nasdaq falls as technology stocks slide, Treasury yields climb
+  8. Investors should focus on growth stocks as bond yields rise, says Raymond James' Orton
+  9. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-18
+  10. S&P 500, Nasdaq fall as chip stocks slide, Treasury yields climb
+  11. Chips crumble ahead of Nvidia's Wednesday report
+  12. Wall St extends losses as chip stocks slide, Treasury yields climb
+  13. U.S. stocks retreat from early gains as yields rise
+  14. Big Tech's moat meets AI's tide: disruption or dominance?
+  15. The Dow Jones Index Opens 0.60% Lower
+
+=== ECONOMIC CALENDAR — 2026-05-19 ===
+  [0] ADP Employment Change Weekly — Actual: 42.25 | Forecast: None | Prev: 33
+  [-1] Redbook YoY — Actual: 8.1 | Forecast: None | Prev: 9.6
+  [0] Fed Waller Speech — Actual: None | Forecast: None | Prev: None
+  [0] Pending Home Sales MoM — Actual: 1.4 | Forecast: 1 | Prev: 1.7
+  [0] Pending Home Sales YoY — Actual: 3.2 | Forecast: None | Prev: -1.1
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.615
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: -3.4 | Prev: -2.188
+  [0] Fed Paulson Speech — Actual: None | Forecast: None | Prev: None
+  [0] Fed Venable Speech — Actual: None | Forecast: None | Prev: None
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-19.

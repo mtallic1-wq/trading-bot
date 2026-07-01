@@ -1,0 +1,77 @@
+ANALYSIS DATE: 2026-04-11
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.65 | Day: -0.172% | 5-Day: -1.38%
+  VIX (Fear Index): 19.23 | Day: -1.334% | 5-Day: -19.44%
+  10Y Treasury Yield: 4.317 | Day: +0.559% | 5-Day: +0.09%
+  Gold: 4761.9 | Day: -0.632% | 5-Day: +2.37%
+  Crude Oil: 96.57 | Day: -1.328% | 5-Day: -13.42%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 25281.25 | Trend: UP
+  1D: 0.12% | 5D: 4.39% | 10D: 6.25%
+  Prev High: 25269.75 | Prev Low: 24953.0 | Prev Close: 25251.5
+  Week High: 25269.75 | Week Low: 23666.0
+  Last 5 Candles: 2026-04-06 UP (O:24093.5 H:24452.25 L:23981.5 C:24358.5) | 2026-04-07 UP (O:24348.75 H:24451.5 L:23941.5 C:24371.0) | 2026-04-08 UP (O:24514.0 H:25257.0 L:24355.0 C:25074.25) | 2026-04-09 UP (O:25037.75 H:25269.75 L:24953.0 C:25251.5) | 2026-04-10 UP (O:25237.0 H:25393.0 L:25193.0 C:25281.25)
+
+=== ES — S&P 500 Futures ===
+  Price: 6855.25 | Trend: UP
+  1D: -0.12% | 5D: 3.52% | 10D: 5.06%
+  Prev High: 6876.0 | Prev Low: 6792.5 | Prev Close: 6863.25
+  Week High: 6876.0 | Week Low: 6503.75
+  Last 5 Candles: 2026-04-06 UP (O:6590.0 H:6661.0 L:6567.0 C:6651.0) | 2026-04-07 UP (O:6650.5 H:6673.5 L:6572.75 C:6656.75) | 2026-04-08 UP (O:6689.0 H:6847.25 L:6652.25 C:6823.75) | 2026-04-09 UP (O:6814.25 H:6876.0 L:6792.5 C:6863.25) | 2026-04-10 DOWN (O:6858.0 H:6888.0 L:6846.25 C:6855.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Why Starlink is so important to SpaceX's IPOWhen analysts and investors talk about a potential SpaceX IPO, they are, in large part, talking about Starlink.
+  2. US and Iran begin negotiations to end Middle East conflict
+  3. Anthropic's Mythos sparks Washington's big bank anxiety
+  4. 'Not as bullish': Big banks are entering Q1 earnings season on less certain footing
+  5. Chart: Software stocks are plunging
+  6. Shaquille O'Neal on the NBA dunk contest: 'It's been sucky'
+  7. What to know about X Money, Elon Musk's fintech app that claims to pay 6% on savings
+  8. The housing market is shifting toward buyers. Just not in New Jersey.
+  9. Used car prices hit highest levels since 2023, and could push higher
+  10. SpaceX: How to buy in before the IPO
+  11. Three Oil Supertankers Sail Through the Strait of Hormuz
+  12. A Panicked Race for Barrels Is Gripping the Global Oil Market
+  13. Aegea Revenue Jumps 21% After Delayed Results Spark Bond Rout
+  14. Boeing’s Moon Rocket Faces Uncertain Future Under Trump’s NASA
+  15. From coffee to home prices, costs are up everywhere
+  16. Japan Bets $16 Billion to Propel Rapidus in Global AI Chip Race
+  17. Here’s a List of Gulf Energy Infrastructure Damaged in Iran War
+  18. 3 ways investors can buy into SpaceX nowSpaceX's (SPAX.PVT) upcoming initial public offering (IPO) may end up being the largest on record.Yahoo Finance Senior Autos Reporter Pras Subramanian explains how potential SpaceX investors should be thinking about buying in before the IPO.
+  19. 2026 tax season: Can I write off my rent, new car, or dog?
+  20. The many ways consumers are being hit by the Iran war
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-10
+  2. Wall St set for muted open after in-line inflation data; Mideast truce in focus
+  3. US stock index futures near flat after as-expected CPI
+  4. Wall St futures gain after March inflation data
+  5. US stock futures steady ahead of inflation data, Mideast truce in focus
+  6. Back from the brink?
+  7. US stock futures subdued ahead of inflation data, Mideast in focus
+  8. Dow Transports hit record high, bulls watch for Dow Industrials to follow
+  9. Wall St set for lower open over shaky Mideast truce; inflation data assessed
+  10. Wall St futures little changed after inflation data
+  11. US stock futures fall over shaky Mideast truce; inflation in focus
+  12. Relief rally hits pause
+  13. Dow, S&P 500 end lower as Middle East developments keep investors on edge 
+  14. The Dow Jones Index Closes 0.56% Lower
+  15. S&P 500 Falls 7.77 Points (0.11%)
+
+=== ECONOMIC CALENDAR — 2026-04-11 ===
+  No scheduled events
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-11.

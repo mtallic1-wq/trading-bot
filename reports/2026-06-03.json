@@ -1,0 +1,1866 @@
+{
+  "date": "2026-06-03",
+  "created": "2026-06-03T19:01:38.911028",
+  "is_historical": false,
+  "bias_nq": "NEUTRAL",
+  "side": "NEUTRAL",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 30559.75,
+    "prev_day_high": 30763.25,
+    "prev_day_low": 30317.75,
+    "prev_day_close": 30712.75,
+    "week_high": 30763.25,
+    "week_low": 29763.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": -0.5,
+      "5d_pct": 1.71,
+      "10d_pct": 5.65
+    },
+    "recent_candles": [
+      {
+        "date": "2026-05-28",
+        "open": 30120.0,
+        "high": 30344.5,
+        "low": 29763.0,
+        "close": 30307.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-29",
+        "open": 30328.0,
+        "high": 30536.0,
+        "low": 30216.5,
+        "close": 30405.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-06-01",
+        "open": 30415.5,
+        "high": 30693.0,
+        "low": 30291.5,
+        "close": 30566.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-06-02",
+        "open": 30544.75,
+        "high": 30763.25,
+        "low": 30317.75,
+        "close": 30712.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-06-03",
+        "open": 30741.75,
+        "high": 30807.75,
+        "low": 30496.0,
+        "close": 30559.75,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 99.485,
+      "day_chg": 0.267,
+      "5d_chg": 0.28
+    },
+    "VIX (Fear Index)": {
+      "price": 16.41,
+      "day_chg": 4.058,
+      "5d_chg": 0.74
+    },
+    "10Y Treasury Yield": {
+      "price": 4.493,
+      "day_chg": 0.853,
+      "5d_chg": 0.27
+    },
+    "Gold": {
+      "price": 4470.7,
+      "day_chg": -0.41,
+      "5d_chg": 0.52
+    },
+    "Crude Oil": {
+      "price": 94.83,
+      "day_chg": 1.141,
+      "5d_chg": 6.94
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Trump's permanent tariff plans take shapeThe US is proposing new tariffs of at least 10% on imports from 60 trading partners.",
+        "url": "https://finance.yahoo.com/economy/article/trump-administration-announces-new-duties-on-much-of-the-world-as-permanent-tariff-plans-take-shape-131121355.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stocks slip as AI fervor meets US-Iran uncertainty",
+        "url": "https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-slip-as-ai-fervor-meets-us-iran-uncertainty-224803732.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SpaceX seeks $135 a share for $75 billion IPO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-seeks-135-share-75-015553054.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US, Iran exchange strikes to put fresh strain on ceasefire",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/us-iran-exchange-military-strikes-031622627.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "ADP report finds 'sustained momentum' for labor market",
+        "url": "https://finance.yahoo.com/economy/article/private-employers-added-122000-roles-in-may-122103393.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Americans' financial literacy just hit a new low",
+        "url": "https://finance.yahoo.com/news/americans-financial-literacy-sags-to-a-new-low-113000653.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "DeepSeek slated to draw $7 billion in maiden fundraising, sources say",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/deepseek-slated-draw-7-billion-041524836.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bitcoin's break with tech widens as Strategy's sale feeds rout",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-break-tech-widens-strategy-093646864.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Down payments are getting smaller as more Americans hang on to cash",
+        "url": "https://finance.yahoo.com/sectors/real-estate/article/down-payments-are-getting-smaller-this-year-as-more-americans-hang-on-to-their-cash-110000897.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Can AI be trusted to make credit card purchases? Robinhood thinks so.",
+        "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/robinhood-unveiled-an-agentic-credit-card-should-you-trust-ai-to-make-purchases-205346551.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bitcoin continues plunge as one analyst says token's  'bear market is in late stages'",
+        "url": "https://finance.yahoo.com/markets/article/bitcoin-continues-plunge-as-one-analyst-says-tokens-bear-market-is-in-late-stages-134318078.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Meta launches enterprise-focused AI 'business agent' to automate daily operations",
+        "url": "https://finance.yahoo.com/news/meta-launches-enterprise-focused-ai-134243447.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "How the latest S&P 500 surge is like the setup to the Black Monday stock crash",
+        "url": "https://finance.yahoo.com/markets/article/how-the-latest-sp-500-surge-is-like-the-setup-to-the-black-monday-stock-crash-134238078.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Medline draws another US FDA warning in two months over quality lapses",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/medline-draws-another-us-fda-133908305.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "S&P 500, Dow tick lower on Middle East stalemate",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/p-500-dow-tick-lower-133759829.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Canada's services PMI edges up to 18-month high, operating costs accelerate",
+        "url": "https://finance.yahoo.com/economy/articles/canadas-services-pmi-edges-18-133636280.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil extends gains as Middle East hostilities flare",
+        "url": "https://finance.yahoo.com/news/oil-prices-rise-middle-east-003618859.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SpaceX aims for price of $135 per share for June 12 IPO: ReutersSpaceX (SPAX.PVT) is reportedly seeking an IPO price of $135 per share to raise $75 billion, according to Reuters, with current plans to go public on Friday, June 12. Morning Brief Host Julie Hyman and Yahoo Finance Senior Reporter Pras Subramanian are joined by Payne Capital Management's Ryan Payne to further examine SpaceX's IPO goals and how investors should be looking at it.",
+        "url": "https://finance.yahoo.com/video/spacex-aims-for-price-of-135-per-share-for-june-12-ipo-reuters-135036878.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "These supplements 'actually work': Why this brand stands out",
+        "url": "https://finance.yahoo.com/video/supplements-actually-why-brand-stands-120000368.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Beyond Nvidia: Trading the next wave of AI infrastructure",
+        "url": "https://finance.yahoo.com/video/beyond-nvidia-trading-the-next-wave-of-ai-infrastructure-110000468.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "More war-driven inflation seen in Fed's favored gauge",
+        "url": "https://finance.yahoo.com/economy/policy/articles/more-war-driven-inflation-seen-115519421.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kevin Warsh hints at Greenspan-style Fed approach",
+        "url": "https://finance.yahoo.com/economy/policy/article/new-fed-chair-kevin-warsh-suggests-he-may-take-an-alan-greenspan-style-approach-at-the-central-bank-135046787.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Hassett says ending Iran war May open room for rate cut",
+        "url": "https://finance.yahoo.com/news/hassett-says-ending-iran-war-may-create-room-for-fed-rate-cut-190954086.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gold flows in Sudan's war economy as miners risk danger",
+        "url": "https://www.yahoo.com/news/world/articles/sudan-war-economy-gold-keeps-052108163.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Bond markets bet on 2026 rate hike as Warsh takes helm",
+        "url": "https://finance.yahoo.com/economy/policy/articles/treasury-market-ushers-warsh-era-190000320.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "What rising inflation means for mortgage rates now",
+        "url": "https://finance.yahoo.com/economy/policy/articles/heres-experts-expect-mortgage-rates-164749060.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Best money market account rates today: Earn up to 4.01%",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-monday-may-25-2026-100000515.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Strategists warn yields stay high even if Iran war ends",
+        "url": "https://finance.yahoo.com/news/bond-strategists-warn-yields-to-stay-high-even-if-iran-war-ends-130000537.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "SpaceX stock set to join public space economy companies",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-is-about-to-join-this-growing-constellation-of-public-companies-building-a-space-based-economy-193309368.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "What surging mortgage rates mean for home sales",
+        "url": "https://finance.yahoo.com/economy/policy/articles/surging-mortgage-rates-mean-summer-130411888.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 46
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "World Monitor | \u2014 geopolitics, conflicts, military, infrastructure",
+        "values": []
+      },
+      {
+        "label": "Tech Monitor | \u2014 AI labs, startups, cloud, cybersecurity",
+        "values": []
+      },
+      {
+        "label": "Finance Monitor | \u2014 global markets, central banks, forex, crypto",
+        "values": []
+      },
+      {
+        "label": "Commodity Monitor | \u2014 mining, energy, supply chains, freight",
+        "values": []
+      },
+      {
+        "label": "Happy Monitor | \u2014 positive news, breakthroughs, conservation",
+        "values": []
+      },
+      {
+        "label": "World Monitor Pro | \u2014 AI analyst, personalized digests, MCP for Claude & GPT",
+        "values": []
+      },
+      {
+        "label": "Blog | \u2014 OSINT guides, geopolitics, market intelligence",
+        "values": []
+      },
+      {
+        "label": "What is World Monitor?",
+        "values": []
+      },
+      {
+        "label": "OSINT for everyone \u2014 open-source intelligence democratized",
+        "values": []
+      },
+      {
+        "label": "Five dashboards, one platform \u2014 the variants explained",
+        "values": []
+      },
+      {
+        "label": "Open source on GitHub (AGPL-3.0)",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "Free, open-source intelligence platform aggregating live news, markets, military movements, conflicts, and infrastructure into one real-time dashboard. Used by 2M+ people across 190+ countries.Featured in WIRED.",
+      "Five dashboards, one platform",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.Featured in WIRED.",
+      "The platform combines real-time conflict events fromACLEDandUCDP, satellite fire detection fromNASA FIRMS, earthquakes fromUSGS, aircraft tracking fromOpenSky, ship AIS fromAISStream, and macro data fromFRED,IMF, andBIS.",
+      "Five dashboards, one platform",
+      "Explore the variant that matches what you track:World Monitorfor geopolitics and conflicts,Tech Monitorfor AI labs and startups,Finance Monitorfor markets and central banks,Commodity Monitorfor mining and supply chains, andHappy Monitorfor positive news and progress."
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nFree, open-source intelligence platform aggregating live news, markets, military movements, conflicts, and infrastructure into one real-time dashboard. Used by 2M+ people across 190+ countries.\nFeatured in WIRED\n.\nWhat it tracks\nLive conflict events from\nACLED\nand\nUCDP\n, satellite fire detection from\nNASA FIRMS\n, earthquakes from\nUSGS\n, military and civilian aircraft from\nOpenSky Network\n, ship AIS positions from\nAISStream\n, macro and central bank data from\nFRED\n,\nIMF\n, and\nBIS\n, plus 500+ curated RSS feeds, 50+ map layers, and AI-synthesized country briefings.\nFive dashboards, one platform\nWorld Monitor\n\u2014 geopolitics, conflicts, military, infrastructure\nTech Monitor\n\u2014 AI labs, startups, cloud, cybersecurity\nFinance Monitor\n\u2014 global markets, central banks, forex, crypto\nCommodity Monitor\n\u2014 mining, energy, supply chains, freight\nHappy Monitor\n\u2014 positive news, breakthroughs, conservation\nLearn more\nWorld Monitor Pro\n\u2014 AI analyst, personalized digests, MCP for Claude & GPT\nBlog\n\u2014 OSINT guides, geopolitics, market intelligence\nWhat is World Monitor?\nOSINT for everyone \u2014 open-source intelligence democratized\nFive dashboards, one platform \u2014 the variants explained\nOpen source on GitHub (AGPL-3.0)\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatured in WIRED\n.\nThe platform combines real-time conflict events from\nACLED\nand\nUCDP\n, satellite fire detection from\nNASA FIRMS\n, earthquakes from\nUSGS\n, aircraft tracking from\nOpenSky\n, ship AIS from\nAISStream\n, and macro data from\nFRED\n,\nIMF\n, and\nBIS\n.\nFive dashboards, one platform\nExplore the variant that matches what you track:\nWorld Monitor\nfor geopolitics and conflicts,\nTech Monitor\nfor AI labs and startups,\nFinance Monitor\nfor markets and central banks,\nCommodity Monitor\nfor mining and supply chains, and\nHappy Monitor\nfor positive news and progress.\nRead more\nLearn what the platform does in\nWhat is World Monitor?\n, how OSINT applies in\nOSINT for everyone\n, or compare to traditional tools in\nWorld Monitor vs Bloomberg, Palantir, Dataminr\n. Full source on\nGitHub (AGPL-3.0)\n, or\nupgrade to World Monitor Pro\nfor the AI analyst, custom widget builder, and MCP for Claude and GPT."
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Dot-Com Bubble Deja Vu? 'Big Short' Michael Burry's Chart Shows AI Chip Rally Is Within 7% Of 2000 Peak",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Stocktwits)",
+        "published": "1780473338"
+      },
+      {
+        "title": "Here\u2019s why the crypto market is crashing and liquidations are rising",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Invezz)",
+        "published": "1780467803"
+      },
+      {
+        "title": "Wall St ends modestly higher as AI zeal overcomes Middle East jitters",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1780430448"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-06-02",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1780425919"
+      },
+      {
+        "title": "Dow, S&P 500 scale peaks as HPE, Alphabet fuel AI momentum",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1780416029"
+      },
+      {
+        "title": "Stocks rally on AI optimism; jitters over Iran simmer\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1780400739"
+      },
+      {
+        "title": "Citi Strategists Warn of Risk in Overleveraged U.S. Tech Stocks",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Binance News)",
+        "published": "1780394645"
+      },
+      {
+        "title": "Stocks bounce as AI optimism offsets Middle East anxiety",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1780393062"
+      },
+      {
+        "title": "Wall Street futures tick lower after record highs; HPE soars",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1780392863"
+      },
+      {
+        "title": "Profitless Tech Surges 57% As Wall Street Signals Caution",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (GuruFocus)",
+        "published": "1780338094"
+      },
+      {
+        "title": "Dell Jumps 30% As AI Rally Pushes Stocks Higher",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (GuruFocus)",
+        "published": "1780082540"
+      },
+      {
+        "title": "MORE US S&P PMI SERVICES INDEX: RISING ENERGY PRICES STUNTS DEMAND FOR SERVICES IN MAY",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1780494540"
+      },
+      {
+        "title": "US S&P PMI SERVICES REPORT: 'DOWNBEAT' OUTLOOK DEPRESSES HIRING IN MAY",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1780494540"
+      },
+      {
+        "title": "US S&P PMI COMPOSITE INDEX 51.5 IN MAY FINAL VS. 51.7 IN MAY FLASH, 51.7 IN APRIL",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1780494360"
+      },
+      {
+        "title": "US S&P PMI SERVICES INDEX 50.7 IN MAY FINAL VS. 50.9 IN MAY FLASH, 51.0 IN APRIL",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1780494360"
+      },
+      {
+        "title": "US Stocks Pull Back",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1780494093"
+      },
+      {
+        "title": "The Dow Jones Index Opens 0.33% Lower",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1780494008"
+      },
+      {
+        "title": "Wall Street's Biggest Bull Turns Cautious Even As S&P 500 Tops 7,600: Yardeni Warns Oil, Fed And Mega IPOs Could Shake Up Record Rally",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Stocktwits)",
+        "published": "1780494003"
+      },
+      {
+        "title": "FED GOV BARR/COMMUNITY BANKERS \u2018WE WANT TO BE SURE BEFORE WE TAKE OUR NEXT STEP;\u2019 INFLATION DRIFTING HIGHER, MUST GET BACK TO 2%",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1780493640"
+      },
+      {
+        "title": "S&P 500 Falls 5.96 Points (0.08%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1780493580"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Total Vehicle Sales",
+        "country": "US",
+        "impact": "-1",
+        "actual": "16.1",
+        "forecast": "16",
+        "previous": "15.9"
+      },
+      {
+        "title": "MBA Mortgage Applications",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-2.5",
+        "forecast": "None",
+        "previous": "-8.5"
+      },
+      {
+        "title": "MBA Purchase Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "164.8",
+        "forecast": "None",
+        "previous": "169.7"
+      },
+      {
+        "title": "MBA 30-Year Mortgage Rate",
+        "country": "US",
+        "impact": "0",
+        "actual": "6.57",
+        "forecast": "None",
+        "previous": "6.65"
+      },
+      {
+        "title": "MBA Mortgage Market Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "252.8",
+        "forecast": "None",
+        "previous": "259.4"
+      },
+      {
+        "title": "MBA Mortgage Refinance Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "736.2",
+        "forecast": "None",
+        "previous": "753.7"
+      },
+      {
+        "title": "ADP Employment Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "122",
+        "forecast": "117",
+        "previous": "105"
+      },
+      {
+        "title": "Fed Barr Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "S&P Global Composite PMI Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "51.5",
+        "forecast": "51.7",
+        "previous": "51.7"
+      },
+      {
+        "title": "S&P Global Services PMI Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "50.7",
+        "forecast": "50.9",
+        "previous": "50.9"
+      },
+      {
+        "title": "ISM Services New Orders",
+        "country": "US",
+        "impact": "-1",
+        "actual": "57.3",
+        "forecast": "None",
+        "previous": "53.5"
+      },
+      {
+        "title": "ISM Services Employment",
+        "country": "US",
+        "impact": "-1",
+        "actual": "47.9",
+        "forecast": "None",
+        "previous": "48"
+      },
+      {
+        "title": "ISM Services PMI",
+        "country": "US",
+        "impact": "1",
+        "actual": "54.5",
+        "forecast": "53.8",
+        "previous": "53.6"
+      },
+      {
+        "title": "ISM Services Business Activity",
+        "country": "US",
+        "impact": "-1",
+        "actual": "57.7",
+        "forecast": "None",
+        "previous": "55.9"
+      },
+      {
+        "title": "ISM Services Prices",
+        "country": "US",
+        "impact": "-1",
+        "actual": "71.3",
+        "forecast": "None",
+        "previous": "70.7"
+      },
+      {
+        "title": "Factory Orders MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "4.8",
+        "forecast": "4.6",
+        "previous": "1.5"
+      },
+      {
+        "title": "Factory Orders ex Transportation",
+        "country": "US",
+        "impact": "-1",
+        "actual": "1.3",
+        "forecast": "None",
+        "previous": "1.8"
+      },
+      {
+        "title": "EIA Distillate Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "-0.3",
+        "previous": "-2.107"
+      },
+      {
+        "title": "EIA Refinery Crude Runs Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "0.652"
+      },
+      {
+        "title": "EIA Gasoline Production Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "0.6"
+      }
+    ]
+  },
+  "price_action": {
+    "ticker": "NQ=F",
+    "bias": "BULLISH",
+    "score_pct": 60.0,
+    "alignment": "PARTIAL ALIGNMENT \u2014 3/4 TFs bullish",
+    "tf_summary": [
+      "Daily: RANGING",
+      "4H: BULLISH",
+      "1H: BULLISH",
+      "15m: BULLISH"
+    ],
+    "timeframes": {
+      "Daily": {
+        "structure": "RANGING",
+        "sh_score": -0.2,
+        "sl_score": -0.2,
+        "swings": [
+          {
+            "type": "SH",
+            "price": 25494.75,
+            "date": "2026-02-25"
+          },
+          {
+            "type": "SL",
+            "price": 24352.0,
+            "date": "2026-03-03"
+          },
+          {
+            "type": "SH",
+            "price": 25250.0,
+            "date": "2026-03-05"
+          },
+          {
+            "type": "SL",
+            "price": 24000.0,
+            "date": "2026-03-09"
+          },
+          {
+            "type": "SH",
+            "price": 24989.0,
+            "date": "2026-03-18"
+          },
+          {
+            "type": "SL",
+            "price": 22961.5,
+            "date": "2026-03-31"
+          },
+          {
+            "type": "SH",
+            "price": 29782.0,
+            "date": "2026-05-14"
+          },
+          {
+            "type": "SL",
+            "price": 28663.0,
+            "date": "2026-05-19"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "Daily",
+        "current": 30570.75,
+        "prev_high": 30763.25,
+        "prev_low": 30317.75,
+        "prev_close": 30712.75,
+        "resistance": null,
+        "support": 28663.0,
+        "recent_candles": [
+          {
+            "date": "2026-06-01",
+            "open": 30415.5,
+            "high": 30693.0,
+            "low": 30291.5,
+            "close": 30566.25,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-02",
+            "open": 30544.75,
+            "high": 30763.25,
+            "low": 30317.75,
+            "close": 30712.75,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-03",
+            "open": 30741.75,
+            "high": 30807.75,
+            "low": 30496.0,
+            "close": 30570.75,
+            "direction": "DOWN"
+          }
+        ],
+        "bar_count": 125
+      },
+      "4H": {
+        "structure": "BULLISH",
+        "sh_score": 0.6,
+        "sl_score": 0.2,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 28663.0,
+            "date": "2026-05-19"
+          },
+          {
+            "type": "SL",
+            "price": 29127.0,
+            "date": "2026-05-21"
+          },
+          {
+            "type": "SH",
+            "price": 30379.0,
+            "date": "2026-05-27"
+          },
+          {
+            "type": "SL",
+            "price": 29763.0,
+            "date": "2026-05-28"
+          },
+          {
+            "type": "SH",
+            "price": 30536.0,
+            "date": "2026-05-29"
+          },
+          {
+            "type": "SH",
+            "price": 30595.25,
+            "date": "2026-06-01"
+          },
+          {
+            "type": "SH",
+            "price": 30693.0,
+            "date": "2026-06-01"
+          },
+          {
+            "type": "SL",
+            "price": 30291.5,
+            "date": "2026-06-01"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "4H",
+        "current": 30570.75,
+        "prev_high": 30794.25,
+        "prev_low": 30700.0,
+        "prev_close": 30780.0,
+        "resistance": 30595.25,
+        "support": 30291.5,
+        "recent_candles": [
+          {
+            "date": "2026-06-03",
+            "open": 30718.75,
+            "high": 30742.0,
+            "low": 30670.25,
+            "close": 30722.5,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-03",
+            "open": 30722.75,
+            "high": 30794.25,
+            "low": 30700.0,
+            "close": 30780.0,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-03",
+            "open": 30780.5,
+            "high": 30807.75,
+            "low": 30496.0,
+            "close": 30570.75,
+            "direction": "DOWN"
+          }
+        ],
+        "bar_count": 148
+      },
+      "1H": {
+        "structure": "BULLISH",
+        "sh_score": 0.6,
+        "sl_score": 0.2,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 30443.75,
+            "date": "2026-06-01"
+          },
+          {
+            "type": "SL",
+            "price": 30291.5,
+            "date": "2026-06-01"
+          },
+          {
+            "type": "SH",
+            "price": 30586.0,
+            "date": "2026-06-02"
+          },
+          {
+            "type": "SH",
+            "price": 30763.25,
+            "date": "2026-06-02"
+          },
+          {
+            "type": "SL",
+            "price": 30317.75,
+            "date": "2026-06-02"
+          },
+          {
+            "type": "SL",
+            "price": 30423.75,
+            "date": "2026-06-02"
+          },
+          {
+            "type": "SL",
+            "price": 30598.5,
+            "date": "2026-06-02"
+          },
+          {
+            "type": "SL",
+            "price": 30561.25,
+            "date": "2026-06-02"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "1H",
+        "current": 30570.75,
+        "prev_high": 30799.0,
+        "prev_low": 30700.0,
+        "prev_close": 30717.25,
+        "resistance": 30586.0,
+        "support": 30561.25,
+        "recent_candles": [
+          {
+            "date": "2026-06-03",
+            "open": 30753.5,
+            "high": 30794.25,
+            "low": 30753.25,
+            "close": 30780.0,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-03",
+            "open": 30780.5,
+            "high": 30799.0,
+            "low": 30700.0,
+            "close": 30717.25,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-06-03",
+            "open": 30716.75,
+            "high": 30807.75,
+            "low": 30496.0,
+            "close": 30570.75,
+            "direction": "DOWN"
+          }
+        ],
+        "bar_count": 550
+      },
+      "15m": {
+        "structure": "BULLISH",
+        "sh_score": 1.0,
+        "sl_score": 0.2,
+        "swings": [
+          {
+            "type": "SH",
+            "price": 30742.0,
+            "date": "2026-06-03"
+          },
+          {
+            "type": "SH",
+            "price": 30751.5,
+            "date": "2026-06-03"
+          },
+          {
+            "type": "SH",
+            "price": 30785.0,
+            "date": "2026-06-03"
+          },
+          {
+            "type": "SH",
+            "price": 30799.0,
+            "date": "2026-06-03"
+          },
+          {
+            "type": "SL",
+            "price": 30653.0,
+            "date": "2026-06-03"
+          },
+          {
+            "type": "SL",
+            "price": 30675.0,
+            "date": "2026-06-03"
+          },
+          {
+            "type": "SL",
+            "price": 30670.25,
+            "date": "2026-06-03"
+          },
+          {
+            "type": "SL",
+            "price": 30716.0,
+            "date": "2026-06-03"
+          }
+        ],
+        "bos": null,
+        "choch": {
+          "direction": "BEARISH",
+          "level": 30716.0,
+          "date": "2026-06-03",
+          "label": "CHoCH \u2014 broke below swing low (structure flip)"
+        },
+        "label": "15m",
+        "current": 30568.25,
+        "prev_high": 30807.75,
+        "prev_low": 30622.0,
+        "prev_close": 30623.75,
+        "resistance": 30568.75,
+        "support": 30561.25,
+        "recent_candles": [
+          {
+            "date": "2026-06-03",
+            "open": 30730.5,
+            "high": 30763.25,
+            "low": 30728.5,
+            "close": 30753.75,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-06-03",
+            "open": 30754.75,
+            "high": 30807.75,
+            "low": 30622.0,
+            "close": 30623.75,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-06-03",
+            "open": 30624.25,
+            "high": 30648.75,
+            "low": 30496.0,
+            "close": 30568.25,
+            "direction": "DOWN"
+          }
+        ],
+        "bar_count": 316
+      }
+    }
+  },
+  "tv_live": {
+    "available": true,
+    "symbol": "PEPPERSTONE:NAS100",
+    "timeframe": "1m",
+    "quote": {
+      "success": true,
+      "symbol": "PEPPERSTONE:NAS100",
+      "time": 1780495260,
+      "open": 30579.5,
+      "high": 30580.2,
+      "low": 30557.8,
+      "close": 30577.4,
+      "last": 30577.4,
+      "volume": 206,
+      "description": "US Tech 100 Index",
+      "exchange": "Pepperstone",
+      "type": "index"
+    },
+    "key_levels": {
+      "zones": [],
+      "h_levels": [
+        {
+          "type": "KEY_LEVEL",
+          "price": 25558.65,
+          "label": "Key level"
+        },
+        {
+          "type": "KEY_LEVEL",
+          "price": 30654.82,
+          "label": "ALTH"
+        },
+        {
+          "type": "KEY_LEVEL",
+          "price": 25886.2,
+          "label": "Key level"
+        },
+        {
+          "type": "KEY_LEVEL",
+          "price": 26277,
+          "label": "Key level"
+        },
+        {
+          "type": "KEY_LEVEL",
+          "price": 25783.5,
+          "label": "Key level"
+        },
+        {
+          "type": "KEY_LEVEL",
+          "price": 23137.7,
+          "label": "Key level"
+        },
+        {
+          "type": "KEY_LEVEL",
+          "price": 25905.1,
+          "label": "Key level"
+        }
+      ],
+      "trends": [
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25613.9,
+          "to": 25613.9,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 25547.87,
+          "to": 25548.02,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25485.98,
+          "to": 25485.98,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25522.47,
+          "to": 25522.47,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25585.55,
+          "to": 25585.55,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25539.3,
+          "to": 25539.3,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25690.25,
+          "to": 25690.25,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25618.5,
+          "to": 25618.5,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25768.16,
+          "to": 25768.16,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25709.06,
+          "to": 25709.06,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25756.4,
+          "to": 25756.4,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 25207.75,
+          "to": 25208.02,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25918.69,
+          "to": 25918.69,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 25971.26,
+          "to": 25971.36,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25974.27,
+          "to": 25974.27,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 26106.16,
+          "to": 26106.27,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 26089.9,
+          "to": 26089.9,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 26082.24,
+          "to": 26082.28,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 25782.65,
+          "to": 25782.96,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25783.88,
+          "to": 25783.88,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 26041.91,
+          "to": 26041.91,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25599.06,
+          "to": 25599.06,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25793.63,
+          "to": 25793.48,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25656.1,
+          "to": 25655.95,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25659.69,
+          "to": 25659.69,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25737.85,
+          "to": 25737.73,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25686.84,
+          "to": 25686.33,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 25708.33,
+          "to": 25708.59,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 25691.68,
+          "to": 25691.89,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25656.2,
+          "to": 25656.2,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24715.2,
+          "to": 24715.2,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25730.57,
+          "to": 25730.57,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24567.89,
+          "to": 24567.89,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24460.2,
+          "to": 24460.2,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24769.73,
+          "to": 24769.73,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24785.79,
+          "to": 24786.2,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24981.34,
+          "to": 24981.34,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 25056.0,
+          "to": 25056.17,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25259.23,
+          "to": 25259.23,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 25203.57,
+          "to": 25203.83,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24683.71,
+          "to": 24683.71,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24694.42,
+          "to": 24694.42,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24767.66,
+          "to": 24767.66,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24846.9,
+          "to": 24847.24,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24785.5,
+          "to": 24785.5,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24753.83,
+          "to": 24753.83,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24887.08,
+          "to": 24887.08,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24831.37,
+          "to": 24831.37,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24735.8,
+          "to": 24735.8,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24789.8,
+          "to": 24790.03,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24907.25,
+          "to": 24907.65,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24711.17,
+          "to": 24711.17,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24827.49,
+          "to": 24827.8,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24757.79,
+          "to": 24757.79,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24834.05,
+          "to": 24834.05,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24885.97,
+          "to": 24885.97,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25023.8,
+          "to": 25023.8,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24845.12,
+          "to": 24845.12,
+          "label": "early exit"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 25086.78,
+          "to": 25086.78,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24702.06,
+          "to": 24702.47,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 25161.34,
+          "to": 25161.54,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24854.39,
+          "to": 24854.39,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24809.3,
+          "to": 24809.3,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24917.6,
+          "to": 24917.6,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24948.83,
+          "to": 24950.18,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24889.4,
+          "to": 24889.4,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24804.81,
+          "to": 24804.81,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24830.15,
+          "to": 24830.48,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24593.42,
+          "to": 24621.33,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24668.48,
+          "to": 24668.48,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24751.67,
+          "to": 24751.91,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 24621.76,
+          "to": 24638.77,
+          "label": "Trend (UP)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 23942.99,
+          "to": 23942.06,
+          "label": "Trend (DOWN)"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "DOWN",
+          "from": 24027.22,
+          "to": 23881.28,
+          "label": "-1 R"
+        },
+        {
+          "type": "TREND_LINE",
+          "direction": "UP",
+          "from": 30015.45,
+          "to": 30053.68,
+          "label": "BE"
+        }
+      ],
+      "positions": [
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25326.9,
+            25326.9
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25595.8,
+            25595.8
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25648.9,
+            25648.9
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25646.1,
+            25646.1
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25690,
+            25690
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25596.1,
+            25596.1
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            24915,
+            24915
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25513.4,
+            25513.4
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25460,
+            25460
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25595.5,
+            25595.5
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25709.4,
+            25709.4
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25473.4,
+            25473.4
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25662.5,
+            25662.5
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25528.1,
+            25528.1
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25647.9,
+            25647.9
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25566.8,
+            25566.8
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25554,
+            25554
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25699.3,
+            25699.3
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25708.5,
+            25708.5
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25554.6,
+            25554.6
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "LONG_POSITION",
+          "prices": [
+            25760.4,
+            25760.4
+          ],
+          "label": "Long Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25560.4,
+            25560.4
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25624.7,
+            25624.7
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25557.3,
+            25557.3
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25612.6,
+            25612.6
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25136,
+            25136
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25078.9,
+            25078.9
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25678.5,
+            25678.5
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25363.3,
+            25363.3
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25110.9,
+            25110.9
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25132.1,
+            25132.1
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            24792,
+            24792
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25669.7,
+            25669.7
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25498.3,
+            25498.3
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25505.6,
+            25505.6
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25327.4,
+            25327.4
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25768.1,
+            25768.1
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25692.7,
+            25692.7
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25441.2,
+            25441.2
+          ],
+          "label": "Short Position"
+        },
+        {
+          "type": "SHORT_POSITION",
+          "prices": [
+            25529.6,
+            25529.6
+          ],
+          "label": "Short Position"
+        }
+      ],
+      "total_drawings": 495
+    }
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is up 0.267% on the day and 0.28% over the past 5 days, indicating a slight strengthening of the US dollar, which could be a headwind for NQ.\n* The VIX (Fear Index) is up 4.058% on the day and 0.74% over the past 5 days, suggesting increased market volatility and fear.\n* The 10Y Treasury Yield is up 0.853% on the day and 0.27% over the past 5 days, indicating a slight increase in interest rates, which could pressure tech/growth stocks.\n* Gold is down 0.410% on the day and up 0.52% over the past 5 days, while Crude Oil is up 1.141% on the day and 6.94% over the past 5 days, suggesting a mixed commodity picture.\nThe current environment is: RISK-OFF\n\n## KEY NEWS ANALYSIS\n* Trump's permanent tariff plans and US-Iran uncertainty are weighing on the market, while AI fervor and strong labor market data are providing support.\n* The SpaceX IPO and Meta's enterprise-focused AI launch are positive developments for the tech sector.\n* The overall news sentiment is: MIXED for Nasdaq\n\n## ECONOMIC EVENTS IMPACT\n* The ADP Employment Change came in stronger than expected, while the S&P Global Services PMI was slightly weaker than forecast.\n* The ISM Services PMI and Factory Orders were positive surprises, suggesting a resilient services sector and improving manufacturing activity.\n* The economic calendar events have a neutral to slightly positive impact on NQ.\n\n## MULTI-TIMEFRAME STRUCTURE\n* Daily structure is RANGING, with a neutral bias.\n* 4H structure is BULLISH, with a recent upside breakout.\n* 1H structure is BULLISH, with a recent pullback.\n* 15m structure is BULLISH, but with a recent CHoCH (Change of Character) and breakdown below a swing low.\n* Overall multi-TF bias is BULLISH, but with partial alignment and some conflicting signals.\n\n## PREDICTION\n**NYSE SESSION SIDE: NEUTRAL**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | NEUTRAL | 40% | MEDIUM |\n\n**NQ Prediction: NEUTRAL**\n**Confidence: 40% \u2014 MEDIUM**\n\n## TOP REASONS\n1. Mixed news sentiment, with both positive and negative developments for the tech sector.\n2. Partial alignment of multi-TF structure, with some conflicting signals.\n3. Neutral to slightly positive economic calendar events.\n\n## KEY RISKS\n- A breakdown below the recent swing low in the 15m structure could lead to further selling.\n- A significant increase in the VIX or DXY could weigh on the market.\n- Any unexpected negative news or economic data could lead to a market downturn.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- Watch for any updates on the US-Iran situation and its impact on the market.\n- Monitor the performance of tech stocks, particularly those related to AI and cloud computing.\n- Keep an eye on the VIX and DXY, as well as the 10Y Treasury Yield, for any significant moves.\n\n## ONE-LINE SUMMARY\n\"2026-06-03 NYSE SESSION: NEUTRAL \u2014 Mixed news sentiment and partial alignment of multi-TF structure lead to a neutral bias, with a medium level of confidence.\"",
+    "bias_nq": "NEUTRAL",
+    "side": "NEUTRAL",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

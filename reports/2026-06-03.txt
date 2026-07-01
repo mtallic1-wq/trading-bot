@@ -1,0 +1,140 @@
+ANALYSIS DATE: 2026-06-03
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.485 | Day: +0.267% | 5-Day: +0.28%
+  VIX (Fear Index): 16.41 | Day: +4.058% | 5-Day: +0.74%
+  10Y Treasury Yield: 4.493 | Day: +0.853% | 5-Day: +0.27%
+  Gold: 4470.7 | Day: -0.410% | 5-Day: +0.52%
+  Crude Oil: 94.83 | Day: +1.141% | 5-Day: +6.94%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30559.75 | Trend: UP
+  1D: -0.5% | 5D: 1.71% | 10D: 5.65%
+  Prev High: 30763.25 | Prev Low: 30317.75 | Prev Close: 30712.75
+  Week High: 30763.25 | Week Low: 29763.0
+  Last 5 Candles: 2026-05-28 UP (O:30120.0 H:30344.5 L:29763.0 C:30307.0) | 2026-05-29 UP (O:30328.0 H:30536.0 L:30216.5 C:30405.25) | 2026-06-01 UP (O:30415.5 H:30693.0 L:30291.5 C:30566.25) | 2026-06-02 UP (O:30544.75 H:30763.25 L:30317.75 C:30712.75) | 2026-06-03 DOWN (O:30741.75 H:30807.75 L:30496.0 C:30559.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Trump's permanent tariff plans take shapeThe US is proposing new tariffs of at least 10% on imports from 60 trading partners.
+  2. Stocks slip as AI fervor meets US-Iran uncertainty
+  3. SpaceX seeks $135 a share for $75 billion IPO
+  4. US, Iran exchange strikes to put fresh strain on ceasefire
+  5. ADP report finds 'sustained momentum' for labor market
+  6. Americans' financial literacy just hit a new low
+  7. DeepSeek slated to draw $7 billion in maiden fundraising, sources say
+  8. Bitcoin's break with tech widens as Strategy's sale feeds rout
+  9. Down payments are getting smaller as more Americans hang on to cash
+  10. Can AI be trusted to make credit card purchases? Robinhood thinks so.
+  11. Bitcoin continues plunge as one analyst says token's  'bear market is in late stages'
+  12. Meta launches enterprise-focused AI 'business agent' to automate daily operations
+  13. How the latest S&P 500 surge is like the setup to the Black Monday stock crash
+  14. Medline draws another US FDA warning in two months over quality lapses
+  15. S&P 500, Dow tick lower on Middle East stalemate
+  16. Canada's services PMI edges up to 18-month high, operating costs accelerate
+  17. Oil extends gains as Middle East hostilities flare
+  18. SpaceX aims for price of $135 per share for June 12 IPO: ReutersSpaceX (SPAX.PVT) is reportedly seeking an IPO price of $135 per share to raise $75 billion, according to Reuters, with current plans to go public on Friday, June 12. Morning Brief Host Julie Hyman and Yahoo Finance Senior Reporter Pras Subramanian are joined by Payne Capital Management's Ryan Payne to further examine SpaceX's IPO goals and how investors should be looking at it.
+  19. These supplements 'actually work': Why this brand stands out
+  20. Beyond Nvidia: Trading the next wave of AI infrastructure
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor | — geopolitics, conflicts, military, infrastructure 
+  Tech Monitor | — AI labs, startups, cloud, cybersecurity 
+  Finance Monitor | — global markets, central banks, forex, crypto 
+  Commodity Monitor | — mining, energy, supply chains, freight 
+  Happy Monitor | — positive news, breakthroughs, conservation 
+  World Monitor Pro | — AI analyst, personalized digests, MCP for Claude & GPT 
+  Blog | — OSINT guides, geopolitics, market intelligence 
+  What is World Monitor? 
+  OSINT for everyone — open-source intelligence democratized 
+  Five dashboards, one platform — the variants explained 
+  Open source on GitHub (AGPL-3.0) 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Dot-Com Bubble Deja Vu? 'Big Short' Michael Burry's Chart Shows AI Chip Rally Is Within 7% Of 2000 Peak
+  2. Here’s why the crypto market is crashing and liquidations are rising
+  3. Wall St ends modestly higher as AI zeal overcomes Middle East jitters
+  4. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-06-02
+  5. Dow, S&P 500 scale peaks as HPE, Alphabet fuel AI momentum
+  6. Stocks rally on AI optimism; jitters over Iran simmer 
+  7. Citi Strategists Warn of Risk in Overleveraged U.S. Tech Stocks
+  8. Stocks bounce as AI optimism offsets Middle East anxiety
+  9. Wall Street futures tick lower after record highs; HPE soars
+  10. Profitless Tech Surges 57% As Wall Street Signals Caution
+  11. Dell Jumps 30% As AI Rally Pushes Stocks Higher
+  12. MORE US S&P PMI SERVICES INDEX: RISING ENERGY PRICES STUNTS DEMAND FOR SERVICES IN MAY
+  13. US S&P PMI SERVICES REPORT: 'DOWNBEAT' OUTLOOK DEPRESSES HIRING IN MAY
+  14. US S&P PMI COMPOSITE INDEX 51.5 IN MAY FINAL VS. 51.7 IN MAY FLASH, 51.7 IN APRIL
+  15. US S&P PMI SERVICES INDEX 50.7 IN MAY FINAL VS. 50.9 IN MAY FLASH, 51.0 IN APRIL
+
+=== ECONOMIC CALENDAR — 2026-06-03 ===
+  [-1] Total Vehicle Sales — Actual: 16.1 | Forecast: 16 | Prev: 15.9
+  [-1] MBA Mortgage Applications — Actual: -2.5 | Forecast: None | Prev: -8.5
+  [-1] MBA Purchase Index — Actual: 164.8 | Forecast: None | Prev: 169.7
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.57 | Forecast: None | Prev: 6.65
+  [-1] MBA Mortgage Market Index — Actual: 252.8 | Forecast: None | Prev: 259.4
+  [-1] MBA Mortgage Refinance Index — Actual: 736.2 | Forecast: None | Prev: 753.7
+  [0] ADP Employment Change — Actual: 122 | Forecast: 117 | Prev: 105
+  [0] Fed Barr Speech — Actual: None | Forecast: None | Prev: None
+  [-1] S&P Global Composite PMI Final — Actual: 51.5 | Forecast: 51.7 | Prev: 51.7
+  [-1] S&P Global Services PMI Final — Actual: 50.7 | Forecast: 50.9 | Prev: 50.9
+  [-1] ISM Services New Orders — Actual: 57.3 | Forecast: None | Prev: 53.5
+  [-1] ISM Services Employment — Actual: 47.9 | Forecast: None | Prev: 48
+  [1] ISM Services PMI — Actual: 54.5 | Forecast: 53.8 | Prev: 53.6
+  [-1] ISM Services Business Activity — Actual: 57.7 | Forecast: None | Prev: 55.9
+  [-1] ISM Services Prices — Actual: 71.3 | Forecast: None | Prev: 70.7
+  [0] Factory Orders MoM — Actual: 4.8 | Forecast: 4.6 | Prev: 1.5
+  [-1] Factory Orders ex Transportation — Actual: 1.3 | Forecast: None | Prev: 1.8
+  [-1] EIA Distillate Stocks Change — Actual: None | Forecast: -0.3 | Prev: -2.107
+  [-1] EIA Refinery Crude Runs Change — Actual: None | Forecast: None | Prev: 0.652
+  [-1] EIA Gasoline Production Change — Actual: None | Forecast: None | Prev: 0.6
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: BULLISH (score: 60.0%)
+  Alignment: PARTIAL ALIGNMENT — 3/4 TFs bullish
+  TF Summary: Daily: RANGING | 4H: BULLISH | 1H: BULLISH | 15m: BULLISH
+
+  [Daily] Structure: RANGING
+    Price: 30570.75 | PrevH: 30763.25 | PrevL: 30317.75
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-01 UP(30415.5->30566.25) > 2026-06-02 UP(30544.75->30712.75) > 2026-06-03 DOWN(30741.75->30570.75)
+
+  [4H] Structure: BULLISH
+    Price: 30570.75 | PrevH: 30794.25 | PrevL: 30700.0
+    Nearest Resistance (swing high above): 30595.25
+    Nearest Support (swing low below): 30291.5
+    Recent: 2026-06-03 UP(30718.75->30722.5) > 2026-06-03 UP(30722.75->30780.0) > 2026-06-03 DOWN(30780.5->30570.75)
+
+  [1H] Structure: BULLISH
+    Price: 30570.75 | PrevH: 30799.0 | PrevL: 30700.0
+    Nearest Resistance (swing high above): 30586.0
+    Nearest Support (swing low below): 30561.25
+    Recent: 2026-06-03 UP(30753.5->30780.0) > 2026-06-03 DOWN(30780.5->30717.25) > 2026-06-03 DOWN(30716.75->30570.75)
+
+  [15m] Structure: BULLISH
+    Price: 30568.25 | PrevH: 30807.75 | PrevL: 30622.0
+    Nearest Resistance (swing high above): 30568.75
+    Nearest Support (swing low below): 30561.25
+    CHoCH: CHoCH — broke below swing low (structure flip) @ 30716.0 (2026-06-03)
+    Recent: 2026-06-03 UP(30730.5->30753.75) > 2026-06-03 DOWN(30754.75->30623.75) > 2026-06-03 DOWN(30624.25->30568.25)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  Live NQ Price: 30577.4 | O:30579.5 H:30580.2 L:30557.8 (-0.01% today)
+  Chart: PEPPERSTONE:NAS100 | TF: 1m
+  Named Key Levels:
+    25558.65  (Key level) — below
+    30654.82  (ALTH) — above
+    25886.2  (Key level) — below
+    26277  (Key level) — below
+    25783.5  (Key level) — below
+    23137.7  (Key level) — below
+    25905.1  (Key level) — below
+  Uptrend lines: 23 (Trend (UP), Trend (UP), Trend (UP))
+  Downtrend lines: 52 (Trend (DOWN), Trend (DOWN), Trend (DOWN))
+  Trader Long Positions (20): [25326.9, 25326.9] | [25595.8, 25595.8] | [25648.9, 25648.9]
+  Trader Short Positions (20): [25554.6, 25554.6] | [25560.4, 25560.4] | [25624.7, 25624.7]
+  [495 total drawings on chart]
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-03.

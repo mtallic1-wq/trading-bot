@@ -1,0 +1,489 @@
+{
+  "date": "2026-04-11",
+  "created": "2026-04-11T23:10:28.338036",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "bias_es": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 25281.25,
+    "prev_day_high": 25269.75,
+    "prev_day_low": 24953.0,
+    "prev_day_close": 25251.5,
+    "week_high": 25269.75,
+    "week_low": 23666.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.12,
+      "5d_pct": 4.39,
+      "10d_pct": 6.25
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-06",
+        "open": 24093.5,
+        "high": 24452.25,
+        "low": 23981.5,
+        "close": 24358.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-07",
+        "open": 24348.75,
+        "high": 24451.5,
+        "low": 23941.5,
+        "close": 24371.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-08",
+        "open": 24514.0,
+        "high": 25257.0,
+        "low": 24355.0,
+        "close": 25074.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-09",
+        "open": 25037.75,
+        "high": 25269.75,
+        "low": 24953.0,
+        "close": 25251.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-10",
+        "open": 25237.0,
+        "high": 25393.0,
+        "low": 25193.0,
+        "close": 25281.25,
+        "direction": "UP"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 6855.25,
+    "prev_day_high": 6876.0,
+    "prev_day_low": 6792.5,
+    "prev_day_close": 6863.25,
+    "week_high": 6876.0,
+    "week_low": 6503.75,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": -0.12,
+      "5d_pct": 3.52,
+      "10d_pct": 5.06
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-06",
+        "open": 6590.0,
+        "high": 6661.0,
+        "low": 6567.0,
+        "close": 6651.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-07",
+        "open": 6650.5,
+        "high": 6673.5,
+        "low": 6572.75,
+        "close": 6656.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-08",
+        "open": 6689.0,
+        "high": 6847.25,
+        "low": 6652.25,
+        "close": 6823.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-09",
+        "open": 6814.25,
+        "high": 6876.0,
+        "low": 6792.5,
+        "close": 6863.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-10",
+        "open": 6858.0,
+        "high": 6888.0,
+        "low": 6846.25,
+        "close": 6855.25,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.65,
+      "day_chg": -0.172,
+      "5d_chg": -1.38
+    },
+    "VIX (Fear Index)": {
+      "price": 19.23,
+      "day_chg": -1.334,
+      "5d_chg": -19.44
+    },
+    "10Y Treasury Yield": {
+      "price": 4.317,
+      "day_chg": 0.559,
+      "5d_chg": 0.09
+    },
+    "Gold": {
+      "price": 4761.9,
+      "day_chg": -0.632,
+      "5d_chg": 2.37
+    },
+    "Crude Oil": {
+      "price": 96.57,
+      "day_chg": -1.328,
+      "5d_chg": -13.42
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Why Starlink is so important to SpaceX's IPOWhen analysts and investors talk about a potential SpaceX IPO, they are, in large part, talking about Starlink.",
+        "url": "https://finance.yahoo.com/sectors/technology/article/why-starlink-is-so-important-to-spacexs-ipo-174446711.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US and Iran begin negotiations to end Middle East conflict",
+        "url": "https://finance.yahoo.com/news/vance-pakistan-us-iran-peace-105446421.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Anthropic's Mythos sparks Washington's big bank anxiety",
+        "url": "https://finance.yahoo.com/news/anthropics-mythos-sparks-washingtons-big-bank-anxiety-100020873.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "'Not as bullish': Big banks are entering Q1 earnings season on less certain footing",
+        "url": "https://finance.yahoo.com/markets/stocks/article/not-as-bullish-big-banks-are-entering-q1-earnings-season-on-less-certain-footing-than-in-january-120803928.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Chart: Software stocks are plunging",
+        "url": "https://finance.yahoo.com/news/software-stocks-are-plunging-why-thats-a-warning-sign-for-the-entire-market-chart-of-the-day-113707428.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Shaquille O'Neal on the NBA dunk contest: 'It's been sucky'",
+        "url": "https://finance.yahoo.com/news/shaquille-oneal-on-the-nba-dunk-contest-its-been-sucky-151311796.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What to know about X Money, Elon Musk's fintech app that claims to pay 6% on savings",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/x-money-elon-musks-fintech-app-130000383.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The housing market is shifting toward buyers. Just not in New Jersey.",
+        "url": "https://finance.yahoo.com/sectors/real-estate/article/the-housing-market-is-shifting-toward-buyers-just-not-in-new-jersey-134240202.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Used car prices hit highest levels since 2023, and could push higher",
+        "url": "https://finance.yahoo.com/markets/stocks/article/used-car-prices-hit-highest-levels-since-2023-and-could-push-higher-as-inventory-shrinks-181748848.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SpaceX: How to buy in before the IPO",
+        "url": "https://finance.yahoo.com/markets/stocks/article/spacex-how-to-buy-before-the-ipo-140548200.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Three Oil Supertankers Sail Through the Strait of Hormuz",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/three-oil-supertankers-appear-move-114110364.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "A Panicked Race for Barrels Is Gripping the Global Oil Market",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/oil-market-grip-panicked-race-150017568.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Aegea Revenue Jumps 21% After Delayed Results Spark Bond Rout",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/aegea-revenue-jumps-21-delayed-144152696.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Boeing\u2019s Moon Rocket Faces Uncertain Future Under Trump\u2019s NASA",
+        "url": "https://finance.yahoo.com/economy/policy/articles/boeing-moon-rocket-faces-uncertain-132008415.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "From coffee to home prices, costs are up everywhere",
+        "url": "https://finance.yahoo.com/economy/article/from-coffee-to-home-prices-costs-are-up-everywhere-174715881.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Japan Bets $16 Billion to Propel Rapidus in Global AI Chip Race",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/japan-bets-16-billion-propel-112506649.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Here\u2019s a List of Gulf Energy Infrastructure Damaged in Iran War",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/list-gulf-energy-infrastructure-damaged-110602813.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "3 ways investors can buy into SpaceX nowSpaceX's (SPAX.PVT) upcoming initial public offering (IPO) may end up being the largest on record.Yahoo Finance Senior Autos Reporter Pras Subramanian explains how potential SpaceX investors should be thinking about buying in before the IPO.",
+        "url": "https://finance.yahoo.com/video/3-ways-investors-can-buy-into-spacex-now-145834675.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "2026 tax season: Can I write off my rent, new car, or dog?",
+        "url": "https://finance.yahoo.com/video/2026-tax-season-write-off-120008193.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The many ways consumers are being hit by the Iran war",
+        "url": "https://finance.yahoo.com/video/the-many-ways-consumers-are-being-hit-by-the-iran-war-141222022.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Insider Sells Shares in Offbeat Oil and Gas Royalty Stock. Should You Too?One of the largest U.S. mineral rights holders, Black Stone Minerals, reported a notable insider sale amid continued royalty-driven growth.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/insider-sells-shares-offbeat-oil-160347584.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Here's What the Futures Markets Are Saying About Oil and the Conflict in the Persian GulfThe answer might surprise investors looking to manage risk under uncertain market conditions.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/heres-futures-markets-saying-oil-125000839.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Tell us: How much inflation can your budget take?Sharply rising gas prices drove inflation to 3.3% in March, the highest rate in nearly two years.",
+        "url": "https://finance.yahoo.com/economy/articles/tell-us-much-inflation-budget-110055599.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed Chair Jerome Powell's 6-Word Warning to Wall Street Still Holds True More Than 6 Months LaterA rarely offered observation by Jerome Powell underscores one of the stock market's biggest risks.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/fed-chair-jerome-powells-6-105600077.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "US tariff revenue dropped by over $4 billion in March. It's down almost 30% since October.Tariff revenue totaling $22.15 billion came into US coffers in March, yet another monthly decline.",
+        "url": "https://finance.yahoo.com/economy/policy/article/us-tariff-revenue-dropped-by-over-4-billion-in-march-its-down-almost-30-since-october-190535076.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "From coffee to home prices, costs are up everywhereThough overall inflation is somewhat tame at an annual rate of 2.4% \u2014\u00a0with average hourly earnings growth so far outpacing that increase \u2014 Americans continue to reel from prices that soared during the pandemic, never came back to earth, and keep ticking higher.",
+        "url": "https://finance.yahoo.com/economy/article/from-coffee-to-home-prices-costs-are-up-everywhere-174715881.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Consumer sentiment sinks to record low in April as US-Iran war tanks economic outlookConsumer sentiment in April fell sharply to a record low as high energy prices and market volatility weighed on American households.",
+        "url": "https://finance.yahoo.com/news/consumer-sentiment-sinks-to-record-low-in-april-as-us-iran-war-tanks-economic-outlook-145132785.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Why the Fed is likely to hold on rates despite soaring energy pricesThe first major inflation reading after the Iran war began showed a jump in energy prices that pulled up overall inflation but didn't filter through to core inflation.",
+        "url": "https://finance.yahoo.com/economy/article/why-the-fed-is-likely-to-hold-on-rates-despite-soaring-energy-prices-143755918.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "CPI inflation soars by most since 2022 as gas prices biteHeadline CPI inflation clocked in 3.3% higher than a year ago while being up 0.9% on a monthly basis, a rapid acceleration from February's levels.",
+        "url": "https://finance.yahoo.com/economy/article/cpi-inflation-soars-by-most-since-2022-as-gas-prices-bite-191214395.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gap between high-income households' wage growth and everyone else is at its widest since 2015After-tax wage growth is accelerating faster among higher-income households as other households trail behind, a new Bank of America Institute report shows.",
+        "url": "https://finance.yahoo.com/news/gap-between-high-income-households-wage-growth-and-everyone-else-is-at-its-widest-since-2015-152406175.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 58
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-10",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775846707"
+      },
+      {
+        "title": "Wall St set for muted open after in-line inflation data; Mideast truce in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775827000"
+      },
+      {
+        "title": "US stock index futures near flat after as-expected CPI",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775826664"
+      },
+      {
+        "title": "Wall St futures gain after March inflation data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775824633"
+      },
+      {
+        "title": "US stock futures steady ahead of inflation data, Mideast truce in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775820225"
+      },
+      {
+        "title": "Back from the brink?",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775818228"
+      },
+      {
+        "title": "US stock futures subdued ahead of inflation data, Mideast in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775812981"
+      },
+      {
+        "title": "Dow Transports hit record high, bulls watch for Dow Industrials to follow",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775739804"
+      },
+      {
+        "title": "Wall St set for lower open over shaky Mideast truce; inflation data assessed",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775739718"
+      },
+      {
+        "title": "Wall St futures little changed after inflation data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775738197"
+      },
+      {
+        "title": "US stock futures fall over shaky Mideast truce; inflation in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775734367"
+      },
+      {
+        "title": "Relief rally hits pause",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1775731536"
+      },
+      {
+        "title": "Dow, S&P 500 end lower as Middle East developments keep investors on edge\u00a0",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1775854146"
+      },
+      {
+        "title": "The Dow Jones Index Closes 0.56% Lower",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1775853313"
+      },
+      {
+        "title": "S&P 500 Falls 7.77 Points (0.11%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1775851800"
+      },
+      {
+        "title": "Fair Isaac Is One of the Worst Performing S&P 500 Stocks Today. It's a Bad Day for Credit Bureaus. \u2014 Barrons.com",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1775847300"
+      },
+      {
+        "title": "US Stocks Hold Near 5-Week High",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1775844890"
+      },
+      {
+        "title": "US earnings growth views strong, but equity positioning points to collapse - Deutsche Bank",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1775844424"
+      },
+      {
+        "title": "US TSY MARCH BUDGET STATEMENT: CUSTOMS DUTIES - TARIFF INCOME $24 BLN, +175%; FY YTD $175 BLN, +272%",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1775844120"
+      },
+      {
+        "title": "Lumentum and Coherent Stocks Are the New S&P 500 Standouts. Thank AI Demand. \u2014 Barrons.com",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1775844000"
+      }
+    ],
+    "economic_calendar": []
+  },
+  "analysis": {
+    "analysis": "Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZxS6hEFo4i3msMCNnzAq'}\n\n## Macro Environment\n- DXY: 98.65 (day -0.17%) \n- VIX: 19.23 (day -1.33%) (Fear low \u2014 risk-on)\n- 10Y Yield: 4.317 (day +0.56%) \n- Gold: 4761.9 (day -0.63%)\n- Oil: 96.57 (day -1.33%)\n- Environment: **MIXED**\n\n## Recent Headlines (Yahoo Finance)\n  - Why Starlink is so important to SpaceX's IPOWhen analysts and investors talk about a potential SpaceX IPO, they are, in large part, talking about Starlink.\n  - US and Iran begin negotiations to end Middle East conflict\n  - Anthropic's Mythos sparks Washington's big bank anxiety\n  - 'Not as bullish': Big banks are entering Q1 earnings season on less certain footing\n  - Chart: Software stocks are plunging\n  - Shaquille O'Neal on the NBA dunk contest: 'It's been sucky'\n  - What to know about X Money, Elon Musk's fintech app that claims to pay 6% on savings\n  - The housing market is shifting toward buyers. Just not in New Jersey.\n\n## Market Trend\n- NQ: UP | Price: 25281.25 | 1D: 0.12% | 5D: 4.39%\n- ES: UP | Price: 6855.25 | 1D: -0.12% | 5D: 3.52%\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: BUY SIDE**\n**NQ: BULLISH** | **ES: BULLISH**\n\n_Note: Add ANTHROPIC_API_KEY to .env for full news-driven AI analysis with detailed reasoning._",
+    "bias_nq": "BULLISH",
+    "bias_es": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Fallback (API error)"
+  },
+  "errors": []
+}

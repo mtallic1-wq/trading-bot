@@ -1,0 +1,534 @@
+{
+  "date": "2026-05-29",
+  "created": "2026-05-29T19:46:27.634186",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 30406.75,
+    "prev_day_high": 30344.5,
+    "prev_day_low": 29763.0,
+    "prev_day_close": 30307.0,
+    "week_high": 30379.0,
+    "week_low": 29113.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.33,
+      "5d_pct": 3.26,
+      "10d_pct": 2.42
+    },
+    "recent_candles": [
+      {
+        "date": "2026-05-22",
+        "open": 29444.0,
+        "high": 29749.0,
+        "low": 29436.0,
+        "close": 29558.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-26",
+        "open": 29676.25,
+        "high": 30118.75,
+        "low": 29676.25,
+        "close": 30073.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-27",
+        "open": 30050.0,
+        "high": 30379.0,
+        "low": 29877.5,
+        "close": 30047.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-05-28",
+        "open": 30120.0,
+        "high": 30344.5,
+        "low": 29763.0,
+        "close": 30307.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-29",
+        "open": 30328.0,
+        "high": 30536.0,
+        "low": 30216.5,
+        "close": 30406.75,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 99.036,
+      "day_chg": 0.016,
+      "5d_chg": -0.16
+    },
+    "VIX (Fear Index)": {
+      "price": 15.67,
+      "day_chg": -0.445,
+      "5d_chg": -6.17
+    },
+    "10Y Treasury Yield": {
+      "price": 4.451,
+      "day_chg": -0.09,
+      "5d_chg": -2.94
+    },
+    "Gold": {
+      "price": 4565.4,
+      "day_chg": 1.469,
+      "5d_chg": 0.56
+    },
+    "Crude Oil": {
+      "price": 88.56,
+      "day_chg": -0.382,
+      "5d_chg": -8.09
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Why a merger with SpaceX could be bad for Tesla shareholdersA potential merger could dilute Tesla shareholders, deepen governance concerns, and saddle the EV maker with new risks.",
+        "url": "https://finance.yahoo.com/sectors/technology/article/why-a-merger-with-spacex-could-be-bad-for-tesla-shareholders-134417184.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stocks nudge higher with US-Iran deal, AI trade in focus",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-may-29-222720064.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Dell stock soars on demand from AI boom",
+        "url": "https://finance.yahoo.com/markets/stocks/article/dell-stock-soars-as-ai-boom-boosts-demand-in-blowout-quarter-110544879.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "GOP lawmakers' portfolios are migrating to Trump favorites",
+        "url": "https://finance.yahoo.com/economy/policy/article/gop-lawmakers-portfolios-are-migrating-to-trump-favorites-like-intel-and-bitcoin-100000503.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "'You cannot print molecules': The oil market is running out of options",
+        "url": "https://finance.yahoo.com/markets/article/the-global-oil-market-is-running-out-of-options-to-fix-its-supply-crunch-you-cannot-print-molecules-100000886.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why Ford stock is suddenly on fire",
+        "url": "https://finance.yahoo.com/markets/stocks/article/ford-stock-is-on-fire-as-it-dives-into-energy-storage-131029427.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Lilly just cemented its status as Wall Street's ultimate weight-loss play",
+        "url": "https://finance.yahoo.com/markets/article/eli-lillys-1-trillion-valuation-cements-its-status-as-wall-streets-ultimate-weight-loss-play-100000788.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The tech trade is overcrowded. Here's your ETF escape route.",
+        "url": "https://finance.yahoo.com/markets/article/the-tech-trade-is-overcrowded-heres-your-etf-escape-route-chart-of-the-day-100000111.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Gap stock takes hit because of women's dresses",
+        "url": "https://finance.yahoo.com/markets/stocks/article/gap-stock-is-falling-and-its-because-of-womens-dresses-112615271.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Costco sells 'record-breaking' amounts of gas as fuel costs soar",
+        "url": "https://finance.yahoo.com/markets/stocks/article/costco-sells-record-breaking-amounts-of-gas-as-fuel-costs-soar-212955152.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Exclusive-GM-LG battery company delays return of laid-off workers to Ohio plant",
+        "url": "https://finance.yahoo.com/news/lg-energy-gm-lg-battery-135005709.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "India warns of weakest monsoon in 11 years, inflation risks rise",
+        "url": "https://finance.yahoo.com/news/india-expected-below-average-monsoon-042609869.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Anthropic raises $65 billion in latest funding round, making it more valuable than OpenAI",
+        "url": "https://finance.yahoo.com/markets/article/anthropic-raises-65-billion-in-latest-funding-round-making-it-more-valuable-than-openai-184115591.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "U.S. equity funds draw weekly inflows as tech rally lifts sentiment",
+        "url": "https://finance.yahoo.com/news/u-equity-funds-draw-weekly-133530574.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Fed's Bowman still has a bias toward cutting rates, but that could change",
+        "url": "https://finance.yahoo.com/economy/article/feds-bowman-still-has-a-bias-toward-cutting-rates-but-that-could-change-133001198.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Danish pension fund excludes SpaceX citing governance and valuation",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/danish-pension-fund-excludes-spacex-132954371.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "ChatGPT can now see your bank account. Is it worth the risk?",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/chatgpt-can-now-see-your-bank-account-is-it-worth-the-risk-141555728.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "AI server sales push Dell stock to new heights: Earnings takeawaysDell Technologies (DELL) stock is on the move in Friday's pre-market trading as its share price soars by as much as nearly 40% \u2014 bringing the share price into the $400 range \u2014 after reporting a booming $60 billion in AI server sales for the company's first quarter. Morning Brief Host Julie Hyman and Yahoo Finance Head of News Myles Udland dive into Dell's earnings results and how its AI demand-driven growth compares to that seen in the software sector.",
+        "url": "https://finance.yahoo.com/video/ai-server-sales-push-dell-133827549.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Is Trump or inflation Kevin Warsh's biggest challenge at the Fed?",
+        "url": "https://finance.yahoo.com/video/trump-inflation-kevin-warshs-biggest-143000670.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Are companies rethinking their AI push after seeing the bill?",
+        "url": "https://finance.yahoo.com/video/companies-rethinking-ai-push-seeing-140000602.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "More war-driven inflation seen in Fed's favored gauge",
+        "url": "https://finance.yahoo.com/economy/policy/articles/more-war-driven-inflation-seen-115519421.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kevin Warsh hints at Greenspan-style Fed approach",
+        "url": "https://finance.yahoo.com/economy/policy/article/new-fed-chair-kevin-warsh-suggests-he-may-take-an-alan-greenspan-style-approach-at-the-central-bank-135046787.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Hassett says ending Iran war May open room for rate cut",
+        "url": "https://finance.yahoo.com/news/hassett-says-ending-iran-war-may-create-room-for-fed-rate-cut-190954086.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gold flows in Sudan's war economy as miners risk danger",
+        "url": "https://www.yahoo.com/news/world/articles/sudan-war-economy-gold-keeps-052108163.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Bond markets bet on 2026 rate hike as Warsh takes helm",
+        "url": "https://finance.yahoo.com/economy/policy/articles/treasury-market-ushers-warsh-era-190000320.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "What rising inflation means for mortgage rates now",
+        "url": "https://finance.yahoo.com/economy/policy/articles/heres-experts-expect-mortgage-rates-164749060.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Best money market account rates today: Earn up to 4.01%",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-monday-may-25-2026-100000515.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Strategists warn yields stay high even if Iran war ends",
+        "url": "https://finance.yahoo.com/news/bond-strategists-warn-yields-to-stay-high-even-if-iran-war-ends-130000537.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "SpaceX stock set to join public space economy companies",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-is-about-to-join-this-growing-constellation-of-public-companies-building-a-space-based-economy-193309368.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "What surging mortgage rates mean for home sales",
+        "url": "https://finance.yahoo.com/economy/policy/articles/surging-mortgage-rates-mean-summer-130411888.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 46
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "World Monitor | \u2014 geopolitics, conflicts, military, infrastructure",
+        "values": []
+      },
+      {
+        "label": "Tech Monitor | \u2014 AI labs, startups, cloud, cybersecurity",
+        "values": []
+      },
+      {
+        "label": "Finance Monitor | \u2014 global markets, central banks, forex, crypto",
+        "values": []
+      },
+      {
+        "label": "Commodity Monitor | \u2014 mining, energy, supply chains, freight",
+        "values": []
+      },
+      {
+        "label": "Happy Monitor | \u2014 positive news, breakthroughs, conservation",
+        "values": []
+      },
+      {
+        "label": "World Monitor Pro | \u2014 AI analyst, personalized digests, MCP for Claude & GPT",
+        "values": []
+      },
+      {
+        "label": "Blog | \u2014 OSINT guides, geopolitics, market intelligence",
+        "values": []
+      },
+      {
+        "label": "What is World Monitor?",
+        "values": []
+      },
+      {
+        "label": "OSINT for everyone \u2014 open-source intelligence democratized",
+        "values": []
+      },
+      {
+        "label": "Five dashboards, one platform \u2014 the variants explained",
+        "values": []
+      },
+      {
+        "label": "Open source on GitHub (AGPL-3.0)",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "Free, open-source intelligence platform aggregating live news, markets, military movements, conflicts, and infrastructure into one real-time dashboard. Used by 2M+ people across 190+ countries.Featured in WIRED.",
+      "Five dashboards, one platform",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.Featured in WIRED.",
+      "The platform combines real-time conflict events fromACLEDandUCDP, satellite fire detection fromNASA FIRMS, earthquakes fromUSGS, aircraft tracking fromOpenSky, ship AIS fromAISStream, and macro data fromFRED,IMF, andBIS.",
+      "Five dashboards, one platform",
+      "Explore the variant that matches what you track:World Monitorfor geopolitics and conflicts,Tech Monitorfor AI labs and startups,Finance Monitorfor markets and central banks,Commodity Monitorfor mining and supply chains, andHappy Monitorfor positive news and progress."
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nFree, open-source intelligence platform aggregating live news, markets, military movements, conflicts, and infrastructure into one real-time dashboard. Used by 2M+ people across 190+ countries.\nFeatured in WIRED\n.\nWhat it tracks\nLive conflict events from\nACLED\nand\nUCDP\n, satellite fire detection from\nNASA FIRMS\n, earthquakes from\nUSGS\n, military and civilian aircraft from\nOpenSky Network\n, ship AIS positions from\nAISStream\n, macro and central bank data from\nFRED\n,\nIMF\n, and\nBIS\n, plus 500+ curated RSS feeds, 50+ map layers, and AI-synthesized country briefings.\nFive dashboards, one platform\nWorld Monitor\n\u2014 geopolitics, conflicts, military, infrastructure\nTech Monitor\n\u2014 AI labs, startups, cloud, cybersecurity\nFinance Monitor\n\u2014 global markets, central banks, forex, crypto\nCommodity Monitor\n\u2014 mining, energy, supply chains, freight\nHappy Monitor\n\u2014 positive news, breakthroughs, conservation\nLearn more\nWorld Monitor Pro\n\u2014 AI analyst, personalized digests, MCP for Claude & GPT\nBlog\n\u2014 OSINT guides, geopolitics, market intelligence\nWhat is World Monitor?\nOSINT for everyone \u2014 open-source intelligence democratized\nFive dashboards, one platform \u2014 the variants explained\nOpen source on GitHub (AGPL-3.0)\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatured in WIRED\n.\nThe platform combines real-time conflict events from\nACLED\nand\nUCDP\n, satellite fire detection from\nNASA FIRMS\n, earthquakes from\nUSGS\n, aircraft tracking from\nOpenSky\n, ship AIS from\nAISStream\n, and macro data from\nFRED\n,\nIMF\n, and\nBIS\n.\nFive dashboards, one platform\nExplore the variant that matches what you track:\nWorld Monitor\nfor geopolitics and conflicts,\nTech Monitor\nfor AI labs and startups,\nFinance Monitor\nfor markets and central banks,\nCommodity Monitor\nfor mining and supply chains, and\nHappy Monitor\nfor positive news and progress.\nRead more\nLearn what the platform does in\nWhat is World Monitor?\n, how OSINT applies in\nOSINT for everyone\n, or compare to traditional tools in\nWorld Monitor vs Bloomberg, Palantir, Dataminr\n. Full source on\nGitHub (AGPL-3.0)\n, or\nupgrade to World Monitor Pro\nfor the AI analyst, custom widget builder, and MCP for Claude and GPT."
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Dow, S&P 500, Nasdaq futures edge higher as oil prices fall",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (CNBC TV18)",
+        "published": "1780057906"
+      },
+      {
+        "title": "Wall Street: US stock futures extend gains from record highs as traders await Iran deal",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Moneycontrol)",
+        "published": "1780050620"
+      },
+      {
+        "title": "Here\u2019s why Alibaba, Tencent, Xiaomi stocks are falling amid the AI boom",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Invezz)",
+        "published": "1780031037"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-28",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779993906"
+      },
+      {
+        "title": "Wall St futures dip on escalating Mideast tensions; inflation data awaited",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779966955"
+      },
+      {
+        "title": "US stock futures slip as Iran tensions rise ahead of inflation data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Invezz)",
+        "published": "1779966762"
+      },
+      {
+        "title": "The AI capital-spending boom looks historic. Eleven other booms suggest a bust is inevitable.",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (MarketWatch)",
+        "published": "1779892860"
+      },
+      {
+        "title": "Benchmark Treasury yield breakout fails, range reasserts",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779886745"
+      },
+      {
+        "title": "Wall St set to open higher on AI optimism, Mideast truce hopes",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779885602"
+      },
+      {
+        "title": "Wall St futures rise on AI optimism, Mideast truce hopes",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779879520"
+      },
+      {
+        "title": "Dow futures surge 120 points: 5 things to know before Wall Street opens",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Invezz)",
+        "published": "1779875749"
+      },
+      {
+        "title": "Wall St futures rise on AI optimism; investors optimistic on Mideast truce",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779872862"
+      },
+      {
+        "title": "Sell in May? You Would've Missed the S&P 500's Best May Since the '50s. \u2014 Barrons.com",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1780065480"
+      },
+      {
+        "title": "Dollar Tree Surges 17% As Bigger Baskets Boost Sales",
+        "summary": "",
+        "source": "TradingView/ES Headlines (GuruFocus)",
+        "published": "1780064514"
+      },
+      {
+        "title": "Autodesk Is the S&P 500's Worst Stock Today. Investors Dislike Its $3.6 Billion Deal. \u2014 Barrons.com",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1780064280"
+      },
+      {
+        "title": "S&P 500, Nasdaq hit record highs as US-Iran ceasefire talks lift sentiment",
+        "summary": "",
+        "source": "TradingView/ES Headlines (CNBC TV18)",
+        "published": "1780064276"
+      },
+      {
+        "title": "Dell Stock Soars Over 30% as AI Revenue Supercharges Growth \u2014 Barrons.com",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1780064220"
+      },
+      {
+        "title": "Wall Street rises on US-Iran deal hopes; Tech leaps, Staples lag\u00a0",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1780063764"
+      },
+      {
+        "title": "US CHICAGO PMI: MAY RISE IN INDEX DRIVEN BY NEW ORDERS, PRODUCTION, ORDER BACKLOGS, SUPPLIER DELIVERIES, OFFSET MARGINALLY BY LOWER EMPLOYMENT",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1780062840"
+      },
+      {
+        "title": "US CHICAGO PMI 62.7 IN MAY VS. 49.2 IN APRIL (VS. 51.2 MARKETS EXPECTED), HIGHEST SINCE JAN. 2022",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1780062720"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Fed Kashkari Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Fed Schmid Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Wholesale Inventories MoM Adv",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.5",
+        "forecast": "0.6",
+        "previous": "1.5"
+      },
+      {
+        "title": "Retail Inventories Ex Autos MoM Adv",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.6",
+        "forecast": "None",
+        "previous": "0.6"
+      },
+      {
+        "title": "Goods Trade Balance Adv",
+        "country": "US",
+        "impact": "0",
+        "actual": "-82.4",
+        "forecast": "-86.5",
+        "previous": "-85.3"
+      },
+      {
+        "title": "Fed Bowman Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Fed Paulson Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Chicago PMI",
+        "country": "US",
+        "impact": "0",
+        "actual": "62.7",
+        "forecast": "50.5",
+        "previous": "49.2"
+      },
+      {
+        "title": "Fed Daly Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Baker Hughes Total Rigs Count",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "558"
+      },
+      {
+        "title": "Baker Hughes Oil Rig Count",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "425"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is slightly up at 99.036, indicating a moderate headwind for tech/growth equities like NQ, but the 5-day trend is down, which could support NQ.\n* The VIX (Fear Index) is down at 15.67, suggesting a risk-on environment with decreasing fear in the market, which is bullish for NQ.\n* The 10Y Treasury Yield is down at 4.451, indicating a decrease in pressure on tech/growth stocks, which is bullish for NQ.\n* Gold is up at 4565.4, and crude oil is down at 88.56, suggesting a mixed commodity picture but with a slight bullish bias due to the decrease in oil prices.\n* Overall, the macro environment is leaning towards a RISK-ON environment, which is supportive of NQ.\n\n## KEY NEWS ANALYSIS\n* The news headlines are predominantly bullish for NQ, with stories about AI demand driving growth (e.g., Dell stock soars on demand from AI boom), US-Iran deal hopes, and a generally positive tone in the tech sector.\n* Some headlines, such as the potential merger between Tesla and SpaceX being bad for Tesla shareholders, introduce some caution, but these are not broadly negative for the NQ index as a whole.\n* The overall news sentiment is BULLISH for Nasdaq, driven by the AI and tech sector optimism.\n\n## ECONOMIC EVENTS IMPACT\n* The economic calendar events for 2026-05-29 show a mixed picture, with Wholesale Inventories MoM Adv coming in slightly below forecast, but the Chicago PMI beating expectations significantly at 62.7 vs. 50.5 forecast.\n* The Goods Trade Balance Adv was slightly better than forecast, which could be seen as a positive for the economy and thus for NQ.\n* Overall, the economic events are slightly positive for NQ, especially considering the strong Chicago PMI reading.\n\n## NQ MARKET CONTEXT\n* NQ is currently in an uptrend, with a price of 30406.75, and recent candles showing a mix of up and down days but overall trending upwards.\n* Key price levels include the previous day's high and low (30344.5 and 29763.0), and the weekly high and low (30379.0 and 29113.0).\n* The recent candle structure suggests ongoing bullish momentum.\n\n## PREDICTION\n**NYSE SESSION SIDE: BUY SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | BULLISH | 80% | HIGH |\n\n**NQ Prediction: BULLISH**\n**Confidence: 80% \u2014 HIGH**\n\n## TOP REASONS\n1. The bullish news sentiment, particularly around AI and tech sector growth, supports a buy side prediction for NQ.\n2. The macro environment, with a decreasing VIX and slightly supportive commodity prices, leans towards a risk-on environment, which is bullish for NQ.\n3. The strong Chicago PMI reading and slightly better than expected Goods Trade Balance contribute to a positive economic backdrop for NQ.\n\n## KEY RISKS\n- A sudden increase in the DXY or a sharp rise in yields could invalidate this prediction by introducing headwinds for tech/growth stocks.\n- Any negative geopolitical developments, especially concerning the US-Iran deal, could also turn sentiment bearish.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- Any updates on the US-Iran deal and its potential impact on oil prices and the broader market.\n- Earnings reports from key tech companies and their reaction to the AI boom.\n- The performance of the DXY and 10Y Treasury Yield, as these can influence NQ's direction.\n\n## ONE-LINE SUMMARY\n\"2026-05-29 NYSE SESSION: BUY SIDE \u2014 Bullish news sentiment around AI and tech sector growth, combined with a supportive macro environment and positive economic data, suggests a buy side prediction for NQ.\"",
+    "bias_nq": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

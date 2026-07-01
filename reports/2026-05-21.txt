@@ -1,0 +1,89 @@
+ANALYSIS DATE: 2026-05-21
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.403 | Day: +0.296% | 5-Day: +0.53%
+  VIX (Fear Index): 17.73 | Day: +1.663% | 5-Day: +2.72%
+  10Y Treasury Yield: 4.617 | Day: +0.984% | 5-Day: +3.50%
+  Gold: 4497.5 | Day: -0.746% | 5-Day: -3.86%
+  Crude Oil: 102.0 | Day: +3.806% | 5-Day: +0.82%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29195.0 | Trend: DOWN
+  1D: -0.67% | 5D: -1.66% | 10D: 1.79%
+  Prev High: 29397.5 | Prev Low: 28797.25 | Prev Close: 29390.5
+  Week High: 29782.0 | Week Low: 28663.0
+  Last 5 Candles: 2026-05-15 DOWN (O:29690.0 H:29734.0 L:29089.75 C:29231.75) | 2026-05-18 DOWN (O:29135.0 H:29419.75 L:28814.75 C:29096.0) | 2026-05-19 DOWN (O:29100.0 H:29188.5 L:28663.0 C:28924.25) | 2026-05-20 UP (O:28929.75 H:29397.5 L:28797.25 C:29390.5) | 2026-05-21 DOWN (O:29253.0 H:29464.5 L:29113.0 C:29195.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. The bond market is sending a clear signal to the FedMarket expectations have shifted away from rate cuts as Warsh takes the helm.
+  2. Stocks slip after Iranian supreme leader edict sends oil upward
+  3. 4 important takeaways from Nvidia's earnings
+  4. Nvidia beats on earnings, issues upbeat outlook
+  5. Why Starlink is so important to SpaceX's IPO
+  6. SpaceX is one step closer to the biggest IPO ever
+  7. Walmart stock falls after earnings match expectations, Q2 outlook disappoints
+  8. Earnings: Intuit stock tumbles after announcing job cuts, e.l.f. Beauty says it will lower prices
+  9. Nvidia's $80 billion stock buyback and bigger dividend may unleash an Apple-like stock move
+  10. Nvidia's cash machine is now funding both sides of the AI trade
+  11. Fugees star Wyclef Jean: AI can't snatch this one thing away from humans
+  12. US single-family housing starts tumble in April
+  13. BoE's Taylor sees less risk of inflation persistence than in 2022
+  14. Anthropic in talks to use Microsoft's AI chips, The Information reports
+  15. Critical Metals inks 15-year Greenland rare earth deal with REalloys
+  16. Crypto exchange Blockchain.com confidentially files for IPO
+  17. Many retirees don't know how long their money will last
+  18. Nvidia is still not including China in its revenue outlookNvidia (NVDA) topped estimates on adjusted earnings ($1.87 per share vs. Bloomberg estimates of $1.77) and revenue ($81.62 billion vs. estimates of $79.18 billion) for its first quarter. The AI semiconductor manufacturer also outpaced forecasts on its second quarter guidance. In the company's earnings call, Nvidia CEO Jensen Huang and CFO Colette Kress discuss increasing quarterly dividends, agentic AI, and how the company is still not including China in its revenue outlook.
+  19. Why it's 'almost never a bad time' to buy Nvidia stock
+  20. How Wyclef Jean is using AI to drop 7 albums in the same year
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  500+ curated RSS news feeds, 65+ external data sources, 50+ map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-20
+  2. Wall St rises on chips' strength ahead of Nvidia results
+  3. U.S. stock index futures edge higher ahead of Nvidia earnings
+  4. Wall St set to open higher as chip stocks rally ahead of Nvidia results
+  5. Wall Street futures climb as chip stocks rebound ahead of Nvidia results
+  6. Nvidia vigil
+  7. US stock futures climb as chip stocks rebound ahead of Nvidia results
+  8. Wall St ends lower as inflation worries push up yields
+  9. Wall St slips as inflation worries push yields higher
+  10. Wall St slips as inflation worries push yields to new highs
+  11. Tax refund season fuels retail investor frenzy, with May set to smash records
+  12. Wall St slips as inflation fears push yields higher
+  13. Why a 'meaningful' selloff for stocks is needed to bring down bond yields
+  14. Wall St opens lower as oil jumps on renewed Mideast concerns
+  15. S&P 500 Falls 34.40 Points (0.46%)
+
+=== ECONOMIC CALENDAR — 2026-05-21 ===
+  [-1] Continuing Jobless Claims — Actual: 1782 | Forecast: 1790 | Prev: 1776
+  [-1] Jobless Claims 4-week Average — Actual: 202.5 | Forecast: None | Prev: 204
+  [0] Initial Jobless Claims — Actual: 209 | Forecast: 210 | Prev: 212
+  [-1] Philly Fed Business Conditions — Actual: 53.2 | Forecast: None | Prev: 40.8
+  [-1] Philly Fed Prices Paid — Actual: 47.9 | Forecast: None | Prev: 59.3
+  [-1] Philly Fed CAPEX Index — Actual: 30.9 | Forecast: None | Prev: 35.2
+  [1] Building Permits Prel — Actual: 1.442 | Forecast: 1.39 | Prev: 1.363
+  [1] Housing Starts — Actual: 1.465 | Forecast: 1.41 | Prev: 1.507
+  [0] Philadelphia Fed Manufacturing Index — Actual: -0.4 | Forecast: 18 | Prev: 26.7
+  [-1] Philly Fed Employment — Actual: -2.8 | Forecast: None | Prev: -5.1
+  [-1] Philly Fed New Orders — Actual: -1.7 | Forecast: None | Prev: 33
+  [0] Building Permits MoM Prel — Actual: 5.8 | Forecast: None | Prev: -11.5
+  [0] Housing Starts MoM — Actual: -2.8 | Forecast: None | Prev: 12
+  [0] S&P Global Composite PMI Flash — Actual: None | Forecast: None | Prev: 51.7
+  [0] S&P Global Services PMI Flash — Actual: None | Forecast: 51.1 | Prev: 51
+  [0] S&P Global Manufacturing PMI Flash — Actual: None | Forecast: 53.8 | Prev: 54.5
+  [-1] EIA Natural Gas Stocks Change — Actual: None | Forecast: 96 | Prev: 85
+  [-1] Kansas Fed Manufacturing Index — Actual: None | Forecast: None | Prev: 10
+  [-1] Kansas Fed Composite Index — Actual: None | Forecast: None | Prev: 10
+  [-1] 4-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.605
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-21.

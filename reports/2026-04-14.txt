@@ -1,0 +1,92 @@
+ANALYSIS DATE: 2026-04-14
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.033 | Day: -0.343% | 5-Day: -1.61%
+  VIX (Fear Index): 18.25 | Day: -4.550% | 5-Day: -29.21%
+  10Y Treasury Yield: 4.297 | Day: +0.000% | 5-Day: -1.06%
+  Gold: 4815.5 | Day: +1.541% | 5-Day: +3.40%
+  Crude Oil: 95.1 | Day: -4.017% | 5-Day: -15.80%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 25753.5 | Trend: UP
+  1D: 0.82% | 5D: 5.67% | 10D: 11.3%
+  Prev High: 25599.25 | Prev Low: 24904.5 | Prev Close: 25543.5
+  Week High: 25599.25 | Week Low: 23941.5
+  Last 5 Candles: 2026-04-08 UP (O:24514.0 H:25257.0 L:24355.0 C:25074.25) | 2026-04-09 UP (O:25037.75 H:25269.75 L:24953.0 C:25251.5) | 2026-04-10 UP (O:25237.0 H:25393.0 L:25193.0 C:25281.25) | 2026-04-13 UP (O:24980.0 H:25599.25 L:24904.5 C:25543.5) | 2026-04-14 UP (O:25575.25 H:25763.75 L:25560.0 C:25753.5)
+
+=== ES — S&P 500 Futures ===
+  Price: 6959.0 | Trend: UP
+  1D: 0.52% | 5D: 4.54% | 10D: 8.93%
+  Prev High: 6928.25 | Prev Low: 6767.0 | Prev Close: 6922.75
+  Week High: 6928.25 | Week Low: 6572.75
+  Last 5 Candles: 2026-04-08 UP (O:6689.0 H:6847.25 L:6652.25 C:6823.75) | 2026-04-09 UP (O:6814.25 H:6876.0 L:6792.5 C:6863.25) | 2026-04-10 DOWN (O:6858.0 H:6888.0 L:6846.25 C:6855.25) | 2026-04-13 UP (O:6780.0 H:6928.25 L:6767.0 C:6922.75) | 2026-04-14 UP (O:6925.25 H:6961.25 L:6920.25 C:6959.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. US stocks rise as Iran hopes grow, PPI comes in coolThe Nasdaq led the S&P 500 and Dow higher amid Iran deal hopes and a rush of earnings.
+  2. JPMorgan profits rise as Dimon warns of 'complex' risks ahead
+  3. Goldman rakes it in, but issues a warning
+  4. A US-blacklisted tanker is putting Trump's blockade to the test
+  5. Why Starlink is so important to SpaceX's IPO
+  6. Oil falls, gold rises as investors hope for US-Iran talks to restart
+  7. Sandisk is one of the hottest stocks in the market in 2026
+  8. IMF lowers growth outlook, warns of global recession amid Iran oil shock
+  9. Lucid stock pops on new CEO, fresh funding from Saudi PIF, Uber
+  10. Fed nominee Warsh takes step closer to confirmation
+  11. Fed nominee Warsh's holdings include SpaceX, Polymarket, crypto and AI
+  12. French group Veolia aims $1.2 billion in revenue from data centres, chips by 2030
+  13. Factbox-Airlines cancel flights amid Middle East conflict
+  14. Long Iran war may require painful central bank tightening, IMF chief economist says
+  15. Oracle Agrees to Buy Power From Bloom for AI Data Centers
+  16. Oil Slips as US and Iran Weigh More Talks With Blockade in Place
+  17. Factbox-Global satellite internet companies at a glance
+  18. JPMorgan earnings, Amazon buys SpaceX rival Globalstar: Top themesYahoo Finance's Myles Udland takes a look at the biggest themes and events that could shape the tone of Tuesday's trading session, including the S&P 500 (^GSPC) erasing all Iran war–fueled losses; bank earnings from JPMorgan (JPM), Wells Fargo (WFC), and Citi (C); and SpaceX (SPAX.PVT) rival Globalstar (GSAT) being acquired by Amazon (AMZN).
+  19. JPMorgan, Wells Fargo, BlackRock: Bank earnings takeaways
+  20. Big Banks still moving at 'full throttle' as earnings roll out
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Value trade could be back in business in Europe - Barclays
+  2. Wall St indexes set to open higher on Mideast de-escalation hopes, earnings in focus
+  3. Nasdaq's hot streak and a cold signal: Death Cross in focus 
+  4. S&P 500, Nasdaq futures rise on Mideast de-escalation hopes, earnings in focus
+  5. War-weary markets filter out noise
+  6. US stock futures climb as traders cling to de-escalation hopes, await earnings
+  7. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-13
+  8. Chip stock rally faces key test after US–Iran talks stall
+  9. Wall St set for subdued open as failed US-Iran peace talks fuel investor angst
+  10. Wall St futures slip as failed US-Iran peace talks fuel investor angst
+  11. Blockade takes its toll
+  12. Wall Street futures drop after US-Iran peace talks fail
+  13. Prediction markets go mainstream as Bernstein eyes $1 trillion boom
+  14. S&P 500 Rises 20.57 Points (0.30%)
+  15. Wall St opens higher as Mideast de-escalation hopes lift sentiment
+
+=== ECONOMIC CALENDAR — 2026-04-14 ===
+  [-1] NFIB Business Optimism Index — Actual: 95.8 | Forecast: 98.6 | Prev: 98.8
+  [0] ADP Employment Change Weekly — Actual: 39 | Forecast: None | Prev: 26
+  [-1] PPI YoY — Actual: 4 | Forecast: 4.6 | Prev: 3.4
+  [-1] PPI — Actual: 154.006 | Forecast: None | Prev: 153.221
+  [1] PPI MoM — Actual: 0.5 | Forecast: 1.1 | Prev: 0.5
+  [-1] PPI Ex Food, Energy and Trade YoY — Actual: 3.6 | Forecast: None | Prev: 3.5
+  [-1] Core PPI YoY — Actual: 3.8 | Forecast: 4.1 | Prev: 3.8
+  [-1] PPI Ex Food, Energy and Trade MoM — Actual: 0.2 | Forecast: None | Prev: 0.5
+  [0] Core PPI MoM — Actual: 0.1 | Forecast: 0.5 | Prev: 0.3
+  [-1] Redbook YoY — Actual: 7 | Forecast: None | Prev: 7.6
+  [-1] 52-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.485
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.615
+  [0] Fed Goolsbee Speech — Actual: None | Forecast: None | Prev: None
+  [0] Fed Barr Speech — Actual: None | Forecast: None | Prev: None
+  [0] Fed Collins Speech — Actual: None | Forecast: None | Prev: None
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: -1.3 | Prev: 3.719
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-14.

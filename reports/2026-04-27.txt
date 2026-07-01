@@ -1,0 +1,82 @@
+ANALYSIS DATE: 2026-04-27
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.267 | Day: -0.247% | 5-Day: +0.22%
+  VIX (Fear Index): 19.07 | Day: +1.924% | 5-Day: +1.06%
+  10Y Treasury Yield: 4.318 | Day: +0.186% | 5-Day: +1.60%
+  Gold: 4713.7 | Day: -0.182% | 5-Day: -1.93%
+  Crude Oil: 95.9 | Day: +1.589% | 5-Day: +7.02%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 27398.75 | Trend: UP
+  1D: -0.13% | 5D: 2.43% | 10D: 7.26%
+  Prev High: 27462.5 | Prev Low: 26992.0 | Prev Close: 27435.0
+  Week High: 27462.5 | Week Low: 26535.0
+  Last 5 Candles: 2026-04-21 DOWN (O:26776.75 H:26901.75 L:26551.75 C:26634.75) | 2026-04-22 UP (O:26729.5 H:27136.0 L:26727.75 C:27083.0) | 2026-04-23 DOWN (O:27075.0 H:27155.75 L:26681.75 C:26934.0) | 2026-04-24 UP (O:26992.0 H:27462.5 L:26992.0 C:27435.0) | 2026-04-27 DOWN (O:27403.25 H:27542.5 L:27344.25 C:27398.75)
+
+=== ES — S&P 500 Futures ===
+  Price: 7186.0 | Trend: UP
+  1D: -0.12% | 5D: 0.53% | 10D: 3.8%
+  Prev High: 7200.5 | Prev Low: 7135.5 | Prev Close: 7194.75
+  Week High: 7200.5 | Week Low: 7079.25
+  Last 5 Candles: 2026-04-21 DOWN (O:7150.75 H:7183.0 L:7085.0 C:7100.0) | 2026-04-22 UP (O:7125.0 H:7173.0 L:7121.25 C:7171.25) | 2026-04-23 DOWN (O:7163.0 H:7181.5 L:7079.25 C:7143.5) | 2026-04-24 UP (O:7143.0 H:7200.5 L:7135.5 C:7194.75) | 2026-04-27 UP (O:7185.0 H:7208.5 L:7171.5 C:7186.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Fed set to stand pat on rates this week amid Iran conflictPolicymakers meet this week amid uncertainty about the impact on the economy as the war reaches the two-month mark.
+  2. China blocks Meta's acquisition of AI startup Manus
+  3. Stock futures stall with Big Tech earnings ahead
+  4. Iran said to offer US a deal to reopen Hormuz, end war
+  5. Will Nvidia's explosive rally end soon?
+  6. Earnings: Domino's falls, 'Magnificent 7' week begins
+  7. Verizon stock jumps on surprise mobile subscriber gain
+  8. $4 gas and the Teflon US consumer: Yahoo Finance community reacts
+  9. Stocks' strong April gains come with 1 potential downside
+  10. SpaceX and OpenAI IPOs: 1 warning to not overlook
+  11. Microsoft will no longer have exclusive access to OpenAI's technology
+  12. A look at the federal funds rate over the past 50 years: How has it changed?
+  13. Critical Metals to Buy European Lithium for $835 Million
+  14. Factbox-Airlines cancel flights amid Middle East conflict
+  15. Stalled US-Iran Talks Show Limits of Pakistan Mediation Push
+  16. Shell Agrees to Buy Canada’s ARC Resources for $13.6 Billion
+  17. China blocks Meta’s acquisition of Chinese-founded AI startup Manus
+  18. How the Honest Co helped the Artemis II moon missionThe Honest Company CEO, Carla Vernon, chats with Yahoo Finance Executive Editor Brian Sozzi about the moment a NASA Artemis astronaut famously called out Honest during a live space mission, creating an unexpected viral cultural moment for the brand.
+  19. Is the 401(k) outdated? Charles Payne weighs in
+  20. Auto market is 'surprisingly resilient,' but that might not last
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Magnificent Seven earnings flood awaits as MAGS ETF rides into resistance
+  2. Wall St set for tepid open as investors weigh US-Iran conflict before earnings rush
+  3. US stock index futures muted on stalled US-Iran peace talks
+  4. Oil and chips
+  5. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-24
+  6. Benchmark Treasury yield coils like a spring as traders brace for a breakout
+  7. S&P 500, Nasdaq set for firmer open on fresh hopes of US-Iran talks
+  8. Wall Street futures mixed as US-Iran stalemate keeps investors on edge
+  9. Schrödinger’s ceasefire
+  10. After its biggest burst since 2020, can the S&P 500 push higher? 
+  11. Wall St set to open lower in absence of clarity on Iran de-escalation; earnings mixed
+  12. Wall St futures slip as investors pause for clarity on US-Iran war; earnings mixed
+  13. Wall St opens lower as investors weigh US-Iran conflict before earnings rush
+  14. S&P 500 Falls 1.55 Points (0.02%)
+  15. US Futures Hold Near Records
+
+=== ECONOMIC CALENDAR — 2026-04-27 ===
+  [-1] NY Fed Bill Purchases 4 to 12 months — Actual: None | Forecast: 5.058 | Prev: None
+  [0] Dallas Fed Manufacturing Index — Actual: None | Forecast: None | Prev: -0.2
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.59
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.61
+  [-1] 5-Year Note Auction — Actual: None | Forecast: None | Prev: 3.98
+  [-1] 2-Year Note Auction — Actual: None | Forecast: None | Prev: 3.936
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-27.

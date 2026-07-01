@@ -1,0 +1,108 @@
+ANALYSIS DATE: 2026-06-13
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.796 | Day: -0.064% | 5-Day: -0.27%
+  VIX (Fear Index): 17.68 | Day: -9.053% | 5-Day: -17.81%
+  10Y Treasury Yield: 4.487 | Day: +0.538% | 5-Day: -1.08%
+  Gold: 4234.5 | Day: +3.525% | 5-Day: -2.37%
+  Crude Oil: 84.27 | Day: -3.922% | 5-Day: -6.93%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29684.75 | Trend: DOWN
+  1D: 0.75% | 5D: 2.27% | 10D: -2.37%
+  Prev High: 29544.25 | Prev Low: 28265.75 | Prev Close: 29464.75
+  Week High: 30422.0 | Week Low: 28227.75
+  Last 5 Candles: 2026-06-08 UP (O:28844.5 H:29743.0 L:28822.25 C:29454.75) | 2026-06-09 DOWN (O:29435.0 H:29848.25 L:28227.75 C:29117.0) | 2026-06-10 DOWN (O:29094.75 H:29250.0 L:28409.0 C:28554.0) | 2026-06-11 UP (O:28455.0 H:29544.25 L:28265.75 C:29464.75) | 2026-06-12 UP (O:29456.75 H:29760.0 L:29230.0 C:29684.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. BREAKINGSpaceX closes up nearly 20% on first day of trading
+  2. SpaceX closes up nearly 20% after historic IPO
+  3. Elon Musk just became the world's first trillionaire
+  4. Tesla stock gains after SpaceX's historic debut
+  5. Robinhood clients face issues in early moments of SpaceX trading
+  6. A former SpaceX welder's unlikely IPO payday
+  7. Stocks rise with Iran peace odds, historic SpaceX IPO in focus
+  8. US, Iran edge toward interim deal to reopen Hormuz
+  9. Shipowners await update on Hormuz as dark flows keep rising
+  10. Consumer sentiment improves in June as gas prices ease
+  11. Why the biggest-ever IPO could be a trap
+  12. Will SpaceX stock follow the typical path after a skyrocketing IPO?
+  13. Rival space stocks drop as SpaceX soars in debut
+  14. SpaceX fever is testing the chip trade
+  15. SpaceX IPO hype is massive — and the FOMO can ruin your retirement
+  16. Trump's UFC fight will be one of cheapest sporting events to watch in years
+  17. 'Ignore it at your own peril': Jim Cramer says bull market's key pillars are crumbling
+  18. Why the ultra-wealthy are flocking to a small Nevada town
+  19. Brent Oil Drops Below $90 as the U.S. Closes in on a Peace Deal With Iran. What it Means for Oil Stocks.
+  20. Shipowners On Edge for News on Hormuz as ‘Dark’ Oil Flows Swell
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor | — geopolitics, conflicts, military, infrastructure 
+  Tech Monitor | — AI labs, startups, cloud, cybersecurity 
+  Finance Monitor | — global markets, central banks, forex, crypto 
+  Commodity Monitor | — mining, energy, supply chains, freight 
+  Happy Monitor | — positive news, breakthroughs, conservation 
+  Energy Monitor | — oil, gas, chokepoints, energy security 
+  World Monitor Pro | — AI analyst, personalized digests, MCP for Claude & GPT 
+  Blog | — OSINT guides, geopolitics, market intelligence 
+  What is World Monitor? 
+  OSINT for everyone — open-source intelligence democratized 
+  Dashboard variants guide 
+  Open source on GitHub (AGPL-3.0) 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. AMD Stock Pops After Buy Upgrade. It's More Than a CPU Play. — Barrons.com
+  2. S&P 500 climbs as SpaceX gains, hopes build for Iran peace deal
+  3. CoreWeave Shares Rise Ahead of Inclusion in Nasdaq 100 Index
+  4. Why Rocket Lab (RKLB) Stock Is Trading Lower Today
+  5. CoreWeave To Join Nasdaq-100 Index
+  6. Five AI and Space Names Join the Nasdaq-100
+  7. Nasdaq-100 Adds New AI and Space Winners. These Stocks Are Soaring
+  8. Dow futures rise 300 points: 5 things to know before Wall Street opens
+  9. Weekend Reads: China's oil shift and World Cup economics
+  10. Nasdaq to Replace Five Companies on Nasdaq-100 Index
+  11. Space Stock Rocket Lab and 4 Others Are Joining the Nasdaq 100 — Barrons.com
+  12. Rocket Lab To Join The Nasdaq-100 Index
+  13. SpaceX’s Historic IPO Will Trigger a Nasdaq Sell-Off? Says Analyst Michael Burry
+  14. Why SpaceX IPO May Be The Biggest Stress Test Yet For Passive Investing
+  15. RKLB Stock Rallies After Earning Nasdaq 100 Spot – SpaceX Could Be Next Under New Rules
+
+=== ECONOMIC CALENDAR — 2026-06-13 ===
+  No scheduled events
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: 0.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 29687.75 | PrevH: 29544.25 | PrevL: 28265.75
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-10 DOWN(29094.75->28554.0) > 2026-06-11 UP(28455.0->29464.75) > 2026-06-12 UP(29456.75->29687.75)
+
+  [4H] Structure: RANGING
+    Price: 29687.75 | PrevH: 29752.25 | PrevL: 29409.0
+    Nearest Resistance (swing high above): 29743.0
+    Nearest Support (swing low below): 29448.25
+    Recent: 2026-06-12 DOWN(29637.0->29439.75) > 2026-06-12 UP(29440.25->29650.5) > 2026-06-12 UP(29650.25->29687.75)
+
+  [1H] Structure: RANGING
+    Price: 29687.75 | PrevH: 29711.0 | PrevL: 29580.5
+    Nearest Resistance (swing high above): 29693.0
+    Nearest Support (swing low below): 29566.0
+    Recent: 2026-06-12 DOWN(29684.0->29645.0) > 2026-06-12 UP(29645.0->29650.5) > 2026-06-12 UP(29650.25->29687.75)
+
+  [15m] Structure: RANGING
+    Price: 29689.0 | PrevH: 29732.25 | PrevL: 29687.25
+    Nearest Resistance (swing high above): 29689.25
+    Nearest Support (swing low below): 29652.25
+    Recent: 2026-06-12 UP(29650.25->29714.25) > 2026-06-12 DOWN(29716.25->29688.0) > 2026-06-12 UP(29688.25->29689.0)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-13.

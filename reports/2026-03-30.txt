@@ -1,0 +1,82 @@
+ANALYSIS DATE: 2026-03-30
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 100.51 | Day: +0.359% | 5-Day: +1.58%
+  VIX (Fear Index): 30.61 | Day: -1.417% | 5-Day: +17.06%
+  10Y Treasury Yield: 4.342 | Day: -2.207% | 5-Day: +0.18%
+  Gold: 4526.0 | Day: +0.757% | 5-Day: +2.77%
+  Crude Oil: 102.88 | Day: +3.252% | 5-Day: +16.74%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 23139.75 | Trend: DOWN
+  1D: -0.81% | 5D: -5.2% | 10D: -6.22%
+  Prev High: 23976.0 | Prev Low: 23232.5 | Prev Close: 23328.5
+  Week High: 24763.0 | Week Low: 23232.5
+  Last 5 Candles: 2026-03-24 DOWN (O:24417.25 H:24550.0 L:24134.0 C:24213.75) | 2026-03-25 DOWN (O:24420.0 H:24539.75 L:24286.5 C:24367.75) | 2026-03-26 DOWN (O:24373.5 H:24421.25 L:23763.25 C:23794.25) | 2026-03-27 DOWN (O:23824.0 H:23976.0 L:23232.5 C:23328.5) | 2026-03-30 DOWN (O:23189.5 H:23574.0 L:23024.5 C:23139.75)
+
+=== ES — S&P 500 Futures ===
+  Price: 6388.25 | Trend: DOWN
+  1D: -0.37% | 5D: -3.72% | 10D: -4.72%
+  Prev High: 6568.5 | Prev Low: 6389.0 | Prev Close: 6412.25
+  Week High: 6748.0 | Week Low: 6389.0
+  Last 5 Candles: 2026-03-24 DOWN (O:6635.0 H:6680.5 L:6573.5 C:6606.0) | 2026-03-25 DOWN (O:6646.5 H:6684.75 L:6616.5 C:6640.75) | 2026-03-26 DOWN (O:6641.5 H:6647.0 L:6517.0 C:6525.0) | 2026-03-27 DOWN (O:6536.0 H:6568.5 L:6389.0 C:6412.25) | 2026-03-30 UP (O:6380.0 H:6481.75 L:6359.5 C:6388.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Has Hormuz reopened after Trump's demands? Where things stand.As the US and Iran prepare for talks to begin on Saturday, traffic through the world's most critical chokepoint for global energy flows is still thin.
+  2. Stock futures stall as CPI data, Iran war talks loom
+  3. US consumer inflation expected to have surged amid Iran war
+  4. TSMC sales smash record as war fails to dent AI demand
+  5. Oil rises after attacks slash Saudi production capacity
+  6. Chips are still where the AI trade rubber meets the road
+  7. This is where US home buyers or sellers have the upper hand
+  8. The S&P 500 just edged bulls back in control: Chart of the Day
+  9. As airfares spiral, cruise lines are offering summer deals
+  10. Russian-flagged tanker transits Hormuz in rare passage
+  11. Big Tech puts financial heft behind next-gen nuclear power as AI demand surges
+  12. Shippers weigh unusual routes as high air cargo rates, ocean gridlock persist
+  13. Analysis-Crypto giant Kraken's Fed payment account sparks concerns about risks
+  14. Morning Brief: A big day for inflation
+  15. US consumer inflation expected to have surged in March amid Iran war
+  16. Apple leads smartphone market even as overall shipments decline, Counterpoint says
+  17. What to expect from the first US inflation report since the Iran war began
+  18. Investors ignoring inflation are doing so 'at their own risk'February's Personal Consumption Expenditures index (PCE) — the Federal Reserve's preferred inflation gauge — rose 2.8% from this time last year, while not accounting for March price shocks resulting from the US-Iran war. RSM chief economist Joe Brusuelas comes on Market Domination to discuss the latest inflation data in relation to energy price shocks and the American working class. The US Bureau of Labor Statistics (BLS) are scheduled to release March's Consumer Price Index survey (CPI) on Friday, April 10.
+  19. Why Palo Alto Networks is a 'winner' amid a sea of software losers
+  20. Why Microsoft and Google could be the best Mag 7 stock picks
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. US stock futures steady ahead of inflation data, Mideast truce in focus
+  2. Back from the brink?
+  3. US stock futures subdued ahead of inflation data, Mideast in focus
+  4. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-09
+  5. Dow Transports hit record high, bulls watch for Dow Industrials to follow
+  6. Wall St set for lower open over shaky Mideast truce; inflation data assessed
+  7. Wall St futures little changed after inflation data
+  8. US stock futures fall over shaky Mideast truce; inflation in focus
+  9. Relief rally hits pause
+  10. US stock futures dip over shaky Mideast truce; inflation in focus
+  11. US futures jump on Iran ceasefire; S&P 500 eyes key technical levels 
+  12. Wall St set for higher open as US-Iran ceasefire lifts sentiment
+  13. Intel, Sandisk and Other Big Winners in the S&P 500's Hot Streak — Barrons.com
+  14. Wall Street's fear gauge just flashed an unusual signal that could carry the S&P 500 to 7,400 within months
+  15. SPX: S&P 500 Futures Hug the Flatline as Iran War Keeps Traders on Their Toes
+
+=== ECONOMIC CALENDAR — 2026-03-30 ===
+  [-1] NY Fed Bill Purchases 4 to 12 months — Actual: None | Forecast: 6.726 | Prev: None
+  [0] Dallas Fed Manufacturing Index — Actual: -0.2 | Forecast: None | Prev: 0.2
+  [0] Fed Chair Powell Speech — Actual: None | Forecast: None | Prev: None
+  [-1] 3-Month Bill Auction — Actual: 3.62 | Forecast: None | Prev: 3.635
+  [-1] 6-Month Bill Auction — Actual: 3.605 | Forecast: None | Prev: 3.63
+  [0] Fed Williams Speech — Actual: None | Forecast: None | Prev: None
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-03-30.

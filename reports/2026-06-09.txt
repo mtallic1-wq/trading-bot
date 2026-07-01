@@ -1,0 +1,122 @@
+ANALYSIS DATE: 2026-06-09
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.746 | Day: -0.304% | 5-Day: +0.53%
+  VIX (Fear Index): 17.77 | Day: -6.078% | 5-Day: +12.68%
+  10Y Treasury Yield: 4.544 | Day: -0.176% | 5-Day: +2.00%
+  Gold: 4359.6 | Day: +0.547% | 5-Day: -2.88%
+  Crude Oil: 87.65 | Day: -3.998% | 5-Day: -6.52%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29709.5 | Trend: DOWN
+  1D: 0.86% | 5D: -3.27% | 10D: -1.21%
+  Prev High: 29743.0 | Prev Low: 28822.25 | Prev Close: 29454.75
+  Week High: 30807.75 | Week Low: 28781.25
+  Last 5 Candles: 2026-06-03 DOWN (O:30741.75 H:30807.75 L:30478.25 C:30633.25) | 2026-06-04 UP (O:30453.0 H:30603.25 L:30151.0 C:30488.25) | 2026-06-05 DOWN (O:30414.0 H:30422.0 L:28781.25 C:29026.5) | 2026-06-08 UP (O:28844.5 H:29743.0 L:28822.25 C:29454.75) | 2026-06-09 UP (O:29435.0 H:29848.25 L:29303.5 C:29709.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. SpaceX, Google compute deal raises eyebrows ahead of IPOAs SpaceX's IPO approaches, the company has been securing some very lucrative AI compute deals, but the timing and terms of those deals are adding concern.
+  2. US stocks climb as AI trade powers tech comeback
+  3. Treasury market is telling Fed's Warsh rates need to be hiked
+  4. Trump says Iran talks on track, but warns of consequences of breakdown
+  5. Why Apple's WWDC and Siri AI failed to inspire investors
+  6. CoreWeave founders have dumped $2.3B in stock since IPO
+  7. Leveraged ETF goes haywire in Korea with wrong-way 40% moves
+  8. Musk's Starlink leads Bezos' Amazon as airlines rush to boost in-flight Wi-Fi
+  9. Micron, Marvell stocks lead another chip stock bounce
+  10. Psyched about SpaceX's IPO? Don't forget the brutal lesson of Facebook.
+  11. SpaceX reveals its first orbital data center, 'much simpler than a Starlink satellite,' Musk says
+  12. BofA warns investors to take profits as 70% of the bank's bear market signals flash red
+  13. Wells Fargo CFO signals 'step up' in interest income in second quarter
+  14. Home sales jumped in May as buyers shrugged off higher mortgage rates
+  15. Record exports help narrow US trade deficit in April
+  16. Mexico annual inflation returns to cenbank's target range in May, but concerns persist
+  17. A 'Gangnam Style' stock gets an AI sequel: Chart of the Day
+  18. Wall Street sees AI trade bearing fruit with MANGOS ahead of IPOsMANGOS — no, not the tropical stone fruit — is the latest Big Tech acronym to be at the top of investors' minds ahead of 2026's biggest IPOs. MANGOS consists of Meta Platforms (META), Anthropic (ANTH.PVT), Nvidia (NVDA), Alphabet (GOOG, GOOGL), OpenAI (OPAI.PVT), and SpaceX (SPCX, SPAX.PVT). Yahoo Finance Senior Business Reporter Ines Ferré explains the latest AI tech groupings being coined by Wall Street analysts.
+  19. How SpaceX's pre-IPO demand is rocket fuel ahead of public launch
+  20. 'Apple could be the biggest winner in AI.' Here's why.
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor | — geopolitics, conflicts, military, infrastructure 
+  Tech Monitor | — AI labs, startups, cloud, cybersecurity 
+  Finance Monitor | — global markets, central banks, forex, crypto 
+  Commodity Monitor | — mining, energy, supply chains, freight 
+  Happy Monitor | — positive news, breakthroughs, conservation 
+  Energy Monitor | — oil, gas, chokepoints, energy security 
+  World Monitor Pro | — AI analyst, personalized digests, MCP for Claude & GPT 
+  Blog | — OSINT guides, geopolitics, market intelligence 
+  What is World Monitor? 
+  OSINT for everyone — open-source intelligence democratized 
+  Dashboard variants guide 
+  Open source on GitHub (AGPL-3.0) 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Intuit stock is the worst performer in the Nasdaq 100 Index this year: buy the dip?
+  2. OKX expands X-Perps in Europe with Magnificent 7, gold and oil futures
+  3. Dow futures climb 125 points: 5 things to know before Wall Street opens
+  4. Stocks Continue Recovery — WSJ
+  5. Buy the chip
+  6.  Asia report: Global tech rally drives regional gains 
+  7. STOCKS | S&P 500 And Nasdaq 100 Pull Back From Intraday Highs, Still Up 0.7% And 2%
+  8. Oil Rallies After Mideast Strikes — WSJ
+  9. Asian markets sink after wall street rout as tech selloff deepens
+  10. Asian stocks drop as tech selloff extends, oil up
+  11. STOCKS | Huatai Securities Advises Taking Profits on AI-Linked A Shares Amid Macro Repricing Risks
+  12. QQQ, VOO, SPY ETFs are falling: Here’s why the stock market is crashing
+  13. SpaceX shut out of S&P 500, but Nasdaq 100 funds will drive big demand
+  14. Stock Indexes Are Divided on Rules for Megacap IPOs. How Exposed Will You Be? — WSJ
+  15. "Sell in May" Flops in 2026: 4 Winning ETF Areas
+
+=== ECONOMIC CALENDAR — 2026-06-09 ===
+  [-1] NFIB Business Optimism Index — Actual: 95.3 | Forecast: 96 | Prev: 95.9
+  [0] ADP Employment Change Weekly — Actual: 29 | Forecast: None | Prev: 30.5
+  [0] Imports — Actual: 383 | Forecast: None | Prev: 375.4
+  [0] Balance of Trade — Actual: -55.9 | Forecast: -56.1 | Prev: -56.6
+  [0] Exports — Actual: 327.1 | Forecast: None | Prev: 318.8
+  [-1] Redbook YoY — Actual: 9.1 | Forecast: None | Prev: 9
+  [-1] NY Fed Bill Purchases 4 to 12 months — Actual: None | Forecast: 3.288 | Prev: None
+  [0] Existing Home Sales MoM — Actual: 3.2 | Forecast: None | Prev: 0.7
+  [1] Existing Home Sales — Actual: 4.17 | Forecast: 4.07 | Prev: 4.04
+  [-1] Wholesale Inventories MoM — Actual: 0.6 | Forecast: 0.5 | Prev: 1.3
+  [-1] 52-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.65
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.625
+  [0] EIA Short-Term Energy Outlook — Actual: None | Forecast: None | Prev: None
+  [-1] 3-Year Note Auction — Actual: None | Forecast: None | Prev: 3.965
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: -3.4 | Prev: -6.75
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BULLISH (score: 40.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bullish
+  TF Summary: Daily: RANGING | 4H: BULLISH | 1H: RANGING | 15m: BULLISH
+
+  [Daily] Structure: RANGING
+    Price: 29691.75 | PrevH: 29743.0 | PrevL: 28822.25
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-05 DOWN(30414.0->29026.5) > 2026-06-08 UP(28844.5->29454.75) > 2026-06-09 UP(29435.0->29691.75)
+
+  [4H] Structure: BULLISH
+    Price: 29691.75 | PrevH: 29727.5 | PrevL: 29566.0
+    Nearest Resistance (swing high above): 29743.0
+    Nearest Support (swing low below): 29448.25
+    Recent: 2026-06-09 DOWN(29594.25->29593.0) > 2026-06-09 UP(29593.5->29681.5) > 2026-06-09 UP(29681.0->29691.75)
+
+  [1H] Structure: RANGING
+    Price: 29691.75 | PrevH: 29848.25 | PrevL: 29633.25
+    Nearest Resistance (swing high above): 29693.0
+    Nearest Support (swing low below): 29566.0
+    Recent: 2026-06-09 UP(29681.0->29735.25) > 2026-06-09 DOWN(29735.75->29672.75) > 2026-06-09 UP(29672.75->29691.75)
+
+  [15m] Structure: BULLISH
+    Price: 29696.0 | PrevH: 29848.25 | PrevL: 29663.25
+    Nearest Resistance (swing high above): 29727.5
+    Nearest Support (swing low below): 29652.25
+    Recent: 2026-06-09 UP(29737.0->29767.0) > 2026-06-09 DOWN(29766.5->29672.75) > 2026-06-09 UP(29672.75->29696.0)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-09.

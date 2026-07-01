@@ -1,0 +1,502 @@
+{
+  "date": "2026-05-22",
+  "created": "2026-05-22T18:12:15.147257",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 29562.25,
+    "prev_day_high": 29554.0,
+    "prev_day_low": 29113.0,
+    "prev_day_close": 29447.25,
+    "week_high": 29734.0,
+    "week_low": 28663.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.39,
+      "5d_pct": 1.13,
+      "10d_pct": 0.78
+    },
+    "recent_candles": [
+      {
+        "date": "2026-05-18",
+        "open": 29135.0,
+        "high": 29419.75,
+        "low": 28814.75,
+        "close": 29096.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-05-19",
+        "open": 29100.0,
+        "high": 29188.5,
+        "low": 28663.0,
+        "close": 28924.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-05-20",
+        "open": 28929.75,
+        "high": 29397.5,
+        "low": 28797.25,
+        "close": 29390.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-21",
+        "open": 29253.0,
+        "high": 29554.0,
+        "low": 29113.0,
+        "close": 29447.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-22",
+        "open": 29444.0,
+        "high": 29665.25,
+        "low": 29436.0,
+        "close": 29562.25,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 99.281,
+      "day_chg": 0.092,
+      "5d_chg": 0.01
+    },
+    "VIX (Fear Index)": {
+      "price": 16.73,
+      "day_chg": -0.179,
+      "5d_chg": -9.22
+    },
+    "10Y Treasury Yield": {
+      "price": 4.548,
+      "day_chg": -0.829,
+      "5d_chg": -1.02
+    },
+    "Gold": {
+      "price": 4525.5,
+      "day_chg": -0.315,
+      "5d_chg": -0.67
+    },
+    "Crude Oil": {
+      "price": 96.79,
+      "day_chg": 0.457,
+      "5d_chg": -8.19
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "IBM just scored a $26B quantum windfall \u2014 and the stock's rally isn't overIBM stock surged over 11% on Thursday following a landmark announcement by the US Commerce Department detailing a $2 billion CHIPS and Science Act initiative to fund domestic quantum computing firms.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/ibm-just-scored-a-26-billion-quantum-windfall--and-the-stocks-rally-isnt-over-112221471.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Walmart stock just violated a key technical level",
+        "url": "https://finance.yahoo.com/markets/stocks/article/walmart-stock-just-violated-a-key-technical-level-delivering-a-blow-to-the-bulls-120335770.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "How CEOs are framing AI-driven layoffs",
+        "url": "https://finance.yahoo.com/sectors/technology/article/not-a-cost-cutting-exercise-how-tech-ceos-are-framing-ai-driven-layoffs-100000306.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stocks waver amid US-Iran uncertainty, strong earnings season",
+        "url": "https://finance.yahoo.com/markets/live/stocks-waver-amid-us-iran-uncertainty-as-strong-season-season-wraps-223454955.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Gas prices in all 50 states sit above $4 ahead of Memorial Day",
+        "url": "https://finance.yahoo.com/markets/article/gas-prices-in-all-50-states-are-sitting-above-4-ahead-of-memorial-day-weekend-173213974.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Musk's SpaceX postpones Starship launch as mega share sale looms",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musks-spacex-postpones-starship-023214615.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Space ETFs booming in anticipation of SpaceX IPO",
+        "url": "https://finance.yahoo.com/markets/options/articles/analysis-space-etfs-booming-anticipation-100653990.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Nomura pivots away from Fed rate cuts in 2026 as inflation risks linger",
+        "url": "https://finance.yahoo.com/economy/policy/articles/nomura-pivots-away-fed-rate-063554384.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "JPMorgan sees Turkey central bank lift interest rates to 40% imminently",
+        "url": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-sees-turkey-central-bank-082016449.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Investors look beyond TSMC as AI boom spreads to new winners",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-look-beyond-tsmc-ai-053002545.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Cybersecurity stocks are hitting records again as chips play catch-up: Chart of the Day",
+        "url": "https://finance.yahoo.com/markets/article/cybersecurity-stocks-are-hitting-records-again-as-chips-play-catch-up-chart-of-the-day-130252672.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What to do when your pay raises aren't keeping up with inflation",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/wages-increase-not-keeping-up-with-the-cost-of-living-211948928.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil prices rise as investors doubt breakthrough in US-Iran peace talks",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-rise-investors-doubt-041932428.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil Pares Gain With Market Swinging on US-Iran Peace Prospects",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-rises-three-day-drop-001721001.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Wall St eyes higher open as investors monitor US-Iran peace talks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-markets-092646485.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Gold Edges Down as Traders Weigh Prospects of US-Iran Peace Deal",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-steady-us-iran-signals-235735175.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Dollar nears six-week high; mixed signals on US-Iran deal feed uncertainty",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-perched-near-six-week-011759230.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US-Iran war is 'reigniting' inflation fears while markets hit new highsUS stocks (^DJI, ^IXIC, ^GSPC) rebound to end Thursday trading higher, the Dow Jones Industrial Average closing at a new record high. Apollon Wealth Management CIO Eric Sterner addresses the contrast between consumer sentiment slipping to record lows as markets ascend to new highs, noting how the US-Iran was is \"reigniting\" inflation worries as rising oil (CL=F, BZ=F) and gas prices (RB=F) squeeze already panicked consumers.",
+        "url": "https://finance.yahoo.com/video/us-iran-war-is-reigniting-inflation-fears-while-markets-hit-new-highs-203057603.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil prices are hard-pressing consumers at bottom of K-shaped economy",
+        "url": "https://finance.yahoo.com/video/oil-prices-hard-pressing-consumers-100000764.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Walmart, Home Depot, & the consumer: Retail earnings takeaways",
+        "url": "https://finance.yahoo.com/video/walmart-home-depot-consumer-retail-103000165.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Fed officials weigh holding rates longer, consider hikes",
+        "url": "https://finance.yahoo.com/economy/policy/article/fed-meeting-minutes-officials-look-to-hold-rates-for-longer-consider-hikes-if-inflation-remains-high-190653201.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "'Majority' of Fed officials say rate hikes May be needed",
+        "url": "https://finance.yahoo.com/economy/policy/articles/majority-us-fed-officials-rate-193105931.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed minutes show more policymakers open to a rate hike",
+        "url": "https://finance.yahoo.com/economy/policy/articles/divisions-awaiting-warsh-display-fed-100622274.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Global inflation weighs on G-7 as higher bond yields persist",
+        "url": "https://finance.yahoo.com/economy/policy/articles/global-inflation-weighs-g-7-074855628.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gold inches up as traders weigh Iran deal, inflation",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-extends-slump-hormuz-quagmire-011700626.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed frets about inflation as Kevin Warsh prepares to take over",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-frets-inflation-kevin-warsh-193939317.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Trump tells Fed to consider fintech access to payment accounts",
+        "url": "https://finance.yahoo.com/economy/policy/articles/trump-tells-fed-consider-fintech-231144957.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gold declines as inflation fears fuel rate hike bets",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-extends-gain-hopes-iran-232327367.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "NY Fed's Perli says rate toolkit can navigate lower reserves",
+        "url": "https://finance.yahoo.com/economy/policy/articles/ny-feds-perli-says-rate-152135411.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Major Ikea franchiser slashes hundreds of jobs to save money",
+        "url": "https://finance.yahoo.com/economy/policy/articles/major-ikea-franchiser-slashes-hundreds-160320285.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 46
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "500+ curated RSS news feeds, 65+ external data sources, 50+ map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n500+ curated RSS news feeds, 65+ external data sources, 50+ map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Dow futures climb 124 points: 5 things to know before markets open",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Invezz)",
+        "published": "1779444056"
+      },
+      {
+        "title": "Asian markets rise further on optimism over Iran-US talks",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (CNBC TV18)",
+        "published": "1779413062"
+      },
+      {
+        "title": "Market Crosscurrents: Bulls in Control, Macro Headwinds Loom",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Zacks)",
+        "published": "1779391380"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-21",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779389107"
+      },
+      {
+        "title": "Argentina's road back to MSCI is no straight line",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779375956"
+      },
+      {
+        "title": "Wall St rises on chips' strength ahead of Nvidia results",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779287181"
+      },
+      {
+        "title": "U.S. stock index futures edge higher ahead of Nvidia earnings",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779283753"
+      },
+      {
+        "title": "Wall St set to open higher as chip stocks rally ahead of Nvidia results",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779281571"
+      },
+      {
+        "title": "Wall Street futures climb as chip stocks rebound ahead of Nvidia results",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779278000"
+      },
+      {
+        "title": "Nvidia vigil",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779273329"
+      },
+      {
+        "title": "US stock futures climb as chip stocks rebound ahead of Nvidia results",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779271508"
+      },
+      {
+        "title": "Wall St ends lower as inflation worries push up yields",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779222699"
+      },
+      {
+        "title": "US stocks eye best weekly run of gains since 2023",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Moneycontrol)",
+        "published": "1779454760"
+      },
+      {
+        "title": "Wall St eyes higher open as investors monitor US-Iran peace talks",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1779452679"
+      },
+      {
+        "title": "US Futures Inch Higher",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1779452261"
+      },
+      {
+        "title": "Stocks climb despite Iran uncertainty, dollar near recent highs, oil up",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1779449850"
+      },
+      {
+        "title": "A 'toxic cocktail' threatens stocks. Why the S&P 500 could drop 15%, according to this hedge fund",
+        "summary": "",
+        "source": "TradingView/ES Headlines (MarketWatch)",
+        "published": "1779449340"
+      },
+      {
+        "title": "Wall St futures edge higher as investors monitor US-Iran peace talks",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1779448395"
+      },
+      {
+        "title": "As bullish bets surge here's the option play to protect portfolios from a likely pullback, says Goldman Sachs",
+        "summary": "",
+        "source": "TradingView/ES Headlines (MarketWatch)",
+        "published": "1779447180"
+      },
+      {
+        "title": "US stocks face pressure from rising yields and inflation fears",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Invezz)",
+        "published": "1779446490"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Michigan Current Conditions Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "47.9",
+        "previous": "52.5"
+      },
+      {
+        "title": "Michigan Consumer Sentiment Final",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "48.2",
+        "previous": "49.8"
+      },
+      {
+        "title": "Michigan Consumer Expectations Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "48.4",
+        "previous": "48.1"
+      },
+      {
+        "title": "Michigan Inflation Expectations Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "4.5",
+        "previous": "4.7"
+      },
+      {
+        "title": "Michigan 5 Year Inflation Expectations Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "3.4",
+        "previous": "3.5"
+      },
+      {
+        "title": "CB Leading Index MoM",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "-0.2",
+        "previous": "-0.6"
+      },
+      {
+        "title": "Fed Waller Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Baker Hughes Oil Rig Count",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "416",
+        "previous": "415"
+      },
+      {
+        "title": "Baker Hughes Total Rigs Count",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "551"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is at 99.281, up 0.092% on the day, indicating a slight strengthening of the US dollar, which could be a headwind for tech/growth stocks like those in the NQ.\n* The VIX (Fear Index) is at 16.73, down 0.179% on the day, suggesting a relatively calm market environment, which is bullish for equities.\n* The 10Y Treasury Yield is at 4.548, down 0.829% on the day, indicating a decrease in borrowing costs, which is supportive of growth stocks.\n* Gold and Oil prices are relatively stable, with Gold at 4525.5, down 0.315% on the day, and Oil at 96.79, up 0.457% on the day.\n* Overall, the macro environment is RISK-ON, with a slight bias towards growth stocks due to the decrease in yields and relatively calm market conditions.\n\n## KEY NEWS ANALYSIS\n* The news headlines are mixed, with some positive stories such as IBM's $26B quantum windfall and the strength in chip stocks ahead of Nvidia's earnings, which are bullish for the NQ.\n* However, there are also concerns about US-Iran uncertainty, inflation risks, and the potential for higher interest rates, which could be bearish for the NQ.\n* The overall news sentiment is MIXED, with both bullish and bearish stories, but the positive news in the tech sector is slightly more prominent.\n\n## ECONOMIC EVENTS IMPACT\n* There are several economic calendar events scheduled for the day, including the Michigan Consumer Sentiment Final and the Fed Waller Speech, but no actual data has been released yet.\n* The forecast for the Michigan Consumer Sentiment Final is 48.2, which is slightly lower than the previous reading of 49.8, indicating a potential decrease in consumer sentiment.\n* The impact of these events on the NQ is uncertain, but a decrease in consumer sentiment could be bearish for the market.\n\n## NQ MARKET CONTEXT\n* The NQ is currently in an uptrend, with a price of 29562.25, up 0.39% on the day.\n* The previous day's high and low were 29554.0 and 29113.0, respectively, and the week's high and low were 29734.0 and 28663.0.\n* The recent candle structure is bullish, with several consecutive up days, indicating strong momentum in the market.\n\n## PREDICTION\n**NYSE SESSION SIDE: BUY SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | BULLISH | 60% | MEDIUM |\n\n**NQ Prediction: BULLISH**\n**Confidence: 60% \u2014 MEDIUM**\n\n## TOP REASONS\n1. The strength in the tech sector, particularly in chip stocks, is a positive sign for the NQ.\n2. The decrease in yields is supportive of growth stocks, which is bullish for the NQ.\n3. The relatively calm market conditions, as indicated by the low VIX, are also supportive of a bullish outlook.\n\n## KEY RISKS\n- A decrease in consumer sentiment, as indicated by the Michigan Consumer Sentiment Final, could be bearish for the market.\n- An increase in inflation risks, as indicated by the US-Iran uncertainty, could lead to higher interest rates, which would be bearish for the NQ.\n- A disappointment in Nvidia's earnings could lead to a sell-off in the tech sector, which would be bearish for the NQ.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- The Michigan Consumer Sentiment Final and the Fed Waller Speech will be closely watched for any signs of a decrease in consumer sentiment or an increase in inflation risks.\n- The price action in the NQ will be closely monitored, particularly around the previous day's high and low, and the week's high and low.\n- The performance of chip stocks, particularly Nvidia, will be closely watched for any signs of strength or weakness in the tech sector.\n\n## ONE-LINE SUMMARY\n\"2026-05-22 NYSE SESSION: BUY SIDE \u2014 The strength in the tech sector, particularly in chip stocks, and the decrease in yields are supportive of a bullish outlook for the NQ, despite some mixed news headlines and economic calendar events.\"",
+    "bias_nq": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

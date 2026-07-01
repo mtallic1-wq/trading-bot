@@ -1,0 +1,429 @@
+{
+  "date": "2026-05-02",
+  "created": "2026-05-02T22:36:13.078664",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 27835.75,
+    "prev_day_high": 27622.75,
+    "prev_day_low": 27163.25,
+    "prev_day_close": 27596.0,
+    "week_high": 27622.75,
+    "week_low": 26992.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.87,
+      "5d_pct": 1.46,
+      "10d_pct": 3.77
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-27",
+        "open": 27403.25,
+        "high": 27542.5,
+        "low": 27298.5,
+        "close": 27440.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-28",
+        "open": 27423.0,
+        "high": 27512.0,
+        "low": 27009.5,
+        "close": 27168.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-29",
+        "open": 27197.25,
+        "high": 27414.0,
+        "low": 27094.0,
+        "close": 27325.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-30",
+        "open": 27207.0,
+        "high": 27622.75,
+        "low": 27163.25,
+        "close": 27596.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-01",
+        "open": 27631.75,
+        "high": 27917.0,
+        "low": 27536.25,
+        "close": 27835.75,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.21,
+      "day_chg": 0.133,
+      "5d_chg": -0.3
+    },
+    "VIX (Fear Index)": {
+      "price": 16.99,
+      "day_chg": 0.592,
+      "5d_chg": -9.19
+    },
+    "10Y Treasury Yield": {
+      "price": 4.378,
+      "day_chg": -0.273,
+      "5d_chg": 1.58
+    },
+    "Gold": {
+      "price": 4629.9,
+      "day_chg": 0.329,
+      "5d_chg": -1.96
+    },
+    "Crude Oil": {
+      "price": 101.94,
+      "day_chg": -2.979,
+      "5d_chg": 7.99
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Berkshire Hathaway cash surges in Abel's first quarter as CEOCompany shareholders gathered for the annual meeting Saturday in Omaha.",
+        "url": "https://finance.yahoo.com/news/berkshire-hathaways-cash-surges-in-abels-first-quarter-as-ceo-143038277.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Spirit Airlines shuts down, industry's first Iran war closure",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trump-gives-spirit-final-rescue-170653324.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "So far the spring homebuying market is showing 'surprising resilience'",
+        "url": "https://finance.yahoo.com/sectors/real-estate/article/the-iran-war-almost-upended-spring-homebuying-but-so-far-the-market-is-showing-surprising-resilience-120901387.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Network shakeups hit Medicare Advantage, forcing retirees to pay more or find new care",
+        "url": "https://finance.yahoo.com/news/network-shakeups-hit-medicare-advantage-forcing-retirees-to-pay-up-or-find-new-care-150000755.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Airlines scramble to help stranded Spirit passengers",
+        "url": "https://finance.yahoo.com/news/airlines-scramble-help-stranded-spirit-151233434.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The K-shaped spending trend is real \u2014 but it's been here since 2023",
+        "url": "https://finance.yahoo.com/economy/article/the-k-shaped-spending-trend-is-real--but-its-been-here-since-2023-152256551.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "In a low-hire job market, new grads need more than a high GPA",
+        "url": "https://finance.yahoo.com/economy/article/in-a-low-hire-job-market-new-grads-need-more-than-a-high-gpa-140000672.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Higher gas prices are eating into Americans' tax refunds",
+        "url": "https://finance.yahoo.com/economy/article/higher-gas-prices-are-eating-into-americans-tax-refunds-133026983.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Toto Wolff talks Mercedes F1's dominant start",
+        "url": "https://finance.yahoo.com/sectors/technology/article/toto-wolff-on-mercedes-f1s-dominant-start-the-outstanding-kimi-antonelli-and-why-vulnerability-is-a-leaders-superpower-160000583.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump expands US sanctions on Cuban government and affiliates",
+        "url": "https://finance.yahoo.com/news/trump-expands-u-sanctions-cuban-161512053.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Spirit Airlines canceled all flights and is going out of business",
+        "url": "https://finance.yahoo.com/economy/policy/articles/spirit-halt-flights-early-saturday-051853157.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Jerome Powell's Fed years were an everything rally: Chart of the Day",
+        "url": "https://finance.yahoo.com/markets/article/jerome-powells-fed-years-were-an-everything-rally-chart-of-the-day-130000116.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "After Spirit collapse, Duffy says no need for budget airline bailout",
+        "url": "https://finance.yahoo.com/economy/policy/articles/us-does-not-think-airline-140848492.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Coinbase says deal reached on key provision of crypto bill",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-says-deal-reached-key-005922710.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "GameStop is preparing offer for eBay, WSJ reports",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-is-preparing-offer-for-ebay-wsj-reports-212703319.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Here\u2019s how Berkshire Hathaway did in its first quarter without Warren Buffett as CEO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-reports-record-cash-125825105.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump\u2019s Feud With New York Masks Amtrak\u2019s Spending Spree",
+        "url": "https://finance.yahoo.com/economy/policy/articles/trump-feud-york-masks-amtrak-140018331.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Fed's Powell: Top moments in his final presserIn case you missed it, these are a few of the best moments from Jerome Powell's final Fed presser on April 29.",
+        "url": "https://finance.yahoo.com/video/feds-powell-top-moments-final-110000088.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "U.S.-Iran war may drag on: Former Secretary of Defense warns",
+        "url": "https://finance.yahoo.com/video/u-iran-war-may-drag-123000592.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Earnings: Google is biggest AI winner, OpenAI could be a 'surprise' loser",
+        "url": "https://finance.yahoo.com/video/earnings-google-is-biggest-ai-winner-openai-could-be-a-surprise-loser-195654516.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Fed dissenters: next rate change could be a cut or a hike",
+        "url": "https://finance.yahoo.com/economy/policy/article/fed-dissenters-speak-out-the-next-rate-change-could-be-either-a-cut-or-a-hike-120208774.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's rate-cut signal draws dissent from officials",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-subtly-signaled-only-rate-174248749.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed official warns rate hikes May be needed if inflation surges",
+        "url": "https://finance.yahoo.com/economy/policy/articles/us-fed-official-says-rate-132316105.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "US national debt now larger than the entire economy",
+        "url": "https://finance.yahoo.com/economy/article/americas-national-debt-is-now-larger-than-the-entire-economy-171830542.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Inflation concerns send mortgage rates higher",
+        "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-friday-may-1-2026-100000440.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Logan says next rate move could be cut or hike",
+        "url": "https://finance.yahoo.com/economy/policy/articles/feds-logan-says-central-banks-140326919.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Hammack: no longer appropriate to signal rate-cut bias",
+        "url": "https://finance.yahoo.com/economy/policy/articles/feds-hammack-says-no-longer-120817318.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed unlikely to cut rates soon even with new leader",
+        "url": "https://finance.yahoo.com/economy/policy/articles/even-leader-fed-wont-likely-160318825.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Mexico economy dips in Q1, stoking recession fear",
+        "url": "https://finance.yahoo.com/economy/articles/mexico-economy-posts-largest-quarterly-140332308.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "How Powell staying on the Fed helps Kevin Warsh",
+        "url": "https://finance.yahoo.com/economy/policy/articles/staying-fed-board-jerome-powell-145155996.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 46
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "S&P 500, Nasdaq end higher, notch weekly gains after earnings-heavy week",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777667604"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-01",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777661106"
+      },
+      {
+        "title": "S&P 500, Nasdaq advance, set for weekly gains after earnings-heavy week",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777660309"
+      },
+      {
+        "title": "S&P 500, Nasdaq rally to fresh highs as earnings-heavy week draws to a close",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777653692"
+      },
+      {
+        "title": "Nasdaq, S&P 500 hit fresh highs as Wall St extends gains after best month in years",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777645727"
+      },
+      {
+        "title": "Risk is back\u2014and momentum is running the show\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777640636"
+      },
+      {
+        "title": "Wall St set to extend rally after best month in years",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777639658"
+      },
+      {
+        "title": "S&P 500, Dow futures rise after Wall Street's best month in years; Apple soars",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777633392"
+      },
+      {
+        "title": "So much news, so little time",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777632627"
+      },
+      {
+        "title": "S&P 500, Dow futures inch up after Wall Street's best month in years",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777628805"
+      },
+      {
+        "title": "Wall Street ends higher, S&P 500, Nasdaq notch biggest monthly gains in years",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777580880"
+      },
+      {
+        "title": "S&P 500, Nasdaq set for biggest monthly gains since 2020",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777573793"
+      },
+      {
+        "title": "S&P 500, Nasdaq on course for best month since 2020 despite Middle East risks",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777566335"
+      },
+      {
+        "title": "Bitcoin rally extends, yet BTC options price only 25% chance of $84K in May",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Cointelegraph)",
+        "published": "1777696927"
+      },
+      {
+        "title": "S&P 500 Extends Longest Weekly Winning Streak Since Late 2024 \u2014 WSJ",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1777667820"
+      },
+      {
+        "title": "The Dow Jones Index Closes 0.31% Lower",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1777667701"
+      },
+      {
+        "title": "S&P 500, Nasdaq Composite Close at Record Highs; Brent Crude Falls \u2014 WSJ",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1777667400"
+      },
+      {
+        "title": "S&P, Nasdaq close at records as Amgen weighs on Dow",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1777667048"
+      },
+      {
+        "title": "Nasdaq 100 and S&P 500 Notch Records",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1777666200"
+      },
+      {
+        "title": "S&P 500 Rises 21.11 Points (0.29%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1777666200"
+      }
+    ],
+    "economic_calendar": []
+  },
+  "analysis": {
+    "analysis": "Groq API error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqjcyv94fbqbj0e2r3ssge4r` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99686, Requested 2431. Please try again in 30m29.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}\n\n## Macro Environment\n- DXY: 98.21 (day +0.13%) \n- VIX: 16.99 (day +0.59%) (Fear low \u2014 risk-on)\n- 10Y Yield: 4.378 (day -0.27%) \n- Gold: 4629.9 (day +0.33%)\n- Oil: 101.94 (day -2.98%)\n- Environment: **MIXED**\n\n## Recent Headlines (Yahoo Finance)\n  - Berkshire Hathaway cash surges in Abel's first quarter as CEOCompany shareholders gathered for the annual meeting Saturday in Omaha.\n  - Spirit Airlines shuts down, industry's first Iran war closure\n  - So far the spring homebuying market is showing 'surprising resilience'\n  - Network shakeups hit Medicare Advantage, forcing retirees to pay more or find new care\n  - Airlines scramble to help stranded Spirit passengers\n  - The K-shaped spending trend is real \u2014 but it's been here since 2023\n  - In a low-hire job market, new grads need more than a high GPA\n  - Higher gas prices are eating into Americans' tax refunds\n\n## NQ Market Context\n- NQ: UP | Price: 27835.75 | 1D: 0.87% | 5D: 1.46%\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: BUY SIDE**\n**NQ: BULLISH**",
+    "bias_nq": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Fallback (API error)"
+  },
+  "errors": []
+}

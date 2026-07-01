@@ -1,0 +1,109 @@
+ANALYSIS DATE: 2026-06-08
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.966 | Day: -0.104% | 5-Day: +0.77%
+  VIX (Fear Index): 18.74 | Day: -12.878% | 5-Day: +16.76%
+  10Y Treasury Yield: 4.544 | Day: +0.176% | 5-Day: +1.54%
+  Gold: 4346.0 | Day: +0.205% | 5-Day: -2.89%
+  Crude Oil: 91.35 | Day: +0.895% | 5-Day: -0.88%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29409.75 | Trend: DOWN
+  1D: 1.32% | 5D: -3.78% | 10D: -0.5%
+  Prev High: 30422.0 | Prev Low: 28781.25 | Prev Close: 29026.5
+  Week High: 30807.75 | Week Low: 28781.25
+  Last 5 Candles: 2026-06-02 UP (O:30544.75 H:30763.25 L:30317.75 C:30712.75) | 2026-06-03 DOWN (O:30741.75 H:30807.75 L:30478.25 C:30633.25) | 2026-06-04 UP (O:30453.0 H:30603.25 L:30151.0 C:30488.25) | 2026-06-05 DOWN (O:30414.0 H:30422.0 L:28781.25 C:29026.5) | 2026-06-08 UP (O:28844.5 H:29604.25 L:28822.25 C:29409.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Nasdaq surges as chip stocks rebound from $1T wipeoutIran also said it was halting its military strikes against Israel, paring gains in oil prices.
+  2. Trump: Israel, Iran are looking to agree an immediate truce
+  3. Apple gets a second shot at its AI rollout at WWDC today
+  4. Nvidia's Huang: Tech sell-off is chance to 'buy at a discount'
+  5. Oil prices rise as military action flares in Middle East over weekend
+  6. Amazon, Corning sign deal to boost fiber optics manufacturing in US
+  7. The 'slop bowl' term is offensive: Cava CEO
+  8. Scared of a stock market bubble? These 3 charts will ease your fears.
+  9. Micron rebounds along with chip sector following broader market rout
+  10. Oil pares gains after Iran says it's ended attacks on Israel
+  11. Wall St gains as chips rebound, Middle East tensions ease
+  12. Factbox-Airlines resume some Middle East flights but disruption continues
+  13. Wall St opens higher as chip stocks rebound, Middle East tensions ease
+  14. How can retail investors buy shares in SpaceX's IPO?
+  15. You are right to be worried about a summer stock market swoon, but don't lose perspective on the big picture
+  16. Alphabet taps Intel to make three million in-house chips, The Information reports
+  17. Apple knows it has a Siri problem. It’s about to fix it
+  18. Are AI fears still justified after 3 months of solid job gains?After consecutive months of considerable job gains for the US labor market, should workers still be afraid of AI taking their jobs? Morning Brief Host Julie Hyman and Barron's Investor Circle Newsletter editor Josh Schafer look back on May's jobs report and the types of jobs added to the US economy.
+  19. Are semiconductor stocks, AI trade in recovery mode after selloff?
+  20. How this brand is rethinking board games in the age of AI & tech
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor | — geopolitics, conflicts, military, infrastructure 
+  Tech Monitor | — AI labs, startups, cloud, cybersecurity 
+  Finance Monitor | — global markets, central banks, forex, crypto 
+  Commodity Monitor | — mining, energy, supply chains, freight 
+  Happy Monitor | — positive news, breakthroughs, conservation 
+  World Monitor Pro | — AI analyst, personalized digests, MCP for Claude & GPT 
+  Blog | — OSINT guides, geopolitics, market intelligence 
+  What is World Monitor? 
+  OSINT for everyone — open-source intelligence democratized 
+  Five dashboards, one platform — the variants explained 
+  Open source on GitHub (AGPL-3.0) 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Oil Rallies After Mideast Strikes — WSJ
+  2. Asian markets sink after wall street rout as tech selloff deepens
+  3. Asian stocks drop as tech selloff extends, oil up
+  4. STOCKS | Huatai Securities Advises Taking Profits on AI-Linked A Shares Amid Macro Repricing Risks
+  5. QQQ, VOO, SPY ETFs are falling: Here’s why the stock market is crashing
+  6. SpaceX shut out of S&P 500, but Nasdaq 100 funds will drive big demand
+  7. Stock Indexes Are Divided on Rules for Megacap IPOs. How Exposed Will You Be? — WSJ
+  8. "Sell in May" Flops in 2026: 4 Winning ETF Areas
+  9. S&P 500 And Nasdaq 100 Futures Extend Losses After Nonfarm Payrolls Data
+  10. US stock futures extend declines after May non-farm payrolls data
+  11. Nasdaq futures plunge 300 points: 5 things to know before Wall Street opens
+  12.  Asia report: Markets fall as tech stocks join global sell-off 
+  13. Asian shares decline with US futures after AI-led rally cools
+  14. S&P 500, Nasdaq to open lower as Broadcom revenue miss dents chip stocks
+  15. Nasdaq futures lead declines after Broadcom results disappoint
+
+=== ECONOMIC CALENDAR — 2026-06-08 ===
+  [-1] Consumer Inflation Expectations — Actual: None | Forecast: None | Prev: 3.6
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.665
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.63
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BULLISH (score: 30.0%)
+  Alignment: PARTIAL ALIGNMENT — 1/4 TFs bullish
+  TF Summary: Daily: RANGING | 4H: BULLISH | 1H: RANGING | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 29417.75 | PrevH: 30422.0 | PrevL: 28781.25
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-04 UP(30453.0->30488.25) > 2026-06-05 DOWN(30414.0->29026.5) > 2026-06-08 UP(28844.5->29417.75)
+
+  [4H] Structure: BULLISH
+    Price: 29416.25 | PrevH: 29437.75 | PrevL: 29145.0
+    Nearest Resistance (swing high above): 29419.75
+    Nearest Support (swing low below): 29127.0
+    Recent: 2026-06-08 UP(29212.5->29257.0) > 2026-06-08 UP(29255.25->29375.0) > 2026-06-08 UP(29374.75->29416.25)
+
+  [1H] Structure: RANGING
+    Price: 29416.25 | PrevH: 29604.25 | PrevL: 29341.0
+    Nearest Resistance (swing high above): 29419.75
+    Nearest Support (swing low below): 29314.75
+    Recent: 2026-06-08 UP(29374.75->29486.0) > 2026-06-08 DOWN(29484.5->29349.75) > 2026-06-08 UP(29350.25->29416.25)
+
+  [15m] Structure: RANGING
+    Price: 29416.25 | PrevH: 29471.75 | PrevL: 29331.5
+    Nearest Resistance (swing high above): 29604.25
+    Nearest Support (swing low below): 29145.0
+    Recent: 2026-06-08 DOWN(29516.0->29349.75) > 2026-06-08 UP(29350.25->29441.5) > 2026-06-08 DOWN(29441.0->29416.25)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-08.

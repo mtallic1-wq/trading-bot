@@ -1,0 +1,132 @@
+ANALYSIS DATE: 2026-06-30
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 101.335 | Day: +0.223% | 5-Day: -0.07%
+  VIX (Fear Index): 17.3 | Day: -1.983% | 5-Day: -11.24%
+  10Y Treasury Yield: 4.398 | Day: +0.595% | 5-Day: -2.46%
+  Gold: 4044.0 | Day: +0.539% | 5-Day: -2.08%
+  Crude Oil: 70.88 | Day: +0.184% | 5-Day: -3.18%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30351.5 | Trend: DOWN
+  1D: 0.99% | 5D: 2.31% | 10D: -0.68%
+  Prev High: 30069.5 | Prev Low: 29273.75 | Prev Close: 30052.75
+  Week High: 30701.25 | Week Low: 29160.5
+  Last 5 Candles: 2026-06-24 DOWN (O:29770.0 H:30157.75 L:29264.75 C:29514.25) | 2026-06-25 DOWN (O:30089.75 H:30263.75 L:29295.75 C:29724.75) | 2026-06-26 DOWN (O:29742.0 H:29892.75 L:29160.5 C:29368.25) | 2026-06-29 UP (O:29282.5 H:30069.5 L:29273.75 C:30052.75) | 2026-06-30 UP (O:30007.25 H:30355.5 L:29934.75 C:30351.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Techs go on a tear in the first half — no thanks to the 'Mag 7'
+  2. Stocks waver as Wall Street eyes a standout quarter
+  3. Home price growth slows as 'affordability pinch' hits
+  4. Chip stocks' best quarter ever is ending with some wild swings
+  5. Central banks plan to shrink dollar holdings amid US-linked risks
+  6. The Rocket Lab CEO's bold bet to challenge SpaceX's dominance
+  7. Merck, AbbVie face House committee probe over China drug trials
+  8. Saving for a down payment in NYC can take 65 years. In the Midwest? 4.
+  9. Biscoff maker Lotus gains 590% in tough decade for snack makers
+  10. Why Nvidia stock is enduring a summer swoon
+  11. The AI jobs debate just got messier
+  12. Why there may be upside ahead for beaten-down Palantir
+  13. China misses out on AI boom as stocks trail by most since 2001
+  14. How Microsoft became the black sheep of the AI trade
+  15. Suze Orman: Women can earn thousands more a year by 'doing essentially nothing'
+  16. When do you get your SSI check for July 2026? See payment schedule
+  17. Target tracks lateness and absence using points — if workers rack up 12, they're fired
+  18. Nicolas Cage once blew through $150M — here's what did it
+  19. The first half of 2026 was a roller coaster. It's time to check on how your finances withstood the ride.
+  20. Inflation in Eurozone’s Biggest Economies Cools More Than Expected
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  WORLD MONITOR | by Someone.ceo | Correlations | First 5 min | Depth | Pricing | FAQ | Docs | Launch Dashboard 
+  Correlations | First 5 min | Depth | Pricing | FAQ | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | This page is plugged into the same APIs as the dashboard. | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Sample 
+  Top signals 
+  Security council convenes emergency session on Red Sea shipping attacks | Reuters 
+  Major central banks signal divergence ahead of rate decisions | Financial Times 
+  Undersea cable disruption slows traffic across two regions | AP 
+  Satellite imagery shows expanded activity at contested border | BBC 
+  Instability index | Sample 
+  Instability index 
+  🇺🇦 | UA | 78 | ─ 
+  🇮🇱 | IL | 71 | ▲ 
+  🇮🇷 | IR | 66 | ▲ 
+  🇷🇺 | RU | 62 | ─ 
+  🇵🇰 | PK | 54 | ▼ 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Asian stocks slide from opening highs, investors focus on US-Iran talks
+  2. SpaceX Joins Nasdaq-100 Less Than A Month After Going Public
+  3. 3 Reasons Investors Should Buy in July
+  4. SpaceX Set for Rapid Entry into Nasdaq-100: ETFs in Focus 
+  5. Nasdaq-100 ETFs Keep Sizzling: Can the Rally Last?
+  6. US futures climb, led by tech, as markets eye Iran developments
+  7. Big tech’s rough June puts Magnificent Seven under pressure
+  8. SpaceX to Join Nasdaq 100 Next Week — WSJ
+  9. Why Investors Might Ignore the SpaceX Selloff: ETFs in Focus
+  10. Wall St climbs as Mideast tensions ease, Comcast surges on spin-off plan
+  11. Nasdaq futures surge 320 points: 5 things to know before Wall Street opens
+  12. Weekend wars
+  13. Nasdaq futures lead Wall St higher as Middle East tensions ease
+  14. The central bank of central banks warns AI frenzy could trigger stock-market slump and jeopardize economy
+  15. TSLA Stock Under Pressure: Analyst Says $600 Bull Case Hinges On 40-Car Robotaxi Fleet Scaling Past Nasdaq Lag
+
+=== ECONOMIC CALENDAR — 2026-06-30 ===
+  [-1] Redbook YoY — Actual: 10.5 | Forecast: None | Prev: 10
+  [-1] House Price Index YoY — Actual: 2 | Forecast: None | Prev: 1.8
+  [-1] House Price Index — Actual: 441.4 | Forecast: None | Prev: 441.8
+  [0] S&P/Case-Shiller Home Price YoY — Actual: 1.1 | Forecast: 0.9 | Prev: 0.9
+  [-1] S&P/Case-Shiller Home Price MoM — Actual: 1 | Forecast: None | Prev: 1.1
+  [-1] House Price Index MoM — Actual: -0.1 | Forecast: 0.2 | Prev: 0.2
+  [0] Chicago PMI — Actual: 56.7 | Forecast: 58.1 | Prev: 62.7
+  [-1] JOLTs Job Quits — Actual: 3.065 | Forecast: None | Prev: 2.977
+  [1] JOLTs Job Openings — Actual: 7.594 | Forecast: 7.3 | Prev: 7.585
+  [0] CB Consumer Confidence — Actual: 91.2 | Forecast: 94.7 | Prev: 93.1
+  [-1] Dallas Fed Services Index — Actual: None | Forecast: None | Prev: -7.7
+  [-1] Dallas Fed Services Revenues Index — Actual: None | Forecast: None | Prev: 5
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.62
+  [-1] Quarterly Grain Stocks - Soy — Actual: None | Forecast: None | Prev: 2.1
+  [-1] Quarterly Grain Stocks - Corn — Actual: None | Forecast: None | Prev: 9.02
+  [-1] Quarterly Grain Stocks - Wheat — Actual: None | Forecast: None | Prev: 1.3
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: None | Prev: -0.765
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BULLISH (score: 20.0%)
+  Alignment: PARTIAL ALIGNMENT — 1/4 TFs bullish
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: BULLISH | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 30361.75 | PrevH: 30069.5 | PrevL: 29273.75
+    Nearest Resistance (swing high above): 30807.75
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-26 DOWN(29742.0->29368.25) > 2026-06-29 UP(29282.5->30052.75) > 2026-06-30 UP(30007.25->30361.75)
+
+  [4H] Structure: RANGING
+    Price: 30356.5 | PrevH: 30175.5 | PrevL: 30018.75
+    Nearest Resistance (swing high above): 30379.0
+    Nearest Support (swing low below): 30337.5
+    Recent: 2026-06-30 DOWN(30134.0->30081.25) > 2026-06-30 UP(30081.0->30137.0) > 2026-06-30 UP(30139.0->30356.5)
+
+  [1H] Structure: BULLISH
+    Price: 30356.5 | PrevH: 30366.75 | PrevL: 29997.0
+    Nearest Resistance (swing high above): 30362.0
+    Nearest Support (swing low below): 30355.0
+    BOS: BOS — broke above swing high @ 30217.0 (2026-06-30)
+    Recent: 2026-06-30 DOWN(30139.0->30013.5) > 2026-06-30 UP(30014.25->30366.75) > 2026-06-30 DOWN(30366.75->30356.5)
+
+  [15m] Structure: RANGING
+    Price: 30356.5 | PrevH: 30366.75 | PrevL: 30190.75
+    Nearest Support (swing low below): 30117.0
+    Recent: 2026-06-30 UP(30047.0->30215.75) > 2026-06-30 UP(30212.75->30366.75) > 2026-06-30 DOWN(30366.75->30356.5)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-30.

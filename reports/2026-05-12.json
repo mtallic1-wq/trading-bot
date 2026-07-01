@@ -1,0 +1,574 @@
+{
+  "date": "2026-05-12",
+  "created": "2026-05-12T18:31:24.297119",
+  "is_historical": false,
+  "bias_nq": "BEARISH",
+  "side": "SELL SIDE",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 29197.75,
+    "prev_day_high": 29480.0,
+    "prev_day_low": 29225.75,
+    "prev_day_close": 29424.0,
+    "week_high": 29480.0,
+    "week_low": 27731.75,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": -0.77,
+      "5d_pct": 3.77,
+      "10d_pct": 7.47
+    },
+    "recent_candles": [
+      {
+        "date": "2026-05-06",
+        "open": 28250.0,
+        "high": 28800.0,
+        "low": 28243.0,
+        "close": 28716.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-07",
+        "open": 28662.75,
+        "high": 28944.75,
+        "low": 28552.0,
+        "close": 28682.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-08",
+        "open": 28582.0,
+        "high": 29386.75,
+        "low": 28541.0,
+        "close": 29332.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-11",
+        "open": 29294.0,
+        "high": 29480.0,
+        "low": 29225.75,
+        "close": 29424.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-12",
+        "open": 29399.0,
+        "high": 29455.75,
+        "low": 29113.0,
+        "close": 29197.75,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.347,
+      "day_chg": 0.416,
+      "5d_chg": -0.14
+    },
+    "VIX (Fear Index)": {
+      "price": 18.68,
+      "day_chg": 1.632,
+      "5d_chg": 7.48
+    },
+    "10Y Treasury Yield": {
+      "price": 4.443,
+      "day_chg": 0.748,
+      "5d_chg": 0.61
+    },
+    "Gold": {
+      "price": 4695.0,
+      "day_chg": -0.502,
+      "5d_chg": 3.06
+    },
+    "Crude Oil": {
+      "price": 101.36,
+      "day_chg": 3.355,
+      "5d_chg": -0.89
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Inflation data mostly in line with estimates, core hotterRises in consumer prices are driven by soaring energy costs, with food prices also in focus.",
+        "url": "https://finance.yahoo.com/economy/article/consumer-prices-surged-38-in-april-from-a-year-ago-driven-by-energy-costs-175749720.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tech stock slide deepens as Wall Street weighs inflation data",
+        "url": "https://finance.yahoo.com/economy/live/stock-market-today-nasdaq-sp-500-dow-futures-fall-as-wall-street-weighs-cpi-inflation-print-224350036.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "eBay rejects GameStop's bold $56 billion takeover bid",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ebay-rejects-gamestop39s-56-billion-bid-as-39neither-credible-nor-attractive39-100427961.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Market euphoria feels like 1999, but there's one crucial difference",
+        "url": "https://finance.yahoo.com/markets/article/wall-street-says-stock-market-euphoria-has-echoes-of-1999-but-a-firmer-foundation-180757836.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Hims & Hers stock sinks after quarterly loss, sales miss",
+        "url": "https://finance.yahoo.com/markets/article/hims--hers-stock-sinks-after-quarterly-loss-sales-miss-114638869.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Wendy's has a billionaire circling its ailing business",
+        "url": "https://finance.yahoo.com/markets/stocks/article/wendys-has-a-billionaire-circling-its-ailing-business-122815256.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Amazon launches 30-minute delivery in cities across the US",
+        "url": "https://finance.yahoo.com/news/amazon-launches-30-minute-amazon-now-delivery-service-in-multiple-cities-across-us-100000772.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Million-dollar home listings surge across South, Mountain West",
+        "url": "https://finance.yahoo.com/sectors/real-estate/article/million-dollar-listings-are-surging-across-the-south-and-mountain-west-100000614.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Microsoft CEO says he never got 'clarity' on Altman's OpenAI firing",
+        "url": "https://finance.yahoo.com/news/microsoft-ceo-says-he-was-never-given-clarity-on-why-altman-was-fired-from-openai-during-musk-trial-195321721.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tech rally fades, Altman to take stand in Musk v. OpenAI",
+        "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-tech-rally-loses-steam-sam-altman-to-take-stand-in-openai-v-musk-trial-100000464.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Inflation\u2019s old ceiling is starting to look like a floor \u2014 why that's a problem for paychecks",
+        "url": "https://finance.yahoo.com/markets/article/inflations-old-ceiling-is-starting-to-look-like-a-floor--why-thats-a-problem-for-paychecks-132703611.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why Circle stock has gone parabolic in May",
+        "url": "https://finance.yahoo.com/markets/article/why-circle-stock-has-gone-parabolic-in-may-131438484.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Factbox-Airlines cancel flights in response to Middle East conflict",
+        "url": "https://finance.yahoo.com/news/factbox-airlines-cancel-flights-us-123532820.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil Extends Gain as Trump Casts Doubt Over Ceasefire With Iran",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-holds-gain-trump-casts-224300121.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US stock futures hold losses after April inflation data",
+        "url": "https://finance.yahoo.com/economy/policy/articles/us-stock-futures-hold-losses-124356541.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Russia\u2019s Oil Flows Slide as Drone, Storm Alerts Disrupt\u00a0Key\u00a0Port",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/russia-oil-flows-slide-drone-123451998.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Nokia wins UK appeal to block Acer, Asus video streaming patent lawsuits",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nokia-wins-uk-appeal-block-121235310.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "April inflation comes in hotter than expected: CPI data breakdownPrices rose 0.6% month over month and 3.8% year over year in April, according to the latest Consumer Price Index (CPI) survey. Core CPI \u2014 which excludes food and energy costs \u2014 rose 0.4% monthly and 2.8% yearly. Yahoo Finance's Julie Hyman and Myles Udland take a closer look at the breaking numbers.",
+        "url": "https://finance.yahoo.com/video/april-inflation-comes-in-hotter-than-expected-cpi-data-breakdown-124005012.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why AMD's AI roadmap is 'very competitive' with Nvidia's",
+        "url": "https://finance.yahoo.com/video/why-amds-ai-roadmap-very-103000112.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "CPI data on deck, Under Armour and On Holdings report earnings",
+        "url": "https://finance.yahoo.com/video/cpi-data-deck-under-armour-230000316.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump goes to China, inflation comes to America: What to watch",
+        "url": "https://finance.yahoo.com/economy/article/trump-goes-to-china-inflation-comes-to-america-what-to-watch-this-week-104329157.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "The Fed could spook your stock portfolio soon",
+        "url": "https://finance.yahoo.com/news/remember-the-federal-reserve-could-spook-your-stock-portfolio-soon-104307204.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kevin Warsh's friends see threats all around him",
+        "url": "https://finance.yahoo.com/economy/policy/articles/affection-sympathy-kevin-warsh-friends-110000894.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Will Kevin Warsh kill the Trump bull market?",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-chair-pick-kevin-warsh-134539957.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Trump vs. Powell: Keynesian vs. Keynesian",
+        "url": "https://finance.yahoo.com/economy/policy/articles/donald-trump-vs-jerome-powell-140000730.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Mortgage and refinance rates today, May 10, 2026",
+        "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-sunday-may-10-2026-100000526.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Morgan Stanley exec says rate cuts hinge on Iran war end",
+        "url": "https://finance.yahoo.com/economy/policy/articles/heres-markets-expect-rate-cuts-094001442.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Goldman Sachs pencils in December rate cut",
+        "url": "https://finance.yahoo.com/economy/policy/articles/goldman-sachs-sees-fed-hold-112602629.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed inflation tracker flashes warning on rising prices",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-inflation-tracker-just-flashed-092000504.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "US Jobs top forecasts despite Iran war",
+        "url": "https://finance.yahoo.com/economy/articles/america-focus-jobs-solid-showing-145315553.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 45
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "500+ curated RSS news feeds, 65+ external data sources, 50+ map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n500+ curated RSS news feeds, 65+ external data sources, 50+ map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Wall St set for lower open after April inflation data, Mideast in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778591814"
+      },
+      {
+        "title": "S&P 500 futures pare losses slightly after CPI\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778591124"
+      },
+      {
+        "title": "US stock futures hold losses after April inflation data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778589682"
+      },
+      {
+        "title": "Wall St futures fall as AI rally cools; inflation data in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778584980"
+      },
+      {
+        "title": "Ceasefire on life support",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778582185"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-11",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778525119"
+      },
+      {
+        "title": "Nasdaq 100's AI glow masks a higher bar",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778508058"
+      },
+      {
+        "title": "Energy\u2019s big lead comes with a big warning",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778504723"
+      },
+      {
+        "title": "Wall St set for subdued open as US-Iran impasse lifts oil",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778503948"
+      },
+      {
+        "title": "Wall St futures subdued as U.S.-Iran talks stall",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778499203"
+      },
+      {
+        "title": "11 weeks and counting",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778496275"
+      },
+      {
+        "title": "U.S. stock futures subdued as talks with Iran stall",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778494700"
+      },
+      {
+        "title": "S&P 500 and Nasdaq notch records, boosted by AI and earnings optimism",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778271672"
+      },
+      {
+        "title": "April CPI rises more than expected; bond yields climb",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1778591989"
+      },
+      {
+        "title": "CHI FED'S GOOLSBEE Q&A/NPR: WORST THING ABOUT CPI REPORT NOT THE HEADLINE BUT THE NON-ENERGY PRICE INCREASES; ENDS Q&A",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778591940"
+      },
+      {
+        "title": "CHI FED'S GOOLSBEE Q&A/NPR: RE CPI, 'A MOMENT OF SERIOUSNESS;' 'CORE INFLATION IS NOT LOOKING GREAT ... THIS TIME IT'S NOT SUBTLE'",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778591760"
+      },
+      {
+        "title": "CHI FED'S GOOLSBEE Q&A/NPR: CPI 'WORSE THAN WHAT WE WERE EXPECTING TODAY AND DEFINITELY WORSE THAN WHAT IT SHOULD BE'",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778591640"
+      },
+      {
+        "title": "US Futures Hold Pullback",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1778589903"
+      },
+      {
+        "title": "MORE U.S. APRIL CPI: BEEF & VEAL +2.7% M/M, +14.8% Y/Y",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778589480"
+      },
+      {
+        "title": "MORE U.S. APRIL CPI: AIRFARES +2.8% M/M, +20.7% Y/Y",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778589420"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Fed Williams Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "NFIB Business Optimism Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "95.9",
+        "forecast": "96.1",
+        "previous": "95.8"
+      },
+      {
+        "title": "ADP Employment Change Weekly",
+        "country": "US",
+        "impact": "0",
+        "actual": "33",
+        "forecast": "None",
+        "previous": "30.25"
+      },
+      {
+        "title": "Core Inflation Rate MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "0.4",
+        "forecast": "0.3",
+        "previous": "0.2"
+      },
+      {
+        "title": "Inflation Rate MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "0.6",
+        "forecast": "0.6",
+        "previous": "0.9"
+      },
+      {
+        "title": "Core Inflation Rate YoY",
+        "country": "US",
+        "impact": "1",
+        "actual": "2.8",
+        "forecast": "2.7",
+        "previous": "2.6"
+      },
+      {
+        "title": "Inflation Rate YoY",
+        "country": "US",
+        "impact": "1",
+        "actual": "3.8",
+        "forecast": "3.7",
+        "previous": "3.3"
+      },
+      {
+        "title": "CPI",
+        "country": "US",
+        "impact": "0",
+        "actual": "333.02",
+        "forecast": "None",
+        "previous": "330.21"
+      },
+      {
+        "title": "CPI s.a",
+        "country": "US",
+        "impact": "0",
+        "actual": "332.407",
+        "forecast": "None",
+        "previous": "330.293"
+      },
+      {
+        "title": "Redbook YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "9.6",
+        "forecast": "None",
+        "previous": "7.8"
+      },
+      {
+        "title": "Total Household Debt",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "18.8"
+      },
+      {
+        "title": "52-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.56"
+      },
+      {
+        "title": "6-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.63"
+      },
+      {
+        "title": "WASDE Report",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "10-Year Note Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "4.282"
+      },
+      {
+        "title": "Fed Goolsbee Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Monthly Budget Statement",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "157.2",
+        "previous": "-164.1"
+      },
+      {
+        "title": "API Crude Oil Stock Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-8.1"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is up 0.416% on the day, indicating a slight strengthening of the US dollar, which could be a headwind for tech/growth stocks like those in the NQ.\n* The VIX (Fear Index) is up 1.632% on the day, suggesting increased market volatility and risk aversion, which is bearish for NQ.\n* The 10Y Treasury Yield is up 0.748% on the day, indicating rising interest rates, which can pressure tech/growth stocks and is bearish for NQ.\n* Gold is down 0.502% on the day, while Crude Oil is up 3.355%, suggesting a risk-off environment with investors seeking safe-haven assets and being concerned about inflation and geopolitical risks.\nState: RISK-OFF environment\n\n## KEY NEWS ANALYSIS\nThe major headlines from Yahoo Finance, World Monitor, and TradingView suggest a mixed but leaning bearish sentiment for NQ. The inflation data coming in hotter than expected, with core CPI rising 0.4% monthly and 2.8% yearly, is bearish for tech/growth stocks as it may lead to higher interest rates. The tech stock slide deepening as Wall Street weighs inflation data also points to a bearish sentiment. However, some headlines like Amazon launching 30-minute delivery and Nokia winning a UK appeal suggest positive developments for certain tech companies. Overall news sentiment: BEARISH for Nasdaq\n\n## ECONOMIC EVENTS IMPACT\nThe economic calendar events show that the Core Inflation Rate MoM and Inflation Rate MoM came in as expected or slightly higher, which is bearish for NQ. The NFIB Business Optimism Index was slightly lower than forecast, which could also be seen as bearish. The ADP Employment Change Weekly was not significantly impactful.\n\n## NQ MARKET CONTEXT\nThe NQ is currently trending up but had a down day, with a price of 29197.75. The previous day's high was 29480.0, and the previous day's low was 29225.75. The recent candle structure shows a mix of up and down days, but the overall trend remains up.\n\n## PREDICTION\n**NYSE SESSION SIDE: SELL SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | BEARISH | 60% | MEDIUM |\n\n**NQ Prediction: BEARISH**\n**Confidence: 60% \u2014 MEDIUM**\n\n## TOP REASONS\n1. The hotter-than-expected inflation data, particularly the core CPI increase, suggests that interest rates may rise, which is bearish for tech/growth stocks.\n2. The risk-off environment indicated by the VIX and Gold price movements, along with the strengthening DXY, suggests investors are becoming more cautious, which is bearish for NQ.\n3. The tech stock slide deepening as Wall Street weighs inflation data directly points to a bearish sentiment for the tech-heavy NQ.\n\n## KEY RISKS\n- A significant geopolitical event could alter market sentiment rapidly.\n- Unexpectedly strong earnings reports from major tech companies could counter the bearish sentiment.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- Any further inflation data or comments from Fed officials.\n- Earnings reports from key tech companies.\n- Movements in the DXY, VIX, and 10Y Treasury Yield.\n\n## ONE-LINE SUMMARY\n\"2026-05-12 NYSE SESSION: SELL SIDE \u2014 Hotter-than-expected inflation data and a risk-off environment suggest a bearish day for NQ.\"",
+    "bias_nq": "BEARISH",
+    "side": "SELL SIDE",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

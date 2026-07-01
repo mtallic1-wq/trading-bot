@@ -1,0 +1,96 @@
+ANALYSIS DATE: 2026-04-16
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.171 | Day: +0.113% | 5-Day: -0.66%
+  VIX (Fear Index): 18.24 | Day: +0.385% | 5-Day: -6.41%
+  10Y Treasury Yield: 4.272 | Day: -0.234% | 5-Day: -0.49%
+  Gold: 4839.0 | Day: +0.812% | 5-Day: +0.98%
+  Crude Oil: 89.07 | Day: -2.432% | 5-Day: -8.99%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 26418.5 | Trend: UP
+  1D: 0.2% | 5D: 4.62% | 10D: 9.19%
+  Prev High: 26377.5 | Prev Low: 25933.75 | Prev Close: 26365.5
+  Week High: 26377.5 | Week Low: 24904.5
+  Last 5 Candles: 2026-04-10 UP (O:25237.0 H:25393.0 L:25193.0 C:25281.25) | 2026-04-13 UP (O:24980.0 H:25599.25 L:24904.5 C:25543.5) | 2026-04-14 UP (O:25575.25 H:26003.25 L:25560.0 C:25996.75) | 2026-04-15 UP (O:25985.75 H:26377.5 L:25933.75 C:26365.5) | 2026-04-16 UP (O:26350.0 H:26488.0 L:26345.0 C:26418.5)
+
+=== ES — S&P 500 Futures ===
+  Price: 7069.75 | Trend: UP
+  1D: 0.13% | 5D: 3.01% | 10D: 6.83%
+  Prev High: 7064.5 | Prev Low: 6991.75 | Prev Close: 7060.5
+  Week High: 7064.5 | Week Low: 6767.0
+  Last 5 Candles: 2026-04-10 DOWN (O:6858.0 H:6888.0 L:6846.25 C:6855.25) | 2026-04-13 UP (O:6780.0 H:6928.25 L:6767.0 C:6922.75) | 2026-04-14 UP (O:6925.25 H:7008.0 L:6920.25 C:7004.75) | 2026-04-15 UP (O:7004.0 H:7064.5 L:6991.75 C:7060.5) | 2026-04-16 UP (O:7057.25 H:7078.5 L:7055.5 C:7069.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. It's our 'Long Island AI' era as Allbirds goes full in on pivotWhat Allbirds is doing isn't so different from Big Tech's embarrassing trend-jacking turn to AI not long ago.
+  2. TSMC's CEO just dropped a clue to next move in AI stocks
+  3. Stock futures hold near records as bets on Iran truce grow
+  4. Strong ASML, TSMC forecasts signal AI spending boom is intact
+  5. Tesla stock up again as Musk's chip plans boost sentiment
+  6. PepsiCo may be leaving behind $7 Doritos with price cuts
+  7. Musk asks suppliers to move at 'light speed' on chipmaking plan
+  8. Stellantis, Microsoft sign five-year partnership for AI push
+  9. US weekly jobless claims fall as labor market stays stable
+  10. Chef José Andrés: World hunger to get worse on war inflation
+  11. Google, Pentagon discuss classified AI deal, the Information reports
+  12. Oil prices hold steady as investors watch for second-round peace talk updates
+  13. TPG to invest $100 million in student mobility company Zum
+  14. Louis Vuitton, Gucci, Hermès luxury sales decline as Iran war hits crucial Middle East demand
+  15. Roche launches new Elevidys study after feedback from European regulator
+  16. India's Wipro unveils record buyback after slight quarterly revenue miss
+  17. Markets are finally broadening out in 2026. Is that a problem?US stock futures (ES=F, NQ=F, YM=F) edge higher Thursday morning after the S&P 500 (^GSPC) and Nasdaq Composite (^IXIC) closed yesterday's session at new record highs.  Morning Brief Anchor Julie Hyman and Yahoo Finance Head of News Myles Udland examine the year-to-date moves across sectors and how the market indexes are holding up compared to their equal-weight counterparts.
+  18. Fed is getting a 'stagflationary impulse': Austan Goolsbee
+  19. Avoid these common small business tax mistakes
+  20. US jobless claims fall last week as layoffs remain low despite global economic uncertaintyU.S. applications for unemployment benefits fell last week, remaining in the range of the past few years even as the war in Iran continues to threaten the global economy.  The number of Americans applying for jobless aid for the week ending April 11 fell by 11,000 to 207,000 from the previous week’s 218,000, the Labor Department reported Thursday.  Filings for unemployment benefits are considered representative of U.S. layoffs and are close to a real-time indicator of the health of the job market.
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St indexes set to open higher as Mideast diplomacy hopes, earnings lift sentiment
+  2. From trough to triumph: Nasdaq’s surge delivers fresh records
+  3. Wall St futures edge higher on Mideast diplomacy hopes, strong earnings
+  4. Six-week roundtrip
+  5. S&P 500, Nasdaq push to closing records on optimism around Middle East talks, earnings 
+  6. S&P 500, Nasdaq push to closing records on earnings and Middle East optimism
+  7. S&P 500, Nasdaq advance on earnings and Middle East optimism
+  8. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-15
+  9. S&P 500, Nasdaq extend rally as investors weigh earnings, Mideast de-escalation signals
+  10. S&P 500, Nasdaq rise as focus shifts to earnings
+  11. S&P 500 within striking distance of record after biggest 10-day rally since 2020
+  12. Wall St indexes set for breather after rally as focus shifts to earnings
+  13. Wall Street futures hold steady with earnings in focus
+  14. Back to business
+  15. Wall Street indexes open higher as Mideast diplomacy hopes, earnings lift sentiment
+
+=== ECONOMIC CALENDAR — 2026-04-16 ===
+  [0] Initial Jobless Claims — Actual: 207 | Forecast: 215 | Prev: 218
+  [-1] Jobless Claims 4-week Average — Actual: 209.75 | Forecast: None | Prev: 209.25
+  [-1] Continuing Jobless Claims — Actual: 1818 | Forecast: 1810 | Prev: 1787
+  [-1] NY Fed Services Activity Index — Actual: -14 | Forecast: None | Prev: -22.6
+  [-1] Philly Fed Prices Paid — Actual: 59.3 | Forecast: None | Prev: 44.7
+  [-1] Philly Fed Business Conditions — Actual: 40.8 | Forecast: None | Prev: 40
+  [0] Philadelphia Fed Manufacturing Index — Actual: 26.7 | Forecast: 10 | Prev: 18.1
+  [-1] Philly Fed CAPEX Index — Actual: 35.2 | Forecast: None | Prev: 25.8
+  [-1] Philly Fed Employment — Actual: -5.1 | Forecast: None | Prev: 0.8
+  [-1] Philly Fed New Orders — Actual: 33 | Forecast: None | Prev: 8.6
+  [0] Fed Williams Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Industrial Production YoY — Actual: 0.7 | Forecast: None | Prev: 1.4
+  [-1] Capacity Utilization — Actual: 75.7 | Forecast: 76.3 | Prev: 76.1
+  [0] Industrial Production MoM — Actual: -0.5 | Forecast: 0.1 | Prev: 0.7
+  [-1] Manufacturing Production YoY — Actual: 0.5 | Forecast: None | Prev: 1.3
+  [-1] Manufacturing Production MoM — Actual: -0.1 | Forecast: 0.1 | Prev: 0.4
+  [-1] EIA Natural Gas Stocks Change — Actual: None | Forecast: 51 | Prev: 50
+  [0] Fed Miran Speech — Actual: None | Forecast: None | Prev: None
+  [-1] 4-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.56
+  [-1] 8-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.575
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-16.

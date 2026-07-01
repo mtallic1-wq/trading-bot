@@ -1,0 +1,89 @@
+ANALYSIS DATE: 2026-05-14
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.609 | Day: +0.131% | 5-Day: +0.37%
+  VIX (Fear Index): 17.9 | Day: +0.168% | 5-Day: +4.80%
+  10Y Treasury Yield: 4.443 | Day: -0.848% | 5-Day: +1.16%
+  Gold: 4706.2 | Day: +0.181% | 5-Day: +0.14%
+  Crude Oil: 100.42 | Day: -0.594% | 5-Day: +5.92%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29474.75 | Trend: UP
+  1D: -0.02% | 5D: 2.76% | 10D: 6.81%
+  Prev High: 29565.5 | Prev Low: 29055.5 | Prev Close: 29479.25
+  Week High: 29565.5 | Week Low: 28541.0
+  Last 5 Candles: 2026-05-08 UP (O:28582.0 H:29386.75 L:28541.0 C:29332.5) | 2026-05-11 UP (O:29294.0 H:29480.0 L:29225.75 C:29424.0) | 2026-05-12 DOWN (O:29399.0 H:29455.75 L:28742.0 C:29170.0) | 2026-05-13 UP (O:29143.75 H:29565.5 L:29055.5 C:29479.25) | 2026-05-14 DOWN (O:29537.0 H:29693.0 L:29448.25 C:29474.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Xi tells US CEOs that China will open up more'It was awesome,' Tesla CEO Elon Musk said about his talks with Xi as Trump's visit to China got a two-day summit underway.
+  2. US stock futures climb as Trump-Xi summit kicks off
+  3. S&P 500's earnings boom faces a bond market warning
+  4. US clears Nvidia H200 chip sales to 10 China buyers
+  5. The S&P 500 is hot and so are retail investors
+  6. Cerebras stock set to start trading in biggest IPO of 2026
+  7. US wireless carriers to launch joint venture to address rural 'dead zones'
+  8. Trump-Xi summit offers little movement on the war as pressure builds
+  9. Cisco stock jumps on booming AI orders, job cuts
+  10. Crypto's pivotal Clarity Act moves to Senate vote
+  11. US import prices surge in April as fuels post biggest gain in four years
+  12. Exclusive-Iraq sought financial assistance from IMF as result of Iran war, source says
+  13. US weekly jobless claims increase moderately, labor market remains stable
+  14. Social Security 2027 COLA estimate rises, thanks to soaring inflation
+  15. US retail sales increase again in April, partly lifted by higher prices
+  16. Record high for stocks as Trump meets Xi, pound braces for UK leadership fight
+  17. Xi Tells US CEOs on Trump Visit That China Will Open Up More
+  18. What Elon Musk hopes to gain from joining Trump's China visitTesla (TSLA) CEO Elon Musk is joining President Trump's visit to China. Yahoo Finance Senior Autos Reporter Pras Subramanian outlines what this could mean for Tesla.
+  19. Why Elon Musk's SpaceX is a 'three-engine empire' ahead of IPO
+  20. How Akon used AI for his latest album
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  500+ curated RSS news feeds, 65+ external data sources, 50+ map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St set for higher open as Nvidia gains; US-China talks, data in focus
+  2. Tech vs. Healthcare: BofA clients rotate as equity inflows continue
+  3. S&P 500, Nasdaq futures rise to new highs as Nvidia jumps
+  4. 'G2' choreography
+  5. Kevin Warsh Is The US Fed’s 17th Chairperson, Senate Approves
+  6. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-13
+  7. S&P 500 slips as hot inflation data signals rates to stay on hold
+  8. S&P 500 eyes muted open as hot inflation data signals rates to stay on hold
+  9. S&P 500 futures turn negative after April PPI data
+  10. S&P 500, Nasdaq futures rise ahead of key data, Trump's China visit
+  11. Fed alert
+  12. S&P 500, Nasdaq end lower as inflation, Iran tensions weigh
+  13. Wall Street slips as inflation, Iran tensions weigh 
+  14. US Futures Rise Further
+  15. MORE U.S. APRIL RETAIL SALES: EX GASOLINE +0.3% M/M
+
+=== ECONOMIC CALENDAR — 2026-05-14 ===
+  [-1] Continuing Jobless Claims — Actual: 1782 | Forecast: 1790 | Prev: 1758
+  [-1] Jobless Claims 4-week Average — Actual: 203.75 | Forecast: None | Prev: 203
+  [0] Initial Jobless Claims — Actual: 211 | Forecast: 205 | Prev: 199
+  [-1] Retail Sales YoY — Actual: 4.9 | Forecast: None | Prev: 4.2
+  [-1] Export Prices YoY — Actual: 8.8 | Forecast: None | Prev: 5.4
+  [1] Retail Sales MoM — Actual: 0.5 | Forecast: 0.5 | Prev: 1.6
+  [0] Import Prices MoM — Actual: 1.9 | Forecast: 1 | Prev: 0.9
+  [-1] Import Prices YoY — Actual: 4.2 | Forecast: None | Prev: 2.3
+  [0] Export Prices MoM — Actual: 3.3 | Forecast: 1.1 | Prev: 1.5
+  [0] Retail Sales Ex Autos MoM — Actual: 0.7 | Forecast: 0.6 | Prev: 1.9
+  [-1] Retail Sales Ex Gas/Autos MoM — Actual: 0.5 | Forecast: None | Prev: 0.7
+  [0] Retail Sales Control Group MoM — Actual: 0.5 | Forecast: 0.4 | Prev: 0.8
+  [0] Business Inventories MoM — Actual: None | Forecast: 0.8 | Prev: 0.4
+  [-1] Retail Inventories Ex Autos MoM — Actual: None | Forecast: 0.5 | Prev: 0.3
+  [0] Fed Schmid Speech — Actual: None | Forecast: None | Prev: None
+  [-1] EIA Natural Gas Stocks Change — Actual: None | Forecast: 85 | Prev: 63
+  [-1] 4-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.61
+  [-1] 8-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.595
+  [-1] 15-Year Mortgage Rate — Actual: None | Forecast: None | Prev: 5.72
+  [-1] 30-Year Mortgage Rate — Actual: None | Forecast: None | Prev: 6.37
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-14.

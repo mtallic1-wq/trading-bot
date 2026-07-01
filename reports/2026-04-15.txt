@@ -1,0 +1,73 @@
+ANALYSIS DATE: 2026-04-15
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): data unavailable
+  VIX (Fear Index): data unavailable
+  10Y Treasury Yield: 4.287 | Day: +0.728% | 5-Day: -0.09%
+  Gold: 4818.4 | Day: -0.137% | 5-Day: +1.45%
+  Crude Oil: 91.42 | Day: +0.153% | 5-Day: -3.17%
+
+=== NQ — Nasdaq-100 Futures ===
+  Error: No data returned
+
+=== ES — S&P 500 Futures ===
+  Price: 7046.5 | Trend: UP
+  1D: 0.6% | 5D: 3.26% | 10D: 7.24%
+  Prev High: 7008.0 | Prev Low: 6920.25 | Prev Close: 7004.75
+  Week High: 7008.0 | Week Low: 6652.25
+  Last 5 Candles: 2026-04-09 UP (O:6814.25 H:6876.0 L:6792.5 C:6863.25) | 2026-04-10 DOWN (O:6858.0 H:6888.0 L:6846.25 C:6855.25) | 2026-04-13 UP (O:6780.0 H:6928.25 L:6767.0 C:6922.75) | 2026-04-14 UP (O:6925.25 H:7008.0 L:6920.25 C:7004.75) | 2026-04-15 UP (O:7004.0 H:7048.5 L:6991.75 C:7046.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. [Fetch error: HTTPSConnectionPool(host='finance.yahoo.com', port=443): Read timed out. (read timeout=15)]
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. S&P 500, Nasdaq extend rally as investors weigh earnings, Mideast de-escalation signals
+  2. BUZZ - Nasdaq top and bottom performing stocks at about 11:01 a.m. EDT on 2026-04-15
+  3. S&P 500, Nasdaq rise as focus shifts to earnings
+  4. S&P 500 within striking distance of record after biggest 10-day rally since 2020
+  5. Wall St indexes set for breather after rally as focus shifts to earnings
+  6. Wall Street futures hold steady with earnings in focus
+  7. Back to business
+  8. Wall Street futures hold steady; earnings in focus
+  9. Value trade could be back in business in Europe - Barclays
+  10. Wall St indexes set to open higher on Mideast de-escalation hopes, earnings in focus
+  11. Nasdaq's hot streak and a cold signal: Death Cross in focus 
+  12. S&P 500, Nasdaq futures rise on Mideast de-escalation hopes, earnings in focus
+  13. War-weary markets filter out noise
+  14. Software Stocks Look Cheap as S&P 500 Rallies. Are They a Buy? — Barrons.com
+  15. S&P 500 hits first intraday record high since US-Iran war
+
+=== ECONOMIC CALENDAR — 2026-04-15 ===
+  [-1] MBA Mortgage Refinance Index — Actual: 966.8 | Forecast: None | Prev: 919.9
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.42 | Forecast: None | Prev: 6.51
+  [-1] MBA Purchase Index — Actual: 159.5 | Forecast: None | Prev: 161.1
+  [-1] MBA Mortgage Applications — Actual: 1.8 | Forecast: None | Prev: -0.8
+  [-1] MBA Mortgage Market Index — Actual: 281 | Forecast: None | Prev: 276
+  [-1] Import Prices YoY — Actual: 2.1 | Forecast: 2 | Prev: 1
+  [0] Export Prices MoM — Actual: 1.6 | Forecast: 1.5 | Prev: 1.9
+  [0] NY Empire State Manufacturing Index — Actual: 11 | Forecast: -0.5 | Prev: -0.2
+  [-1] Export Prices YoY — Actual: 5.6 | Forecast: None | Prev: 3.8
+  [0] Import Prices MoM — Actual: 0.8 | Forecast: 2 | Prev: 0.9
+  [0] Fed Barr Speech — Actual: None | Forecast: None | Prev: None
+  [0] NAHB Housing Market Index — Actual: 34 | Forecast: 37 | Prev: 38
+  [-1] EIA Heating Oil Stocks Change — Actual: -0.463 | Forecast: None | Prev: 0.233
+  [0] EIA Gasoline Stocks Change — Actual: -6.328 | Forecast: -2.1 | Prev: -1.589
+  [-1] EIA Crude Oil Imports Change — Actual: -2.109 | Forecast: None | Prev: -0.758
+  [-1] EIA Distillate Fuel Production Change — Actual: -0.169 | Forecast: None | Prev: 0.009
+  [-1] EIA Refinery Crude Runs Change — Actual: -0.208 | Forecast: None | Prev: -0.129
+  [0] EIA Crude Oil Stocks Change — Actual: -0.913 | Forecast: 0.2 | Prev: 3.081
+  [-1] EIA Cushing Crude Oil Stocks Change — Actual: -1.727 | Forecast: None | Prev: 0.024
+  [-1] EIA Gasoline Production Change — Actual: 0.392 | Forecast: None | Prev: -0.214
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-15.

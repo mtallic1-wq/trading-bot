@@ -1,0 +1,89 @@
+ANALYSIS DATE: 2026-05-06
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 97.92 | Day: -0.569% | 5-Day: -1.01%
+  VIX (Fear Index): 16.72 | Day: -3.797% | 5-Day: -11.11%
+  10Y Treasury Yield: 4.354 | Day: -1.404% | 5-Day: -1.45%
+  Gold: 4701.5 | Day: +3.198% | 5-Day: +3.44%
+  Crude Oil: 95.13 | Day: -6.982% | 5-Day: -10.99%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 28448.25 | Trend: UP
+  1D: 1.11% | 5D: 4.11% | 10D: 5.04%
+  Prev High: 28247.0 | Prev Low: 27731.75 | Prev Close: 28136.0
+  Week High: 28247.0 | Week Low: 27094.0
+  Last 5 Candles: 2026-04-30 UP (O:27207.0 H:27622.75 L:27163.25 C:27596.0) | 2026-05-01 UP (O:27631.75 H:27917.0 L:27536.25 C:27835.75) | 2026-05-04 DOWN (O:27890.0 H:27965.75 L:27613.0 C:27776.0) | 2026-05-05 UP (O:27760.0 H:28247.0 L:27731.75 C:28136.0) | 2026-05-06 UP (O:28250.0 H:28634.25 L:28243.0 C:28448.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Stocks rise on report US, Iran close in on peace dealMarkets are eyeing signs of easing in Mideast tensions and impressive AI-fueled tech earnings.
+  2. AMD stock soars after earnings beat, rosy outlook
+  3. Private employers added 109,000 roles in April
+  4. SpaceX isn't public yet, but Wall Street already has ETFs for it
+  5. Samsung reaches $1 trillion valuation on strong AI demand
+  6. An Iranian official's China visit sets the tone for Trump's next trip
+  7. Oil plunges on reports that US, Iran may be close to deal to end the war
+  8. Disney rises after earnings beat in strong start for new CEO
+  9. Supermicro stock soars on strong margin, revenue forecast
+  10. Uber stock surges as Q1 results show rising revenue, trips
+  11. Lilly commits additional $4.5 billion across Indiana manufacturing sites
+  12. Lucid sales miss estimates as supplier issue slows EV deliveries
+  13. Trimble raises annual forecast on upbeat Q1 results, strong software demand
+  14. US dollar to remain stuck in range, dependent on the Strait of Hormuz
+  15. China Urges Opening of Hormuz in Iran Talks Before Xi-Trump Meet
+  16. Wall St set to extend rally as Middle East peace hopes, AI optimism boost sentiment
+  17. Jobs data live updates: Layoffs tick up amid high-profile job cuts at Coinbase, Meta, and other workplaces
+  18. Rate hike: the real possibility for Kevin Warsh this yearCould Kevin Warsh be forced to raise rates? Trader Talk host discusses the real possibility facing the next Fed Chair with Eddie Ghabour, CEO of Key Advisors Wealth Management, and Jay Pelosky, Founder of TPW Advisory.
+  19. Is OpenAI showing red flags? IBM vice chair discusses
+  20. Disney and WBD earnings, ADP data, Fed comments: What to Watch
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. S&P 500 tests the ceiling as bulls step on the gas
+  2. Wall St set to extend rally as Middle East peace hopes, AI optimism boost sentiment
+  3. End in sight?
+  4. US stock futures rally on Middle East peace hopes, AI optimism
+  5. US stock index futures rise on Middle East peace hopes, AI optimism
+  6. S&P 500 and Nasdaq notch records as AI chip stocks surge
+  7. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-05
+  8. Nasdaq hits record as AI chip stocks surge
+  9. Wall St surges as US-Iran ceasefire holds after earlier jitters
+  10. Wall St rebounds as oil drops despite Middle East tensions
+  11. IGV at a crossroads as software stocks show signs of life 
+  12. Wall St eyes rebound as oil ticks lower despite Middle East tensions
+  13. US stock futures up as oil dips; Middle East tensions linger
+  14. Gulf singe, AI binge
+  15. US TSY QUARTERLY REFUNDING: CASH BALANCE COULD PEAK AT RECORD $1 TRILLION IN LATE JULY
+
+=== ECONOMIC CALENDAR — 2026-05-06 ===
+  [-1] MBA Mortgage Applications — Actual: -4.4 | Forecast: None | Prev: -1.6
+  [-1] MBA Purchase Index — Actual: 171.1 | Forecast: None | Prev: 177.7
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.45 | Forecast: None | Prev: 6.37
+  [-1] MBA Mortgage Market Index — Actual: 285.3 | Forecast: None | Prev: 298.5
+  [-1] MBA Mortgage Refinance Index — Actual: 928.6 | Forecast: None | Prev: 977.9
+  [0] ADP Employment Change — Actual: 109 | Forecast: 99 | Prev: 61
+  [-1] Treasury Refunding Announcement — Actual: None | Forecast: None | Prev: None
+  [0] Fed Musalem Speech — Actual: None | Forecast: None | Prev: None
+  [-1] EIA Refinery Crude Runs Change — Actual: None | Forecast: None | Prev: 0.084
+  [-1] EIA Distillate Fuel Production Change — Actual: None | Forecast: None | Prev: -0.013
+  [-1] EIA Cushing Crude Oil Stocks Change — Actual: None | Forecast: None | Prev: -0.796
+  [0] EIA Gasoline Stocks Change — Actual: None | Forecast: -1.7 | Prev: -6.075
+  [-1] EIA Crude Oil Imports Change — Actual: None | Forecast: None | Prev: -1.968
+  [-1] EIA Distillate Stocks Change — Actual: None | Forecast: -2 | Prev: -4.494
+  [-1] EIA Heating Oil Stocks Change — Actual: None | Forecast: None | Prev: -0.625
+  [0] EIA Crude Oil Stocks Change — Actual: None | Forecast: -2.8 | Prev: -6.233
+  [-1] EIA Gasoline Production Change — Actual: None | Forecast: None | Prev: -0.238
+  [-1] 17-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.62
+  [0] Fed Goolsbee Speech — Actual: None | Forecast: None | Prev: None
+  [0] Fed Hammack Speech — Actual: None | Forecast: None | Prev: None
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-06.

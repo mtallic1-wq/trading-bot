@@ -1,0 +1,123 @@
+ANALYSIS DATE: 2026-06-25
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 101.494 | Day: -0.114% | 5-Day: +1.40%
+  VIX (Fear Index): 18.76 | Day: +0.698% | 5-Day: +1.74%
+  10Y Treasury Yield: 4.376 | Day: -1.685% | 5-Day: -2.47%
+  Gold: 4032.2 | Day: +1.050% | 5-Day: -7.50%
+  Crude Oil: 70.1 | Day: -0.341% | 5-Day: -8.71%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29612.75 | Trend: DOWN
+  1D: 0.33% | 5D: -0.25% | 10D: 3.71%
+  Prev High: 30157.75 | Prev Low: 29264.75 | Prev Close: 29514.25
+  Week High: 30968.0 | Week Low: 29264.75
+  Last 5 Candles: 2026-06-18 UP (O:29758.5 H:30285.75 L:29758.5 C:30263.35) | 2026-06-22 UP (O:30577.0 H:30968.0 L:30337.5 C:30653.5) | 2026-06-23 DOWN (O:30662.75 H:30701.25 L:29577.25 C:29666.0) | 2026-06-24 DOWN (O:29770.0 H:30157.75 L:29264.75 C:29514.25) | 2026-06-25 DOWN (O:30089.75 H:30263.75 L:29528.75 C:29612.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. PCE inflation hits near 3-year high, keeping rate hike in play
+  2. US stocks rise as PCE comes in hot, Micron eases AI fears
+  3. Micron's stock soars after blowout earnings reset AI trade
+  4. Lower oil prices may be the Fed's next problem
+  5. Alphabet makes the Dow look more like the Nasdaq
+  6. Crypto markets have been cut in half, destroying trillions in value
+  7. The Strait of Hormuz is open again. It may never get back to normal.
+  8. Fannie, Freddie boost risk to levels that once shook Wall Street
+  9. Chevron CFO responds to Trump Big Oil gas price gouging probe
+  10. IBM stock pops as company unveils chip 'the size of a fingernail' in AI push
+  11. Reddit co-founder predicts the internet's next big move
+  12. AI demand begins to justify massive cost of data-center buildout
+  13. AI data center boom to drive inflation
+  14. Ice Cube on why he's taking his basketball league public
+  15. Wendy's stock surges after viral Reddit post, leadership hire
+  16. Ferrari marketing boss quits just weeks after EV launch backlash
+  17. Elon Musk rips US tax system on earnings, purchases, assets
+  18. MacKenzie Scott drove a third of America's $19.2B megagifts
+  19. PCE inflation tops 4% in May 2026, but spending stays strong
+  20. Fed's preferred inflation gauge hits 3-year high
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor Pro — AI analyst, digest & MCP 
+  World Monitor Blog — OSINT guides & analysis 
+  What is World Monitor? 
+  Open source on GitHub (AGPL-3.0) 
+  Featured in WIRED 
+  See | — 56 map layers across a dual 3D-globe/WebGL map: conflicts, vessels, flights, satellites, pipelines, submarine cables, AI datacenters. 
+  Understand | — daily AI brief, Country Instability Index across 196 countries, cross-source correlation, Scenario Engine. 
+  Act | — custom monitors and alerts, Route Explorer, 39-tool MCP server and API for Claude, GPT and custom agents. 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Tech stocks surge as Micron earnings ease AI fears, oil falls further
+  2. Wall St futures extend gains after May inflation data
+  3. US markets today: Dow, Nasdaq futures rise ahead of key inflation data
+  4. Wall Street's wallflowers are worth another look
+  5. Wall St rebounds with broad gains as oil slides sharply
+  6. AI Selloff Erases $1.3 Trillion Before Tech Futures Rebound
+  7. Wall St set to open higher as tech rebounds, Micron earnings eyed
+  8. S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed
+  9. Wall Street futures mixed today: 5 things to know before the market opens
+  10. Markets Steady After Two-Day Tech Slide — WSJ
+  11. S&P, Nasdaq drop on semiconductor selloff as AI spending concerns mount
+  12. SpaceX's wild ride is just getting started
+  13. S&P, Nasdaq drop on tech selloff as concerns about hawkish Fed, AI spending mount
+  14. Wall St tumbles on tech selloff as concerns about hawkish Fed, AI spending mount
+  15. US futures fall on tech selloff as concerns about hawkish Fed, AI spending mount
+
+=== ECONOMIC CALENDAR — 2026-06-25 ===
+  [-1] Continuing Jobless Claims — Actual: 1821 | Forecast: 1800 | Prev: 1800
+  [-1] Jobless Claims 4-week Average — Actual: 224.25 | Forecast: None | Prev: 223.5
+  [0] Initial Jobless Claims — Actual: 215 | Forecast: 225 | Prev: 227
+  [0] Chicago Fed National Activity Index — Actual: -0.1 | Forecast: None | Prev: 0.19
+  [0] Durable Goods Orders Ex Transp MoM — Actual: 1.3 | Forecast: 0.6 | Prev: 1.4
+  [0] PCE Price Index MoM — Actual: 0.4 | Forecast: 0.5 | Prev: 0.4
+  [-1] GDP Sales QoQ Final — Actual: 1.9 | Forecast: 1.5 | Prev: 0.3
+  [1] GDP Growth Rate QoQ Final — Actual: 2.1 | Forecast: 1.6 | Prev: 0.5
+  [-1] Corporate Profits QoQ Final — Actual: 0.5 | Forecast: -0.4 | Prev: 5.7
+  [0] PCE Price Index YoY — Actual: 4.1 | Forecast: 4.1 | Prev: 3.8
+  [1] Durable Goods Orders MoM — Actual: -4.5 | Forecast: -4.5 | Prev: 8.5
+  [-1] Durable Goods Orders ex Defense MoM — Actual: -4.6 | Forecast: None | Prev: 8.4
+  [-1] Core PCE Price Index YoY — Actual: 3.4 | Forecast: 3.4 | Prev: 3.3
+  [-1] Non Defense Goods Orders Ex Air — Actual: 1.6 | Forecast: 0.6 | Prev: -0.7
+  [-1] PCE Prices QoQ Final — Actual: 4.6 | Forecast: 4.5 | Prev: 2.9
+  [1] Personal Spending MoM — Actual: 0.7 | Forecast: 0.6 | Prev: 0.4
+  [1] Core PCE Price Index MoM — Actual: 0.3 | Forecast: 0.3 | Prev: 0.3
+  [1] Personal Income MoM — Actual: 0.7 | Forecast: 0.4 | Prev: 0
+  [-1] Core PCE Prices QoQ Final — Actual: 4.4 | Forecast: 4.4 | Prev: 2.7
+  [0] GDP Price Index QoQ Final — Actual: 3.6 | Forecast: 3.5 | Prev: 3.6
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: 0.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 29659.75 | PrevH: 30157.75 | PrevL: 29264.75
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-23 DOWN(30662.75->29666.0) > 2026-06-24 DOWN(29770.0->29514.25) > 2026-06-25 DOWN(30089.75->29659.75)
+
+  [4H] Structure: RANGING
+    Price: 29659.75 | PrevH: 30219.0 | PrevL: 30099.0
+    Nearest Resistance (swing high above): 29743.0
+    Nearest Support (swing low below): 29577.25
+    Recent: 2026-06-25 UP(30033.5->30181.75) > 2026-06-25 DOWN(30182.0->30131.25) > 2026-06-25 DOWN(30130.25->29659.75)
+
+  [1H] Structure: RANGING
+    Price: 29659.75 | PrevH: 30263.75 | PrevL: 30117.0
+    Nearest Resistance (swing high above): 29665.25
+    Nearest Support (swing low below): 29616.5
+    Recent: 2026-06-25 DOWN(30160.25->30131.25) > 2026-06-25 UP(30130.25->30201.25) > 2026-06-25 DOWN(30202.75->29659.75)
+
+  [15m] Structure: RANGING
+    Price: 29665.25 | PrevH: 30193.0 | PrevL: 29747.0
+    Nearest Resistance (swing high above): 29779.0
+    Nearest Support (swing low below): 29654.75
+    Recent: 2026-06-25 DOWN(30165.0->30151.0) > 2026-06-25 DOWN(30153.25->29768.25) > 2026-06-25 DOWN(29768.25->29665.25)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-25.

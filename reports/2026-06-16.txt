@@ -1,0 +1,117 @@
+ANALYSIS DATE: 2026-06-16
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.619 | Day: -0.131% | 5-Day: -0.43%
+  VIX (Fear Index): 16.08 | Day: -9.050% | 5-Day: -15.01%
+  10Y Treasury Yield: 4.438 | Day: -1.092% | 5-Day: -2.50%
+  Gold: 4371.4 | Day: +1.003% | 5-Day: +2.62%
+  Crude Oil: 76.7 | Day: -5.015% | 5-Day: -13.04%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30827.25 | Trend: UP
+  1D: 0.88% | 5D: 5.87% | 10D: 0.37%
+  Prev High: 30612.5 | Prev Low: 29907.0 | Prev Close: 30559.25
+  Week High: 30612.5 | Week Low: 28227.75
+  Last 5 Candles: 2026-06-10 DOWN (O:29094.75 H:29250.0 L:28409.0 C:28554.0) | 2026-06-11 UP (O:28455.0 H:29544.25 L:28265.75 C:29464.75) | 2026-06-12 UP (O:29456.75 H:29760.0 L:29230.0 C:29662.0) | 2026-06-15 UP (O:29907.0 H:30612.5 L:29907.0 C:30559.25) | 2026-06-16 DOWN (O:30838.0 H:30975.5 L:30755.0 C:30827.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. SpaceX completes $60B Cursor deal to boost AI coding
+  2. Stocks drift with Iran peace deal, Fed meeting in focus
+  3. SpaceX set to top Amazon's market cap as post-IPO rally roars on
+  4. Oil prices sink below $80 per barrel for first time since March
+  5. Warsh's Fed debut comes at pivotal moment
+  6. Forget the 'Mag 7?' Why it might be time to embrace the 'FAB 10.'
+  7. US, Iran prepare for deal signing — with both claiming victory
+  8. Why Yum! Brands just sold Pizza Hut in a $2.7B deal
+  9. Trader loses $1M on Cabo Verde's shock World Cup result
+  10. SpaceX stock gains for 3rd day amid retail frenzy
+  11. Trump's Anthropic crackdown sets off AI alarms for US allies
+  12. Marvell needs lots of growth to achieve Huang's $1T call
+  13. Robinhood to cut 10% of staff as it seeks to become leaner
+  14. Analyst: Luce-fueled Ferrari stock sell-off has gone too far
+  15. A mining billionaire made a major bet on SpaceX
+  16. Ultra-rich Americans turn to a $40B industry to help them flee US
+  17. Toyota is no longer Japan's most valuable company
+  18. Two mayors, one $10B AI data center, and a growing divide in small-town Texas
+  19. Oil prices tumble below $80 per barrel for first time since March
+  20. Oil drops nearly 3% to 3-month low as markets weigh US-Iran peace deal
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor Pro — AI analyst, digest & MCP 
+  World Monitor Blog — OSINT guides & analysis 
+  What is World Monitor? 
+  Open source on GitHub (AGPL-3.0) 
+  Featured in WIRED 
+  See | — 56 map layers across a dual 3D-globe/WebGL map: conflicts, vessels, flights, satellites, pipelines, submarine cables, AI datacenters. 
+  Understand | — daily AI brief, Country Instability Index across 196 countries, cross-source correlation, Scenario Engine. 
+  Act | — custom monitors and alerts, Route Explorer, 39-tool MCP server and API for Claude, GPT and custom agents. 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Asian stocks edge up with rate decisions in focus
+  2. Asian shares edge higher on Iran deal relief rally
+  3. Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide
+  4. Why Rocket Lab (RKLB) Stock Is Up Today
+  5. SpaceX Soars in Historic IPO: Should You Play SPCX ETFs or the Stock?
+  6. 'Let the oil flow'
+  7. SpaceX IPO adds a dash of volatility to index-investing recipe
+  8. SpaceX stock jumps premarket as Nasdaq-100 inclusion bets grip Wall Street
+  9. RKLB Stock Jumps Overnight: Rocket Lab Lines Up Record Launch Blitz After Nasdaq-100 Entry
+  10. Stock futures jump, oil prices fall as Trump says U.S. has reached peace deal with Iran
+  11. Stock Futures Jump, Oil Sinks After Trump Says Deal Is Done — Barrons.com
+  12. The Faulty Logic Behind the SpaceX Index Trade — WSJ
+  13. US markets close cautiously higher as hopes for Iran peace deal rise amid SpaceX mania
+  14. AMD Stock Pops After Buy Upgrade. It's More Than a CPU Play. — Barrons.com
+  15. S&P 500 climbs as SpaceX gains, hopes build for Iran peace deal
+
+=== ECONOMIC CALENDAR — 2026-06-16 ===
+  [0] ADP Employment Change Weekly — Actual: 25.5 | Forecast: None | Prev: 29
+  [-1] NY Fed Services Activity Index — Actual: -10.1 | Forecast: None | Prev: -5.8
+  [1] Building Permits Prel — Actual: 1.413 | Forecast: 1.42 | Prev: 1.423
+  [1] Housing Starts — Actual: 1.177 | Forecast: 1.43 | Prev: 1.392
+  [0] Import Prices MoM — Actual: 1.9 | Forecast: 1 | Prev: 2
+  [0] Export Prices MoM — Actual: 1.3 | Forecast: 1.2 | Prev: 3.5
+  [-1] Export Prices YoY — Actual: 11.2 | Forecast: None | Prev: 8.8
+  [0] Building Permits MoM Prel — Actual: -0.7 | Forecast: None | Prev: 4.4
+  [0] Housing Starts MoM — Actual: -15.4 | Forecast: None | Prev: -8.5
+  [-1] Import Prices YoY — Actual: 6.7 | Forecast: None | Prev: 4.2
+  [-1] Redbook YoY — Actual: 9.4 | Forecast: None | Prev: 9.1
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.6
+  [-1] 20-Year Bond Auction — Actual: None | Forecast: None | Prev: 5.122
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: -4.5 | Prev: -9.119
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: 10.0%)
+  Alignment: PARTIAL ALIGNMENT — 1/4 TFs bullish
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: BULLISH
+
+  [Daily] Structure: RANGING
+    Price: 30832.75 | PrevH: 30612.5 | PrevL: 29907.0
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-12 UP(29456.75->29662.0) > 2026-06-15 UP(29907.0->30559.25) > 2026-06-16 DOWN(30838.0->30832.75)
+
+  [4H] Structure: RANGING
+    Price: 30832.75 | PrevH: 30975.5 | PrevL: 30829.0
+    Nearest Resistance (swing high above): 30915.0
+    Nearest Support (swing low below): 30291.5
+    Recent: 2026-06-16 UP(30825.0->30840.5) > 2026-06-16 UP(30841.25->30940.25) > 2026-06-16 DOWN(30940.0->30832.75)
+
+  [1H] Structure: RANGING
+    Price: 30832.75 | PrevH: 30952.75 | PrevL: 30815.75
+    Nearest Resistance (swing high above): 30860.0
+    Nearest Support (swing low below): 30755.0
+    Recent: 2026-06-16 UP(30932.75->30940.25) > 2026-06-16 DOWN(30940.0->30826.25) > 2026-06-16 UP(30826.0->30832.75)
+
+  [15m] Structure: BULLISH
+    Price: 30827.5 | PrevH: 30849.25 | PrevL: 30815.75
+    Nearest Resistance (swing high above): 30846.5
+    Nearest Support (swing low below): 30824.0
+    CHoCH: CHoCH — broke below swing low (structure flip) @ 30863.25 (2026-06-16)
+    Recent: 2026-06-16 DOWN(30863.25->30831.5) > 2026-06-16 DOWN(30830.75->30826.25) > 2026-06-16 UP(30826.0->30827.5)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-16.

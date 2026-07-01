@@ -1,0 +1,91 @@
+ANALYSIS DATE: 2026-04-21
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.306 | Day: +0.261% | 5-Day: +0.19%
+  VIX (Fear Index): 19.78 | Day: +4.822% | 5-Day: +7.73%
+  10Y Treasury Yield: 4.292 | Day: +0.988% | 5-Day: +0.85%
+  Gold: 4748.7 | Day: -1.205% | 5-Day: -1.58%
+  Crude Oil: 90.08 | Day: +0.524% | 5-Day: -1.31%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 26731.0 | Trend: UP
+  1D: -0.07% | 5D: 2.82% | 10D: 9.68%
+  Prev High: 26827.75 | Prev Low: 26535.0 | Prev Close: 26748.75
+  Week High: 26884.75 | Week Low: 25560.0
+  Last 5 Candles: 2026-04-15 UP (O:25985.75 H:26377.5 L:25933.75 C:26365.5) | 2026-04-16 UP (O:26350.0 H:26564.0 L:26275.5 C:26487.25) | 2026-04-17 UP (O:26460.0 H:26884.75 L:26440.0 C:26825.5) | 2026-04-20 UP (O:26599.75 H:26827.75 L:26535.0 C:26748.75) | 2026-04-21 DOWN (O:26776.75 H:26901.75 L:26662.5 C:26731.0)
+
+=== ES — S&P 500 Futures ===
+  Price: 7127.0 | Trend: UP
+  1D: -0.29% | 5D: 1.75% | 10D: 7.06%
+  Prev High: 7160.5 | Prev Low: 7085.0 | Prev Close: 7148.0
+  Week High: 7185.75 | Week Low: 6920.25
+  Last 5 Candles: 2026-04-15 UP (O:7004.0 H:7064.5 L:6991.75 C:7060.5) | 2026-04-16 UP (O:7057.25 H:7089.0 L:7046.5 C:7077.0) | 2026-04-17 UP (O:7077.25 H:7185.75 L:7075.25 C:7161.5) | 2026-04-20 UP (O:7102.5 H:7160.5 L:7085.0 C:7148.0) | 2026-04-21 DOWN (O:7150.75 H:7183.0 L:7119.25 C:7127.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. WATCHFed chair nominee Kevin Warsh's confirmation hearing
+  2. Warsh grilled on President Trump influence on Fed, personal assetsKevin Warsh, President Trump's pick to lead the Federal Reserve, testifies in front of the Senate Banking Committee.
+  3. Stocks fall into red during contentious Warsh hearing
+  4. US waits for Iran to signal it's ready for new round of talks
+  5. 7 big challenges for new Apple CEO John Ternus
+  6. Tim Cook is stepping down just as its stock breakout is in trouble
+  7. Tesla registrations plunge in California, industry body says
+  8. Beyond Meat stock is on a tear — here's why
+  9. What Wall Street is saying about Amazon's ties to Anthropic
+  10. Trump administration, Anthropic may be close to deal
+  11. Home contract signings increased in March
+  12. Workers might be feeling better about the job market
+  13. ASM International forecasts second-quarter revenue above estimates
+  14. New York sues Coinbase Financial Markets, Gemini Titan for allegedly violating state law
+  15. Intel results to show if supply chain issues are dimming its AI ambitions
+  16. Microsoft cuts Xbox subscription prices, bucking industry trends
+  17. Your credit card's 0% intro APR is ending soon. How to avoid a costly surprise.
+  18. Gold Falls as Traders Weigh Next Round of US-Iran Peace Talks
+  19. Senator Warren grills Kevin Warsh at confirmation hearingSenator Elizabeth Warren aggressively questions Kevin Warsh, President Trump’s nominee to be the next chair of the Federal Reserve.
+  20. Apple's Tim Cook will still be around to help with China
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. BUZZ - Nasdaq top and bottom performing stocks at about 11:01 a.m. EDT on 2026-04-21
+  2. Small names, big gains: Small caps take the lead in 2026
+  3. Wall St set to open higher as AI optimism, earnings counter Middle East concerns
+  4. US stock futures climb as AI optimism, earnings counter Middle East concerns
+  5. Tech overwhelms Iran tension
+  6. US stock futures climb as AI optimism tempers Middle East concerns
+  7. Records all around, but the Dow RSVP's 'No'
+  8. Wall Street set for lower open as U.S.-Iran tensions rise
+  9. US stock futures fall after rally as Mideast tensions flare
+  10. Green light, red light
+  11. Wall Street indexes hit record  highs as oil falls with Strait of Hormuz declared open
+  12. Wall Street indexes rally as oil falls with Strait of Hormuz opening
+  13. Wall Street indexes rally after Iran says Strait of Hormuz 'completely open'
+  14. Wall Street's rally fades as Middle East angst overshadows earnings optimism
+  15. NOMINEE WARSH Q&A: FED NEEDS ACCESS TO BETTER DATA; NEED TO ASSESS FUTURE OF ARTIFICIAL INTELLIGENCE; WORK NEEDS TO BE DONE EVALUATING PRODUCTIVITY
+
+=== ECONOMIC CALENDAR — 2026-04-21 ===
+  [0] ADP Employment Change Weekly — Actual: 54.75 | Forecast: None | Prev: 40.25
+  [1] Retail Sales MoM — Actual: 1.7 | Forecast: 1.4 | Prev: 0.7
+  [0] Retail Sales Ex Autos MoM — Actual: 1.9 | Forecast: 1.4 | Prev: 0.7
+  [-1] Retail Sales Ex Gas/Autos MoM — Actual: 0.6 | Forecast: None | Prev: 0.6
+  [-1] Retail Sales YoY — Actual: 4 | Forecast: None | Prev: 4
+  [0] Retail Sales Control Group MoM — Actual: 0.7 | Forecast: 0.2 | Prev: 0.6
+  [-1] Redbook YoY — Actual: 6.7 | Forecast: None | Prev: 7
+  [0] Pending Home Sales YoY — Actual: -1.1 | Forecast: None | Prev: -0.8
+  [0] Business Inventories MoM — Actual: 0.4 | Forecast: 0.3 | Prev: 0
+  [-1] Retail Inventories Ex Autos MoM — Actual: 0.3 | Forecast: 0.3 | Prev: 0.3
+  [0] Pending Home Sales MoM — Actual: 1.5 | Forecast: 0.1 | Prev: 2.5
+  [0] Fed Chair Nominee Kevin Warsh Confirmation Hearing — Actual: None | Forecast: None | Prev: None
+  [-1] NY Fed Bill Purchases 1 to 4 months — Actual: None | Forecast: 7.587 | Prev: None
+  [0] Fed Waller Speech — Actual: None | Forecast: None | Prev: None
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: -1 | Prev: 6.1
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-21.

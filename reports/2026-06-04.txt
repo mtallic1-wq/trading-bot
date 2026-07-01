@@ -1,0 +1,131 @@
+ANALYSIS DATE: 2026-06-04
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.243 | Day: -0.288% | 5-Day: +0.23%
+  VIX (Fear Index): 16.38 | Day: +1.993% | 5-Day: +4.07%
+  10Y Treasury Yield: 4.457 | Day: -0.757% | 5-Day: +0.04%
+  Gold: 4535.8 | Day: +2.234% | 5-Day: +0.81%
+  Crude Oil: 92.74 | Day: -3.416% | 5-Day: +4.32%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30320.0 | Trend: UP
+  1D: -1.02% | 5D: 0.04% | 10D: 3.16%
+  Prev High: 30807.75 | Prev Low: 30478.25 | Prev Close: 30633.25
+  Week High: 30807.75 | Week Low: 29763.0
+  Last 5 Candles: 2026-05-29 UP (O:30328.0 H:30536.0 L:30216.5 C:30405.25) | 2026-06-01 UP (O:30415.5 H:30693.0 L:30291.5 C:30566.25) | 2026-06-02 UP (O:30544.75 H:30763.25 L:30317.75 C:30712.75) | 2026-06-03 DOWN (O:30741.75 H:30807.75 L:30478.25 C:30633.25) | 2026-06-04 DOWN (O:30453.0 H:30544.5 L:30164.25 C:30320.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Nasdaq futures sink after Broadcom's earnings flopUS stock futures slipped as doubts about President Trump's ability to end the war with Iran rattled Wall Street.
+  2. Broadcom stock sinks as AI chip sales forecast disappoints
+  3. SpaceX confirms it will seek $75 billion in record IPO
+  4. Republican-led House votes to stop Iran war, rebuking Trump
+  5. Bitcoin is continuing to plunge. Here's why.
+  6. Yahoo announces AI-powered experiences for Finance and Sports
+  7. Trump's rebuilding his tariffs. They could end up a lot narrower.
+  8. Meta lashes Australia bid to make tech giants pay for news
+  9. Up to 1.3 million EU jobs at risk due to war in the Middle East
+  10. AI adoption's messy middle: How to actually support top talent
+  11. Will Social Security really go broke in 2032? Here is exactly what's happening.
+  12. Standard Chartered's crypto bull sticks to $100,000 bitcoin call despite 'painful' week
+  13. US first-quarter worker productivity, labor costs revised lower
+  14. The market's risk trade is leaving bitcoin behind
+  15. Pinterest signs $4 billion Amazon deal for cloud services
+  16. Intel, AMD, Micron shares sink as Broadcom results spark semiconductor sector sell-off
+  17. Stocks struggle after Broadcom dive; oil drops off highs
+  18. SpaceX: The long-term risks surrounding IPOsSpaceX (SPAX.PVT) aims to launch publicly on Friday, June 12, with its sights set on an IPO price of $135 per share in order to raise $75 billion. Yahoo Finance Markets and Data Editor Jared Blikre analyzes the possible risks surrounding IPOs, especially one as big as Elon Musk's SpaceX.
+  19. Jobless claims, mortgage rates and earnings in focus June 4
+  20. Used Cybertrucks are in demand, but that won't move Tesla stock
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor | — geopolitics, conflicts, military, infrastructure 
+  Tech Monitor | — AI labs, startups, cloud, cybersecurity 
+  Finance Monitor | — global markets, central banks, forex, crypto 
+  Commodity Monitor | — mining, energy, supply chains, freight 
+  Happy Monitor | — positive news, breakthroughs, conservation 
+  World Monitor Pro | — AI analyst, personalized digests, MCP for Claude & GPT 
+  Blog | — OSINT guides, geopolitics, market intelligence 
+  What is World Monitor? 
+  OSINT for everyone — open-source intelligence democratized 
+  Five dashboards, one platform — the variants explained 
+  Open source on GitHub (AGPL-3.0) 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. S&P 500, Nasdaq to open lower as Broadcom revenue miss dents chip stocks
+  2. Nasdaq futures lead declines after Broadcom results disappoint
+  3. Wall Street futures remain mixed: 5 things to know before markets open
+  4. Nasdaq futures lead declines after Broadcom drop
+  5. Morningstar Thinks SpaceX Is Only Worth $780 Billion — WSJ
+  6. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-06-03
+  7. Dot-Com Bubble Deja Vu? 'Big Short' Michael Burry's Chart Shows AI Chip Rally Is Within 7% Of 2000 Peak
+  8. Here’s why the crypto market is crashing and liquidations are rising
+  9. Wall St ends modestly higher as AI zeal overcomes Middle East jitters
+  10. Dow, S&P 500 scale peaks as HPE, Alphabet fuel AI momentum
+  11. Stocks rally on AI optimism; jitters over Iran simmer 
+  12. Citi Strategists Warn of Risk in Overleveraged U.S. Tech Stocks
+  13. S&P 500 rally pauses as correlations flash early warning
+  14. Stocks struggle after Broadcom dive; oil drops off highs
+  15. US INITIAL CLAIMS FOR JOBLESS BENEFITS: UNADJUSTED INITIAL CLAIMS 187,978, -121; UNADJUSTED INSURED UNEMP RATE TWO WKS AGO 1.1%, UNCHANGED
+
+=== ECONOMIC CALENDAR — 2026-06-04 ===
+  [-1] Challenger Job Cuts — Actual: 97.006 | Forecast: None | Prev: 83.387
+  [0] Initial Jobless Claims — Actual: 225 | Forecast: 213 | Prev: 212
+  [-1] Jobless Claims 4-week Average — Actual: 214.75 | Forecast: None | Prev: 208.25
+  [-1] Continuing Jobless Claims — Actual: 1777 | Forecast: 1780 | Prev: 1785
+  [-1] Nonfarm Productivity QoQ Final — Actual: 0.3 | Forecast: 0.5 | Prev: 1.6
+  [-1] Unit Labour Costs QoQ Final — Actual: 1.8 | Forecast: 2.5 | Prev: 2.1
+  [0] Fed Barkin Speech — Actual: None | Forecast: None | Prev: None
+  [-1] NY Fed Bill Purchases 1 to 4 months — Actual: None | Forecast: 6.576 | Prev: None
+  [-1] EIA Natural Gas Stocks Change — Actual: None | Forecast: 101 | Prev: 92
+  [-1] 4-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.63
+  [-1] 8-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.615
+  [-1] 15-Year Mortgage Rate — Actual: None | Forecast: None | Prev: 5.87
+  [-1] 30-Year Mortgage Rate — Actual: None | Forecast: None | Prev: 6.53
+  [0] Fed Daly Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Fed Balance Sheet — Actual: None | Forecast: None | Prev: 6.704
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BULLISH (score: 20.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: RANGING | 4H: BULLISH | 1H: RANGING | 15m: BEARISH
+
+  [Daily] Structure: RANGING
+    Price: 30317.5 | PrevH: 30807.75 | PrevL: 30478.25
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-02 UP(30544.75->30712.75) > 2026-06-03 DOWN(30741.75->30633.25) > 2026-06-04 DOWN(30453.0->30317.5)
+
+  [4H] Structure: BULLISH
+    Price: 30317.5 | PrevH: 30500.25 | PrevL: 30164.25
+    Nearest Resistance (swing high above): 30379.0
+    Nearest Support (swing low below): 30291.5
+    Recent: 2026-06-04 UP(30475.0->30500.0) > 2026-06-04 DOWN(30499.25->30280.75) > 2026-06-04 UP(30279.25->30317.5)
+
+  [1H] Structure: RANGING
+    Price: 30317.5 | PrevH: 30330.0 | PrevL: 30223.0
+    Nearest Resistance (swing high above): 30344.5
+    Nearest Support (swing low below): 30291.5
+    Recent: 2026-06-04 UP(30245.25->30280.75) > 2026-06-04 UP(30279.25->30309.75) > 2026-06-04 UP(30310.25->30317.5)
+
+  [15m] Structure: BEARISH
+    Price: 30317.75 | PrevH: 30317.0 | PrevL: 30287.75
+    Nearest Resistance (swing high above): 30349.0
+    Nearest Support (swing low below): 30291.5
+    CHoCH: CHoCH — broke above swing high (structure flip) @ 30290.0 (2026-06-04)
+    Recent: 2026-06-04 UP(30308.75->30309.75) > 2026-06-04 DOWN(30310.25->30301.75) > 2026-06-04 UP(30300.25->30317.75)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  Live NQ Price: 30317.5 | O:30325.25 H:30325.25 L:30317.25 (-0.03% today)
+  Chart: CME_MINI_DL:NQ1! | TF: 5m
+  Demand/Support Zones below price:
+    SUPPLY: 29582.64 - 29584.48  [SUPPLY]
+    DEMAND: 29257.63 - 29265.4  [DEMAND]
+    DEMAND: 27926.94 - 27944.48  [DEMAND]
+  Uptrend lines: 3 (huge  cluster + P failed, Trend (UP), 1 sl due this range trap)
+  Downtrend lines: 7 (Trend (DOWN), Trend (DOWN), Trend (DOWN))
+  Trader Long Positions (15): [26742.5, 26742.5] | [24355, 24355] | [25340.75, 25340.75]
+  Trader Short Positions (20): [24223, 24223] | [29328.5, 29328.5] | [24064.5, 24064.5]
+  [190 total drawings on chart]
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-04.

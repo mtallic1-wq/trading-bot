@@ -1,0 +1,78 @@
+ANALYSIS DATE: 2026-04-20
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.147 | Day: +0.048% | 5-Day: -0.23%
+  VIX (Fear Index): 18.93 | Day: +8.295% | 5-Day: -0.99%
+  10Y Treasury Yield: 4.248 | Day: +0.047% | 5-Day: -1.14%
+  Gold: 4841.2 | Day: -0.338% | 5-Day: +2.08%
+  Crude Oil: 86.09 | Day: +2.671% | 5-Day: -13.11%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 26748.0 | Trend: UP
+  1D: -0.29% | 5D: 4.72% | 10D: 9.81%
+  Prev High: 26884.75 | Prev Low: 26440.0 | Prev Close: 26825.5
+  Week High: 26884.75 | Week Low: 24904.5
+  Last 5 Candles: 2026-04-14 UP (O:25575.25 H:26003.25 L:25560.0 C:25996.75) | 2026-04-15 UP (O:25985.75 H:26377.5 L:25933.75 C:26365.5) | 2026-04-16 UP (O:26350.0 H:26564.0 L:26275.5 C:26487.25) | 2026-04-17 UP (O:26460.0 H:26884.75 L:26440.0 C:26825.5) | 2026-04-20 UP (O:26599.75 H:26827.75 L:26535.0 C:26748.0)
+
+=== ES — S&P 500 Futures ===
+  Price: 7145.5 | Trend: UP
+  1D: -0.22% | 5D: 3.22% | 10D: 7.43%
+  Prev High: 7185.75 | Prev Low: 7075.25 | Prev Close: 7161.5
+  Week High: 7185.75 | Week Low: 6767.0
+  Last 5 Candles: 2026-04-14 UP (O:6925.25 H:7008.0 L:6920.25 C:7004.75) | 2026-04-15 UP (O:7004.0 H:7064.5 L:6991.75 C:7060.5) | 2026-04-16 UP (O:7057.25 H:7089.0 L:7046.5 C:7077.0) | 2026-04-17 UP (O:7077.25 H:7185.75 L:7075.25 C:7161.5) | 2026-04-20 UP (O:7102.5 H:7154.5 L:7085.0 C:7145.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Stock sag as US-Iran tensions increase againMajor gauges slipped after an Iranian tanker was seized by US forces in the Strait of Hormuz
+  2. Hormuz traffic at standstill after US seizes Iran-linked ship, oil surges
+  3. How Charlie Ergen's SpaceX windfall could net billions
+  4. Psychedelic drugmakers jump as Trump fast-tracks FDA reviews
+  5. Consumers think 2026 won't be the year of bitcoin's comeback: Deutsche Bank
+  6. Amazon expected to report a strong quarter on the backs of AI demand
+  7. Refund portal opens for tariffs struck down by Supreme Court
+  8. CEOs should ring 'the fire alarm' on AI reorganization: Writer co-founder
+  9. Semiconductor stocks haven't been this hot since the dot-com bubble
+  10. Tesla earnings: Energy storage to pick up the slack
+  11. India and South Korea plan $50 billion trade push with new deals
+  12. Factbox-Airlines cancel flights amid Middle East conflict
+  13. Biogen buys China rights to immune disease drug in up to $850 million deal with TJ Biopharma
+  14. Bond investors propose crisis 'pause clauses' for emerging countries
+  15. Central bank independence in focus as Fed chair nominee Kevin Warsh faces confirmation hearing
+  16. Copper Wavers Near Two-Month High as US-Iran Tensions Escalate
+  17. Here's the stealthy reason stocks are at record highs
+  18. The hidden genius behind Babybel's cheese wax coatingBel North America CEO Peter McGuiness and Yahoo Finance Executive Editor Brian Sozzi break down how Babybel cheese’s iconic red wax coating became a hands-on ritual that transformed cheese into a fun, portion-controlled snack.
+  19. What is Anthropic Mythos? And is it dangerous?
+  20. Blocking Kevin Warsh's confirmation could have 'grave' consequences
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Records all around, but the Dow RSVP's 'No'
+  2. Wall Street set for lower open as U.S.-Iran tensions rise
+  3. US stock futures fall after rally as Mideast tensions flare
+  4. Green light, red light
+  5. Wall Street indexes hit record  highs as oil falls with Strait of Hormuz declared open
+  6. Wall Street indexes rally as oil falls with Strait of Hormuz opening
+  7. Wall Street indexes rally after Iran says Strait of Hormuz 'completely open'
+  8. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-17
+  9. Wall Street poised for strong open after Iran says Strait of Hormuz open during ceasefire
+  10. From selloff to stampede: Magnificent Seven ETF nears a crossroads
+  11. Wall St poised to open higher on Middle East peace hopes
+  12. Wall St poised for weekly gain as futures climb on Middle East peace hopes
+  13. Investors give peace a chance
+  14. Wall St futures climb on Middle East peace hopes as investors eye strong finish to week
+  15. S&P 500 Falls 12.97 Points (0.18%)
+
+=== ECONOMIC CALENDAR — 2026-04-20 ===
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.61
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.62
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-20.

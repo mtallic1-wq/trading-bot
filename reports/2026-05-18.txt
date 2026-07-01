@@ -1,0 +1,77 @@
+ANALYSIS DATE: 2026-05-18
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.07 | Day: -0.201% | 5-Day: +1.15%
+  VIX (Fear Index): 18.51 | Day: +0.434% | 5-Day: +0.71%
+  10Y Treasury Yield: 4.585 | Day: -0.218% | 5-Day: +3.97%
+  Gold: 4575.3 | Day: +0.428% | 5-Day: -3.04%
+  Crude Oil: 99.68 | Day: -5.445% | 5-Day: +1.64%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29370.75 | Trend: UP
+  1D: 0.48% | 5D: -0.18% | 10D: 5.74%
+  Prev High: 29734.0 | Prev Low: 29089.75 | Prev Close: 29231.75
+  Week High: 29782.0 | Week Low: 28742.0
+  Last 5 Candles: 2026-05-12 DOWN (O:29399.0 H:29455.75 L:28742.0 C:29170.0) | 2026-05-13 UP (O:29143.75 H:29565.5 L:29055.5 C:29479.25) | 2026-05-14 UP (O:29537.0 H:29782.0 L:29448.25 C:29687.75) | 2026-05-15 DOWN (O:29690.0 H:29734.0 L:29089.75 C:29231.75) | 2026-05-18 UP (O:29135.0 H:29419.75 L:28926.0 C:29370.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. How Nvidia's stock historically performs after earningsThe longer-term picture has been much stronger when buying Nvidia just before its results release.
+  2. Dow leads stocks lower amid rising yields, oil prices
+  3. UnitedHealth Group  slides after Berkshire exits position
+  4. SpaceX reportedly issues 5-for-1 stock split
+  5. Lululemon pushes back in proxy battle, calls founde's views 'outdated'
+  6. Global bond rout deepens as Iran war fans inflation fears
+  7. Investors eye Nvidia, bond yields, and the next commodity supercycle
+  8. Why Nvidia earnings must deliver massively
+  9. NextEra Energy to acquire Dominion in $66.8 billion deal
+  10. Did your HOA dues spike last year? You're not alone.
+  11. Is the stock market open on Memorial Day? 10 market holidays in 2026.
+  12. Oil Declines After Report US Proposed Iran Sanctions Waiver
+  13. Under pressure: Tracking the pain in G7 government debt
+  14. Brazil growth holds in Q1, but steep March fall points to cooling
+  15. Bitcoin at Two-Week Low as Crypto Liquidations Top $600 Million
+  16. When will I get my Social Security check? Payment schedule for the week and month.
+  17. Iran Starts Bitcoin-Backed Shipping Insurance for Hormuz Strait
+  18. How Nvidia could once again become the 'flavor of the day'Nvidia (NVDA) reports first quarter earnings results on Wednesday, May 20. B. Riley Wealth chief market strategist Art Hogan, Yahoo Finance Senior Business Reporter Ines Ferré, and Yahoo Finance Senior Reporter Brooke DiPalma join Yahoo Finance Executive Editor Brian Sozzi to discuss their expectations for the print, highlighting why Nvidia needs to knock it out of the park.
+  19. Big earnings on deck: What to watch next week
+  20. 'AI For Good': This writer explores AI's benefits to humanity
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  500+ curated RSS news feeds, 65+ external data sources, 50+ map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St set to open higher as chips rebound, yields retreat
+  2. Wall Street futures slip as higher yields, oil prices weigh
+  3. Bonds spoil the AI party
+  4. US stock futures slip as yields, oil prices climb
+  5. Wall Street ends lower on mounting inflation worries
+  6. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-15
+  7. Wall Street pulls back from all-time highs on inflation worries
+  8. Wall St retreats as rising yields test AI-fueled gains
+  9. Wall St falls as higher yields threaten AI-led rally
+  10. The $410 billion trade: How the AI IPO boom could reshuffle indexes
+  11. S&P 500 rally hits new highs, but cracks emerge beneath the surface 
+  12. Wall Street set to drop at open as yields jump on inflation worries
+  13. Nasdaq, S&P 500 futures tumble as yields jump on inflation worries
+  14. A bad case of the bond blues
+  15. RECAPPING: US NY FED REGIONAL SERVICE PRICES PAID INDEX 73.4 IN MAY VS. 73.8 IN APRIL
+
+=== ECONOMIC CALENDAR — 2026-05-18 ===
+  [-1] NY Fed Services Activity Index — Actual: -5.8 | Forecast: None | Prev: -14
+  [0] Fed Venable Speech — Actual: None | Forecast: None | Prev: None
+  [0] NAHB Housing Market Index — Actual: None | Forecast: 35 | Prev: 34
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.615
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.61
+  [-1] Foreign Bond Investment — Actual: None | Forecast: None | Prev: 2
+  [-1] Overall Net Capital Flows — Actual: None | Forecast: None | Prev: 184.5
+  [0] Net Long-term TIC Flows — Actual: None | Forecast: None | Prev: 58.6
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-18.

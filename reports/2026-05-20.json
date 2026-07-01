@@ -1,0 +1,582 @@
+{
+  "date": "2026-05-20",
+  "created": "2026-05-20T18:09:08.707928",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 29118.25,
+    "prev_day_high": 29188.5,
+    "prev_day_low": 28663.0,
+    "prev_day_close": 28924.25,
+    "week_high": 29782.0,
+    "week_low": 28663.0,
+    "trend": "SIDEWAYS",
+    "performance": {
+      "1d_pct": 0.67,
+      "5d_pct": -1.22,
+      "10d_pct": 1.4
+    },
+    "recent_candles": [
+      {
+        "date": "2026-05-14",
+        "open": 29537.0,
+        "high": 29782.0,
+        "low": 29448.25,
+        "close": 29687.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-15",
+        "open": 29690.0,
+        "high": 29734.0,
+        "low": 29089.75,
+        "close": 29231.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-05-18",
+        "open": 29135.0,
+        "high": 29419.75,
+        "low": 28814.75,
+        "close": 29096.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-05-19",
+        "open": 29100.0,
+        "high": 29188.5,
+        "low": 28663.0,
+        "close": 28924.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-05-20",
+        "open": 28929.75,
+        "high": 29169.25,
+        "low": 28797.25,
+        "close": 29118.25,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 99.367,
+      "day_chg": 0.067,
+      "5d_chg": 0.9
+    },
+    "VIX (Fear Index)": {
+      "price": 17.94,
+      "day_chg": -0.664,
+      "5d_chg": 0.39
+    },
+    "10Y Treasury Yield": {
+      "price": 4.651,
+      "day_chg": -0.343,
+      "5d_chg": 3.79
+    },
+    "Gold": {
+      "price": 4497.0,
+      "day_chg": -0.206,
+      "5d_chg": -4.27
+    },
+    "Crude Oil": {
+      "price": 101.7,
+      "day_chg": -5.632,
+      "5d_chg": 0.67
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Nvidia's high-stakes earnings are on deck. What to expect.The world's most valuable company is set to report results as its stock continues to rally even as rivals gain ground.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-to-report-q1-earnings-as-chip-competition-grows-191200841.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock futures rise in countdown to Nvidia earnings",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-in-countdown-to-nvidia-earnings-222757872.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Build-to-rent split could derail a bill to make houses affordable",
+        "url": "https://finance.yahoo.com/sectors/real-estate/article/the-house-is-set-to-vote-on-major-housing-affordability-legislation-disagreements-over-a-key-part-of-the-rental-market-could-keep-it-from-becoming-law-103000936.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump acquired stock in Disney, Netflix as he slammed them",
+        "url": "https://finance.yahoo.com/markets/stocks/article/trump-acquired-stock-in-companies-like-walt-disney-jpmorgan-and-netflix-even-as-he-threatened-them-publicly-100600439.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "CEOs are getting ruthless about worker performance",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/ceos-getting-ruthless-worker-performance-094511146.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Value stocks with earnings strength post 3,500% run since 2000",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/value-stocks-earnings-strength-post-113354509.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Iran threatens to retaliate beyond Middle East if US attacks",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/iran-threatens-retaliate-beyond-middle-105019270.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Investors might be penalizing Nvidia for not boosting cash returns",
+        "url": "https://finance.yahoo.com/markets/article/investors-might-be-penalizing-nvidia-for-not-boosting-cash-returns-like-its-big-tech-peers-122358951.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Intel, Micron, other chip stocks extend bounce ahead of Nvidia results",
+        "url": "https://finance.yahoo.com/markets/article/intel-micron-and-other-semiconductor-stocks-extend-bounce-ahead-of-nvidia-earnings-114957534.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US mortgage rates rise to highest level in 7 weeks: MBA",
+        "url": "https://finance.yahoo.com/economy/policy/articles/us-mortgage-rates-rise-6-110246789.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Exclusive-ASML CEO sees tight supply in booming chip market as AI demand soars",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/exclusive-asml-ceo-sees-tight-130313584.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "AI shift forces skills rethink at India tech hubs, Kimberly-Clark executive says",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/ai-shift-forces-skills-rethink-130213635.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "When will gas prices go down? Brace for 'most volatile summer at the pump in years.'",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/when-will-gas-prices-go-down-brace-for-most-volatile-summer-at-the-pump-in-years-154506668.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Wall St set to open higher as chip stocks rally ahead of Nvidia results",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-climb-chip-100808950.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Meta Begins 8,000 Global Job Cuts in AI Efficiency Push",
+        "url": "https://finance.yahoo.com/news/meta-begins-8000-global-job-cuts-in-asian-hub-of-singapore-004153264.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bond yields pause near recent highs, stocks steady ahead of Nvidia results",
+        "url": "https://finance.yahoo.com/news/asian-stocks-fall-4th-day-020854458.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "India's Nykaa seeks to include Meta in music copyright fight with Zee",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/indias-nykaa-seeks-meta-music-123316522.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "There are '2 bear cases' for Nvidia ahead of earningsNvidia (NVDA) reports first quarter earnings results on Wednesday after the closing bell. Gabelli Funds portfolio manager John Belton joins Yahoo Finance to share his expectations for the print, as well as two reasons one might be bearish on the stock.",
+        "url": "https://finance.yahoo.com/video/2-bear-cases-nvidia-ahead-120000319.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Forget \"k-shape\", this is a \"Pac-Man\" economy",
+        "url": "https://finance.yahoo.com/video/forget-k-shape-this-is-a-pac-man-economy-110000648.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Nvidia earnings: TSM's results may give 'a clue' on what to expect",
+        "url": "https://finance.yahoo.com/video/nvidia-earnings-tsms-results-may-100000386.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Is the Fed speaking too much?",
+        "url": "https://finance.yahoo.com/economy/policy/articles/problem-fed-speaks-too-much-090051750.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Trump returns from Beijing to sticker shock at home",
+        "url": "https://finance.yahoo.com/economy/policy/articles/brass-bands-beijing-way-sticker-121432471.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Venezuela's draft oil law lets ministry set tax rates",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/venezuelas-draft-oil-law-lets-225931582.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "What do conservatives think inflation is?",
+        "url": "https://finance.yahoo.com/economy/policy/articles/just-exactly-conservatives-think-inflation-140000185.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Red and green flags to watch with Kevin Warsh at the Fed",
+        "url": "https://finance.yahoo.com/economy/policy/articles/wall-street-keeping-close-eye-080000292.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Where will Bitcoin be when the Fed cuts rates?",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/asked-claude-ai-where-bitcoin-162433459.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "What is a 'c-shaped' economy? Wall Street's new buzzword",
+        "url": "https://finance.yahoo.com/economy/articles/c-shaped-economy-wall-streets-173144457.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Major bank drops bombshell on Fed rate bets",
+        "url": "https://finance.yahoo.com/economy/policy/articles/major-bank-drops-bombshell-fed-170700231.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "BlackRock's Jeff Rosenberg pushes back on inflation panic",
+        "url": "https://finance.yahoo.com/economy/policy/articles/blackrocks-jeff-rosenberg-pushes-back-163029528.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed rate cuts in 2026 now \"essentially off the table,\" says Yardeni Research",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-cuts-2026-now-102912675.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 46
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "500+ curated RSS news feeds, 65+ external data sources, 50+ map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n500+ curated RSS news feeds, 65+ external data sources, 50+ map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Wall St set to open higher as chip stocks rally ahead of Nvidia results",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779281571"
+      },
+      {
+        "title": "Wall Street futures climb as chip stocks rebound ahead of Nvidia results",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779278000"
+      },
+      {
+        "title": "Nvidia vigil",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779273329"
+      },
+      {
+        "title": "US stock futures climb as chip stocks rebound ahead of Nvidia results",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779271508"
+      },
+      {
+        "title": "Wall St ends lower as inflation worries push up yields",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779222699"
+      },
+      {
+        "title": "Wall St slips as inflation worries push yields higher",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779220848"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-19",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779216306"
+      },
+      {
+        "title": "Wall St slips as inflation worries push yields to new highs",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779207952"
+      },
+      {
+        "title": "Tax refund season fuels retail investor frenzy, with May set to smash records",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779202280"
+      },
+      {
+        "title": "Wall St slips as inflation fears push yields higher",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779201499"
+      },
+      {
+        "title": "US stock futures fall with investor focus on Nvidia\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779196992"
+      },
+      {
+        "title": "Wall St eyes lower open on extended chip selloff, inflation concerns",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779195706"
+      },
+      {
+        "title": "US stock futures fall on extended chip losses, inflation worries",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779191457"
+      },
+      {
+        "title": "US stock futures fall as chips extend slide, inflation worries persist",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1779185564"
+      },
+      {
+        "title": "HEADS UP: FED GOV BARR REMARKS ON CONSUMER FINANCIAL HEALTH METRICS AT FINANCIAL HEALTH NETWORK CONFERENCE COMING UP AT 9:15A ET",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1779282240"
+      },
+      {
+        "title": "US Futures Rebound Ahead of Nvidia",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1779277328"
+      },
+      {
+        "title": "US MBA 30-YEAR FIXED MORTGAGE CONTRACT RATE 6.56% IN MAY 15 WEEK; +10 BPS VS 1 WEEK AGO, +21 BPS VS 4 WEEKS AGO, -36 BPS VS 1 YEAR AGO",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1779274800"
+      },
+      {
+        "title": "US MBA 5-YEAR ARM MORTGAGE CONTRACT RATE 5.76% IN MAY 15 WEEK; +6 BPS VS 1 WEEK AGO, +28 BPS VS 4 WEEKS AGO, -40 BPS VS 1 YEAR AGO",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1779274800"
+      },
+      {
+        "title": "US MBA ADJUSTABLE-RATE MORTGAGE INDEX +6.7% IN MAY 15 WEEK; +13.0% VS 4 WEEKS AGO; +62.4% VS 1 YEAR AGO",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1779274800"
+      },
+      {
+        "title": "US MBA DEPUTY CHIEF ECONOMIST KAN: \u2018OVERALL APPLICATIONS WERE DOWN TO THE LOWEST LEVEL IN FIVE WEEKS\u2019 IN MORTGAGE MARKET",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1779274800"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "MBA Mortgage Market Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "283.5",
+        "forecast": "None",
+        "previous": "290.1"
+      },
+      {
+        "title": "MBA 30-Year Mortgage Rate",
+        "country": "US",
+        "impact": "0",
+        "actual": "6.56",
+        "forecast": "None",
+        "previous": "6.46"
+      },
+      {
+        "title": "MBA Mortgage Refinance Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "920.2",
+        "forecast": "None",
+        "previous": "921.1"
+      },
+      {
+        "title": "MBA Mortgage Applications",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-2.3",
+        "forecast": "None",
+        "previous": "1.7"
+      },
+      {
+        "title": "MBA Purchase Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "170.4",
+        "forecast": "None",
+        "previous": "177.7"
+      },
+      {
+        "title": "Fed Paulson Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Fed Barr Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "EIA Heating Oil Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "0.153"
+      },
+      {
+        "title": "EIA Distillate Fuel Production Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.124"
+      },
+      {
+        "title": "EIA Crude Oil Imports Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.318"
+      },
+      {
+        "title": "EIA Gasoline Stocks Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-2.1",
+        "previous": "-4.084"
+      },
+      {
+        "title": "EIA Refinery Crude Runs Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "0.37"
+      },
+      {
+        "title": "EIA Gasoline Production Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "0.222"
+      },
+      {
+        "title": "EIA Cushing Crude Oil Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-1.702"
+      },
+      {
+        "title": "EIA Crude Oil Stocks Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-2.9",
+        "previous": "-4.306"
+      },
+      {
+        "title": "EIA Distillate Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "-1.1",
+        "previous": "0.19"
+      },
+      {
+        "title": "17-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.615"
+      },
+      {
+        "title": "20-Year Bond Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "4.883"
+      },
+      {
+        "title": "FOMC Minutes",
+        "country": "US",
+        "impact": "1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is up 0.067% on the day and 0.90% over the past 5 days, indicating a moderate strengthening of the US dollar, which could be a headwind for tech/growth stocks like those in the NQ.\n* The VIX (Fear Index) is down 0.664% on the day but up 0.39% over the past 5 days, suggesting a mixed sentiment with a slight increase in fear or volatility.\n* The 10Y Treasury Yield is down 0.343% on the day but up 3.79% over the past 5 days, indicating a recent rise in yields that could pressure tech/growth stocks.\n* Gold and Crude Oil prices are down, with Gold decreasing by 0.206% and Crude Oil by 5.632% on the day, suggesting a risk-off sentiment in commodities.\nGiven these indicators, the environment is leaning towards a **RISK-OFF** scenario, but with mixed signals.\n\n## KEY NEWS ANALYSIS\nThe major headlines from Yahoo Finance, World Monitor, and TradingView suggest a focus on Nvidia's upcoming earnings, chip stock performance, and general market sentiment. Nvidia's earnings are highly anticipated, and any positive results could boost the NQ, while negative results could lead to a sell-off. The overall news sentiment is **MIXED**, with both bullish and bearish factors at play, primarily centered around the tech sector's performance and the impact of Nvidia's earnings.\n\n## ECONOMIC EVENTS IMPACT\nThe economic calendar events for the day include the MBA Mortgage Market Index and Fed speeches, which may have a minor impact on the market. The MBA Mortgage Market Index showed a decrease, and the 30-Year Mortgage Rate increased to 6.56%, which could slightly affect market sentiment. However, these events are not expected to significantly influence the NQ's direction during the NYSE session.\n\n## NQ MARKET CONTEXT\nThe NQ is currently trending sideways, with a 1D change of 0.67% and a 5D change of -1.22%. The previous day's high was 29188.5, and the previous day's low was 28663.0. The recent candle structure shows a mix of up and down days, indicating indecision in the market.\n\n## PREDICTION\n**NYSE SESSION SIDE: BUY SIDE**\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | BULLISH | 60% | MEDIUM |\n**NQ Prediction: BULLISH**\n**Confidence: 60% \u2014 MEDIUM**\n\n## TOP REASONS\n1. The anticipation of Nvidia's earnings and the potential for a positive surprise could boost the NQ.\n2. The mixed macroeconomic indicators and news sentiment suggest that while there are headwinds, the market is not overwhelmingly bearish.\n3. The recent sideways trend in the NQ could be broken to the upside if Nvidia's earnings exceed expectations.\n\n## KEY RISKS\n- A negative surprise from Nvidia's earnings could lead to a significant sell-off in the NQ.\n- Further strengthening of the US dollar and increase in yields could pressure tech/growth stocks.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- Nvidia's earnings report after the closing bell.\n- Reaction of chip stocks and the broader tech sector to Nvidia's earnings.\n- Any significant moves in the DXY, VIX, or 10Y Treasury Yield that could influence market sentiment.\n\n## ONE-LINE SUMMARY\n\"2026-05-20 NYSE SESSION: BUY SIDE \u2014 Anticipation of Nvidia's earnings and mixed macroeconomic indicators suggest a potential upside for the NQ, despite risks and a mixed news sentiment.\"",
+    "bias_nq": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

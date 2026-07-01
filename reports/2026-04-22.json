@@ -1,0 +1,618 @@
+{
+  "date": "2026-04-22",
+  "created": "2026-04-22T18:25:31.342595",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "bias_es": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 26834.75,
+    "prev_day_high": 26901.75,
+    "prev_day_low": 26551.75,
+    "prev_day_close": 26634.75,
+    "week_high": 26901.75,
+    "week_low": 25933.75,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.75,
+      "5d_pct": 1.78,
+      "10d_pct": 7.02
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-16",
+        "open": 26350.0,
+        "high": 26564.0,
+        "low": 26275.5,
+        "close": 26487.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-17",
+        "open": 26460.0,
+        "high": 26884.75,
+        "low": 26440.0,
+        "close": 26825.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-20",
+        "open": 26599.75,
+        "high": 26827.75,
+        "low": 26535.0,
+        "close": 26748.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-21",
+        "open": 26776.75,
+        "high": 26901.75,
+        "low": 26551.75,
+        "close": 26634.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-22",
+        "open": 26729.5,
+        "high": 26900.5,
+        "low": 26727.75,
+        "close": 26834.75,
+        "direction": "UP"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 7143.0,
+    "prev_day_high": 7183.0,
+    "prev_day_low": 7085.0,
+    "prev_day_close": 7100.0,
+    "week_high": 7185.75,
+    "week_low": 6991.75,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.61,
+      "5d_pct": 1.17,
+      "10d_pct": 4.68
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-16",
+        "open": 7057.25,
+        "high": 7089.0,
+        "low": 7046.5,
+        "close": 7077.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-17",
+        "open": 7077.25,
+        "high": 7185.75,
+        "low": 7075.25,
+        "close": 7161.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-20",
+        "open": 7102.5,
+        "high": 7160.5,
+        "low": 7085.0,
+        "close": 7148.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-21",
+        "open": 7150.75,
+        "high": 7183.0,
+        "low": 7085.0,
+        "close": 7100.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-22",
+        "open": 7125.0,
+        "high": 7157.25,
+        "low": 7121.25,
+        "close": 7143.0,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.486,
+      "day_chg": 0.077,
+      "5d_chg": 0.43
+    },
+    "VIX (Fear Index)": {
+      "price": 19.06,
+      "day_chg": -2.256,
+      "5d_chg": 4.9
+    },
+    "10Y Treasury Yield": {
+      "price": 4.282,
+      "day_chg": -0.233,
+      "5d_chg": 0.0
+    },
+    "Gold": {
+      "price": 4761.6,
+      "day_chg": 1.345,
+      "5d_chg": -0.8
+    },
+    "Crude Oil": {
+      "price": 91.32,
+      "day_chg": -0.879,
+      "5d_chg": 0.03
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Best Buy taps insider Bonfig for new CEO, as Barry steps downThe retailer's first female CEO Corie Barry will be succeeded by Jason Bonfig, head of supply chain and marketing.",
+        "url": "https://finance.yahoo.com/news/best-buy-taps-insider-jason-bonfig-as-new-ceo-corie-barry-steps-down-110239178.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock futures rise after Trump bumps truce, earnings roll in",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-after-trump-extends-us-iran-ceasefire-230429647.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Warsh set to lead Fed as a potentially major crisis looms",
+        "url": "https://finance.yahoo.com/economy/policy/article/kevin-warsh-set-to-lead-the-us-economy-facing-a-very-wide-range-of-outcomes-as-iran-war-energy-shock-and-labor-uncertainty-loom-100000526.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Google deepens Thinking Machines Lab ties with multi-billion-dollar deal",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/exclusive-google-deepens-thinking-machines-120000140.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "One Elon Musk superpower to remember on Tesla earnings day",
+        "url": "https://finance.yahoo.com/news/one-elon-musk-superpower-to-remember-on-tesla-earnings-day-125036490.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Iran gunboats menace Hormuz as its tankers test US blockade",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/iran-gunboats-menace-hormuz-own-105347562.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Are American consumers finally cracking under the weight of $4 gas?",
+        "url": "https://finance.yahoo.com/news/are-consumers-finally-cracking-under-the-weight-of-4-gas-111859680.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Boeing's Q1 results beat as deliveries boost turnaround",
+        "url": "https://finance.yahoo.com/markets/stocks/article/boeing-q1-results-top-estimates-as-improving-jet-deliveries-cut-losses-173026652.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SpaceX seals option to buy AI startup Cursor for $60 billion",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-says-option-acquire-startup-222402178.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What Apple's choice of Ternus as CEO tells us about its future",
+        "url": "https://finance.yahoo.com/sectors/technology/article/what-apples-naming-of-john-ternus-as-ceo-tells-us-about-the-future-of-the-company-113817040.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "GE Vernova stock soars 8% on strong quarter, guidance raise",
+        "url": "https://finance.yahoo.com/markets/stocks/article/ge-vernova-stock-soars-8-on-strong-quarter-guidance-raise-132104910.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Gaming industry could unlock $22 billion in profits on AI-driven cost cuts, says Morgan Stanley",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/gaming-industry-could-unlock-22-130801828.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Delay in Medicare pilot for obesity drugs may not hurt near-term demand, analysts say",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/delay-medicare-pilot-obesity-drugs-131313065.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "How to invest in silver: A beginner's guide",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/how-to-invest-in-silver-for-beginners-120000199.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Fed rate cut pushed back to late 2026 on war-related inflation risks: Reuters poll",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-cut-pushed-back-124922459.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil Rises on Elusive Peace Deal Outlook, Iran Gunboat Attacks",
+        "url": "https://finance.yahoo.com/news/oil-falls-after-iran-says-it-received-sign-us-will-end-blockade-053757101.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "ServiceNow draws hedge fund shorts as AI concerns dent sentiment, J.P. Morgan says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-draws-hedge-fund-shorts-123504132.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SpaceX IPO: could Musk pick Texas over Nasdaq?Exchanges are clamoring over SpaceX's highly anticipated IPO, but could Elon Musk and Company defy norms and list on the Texas Stock Exchange rather than the Nasdaq or NYSE? Trader Talk host Kenny Polcari is joined by Amy Wu Silverman, RBC Capital Markets Head of Derivatives Strategy, Kevin Kelly, Kelly Intelligence Founder, CEO and CCO, and former Ellevest Head of People Ops Amanda Polcari to discuss.",
+        "url": "https://finance.yahoo.com/video/spacex-ipo-could-musk-pick-texas-over-nasdaq-120000222.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "This is the 'number one job' for entry-level workers right now",
+        "url": "https://finance.yahoo.com/video/this-is-the-number-one-job-for-entry-level-workers-right-now-110000187.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tech Earnings: expect cautious guidance in 2026",
+        "url": "https://finance.yahoo.com/video/tech-earnings-expect-cautious-guidance-in-2026-110000532.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bank of England \u2018flying blind\u2019 on inflationThe Bank of England is \u201cflying blind\u201d on inflation as policymakers decide whether to raise interest rates over the Iran war.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/bank-england-flying-blind-inflation-115701188.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Are consumers finally cracking under the weight of $4 gas?The warning signals from the consumer mount.",
+        "url": "https://finance.yahoo.com/news/are-consumers-finally-cracking-under-the-weight-of-4-gas-111859680.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kevin Warsh set to lead the US economy facing a 'very wide' range of outcomes as Iran war, energy shock, and labor uncertainty loomIf Kevin Warsh is confirmed as the next chair of the Federal Reserve, he will inherit the largest energy crisis on record.",
+        "url": "https://finance.yahoo.com/economy/policy/article/kevin-warsh-set-to-lead-the-us-economy-facing-a-very-wide-range-of-outcomes-as-iran-war-energy-shock-and-labor-uncertainty-loom-100000526.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Explainer-How the Iran war oil and gas supply shock compares with past disruptionsLONDON, April 22 (Reuters) - The U.-Israeli war with Iran and the closure of the Strait of Hormuz have caused the biggest oil supply disruption on record by daily output lost, though at least one earlier shock had a greater cumulative impact, according to Reuters calculations based on International Energy Agency and U.",
+        "url": "https://finance.yahoo.com/news/explainer-how-the-iran-war-oil-and-gas-supply-shock-compares-with-past-disruptions-052633500.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Warsh commits to monetary policy independence, says president expressing views on rates isn't a threatFederal Reserve chair nominee Kevin Warsh will tell Senate lawmakers Tuesday that setting interest rates independently is \"essential,\" but that the president's views on monetary policy don't threaten central bank independence.",
+        "url": "https://finance.yahoo.com/economy/policy/article/warsh-commits-to-monetary-policy-independence-says-president-expressing-views-on-rates-isnt-a-threat-172825788.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Workers aren't happy with their pay. But they're not looking to switch jobs, either.Workers' satisfaction with wage compensation plunged from 55.6% in November to 52.3% in March, a New York Fed survey showed.",
+        "url": "https://finance.yahoo.com/economy/article/workers-arent-happy-with-their-pay-but-theyre-not-looking-to-switch-jobs-either-172151650.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Central bank independence in focus as Fed chair nominee Kevin Warsh faces confirmation hearingKevin Warsh, President Trump's nominee to be the next chair of the Federal Reserve, is finally set to have his confirmation hearing on Tuesday in Washington.",
+        "url": "https://finance.yahoo.com/economy/policy/article/central-bank-independence-in-focus-as-fed-chair-nominee-kevin-warsh-faces-confirmation-hearing-112647540.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Waller strikes a cautious tone on rate cuts amid oil shockFederal Reserve governor Chris Waller said Friday that whether or not the Iran war ends soon, he's cautious about cutting interest rates right now.",
+        "url": "https://finance.yahoo.com/economy/article/feds-waller-strikes-a-cautious-tone-on-rate-cuts-amid-oil-shock-182620919.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed's Miran says inflation picture has deteriorated \u2014 but still favors multiple rate cuts this yearFederal Reserve Governor Stephen Miran suggested on Thursday that he's become slightly more hawkish because inflation looks a bit stickier and he now sees less reason for accommodative monetary policy than he once did.",
+        "url": "https://finance.yahoo.com/economy/article/feds-miran-says-inflation-picture-has-deteriorated--but-still-favors-multiple-rate-cuts-this-year-190100956.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "An AI economic boom may be underway, and economists say the US is best positioned to benefitUS GDP could grow by more than 10% by 2034 on the back of large-scale economic growth driven by the boom in AI, according to BNP Paribas economists.",
+        "url": "https://finance.yahoo.com/news/an-ai-economic-boom-may-be-underway-and-economists-say-the-us-is-best-positioned-to-benefit-182949936.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 57
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Investors are yet to notice AI efficiency in emerging markets, says HSBC",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776864013"
+      },
+      {
+        "title": "Too far, too fast? SOX stretch raises red flags\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776863395"
+      },
+      {
+        "title": "Wall Street poised to open higher on ceasefire extension relief",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776862616"
+      },
+      {
+        "title": "US stock index futures climb after Trump extends Iran truce",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776856490"
+      },
+      {
+        "title": "Another deadline dodged",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776854752"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-21",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776797106"
+      },
+      {
+        "title": "Small names, big gains: Small caps take the lead in 2026",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776776499"
+      },
+      {
+        "title": "Wall St set to open higher as AI optimism, earnings counter Middle East concerns",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776776120"
+      },
+      {
+        "title": "US stock futures climb as AI optimism, earnings counter Middle East concerns",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776769612"
+      },
+      {
+        "title": "Tech overwhelms Iran tension",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776768575"
+      },
+      {
+        "title": "US stock futures climb as AI optimism tempers Middle East concerns",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776763299"
+      },
+      {
+        "title": "Records all around, but the Dow RSVP's 'No'",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1776690313"
+      },
+      {
+        "title": "Why Coinbase and Robinhood Are Among the S&P 500's Biggest Risers Today \u2014 Barrons.com",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1776862260"
+      },
+      {
+        "title": "US Stock Futures Rise Toward Records",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1776858878"
+      },
+      {
+        "title": "US MBA 30-YEAR FIXED CONTRACT MORTGAGE RATE 6.35% IN APRIL 17 WEEK; -7 BPS VS 1 WEEK AGO, -8 BPS VS 4 WEEKS AGO, -55 BPS VS 1 YEAR AGO",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776855600"
+      },
+      {
+        "title": "US MBA 5-YEAR ARM CONTRACT MORTGAGE RATE 5.48% IN APRIL 17 WEEK; -15 BPS VS 1 WEEK AGO, -27 BPS VS 4 WEEKS AGO, -53 BPS VS 1 YEAR AGO",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776855600"
+      },
+      {
+        "title": "US MBA ADJUSTABLE-RATE MORTGAGE INDEX +2.9% IN APRIL 17 WEEK; -3.8% VS 4 WEEKS AGO; +37.9% VS 1 YEAR AGO",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776855600"
+      },
+      {
+        "title": "US MBA CHIEF ECONOMIST FRATANTONI: \u2018DESPITE THE GEOPOLITICAL UNCERTAINTY\u2019, HOUSING DEMAND SUPPORTED BY JOB MARKET\u2019",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776855600"
+      },
+      {
+        "title": "US MBA FIXED RATE MORTGAGE INDEX +8.4% IN APRIL 17 WEEK; -2.2% VS 4 WEEKS AGO; +29.2% VS 1 YEAR AGO",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776855600"
+      },
+      {
+        "title": "US MBA FRANTANTONI: \u2018HOMEBUYERS ARE EXPERIENCING A BUIYER\u2019S MARKET IIN MOST OF THE COUNTRY\u2019 DUE TO HIGHER INVENTORY",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1776855600"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "MBA Mortgage Market Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "303.3",
+        "forecast": "None",
+        "previous": "281"
+      },
+      {
+        "title": "MBA 30-Year Mortgage Rate",
+        "country": "US",
+        "impact": "0",
+        "actual": "6.35",
+        "forecast": "None",
+        "previous": "6.42"
+      },
+      {
+        "title": "MBA Mortgage Refinance Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "1023.1",
+        "forecast": "None",
+        "previous": "966.8"
+      },
+      {
+        "title": "MBA Mortgage Applications",
+        "country": "US",
+        "impact": "-1",
+        "actual": "7.9",
+        "forecast": "None",
+        "previous": "1.8"
+      },
+      {
+        "title": "MBA Purchase Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "175.6",
+        "forecast": "None",
+        "previous": "159.5"
+      },
+      {
+        "title": "EIA Crude Oil Imports Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-2.109"
+      },
+      {
+        "title": "EIA Distillate Fuel Production Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.169"
+      },
+      {
+        "title": "EIA Heating Oil Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.463"
+      },
+      {
+        "title": "EIA Gasoline Stocks Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-1.5",
+        "previous": "-6.328"
+      },
+      {
+        "title": "EIA Refinery Crude Runs Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-0.208"
+      },
+      {
+        "title": "EIA Gasoline Production Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "0.392"
+      },
+      {
+        "title": "EIA Cushing Crude Oil Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-1.727"
+      },
+      {
+        "title": "EIA Crude Oil Stocks Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-1.2",
+        "previous": "-0.913"
+      },
+      {
+        "title": "EIA Distillate Stocks Change",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "-2.5",
+        "previous": "-3.122"
+      },
+      {
+        "title": "17-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.625"
+      },
+      {
+        "title": "20-Year Bond Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "4.817"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "Gemini API error: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]\n\n## Macro Environment\n- DXY: 98.486 (day +0.08%) \n- VIX: 19.06 (day -2.26%) (Fear low \u2014 risk-on)\n- 10Y Yield: 4.282 (day -0.23%) \n- Gold: 4761.6 (day +1.34%)\n- Oil: 91.32 (day -0.88%)\n- Environment: **MIXED**\n\n## Recent Headlines (Yahoo Finance)\n  - Best Buy taps insider Bonfig for new CEO, as Barry steps downThe retailer's first female CEO Corie Barry will be succeeded by Jason Bonfig, head of supply chain and marketing.\n  - Stock futures rise after Trump bumps truce, earnings roll in\n  - Warsh set to lead Fed as a potentially major crisis looms\n  - Google deepens Thinking Machines Lab ties with multi-billion-dollar deal\n  - One Elon Musk superpower to remember on Tesla earnings day\n  - Iran gunboats menace Hormuz as its tankers test US blockade\n  - Are American consumers finally cracking under the weight of $4 gas?\n  - Boeing's Q1 results beat as deliveries boost turnaround\n\n## Market Trend\n- NQ: UP | Price: 26834.75 | 1D: 0.75% | 5D: 1.78%\n- ES: UP | Price: 7143.0 | 1D: 0.61% | 5D: 1.17%\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: BUY SIDE**\n**NQ: BULLISH** | **ES: BULLISH**\n\n_Note: Add ANTHROPIC_API_KEY to .env for full news-driven AI analysis with detailed reasoning._",
+    "bias_nq": "BULLISH",
+    "bias_es": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Fallback (API error)"
+  },
+  "errors": []
+}

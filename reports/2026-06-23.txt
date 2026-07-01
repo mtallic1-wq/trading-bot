@@ -1,0 +1,117 @@
+ANALYSIS DATE: 2026-06-23
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 101.306 | Day: +0.283% | 5-Day: +1.68%
+  VIX (Fear Index): 19.3 | Day: +11.690% | 5-Day: +19.14%
+  10Y Treasury Yield: 4.481 | Day: +0.674% | 5-Day: -0.13%
+  Gold: 4156.7 | Day: -0.603% | 5-Day: -3.96%
+  Crude Oil: 72.71 | Day: -2.820% | 5-Day: -9.96%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29966.25 | Trend: UP
+  1D: -2.24% | 5D: -1.94% | 10D: 1.74%
+  Prev High: 30968.0 | Prev Low: 30337.5 | Prev Close: 30653.5
+  Week High: 30968.0 | Week Low: 29616.0
+  Last 5 Candles: 2026-06-16 DOWN (O:30539.75 H:30664.5 L:29956.75 C:29995.0) | 2026-06-17 DOWN (O:30006.75 H:30268.5 L:29616.0 C:29687.5) | 2026-06-18 UP (O:29758.5 H:30285.75 L:29758.5 C:30263.35) | 2026-06-22 UP (O:30577.0 H:30968.0 L:30337.5 C:30653.5) | 2026-06-23 DOWN (O:30662.75 H:30701.25 L:29616.5 C:29966.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Nasdaq plunges as tech sell-off gains steam
+  2. Big Tech's heavy hitters lead market rout as AI trade cools
+  3. SpaceX stock wipes out post-IPO gains
+  4. The AI rally has a new test — a rising dollar
+  5. Micron to post Q3 earnings amid sky-high data center demand
+  6. 'Looking over our shoulder': Traders load up on VIX calls
+  7. Your 401(k) match may not be as generous as it used to be
+  8. Bitcoin sinks amid tech rout and may be 'vulnerable to further weakness'
+  9. SpaceX's retail boom runs into its first price wall
+  10. The cover-your-eyes year for Salesforce keeps getting worse
+  11. Oracle slashes 21,000 jobs as AI build-out continues
+  12. Amazon Prime Day shoppers plan to hold out for steep discounts
+  13. Meta debuts AI-powered smart glasses, starting at $299
+  14. Nvidia just pushed deeper into biomedical research
+  15. Wimbledon investors cash in with VIP seats costing over $500,000
+  16. Elon Musk's mom on trillionaire's only $99 suit amid early struggles
+  17. Student loan borrowers can get a 1% interest rate discount
+  18. Tesla leads Cars.com's American-Made Index again
+  19. Oil steady as investors focus on Hormuz flows after peace talks
+  20. Explainer-What are the Fed's bank 'stress tests' and what's new this year?
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor Pro — AI analyst, digest & MCP 
+  World Monitor Blog — OSINT guides & analysis 
+  What is World Monitor? 
+  Open source on GitHub (AGPL-3.0) 
+  Featured in WIRED 
+  See | — 56 map layers across a dual 3D-globe/WebGL map: conflicts, vessels, flights, satellites, pipelines, submarine cables, AI datacenters. 
+  Understand | — daily AI brief, Country Instability Index across 196 countries, cross-source correlation, Scenario Engine. 
+  Act | — custom monitors and alerts, Route Explorer, 39-tool MCP server and API for Claude, GPT and custom agents. 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St tumbles on tech selloff as concerns about hawkish Fed, AI spending mount
+  2. US futures fall on tech selloff as concerns about hawkish Fed, AI spending mount
+  3. Nasdaq 100 set to shed over $1 trillion as tech selloff deepens; SpaceX slides
+  4. Tech Selloff Deepens — WSJ
+  5. Wall Street crash: Why S&P 500, Nasdaq futures tumbled today after KOSPI’s 10% fall; AI sell-off deepens
+  6. Netweb, Orient Tech, E2E Networks shares decline up to 3% amid global AI selloff; Black Box bucks trend
+  7. U.S. Stock Indexes Mostly Fall Led by Tech Names — Market Talk
+  8. S&P 500, Nasdaq close lower, dragged by Alphabet and megacap tech; focus on Iran
+  9. US futures muted as markets weigh Iran talks, inflation data
+  10. Nebius, CoreWeave Join Nasdaq-100 Today: Which Neocloud Stock Has Better Upside On Wall Street?
+  11. Peace now or maybe later?
+  12. Asian stocks hit record, oil heads for weekly loss
+  13. Wall St indexes advance with boost from chips, Iran optimism
+  14. Wall St indexes advance with boost from chips, falling oil prices
+  15. Wall St advances as Iran deal optimism offsets hawkish Fed; Intel jumps
+
+=== ECONOMIC CALENDAR — 2026-06-23 ===
+  [0] ADP Employment Change Weekly — Actual: 30.75 | Forecast: None | Prev: 26.5
+  [-1] Redbook YoY — Actual: 10 | Forecast: None | Prev: 9.4
+  [0] S&P Global Manufacturing PMI Flash — Actual: 55.7 | Forecast: 54.8 | Prev: 55.1
+  [0] S&P Global Composite PMI Flash — Actual: 52.2 | Forecast: None | Prev: 51.5
+  [0] S&P Global Services PMI Flash — Actual: 51.3 | Forecast: 51 | Prev: 50.7
+  [-1] Richmond Fed Manufacturing Shipments Index — Actual: 3 | Forecast: None | Prev: 16
+  [-1] Richmond Fed Manufacturing Index — Actual: 4 | Forecast: 9 | Prev: 13
+  [-1] Richmond Fed Services Revenues Index — Actual: -1 | Forecast: None | Prev: 14
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.6
+  [-1] Money Supply — Actual: None | Forecast: None | Prev: 22.8
+  [-1] 2-Year Note Auction — Actual: None | Forecast: None | Prev: 4.071
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: None | Prev: -8.33
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BULLISH (score: 20.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: RANGING | 4H: BULLISH | 1H: RANGING | 15m: BEARISH
+
+  [Daily] Structure: RANGING
+    Price: 29980.5 | PrevH: 30968.0 | PrevL: 30337.5
+    Nearest Resistance (swing high above): 30807.75
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-18 UP(29758.5->30263.35) > 2026-06-22 UP(30577.0->30653.5) > 2026-06-23 DOWN(30662.75->29980.5)
+
+  [4H] Structure: BULLISH
+    Price: 29981.75 | PrevH: 29933.75 | PrevL: 29752.0
+    Nearest Resistance (swing high above): 30379.0
+    Nearest Support (swing low below): 29923.0
+    CHoCH: CHoCH — broke below swing low (structure flip) @ 30337.5 (2026-06-21)
+    Recent: 2026-06-23 DOWN(30370.0->29909.0) > 2026-06-23 DOWN(29909.5->29873.25) > 2026-06-23 UP(29872.0->29981.75)
+
+  [1H] Structure: RANGING
+    Price: 29981.75 | PrevH: 29934.75 | PrevL: 29616.5
+    Nearest Resistance (swing high above): 30112.0
+    Nearest Support (swing low below): 29923.0
+    Recent: 2026-06-23 DOWN(29872.0->29735.0) > 2026-06-23 UP(29735.0->29926.0) > 2026-06-23 UP(29926.0->29981.75)
+
+  [15m] Structure: BEARISH
+    Price: 29972.75 | PrevH: 29934.75 | PrevL: 29724.0
+    Nearest Resistance (swing high above): 30419.75
+    Nearest Support (swing low below): 29923.0
+    CHoCH: CHoCH — broke above swing high (structure flip) @ 29900.75 (2026-06-23)
+    Recent: 2026-06-23 UP(29718.25->29749.25) > 2026-06-23 UP(29758.75->29926.0) > 2026-06-23 UP(29926.0->29972.75)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-23.

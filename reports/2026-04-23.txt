@@ -1,0 +1,92 @@
+ANALYSIS DATE: 2026-04-23
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.713 | Day: +0.125% | 5-Day: +0.50%
+  VIX (Fear Index): 19.33 | Day: +2.167% | 5-Day: +7.75%
+  10Y Treasury Yield: 4.3 | Day: +0.140% | 5-Day: -0.21%
+  Gold: 4744.5 | Day: +0.254% | 5-Day: -0.85%
+  Crude Oil: 93.43 | Day: +0.506% | 5-Day: -1.33%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 27023.75 | Trend: UP
+  1D: -0.22% | 5D: 2.03% | 10D: 7.02%
+  Prev High: 27136.0 | Prev Low: 26727.75 | Prev Close: 27083.0
+  Week High: 27136.0 | Week Low: 26275.5
+  Last 5 Candles: 2026-04-17 UP (O:26460.0 H:26884.75 L:26440.0 C:26825.5) | 2026-04-20 UP (O:26599.75 H:26827.75 L:26535.0 C:26748.75) | 2026-04-21 DOWN (O:26776.75 H:26901.75 L:26551.75 C:26634.75) | 2026-04-22 UP (O:26729.5 H:27136.0 L:26727.75 C:27083.0) | 2026-04-23 DOWN (O:27075.0 H:27099.75 L:26848.0 C:27023.75)
+
+=== ES — S&P 500 Futures ===
+  Price: 7153.5 | Trend: UP
+  1D: -0.25% | 5D: 1.08% | 10D: 4.23%
+  Prev High: 7173.0 | Prev Low: 7121.25 | Prev Close: 7171.25
+  Week High: 7185.75 | Week Low: 7046.5
+  Last 5 Candles: 2026-04-17 UP (O:7077.25 H:7185.75 L:7075.25 C:7161.5) | 2026-04-20 UP (O:7102.5 H:7160.5 L:7085.0 C:7148.0) | 2026-04-21 DOWN (O:7150.75 H:7183.0 L:7085.0 C:7100.0) | 2026-04-22 UP (O:7125.0 H:7173.0 L:7121.25 C:7171.25) | 2026-04-23 DOWN (O:7163.0 H:7169.5 L:7105.5 C:7153.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Why Tesla investors should love this version of CEO Elon MuskA subdued Musk is what Tesla investors need in what is arguably the most important moment for the company in years.
+  2. Stock futures slide as Iran tensions bubble, Tesla slips
+  3. Software stocks slide as IBM, ServiceNow revive AI fears
+  4. US intercepts Iran supertankers as Tehran keeps Hormuz shut
+  5. Oil steadies above $100 as Hormuz stays blocked
+  6. Netflix announces $25 billion share buyback, stock rises
+  7. US weekly jobless claims tick up as labor market stays stable
+  8. ServiceNow tumbles as war in Iran hits sales growth
+  9. American Q1 results beat, but airline sees $4B in added fuel costs
+  10. CEO turnover is near record highs as veterans like Cook exit
+  11. Leidos gets $617 million U.S. Army contract as Pentagon steps up replenishment
+  12. JPMorgan Readies Fresh Private Credit Push After Needling Market
+  13. US to speed up payments for new medical devices under Medicare, FT reports
+  14. Roper Technologies raises 2026 profit forecast as AI demand boosts software sales
+  15. Tesla's $25 billion spending plan tests investor faith in unproven AI bets
+  16. Intel to report first quarter earnings as CPUs become key to AI growth
+  17. Huawei to invest $2.6 billion on R&D in smart driving technologies
+  18. Optimus 3: Musk teases plans for unveilingTesla (TSLA) reported first quarter results on Wednesday after the closing bell. Adjusted earnings per share (EPS) came in at $0.41 (compared to analyst estimates of $0.34), and revenue came in at $22.39 billion (compared to analyst estimates of $22.19 billion). On the earnings call, CEO Elon Musk projects that Tesla's Optimus humanoid robot will become the "biggest product ever," with production starting in Fremont later this year and expanding to Giga Texas by summer 2027.
+  19. KFC's hidden ingredient for massive expansion
+  20. Alibaba.com president on the state of global e-commerce
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. After its biggest burst since 2020, can the S&P 500 push higher? 
+  2. Wall St set to open lower in absence of clarity on Iran de-escalation; earnings mixed
+  3. Wall St futures slip as investors pause for clarity on US-Iran war; earnings mixed
+  4. Tech checked as oil boils
+  5. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-22
+  6. Investors are yet to notice AI efficiency in emerging markets, says HSBC
+  7. Too far, too fast? SOX stretch raises red flags 
+  8. Wall Street poised to open higher on ceasefire extension relief
+  9. US stock index futures climb after Trump extends Iran truce
+  10. Another deadline dodged
+  11. Small names, big gains: Small caps take the lead in 2026
+  12. A historic rally for the S&P 500 is just getting started, says Wall Street veteran who called the April 2025 bottom
+  13. RECAPPING:  US CHICAGO FED NATL ACTIVITY INDEX 3-MONTH MOVING AVERAGE -0.03 IN MARCH VS +0.03 IN FEBRUARY (PREV -0.01); +0.05 IN MARCH 2025
+  14. RECAPPING: US CHICAGO FED NATIONAL ACTIVITY INDEX -0.20 IN MARCH VS +0.03 IN FEBRUARY (PREV -0.11); +0.03 IN MARCH 2025
+  15. US INITIAL CLAIMS FOR JOBLESS BENEFITS: UNADJUSTED WKLY CLAIMS 205,306, -9,736; UNADJUSTED INSURED UNEMP RATE TWO WKS AGO 1.2%, UNCHANGED
+
+=== ECONOMIC CALENDAR — 2026-04-23 ===
+  [-1] Continuing Jobless Claims — Actual: 1821 | Forecast: 1820 | Prev: 1809
+  [-1] Jobless Claims 4-week Average — Actual: 210.75 | Forecast: None | Prev: 210
+  [0] Initial Jobless Claims — Actual: 214 | Forecast: 212 | Prev: 208
+  [0] Chicago Fed National Activity Index — Actual: -0.2 | Forecast: None | Prev: 0.03
+  [0] S&P Global Services PMI Flash — Actual: None | Forecast: 50 | Prev: 49.8
+  [0] S&P Global Manufacturing PMI Flash — Actual: None | Forecast: 52.5 | Prev: 52.3
+  [0] S&P Global Composite PMI Flash — Actual: None | Forecast: None | Prev: 50.3
+  [-1] EIA Natural Gas Stocks Change — Actual: None | Forecast: 94 | Prev: 59
+  [-1] Kansas Fed Manufacturing Index — Actual: None | Forecast: None | Prev: 11
+  [-1] Kansas Fed Composite Index — Actual: None | Forecast: None | Prev: 11
+  [-1] 4-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.595
+  [-1] 8-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.615
+  [-1] 30-Year Mortgage Rate — Actual: None | Forecast: None | Prev: 6.3
+  [-1] 15-Year Mortgage Rate — Actual: None | Forecast: None | Prev: 5.65
+  [-1] 5-Year TIPS Auction — Actual: None | Forecast: None | Prev: 1.433
+  [-1] Fed Balance Sheet — Actual: None | Forecast: None | Prev: 6.71
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-23.

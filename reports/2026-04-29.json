@@ -1,0 +1,650 @@
+{
+  "date": "2026-04-29",
+  "created": "2026-04-29T18:29:29.487284",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "bias_es": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ \u2014 Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 27244.5,
+    "prev_day_high": 27512.0,
+    "prev_day_low": 27009.5,
+    "prev_day_close": 27168.75,
+    "week_high": 27542.5,
+    "week_low": 26681.75,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.28,
+      "5d_pct": 0.6,
+      "10d_pct": 3.33
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-23",
+        "open": 27075.0,
+        "high": 27155.75,
+        "low": 26681.75,
+        "close": 26934.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-24",
+        "open": 26992.0,
+        "high": 27462.5,
+        "low": 26992.0,
+        "close": 27435.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-27",
+        "open": 27403.25,
+        "high": 27542.5,
+        "low": 27298.5,
+        "close": 27440.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-28",
+        "open": 27423.0,
+        "high": 27512.0,
+        "low": 27009.5,
+        "close": 27168.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-29",
+        "open": 27197.25,
+        "high": 27317.25,
+        "low": 27191.75,
+        "close": 27244.5,
+        "direction": "UP"
+      }
+    ]
+  },
+  "es": {
+    "name": "ES \u2014 S&P 500 Futures",
+    "ticker": "ES=F",
+    "current_price": 7171.75,
+    "prev_day_high": 7223.25,
+    "prev_day_low": 7146.25,
+    "prev_day_close": 7171.0,
+    "week_high": 7223.25,
+    "week_low": 7079.25,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.01,
+      "5d_pct": 0.01,
+      "10d_pct": 1.58
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-23",
+        "open": 7163.0,
+        "high": 7181.5,
+        "low": 7079.25,
+        "close": 7143.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-24",
+        "open": 7143.0,
+        "high": 7200.5,
+        "low": 7135.5,
+        "close": 7194.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-27",
+        "open": 7185.0,
+        "high": 7211.25,
+        "low": 7171.5,
+        "close": 7206.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-28",
+        "open": 7204.75,
+        "high": 7223.25,
+        "low": 7146.25,
+        "close": 7171.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-04-29",
+        "open": 7172.5,
+        "high": 7188.5,
+        "low": 7161.25,
+        "close": 7171.75,
+        "direction": "DOWN"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.768,
+      "day_chg": 0.15,
+      "5d_chg": 0.18
+    },
+    "VIX (Fear Index)": {
+      "price": 18.05,
+      "day_chg": 1.234,
+      "5d_chg": -4.6
+    },
+    "10Y Treasury Yield": {
+      "price": 4.372,
+      "day_chg": 0.413,
+      "5d_chg": 1.82
+    },
+    "Gold": {
+      "price": 4559.2,
+      "day_chg": -0.703,
+      "5d_chg": -3.66
+    },
+    "Crude Oil": {
+      "price": 103.4,
+      "day_chg": 3.472,
+      "5d_chg": 11.23
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Fed 'firmly parked' on interest rate pauseThe Fed is expected to hold interest rates steady amid uncertainty over the conflict in the Middle East.",
+        "url": "https://finance.yahoo.com/economy/policy/article/fed-meeting-today-central-bank-firmly-parked-on-interest-rate-pause-130000288.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock futures muted in wait for Mag 7 earnings, Fed rate call",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-wednesday-april-29-dow-nasdaq-sp-futures-powell-mag7-231405065.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Amazon earnings put the spotlight on AI spending",
+        "url": "https://finance.yahoo.com/sectors/technology/article/amazon-q1-earnings-put-the-spotlight-on-ai-spending-and-revenue-132251483.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil surges as White House signals it will continue Hormuz blockade",
+        "url": "https://finance.yahoo.com/markets/article/oil-surges-as-white-house-signals-it-will-continue-hormuz-blockade-keeping-pressure-on-global-market-130725609.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Ford Q1 earnings preview: F-150 production and tariff relief in focus",
+        "url": "https://finance.yahoo.com/markets/stocks/article/ford-q1-earnings-preview-f-150-production-tariff-relief-warranty-costs-key-for-investors-132246938.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump tells aides to prep for lengthy Hormuz blockade",
+        "url": "https://finance.yahoo.com/news/trump-tells-aides-to-prep-for-lengthy-hormuz-blockade-wsj-says-015557897.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Wall Street braces for Fed's next move on interest rates",
+        "url": "https://finance.yahoo.com/economy/policy/article/fed-expected-to-stand-pat-on-interest-rates-amid-ongoing-uncertainty-from-iran-conflict-100000761.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why data storage stocks are a key AI play",
+        "url": "https://finance.yahoo.com/markets/article/why-data-storage-stocks-are-a-key-ai-play-130000724.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The bond market is testing Washington again",
+        "url": "https://finance.yahoo.com/markets/article/the-bond-market-is-testing-washington-again-chart-of-the-day-100000179.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "SoFi stock sinks despite solid earnings as tech platform struggles",
+        "url": "https://finance.yahoo.com/markets/stocks/article/sofi-earnings-meet-expectations-while-its-tech-platform-struggles-110124682.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tech stocks today: Big Tech earnings on deck, Musk versus Altman and OpenAI trial continues",
+        "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-magnificent-seven-113535737.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Italy's Fincantieri and KAYO to work together on strengthening Albania's navy",
+        "url": "https://finance.yahoo.com/news/italys-fincantieri-kayo-together-strengthening-131751947.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US goods trade deficit widens in March as imports rise sharply",
+        "url": "https://finance.yahoo.com/news/us-goods-trade-deficit-widens-130652519.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "How the Fed's rate decision affects your bank accounts, loans, credit cards, and investments",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/how-the-feds-rate-decision-affects-your-bank-accounts-loans-credit-cards-and-investments-220526730.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US core capital goods orders blow past expectations in March",
+        "url": "https://finance.yahoo.com/news/us-core-capital-goods-orders-124530459.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Humana reports quarterly beat, unchanged forecast underwhelms market",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/humana-beats-quarterly-profit-estimates-100947733.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Amphenol forecasts upbeat quarterly results on AI data center demand",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/amphenol-forecasts-upbeat-quarterly-results-123649876.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Powell's last meeting: What Fed rhetoric may look like under Kevin WarshWall Street expects the Federal Reserve to hold interest rates steady at what is possibly Jerome Powell's final FOMC meeting as Fed chair on Wednesday. Many investors are speculating whether Powell will stay on the Fed's Board of Governors after his term at the US central bank concludes on May 15. Thornburg Investment Management head of fixed income Christian Hoffmann and 42 Macro founder and CEO Darius Dale come on Market Domination to talk about what investors are expecting from Powell's press conference tomorrow, and what may change for the Fed if Kevin Warsh is confirmed to succeed Powell.",
+        "url": "https://finance.yahoo.com/video/powells-last-meeting-what-fed-rhetoric-may-look-like-under-kevin-warsh-193641860.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump is still holding 'a sword' above Fed's Powell: Sen. Warren",
+        "url": "https://finance.yahoo.com/video/trump-is-still-holding-a-sword-above-feds-powell-sen-warren-213313164.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Big Tech: What this strategist is looking for on earnings calls",
+        "url": "https://finance.yahoo.com/video/big-tech-what-this-strategist-is-looking-for-on-earnings-calls-204304094.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil prices rise despite UAE exit from OPEC as Iran war ceasefire hangs in balanceOil markets are navigating a period of unprecedented volatility after the UAE announced its withdrawal from OPEC and the OPEC+.View on euronews",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-rise-despite-uae-085011854.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed meeting today: Central bank 'firmly parked' on interest rate pauseThe Federal Reserve is widely expected to hold its benchmark interest rate steady Wednesday afternoon amid uncertainty over when the conflict in the Middle East will be resolved.",
+        "url": "https://finance.yahoo.com/economy/policy/article/fed-meeting-today-central-bank-firmly-parked-on-interest-rate-pause-130000288.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "German, Spanish Inflation Reach Multiyear HighsConsumer prices were 2.9% higher in April than a year earlier in Germany, an increase in the annual rate of inflation from 2.8% in March.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/spanish-inflation-rises-further-iran-094000420.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Oil prices top $115 as Iran war talks stall over HormuzU.S. gas prices are hovering near highs not seen since the start of the Iran war as Washington weighs extending its blockade of Iranian ports",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-top-115-iran-122809685.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Elizabeth Warren: Trump is wielding a sword over the FedPresident Trump is using the threat of criminal prosecution as a sword he's holding over the Federal Reserve, Democratic Sen. Elizabeth Warren said in an interview with Yahoo Finance on Tuesday.",
+        "url": "https://finance.yahoo.com/economy/policy/article/elizabeth-warren-trump-is-wielding-a-sword-over-the-fed-215033583.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Oil prices jump, erasing ceasefire losses, on reports President Trump will reject Iran's peace planOil prices rose on Tuesday as the White House is reportedly set to deny a peace plan from Iran, while the UAE said it would leave OPEC in May.",
+        "url": "https://finance.yahoo.com/markets/article/oil-prices-jump-erasing-ceasefire-losses-on-reports-president-trump-will-reject-irans-peace-plan-160527419.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gold, silver plunge amid US-Iran stalemateGold and silver moved lower as oil topped $110 per barrel, raising concerns that central banks will have to hold rates higher for longer.",
+        "url": "https://finance.yahoo.com/markets/article/gold-silver-plunge-amid-us-iran-stalemate-155453396.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Travelers are starting to balk at sky-high airline ticket prices, BofA data showsConsumers are starting to push back against the airlines.",
+        "url": "https://finance.yahoo.com/news/travelers-are-starting-to-balk-at-sky-high-airline-ticket-prices-bofa-data-shows-155107753.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Consumer confidence ticks higher as better vibes on job market take holdConsumer confidence in April reached its highest level so far this year, according to a survey\u00a0from the Conference Board.",
+        "url": "https://finance.yahoo.com/economy/policy/article/consumer-confidence-ticks-higher-as-better-vibes-on-job-market-take-hold-144621322.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Powell's term as Fed chair is ending. Here's why he could stick around longer.Jerome Powell's term as Fed chair concludes May 15, but he could continue as a governor until 2028.",
+        "url": "https://finance.yahoo.com/economy/policy/article/powells-term-as-fed-chair-is-ending-heres-why-he-could-stick-around-longer-100000798.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 57
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Growth flexes again as April rally vs Value nears a dot\u2011com-era record",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777468737"
+      },
+      {
+        "title": "Wall Street eyes mixed open ahead of Big Tech earnings, Fed meeting",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777467867"
+      },
+      {
+        "title": "Wall Street futures mixed ahead of Big Tech earnings, Fed meeting",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777460366"
+      },
+      {
+        "title": "Whirlwind Wednesday",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777458888"
+      },
+      {
+        "title": "Nasdaq, S&P 500 end lower on renewed AI growth worries ahead of big tech earnings",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777407904"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-28",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777401906"
+      },
+      {
+        "title": "Nasdaq, S&P 500 fall on renewed AI growth worries ahead of big tech earnings",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777401758"
+      },
+      {
+        "title": "Nasdaq trails S&P 500, Dow as AI growth worries hit tech stocks",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777392719"
+      },
+      {
+        "title": "Nasdaq underperforms S&P 500, Dow as AI growth worries hit tech stocks",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777386223"
+      },
+      {
+        "title": "Stocks are scoring records, but the Dow is still benched",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777381419"
+      },
+      {
+        "title": "Nasdaq futures slide as fresh concerns around AI pressure tech stocks",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777379385"
+      },
+      {
+        "title": "US stock index futures mixed as Mideast stalemate keeps oil risks in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777375412"
+      },
+      {
+        "title": "Talons on show",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777372762"
+      },
+      {
+        "title": "US stock index futures fall as Middle East stalemate keeps oil risks in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777370790"
+      },
+      {
+        "title": "MARCH US TRADE IN GOODS: EXPORTS FOOD $14,953 BLN, INDUSTRIAL $85,603; BLN CAP GOODS $66,729 BLN; AUTOS $15,565 BLN; CONSUMER $21,257 BLN",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777466640"
+      },
+      {
+        "title": "US MARCH INT'L TRADE IN GOODS: FOOD IMPORTS $17,488 BLN; INDUSTRIAL $54,269 BLN; CAP GOODS $120,287 BLN; AUTOS $35,901 BLN; CONSUMER $57,664 BLN",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777466460"
+      },
+      {
+        "title": "US MARCH WHOLESALE INVENTORIES +1.4%; RETAIL INVENTORIES +0.7%",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777466160"
+      },
+      {
+        "title": "MARCH US TRADE IN GOODS: EXPORTS $211.5 BLN; IMPORTS $299.3 BLN",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777466040"
+      },
+      {
+        "title": "US RETAIL INVENTORIES +0.7% IN MARCH FROM FEB.",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777466040"
+      },
+      {
+        "title": "US WHOLESALE INVENTORIES +1.4% IN MARCH FROM FEB.",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777466040"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "MBA Mortgage Market Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "298.5",
+        "forecast": "None",
+        "previous": "303.3"
+      },
+      {
+        "title": "MBA 30-Year Mortgage Rate",
+        "country": "US",
+        "impact": "0",
+        "actual": "6.37",
+        "forecast": "None",
+        "previous": "6.35"
+      },
+      {
+        "title": "MBA Mortgage Refinance Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "977.9",
+        "forecast": "None",
+        "previous": "1023.1"
+      },
+      {
+        "title": "MBA Mortgage Applications",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-1.6",
+        "forecast": "None",
+        "previous": "7.9"
+      },
+      {
+        "title": "MBA Purchase Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "177.7",
+        "forecast": "None",
+        "previous": "175.6"
+      },
+      {
+        "title": "Non Defense Goods Orders Ex Air",
+        "country": "US",
+        "impact": "-1",
+        "actual": "3.3",
+        "forecast": "0.5",
+        "previous": "1.6"
+      },
+      {
+        "title": "Building Permits Prel",
+        "country": "US",
+        "impact": "1",
+        "actual": "1.538",
+        "forecast": "None",
+        "previous": "1.386"
+      },
+      {
+        "title": "Housing Starts",
+        "country": "US",
+        "impact": "1",
+        "actual": "1.356",
+        "forecast": "None",
+        "previous": "1.398"
+      },
+      {
+        "title": "Durable Goods Orders MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "0.8",
+        "forecast": "0.5",
+        "previous": "-1.2"
+      },
+      {
+        "title": "Building Permits MoM Prel",
+        "country": "US",
+        "impact": "0",
+        "actual": "10.9",
+        "forecast": "None",
+        "previous": "-4.7"
+      },
+      {
+        "title": "Durable Goods Orders ex Defense MoM",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-0.3",
+        "forecast": "None",
+        "previous": "-1.2"
+      },
+      {
+        "title": "Housing Starts MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "10.8",
+        "forecast": "None",
+        "previous": "-3"
+      },
+      {
+        "title": "Durable Goods Orders Ex Transp MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.9",
+        "forecast": "0.4",
+        "previous": "1.2"
+      },
+      {
+        "title": "Goods Trade Balance Adv",
+        "country": "US",
+        "impact": "0",
+        "actual": "-87.87",
+        "forecast": "-87",
+        "previous": "-83.5"
+      },
+      {
+        "title": "Building Permits MoM Prel",
+        "country": "US",
+        "impact": "0",
+        "actual": "-10.8",
+        "forecast": "None",
+        "previous": "10.9"
+      },
+      {
+        "title": "Housing Starts MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "-3",
+        "forecast": "None",
+        "previous": "1.8"
+      },
+      {
+        "title": "Wholesale Inventories MoM Adv",
+        "country": "US",
+        "impact": "0",
+        "actual": "1.4",
+        "forecast": "0.4",
+        "previous": "0.9"
+      },
+      {
+        "title": "Retail Inventories Ex Autos MoM Adv",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.5",
+        "forecast": "None",
+        "previous": "0.3"
+      },
+      {
+        "title": "Building Permits Prel",
+        "country": "US",
+        "impact": "1",
+        "actual": "1.372",
+        "forecast": "1.39",
+        "previous": "1.538"
+      },
+      {
+        "title": "Housing Starts",
+        "country": "US",
+        "impact": "1",
+        "actual": "1.502",
+        "forecast": "1.4",
+        "previous": "1.356"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "Gemini API error: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]\n\n## Macro Environment\n- DXY: 98.768 (day +0.15%) \n- VIX: 18.05 (day +1.23%) (Fear low \u2014 risk-on)\n- 10Y Yield: 4.372 (day +0.41%) \n- Gold: 4559.2 (day -0.70%)\n- Oil: 103.4 (day +3.47%)\n- Environment: **MIXED**\n\n## Recent Headlines (Yahoo Finance)\n  - Fed 'firmly parked' on interest rate pauseThe Fed is expected to hold interest rates steady amid uncertainty over the conflict in the Middle East.\n  - Stock futures muted in wait for Mag 7 earnings, Fed rate call\n  - Amazon earnings put the spotlight on AI spending\n  - Oil surges as White House signals it will continue Hormuz blockade\n  - Ford Q1 earnings preview: F-150 production and tariff relief in focus\n  - Trump tells aides to prep for lengthy Hormuz blockade\n  - Wall Street braces for Fed's next move on interest rates\n  - Why data storage stocks are a key AI play\n\n## Market Trend\n- NQ: UP | Price: 27244.5 | 1D: 0.28% | 5D: 0.6%\n- ES: UP | Price: 7171.75 | 1D: 0.01% | 5D: 0.01%\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: BUY SIDE**\n**NQ: BULLISH** | **ES: BULLISH**\n\n_Note: Add ANTHROPIC_API_KEY to .env for full news-driven AI analysis with detailed reasoning._",
+    "bias_nq": "BULLISH",
+    "bias_es": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Fallback (API error)"
+  },
+  "errors": []
+}

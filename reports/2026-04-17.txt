@@ -1,0 +1,80 @@
+ANALYSIS DATE: 2026-04-17
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 97.749 | Day: -0.480% | 5-Day: -0.91%
+  VIX (Fear Index): 17.2 | Day: -4.125% | 5-Day: -10.56%
+  10Y Treasury Yield: 4.244 | Day: -1.508% | 5-Day: -1.69%
+  Gold: 4881.4 | Day: +2.006% | 5-Day: +2.51%
+  Crude Oil: 81.91 | Day: -13.497% | 5-Day: -15.18%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 26723.0 | Trend: UP
+  1D: 0.89% | 5D: 5.7% | 10D: 10.34%
+  Prev High: 26564.0 | Prev Low: 26275.5 | Prev Close: 26487.25
+  Week High: 26564.0 | Week Low: 24904.5
+  Last 5 Candles: 2026-04-13 UP (O:24980.0 H:25599.25 L:24904.5 C:25543.5) | 2026-04-14 UP (O:25575.25 H:26003.25 L:25560.0 C:25996.75) | 2026-04-15 UP (O:25985.75 H:26377.5 L:25933.75 C:26365.5) | 2026-04-16 UP (O:26350.0 H:26564.0 L:26275.5 C:26487.25) | 2026-04-17 UP (O:26460.0 H:26817.75 L:26440.0 C:26723.0)
+
+=== ES — S&P 500 Futures ===
+  Price: 7130.5 | Trend: UP
+  1D: 0.76% | 5D: 4.02% | 10D: 7.67%
+  Prev High: 7089.0 | Prev Low: 7046.5 | Prev Close: 7077.0
+  Week High: 7089.0 | Week Low: 6767.0
+  Last 5 Candles: 2026-04-13 UP (O:6780.0 H:6928.25 L:6767.0 C:6922.75) | 2026-04-14 UP (O:6925.25 H:7008.0 L:6920.25 C:7004.75) | 2026-04-15 UP (O:7004.0 H:7064.5 L:6991.75 C:7060.5) | 2026-04-16 UP (O:7057.25 H:7089.0 L:7046.5 C:7077.0) | 2026-04-17 UP (O:7077.25 H:7147.5 L:7075.25 C:7130.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Stock market notches one of its fastest turnarounds in yearsIt's been a big week for stocks.
+  2. US stock futures climb as Israel-Lebanon agree to 10-day ceasefire
+  3. A year after DOGE, Trump administration is quietly hiring again
+  4. Strait of Hormuz now completely open for commercial ships
+  5. Netflix stock slides after forecast disappoints
+  6. Netflix just let investors down on this metric too
+  7. Tesla poised to snap 8-week losing streak with earnings ahead
+  8. Billionaire investor warns sports prediction markets harm men
+  9. Apple's iPhone shipments in China surge 20% in Q1, data shows
+  10. Anthropic CEO to meet White House chief of staff amid AI dispute
+  11. Exclusive-US is leading G20 initiative to ensure fertilizer access, sources say
+  12. Oil Slump Deepens After Iran’s Araghchi Says Hormuz Strait Open
+  13. When will gas prices go back down? Experts weigh in on where things are headed.
+  14. Ex-Goldman Analyst Jeff Currie Is Getting Into the Oil Business
+  15. Factbox-Airlines cancel flights amid Middle East conflict
+  16. Wheat Rallies on Weather Woes and Iran-Linked Fertilizer Crunch
+  17. Siemens plans shareholder vote on Siemens Healthineers stake spin-off in February 2027
+  18. Can the S&P 500 sustain momentum? What Polymarket, analysts sayStifel vice president of portfolio strategy Thomas Carroll joins Yahoo Finance to explain why his year-end target for the S&P 500 (^GSPC) is only 7,000. For more predictions market insight, check out the new Yahoo Finance Polymarket Hub.
+  19. Free vacation hack: Credit card perks explained
+  20. How the FIFA World Cup is shaping the short-term rental market
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall Street poised for strong open after Iran says Strait of Hormuz open during ceasefire
+  2. From selloff to stampede: Magnificent Seven ETF nears a crossroads
+  3. Wall St poised to open higher on Middle East peace hopes
+  4. Wall St poised for weekly gain as futures climb on Middle East peace hopes
+  5. Investors give peace a chance
+  6. Wall St futures climb on Middle East peace hopes as investors eye strong finish to week
+  7. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-16
+  8. Wall St indexes set to open higher as Mideast diplomacy hopes, earnings lift sentiment
+  9. From trough to triumph: Nasdaq’s surge delivers fresh records
+  10. Wall St futures edge higher on Mideast diplomacy hopes, strong earnings
+  11. Six-week roundtrip
+  12. S&P 500, Nasdaq push to closing records on optimism around Middle East talks, earnings 
+  13. S&P 500, Nasdaq push to closing records on earnings and Middle East optimism
+  14. S&P 500, Nasdaq advance on earnings and Middle East optimism
+  15. S&P 500 Rises 51.38 Points (0.73%)
+
+=== ECONOMIC CALENDAR — 2026-04-17 ===
+  [0] Fed Barkin Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Baker Hughes Total Rigs Count — Actual: None | Forecast: None | Prev: 545
+  [-1] Baker Hughes Oil Rig Count — Actual: None | Forecast: None | Prev: 411
+  [0] Fed Waller Speech — Actual: None | Forecast: None | Prev: None
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-17.

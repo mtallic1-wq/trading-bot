@@ -1,0 +1,126 @@
+ANALYSIS DATE: 2026-06-02
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.106 | Day: -0.095% | 5-Day: -0.06%
+  VIX (Fear Index): 16.18 | Day: +0.810% | 5-Day: -4.88%
+  10Y Treasury Yield: 4.441 | Day: -0.760% | 5-Day: -1.16%
+  Gold: 4540.1 | Day: +1.450% | 5-Day: +0.88%
+  Crude Oil: 92.16 | Day: +0.000% | 5-Day: -1.84%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30548.5 | Trend: UP
+  1D: -0.06% | 5D: 1.58% | 10D: 4.99%
+  Prev High: 30693.0 | Prev Low: 30291.5 | Prev Close: 30566.25
+  Week High: 30693.0 | Week Low: 29676.25
+  Last 5 Candles: 2026-05-27 DOWN (O:30050.0 H:30379.0 L:29877.5 C:30047.25) | 2026-05-28 UP (O:30120.0 H:30344.5 L:29763.0 C:30307.0) | 2026-05-29 UP (O:30328.0 H:30536.0 L:30216.5 C:30405.25) | 2026-06-01 UP (O:30415.5 H:30693.0 L:30291.5 C:30566.25) | 2026-06-02 UP (O:30544.75 H:30586.0 L:30317.75 C:30548.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. AI is carrying the S&P 500 rallyThe S&P 500's rebound looks a lot thinner once AI enablers are stripped out.
+  2. Stocks waver as US-Iran tensions weigh on AI optimism
+  3. HPE stock soars on record backlog, booming AI server business
+  4. Marvell surges after Huang calls it 'next trillion-dollar company'
+  5. Short seller Andrew Left found guilty of securities fraud
+  6. Amazon sets the stage for its first Prime Day in June since 2021
+  7. Trump plan to pause anti-weaponization fund faces GOP skepticism
+  8. Fed warned on shrinking balance sheet in lookback at Powell era
+  9. Retirees are going back to work — either by choice or necessity
+  10. Anthropic makes first move toward going public
+  11. SpaceX negotiating underwriting fees under 0.75% for IPO, Bloomberg News reports
+  12. Why the epic Dell stock price surge isn't over, Goldman Sachs says
+  13. Oil drops as Iran reviews proposed US agreement
+  14. Greer says USTR to release more Section 301 actions soon, proposed Brazil tariffs 'nuanced'
+  15. HPE stock explodes for one simple reason: It's finally seen as an AI play
+  16. Marvell stock soars as Nvidia CEO calls chipmaker 'the next trillion-dollar company'
+  17. Why a massive Nvidia stock rally may be just getting started
+  18. Opportunities in emerging markets while US dollar holds riskNomura Asset Management chief investment strategist Andy Goldberg speaks with Josh Lipton about the trends he is seeing in emerging markets, noting the risks tied to the US dollar (DX-Y.NYB) and movements in the bond market (^TYX, ^TNX, ^FVX) and small-cap stocks.
+  19. These vehicles represent 'the best value in used cars — ever'
+  20. How Nvidia's new chip & PC push make Intel 'vulnerable'
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor | — geopolitics, conflicts, military, infrastructure 
+  Tech Monitor | — AI labs, startups, cloud, cybersecurity 
+  Finance Monitor | — global markets, central banks, forex, crypto 
+  Commodity Monitor | — mining, energy, supply chains, freight 
+  Happy Monitor | — positive news, breakthroughs, conservation 
+  World Monitor Pro | — AI analyst, personalized digests, MCP for Claude & GPT 
+  Blog | — OSINT guides, geopolitics, market intelligence 
+  What is World Monitor? 
+  OSINT for everyone — open-source intelligence democratized 
+  Five dashboards, one platform — the variants explained 
+  Open source on GitHub (AGPL-3.0) 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Stocks rally on AI optimism; jitters over Iran simmer 
+  2. Stocks bounce as AI optimism offsets Middle East anxiety
+  3. Wall Street futures tick lower after record highs; HPE soars
+  4. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-06-01
+  5. Profitless Tech Surges 57% As Wall Street Signals Caution
+  6. Dell Jumps 30% As AI Rally Pushes Stocks Higher
+  7. Dow, S&P 500, Nasdaq futures edge higher as oil prices fall
+  8. Wall Street: US stock futures extend gains from record highs as traders await Iran deal
+  9. Here’s why Alibaba, Tencent, Xiaomi stocks are falling amid the AI boom
+  10. Wall St futures dip on escalating Mideast tensions; inflation data awaited
+  11. CLEVE FED'S HAMMACK Q&A/CITY CLUB:   LABOR MKT GENERALLY BALANCED; ENDS Q&A
+  12. CLEVE FED'S HAMMACK Q&A/CITY CLUB:  PLENTY OF DOUBLE-DIGIT INFLATION AROUND THE GLOBE AND CAN SEE HOW THAT AFFECTS ECONOMIES
+  13. CLEVE FED'S HAMMACK Q&A/CITY CLUB:  WHEN MAKE SERVICES CHEAPER, VIA SPREADSHEETS AND A.I. FOR ACCOUNTING, THEN SOCIETY TENDS TO WANT MORE OF THEM
+  14. CLEVE FED'S HAMMACK Q&A/CITY CLUB:  'IT MAY BE THE TIME THAT WE HAVE TO ACT SOON' SO WATCHING ALL INFLATION INDICATORS OF PRICE PRESSURES CAREFULLY
+  15. CLEVE FED'S HAMMACK Q&A/CITY CLUB:  FED'S BLUNT INSTRUMENTS 'NOT VERY GOOD AT DEALING WITH DIFFERENTIALS,' LIKE K-SHAPED ECONOMY THO IMPORTANT TO CARE
+
+=== ECONOMIC CALENDAR — 2026-06-02 ===
+  [0] Fed Kashkari Speech — Actual: None | Forecast: None | Prev: None
+  [-1] LMI Logistics Managers Index — Actual: 69.5 | Forecast: None | Prev: 69.9
+  [0] Fed Hammack Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Redbook YoY — Actual: 9 | Forecast: None | Prev: 9
+  [-1] JOLTs Job Quits — Actual: None | Forecast: None | Prev: 3.171
+  [1] JOLTs Job Openings — Actual: None | Forecast: 6.88 | Prev: 6.866
+  [-1] RCM/TIPP Economic Optimism Index — Actual: None | Forecast: 44.5 | Prev: 42.6
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.62
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: -3.6 | Prev: -2.8
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BULLISH (score: 40.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bullish
+  TF Summary: Daily: RANGING | 4H: BULLISH | 1H: BULLISH | 15m: BEARISH
+
+  [Daily] Structure: RANGING
+    Price: 30555.25 | PrevH: 30693.0 | PrevL: 30291.5
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-05-29 UP(30328.0->30405.25) > 2026-06-01 UP(30415.5->30566.25) > 2026-06-02 UP(30544.75->30555.25)
+
+  [4H] Structure: BULLISH
+    Price: 30556.5 | PrevH: 30586.0 | PrevL: 30502.5
+    Nearest Resistance (swing high above): 30595.25
+    Nearest Support (swing low below): 30291.5
+    Recent: 2026-06-02 UP(30383.75->30529.5) > 2026-06-02 UP(30529.75->30531.25) > 2026-06-02 UP(30531.5->30556.5)
+
+  [1H] Structure: BULLISH
+    Price: 30556.5 | PrevH: 30560.0 | PrevL: 30523.0
+    Nearest Resistance (swing high above): 30586.0
+    Nearest Support (swing low below): 30443.75
+    Recent: 2026-06-02 UP(30529.75->30531.25) > 2026-06-02 DOWN(30531.5->30529.75) > 2026-06-02 UP(30529.75->30556.5)
+
+  [15m] Structure: BEARISH
+    Price: 30556.5 | PrevH: 30536.25 | PrevL: 30481.25
+    Nearest Resistance (swing high above): 30568.75
+    Nearest Support (swing low below): 30551.0
+    Recent: 2026-06-02 DOWN(30555.5->30529.75) > 2026-06-02 DOWN(30529.75->30493.75) > 2026-06-02 UP(30493.25->30556.5)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  Live NQ Price: 30532 | O:30512 H:30537.75 L:30509.5 (+0.07% today)
+  Chart: CME_MINI_DL:NQ1! | TF: 5m
+  Demand/Support Zones below price:
+    SUPPLY: 29582.64 - 29584.48  [SUPPLY]
+    DEMAND: 29257.63 - 29265.4  [DEMAND]
+  Named Key Levels:
+    30150.43  (VAH+low volume) — below
+    30290.44  (long zone) — below
+  Uptrend lines: 3 (Trend (UP), huge  cluster + P failed, 1 sl due this range trap)
+  Downtrend lines: 7 (partial, Trend (DOWN), Trend (DOWN))
+  Trader Long Positions (13): [25033, 25033] | [26742.5, 26742.5] | [25340.75, 25340.75]
+  Trader Short Positions (20): [24223, 24223] | [29328.5, 29328.5] | [24064.5, 24064.5]
+  [190 total drawings on chart]
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-02.

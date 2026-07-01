@@ -1,0 +1,93 @@
+ANALYSIS DATE: 2026-04-28
+TARGET: NYSE Session (09:30–16:00 ET)
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.767 | Day: +0.291% | 5-Day: +0.36%
+  VIX (Fear Index): 19.09 | Day: +5.938% | 5-Day: -2.10%
+  10Y Treasury Yield: 4.365 | Day: +0.669% | 5-Day: +1.70%
+  Gold: 4593.1 | Day: -1.760% | 5-Day: -2.24%
+  Crude Oil: 99.92 | Day: +3.684% | 5-Day: +8.46%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 27142.25 | Trend: UP
+  1D: -1.09% | 5D: 1.91% | 10D: 4.41%
+  Prev High: 27542.5 | Prev Low: 27298.5 | Prev Close: 27440.5
+  Week High: 27542.5 | Week Low: 26551.75
+  Last 5 Candles: 2026-04-22 UP (O:26729.5 H:27136.0 L:26727.75 C:27083.0) | 2026-04-23 DOWN (O:27075.0 H:27155.75 L:26681.75 C:26934.0) | 2026-04-24 UP (O:26992.0 H:27462.5 L:26992.0 C:27435.0) | 2026-04-27 UP (O:27403.25 H:27542.5 L:27298.5 C:27440.5) | 2026-04-28 DOWN (O:27423.0 H:27512.0 L:27036.5 C:27142.25)
+
+=== ES — S&P 500 Futures ===
+  Price: 7165.5 | Trend: UP
+  1D: -0.56% | 5D: 0.92% | 10D: 2.29%
+  Prev High: 7211.25 | Prev Low: 7171.5 | Prev Close: 7206.0
+  Week High: 7211.25 | Week Low: 7079.25
+  Last 5 Candles: 2026-04-22 UP (O:7125.0 H:7173.0 L:7121.25 C:7171.25) | 2026-04-23 DOWN (O:7163.0 H:7181.5 L:7079.25 C:7143.5) | 2026-04-24 UP (O:7143.0 H:7200.5 L:7135.5 C:7194.75) | 2026-04-27 UP (O:7185.0 H:7211.25 L:7171.5 C:7206.0) | 2026-04-28 DOWN (O:7204.75 H:7223.25 L:7147.5 C:7165.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. OpenAI-linked stocks slump on report of missed targetsThe AI startup recently failed to meet targets for sales and new users, reviving worries about spending ahead of tech earnings.
+  2. Stock futures mixed as techs stall, oil jumps
+  3. Why Powell could stick around after his Fed chair term ends
+  4. The only number that matters for 'Mag 7' earnings
+  5. UAE to leave OPEC+ in May, dealing blow to oil bloc
+  6. Is Microsoft stock on the verge of big breakout?
+  7. Stock market all-time highs are not the danger zone investors think
+  8. Meta prepares to undo Manus acquisition after China ban
+  9. Trump to address Iran's offer soon, but said not to be happy with it
+  10. Earnings: Spotify guidance falls short, Coca-Cola rises
+  11. Amazon Q1 earnings put the spotlight on AI spending and revenue
+  12. Global inflation worries stir on energy price flare-up, but still relatively subdued: Reuters poll
+  13. Global regulators trail banks in AI as Mythos raises oversight concerns, report finds
+  14. Corning faces consumer electronics drag even as data-center business booms
+  15. Starbucks to report Q2 earnings as analysts hope turnaround efforts gained steam
+  16. T-Mobile rolls out broadband with Starlink backup to expand business customer base
+  17. American Tower raises annual forecast on strong leasing demand, cloud adoption
+  18. Trump's crypto gala went well, but it brings up a major issuePresident Trump held a cryptocurrency conference at Mar-a-Lago over the weekend. In the video above, Scott Melker, the host of "The Wolf of All Streets" podcast, discusses the details."The Daily Wolf with Scott Melker" airs on Yahoo Finance every day at 12:00 p.m. Tune in for your daily dose of all things crypto.Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news.
+  19. Tuesday earnings to watch: Coca-Cola, GM, Robinhood, Starbucks
+  20. Why 'good culture' matters most for Formula 1's smallest team
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Stocks are scoring records, but the Dow is still benched
+  2. Nasdaq futures slide as fresh concerns around AI pressure tech stocks
+  3. US stock index futures mixed as Mideast stalemate keeps oil risks in focus
+  4. Talons on show
+  5. US stock index futures fall as Middle East stalemate keeps oil risks in focus
+  6. S&P 500, Nasdaq, close slightly higher in cautious start to a heavy earnings week
+  7. S&P 500, Nasdaq, close slightly up in cautious start to a heavy earnings week
+  8. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-04-27
+  9. Wall Street rangebound, cautious at start of heavy earnings week
+  10. Wall Street indexes enter earnings-heavy week on cautious footing
+  11. Beer stocks eye a billion-pint World Cup lift - Jefferies
+  12. Live music industry finds out that home is where the money is
+  13. Magnificent Seven earnings flood awaits as MAGS ETF rides into resistance
+  14. Wall St set for tepid open as investors weigh US-Iran conflict before earnings rush
+  15. US CASE SHILLER 20-CITY HOUSING PRICE INDEX -0.1% IN FEB. FROM JAN., SEASONALLY ADJUSTED
+
+=== ECONOMIC CALENDAR — 2026-04-28 ===
+  [0] ADP Employment Change Weekly — Actual: 39.25 | Forecast: None | Prev: 40.25
+  [-1] Redbook YoY — Actual: 7.7 | Forecast: None | Prev: 6.7
+  [0] S&P/Case-Shiller Home Price YoY — Actual: 0.9 | Forecast: 1.1 | Prev: 1.2
+  [-1] House Price Index MoM — Actual: 0 | Forecast: 0.2 | Prev: 0.2
+  [-1] House Price Index YoY — Actual: 1.7 | Forecast: None | Prev: 1.8
+  [-1] S&P/Case-Shiller Home Price MoM — Actual: 0.4 | Forecast: None | Prev: -0.1
+  [-1] House Price Index — Actual: 441.4 | Forecast: None | Prev: 441.5
+  [-1] Richmond Fed Manufacturing Shipments Index — Actual: None | Forecast: None | Prev: -2
+  [-1] Richmond Fed Manufacturing Index — Actual: None | Forecast: 2 | Prev: 0
+  [-1] Richmond Fed Services Revenues Index — Actual: None | Forecast: None | Prev: 9
+  [0] CB Consumer Confidence — Actual: None | Forecast: 89 | Prev: 91.8
+  [-1] Dallas Fed Services Revenues Index — Actual: None | Forecast: None | Prev: 1.3
+  [-1] Dallas Fed Services Index — Actual: None | Forecast: None | Prev: -13.3
+  [-1] Money Supply — Actual: None | Forecast: None | Prev: 22.65
+  [-1] 7-Year Note Auction — Actual: None | Forecast: None | Prev: 4.255
+  [-1] 2-Year FRN Auction — Actual: None | Forecast: None | Prev: 0.115
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: None | Prev: -4.4
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for 2026-04-28.

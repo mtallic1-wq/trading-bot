@@ -1,0 +1,114 @@
+ANALYSIS DATE: 2026-06-15
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.576 | Day: -0.174% | 5-Day: -0.47%
+  VIX (Fear Index): 16.0 | Day: -9.502% | 5-Day: -15.43%
+  10Y Treasury Yield: 4.469 | Day: -0.401% | 5-Day: -1.82%
+  Gold: 4355.5 | Day: +3.333% | 5-Day: +0.45%
+  Crude Oil: 80.56 | Day: -5.090% | 5-Day: -11.76%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30872.0 | Trend: DOWN
+  1D: 4.08% | 5D: 4.81% | 10D: 1.0%
+  Prev High: 29760.0 | Prev Low: 29230.0 | Prev Close: 29662.0
+  Week High: 29848.25 | Week Low: 28227.75
+  Last 5 Candles: 2026-06-09 DOWN (O:29435.0 H:29848.25 L:28227.75 C:29117.0) | 2026-06-10 DOWN (O:29094.75 H:29250.0 L:28409.0 C:28554.0) | 2026-06-11 UP (O:28455.0 H:29544.25 L:28265.75 C:29464.75) | 2026-06-12 UP (O:29456.75 H:29760.0 L:29230.0 C:29662.0) | 2026-06-15 UP (O:29907.0 H:30915.0 L:30191.0 C:30872.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Stocks soar after US and Iran strike ceasefire deal
+  2. SpaceX stock jumps for second day, now up over 25% since debut
+  3. Legendary trader says investors are watching the wrong Fed lever
+  4. Fox to buy streaming pioneer Roku in $22B deal
+  5. SpaceX IPO reveals one stunning fact about the stock market
+  6. Oil markets have a long way back, even with a peace deal on the table
+  7. Bitcoin recovers to $66,000, but one analyst warns of a 'dead-cat bounce'
+  8. US manufacturing output unchanged in May after large gain in April
+  9. Robinhood's pops on predictions World Cup will boost revenue
+  10. Nvidia joins Wall Street's AI funding wave
+  11. SpaceX IPO just sent a powerful signal to stock market investors
+  12. Musk says SpaceX could bring $1 trillion in revenue by 2030
+  13. How the SpaceX IPO surprised one veteran dealmaker involved
+  14. US homebuilder sentiment falls, driven by large drop in South
+  15. The challenge for Warsh in his first rate meeting as Fed boss
+  16. The AI layoff wave is becoming a powder keg
+  17. Musk's $1T fortune makes Bezos closer to average American
+  18. Suze Orman says 5 money missteps can cost you big
+  19. IMF chief says no global economic slowdown in sight, but risks are high
+  20. Gasoline prices soar as inflation surges to 3-year high
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor | — geopolitics, conflicts, military, infrastructure 
+  Tech Monitor | — AI labs, startups, cloud, cybersecurity 
+  Finance Monitor | — global markets, central banks, forex, crypto 
+  Commodity Monitor | — mining, energy, supply chains, freight 
+  Happy Monitor | — positive news, breakthroughs, conservation 
+  Energy Monitor | — oil, gas, chokepoints, energy security 
+  World Monitor Pro | — AI analyst, personalized digests, MCP for Claude & GPT 
+  Blog | — OSINT guides, geopolitics, market intelligence 
+  What is World Monitor? 
+  OSINT for everyone — open-source intelligence democratized 
+  Dashboard variants guide 
+  Open source on GitHub (AGPL-3.0) 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. SpaceX Soars in Historic IPO: Should You Play SPCX ETFs or the Stock?
+  2. 'Let the oil flow'
+  3. SpaceX IPO adds a dash of volatility to index-investing recipe
+  4. SpaceX stock jumps premarket as Nasdaq-100 inclusion bets grip Wall Street
+  5. RKLB Stock Jumps Overnight: Rocket Lab Lines Up Record Launch Blitz After Nasdaq-100 Entry
+  6. Stock futures jump, oil prices fall as Trump says U.S. has reached peace deal with Iran
+  7. Stock Futures Jump, Oil Sinks After Trump Says Deal Is Done — Barrons.com
+  8. The Faulty Logic Behind the SpaceX Index Trade — WSJ
+  9. US markets close cautiously higher as hopes for Iran peace deal rise amid SpaceX mania
+  10. AMD Stock Pops After Buy Upgrade. It's More Than a CPU Play. — Barrons.com
+  11. S&P 500 climbs as SpaceX gains, hopes build for Iran peace deal
+  12. CoreWeave Shares Rise Ahead of Inclusion in Nasdaq 100 Index
+  13. Why Rocket Lab (RKLB) Stock Is Trading Lower Today
+  14. CoreWeave To Join Nasdaq-100 Index
+  15. World News: Iran Denies Sunday Geneva Signing Date — Pushes Back Hard on Trump's "Final Agreement" Claims
+
+=== ECONOMIC CALENDAR — 2026-06-15 ===
+  [0] NY Empire State Manufacturing Index — Actual: 5.7 | Forecast: 14 | Prev: 19.6
+  [-1] Manufacturing Production YoY — Actual: 1.4 | Forecast: None | Prev: 1.2
+  [-1] Capacity Utilization — Actual: 76.2 | Forecast: 76.2 | Prev: 76.1
+  [0] Industrial Production MoM — Actual: 0.1 | Forecast: 0.3 | Prev: 0.9
+  [-1] Manufacturing Production MoM — Actual: 0 | Forecast: 0.2 | Prev: 0.7
+  [-1] Industrial Production YoY — Actual: 1.7 | Forecast: None | Prev: 1.4
+  [0] NAHB Housing Market Index — Actual: 35 | Forecast: 36 | Prev: 37
+  [-1] 6-Month Bill Auction — Actual: 3.68 | Forecast: None | Prev: 3.69
+  [-1] 3-Month Bill Auction — Actual: 3.64 | Forecast: None | Prev: 3.64
+  [-1] NOPA Crush Report — Actual: None | Forecast: None | Prev: None
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: 10.0%)
+  Alignment: PARTIAL ALIGNMENT — 1/4 TFs bullish
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: BULLISH
+
+  [Daily] Structure: RANGING
+    Price: 30880.75 | PrevH: 29760.0 | PrevL: 29230.0
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-11 UP(28455.0->29464.75) > 2026-06-12 UP(29456.75->29662.0) > 2026-06-15 UP(29907.0->30880.75)
+
+  [4H] Structure: RANGING
+    Price: 30880.5 | PrevH: 30887.0 | PrevL: 30538.5
+    Nearest Support (swing low below): 30291.5
+    Recent: 2026-06-15 UP(30544.5->30599.25) > 2026-06-15 UP(30599.5->30879.25) > 2026-06-15 UP(30879.25->30880.5)
+
+  [1H] Structure: RANGING
+    Price: 30880.5 | PrevH: 30915.0 | PrevL: 30850.5
+    Nearest Support (swing low below): 30598.5
+    Recent: 2026-06-15 UP(30776.25->30879.25) > 2026-06-15 DOWN(30879.25->30867.5) > 2026-06-15 UP(30868.0->30880.5)
+
+  [15m] Structure: BULLISH
+    Price: 30879.0 | PrevH: 30880.0 | PrevL: 30850.5
+    Nearest Support (swing low below): 30538.5
+    BOS: BOS — broke above swing high @ 30800.0 (2026-06-15)
+    Recent: 2026-06-15 DOWN(30900.75->30880.75) > 2026-06-15 DOWN(30879.5->30867.5) > 2026-06-15 UP(30868.0->30879.0)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-15.

@@ -1,0 +1,478 @@
+{
+  "date": "2026-05-11",
+  "created": "2026-05-11T19:03:13.521391",
+  "is_historical": false,
+  "bias_nq": "NEUTRAL",
+  "side": "NEUTRAL",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 29362.0,
+    "prev_day_high": 29386.75,
+    "prev_day_low": 28541.0,
+    "prev_day_close": 29332.5,
+    "week_high": 29386.75,
+    "week_low": 27613.0,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.1,
+      "5d_pct": 5.71,
+      "10d_pct": 7.0
+    },
+    "recent_candles": [
+      {
+        "date": "2026-05-05",
+        "open": 27760.0,
+        "high": 28247.0,
+        "low": 27731.75,
+        "close": 28136.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-06",
+        "open": 28250.0,
+        "high": 28800.0,
+        "low": 28243.0,
+        "close": 28716.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-07",
+        "open": 28662.75,
+        "high": 28944.75,
+        "low": 28552.0,
+        "close": 28682.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-08",
+        "open": 28582.0,
+        "high": 29386.75,
+        "low": 28541.0,
+        "close": 29332.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-11",
+        "open": 29294.0,
+        "high": 29434.75,
+        "low": 29225.75,
+        "close": 29362.0,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 97.88,
+      "day_chg": 0.041,
+      "5d_chg": -0.6
+    },
+    "VIX (Fear Index)": {
+      "price": 18.23,
+      "day_chg": 6.05,
+      "5d_chg": -0.33
+    },
+    "10Y Treasury Yield": {
+      "price": 4.378,
+      "day_chg": 0.321,
+      "5d_chg": -1.53
+    },
+    "Gold": {
+      "price": 4746.0,
+      "day_chg": 0.542,
+      "5d_chg": 5.01
+    },
+    "Crude Oil": {
+      "price": 96.25,
+      "day_chg": 0.87,
+      "5d_chg": -9.56
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "A surprising thing is happening under the S&P 500's record runDon't overlook the warning signs in the market.",
+        "url": "https://finance.yahoo.com/markets/article/a-surprising-thing-is-happening-underneath-the-sp-500s-record-run-115026065.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stocks muted as Trump rejects Iran response to deal",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-11-oil-rise-trump-rejects-peace-225625559.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump goes to China, inflation comes to America",
+        "url": "https://finance.yahoo.com/economy/article/trump-goes-to-china-inflation-comes-to-america-what-to-watch-this-week-104329157.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Massive AI investments come with one downside for Big Tech investors",
+        "url": "https://finance.yahoo.com/markets/article/massive-ai-investments-come-with-one-downside-for-big-tech-investors-135325167.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Goldman Sachs explains why the war hasn't derailed the global economy",
+        "url": "https://finance.yahoo.com/economy/article/bending-not-breaking-goldman-sachs-explains-why-the-war-in-iran-hasnt-derailed-the-global-economy-133542058.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Former X CEO: 'I couldn't have been prouder' of X's transformation",
+        "url": "https://finance.yahoo.com/markets/article/former-x-ceo-linda-yaccarino-i-couldnt-have-been-prouder-of-xs-transformation-132301228.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The CEO of this crashed-out software stock just made a stunning $1T prediction",
+        "url": "https://finance.yahoo.com/markets/article/the-ceo-of-this-crashed-out-software-stock-just-made-a-stunning-1-trillion-prediction-130938568.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tariffs, AI, and Strait of Hormuz in focus for Trump's Beijing visit",
+        "url": "https://finance.yahoo.com/economy/policy/article/trump-heads-to-beijing-with-tariff-uncertainty-ai-communication-and-the-strait-of-hormuz-in-focus-125943246.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The economic warning stock market bulls are probably forgetting",
+        "url": "https://finance.yahoo.com/markets/article/the-economic-warning-stock-market-bulls-are-probably-forgetting-122814165.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Moderna stock adds to gains on hantavirus research",
+        "url": "https://finance.yahoo.com/markets/article/moderna-stock-extends-gains-on-hantavirus-research-121202920.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Cloudflare stock rebounds from steep post-earnings sell-off",
+        "url": "https://finance.yahoo.com/markets/article/cloudflare-stock-rebounds-from-steep-post-earnings-sell-off-134338974.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "AI Wins Have Alphabet Poised to Become World\u2019s Biggest Company",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-wins-alphabet-poised-become-130007285.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Wall St slips at open as US-Iran impasse lifts oil",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/wall-st-slips-open-us-133451147.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "OpenAI to Buy Consulting Firm for JV With Private Equity",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/openai-buy-consulting-firm-jv-132304043.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock market concentration - a feature, not a bug: McGeever",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-concentration-feature-not-130909535.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "China Warns of Imported Inflation Risk as Oil Prices Increase",
+        "url": "https://finance.yahoo.com/economy/policy/articles/china-warns-imported-inflation-risk-130615577.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bill Gates-Backed Fervo Energy Boosts IPO Target to $1.8 Billion",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/bill-gates-backed-fervo-energy-130502043.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Tony Robbins: How to future-proof your job in the age of AIArtificial intelligence (AI) has become the defining buzzword across the business world in recent years. While companies are racing to adopt it, many workers worry about its impact on jobs. Yahoo Finance Executive Editor Brian Sozzi sat down with serial entrepreneur and author Tony Robbins at the Milken Institute Global Conference in Beverly Hills, CA, to break down the AI landscape, what re-skilling really looks like, and how to navigate a future shaped by",
+        "url": "https://finance.yahoo.com/video/tony-robbins-how-to-future-proof-your-job-in-the-age-of-ai-210827667.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Rebuilding X was messy: Former CEO shares why",
+        "url": "https://finance.yahoo.com/video/rebuilding-x-was-messy-former-ceo-shares-why-134301012.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Young people shouldn't do prediction markets at all: Sheila Bair",
+        "url": "https://finance.yahoo.com/video/young-people-shouldnt-prediction-markets-100000175.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump goes to China, inflation comes to America: What to watch",
+        "url": "https://finance.yahoo.com/economy/article/trump-goes-to-china-inflation-comes-to-america-what-to-watch-this-week-104329157.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "The Fed could spook your stock portfolio soon",
+        "url": "https://finance.yahoo.com/news/remember-the-federal-reserve-could-spook-your-stock-portfolio-soon-104307204.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kevin Warsh's friends see threats all around him",
+        "url": "https://finance.yahoo.com/economy/policy/articles/affection-sympathy-kevin-warsh-friends-110000894.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Will Kevin Warsh kill the Trump bull market?",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-chair-pick-kevin-warsh-134539957.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Trump vs. Powell: Keynesian vs. Keynesian",
+        "url": "https://finance.yahoo.com/economy/policy/articles/donald-trump-vs-jerome-powell-140000730.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Mortgage and refinance rates today, May 10, 2026",
+        "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-sunday-may-10-2026-100000526.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Morgan Stanley exec says rate cuts hinge on Iran war end",
+        "url": "https://finance.yahoo.com/economy/policy/articles/heres-markets-expect-rate-cuts-094001442.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Goldman Sachs pencils in December rate cut",
+        "url": "https://finance.yahoo.com/economy/policy/articles/goldman-sachs-sees-fed-hold-112602629.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed inflation tracker flashes warning on rising prices",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-inflation-tracker-just-flashed-092000504.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "US Jobs top forecasts despite Iran war",
+        "url": "https://finance.yahoo.com/economy/articles/america-focus-jobs-solid-showing-145315553.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 45
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "500+ curated RSS news feeds, 65+ external data sources, 50+ map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n500+ curated RSS news feeds, 65+ external data sources, 50+ map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Nasdaq 100's AI glow masks a higher bar",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778508058"
+      },
+      {
+        "title": "Energy\u2019s big lead comes with a big warning",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778504723"
+      },
+      {
+        "title": "Wall St set for subdued open as US-Iran impasse lifts oil",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778503948"
+      },
+      {
+        "title": "Wall St futures subdued as U.S.-Iran talks stall",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778499203"
+      },
+      {
+        "title": "11 weeks and counting",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778496275"
+      },
+      {
+        "title": "U.S. stock futures subdued as talks with Iran stall",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778494700"
+      },
+      {
+        "title": "S&P 500 and Nasdaq notch records, boosted by AI and earnings optimism",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778271672"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-08",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778265922"
+      },
+      {
+        "title": "S&P 500 and Nasdaq hit records, boosted by AI and earnings optimism",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778264841"
+      },
+      {
+        "title": "S&P 500, Nasdaq hit record highs on tech rally, strong jobs data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778256570"
+      },
+      {
+        "title": "S&P 500, Nasdaq hit fresh peaks as tech stocks, jobs data lift sentiment",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778250026"
+      },
+      {
+        "title": "Wall St set to open higher after strong jobs data, chip recovery",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778245645"
+      },
+      {
+        "title": "US stock futures add slightly to gains after latest jobs data\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778245359"
+      },
+      {
+        "title": "US stock futures extend gains after April non-farm payrolls data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778243780"
+      },
+      {
+        "title": "US stock futures rise as chips rebound ahead of jobs data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778239140"
+      },
+      {
+        "title": "US Stocks Start Week Flat",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1778506839"
+      },
+      {
+        "title": "Wall St slips at open as US-Iran impasse lifts oil",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1778506426"
+      },
+      {
+        "title": "S&P 500 Rises 0.07 Point (0.00%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1778506380"
+      },
+      {
+        "title": "There's a new top target for the S&P 500 as the 'melt-up' intensifies",
+        "summary": "",
+        "source": "TradingView/ES Headlines (MarketWatch)",
+        "published": "1778506200"
+      },
+      {
+        "title": "US Futures Edge Lower",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1778501703"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Existing Home Sales",
+        "country": "US",
+        "impact": "1",
+        "actual": "4.02",
+        "forecast": "4.05",
+        "previous": "4.01"
+      },
+      {
+        "title": "Existing Home Sales MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.2",
+        "forecast": "None",
+        "previous": "-2.9"
+      },
+      {
+        "title": "NY Fed Bill Purchases 1 to 4 months",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "7.587",
+        "previous": "None"
+      },
+      {
+        "title": "6-Month Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.61"
+      },
+      {
+        "title": "3-Month Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.61"
+      },
+      {
+        "title": "3-Year Note Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.897"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is slightly up at 97.88, indicating a moderate headwind for tech/growth equities like NQ.\n* The VIX (Fear Index) has risen to 18.23, suggesting increased market volatility and a cautious sentiment.\n* The 10Y Treasury Yield is up at 4.378, which could put pressure on tech/growth stocks as higher yields make future earnings less valuable.\n* Gold and Oil prices are up, with Gold at 4746.0 and Oil at 96.25, indicating a risk-off sentiment and potential inflation concerns.\nState: RISK-OFF environment\n\n## KEY NEWS ANALYSIS\nThe news headlines suggest a mixed sentiment, with some positive stories about AI investments and tech stocks, but also warnings about market concentration, inflation risks, and geopolitical tensions. \n* The story about AI investments and Big Tech stocks (e.g., \"AI Wins Have Alphabet Poised to Become World\u2019s Biggest Company\") is bullish for NQ.\n* However, the warnings about market concentration, inflation risks, and geopolitical tensions (e.g., \"A surprising thing is happening under the S&P 500's record run\", \"China Warns of Imported Inflation Risk as Oil Prices Increase\") are bearish for NQ.\nOverall news sentiment: MIXED for Nasdaq\n\n## ECONOMIC EVENTS IMPACT\nThe Existing Home Sales data came in slightly below forecast, which could be a minor negative for the market. However, the impact is likely to be limited, and the focus will remain on the broader macro trends and news sentiment.\n\n## NQ MARKET CONTEXT\nThe NQ is currently in an uptrend, with a price of 29362.0 and a recent 5-day gain of 5.71%. The previous day's high and low were 29386.75 and 28541.0, respectively. The recent candle structure shows a bullish trend, but with some signs of exhaustion.\n\n## PREDICTION\n**NYSE SESSION SIDE: NEUTRAL**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | NEUTRAL | 40% | MEDIUM |\n\n**NQ Prediction: NEUTRAL**\n**Confidence: 40% \u2014 MEDIUM**\n\n## TOP REASONS\n1. The mixed news sentiment, with both positive and negative stories, makes it difficult to predict a clear direction for NQ.\n2. The risk-off environment, as indicated by the rising VIX and Gold prices, suggests caution and a potential pullback in the market.\n3. The NQ's recent uptrend and bullish candle structure suggest some underlying strength, but the market may be due for a consolidation or correction.\n\n## KEY RISKS\n- A sudden escalation of geopolitical tensions or a significant increase in inflation concerns could lead to a sharp market decline.\n- A breakdown in the NQ's uptrend could lead to a more significant correction.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- Any updates on the US-Iran talks and their potential impact on oil prices and the market.\n- The performance of tech stocks, particularly those related to AI and Big Tech.\n- The NQ's price action around key levels, such as the previous day's high and low, and the weekly high and low.\n\n## ONE-LINE SUMMARY\n\"2026-05-11 NYSE SESSION: NEUTRAL \u2014 Mixed news sentiment and a risk-off environment make it difficult to predict a clear direction for NQ, with a neutral bias and medium confidence.\"",
+    "bias_nq": "NEUTRAL",
+    "side": "NEUTRAL",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

@@ -1,0 +1,590 @@
+{
+  "date": "2026-05-08",
+  "created": "2026-05-08T18:09:30.789888",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 28917.0,
+    "prev_day_high": 28944.75,
+    "prev_day_low": 28552.0,
+    "prev_day_close": 28682.25,
+    "week_high": 28944.75,
+    "week_low": 27536.25,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.82,
+      "5d_pct": 3.88,
+      "10d_pct": 5.4
+    },
+    "recent_candles": [
+      {
+        "date": "2026-05-04",
+        "open": 27890.0,
+        "high": 27965.75,
+        "low": 27613.0,
+        "close": 27776.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-05-05",
+        "open": 27760.0,
+        "high": 28247.0,
+        "low": 27731.75,
+        "close": 28136.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-06",
+        "open": 28250.0,
+        "high": 28800.0,
+        "low": 28243.0,
+        "close": 28716.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-07",
+        "open": 28662.75,
+        "high": 28944.75,
+        "low": 28552.0,
+        "close": 28682.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-08",
+        "open": 28582.0,
+        "high": 28976.0,
+        "low": 28541.0,
+        "close": 28917.0,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 97.916,
+      "day_chg": -0.34,
+      "5d_chg": -0.3
+    },
+    "VIX (Fear Index)": {
+      "price": 16.91,
+      "day_chg": -0.995,
+      "5d_chg": -0.47
+    },
+    "10Y Treasury Yield": {
+      "price": 4.364,
+      "day_chg": -0.638,
+      "5d_chg": -0.32
+    },
+    "Gold": {
+      "price": 4734.7,
+      "day_chg": 0.743,
+      "5d_chg": 2.26
+    },
+    "Crude Oil": {
+      "price": 95.31,
+      "day_chg": 0.527,
+      "5d_chg": -6.5
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "April jobs reportThe US economy added 115,000 jobs, far better than expected",
+        "url": "https://finance.yahoo.com/economy/article/april-jobs-report-economy-adds-115000-jobs-far-better-than-expected-182224225.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "The AI arms race is eating into Big Tech's cash flowThe AI boom has made Big Tech richer, bigger, and suddenly much hungrier for cash.",
+        "url": "https://finance.yahoo.com/markets/article/the-ai-arms-race-is-eating-into-big-techs-cash-flow-chart-of-the-day-100000590.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock futures rise with investors eyeing US-Iran, jobs",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-friday-may-8-iran-us-attacks-232854074.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trade court strikes down Trump's 10% blanket tariffs",
+        "url": "https://finance.yahoo.com/economy/policy/live/trump-tariffs-live-updates-us-opens-tariff-refund-portal-with-checks-expected-this-summer-223100182.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What the latest ruling on Trump's tariffs could mean for businesses",
+        "url": "https://finance.yahoo.com/markets/article/what-the-latest-ruling-on-trumps-tariffs-could-mean-for-businesses-225608802.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Jobs report on deck as Cloudflare, Upwork add to tech layoffs",
+        "url": "https://finance.yahoo.com/economy/live/bls-jobs-report-friday-may-8-jolts-142101464.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US said to suspect Nvidia chips smuggled to Alibaba via Thailand",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/us-said-suspect-nvidia-chips-075632473.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Food prices rise to highest in 3 years on Iran war costs",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/food-prices-rise-highest-three-084618179.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Iran turns to China rail link to try to bypass US blockade",
+        "url": "https://finance.yahoo.com/economy/articles/iran-turns-china-rail-try-074000805.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Toyota expects $4.3 billion hit from effects of Iran war",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/toyota-sees-20-drop-annual-050817078.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Anthropic weighs deal for near $1tn valuation as revenue surges",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-weighs-deal-near-1tn-040014813.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "April jobs report: Economy adds 115,000 jobs, far better than expected",
+        "url": "https://finance.yahoo.com/economy/article/april-jobs-report-economy-adds-115000-jobs-far-better-than-expected-182224225.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Amazon's Chile data center moves ahead after residents lose environmental challenge",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/amazons-chile-data-center-moves-130313606.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Lilly's obesity pill tops 7,000 prescriptions in fourth week, signals modest uptake",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/lillys-obesity-pill-tops-7-125804830.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Global equity funds draw inflows for the\u00a0seventh week on earnings optimism",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/global-equity-funds-draw-inflows-124455012.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US job growth beats expectations in April; unemployment rate steady at 4.3%",
+        "url": "https://finance.yahoo.com/economy/articles/us-job-growth-beats-expectations-124113358.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US stock futures extend gains after April non-farm payrolls data",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-extend-gains-123917057.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil pares early gains a day after renewed US-Iran fighting",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/us-oil-prices-jump-us-222038837.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US economy adds 115,000 jobs in AprilThe US economy grew by 115,000 non-farm payroll jobs in April, according to the US Bureau of Labor Statistics (BLS), well above economists' forecasts of 65,000.  Additionally, average hourly earnings rose by 3.6% year-over-year while the unemployment rate held at 4.3%. Morning Brief Host Julie Hyman and Yahoo Finance Head of News Myles Udland dive into the details of the April jobs report.",
+        "url": "https://finance.yahoo.com/video/us-economy-adds-115000-jobs-in-april-123925950.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Kevin Warsh will be a 'healthy' change for the Fed: Sheila Bair",
+        "url": "https://finance.yahoo.com/video/kevin-warsh-healthy-change-fed-100000208.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Private employers added 109,000 roles in April",
+        "url": "https://finance.yahoo.com/economy/article/private-employers-added-109000-roles-in-april-122411352.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Global debt hits record of near $353T, with signs of move away from US",
+        "url": "https://finance.yahoo.com/economy/articles/global-debt-hits-record-near-163402074.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "St. Louis Fed's Musalem more worried about inflation than jobs now",
+        "url": "https://finance.yahoo.com/economy/policy/article/st-louis-feds-musalem-more-worried-about-inflation-than-jobs-now-sees-holding-rates-for-some-time-151347167.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Gary Cohn: Kevin Warsh will be a 'fundamentalist' Fed chair",
+        "url": "https://finance.yahoo.com/markets/article/former-trump-economic-adviser-gary-cohn-says-kevin-warsh-will-be-a-fundamentalist-fed-chair-155911764.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "The 'K-shaped economy' has shown up at the gasoline pump",
+        "url": "https://finance.yahoo.com/economy/article/the-k-shaped-economy-has-shown-up-at-the-gasoline-pump-172111222.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "3 charts explain how the Iran war oil shock could impact the economy",
+        "url": "https://finance.yahoo.com/economy/article/3-charts-explain-how-the-iran-war-oil-shock-could-impact-the-economy-105600349.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "The chip trade is no longer just about Nvidia",
+        "url": "https://finance.yahoo.com/markets/article/the-chip-trade-is-no-longer-just-about-nvidia-175900816.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Corning lands $500 million deal with Nvidia",
+        "url": "https://finance.yahoo.com/markets/stocks/article/corning-stock-surges-to-intraday-high-after-company-lands-500-million-nvidia-deal-144931492.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Coinbase to lay off 14% of workers as CEO restructures for AI efficiency",
+        "url": "https://finance.yahoo.com/markets/crypto/article/coinbase-to-lay-off-700-workers-as-ceo-brian-armstrong-restructures-crypto-exchange-for-ai-efficiency-114736268.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "'Sell in May' has been a bad strategy this century: Chart of the Day",
+        "url": "https://finance.yahoo.com/markets/article/sell-in-may-has-been-a-bad-strategy-this-century-chart-of-the-day-132651021.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 44
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Wall St set to open higher after strong jobs data, chip recovery",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778245645"
+      },
+      {
+        "title": "US stock futures add slightly to gains after latest jobs data\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778245359"
+      },
+      {
+        "title": "US stock futures extend gains after April non-farm payrolls data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778243780"
+      },
+      {
+        "title": "US stock futures rise as chips rebound ahead of jobs data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778239140"
+      },
+      {
+        "title": "Chip push, crude pull",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778236932"
+      },
+      {
+        "title": "S&P 500 ends down as chip stocks give up gains",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778185422"
+      },
+      {
+        "title": "S&P 500 dips as chip stocks give up gains",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778180024"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-07",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778179508"
+      },
+      {
+        "title": "Wall St stalls as chips retreat after record run; jobs data in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778172634"
+      },
+      {
+        "title": "S&P 500, Nasdaq at record highs as oil pullback brings relief",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778162811"
+      },
+      {
+        "title": "Wall St set to open near record highs as oil extends losses",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778159135"
+      },
+      {
+        "title": "Benchmark Treasury yield: Still coiling, but history warns calm won\u2019t last",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778158793"
+      },
+      {
+        "title": "S&P 500, Nasdaq futures touch record highs as oil extends losses",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778153490"
+      },
+      {
+        "title": "Chip frenzy goes global",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1778151169"
+      },
+      {
+        "title": "US Futures Rebound to Record Highs",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Trading Economics)",
+        "published": "1778244733"
+      },
+      {
+        "title": "MORE U.S. APRIL JOBS: FINANCIAL ACTIVITIES -11K, DOWN 30K IN MARCH & APRIL",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778243820"
+      },
+      {
+        "title": "MORE U.S. APRIL JOBS: LEISURE & HOSPITALITY +14K",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778243820"
+      },
+      {
+        "title": "MORE U.S. APRIL JOBS: INFORMATION -13K",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778243760"
+      },
+      {
+        "title": "MORE U.S. APRIL JOBS: CONSTRUCTION +9K",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778243700"
+      },
+      {
+        "title": "MORE U.S. APRIL JOBS: RETAIL +21.8K",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1778243700"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Fed Cook Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Manufacturing Payrolls",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-2",
+        "forecast": "5",
+        "previous": "15"
+      },
+      {
+        "title": "Non Farm Payrolls",
+        "country": "US",
+        "impact": "1",
+        "actual": "115",
+        "forecast": "62",
+        "previous": "185"
+      },
+      {
+        "title": "Average Hourly Earnings MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "0.2",
+        "forecast": "0.3",
+        "previous": "0.2"
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "US",
+        "impact": "1",
+        "actual": "4.3",
+        "forecast": "4.3",
+        "previous": "4.3"
+      },
+      {
+        "title": "Average Hourly Earnings YoY",
+        "country": "US",
+        "impact": "0",
+        "actual": "3.6",
+        "forecast": "3.8",
+        "previous": "3.4"
+      },
+      {
+        "title": "Nonfarm Payrolls Private",
+        "country": "US",
+        "impact": "-1",
+        "actual": "123",
+        "forecast": "75",
+        "previous": "190"
+      },
+      {
+        "title": "Government Payrolls",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-8",
+        "forecast": "None",
+        "previous": "-5"
+      },
+      {
+        "title": "U-6 Unemployment Rate",
+        "country": "US",
+        "impact": "-1",
+        "actual": "8.2",
+        "forecast": "None",
+        "previous": "8"
+      },
+      {
+        "title": "Participation Rate",
+        "country": "US",
+        "impact": "0",
+        "actual": "61.8",
+        "forecast": "None",
+        "previous": "61.9"
+      },
+      {
+        "title": "Average Weekly Hours",
+        "country": "US",
+        "impact": "-1",
+        "actual": "34.3",
+        "forecast": "34.2",
+        "previous": "34.2"
+      },
+      {
+        "title": "Michigan Consumer Sentiment Prel",
+        "country": "US",
+        "impact": "1",
+        "actual": "None",
+        "forecast": "49.5",
+        "previous": "49.8"
+      },
+      {
+        "title": "Michigan Current Conditions Prel",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "52",
+        "previous": "52.5"
+      },
+      {
+        "title": "Michigan Inflation Expectations Prel",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "4.7"
+      },
+      {
+        "title": "Michigan 5 Year Inflation Expectations Prel",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.5"
+      },
+      {
+        "title": "Michigan Consumer Expectations Prel",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "48.1",
+        "previous": "48.1"
+      },
+      {
+        "title": "Wholesale Inventories MoM",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "1.4",
+        "previous": "0.8"
+      },
+      {
+        "title": "Fed Goolsbee Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Baker Hughes Oil Rig Count",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "408"
+      },
+      {
+        "title": "Baker Hughes Total Rigs Count",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "547"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is down 0.34% on the day and 0.30% over the past 5 days, indicating a slight weakening of the US dollar, which could be beneficial for tech and growth stocks.\n* The VIX (Fear Index) is down 0.995% on the day and 0.47% over the past 5 days, suggesting a decrease in market volatility and a more risk-on environment.\n* The 10Y Treasury Yield is down 0.638% on the day and 0.32% over the past 5 days, which could reduce pressure on tech and growth stocks.\n* Gold is up 0.743% on the day and 2.26% over the past 5 days, indicating a potential safe-haven bid, but its impact on NQ is generally indirect.\n* Crude Oil is up 0.527% on the day but down 6.50% over the past 5 days, which could have mixed implications for the market, depending on the sector.\nState: RISK-ON environment, given the decrease in VIX and the slight weakening of the DXY.\n\n## KEY NEWS ANALYSIS\n* The April jobs report showed the US economy added 115,000 jobs, far better than expected, which is bullish for the market as it indicates a strong labor market without overheating.\n* The AI arms race is eating into Big Tech's cash flow, which could be a headwind for some NQ components, but the overall impact of AI on the tech sector is complex and multifaceted.\n* Stock futures are rising with investors eyeing US-Iran developments and the strong jobs data, indicating a positive market sentiment.\n* The trade court striking down Trump's 10% blanket tariffs could have mixed implications, potentially benefiting some sectors while hurting others.\n* Overall news sentiment: BULLISH for Nasdaq, considering the strong jobs report and the overall positive market sentiment.\n\n## ECONOMIC EVENTS IMPACT\n* The Non-Farm Payrolls exceeded forecasts, which is bullish for the market.\n* The Average Hourly Earnings YoY came in slightly below forecast, which could reduce inflation concerns and thus be seen as mildly bullish.\n* The Unemployment Rate remained steady at 4.3%, which is in line with expectations and supports a bullish view.\n\n## NQ MARKET CONTEXT\n* NQ is in an uptrend, with a current price of 28917.0, having risen 0.82% on the day and 3.88% over the past 5 days.\n* Key price levels include the previous day's high of 28944.75 and low of 28552.0.\n* The recent candle structure shows a series of uptrend days, supporting the bullish context.\n\n## PREDICTION\n**NYSE SESSION SIDE: BUY SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | BULLISH | 80% | HIGH |\n\n**NQ Prediction: BULLISH**\n**Confidence: 80% \u2014 HIGH**\n\n## TOP REASONS\n1. The strong April jobs report, which exceeded expectations, supports a bullish market outlook.\n2. The decrease in VIX and the slight weakening of the DXY suggest a risk-on environment, favorable for tech and growth stocks.\n3. The overall positive market sentiment, as indicated by rising stock futures and a strong labor market, supports a bullish prediction.\n\n## KEY RISKS\n- Geopolitical tensions, particularly between the US and Iran, could escalate and negatively impact the market.\n- Any unexpected increase in inflation or a sharp rise in yields could pressure tech and growth stocks.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- Further developments in US-Iran relations and their impact on oil prices.\n- Any reactions to the jobs report and its implications for future monetary policy.\n- Key NQ price levels, including the previous day's high of 28944.75 and the weekly high.\n\n## ONE-LINE SUMMARY\n\"2026-05-08 NYSE SESSION: BUY SIDE \u2014 Strong jobs report and risk-on environment support a bullish outlook for NQ.\"",
+    "bias_nq": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}

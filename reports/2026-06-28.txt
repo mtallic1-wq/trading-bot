@@ -1,0 +1,116 @@
+ANALYSIS DATE: 2026-06-28
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 101.36 | Day: -0.069% | 5-Day: +0.51%
+  VIX (Fear Index): 18.41 | Day: -2.541% | 5-Day: +12.26%
+  10Y Treasury Yield: 4.372 | Day: -0.455% | 5-Day: -1.77%
+  Gold: 4096.3 | Day: +1.633% | 5-Day: -3.03%
+  Crude Oil: 69.23 | Day: -3.740% | 5-Day: -9.62%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29368.25 | Trend: DOWN
+  1D: -1.2% | 5D: -2.96% | 10D: -0.33%
+  Prev High: 30263.75 | Prev Low: 29295.75 | Prev Close: 29724.75
+  Week High: 30968.0 | Week Low: 29264.75
+  Last 5 Candles: 2026-06-22 UP (O:30577.0 H:30968.0 L:30337.5 C:30653.5) | 2026-06-23 DOWN (O:30662.75 H:30701.25 L:29577.25 C:29666.0) | 2026-06-24 DOWN (O:29770.0 H:30157.75 L:29264.75 C:29514.25) | 2026-06-25 DOWN (O:30089.75 H:30263.75 L:29295.75 C:29724.75) | 2026-06-26 DOWN (O:29742.0 H:29892.75 L:29160.5 C:29368.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. AI jitters meet a jobs report and falling oil prices this week
+  2. This is not what a risk-off month usually looks like
+  3. The $4 trillion corporate profit boom
+  4. US strikes Iran again as tit-for-tat attacks test ceasefire
+  5. Trump kicks off sales pitch for Iran deal few Americans like
+  6. Takeaways from Cannes: Don't forget about the power of the US consumer
+  7. 'We don't view this as a bubble' : Wall Street weighs AI costs on rally
+  8. Burying your head in the sand works for some investors, but it's not the best advice
+  9. Shipping companies are passing over $1B in tariff refunds to customers
+  10. Emerging markets are now an AI chip trade
+  11. Slate's CEO on launching a $25K EV and 'contrarian point of view'
+  12. Apple Vision Pro exec is reportedly leaving for OpenAI
+  13. Worried about SpaceX's volatility? Here's what 401(k) savers should do.
+  14. There are now high-end condos for luxury brand superfans
+  15. Retirees face a new challenge: How to spend their 401(k) savings
+  16. Young job seekers might want to swap New York City for the South
+  17. She billed Medicare $906M for hospice patients, then bought a Ferrari
+  18. How to tap Berkshire's Coca-Cola dividend windfall
+  19. 2 Dividend Stocks to Buy Even as New Fed Chair Kevin Warsh Holds Interest Rates Steady
+  20. 2 Sneaky Ways Fed Chair Kevin Warsh and the FOMC Can Raise Interest Rates Without Adjusting the Federal Funds Rate
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  WORLD MONITOR | by Someone.ceo | Correlations | First 5 min | Depth | Pricing | FAQ | Docs | Launch Dashboard 
+  Correlations | First 5 min | Depth | Pricing | FAQ | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | This page is plugged into the same APIs as the dashboard. | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Sample 
+  Top signals 
+  Security council convenes emergency session on Red Sea shipping attacks | Reuters 
+  Major central banks signal divergence ahead of rate decisions | Financial Times 
+  Undersea cable disruption slows traffic across two regions | AP 
+  Satellite imagery shows expanded activity at contested border | BBC 
+  Instability index | Sample 
+  Instability index 
+  🇺🇦 | UA | 78 | ─ 
+  🇮🇱 | IL | 71 | ▲ 
+  🇮🇷 | IR | 66 | ▲ 
+  🇷🇺 | RU | 62 | ─ 
+  🇵🇰 | PK | 54 | ▼ 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. SpaceX to join Nasdaq 100 on July 7, may spur passive fund inflows
+  2. SpaceX set to join Nasdaq 100, paving way for wave of passive buying
+  3. Nasdaq Says SpaceX To Join Nasdaq-100 Index On July 7
+  4. Space Exploration Technologies Corporation to Join the Nasdaq-100 Index® Beginning July 7, 2026
+  5. SpaceX Stock Is Joining a Major Index — Can It Stop the Slump? — Barrons.com
+  6. SpaceX rises modestly ahead of Russell rebalance, Nasdaq entry next
+  7. European Chip Stocks Fall as Tech Selloff Resumes — Market Talk
+  8. The S&P 500 is at a critical crossroads. A break lower could signal more losses ahead.
+  9. PCE Inflation Shakes Markets: Nasdaq Rally Collapses, Bitcoin Falls to New 2026 Low
+  10. What’s the point of investing in Cathie Wood’s ARKK ETF anyway?
+  11. Tech stocks surge as Micron earnings ease AI fears, oil falls further
+  12. Wall St futures extend gains after May inflation data
+  13. US markets today: Dow, Nasdaq futures rise ahead of key inflation data
+  14. Wall Street's wallflowers are worth another look
+  15. Nasdaq futures skyrocket 650 points: 5 things to know before Wall Street opens
+
+=== ECONOMIC CALENDAR — 2026-06-28 ===
+  [0] Fed Barkin Speech — Actual: None | Forecast: None | Prev: None
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: 0.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 29368.25 | PrevH: 30263.75 | PrevL: 29295.75
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-24 DOWN(29770.0->29514.25) > 2026-06-25 DOWN(30089.75->29724.75) > 2026-06-26 DOWN(29742.0->29368.25)
+
+  [4H] Structure: RANGING
+    Price: 29368.25 | PrevH: 29700.0 | PrevL: 29283.75
+    Nearest Resistance (swing high above): 29743.0
+    Nearest Support (swing low below): 29264.75
+    Recent: 2026-06-26 UP(29350.0->29621.25) > 2026-06-26 DOWN(29620.75->29317.75) > 2026-06-26 UP(29318.0->29368.25)
+
+  [1H] Structure: RANGING
+    Price: 29368.25 | PrevH: 29569.5 | PrevL: 29283.75
+    Nearest Resistance (swing high above): 29562.75
+    Nearest Support (swing low below): 29303.5
+    Recent: 2026-06-26 DOWN(29545.25->29415.5) > 2026-06-26 DOWN(29417.0->29317.75) > 2026-06-26 UP(29318.0->29368.25)
+
+  [15m] Structure: RANGING
+    Price: 29368.25 | PrevH: 29348.25 | PrevL: 29256.75
+    Nearest Resistance (swing high above): 29386.75
+    Nearest Support (swing low below): 29364.75
+    Recent: 2026-06-26 DOWN(29352.5->29341.25) > 2026-06-26 DOWN(29341.25->29271.25) > 2026-06-26 UP(29271.25->29368.25)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-28.

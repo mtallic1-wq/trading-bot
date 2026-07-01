@@ -1,0 +1,124 @@
+ANALYSIS DATE: 2026-06-24
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 101.66 | Day: +0.247% | 5-Day: +2.13%
+  VIX (Fear Index): 18.87 | Day: -3.181% | 5-Day: +14.99%
+  10Y Treasury Yield: 4.412 | Day: -0.876% | 5-Day: -1.67%
+  Gold: 4034.6 | Day: -2.308% | 5-Day: -6.84%
+  Crude Oil: 70.11 | Day: -4.234% | 5-Day: -7.81%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29640.0 | Trend: UP
+  1D: -0.09% | 5D: -1.18% | 10D: 1.8%
+  Prev High: 30701.25 | Prev Low: 29577.25 | Prev Close: 29666.0
+  Week High: 30968.0 | Week Low: 29577.25
+  Last 5 Candles: 2026-06-17 DOWN (O:30006.75 H:30268.5 L:29616.0 C:29687.5) | 2026-06-18 UP (O:29758.5 H:30285.75 L:29758.5 C:30263.35) | 2026-06-22 UP (O:30577.0 H:30968.0 L:30337.5 C:30653.5) | 2026-06-23 DOWN (O:30662.75 H:30701.25 L:29577.25 C:29666.0) | 2026-06-24 DOWN (O:29770.0 H:29891.75 L:29562.25 C:29640.0)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Big Tech's $2.7 trillion AI bill is finally coming due
+  2. Nasdaq looks to rebound from tech rout in wait for Micron
+  3. Micron set for big earnings reveal amid renewed AI jitters
+  4. SpaceX stock slips after announcing $25B bond offering
+  5. Trump joins a long line of presidents fuming at gas prices
+  6. The debasement trade is unraveling — and Kevin Warsh is one big reason
+  7. Wendy's stock soars after viral Reddit post
+  8. Bessent: Inflation will fall, and AI could 'at least double' productivity
+  9. Young job seekers might want to swap New York City for the South
+  10. OpenAI, Broadcom announce first custom AI chip in strike at Nvidia
+  11. Cerebras sinks as debut earnings show AI chip lag
+  12. Qualcomm to buy AI startup Modular for $4B in software push
+  13. How SK Hynix's bet on a niche chip made it more valuable than Samsung
+  14. Gates told Congress that Epstein considered blackmail over affairs
+  15. Prime Day is underway: Here are all the ways you can save
+  16. Slate reveals starting price for cheapest truck in US
+  17. China makes new US warship its target for missile tests
+  18. Investor who scored 900% win in 2008 crisis has new big short bet
+  19. S&P 500, Nasdaq rise as oil drops and Micron earnings loom
+  20. Brent hits lowest since before start of Iran war on expectations of smoother oil flows via Hormuz
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor Pro — AI analyst, digest & MCP 
+  World Monitor Blog — OSINT guides & analysis 
+  What is World Monitor? 
+  Open source on GitHub (AGPL-3.0) 
+  Featured in WIRED 
+  See | — 56 map layers across a dual 3D-globe/WebGL map: conflicts, vessels, flights, satellites, pipelines, submarine cables, AI datacenters. 
+  Understand | — daily AI brief, Country Instability Index across 196 countries, cross-source correlation, Scenario Engine. 
+  Act | — custom monitors and alerts, Route Explorer, 39-tool MCP server and API for Claude, GPT and custom agents. 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. AI Selloff Erases $1.3 Trillion Before Tech Futures Rebound
+  2. Wall St set to open higher as tech rebounds, Micron earnings eyed
+  3. S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed
+  4. Markets Steady After Two-Day Tech Slide — WSJ
+  5. S&P, Nasdaq drop on semiconductor selloff as AI spending concerns mount
+  6. SpaceX's wild ride is just getting started
+  7. S&P, Nasdaq drop on tech selloff as concerns about hawkish Fed, AI spending mount
+  8. Wall St tumbles on tech selloff as concerns about hawkish Fed, AI spending mount
+  9. US futures fall on tech selloff as concerns about hawkish Fed, AI spending mount
+  10. Here’s why Rocket Lab stock is ripe for a strong comeback
+  11. Nasdaq 100 set to shed over $1 trillion as tech selloff deepens; SpaceX slides
+  12. Tech Selloff Deepens — WSJ
+  13. US Market Crash: Nasdaq 100 falls 1,000 points as tech sell-off deepens ahead of Micron results
+  14. Wall Street crash: Why S&P 500, Nasdaq futures tumbled today after KOSPI’s 10% fall; AI sell-off deepens
+  15. Netweb, Orient Tech, E2E Networks shares decline up to 3% amid global AI selloff; Black Box bucks trend
+
+=== ECONOMIC CALENDAR — 2026-06-24 ===
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.59 | Forecast: None | Prev: 6.6
+  [-1] MBA Mortgage Market Index — Actual: 272.1 | Forecast: None | Prev: 269.5
+  [-1] MBA Mortgage Applications — Actual: 1 | Forecast: None | Prev: -3.8
+  [-1] MBA Mortgage Refinance Index — Actual: 834.2 | Forecast: None | Prev: 810.2
+  [-1] MBA Purchase Index — Actual: 169.7 | Forecast: None | Prev: 170.8
+  [0] Current Account — Actual: -226.8 | Forecast: -217.5 | Prev: -221.1
+  [-1] Building Permits MoM Final — Actual: -0.9 | Forecast: -0.7 | Prev: 4.4
+  [-1] Building Permits Final — Actual: 1.41 | Forecast: 1.413 | Prev: 1.423
+  [-1] NY Fed Bill Purchases 4 to 12 months — Actual: None | Forecast: 3.319 | Prev: None
+  [0] New Home Sales — Actual: 0.58 | Forecast: 0.64 | Prev: 0.626
+  [0] New Home Sales MoM — Actual: -7.3 | Forecast: None | Prev: -5.7
+  [-1] EIA Gasoline Production Change — Actual: None | Forecast: None | Prev: 0.356
+  [0] EIA Gasoline Stocks Change — Actual: None | Forecast: -0.6 | Prev: -0.906
+  [-1] EIA Crude Oil Imports Change — Actual: None | Forecast: None | Prev: -0.241
+  [-1] EIA Distillate Fuel Production Change — Actual: None | Forecast: None | Prev: -0.029
+  [-1] EIA Heating Oil Stocks Change — Actual: None | Forecast: None | Prev: -0.204
+  [0] EIA Crude Oil Stocks Change — Actual: None | Forecast: -4.5 | Prev: -8.262
+  [-1] EIA Cushing Crude Oil Stocks Change — Actual: None | Forecast: None | Prev: -1.606
+  [-1] EIA Distillate Stocks Change — Actual: None | Forecast: -0.5 | Prev: 0.951
+  [-1] EIA Refinery Crude Runs Change — Actual: None | Forecast: None | Prev: 0.23
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: 10.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: RANGING | 4H: BULLISH | 1H: BEARISH | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 29619.75 | PrevH: 30701.25 | PrevL: 29577.25
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-22 UP(30577.0->30653.5) > 2026-06-23 DOWN(30662.75->29666.0) > 2026-06-24 DOWN(29770.0->29619.75)
+
+  [4H] Structure: BULLISH
+    Price: 29616.0 | PrevH: 29866.25 | PrevL: 29734.0
+    Nearest Resistance (swing high above): 29743.0
+    Nearest Support (swing low below): 29577.25
+    Recent: 2026-06-24 UP(29687.0->29770.0) > 2026-06-24 UP(29771.25->29862.25) > 2026-06-24 DOWN(29861.0->29616.0)
+
+  [1H] Structure: BEARISH
+    Price: 29616.0 | PrevH: 29841.5 | PrevL: 29562.25
+    Nearest Resistance (swing high above): 29645.5
+    Nearest Support (swing low below): 29585.5
+    BOS: BOS — broke below swing low @ 29616.5 (2026-06-24)
+    Recent: 2026-06-24 DOWN(29861.0->29762.0) > 2026-06-24 DOWN(29764.25->29684.25) > 2026-06-24 DOWN(29684.25->29616.0)
+
+  [15m] Structure: RANGING
+    Price: 29616.0 | PrevH: 29725.5 | PrevL: 29625.75
+    Nearest Resistance (swing high above): 29779.0
+    Nearest Support (swing low below): 29585.5
+    Recent: 2026-06-24 UP(29662.5->29684.25) > 2026-06-24 DOWN(29684.25->29665.25) > 2026-06-24 DOWN(29664.5->29616.0)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-24.

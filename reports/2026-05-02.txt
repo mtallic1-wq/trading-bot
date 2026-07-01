@@ -1,0 +1,70 @@
+ANALYSIS DATE: 2026-05-02
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.21 | Day: +0.133% | 5-Day: -0.30%
+  VIX (Fear Index): 16.99 | Day: +0.592% | 5-Day: -9.19%
+  10Y Treasury Yield: 4.378 | Day: -0.273% | 5-Day: +1.58%
+  Gold: 4629.9 | Day: +0.329% | 5-Day: -1.96%
+  Crude Oil: 101.94 | Day: -2.979% | 5-Day: +7.99%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 27835.75 | Trend: UP
+  1D: 0.87% | 5D: 1.46% | 10D: 3.77%
+  Prev High: 27622.75 | Prev Low: 27163.25 | Prev Close: 27596.0
+  Week High: 27622.75 | Week Low: 26992.0
+  Last 5 Candles: 2026-04-27 UP (O:27403.25 H:27542.5 L:27298.5 C:27440.5) | 2026-04-28 DOWN (O:27423.0 H:27512.0 L:27009.5 C:27168.75) | 2026-04-29 UP (O:27197.25 H:27414.0 L:27094.0 C:27325.25) | 2026-04-30 UP (O:27207.0 H:27622.75 L:27163.25 C:27596.0) | 2026-05-01 UP (O:27631.75 H:27917.0 L:27536.25 C:27835.75)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Berkshire Hathaway cash surges in Abel's first quarter as CEOCompany shareholders gathered for the annual meeting Saturday in Omaha.
+  2. Spirit Airlines shuts down, industry's first Iran war closure
+  3. So far the spring homebuying market is showing 'surprising resilience'
+  4. Network shakeups hit Medicare Advantage, forcing retirees to pay more or find new care
+  5. Airlines scramble to help stranded Spirit passengers
+  6. The K-shaped spending trend is real — but it's been here since 2023
+  7. In a low-hire job market, new grads need more than a high GPA
+  8. Higher gas prices are eating into Americans' tax refunds
+  9. Toto Wolff talks Mercedes F1's dominant start
+  10. Trump expands US sanctions on Cuban government and affiliates
+  11. Spirit Airlines canceled all flights and is going out of business
+  12. Jerome Powell's Fed years were an everything rally: Chart of the Day
+  13. After Spirit collapse, Duffy says no need for budget airline bailout
+  14. Coinbase says deal reached on key provision of crypto bill
+  15. GameStop is preparing offer for eBay, WSJ reports
+  16. Here’s how Berkshire Hathaway did in its first quarter without Warren Buffett as CEO
+  17. Trump’s Feud With New York Masks Amtrak’s Spending Spree
+  18. Fed's Powell: Top moments in his final presserIn case you missed it, these are a few of the best moments from Jerome Powell's final Fed presser on April 29.
+  19. U.S.-Iran war may drag on: Former Secretary of Defense warns
+  20. Earnings: Google is biggest AI winner, OpenAI could be a 'surprise' loser
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. S&P 500, Nasdaq end higher, notch weekly gains after earnings-heavy week
+  2. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-01
+  3. S&P 500, Nasdaq advance, set for weekly gains after earnings-heavy week
+  4. S&P 500, Nasdaq rally to fresh highs as earnings-heavy week draws to a close
+  5. Nasdaq, S&P 500 hit fresh highs as Wall St extends gains after best month in years
+  6. Risk is back—and momentum is running the show 
+  7. Wall St set to extend rally after best month in years
+  8. S&P 500, Dow futures rise after Wall Street's best month in years; Apple soars
+  9. So much news, so little time
+  10. S&P 500, Dow futures inch up after Wall Street's best month in years
+  11. Wall Street ends higher, S&P 500, Nasdaq notch biggest monthly gains in years
+  12. S&P 500, Nasdaq set for biggest monthly gains since 2020
+  13. S&P 500, Nasdaq on course for best month since 2020 despite Middle East risks
+  14. Bitcoin rally extends, yet BTC options price only 25% chance of $84K in May
+  15. S&P 500 Extends Longest Weekly Winning Streak Since Late 2024 — WSJ
+
+=== ECONOMIC CALENDAR — 2026-05-02 ===
+  No scheduled events
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-02.

@@ -1,0 +1,114 @@
+ANALYSIS DATE: 2026-06-12
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.756 | Day: -0.104% | 5-Day: -0.31%
+  VIX (Fear Index): 19.34 | Day: -0.514% | 5-Day: -10.09%
+  10Y Treasury Yield: 4.499 | Day: +0.807% | 5-Day: -0.82%
+  Gold: 4213.7 | Day: +3.017% | 5-Day: -2.85%
+  Crude Oil: 87.12 | Day: -0.673% | 5-Day: -3.78%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29453.25 | Trend: DOWN
+  1D: -0.04% | 5D: 1.47% | 10D: -3.13%
+  Prev High: 29544.25 | Prev Low: 28265.75 | Prev Close: 29464.75
+  Week High: 30422.0 | Week Low: 28227.75
+  Last 5 Candles: 2026-06-08 UP (O:28844.5 H:29743.0 L:28822.25 C:29454.75) | 2026-06-09 DOWN (O:29435.0 H:29848.25 L:28227.75 C:29117.0) | 2026-06-10 DOWN (O:29094.75 H:29250.0 L:28409.0 C:28554.0) | 2026-06-11 UP (O:28455.0 H:29544.25 L:28265.75 C:29464.75) | 2026-06-12 DOWN (O:29456.75 H:29675.0 L:29230.0 C:29453.25)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. LIVESpaceX is set to make a record-breaking debut. Follow our live coverage.
+  2. SpaceX counts down to Nasdaq debut in record $75B IPO
+  3. Stocks mixed with historic SpaceX IPO, Iran peace odds in focus
+  4. Musk eyes trillionaire status in what would be world first
+  5. Wall Street is lining up SpaceX ETFs even before it debuts
+  6. SpaceX shares set for 35% pop going by grey trading
+  7. US, Iran eye Hormuz reopening deal next week
+  8. Space stocks jump in wait for massive SpaceX debut
+  9. Adobe stock sinks as CFO departs for Marvell
+  10. Oil tumbles amid rising hopes for US-Iran peace deal
+  11. SpaceX leveraged fund providers hit by day-one launch setback
+  12. Why the SpaceX IPO could be a trap
+  13. SpaceX's $100B order book is tiny vs. hot Chinese IPOs
+  14. Oppenheimer sets $190 target, a 40% premium on IPO price
+  15. Inside SpaceX's wild, skyrocketing valuation journey
+  16. 'Ignore it at your own peril': Jim Cramer says bull market's key pillars are crumbling
+  17. Why the ultra-wealthy are flocking to a small Nevada town
+  18. Bernie Sanders says Kevin O'Leary is 'completely separated' from reality
+  19. Oil falls to near two-month lows as Trump calls off threatened strikes on Iran
+  20. Tired of the SpaceX IPO Hype? Here Are 3 Space Economy Stocks to Buy Instead.
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  World Monitor | — geopolitics, conflicts, military, infrastructure 
+  Tech Monitor | — AI labs, startups, cloud, cybersecurity 
+  Finance Monitor | — global markets, central banks, forex, crypto 
+  Commodity Monitor | — mining, energy, supply chains, freight 
+  Happy Monitor | — positive news, breakthroughs, conservation 
+  Energy Monitor | — oil, gas, chokepoints, energy security 
+  World Monitor Pro | — AI analyst, personalized digests, MCP for Claude & GPT 
+  Blog | — OSINT guides, geopolitics, market intelligence 
+  What is World Monitor? 
+  OSINT for everyone — open-source intelligence democratized 
+  Dashboard variants guide 
+  Open source on GitHub (AGPL-3.0) 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Five AI and Space Names Join the Nasdaq-100
+  2. Nasdaq-100 Adds New AI and Space Winners. These Stocks Are Soaring
+  3. Weekend Reads: China's oil shift and World Cup economics
+  4. Nasdaq to Replace Five Companies on Nasdaq-100 Index
+  5. Space Stock Rocket Lab and 4 Others Are Joining the Nasdaq 100 — Barrons.com
+  6. Rocket Lab To Join The Nasdaq-100 Index
+  7. SpaceX’s Historic IPO Will Trigger a Nasdaq Sell-Off? Says Analyst Michael Burry
+  8. Why SpaceX IPO May Be The Biggest Stress Test Yet For Passive Investing
+  9. RKLB Stock Rallies After Earning Nasdaq 100 Spot – SpaceX Could Be Next Under New Rules
+  10. Why Are CRWV, NBIS Stocks Surging Over 7% In Overnight Trading?
+  11. Rocket Lab and these four stocks are joining the Nasdaq 100, with SpaceX waiting in the wings
+  12. Nasdaq-100 Index® June 2026 Quarterly Changes
+  13. Big Tech crash, oil volatility rattles markets: Will Bitcoin hold above $60K?
+  14. Investors Shrug Off Iran Tensions, Oracle Earnings — WSJ
+  15. Stocks Rebound as US Central Command Ends Iran Strike Campaign Four Hours After Launch
+
+=== ECONOMIC CALENDAR — 2026-06-12 ===
+  [-1] Michigan Inflation Expectations Prel — Actual: 4.6 | Forecast: None | Prev: 4.8
+  [-1] Michigan Current Conditions Prel — Actual: 48.4 | Forecast: 46.2 | Prev: 45.8
+  [1] Michigan Consumer Sentiment Prel — Actual: 48.9 | Forecast: 46 | Prev: 44.8
+  [-1] Michigan 5 Year Inflation Expectations Prel — Actual: 3.4 | Forecast: None | Prev: 3.9
+  [-1] Michigan Consumer Expectations Prel — Actual: 49.3 | Forecast: 44.3 | Prev: 44.1
+  [-1] Baker Hughes Total Rigs Count — Actual: None | Forecast: None | Prev: 563
+  [-1] Baker Hughes Oil Rig Count — Actual: None | Forecast: None | Prev: 431
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: 0.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 29444.0 | PrevH: 29544.25 | PrevL: 28265.75
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 28663.0
+    Recent: 2026-06-10 DOWN(29094.75->28554.0) > 2026-06-11 UP(28455.0->29464.75) > 2026-06-12 DOWN(29456.75->29444.0)
+
+  [4H] Structure: RANGING
+    Price: 29442.75 | PrevH: 29675.0 | PrevL: 29416.25
+    Nearest Resistance (swing high above): 29480.0
+    Nearest Support (swing low below): 29127.0
+    Recent: 2026-06-12 DOWN(29504.25->29430.5) > 2026-06-12 UP(29434.5->29638.25) > 2026-06-12 DOWN(29637.0->29442.75)
+
+  [1H] Structure: RANGING
+    Price: 29442.75 | PrevH: 29502.0 | PrevL: 29230.0
+    Nearest Resistance (swing high above): 29447.0
+    Nearest Support (swing low below): 29436.0
+    Recent: 2026-06-12 DOWN(29637.0->29413.25) > 2026-06-12 DOWN(29412.25->29349.5) > 2026-06-12 UP(29354.0->29442.75)
+
+  [15m] Structure: RANGING
+    Price: 29442.75 | PrevH: 29407.5 | PrevL: 29230.0
+    Nearest Resistance (swing high above): 29468.75
+    Nearest Support (swing low below): 29408.0
+    Recent: 2026-06-12 DOWN(29496.0->29279.25) > 2026-06-12 UP(29282.75->29349.5) > 2026-06-12 UP(29354.0->29442.75)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-06-12.

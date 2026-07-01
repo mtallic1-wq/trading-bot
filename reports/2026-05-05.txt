@@ -1,0 +1,89 @@
+ANALYSIS DATE: 2026-05-05
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.389 | Day: -0.082% | 5-Day: -0.23%
+  VIX (Fear Index): 17.46 | Day: -4.538% | 5-Day: -2.08%
+  10Y Treasury Yield: 4.424 | Day: -0.495% | 5-Day: +1.61%
+  Gold: 4590.7 | Day: +1.575% | 5-Day: -0.02%
+  Crude Oil: 102.59 | Day: -3.599% | 5-Day: +2.66%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 27983.5 | Trend: UP
+  1D: 0.75% | 5D: 3.0% | 10D: 5.06%
+  Prev High: 27965.75 | Prev Low: 27613.0 | Prev Close: 27776.0
+  Week High: 27965.75 | Week Low: 27009.5
+  Last 5 Candles: 2026-04-29 UP (O:27197.25 H:27414.0 L:27094.0 C:27325.25) | 2026-04-30 UP (O:27207.0 H:27622.75 L:27163.25 C:27596.0) | 2026-05-01 UP (O:27631.75 H:27917.0 L:27536.25 C:27835.75) | 2026-05-04 DOWN (O:27890.0 H:27965.75 L:27613.0 C:27776.0) | 2026-05-05 UP (O:27760.0 H:28008.5 L:27731.75 C:27983.5)
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. The long bond is back in Wall Street's danger zoneUncle Sam's longest-term debt is back above the stock market's pain line.
+  2. Stock futures edge up with US-Iran truce, earnings in focus
+  3. AMD to report Q1 earnings as Wall Street eyes data center sales
+  4. Coinbase to cut about 14% of workforce in AI overhaul
+  5. Palantir slips as earnings beat fails to impress
+  6. Musk says saving for retirement 'won't matter.' Really?
+  7. What wealthy market insiders are saying about record-setting stock prices
+  8. France says EU will retaliate if US threatens its industries
+  9. Bitcoin hovers at $81,000, but caution persists
+  10. Ferrari posts earnings beat, holds to guidance despite Iran war
+  11. Goldman Sachs warns that AI is raising computer and electricity costs
+  12. CVS to drop J&J's Stelara from its main formularies
+  13. Dutch quantum company QuantWare raises $178 million from Intel and others
+  14. US trade deficit widens in March on imports; petroleum exports rise
+  15. Canada Swings to Trade Surplus as Oil, Gold Exports Jump
+  16. Alphabet Returns to Euro Debt Market for Latest AI Megabond Deal
+  17. Huntington Ingalls posts lower quarterly margin as costs weigh
+  18. Sen. Ted Cruz discusses Texas' vital role in AI buildoutSenator Ted Cruz (R-Tx.) sits down with Yahoo Finance Executive Editor Brian Sozzi at the. Milken Institute's Global Conference 2026 to further discuss his state's involvement in the AI boom, while also addressing some of the regulations on artificial intelligence that he is pushing for.
+  19. AMD and Pfizer earnings, job openings, Fedspeak: What to Watch
+  20. Mattel CEO on Barbie vs. 'Masters of the Universe' & rivaling Lego
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Real-time conflict tracking (ACLED, UCDP) 
+  Military ADS-B flight monitoring 
+  Maritime AIS ship tracking and dark vessel detection 
+  Stock market, commodity, and crypto tracking 
+  AI-powered intelligence synthesis and daily briefs 
+  Country Instability Index (CII) scoring 
+  435+ curated RSS news feeds, 45 map layers 
+  21 language support 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. IGV at a crossroads as software stocks show signs of life 
+  2. Wall St eyes rebound as oil ticks lower despite Middle East tensions
+  3. US stock futures up as oil dips; Middle East tensions linger
+  4. Gulf singe, AI binge
+  5. US stock futures rise as oil dips; Middle East tensions linger
+  6. S&P 500 falls from record high on Middle East worries
+  7. BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-04
+  8. Wall St falls as Middle East tensions spark fresh jitters
+  9. S&P 500, Dow tick lower as US-Iran tensions unsettle investors
+  10. Wall St set for mixed open as US-Iran tensions unsettle investors
+  11. Nasdaq hits new highs as market breadth sends a warning
+  12. Strait talk
+  13. Wall St futures slip as US-Iran tensions fuel volatility
+  14. US stock futures mixed as Middle East risks remain in focus
+  15. How to Get a Piece of SpaceX Stock Before It Joins the S&P 500 — Barrons.com
+
+=== ECONOMIC CALENDAR — 2026-05-05 ===
+  [-1] LMI Logistics Managers Index — Actual: 69.9 | Forecast: None | Prev: 65.7
+  [-1] Building Permits MoM Final — Actual: -11.4 | Forecast: None | Prev: 11
+  [-1] Building Permits MoM Final — Actual: 11 | Forecast: None | Prev: -4.7
+  [-1] Building Permits Final — Actual: 1.538 | Forecast: None | Prev: 1.386
+  [-1] Building Permits Final — Actual: 1.363 | Forecast: None | Prev: 1.538
+  [0] Imports — Actual: 381.2 | Forecast: None | Prev: 372.1
+  [0] Balance of Trade — Actual: -60.3 | Forecast: -60.9 | Prev: -57.8
+  [0] Exports — Actual: 320.9 | Forecast: None | Prev: 314.7
+  [-1] Redbook YoY — Actual: 7.8 | Forecast: None | Prev: 7.7
+  [-1] S&P Global Composite PMI Final — Actual: None | Forecast: 52 | Prev: 50.3
+  [-1] S&P Global Services PMI Final — Actual: None | Forecast: 51.3 | Prev: 49.8
+  [1] ISM Services PMI — Actual: None | Forecast: 53.7 | Prev: 54
+  [-1] ISM Services Employment — Actual: None | Forecast: None | Prev: 45.2
+  [-1] ISM Services Prices — Actual: None | Forecast: None | Prev: 70.7
+  [-1] ISM Services Business Activity — Actual: None | Forecast: None | Prev: 53.9
+  [-1] ISM Services New Orders — Actual: None | Forecast: None | Prev: 60.6
+  [0] New Home Sales — Actual: None | Forecast: None | Prev: 0.587
+  [0] New Home Sales MoM — Actual: None | Forecast: None | Prev: None
+  [1] JOLTs Job Openings — Actual: None | Forecast: 6.84 | Prev: 6.882
+  [0] New Home Sales MoM — Actual: None | Forecast: None | Prev: -17.6
+
+Based on ALL the news and macro data above, give your complete analysis and NYSE session prediction for NQ on 2026-05-05.

@@ -1,0 +1,590 @@
+{
+  "date": "2026-05-05",
+  "created": "2026-05-05T18:30:30.268141",
+  "is_historical": false,
+  "bias_nq": "BULLISH",
+  "side": "BUY SIDE",
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 27983.5,
+    "prev_day_high": 27965.75,
+    "prev_day_low": 27613.0,
+    "prev_day_close": 27776.0,
+    "week_high": 27965.75,
+    "week_low": 27009.5,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.75,
+      "5d_pct": 3.0,
+      "10d_pct": 5.06
+    },
+    "recent_candles": [
+      {
+        "date": "2026-04-29",
+        "open": 27197.25,
+        "high": 27414.0,
+        "low": 27094.0,
+        "close": 27325.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-04-30",
+        "open": 27207.0,
+        "high": 27622.75,
+        "low": 27163.25,
+        "close": 27596.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-01",
+        "open": 27631.75,
+        "high": 27917.0,
+        "low": 27536.25,
+        "close": 27835.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-05-04",
+        "open": 27890.0,
+        "high": 27965.75,
+        "low": 27613.0,
+        "close": 27776.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-05-05",
+        "open": 27760.0,
+        "high": 28008.5,
+        "low": 27731.75,
+        "close": 27983.5,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 98.389,
+      "day_chg": -0.082,
+      "5d_chg": -0.23
+    },
+    "VIX (Fear Index)": {
+      "price": 17.46,
+      "day_chg": -4.538,
+      "5d_chg": -2.08
+    },
+    "10Y Treasury Yield": {
+      "price": 4.424,
+      "day_chg": -0.495,
+      "5d_chg": 1.61
+    },
+    "Gold": {
+      "price": 4590.7,
+      "day_chg": 1.575,
+      "5d_chg": -0.02
+    },
+    "Crude Oil": {
+      "price": 102.59,
+      "day_chg": -3.599,
+      "5d_chg": 2.66
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "The long bond is back in Wall Street's danger zoneUncle Sam's longest-term debt is back above the stock market's pain line.",
+        "url": "https://finance.yahoo.com/markets/article/the-long-bond-is-back-in-wall-streets-danger-zone-100000733.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock futures edge up with US-Iran truce, earnings in focus",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-may-5-iran-uae-ships-233125850.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "AMD to report Q1 earnings as Wall Street eyes data center sales",
+        "url": "https://finance.yahoo.com/sectors/technology/article/amd-to-report-q1-earnings-as-wall-street-eyes-data-center-sales-195252195.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Coinbase to cut about 14% of workforce in AI overhaul",
+        "url": "https://finance.yahoo.com/markets/crypto/article/crypto-exchange-coinbase-plans-to-cut-700-jobs-citing-market-conditions-amid-restructuring-for-ai-era-114736399.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Palantir slips as earnings beat fails to impress",
+        "url": "https://finance.yahoo.com/markets/article/palantir-q1-revenue-jumps-85-on-booming-us-business-141825352.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Musk says saving for retirement 'won't matter.' Really?",
+        "url": "https://finance.yahoo.com/economy/article/elon-musk-says-saving-for-retirement-wont-matter-im-not-banking-on-it-100000427.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What wealthy market insiders are saying about record-setting stock prices",
+        "url": "https://finance.yahoo.com/markets/article/what-ultrawealthy-market-insiders-are-saying-about-record-setting-stock-prices-130814656.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "France says EU will retaliate if US threatens its industries",
+        "url": "https://finance.yahoo.com/economy/policy/articles/france-says-eu-retaliate-us-090047304.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bitcoin hovers at $81,000, but caution persists",
+        "url": "https://finance.yahoo.com/markets/article/bitcoin-hovers-at-81000-but-one-analyst-is-still-cautious-121659051.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Ferrari posts earnings beat, holds to guidance despite Iran war",
+        "url": "https://finance.yahoo.com/markets/stocks/article/ferrari-affirms-full-year-guidance-despite-middle-east-war-normality-is-abnormality-ceo-says-183144970.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Goldman Sachs warns that AI is raising computer and electricity costs",
+        "url": "https://finance.yahoo.com/economy/article/goldman-sachs-warns-that-ai-is-raising-computer-and-electricity-costs-132836379.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "CVS to drop J&J's Stelara from its main formularies",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/cvs-drop-j-js-stelara-131502043.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Dutch quantum company QuantWare raises $178 million from Intel and others",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/dutch-quantum-company-quantware-raises-130215498.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US trade deficit widens in March on imports; petroleum exports rise",
+        "url": "https://finance.yahoo.com/news/us-trade-deficit-widens-march-125800851.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Canada Swings to Trade Surplus as Oil, Gold Exports Jump",
+        "url": "https://finance.yahoo.com/economy/articles/canada-swings-trade-surplus-oil-125418024.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Alphabet Returns to Euro Debt Market for Latest AI Megabond Deal",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-kicks-off-six-part-063629225.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Huntington Ingalls posts lower quarterly margin as costs weigh",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/huntington-ingalls-posts-lower-quarterly-121344917.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Sen. Ted Cruz discusses Texas' vital role in AI buildoutSenator Ted Cruz (R-Tx.) sits down with Yahoo Finance Executive Editor Brian Sozzi at the. Milken Institute's Global Conference 2026 to further discuss his state's involvement in the AI boom, while also addressing some of the regulations on artificial intelligence that he is pushing for.",
+        "url": "https://finance.yahoo.com/video/sen-ted-cruz-discusses-texas-110000822.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "AMD and Pfizer earnings, job openings, Fedspeak: What to Watch",
+        "url": "https://finance.yahoo.com/video/amd-pfizer-earnings-job-openings-230000659.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Mattel CEO on Barbie vs. 'Masters of the Universe' & rivaling Lego",
+        "url": "https://finance.yahoo.com/video/mattel-ceo-on-barbie-vs-masters-of-the-universe--rivaling-lego-213838725.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Bond traders eye Treasury refunding, Fed speakers and jobs",
+        "url": "https://finance.yahoo.com/economy/policy/articles/bond-traders-look-treasury-refunding-104532499.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Kashkari says Iran war limits Fed rate guidance",
+        "url": "https://finance.yahoo.com/economy/policy/articles/kashkari-says-iran-war-limits-175425920.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Tech boom exposes glaring economic division, strategist says",
+        "url": "https://finance.yahoo.com/economy/policy/articles/markets-tech-boom-points-glaring-142750676.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed faces rate-cut trap as Japan defends yen",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/fed-faces-rate-cut-trap-130014287.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Savings account interest rates today: May 4, 2026",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/todays-savings-account-interest-rates-141211128.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Best money market account rates today: up to 4.01% APY",
+        "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-monday-may-4-2026-100000325.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "How the Fed could crush Trump's bull market",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-could-crush-trump-bull-125443046.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Foreclosure rates climb to 6-year highs",
+        "url": "https://finance.yahoo.com/economy/articles/foreclosure-rates-climb-six-highs-133559433.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Fed whisperer gives Powell A+ as steward, low marks on economy",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-whisperer-splits-powell-steward-090000192.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Bank of America drops take on the economy",
+        "url": "https://finance.yahoo.com/economy/articles/bank-america-drops-stunning-economy-191300117.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 46
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Real-time conflict tracking (ACLED, UCDP)",
+        "values": []
+      },
+      {
+        "label": "Military ADS-B flight monitoring",
+        "values": []
+      },
+      {
+        "label": "Maritime AIS ship tracking and dark vessel detection",
+        "values": []
+      },
+      {
+        "label": "Stock market, commodity, and crypto tracking",
+        "values": []
+      },
+      {
+        "label": "AI-powered intelligence synthesis and daily briefs",
+        "values": []
+      },
+      {
+        "label": "Country Instability Index (CII) scoring",
+        "values": []
+      },
+      {
+        "label": "435+ curated RSS news feeds, 45 map layers",
+        "values": []
+      },
+      {
+        "label": "21 language support",
+        "values": []
+      }
+    ],
+    "notes": [
+      "World Monitor - Real-Time Global Intelligence Dashboard",
+      "World Monitor \u2014 Real-Time Global Intelligence Dashboard",
+      "AI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.",
+      "Upgrade to World Monitor Pro"
+    ],
+    "raw_snippet": "World Monitor - Real-Time Global Intelligence Dashboard\nWorld Monitor - Real-Time Global Intelligence Dashboard\n\u00d7\nWorld Monitor \u2014 Real-Time Global Intelligence Dashboard\nAI-powered real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. Used by 2M+ people across 190+ countries.\nFeatures\nReal-time conflict tracking (ACLED, UCDP)\nMilitary ADS-B flight monitoring\nMaritime AIS ship tracking and dark vessel detection\nStock market, commodity, and crypto tracking\nAI-powered intelligence synthesis and daily briefs\nCountry Instability Index (CII) scoring\n435+ curated RSS news feeds, 45 map layers\n21 language support\nUpgrade to World Monitor Pro"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "IGV at a crossroads as software stocks show signs of life\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777985643"
+      },
+      {
+        "title": "Wall St eyes rebound as oil ticks lower despite Middle East tensions",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777985159"
+      },
+      {
+        "title": "US stock futures up as oil dips; Middle East tensions linger",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777978450"
+      },
+      {
+        "title": "Gulf singe, AI binge",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777977653"
+      },
+      {
+        "title": "US stock futures rise as oil dips; Middle East tensions linger",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777975256"
+      },
+      {
+        "title": "S&P 500 falls from record high on Middle East worries",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777925861"
+      },
+      {
+        "title": "BUZZ - Nasdaq top and bottom performing stocks at about 02:45 p.m. EDT on 2026-05-04",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777920305"
+      },
+      {
+        "title": "Wall St falls as Middle East tensions spark fresh jitters",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777912613"
+      },
+      {
+        "title": "S&P 500, Dow tick lower as US-Iran tensions unsettle investors",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777903901"
+      },
+      {
+        "title": "Wall St set for mixed open as US-Iran tensions unsettle investors",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777899800"
+      },
+      {
+        "title": "Nasdaq hits new highs as market breadth sends a warning",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777899554"
+      },
+      {
+        "title": "Strait talk",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777895734"
+      },
+      {
+        "title": "Wall St futures slip as US-Iran tensions fuel volatility",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777893255"
+      },
+      {
+        "title": "US stock futures mixed as Middle East risks remain in focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1777885558"
+      },
+      {
+        "title": "How to Get a Piece of SpaceX Stock Before It Joins the S&P 500 \u2014 Barrons.com",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1777986900"
+      },
+      {
+        "title": "US YEAR-TO-DATE GOODS & SERVICES TRADE DEFICIT UP 55% FROM YEAR-AGO PERIOD AS EXPORTS RISE 12%, IMPORTS DROP 9.1% IN YEAR-TO-DATE PERIOD",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777984620"
+      },
+      {
+        "title": "US GOODS & SERVICES TRADE GAP $57.8 BLN IN FEB., REVISED FROM $57.3 BLN PREVIOUSLY REPORTED",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777984260"
+      },
+      {
+        "title": "US GOODS & SERVICES TRADE: GOODS DEFICIT REVISED TO $88.7 BLN FROM $87.9 BLN PREVIOUS REPORT",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777984260"
+      },
+      {
+        "title": "US GOODS & SERVICES TRADE GAP $60.3 BLN IN MARCH (VS. $60.4 BLN DEFICIT MARKETS EXPECTED)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777984200"
+      },
+      {
+        "title": "US GOODS & SERVICES TRADE: EXPORTS _2.0% IN MARCH FROM FEB. IMPORTS +2.3% IN MARCH FROM FEB.",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1777984200"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "LMI Logistics Managers Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "69.9",
+        "forecast": "None",
+        "previous": "65.7"
+      },
+      {
+        "title": "Building Permits MoM Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "-11.4",
+        "forecast": "None",
+        "previous": "11"
+      },
+      {
+        "title": "Building Permits MoM Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "11",
+        "forecast": "None",
+        "previous": "-4.7"
+      },
+      {
+        "title": "Building Permits Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "1.538",
+        "forecast": "None",
+        "previous": "1.386"
+      },
+      {
+        "title": "Building Permits Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "1.363",
+        "forecast": "None",
+        "previous": "1.538"
+      },
+      {
+        "title": "Imports",
+        "country": "US",
+        "impact": "0",
+        "actual": "381.2",
+        "forecast": "None",
+        "previous": "372.1"
+      },
+      {
+        "title": "Balance of Trade",
+        "country": "US",
+        "impact": "0",
+        "actual": "-60.3",
+        "forecast": "-60.9",
+        "previous": "-57.8"
+      },
+      {
+        "title": "Exports",
+        "country": "US",
+        "impact": "0",
+        "actual": "320.9",
+        "forecast": "None",
+        "previous": "314.7"
+      },
+      {
+        "title": "Redbook YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "7.8",
+        "forecast": "None",
+        "previous": "7.7"
+      },
+      {
+        "title": "S&P Global Composite PMI Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "52",
+        "previous": "50.3"
+      },
+      {
+        "title": "S&P Global Services PMI Final",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "51.3",
+        "previous": "49.8"
+      },
+      {
+        "title": "ISM Services PMI",
+        "country": "US",
+        "impact": "1",
+        "actual": "None",
+        "forecast": "53.7",
+        "previous": "54"
+      },
+      {
+        "title": "ISM Services Employment",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "45.2"
+      },
+      {
+        "title": "ISM Services Prices",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "70.7"
+      },
+      {
+        "title": "ISM Services Business Activity",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "53.9"
+      },
+      {
+        "title": "ISM Services New Orders",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "60.6"
+      },
+      {
+        "title": "New Home Sales",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "0.587"
+      },
+      {
+        "title": "New Home Sales MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "JOLTs Job Openings",
+        "country": "US",
+        "impact": "1",
+        "actual": "None",
+        "forecast": "6.84",
+        "previous": "6.882"
+      },
+      {
+        "title": "New Home Sales MoM",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "-17.6"
+      }
+    ]
+  },
+  "analysis": {
+    "analysis": "## MACRO ENVIRONMENT SUMMARY\n* The DXY (Dollar Index) is slightly down, which could be a tailwind for tech/growth equities like those in the NQ.\n* The VIX (Fear Index) is down, indicating a decrease in market fear and a potential RISK-ON environment.\n* The 10Y Treasury Yield is down slightly, which could ease pressure on tech/growth stocks.\n* Gold is up, which could indicate a safe-haven bid, but its impact on NQ is less direct.\n* Crude Oil is down, which could be a positive for the overall market, including NQ.\n\nState: RISK-ON environment\n\n## KEY NEWS ANALYSIS\n* The US-Iran truce and earnings focus (headline 2) could lead to a positive market sentiment, supporting the NQ.\n* AMD's upcoming Q1 earnings (headline 3) could be a catalyst for the tech sector, potentially boosting NQ.\n* Coinbase's workforce reduction (headline 4) might have a short-term negative impact on the stock, but its effect on the broader NQ is likely limited.\n* Palantir's earnings beat (headline 5) failed to impress, which could be a minor negative for the tech sector.\n* Overall news sentiment: MIXED for Nasdaq, but leaning towards BULLISH due to the US-Iran truce and earnings focus.\n\n## ECONOMIC EVENTS IMPACT\n* The Balance of Trade (Actual: -60.3, Forecast: -60.9) is slightly better than expected, which could be a minor positive for the market.\n* The LMI Logistics Managers Index (Actual: 69.9) is up, indicating growth in the logistics sector, which could support the NQ.\n* The Building Permits data is mixed, but its impact on NQ is likely limited.\n\n## NQ MARKET CONTEXT\n* The NQ is in an uptrend, with a current price of 27983.5, and the previous day's high and low are 27965.75 and 27613.0, respectively.\n* The recent candle structure shows a mix of up and down days, but the overall trend remains bullish.\n\n## PREDICTION\n**NYSE SESSION SIDE: BUY SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq-100) | BULLISH | 70% | MEDIUM |\n\n**NQ Prediction: BULLISH**\n**Confidence: 70% \u2014 MEDIUM**\n\n## TOP REASONS\n1. The US-Iran truce and earnings focus are likely to support the market, including the NQ.\n2. The decrease in the VIX and the slight downtick in the 10Y Treasury Yield could ease pressure on tech/growth stocks.\n3. The overall news sentiment, although mixed, is leaning towards BULLISH, which could support the NQ.\n\n## KEY RISKS\n- A sudden escalation of US-Iran tensions could invalidate this prediction.\n- A significant disappointment in AMD's Q1 earnings could negatively impact the tech sector.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- AMD's Q1 earnings report\n- Any updates on the US-Iran truce\n- The performance of other tech stocks, such as Coinbase and Palantir\n- Key NQ price levels: 27965.75 (previous day's high), 27613.0 (previous day's low), and 28000 (psychological round number)\n\n## ONE-LINE SUMMARY\n\"2026-05-05 NYSE SESSION: BUY SIDE \u2014 The US-Iran truce, earnings focus, and decrease in VIX and 10Y Treasury Yield are likely to support the NQ, despite some mixed news sentiment.\"",
+    "bias_nq": "BULLISH",
+    "side": "BUY SIDE",
+    "source": "Groq (llama-3.3-70b-versatile) \u2014 News/Macro Analysis"
+  },
+  "errors": []
+}
