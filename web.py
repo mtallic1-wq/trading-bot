@@ -156,6 +156,16 @@ def wiki():
     return send_from_directory(str(STATIC_DIR), "wiki.html")
 
 
+@app.route("/robots.txt")
+def robots():
+    return send_from_directory(str(STATIC_DIR), "robots.txt")
+
+
+@app.route("/sitemap.xml")
+def sitemap():
+    return send_from_directory(str(STATIC_DIR), "sitemap.xml")
+
+
 # Reports listing
 @app.route("/api/reports")
 def list_reports_endpoint():

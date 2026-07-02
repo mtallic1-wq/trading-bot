@@ -51,4 +51,12 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Pre-rendered Public Volume Profile Wiki & Glossary -->
+  <url>
+    <loc>https://nqbiasengine.qzz.io/wiki</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>
