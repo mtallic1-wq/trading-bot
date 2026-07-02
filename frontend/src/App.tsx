@@ -50,7 +50,7 @@ export default function App() {
   const [activeDate, setActiveDate] = useState<string>("");
   
   // App views: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker"
-  const [currentView, setCurrentView] = useState<"dashboard" | "history" | "news" | "settings" | "playbook" | "tracker">("dashboard");
+  const [currentView, setCurrentView] = useState<"dashboard" | "history" | "news" | "settings" | "playbook" | "tracker" | "gamma">("dashboard");
   const [historyReports, setHistoryReports] = useState<any[]>([]);
   const [liveNewsData, setLiveNewsData] = useState<any>(null);
   const [token, setToken] = useState<string>("");
@@ -582,6 +582,17 @@ export default function App() {
                 className="max-w-5xl mx-auto"
               >
                 <BiasTracker loadReport={loadReport} setView={setCurrentView} />
+              </motion.div>
+            ) : currentView === "gamma" ? (
+              
+              /* S&P 500 OPTIONS GAMMA LEVELS (FREE TAB) */
+              <motion.div
+                key="gamma-content"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="max-w-5xl mx-auto"
+              >
+                <GammaLevelsView />
               </motion.div>
             ) : (
               <div className="text-center text-zinc-600 text-xs py-8">

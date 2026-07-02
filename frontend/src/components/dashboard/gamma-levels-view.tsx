@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Zap, Shield, Info, RefreshCw, AlertTriangle } from "lucide-react";
+import { Zap, Shield, RefreshCw, AlertTriangle, HelpCircle } from "lucide-react";
 
 export default function GammaLevelsView() {
   const [data, setData] = useState<any>(null);
@@ -33,26 +33,26 @@ export default function GammaLevelsView() {
 
   if (loading) {
     return (
-      <div className="bg-zinc-950 border border-zinc-900 rounded-xl p-8 flex flex-col items-center justify-center space-y-3 min-h-[300px]">
-        <RefreshCw className="w-6 h-6 text-cyan-400 animate-spin" />
-        <span className="text-xs text-zinc-500 font-mono">Fetching S&P 500 GEX levels...</span>
+      <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-12 flex flex-col items-center justify-center space-y-4 min-h-[450px]">
+        <RefreshCw className="w-8 h-8 text-cyan-400 animate-spin" />
+        <span className="text-xs text-zinc-500 font-mono tracking-wider">Fetching live S&P 500 options boundaries...</span>
       </div>
     );
   }
 
   if (error || !data) {
     return (
-      <div className="bg-zinc-950 border border-zinc-900 rounded-xl p-8 flex flex-col items-center justify-center space-y-3 text-center min-h-[300px]">
-        <AlertTriangle className="w-7 h-7 text-amber-500" />
-        <h4 className="text-zinc-200 text-sm font-semibold">ES Gamma Levels Unavailable</h4>
-        <p className="text-xs text-zinc-500 max-w-sm">
-          {error || "Make sure your FLASHALPHA_API_KEY is configured in your project settings."}
+      <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-12 flex flex-col items-center justify-center space-y-4 text-center min-h-[450px]">
+        <AlertTriangle className="w-10 h-10 text-amber-500" />
+        <h4 className="text-zinc-200 text-sm font-semibold uppercase tracking-wider">ES Gamma Engine Offline</h4>
+        <p className="text-xs text-zinc-500 max-w-sm leading-relaxed">
+          {error || "Unable to establish connection with the options exposure analyzer. Make sure your API key is correctly configured."}
         </p>
         <button
           onClick={() => fetchLevels()}
-          className="px-4 py-2 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-zinc-200 text-xs rounded-lg font-medium transition"
+          className="px-5 py-2.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-zinc-200 text-xs rounded-xl font-medium transition shadow-md"
         >
-          Try Again
+          Re-initialize Connection
         </button>
       </div>
     );
@@ -71,24 +71,27 @@ export default function GammaLevelsView() {
   const spotPercent = Math.min(100, Math.max(0, ((spot - putWall) / rangeWidth) * 100));
 
   return (
-    <div className="bg-zinc-950 border border-zinc-900 rounded-xl p-6 space-y-6 select-none font-sans">
+    <div className="space-y-6 select-none font-sans pb-10">
       
-      {/* Tab Header */}
-      <div className="flex items-center justify-between border-b border-zinc-900 pb-3">
-        <div className="flex items-center gap-2">
-          <Zap className="w-4 h-4 text-cyan-400" />
-          <h3 className="text-xs font-bold text-zinc-200 uppercase tracking-widest">
-            S&P 500 Options Gamma Boundaries (ES)
-          </h3>
+      {/* Top Banner / Tab Meta */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-zinc-900 pb-4 gap-4">
+        <div>
+          <h2 className="text-base font-semibold text-zinc-100 flex items-center gap-2">
+            <Zap className="w-5 h-5 text-cyan-400" />
+            <span>S&P 500 Options Gamma Boundaries (ES)</span>
+          </h2>
+          <span className="text-[11px] text-zinc-500 mt-1 block">
+            Real-time mechanical support, resistance, and pinning thresholds derived from options open interest.
+          </span>
         </div>
-        <div className="flex items-center gap-3">
-          <span className="text-[10px] text-zinc-600 font-mono">
+        <div className="flex items-center gap-3 self-start sm:self-center">
+          <span className="text-[10px] text-zinc-500 font-mono bg-zinc-900 px-3 py-1 rounded-md border border-zinc-800">
             As of: {data.as_of ? new Date(data.as_of).toLocaleTimeString() : "Live"}
           </span>
           <button
             onClick={() => fetchLevels(true)}
             disabled={refreshing}
-            className="p-1.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-zinc-400 hover:text-zinc-200 rounded-lg transition"
+            className="p-2 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-zinc-400 hover:text-zinc-200 rounded-lg transition"
             title="Refresh Levels"
           >
             <RefreshCw className={`w-3.5 h-3.5 ${refreshing ? "animate-spin" : ""}`} />
@@ -96,119 +99,198 @@ export default function GammaLevelsView() {
         </div>
       </div>
 
-      {/* Spot Price & Active Regime Status Banner */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {/* Spot Price & Active Volatility Regime Banner */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <div className="bg-zinc-900/40 border border-zinc-900 rounded-xl p-4 flex flex-col justify-center">
+        {/* Spot Price Widget */}
+        <div className="bg-zinc-900/30 border border-zinc-900 rounded-2xl p-6 flex flex-col justify-center relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-24 h-24 bg-cyan-500/5 rounded-full blur-2xl -z-10" />
           <span className="text-[10px] uppercase font-mono tracking-wider text-zinc-500">ES Spot Price</span>
-          <span className="text-2xl font-bold text-zinc-100 font-mono tracking-tight mt-1">
+          <span className="text-3xl font-extrabold text-zinc-100 font-mono tracking-tight mt-2">
             {spot.toFixed(2)}
           </span>
+          <span className="text-[9.5px] text-zinc-600 mt-1 font-mono">Updated via CME raw feed</span>
         </div>
 
-        <div className={`col-span-2 border rounded-xl p-4 flex items-center justify-between ${
+        {/* Volatility Regime Status Card */}
+        <div className={`col-span-2 border rounded-2xl p-6 flex items-start justify-between relative overflow-hidden ${
           isPositive 
             ? "bg-emerald-950/10 border-emerald-900/30 text-emerald-400" 
             : "bg-red-950/10 border-red-900/30 text-red-400"
         }`}>
-          <div className="space-y-1">
-            <span className="text-[10px] uppercase font-mono tracking-wider opacity-60">Active Volatility Regime</span>
-            <h4 className="text-sm font-bold tracking-wide uppercase">
+          <div className="space-y-1.5">
+            <span className="text-[10px] uppercase font-mono tracking-wider opacity-60">Volatility Regime State</span>
+            <h4 className="text-lg font-bold tracking-wide uppercase flex items-center gap-2">
               {isPositive ? "⚡ Positive Gamma (+GEX)" : "⚠️ Negative Gamma (-GEX)"}
             </h4>
-            <p className="text-[11px] opacity-80 leading-relaxed max-w-md">
+            <p className="text-xs text-zinc-400 leading-relaxed max-w-xl">
               {isPositive 
-                ? "Market makers hedge counter-cyclically (buying dips, selling rallies). Volatility is compressed. Bounces are likely at boundaries."
-                : "Market makers hedge pro-cyclically (selling dips, buying rallies). Volatility is amplified. Breakouts run hard; support fails easily."
+                ? "Market makers hedge counter-cyclically. They buy when index price falls and sell when index price rises, acting as a massive stabilizer. Realized volatility is heavily dampened, favoring range fades and mean reversion."
+                : "Market makers hedge pro-cyclically. They sell as price falls and buy as price rises, creating an amplifying feedback loop. Volatility expands, causing sharp liquidations and rapid trend runs."
               }
             </p>
           </div>
-          <Shield className={`w-10 h-10 opacity-20 shrink-0 hidden sm:block ${isPositive ? "text-emerald-400" : "text-red-400"}`} />
+          <Shield className={`w-12 h-12 opacity-25 shrink-0 hidden sm:block ${isPositive ? "text-emerald-400" : "text-red-400"}`} />
         </div>
       </div>
 
-      {/* GEX Levels Cards Grid */}
+      {/* Levels Table / Value Cards Grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         
-        <div className="bg-zinc-900/30 border border-zinc-900/60 rounded-xl p-4 space-y-1">
-          <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Zero-Gamma Flip</span>
-          <div className="text-base font-bold text-cyan-400 font-mono tracking-tight">
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-5 space-y-1.5 shadow-md">
+          <div className="flex items-center justify-between">
+            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Zero-Gamma Flip</span>
+            <div className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
+          </div>
+          <div className="text-xl font-bold text-cyan-400 font-mono tracking-tight">
             {flip ? Math.round(flip) : "N/A"}
           </div>
-          <p className="text-[9.5px] text-zinc-500 leading-tight">Regime change strike pivot.</p>
+          <p className="text-[10px] text-zinc-500 leading-normal">The absolute pivot strike separating high and low vol regimes.</p>
         </div>
 
-        <div className="bg-zinc-900/30 border border-zinc-900/60 rounded-xl p-4 space-y-1">
-          <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Call Wall</span>
-          <div className="text-base font-bold text-zinc-200 font-mono tracking-tight">
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-5 space-y-1.5 shadow-md">
+          <div className="flex items-center justify-between">
+            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Call Wall</span>
+            <div className="w-1.5 h-1.5 rounded-full bg-zinc-700" />
+          </div>
+          <div className="text-xl font-bold text-zinc-200 font-mono tracking-tight">
             {callWall ? Math.round(callWall) : "N/A"}
           </div>
-          <p className="text-[9.5px] text-zinc-500 leading-tight">Hard ceiling overhead resistance.</p>
+          <p className="text-[10px] text-zinc-500 leading-normal">Strike with highest call gamma. Overhead resistance ceiling.</p>
         </div>
 
-        <div className="bg-zinc-900/30 border border-zinc-900/60 rounded-xl p-4 space-y-1">
-          <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Put Wall</span>
-          <div className="text-base font-bold text-zinc-200 font-mono tracking-tight">
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-5 space-y-1.5 shadow-md">
+          <div className="flex items-center justify-between">
+            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Put Wall</span>
+            <div className="w-1.5 h-1.5 rounded-full bg-zinc-700" />
+          </div>
+          <div className="text-xl font-bold text-zinc-200 font-mono tracking-tight">
             {putWall ? Math.round(putWall) : "N/A"}
           </div>
-          <p className="text-[9.5px] text-zinc-500 leading-tight">Support floor / downside acceleration line.</p>
+          <p className="text-[10px] text-zinc-500 leading-normal">Strike with highest put gamma. Primary floor in positive gamma.</p>
         </div>
 
-        <div className="bg-zinc-900/30 border border-zinc-900/60 rounded-xl p-4 space-y-1">
-          <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">0DTE Magnet</span>
-          <div className="text-base font-bold text-purple-400 font-mono tracking-tight">
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-5 space-y-1.5 shadow-md">
+          <div className="flex items-center justify-between">
+            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">0DTE Magnet</span>
+            <div className="w-1.5 h-1.5 rounded-full bg-purple-400 animate-pulse" />
+          </div>
+          <div className="text-xl font-bold text-purple-400 font-mono tracking-tight">
             {magnet !== "None" ? Math.round(Number(magnet)) : "None"}
           </div>
-          <p className="text-[9.5px] text-zinc-500 leading-tight">Graveyard target strike for end of day.</p>
+          <p className="text-[10px] text-zinc-500 leading-normal">Same-day expiration pinning strike for the afternoon session.</p>
         </div>
 
       </div>
 
-      {/* Visual Alignment Track Slider */}
-      <div className="border border-zinc-900 bg-zinc-900/10 p-5 rounded-xl space-y-3">
-        <div className="flex items-center justify-between text-[10px] font-mono text-zinc-500">
-          <span>Put Wall ({Math.round(putWall)})</span>
-          <span className="text-zinc-400 font-semibold">Spot Location Indicator</span>
-          <span>Call Wall ({Math.round(callWall)})</span>
+      {/* Visual Alignment Track Slider (Detailed) */}
+      <div className="border border-zinc-900 bg-zinc-950 p-6 rounded-2xl space-y-4 shadow-lg">
+        <div className="flex items-center justify-between text-xs font-mono text-zinc-400 select-none">
+          <span className="flex flex-col">
+            <span className="text-[10px] text-zinc-500 uppercase">Put Wall Strike</span>
+            <span className="text-sm font-bold text-zinc-300">{Math.round(putWall)}</span>
+          </span>
+          <span className="text-[11px] font-semibold text-zinc-500 uppercase tracking-widest bg-zinc-900 px-3 py-1 rounded border border-zinc-800">
+            Spot Alignment Slider
+          </span>
+          <span className="flex flex-col text-right">
+            <span className="text-[10px] text-zinc-500 uppercase">Call Wall Strike</span>
+            <span className="text-sm font-bold text-zinc-300">{Math.round(callWall)}</span>
+          </span>
         </div>
         
-        <div className="relative h-2 bg-zinc-900 rounded-full border border-zinc-800">
+        <div className="relative h-3 bg-zinc-900 rounded-full border border-zinc-800">
           {/* Active Spot Indicator Pin */}
           <div 
-            className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-cyan-400 border border-zinc-950 shadow-md flex items-center justify-center transition-all duration-500"
+            className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-cyan-400 border-2 border-zinc-950 shadow-lg flex items-center justify-center transition-all duration-500"
             style={{ left: `${spotPercent}%` }}
           >
-            <div className="w-1.5 h-1.5 rounded-full bg-zinc-950 animate-ping" />
+            <div className="w-2 h-2 rounded-full bg-zinc-950" />
           </div>
           
           {/* Flip Level marker */}
           {flip && flip > putWall && flip < callWall && (
             <div 
-              className="absolute top-0 bottom-0 w-0.5 bg-zinc-700/60"
+              className="absolute top-0 bottom-0 w-1 bg-cyan-400/30"
               style={{ left: `${((flip - putWall) / rangeWidth) * 100}%` }}
               title={`Zero-Gamma Flip: ${Math.round(flip)}`}
             />
           )}
         </div>
         
-        <div className="flex justify-between text-[9px] text-zinc-600 font-mono pt-1">
-          <span>Oversold / Floor</span>
+        <div className="flex justify-between text-[10px] text-zinc-500 font-mono">
+          <span>Oversold / Floor Zone</span>
           {flip && (
-            <span style={{ marginLeft: `${Math.max(10, Math.min(80, ((flip - putWall) / rangeWidth) * 100))}%` }}>
+            <span style={{ marginLeft: `${Math.max(5, Math.min(85, ((flip - putWall) / rangeWidth) * 100))}%` }}>
               Flip Pivot ({Math.round(flip)})
             </span>
           )}
-          <span>Overbought / Ceiling</span>
+          <span>Overbought / Ceiling Zone</span>
         </div>
       </div>
 
-      {/* Explanation Footer Box */}
-      <div className="border border-zinc-900 bg-zinc-900/20 p-4 rounded-xl flex gap-3 text-zinc-400 text-xs">
-        <Info className="w-4 h-4 text-zinc-500 shrink-0 mt-0.5" />
+      {/* DETAILED REGIME PLAYBOOK QUICK REFERENCE */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 select-none">
+        
+        {/* Left: Positive Gamma Rules */}
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-6 space-y-4">
+          <div className="flex items-center gap-2 border-b border-zinc-900 pb-3">
+            <Shield className="w-4 h-4 text-emerald-400" />
+            <h4 className="text-xs font-bold text-zinc-200 uppercase tracking-wider">
+              Positive Gamma Playbook Rules (+GEX)
+            </h4>
+          </div>
+          
+          <ul className="space-y-3 text-xs text-zinc-400">
+            <li className="flex items-start gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 mt-1.5 shrink-0" />
+              <span><b>Dampened Volatility</b>: Expect clean, slow rotations and mean-reverting price action. Avoid playing breakouts.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 mt-1.5 shrink-0" />
+              <span><b>Wall Bounces</b>: The Call Wall acts as solid resistance. Put Wall acts as solid support. Fade both boundaries on tests.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 mt-1.5 shrink-0" />
+              <span><b>Preferred Strategies</b>: Range Fades (G1 setup), Credit Spreads, Iron Condors, and short strangles. Target POC / Flip.</span>
+            </li>
+          </ul>
+        </div>
+
+        {/* Right: Negative Gamma Rules */}
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-6 space-y-4">
+          <div className="flex items-center gap-2 border-b border-zinc-900 pb-3">
+            <AlertTriangle className="w-4 h-4 text-red-400" />
+            <h4 className="text-xs font-bold text-zinc-200 uppercase tracking-wider">
+              Negative Gamma Playbook Rules (-GEX)
+            </h4>
+          </div>
+          
+          <ul className="space-y-3 text-xs text-zinc-400">
+            <li className="flex items-start gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-red-400 mt-1.5 shrink-0" />
+              <span><b>Amplified Volatility</b>: Expect fast, violent moves. Stop-loss ranges must be widened to account for higher ATR.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-red-400 mt-1.5 shrink-0" />
+              <span><b>Wall Failures</b>: Options support levels (like Put Walls) do not hold easily. Fading them is extremely dangerous.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-red-400 mt-1.5 shrink-0" />
+              <span><b>Preferred Strategies</b>: Trend Breakouts (G2 setup), momentum continuation shorting (G3 setup), long straddles / directional puts.</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      {/* Guide Card for Beginners */}
+      <div className="bg-zinc-950 border border-zinc-900 p-5 rounded-2xl flex gap-3 text-zinc-400 text-xs">
+        <HelpCircle className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
         <div className="space-y-1">
-          <h4 className="font-semibold text-zinc-300">How to Trade S&P 500 GEX Levels:</h4>
+          <h4 className="font-semibold text-zinc-200 uppercase tracking-wider text-[11px]">Help / Quick Legend</h4>
           <p className="leading-relaxed">
-            Verify the Spot Price relative to the Call Wall and Put Wall. On <b>Positive Gamma</b> days, fade tests of the boundaries. On <b>Negative Gamma</b> days, wait for breakouts past the walls or flip zones. To study concrete execution rules, open the premium <b>ES Options Playbook</b>.
+            The values display daily options hedging triggers. Market makers adjust their positions dynamically, causing the S&P 500 spot index to encounter structural friction at the Call/Put Walls, and switch regimes at the Zero-Gamma Flip. Unlocking the <b>ES Gamma Playbook</b> inside the Playbook Library will provide complete, rules-based entry guides for these triggers.
           </p>
         </div>
       </div>

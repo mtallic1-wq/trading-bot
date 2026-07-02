@@ -9,7 +9,8 @@ import {
   FileText,
   BookOpen,
   Lock,
-  TrendingUp
+  TrendingUp,
+  Zap
 } from "lucide-react";
 
 function formatReportDate(dateStr: string): string {
@@ -30,8 +31,8 @@ function formatReportDate(dateStr: string): string {
 interface SidebarProps {
   reports: string[];
   activeDate: string;
-  currentView: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker";
-  setView: (view: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker") => void;
+  currentView: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker" | "gamma";
+  setView: (view: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker" | "gamma") => void;
   loadReport: (date: string) => void;
   runAnalysis: () => void;
   isLoading: boolean;
@@ -140,6 +141,18 @@ export default function Sidebar({
         >
           <TrendingUp className="w-3.5 h-3.5 text-cyan-400" />
           Accuracy Tracker
+        </button>
+
+        <button
+          onClick={() => setView("gamma")}
+          className={`w-full flex items-center gap-2.5 px-3 py-1.5 rounded-md text-xs font-medium transition ${
+            currentView === "gamma"
+              ? "bg-zinc-900 text-zinc-100 border border-zinc-800"
+              : "hover:bg-zinc-900/50 text-zinc-400 hover:text-zinc-200"
+          }`}
+        >
+          <Zap className="w-3.5 h-3.5 text-cyan-400" />
+          ES Gamma Levels
         </button>
 
         <button
