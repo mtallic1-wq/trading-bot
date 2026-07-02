@@ -588,7 +588,7 @@ def get_es_gamma_levels():
             return jsonify(GAMMA_CACHE)
             
     # Query FlashAlpha API
-    api_key = os.environ.get("FLASHALPHA_API_KEY", "ns5wUS1pXnNcv0I9H7udKxkM1cA3xI1sJSAYfAml")
+    api_key = os.environ.get("FLASHALPHA_API_KEY", "vdT5fhXRjBg1E5guYfBPqeSHbf2aQ3vmZOVUWnfY")
     headers = {"X-Api-Key": api_key, "Accept": "application/json"}
     url = "https://lab.flashalpha.com/v1/exposure/levels/ES=F"
     

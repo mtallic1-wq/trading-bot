@@ -34,7 +34,7 @@ if PERSISTENT_STORAGE_DIR:
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODEL   = "llama-3.3-70b-versatile"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-FLASHALPHA_API_KEY = os.environ.get("FLASHALPHA_API_KEY", "ns5wUS1pXnNcv0I9H7udKxkM1cA3xI1sJSAYfAml")
+FLASHALPHA_API_KEY = os.environ.get("FLASHALPHA_API_KEY", "vdT5fhXRjBg1E5guYfBPqeSHbf2aQ3vmZOVUWnfY")
 
 # --- Market Symbols (yfinance) ---
 NQ_TICKER  = "NQ=F"       # E-mini Nasdaq-100 futures
