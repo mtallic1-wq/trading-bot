@@ -592,7 +592,7 @@ export default function App() {
                 animate={{ opacity: 1 }}
                 className="max-w-5xl mx-auto"
               >
-                <GammaLevelsView />
+                <GammaLevelsView setView={setCurrentView} />
               </motion.div>
             ) : (
               <div className="text-center text-zinc-600 text-xs py-8">

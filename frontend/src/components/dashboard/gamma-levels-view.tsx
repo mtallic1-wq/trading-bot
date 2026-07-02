@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { Zap, Shield, RefreshCw, AlertTriangle, HelpCircle } from "lucide-react";
+import { Zap, Shield, RefreshCw, AlertTriangle, HelpCircle, BookOpen, ExternalLink } from "lucide-react";
 
-export default function GammaLevelsView() {
+export default function GammaLevelsView({ setView }: { setView?: (view: any) => void }) {
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string>("");
@@ -85,6 +85,13 @@ export default function GammaLevelsView() {
           </span>
         </div>
         <div className="flex items-center gap-3 self-start sm:self-center">
+          <button
+            onClick={() => setView && setView("playbook")}
+            className="flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-zinc-100 rounded-xl text-[10px] font-semibold transition shadow-md whitespace-nowrap"
+          >
+            <BookOpen className="w-3 h-3 text-purple-200" />
+            <span>Unlock Playbook ($5)</span>
+          </button>
           <span className="text-[10px] text-zinc-500 font-mono bg-zinc-900 px-3 py-1 rounded-md border border-zinc-800">
             As of: {data.as_of ? new Date(data.as_of).toLocaleTimeString() : "Live"}
           </span>
@@ -227,6 +234,27 @@ export default function GammaLevelsView() {
           )}
           <span>Overbought / Ceiling Zone</span>
         </div>
+      </div>
+
+      {/* Premium CTA banner card */}
+      <div className="relative overflow-hidden rounded-2xl border border-purple-900/30 bg-gradient-to-r from-purple-950/20 to-zinc-950 p-5 flex flex-col md:flex-row items-center justify-between gap-6 shadow-md select-none">
+        <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/5 rounded-full blur-3xl -z-10" />
+        <div className="space-y-1 text-center md:text-left">
+          <h4 className="text-xs font-bold text-zinc-100 flex items-center justify-center md:justify-start gap-2">
+            <BookOpen className="w-4 h-4 text-purple-400" />
+            <span>Unlock the Complete ES Options Gamma Playbook Manual</span>
+          </h4>
+          <p className="text-[11px] text-zinc-400 max-w-xl leading-relaxed">
+            Get structural trade setups, rules-based entries, targets, and exit parameters for all Gamma wall interactions. Completely optimized for prop-firm risk management.
+          </p>
+        </div>
+        <button
+          onClick={() => setView && setView("playbook")}
+          className="flex items-center gap-2 px-5 py-2.5 bg-zinc-100 hover:bg-zinc-200 text-zinc-950 rounded-xl text-[11px] font-semibold transition shrink-0 shadow-md w-full md:w-auto justify-center"
+        >
+          <span>Get Premium Playbook — $5</span>
+          <ExternalLink className="w-3.5 h-3.5" />
+        </button>
       </div>
 
       {/* DETAILED REGIME PLAYBOOK QUICK REFERENCE */}
