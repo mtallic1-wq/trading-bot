@@ -10,6 +10,7 @@ import os
 import time
 import threading
 import uuid
+import requests
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -392,6 +393,8 @@ def register():
             "delivery_time": user["delivery_time"],
             "timezone": user["timezone"],
             "subscription_status": user["subscription_status"],
+            "has_nq_playbook": False,
+            "has_es_playbook": False,
             "has_playbook": False
         }
     })
@@ -422,6 +425,8 @@ def user_settings():
         "delivery_time": user["delivery_time"],
         "timezone": user["timezone"],
         "subscription_status": user["subscription_status"],
+        "has_nq_playbook": has_purchased_product(user["email"], "Volume Profile Playbook"),
+        "has_es_playbook": has_purchased_product(user["email"], "ES Gamma Playbook"),
         "has_playbook": has_purchased_product(user["email"], "Volume Profile Playbook")
     }
     return jsonify({"success": True, "user": user_data})
@@ -480,11 +485,48 @@ def lemonsqueezy_webhook():
             ""
         ).lower()
         
-        if email and "playbook" in product_name:
-            register_purchase(email, "Volume Profile Playbook")
-            print(f"[Webhook] User {email} purchased Volume Profile Playbook")
+        if email:
+            if "gamma" in product_name:
+                register_purchase(email, "ES Gamma Playbook")
+                print(f"[Webhook] User {email} purchased ES Gamma Playbook")
+            elif "volume profile" in product_name or "playbook" in product_name:
+                register_purchase(email, "Volume Profile Playbook")
+                print(f"[Webhook] User {email} purchased Volume Profile Playbook")
             
     return jsonify({"success": True})
+
+
+# ── Free ES Gamma Levels API (FlashAlpha Integration) ─────────────────────────
+GAMMA_CACHE = None
+GAMMA_CACHE_TIME = None
+GAMMA_CACHE_DURATION = 900  # 15 minutes cache to prevent rate-limiting
+
+@app.route("/api/gamma/es")
+def get_es_gamma_levels():
+    global GAMMA_CACHE, GAMMA_CACHE_TIME
+    now = time.time()
+    if GAMMA_CACHE is not None and GAMMA_CACHE_TIME is not None and (now - GAMMA_CACHE_TIME < GAMMA_CACHE_DURATION):
+        return jsonify(GAMMA_CACHE)
+        
+    api_key = os.environ.get("FLASHALPHA_API_KEY", "ns5wUS1pXnNcv0I9H7udKxkM1cA3xI1sJSAYfAml")
+    headers = {"X-Api-Key": api_key, "Accept": "application/json"}
+    url = "https://lab.flashalpha.com/v1/exposure/levels/ES=F"
+    
+    try:
+        r = requests.get(url, headers=headers, timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            GAMMA_CACHE = data
+            GAMMA_CACHE_TIME = now
+            return jsonify(data)
+        else:
+            if GAMMA_CACHE is not None:
+                return jsonify(GAMMA_CACHE)
+            return jsonify({"success": False, "error": f"FlashAlpha API returned status {r.status_code}"}), r.status_code
+    except Exception as e:
+        if GAMMA_CACHE is not None:
+            return jsonify(GAMMA_CACHE)
+        return jsonify({"success": False, "error": str(e)}), 500
 
 
 # Admin/Developer Testing Upgrades
@@ -500,11 +542,14 @@ def admin_upgrade():
         user = register_user(email)
         
     update_user_subscription(email, "active")
+    # For testing convenience, we also register both playbooks on manual upgrade
+    register_purchase(email, "Volume Profile Playbook")
+    register_purchase(email, "ES Gamma Playbook")
     updated_user = get_user_by_email(email)
     
     return jsonify({
         "success": True,
-        "message": f"User {email} successfully upgraded to active Premium status.",
+        "message": f"User {email} successfully upgraded to active Premium status and unlocked both playbooks.",
         "token": updated_user["token"],
         "login_link": f"https://nqbiasengine.qzz.io/?token={updated_user['token']}"
     })

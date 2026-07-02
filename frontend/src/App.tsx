@@ -20,6 +20,7 @@ import NewsFeed from "./components/dashboard/news-feed";
 import SettingsForm from "./components/dashboard/settings-form";
 import PlaybookPremium from "./components/dashboard/playbook-premium";
 import BiasTracker from "./components/dashboard/bias-tracker";
+import GammaLevelsView from "./components/dashboard/gamma-levels-view";
 
 import {
   badgeCls,
@@ -55,12 +56,14 @@ export default function App() {
   const [token, setToken] = useState<string>("");
   const [subStatus, setSubStatus] = useState<string>("free");
   const [userEmail, setUserEmail] = useState<string>("");
+  const [hasNqPlaybook, setHasNqPlaybook] = useState<boolean>(false);
+  const [hasEsPlaybook, setHasEsPlaybook] = useState<boolean>(false);
   const [hasPlaybook, setHasPlaybook] = useState<boolean>(false);
   const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
   // Sub-tabs in the bottom section of dashboard
-  const [dashboardTab, setDashboardTab] = useState<"playbook" | "structure" | "catalysts" | "ai_analysis">("playbook");
+  const [dashboardTab, setDashboardTab] = useState<"playbook" | "structure" | "gamma_levels" | "catalysts" | "ai_analysis">("playbook");
 
   // Status message
   const [status, setStatus] = useState<{ text: string; type: "run" | "done" | "error" | "" }>({
@@ -88,7 +91,9 @@ export default function App() {
           if (data.success && data.user) {
             setSubStatus(data.user.subscription_status || "free");
             setUserEmail(data.user.email || "");
-            setHasPlaybook(!!data.user.has_playbook);
+            setHasNqPlaybook(!!data.user.has_nq_playbook);
+            setHasEsPlaybook(!!data.user.has_es_playbook);
+            setHasPlaybook(!!data.user.has_nq_playbook || !!data.user.has_es_playbook);
           }
         })
         .catch((e) => console.error(e));
@@ -384,7 +389,7 @@ export default function App() {
                   <div className="flex items-center justify-between border-b border-zinc-900 pb-2 select-none">
                     
                     {/* Outline Style Tabs */}
-                    <div className="flex bg-zinc-900 border border-zinc-800 rounded-lg p-0.5">
+                    <div className="flex bg-zinc-900 border border-zinc-800 rounded-lg p-0.5 flex-wrap gap-y-1">
                       <button
                         onClick={() => setDashboardTab("playbook")}
                         className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
@@ -400,6 +405,14 @@ export default function App() {
                         }`}
                       >
                         Market Structure
+                      </button>
+                      <button
+                        onClick={() => setDashboardTab("gamma_levels")}
+                        className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
+                          dashboardTab === "gamma_levels" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
+                        }`}
+                      >
+                        ES Gamma Levels
                       </button>
                       <button
                         onClick={() => setDashboardTab("catalysts")}
@@ -427,6 +440,9 @@ export default function App() {
                     )}
                     {dashboardTab === "structure" && (
                       <StructureTable priceAction={activeReport.price_action} />
+                    )}
+                    {dashboardTab === "gamma_levels" && (
+                      <GammaLevelsView />
                     )}
                     {dashboardTab === "catalysts" && (
                       <NewsFeed
@@ -554,7 +570,7 @@ export default function App() {
                 animate={{ opacity: 1 }}
                 className="max-w-5xl mx-auto"
               >
-                <PlaybookPremium hasPlaybook={hasPlaybook} userEmail={userEmail} />
+                <PlaybookPremium hasNqPlaybook={hasNqPlaybook} hasEsPlaybook={hasEsPlaybook} userEmail={userEmail} />
               </motion.div>
             ) : currentView === "tracker" ? (
               

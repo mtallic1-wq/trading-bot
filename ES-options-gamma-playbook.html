@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ES Options Gamma Playbook — 4 Setups · Dealer Hedging Framework</title>
+<style>
+  :root {
+    --bg: #f7f8fd;
+    --card: #ffffff;
+    --border: #e7e9f3;
+    --text: #1f2333;
+    --muted: #6b7188;
+    --purple: #6042ec;
+    --purple-soft: #efedfd;
+    --green: #0fa977;
+    --green-soft: #e7f7f1;
+    --red: #e5484d;
+    --red-soft: #fdeeee;
+    --amber: #d97706;
+    --amber-soft: #fdf3e3;
+    --blue: #2f6fed;
+    --blue-soft: #eaf1fe;
+    --cyan: #0fa977; /* map to green for clarity */
+    --shadow: 0 1px 3px rgba(16,24,40,.07), 0 4px 14px rgba(16,24,40,.04);
+    --mono: "SF Mono", "JetBrains Mono", Consolas, monospace;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+    padding-bottom: 90px;
+  }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
+
+  header {
+    background: linear-gradient(135deg, #6042ec 0%, #7d5cf5 55%, #9a7df8 100%);
+    color: #fff;
+    padding: 54px 0 44px;
+    margin-bottom: 40px;
+  }
+  .ticker {
+    font-family: var(--mono); font-size: 12.5px; letter-spacing: 2px;
+    text-transform: uppercase; opacity: .85; margin-bottom: 12px;
+  }
+  h1 { font-size: 33px; font-weight: 800; letter-spacing: -.5px; }
+  .subtitle { margin-top: 10px; font-size: 15.5px; opacity: .9; max-width: 640px; }
+  .specs { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; font-family: var(--mono); font-size: 12.5px; }
+  .spec { background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.25); border-radius: 8px; padding: 5px 13px; }
+  .spec b { font-weight: 700; }
+
+  .notice {
+    background: var(--amber-soft); border: 1px solid #f3ddb5; border-left: 4px solid var(--amber);
+    border-radius: 10px; padding: 15px 20px; margin-bottom: 40px; font-size: 14px; color: #6b4e10;
+  }
+  .notice b { color: var(--amber); }
+
+  h2 { font-size: 21px; font-weight: 800; margin: 54px 0 6px; display: flex; align-items: center; gap: 12px; letter-spacing: -.3px; }
+  h2 .pill {
+    font-family: var(--mono); font-size: 12px; font-weight: 700; letter-spacing: 1px;
+    border-radius: 99px; padding: 3px 13px;
+  }
+  .pill.step { background: var(--purple-soft); color: var(--purple); }
+  .pill.range { background: var(--green-soft); color: var(--green); }
+  .pill.trend { background: var(--red-soft); color: var(--red); }
+  .pill.magnet { background: var(--purple-soft); color: var(--purple); }
+  .h2-sub { color: var(--muted); font-size: 14px; margin-bottom: 22px; }
+
+  /* Beginner Guide Section styles */
+  .guide-box {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+    padding: 24px; margin-bottom: 30px; box-shadow: var(--shadow);
+  }
+  .guide-section { margin-bottom: 20px; }
+  .guide-section h4 { font-size: 15px; font-weight: 800; color: var(--purple); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .guide-section p { font-size: 14px; color: #3e445b; margin-bottom: 8px; }
+  .guide-section ul { margin-left: 20px; margin-bottom: 8px; font-size: 14px; color: #3e445b; }
+  .guide-section li { margin-bottom: 4px; }
+  .guide-section li b { color: var(--text); }
+
+  /* prep grid */
+  .marklist { display: grid; gap: 10px; counter-reset: mk; }
+  .mk {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 18px 14px 56px; position: relative; counter-increment: mk; box-shadow: var(--shadow);
+  }
+  .mk::before {
+    content: counter(mk);
+    position: absolute; left: 16px; top: 15px; width: 26px; height: 26px; border-radius: 50%;
+    background: var(--purple-soft); color: var(--purple);
+    font-family: var(--mono); font-size: 13px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .mk b { color: var(--text); }
+  .mk small { color: var(--muted); display: block; font-size: 13px; margin-top: 4px; }
+
+  .decide { margin-top: 18px; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px 22px; box-shadow: var(--shadow); }
+  .decide .q { font-weight: 700; margin-bottom: 8px; }
+  .decide .ans { font-size: 14px; margin-bottom: 6px; }
+  .decide .ans b.t { color: var(--red); }
+  .decide .ans b.r { color: var(--green); }
+  .decide .none { color: var(--muted); font-size: 13.5px; }
+
+  /* strategy cards */
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; margin-bottom: 26px; overflow: hidden; box-shadow: var(--shadow); }
+  .card-head { padding: 20px 24px 16px; border-bottom: 1px solid var(--border); }
+  .badges { display: flex; gap: 8px; flex-wrap: wrap; }
+  .tag {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 1.2px; font-weight: 700;
+    padding: 4px 11px; border-radius: 99px;
+  }
+  .tag.range { background: var(--green-soft); color: var(--green); }
+  .tag.trend { background: var(--red-soft); color: var(--red); }
+  .tag.mine  { background: var(--purple-soft); color: var(--purple); }
+  .tag.flip  { background: var(--blue-soft); color: var(--blue); }
+  .card-head h3 { font-size: 18.5px; margin-top: 10px; font-weight: 800; letter-spacing: -.2px; }
+  .card-body { padding: 20px 24px; }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); gap: 10px; margin-bottom: 20px; }
+  .stat { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; }
+  .stat .k { font-size: 10.5px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); font-weight: 600; }
+  .stat .v { font-family: var(--mono); font-size: 15.5px; font-weight: 700; color: var(--green); margin-top: 2px; }
+  .stat .v.red { color: var(--red); }
+  .stat .v.amber { color: var(--amber); }
+  .stat .v.purple { color: var(--purple); }
+  .stat .v.blue { color: var(--blue); }
+
+  .sec { margin-bottom: 16px; }
+  .sec-title {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 1.2px; font-weight: 700; margin-bottom: 6px; color: var(--purple);
+  }
+  .sec p, .sec li { font-size: 14px; }
+  .sec ol, .sec ul { margin-left: 20px; }
+  .sec li { margin-bottom: 4px; }
+
+  .box { border-radius: 10px; padding: 12px 16px; font-size: 14px; }
+  .box.context { background: var(--blue-soft); border: 1px solid #cfdefb; }
+  .box.context b { color: var(--blue); }
+  .box.location { background: var(--green-soft); border: 1px solid #c6ecdd; }
+  .box.location b { color: var(--green); }
+  .box.confirm { background: var(--amber-soft); border: 1px solid #f3ddb5; }
+  .box.confirm b { color: var(--amber); }
+  .kill {
+    margin-top: 4px; padding: 12px 16px; background: var(--red-soft);
+    border: 1px solid #f6cdce; border-left: 4px solid var(--red); border-radius: 10px; font-size: 13.5px;
+  }
+  .kill b { color: var(--red); }
+
+  footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+  footer b { color: var(--text); }
+  @media (max-width: 640px) {
+    h1 { font-size: 25px; }
+    .card-body, .card-head { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="ticker">ES · E-MINI S&P 500 · OPTIONS GAMMA EXPOSURE (GEX)</div>
+    <h1>ES Options Gamma Playbook — 4 Setups</h1>
+    <p class="subtitle">Dealer Hedging & Liquidity Framework. 2 Positive Gamma range faders, 1 Volatility Flip setup, and 1 Expiration magnet pin. Every card: Context → Location → Entry → Confirmation → Stops &amp; Targets.</p>
+    <div class="specs">
+      <div class="spec">1 point = <b>$50</b></div>
+      <div class="spec">Tick = <b>0.25 ($12.50)</b></div>
+      <div class="spec">Source = <b>FlashAlpha API</b></div>
+      <div class="spec">Best hours = <b>10:00–16:00 ET</b></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="notice">
+    <b>Institutional Fact:</b> Options market makers (dealers) do not speculate on price direction. Instead, they remain delta-neutral. To do this, they must continuously trade the underlying S&P 500 futures to balance their books as the market moves. This playbook capitalizes on their mandatory hedging activity.
+  </div>
+
+  <!-- BEGINNER EXPLAINER SECTION -->
+  <h2><span class="pill step">INTRO</span> Options Gamma for Beginners: How it Works</h2>
+  <p class="h2-sub">Read this first if you are new to Gamma Exposure (GEX) and Market Maker flows.</p>
+  
+  <div class="guide-box">
+    <div class="guide-section">
+      <h4>1. What is a Market Maker / Dealer?</h4>
+      <p>When someone buys a Call option (a bet that the S&P 500 will go up) or a Put option (a bet that it will go down), they buy it from a <b>Market Maker</b> (dealer). The dealer does not want to take a directional bet—they make money on transaction fees. To protect themselves, they offset their risk using a process called <b>Delta Hedging</b>.</p>
+    </div>
+
+    <div class="guide-section">
+      <h4>2. What is Delta Hedging & Gamma?</h4>
+      <p>If a dealer sells you a Call option, they are short the market. To hedge, they must buy S&P 500 futures. As the price goes higher, the Call option becomes more likely to win, meaning the dealer must buy *more* futures to keep their hedge. The rate of change at which they must adjust their hedge is called <b>Gamma</b>.</p>
+      <p>Because market makers trade hundreds of billions of dollars, their hedging orders act as massive tide flows in the market, pushing prices around key options strikes.</p>
+    </div>
+
+    <div class="guide-section">
+      <h4>3. The Two Gamma Regimes (Your Volatility Guide)</h4>
+      <p>The total sum of market maker positioning determines the daily regime:</p>
+      <ul>
+        <li><b>Positive Gamma (+GEX) Regime</b>: Dealers are net "long gamma". To keep their books balanced, they must <b>buy when price goes down and sell when price goes up</b>. This counter-cyclical buying and selling suppresses volatility. The market behaves like it is moving through molasses, leading to range-bound days.</li>
+        <li><b>Negative Gamma (-GEX) Regime</b>: Dealers are net "short gamma". To keep their books balanced, they must <b>sell when price goes down and buy when price goes up</b>. This pro-cyclical trading acts as a massive amplifier. Dips are met with intense dealer selling, causing swift market crashes and runaway trending runs.</li>
+      </ul>
+    </div>
+
+    <div class="guide-section">
+      <h4>4. Decoding the 4 Key Options Levels</h4>
+      <ul>
+        <li><b>Gamma Flip (Zero-Gamma Strike)</b>: The critical boundary level. If the S&P 500 spot price is above this level, the market is in a Positive Gamma (low vol) regime. If price breaks below it, we instantly shift to Negative Gamma (high vol). It acts as a major regime pivot.</li>
+        <li><b>Call Wall</b>: The strike price with the largest concentration of positive call option gamma. As price approaches this level, dealers are forced to sell futures to hedge, making the Call Wall act as a major resistance ceiling.</li>
+        <li><b>Put Wall</b>: The strike price with the largest concentration of put option gamma. As price falls here, dealers must buy futures to hedge, making it a firm support floor (in Positive Gamma). *Warning: In Negative Gamma, if the Put Wall breaks, it turns into resistance and accelerates the dump.*</li>
+        <li><b>0DTE Magnet</b>: The strike price with the highest same-day expiring option volume. Near the end of the trading day, options expire rapidly. Market makers must quickly unload their hedges, creating a gravitational pull that sucks the S&P 500 price directly to the magnet strike.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PREP -->
+  <h2><span class="pill step">STEP 1</span> Mark These Levels Before 9:30 ET</h2>
+  <p class="h2-sub">Retrieve these values from your FlashAlpha API integration tab on the dashboard.</p>
+  <div class="marklist">
+    <div class="mk"><b>Zero-Gamma (Gamma Flip) level:</b> The absolute line in the sand separating high-vol and low-vol regimes.<small>Used by G1, G2, G3.</small></div>
+    <div class="mk"><b>The Call Wall:</b> Major overhead options barrier. The target ceiling for rallies.<small>Used by G1, G2.</small></div>
+    <div class="mk"><b>The Put Wall:</b> Major downside options barrier. The target floor for selloffs.<small>Used by G1, G3.</small></div>
+    <div class="mk"><b>0DTE Magnet:</b> The same-day expiration strike where price is likely to pin.<small>Used by G4 (usually active after 14:00 ET).</small></div>
+  </div>
+
+  <div class="decide">
+    <div class="q">STEP 2 — Classify the Market Environment:</div>
+    <div class="ans"><b class="r">Positive Gamma (Spot > Flip)</b> — Dealers stabilize price moves. Trade mean-reversion, range fades, and premium collection: <b>G1, G4</b>.</div>
+    <div class="ans"><b class="t">Negative Gamma (Spot < Flip)</b> — Dealers amplify price moves. Trade breakouts, trends, and momentum: <b>G2, G3</b>.</div>
+    <div class="none">Mixing range trades into Negative Gamma days is highly dangerous, as support levels will fail without warning.</div>
+  </div>
+
+  <!-- ================= STRATEGIES ================= -->
+  
+  <h2><span class="pill range">REGIME A</span> Positive Gamma Setups (Vol Dampened)</h2>
+  <p class="h2-sub">Market maker hedging suppresses volatility. Price action mean-reverts between options walls.</p>
+
+  <!-- G1 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="badges"><span class="tag range">G1 · FADE</span><span class="tag range">1–2× PER DAY</span></div>
+      <h3>Volatility Compression Fade — Fading Call & Put Walls</h3>
+    </div>
+    <div class="card-body">
+      <div class="stats">
+        <div class="stat"><div class="k">Win rate</div><div class="v">~65–70%</div></div>
+        <div class="stat"><div class="k">Reward : Risk</div><div class="v amber">1 : 1.2</div></div>
+        <div class="stat"><div class="k">Stop</div><div class="v red">4–6 pts</div></div>
+        <div class="stat"><div class="k">Targets</div><div class="v purple">Gamma Flip / POC</div></div>
+      </div>
+      <div class="sec"><div class="sec-title">Context</div>
+        <div class="box context"><b>Price is inside the Positive Gamma zone (Spot > Flip).</b> Price moves are dampened because dealers sell rallies and buy dips. The Call Wall and Put Wall act as highly reliable price barriers.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Location — levels to mark</div>
+        <div class="box location"><b>Call Wall</b> (short entry level) · <b>Put Wall</b> (long entry level) · <b>Gamma Flip</b> (target area).</div>
+      </div>
+      <div class="sec"><div class="sec-title">Entry</div>
+        <ol>
+          <li>Wait for S&P 500 futures to push within 2–3 points of the <b>Call Wall</b> (to short) or <b>Put Wall</b> (to buy).</li>
+          <li>Let the price touch or slightly pierce the level. Do not enter on the touch.</li>
+          <li>Enter immediately on the first candle that closes back inside the level.</li>
+        </ol>
+      </div>
+      <div class="sec"><div class="sec-title">Confirmation — order flow</div>
+        <div class="box confirm"><b>Absorption & delta reversal.</b> On the footprint chart, you see large volume blocks at the wall price, but the price stops moving past the wall (absorption). The next 5m bar delta flips (turns positive at the Put Wall, or negative at the Call Wall), showing sellers/buyers have exhausted.</div>
+      </div>
+      <div class="kill"><b>Kill switch:</b> S&P 500 breakout holds outside the wall for more than 15 minutes with rising volume. Cut the fade trade immediately.</div>
+    </div>
+  </div>
+
+  <h2><span class="pill trend">REGIME B</span> Negative Gamma Setups (Vol Amplified)</h2>
+  <p class="h2-sub">Market maker hedging accelerates price moves. Price trends violently and breaks support/resistance.</p>
+
+  <!-- G2 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="badges"><span class="tag flip">G2 · PIVOT</span><span class="tag flip">REGIME TRIGGER</span></div>
+      <h3>The Volatility Regime Switch — Trading the Zero-Gamma Flip</h3>
+    </div>
+    <div class="card-body">
+      <div class="stats">
+        <div class="stat"><div class="k">Win rate</div><div class="v blue">~60%</div></div>
+        <div class="stat"><div class="k">Reward : Risk</div><div class="v">1 : 2 – 3</div></div>
+        <div class="stat"><div class="k">Stop</div><div class="v red">6–8 pts</div></div>
+        <div class="stat"><div class="k">Targets</div><div class="v purple">Put Wall / Call Wall</div></div>
+      </div>
+      <div class="sec"><div class="sec-title">Context</div>
+        <div class="box context">Price crosses the <b>Zero-Gamma Flip</b> level. Crossing below changes market maker rules to "pro-cyclical selling" (causing rapid downside sweeps). Crossing above triggers short-covering and shifts the market into low-vol territory.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Location — levels to mark</div>
+        <div class="box location"><b>Gamma Flip</b> strike price from FlashAlpha · <b>Put Wall</b> (downside target) · <b>Call Wall</b> (upside target).</div>
+      </div>
+      <div class="sec"><div class="sec-title">Entry</div>
+        <ol>
+          <li><b>Short Entry</b>: Price breaks below the Flip level. Wait for a retest of the Flip from below that fails.</li>
+          <li><b>Long Entry</b>: Price breaks above the Flip level. Wait for a pullback to the Flip from above that holds.</li>
+        </ol>
+      </div>
+      <div class="sec"><div class="sec-title">Confirmation — order flow</div>
+        <div class="box confirm"><b>Volatility expansion.</b> The breakout and retest should show a significant increase in volume (high volume node forming on profile) accompanied by a strong cumulative delta push. VIX spikes on downside flips.</div>
+      </div>
+      <div class="kill"><b>Kill switch:</b> Price whipsaws back across the Flip level and stays for more than 10 minutes. Cut the trade; the flip was a fakeout.</div>
+    </div>
+  </div>
+
+  <!-- G3 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="badges"><span class="tag trend">G3 · TREND</span><span class="tag trend">HIGH VOLATILITY</span></div>
+      <h3>The Negative Gamma Run — Momentum shorting below the Put Wall</h3>
+    </div>
+    <div class="card-body">
+      <div class="stats">
+        <div class="stat"><div class="k">Win rate</div><div class="v red">~55–60%</div></div>
+        <div class="stat"><div class="k">Reward : Risk</div><div class="v">1 : 3 – 4</div></div>
+        <div class="stat"><div class="k">Stop</div><div class="v red">10–12 pts (wider due to ATR)</div></div>
+        <div class="stat"><div class="k">Targets</div><div class="v purple">Strikes every 25 pts</div></div>
+      </div>
+      <div class="sec"><div class="sec-title">Context</div>
+        <div class="box context"><b>Spot price is below the Gamma Flip AND the Put Wall has failed.</b> Dealers are heavily short gamma. Every tick down forces them to sell futures to hedge their delta, creating a feedback loop. Downside runs are fast and violent.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Location — levels to mark</div>
+        <div class="box location"><b>Put Wall</b> (which now acts as major resistance) · <b>psychological strikes</b> (intervals of 25/50 points).</div>
+      </div>
+      <div class="sec"><div class="sec-title">Entry</div>
+        <ol>
+          <li>Wait for a clean breakdown below the Put Wall.</li>
+          <li>Sells minor pullbacks to the VWAP or 9 EMA on the 5m chart.</li>
+          <li>Short in the direction of the momentum. Never attempt to catch a falling knife by buying support.</li>
+        </ol>
+      </div>
+      <div class="sec"><div class="sec-title">Confirmation — order flow</div>
+        <div class="box confirm"><b>Imbalance runs.</b> Footprint chart shows multiple sell imbalances. CVD (Cumulative Volume Delta) declines steadily. Option volume spikes on out-of-the-money puts, forcing dealers to aggressively short the underlying.</div>
+      </div>
+      <div class="kill"><b>Kill switch:</b> Spot price climbs back above the Put Wall. This indicates short covering and a potential squeeze. Exit all shorts immediately.</div>
+    </div>
+  </div>
+
+  <h2><span class="pill magnet">SPECIAL SETUP</span> Expiration Day Pinning Setup</h2>
+  <p class="h2-sub">Dealer Vanna & Charm decay flows dominate the market in the final hours of the session.</p>
+
+  <!-- G4 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="badges"><span class="tag mine">G4 · PIN</span><span class="tag mine">AFTER 14:00 ET ONLY</span></div>
+      <h3>The 0DTE Magnet Pin — Expiration session gravity play</h3>
+    </div>
+    <div class="card-body">
+      <div class="stats">
+        <div class="stat"><div class="k">Win rate</div><div class="v purple">~70–75%</div></div>
+        <div class="stat"><div class="k">Reward : Risk</div><div class="v">1 : 1.5 – 2</div></div>
+        <div class="stat"><div class="k">Stop</div><div class="v red">5 pts</div></div>
+        <div class="stat"><div class="k">Targets</div><div class="v purple">Exact Magnet Strike</div></div>
+      </div>
+      <div class="sec"><div class="sec-title">Context</div>
+        <div class="box context"><b>Same-day expiration (0DTE).</b> As 16:00 ET approaches, options near-the-money experience rapid delta decay (vanna/charm). Market makers must unwind hedges, pulling the spot price directly towards the highest concentration strike — the <b>0DTE Magnet</b>.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Location — levels to mark</div>
+        <div class="box location"><b>0DTE Magnet strike price</b> from FlashAlpha levels payload.</div>
+      </div>
+      <div class="sec"><div class="sec-title">Entry</div>
+        <ol>
+          <li><b>Directional Entry</b>: If spot price is within 10–12 points of the Magnet strike after 14:00 ET, go long/short in the direction of the magnet.</li>
+          <li><b>Pinning Entry</b>: Once the price reaches the magnet strike, enter range spreads (Iron Butterflies or Calendar spreads) centered on the strike.</li>
+        </ol>
+      </div>
+      <div class="sec"><div class="sec-title">Confirmation — order flow</div>
+        <div class="box confirm"><b>Decaying Volatility.</b> Implied Volatility (IV) on 0DTE options at the magnet strike declines rapidly. Bid/ask spreads at the strike become extremely tight. Index futures volume slows down as price becomes "heavy" at the strike.</div>
+      </div>
+      <div class="kill"><b>Kill switch:</b> A sudden macro news release or major block order pushes price more than 15 points away from the magnet in the final hour. The pin has failed.</div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <p><b>Options Gamma Risk Disclaimer:</b> Gamma levels represent estimated boundaries derived from mathematical modeling of options open interest. Actual market participant flows, sudden macro news, and physical block orders can override dealer hedging influences. Always trade with risk parameters and protective stops.</p>
+      <p style="margin-top: 8px;">&copy; 2026 NQ Bias Engine. All rights reserved.</p>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
