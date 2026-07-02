@@ -10,7 +10,7 @@ interface PlaybookPremiumProps {
 export default function PlaybookPremium({ hasNqPlaybook, hasEsPlaybook, userEmail }: PlaybookPremiumProps) {
   const [activeTab, setActiveTab] = useState<"nq" | "es">("nq");
   const nqCheckoutUrl = "https://nqbiasengine.lemonsqueezy.com/checkout/buy/afa17786-dd1c-463b-9ea8-c745ecd3dec5";
-  const esCheckoutUrl = "https://nqbiasengine.lemonsqueezy.com/checkout/buy/YOUR_ES_PLAYBOOK_ID"; // placeholder checkout
+  const esCheckoutUrl = "https://nqbiasengine.lemonsqueezy.com/checkout/buy/a34c11f9-068e-4b0f-a2bb-f163e729d7a2";
 
   return (
     <div className="max-w-4xl mx-auto space-y-6 font-sans">
