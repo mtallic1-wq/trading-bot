@@ -128,10 +128,26 @@ if not app.debug or os.environ.get("WERKZEUG_RUN_MAIN") == "true":
     print("[Scheduler] Active background daemon running.")
 
 
-# ── Routes ────────────────────────────────────────────────────────────────────
+# ── SEO Bot Detection ─────────────────────────────────────────────────────────
+BOT_KEYWORDS = [
+    "googlebot", "bingbot", "yandex", "baidu", "duckduck", "slurp",
+    "twitterbot", "facebookexternalhit", "discordbot", "slackbot",
+    "telegrambot", "whatsapp", "linkedinbot", "embedly", "pinterest",
+    "google-structured-data", "google-rich-results"
+]
+
+def is_crawler(user_agent: str) -> bool:
+    if not user_agent:
+        return False
+    ua = user_agent.lower()
+    return any(kw in ua for kw in BOT_KEYWORDS)
+
 
 @app.route("/")
 def index():
+    ua = request.headers.get("User-Agent", "")
+    if is_crawler(ua):
+        return send_from_directory(str(STATIC_DIR), "bot-fallback.html")
     return send_from_directory(str(STATIC_DIR), "index.html")
 
 
