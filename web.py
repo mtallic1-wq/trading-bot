@@ -624,6 +624,140 @@ def get_es_gamma_levels():
         return jsonify({"success": False, "error": str(e)}), 500
 
 
+def generate_ai_playbook_plan(spot, flip, call_wall, put_wall, magnet, is_positive):
+    system_prompt = (
+        "You are an elite institutional options strategist specialized in E-mini S&P 500 futures (ES) "
+        "and dealer Gamma hedging flows. Your job is to generate a tactical Premarket Trade Plan "
+        "based on the current options boundaries and the active Volatility Regime.\n\n"
+        "Format your response in beautiful, clean Markdown with bullet points, bold key values, and "
+        "a professional trading desk tone."
+    )
+    
+    prompt = f"""
+    Current Market Configuration for E-mini S&P 500 (ES=F):
+    - Spot Price: {spot:.2f}
+    - Volatility Regime: {"Positive Gamma (+GEX) - Dampened Volatility" if is_positive else "Negative Gamma (-GEX) - Amplified Volatility"}
+    - Zero-Gamma Flip: {flip:.2f}
+    - Call Wall (Ceiling): {call_wall:.2f}
+    - Put Wall (Floor): {put_wall:.2f}
+    - 0DTE Magnet Strike: {magnet}
+
+    Hedge Fund Playbook Strategy Rules:
+    - Strategy G1 (Volatility Compression Fade): Fade Call/Put Walls in Positive Gamma. Look for bid/ask exhaustion. Target Flip.
+    - Strategy G2 (Zero-Gamma Flip Switch): Go short on break and retest of Flip from below. Go long on break and retest of Flip from above.
+    - Strategy G3 (Negative Gamma Run): High-volatility short breakout runs below Flip / Put Wall. Sell support breakdowns or VWAP pullbacks.
+    - Strategy G4 (0DTE Magnet Pin): Directional pin plays towards the Magnet in the final 2 hours of NYSE.
+
+    Task:
+    Provide a highly detailed, professional Premarket Trade Plan containing:
+    1. **Active Volatility Regime Analysis**: Explain dealer hedging behavior for today's regime and expected volatility levels (ATR expectations).
+    2. **Tactical Strategy Triggers**: Provide exact "If/Then" triggers based on today's levels.
+    3. **Step-by-Step Desk Execution Checklist**: List specific action items, target strikes, and invalidation rules for today.
+    """
+    
+    from config import GROQ_API_KEY, GROQ_MODEL, GEMINI_API_KEY
+    if GROQ_API_KEY:
+        try:
+            from groq import Groq
+            client = Groq(api_key=GROQ_API_KEY)
+            response = client.chat.completions.create(
+                model=GROQ_MODEL,
+                max_tokens=2000,
+                temperature=0.2,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user",   "content": prompt},
+                ],
+            )
+            return response.choices[0].message.content
+        except Exception as e:
+            print(f"[AI ES Plan] Groq failed: {e}")
+            
+    if GEMINI_API_KEY:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+        headers = {"Content-Type": "application/json"}
+        payload = {
+            "contents": [{
+                "parts": [{
+                    "text": f"{system_prompt}\n\n[PROMPT]:\n{prompt}"
+                }]
+            }],
+            "generationConfig": {
+                "temperature": 0.2
+            }
+        }
+        try:
+            r = requests.post(url, headers=headers, json=payload, timeout=20)
+            if r.status_code == 200:
+                res_json = r.json()
+                return res_json["candidates"][0]["content"]["parts"][0]["text"]
+        except Exception as e:
+            print(f"[AI ES Plan] Gemini failed: {e}")
+            
+    return (
+        "### Premarket Trade Plan (Simple System Fallback)\n\n"
+        f"**Volatility Regime**: {'Positive Gamma (+GEX) - Range-bound' if is_positive else 'Negative Gamma (-GEX) - High Volatility'}\n"
+        f"- Watch for support at the Put Wall (**{put_wall:.2f}**) and resistance at the Call Wall (**{call_wall:.2f}**).\n"
+        f"- The Zero-Gamma Flip pivot sits at **{flip:.2f}**. Stay long above, short below.\n"
+        "- Trigger Strategy G1 if spot approaches walls. Trigger Strategy G2 on Flip crossovers."
+    )
+
+@app.route("/api/gamma/es/plan")
+def get_es_gamma_ai_plan():
+    global GAMMA_CACHE
+    token = request.args.get("token")
+    if not token:
+        return jsonify({"success": False, "error": "Authentication token required"}), 401
+        
+    user = get_user_by_token(token)
+    if not user:
+        return jsonify({"success": False, "error": "Invalid token"}), 401
+        
+    email = user.get("email")
+    has_es = has_purchased_product(email, "ES Gamma Playbook")
+    if not has_es:
+        return jsonify({"success": False, "error": "ES Gamma Playbook purchase required to access AI Premarket Plan"}), 403
+        
+    if GAMMA_CACHE is None:
+        load_disk_cache()
+        
+    if GAMMA_CACHE is None:
+        return jsonify({"success": False, "error": "GEX Levels data unavailable. Load levels first."}), 500
+        
+    try:
+        tz = pytz.timezone("Asia/Karachi")
+        now_pkt = datetime.now(tz)
+    except Exception as e:
+        print(f"[Gamma Plan] Timezone lookup failed: {e}. Falling back to UTC.")
+        now_pkt = datetime.utcnow()
+        
+    if now_pkt.hour >= 18:
+        current_session_date = now_pkt.strftime("%Y-%m-%d")
+    else:
+        yesterday_pkt = now_pkt - timedelta(days=1)
+        current_session_date = yesterday_pkt.strftime("%Y-%m-%d")
+        
+    # Check cache for plan matching session date
+    if GAMMA_CACHE.get("ai_plan") and GAMMA_CACHE.get("ai_plan_date") == current_session_date:
+        return jsonify({"success": True, "plan": GAMMA_CACHE["ai_plan"]})
+        
+    spot = GAMMA_CACHE.get("underlying_price", 5450.0)
+    levels = GAMMA_CACHE.get("levels", {})
+    flip = levels.get("gamma_flip", 5450.0)
+    call_wall = levels.get("call_wall", 5500.0)
+    put_wall = levels.get("put_wall", 5400.0)
+    magnet = levels.get("zero_dte_magnet", "None")
+    is_positive = spot > flip
+    
+    plan_text = generate_ai_playbook_plan(spot, flip, call_wall, put_wall, magnet, is_positive)
+    
+    GAMMA_CACHE["ai_plan"] = plan_text
+    GAMMA_CACHE["ai_plan_date"] = current_session_date
+    save_disk_cache(GAMMA_CACHE)
+    
+    return jsonify({"success": True, "plan": plan_text})
+
+
 # Admin/Developer Testing Upgrades
 @app.route("/api/admin/upgrade")
 def admin_upgrade():

@@ -407,14 +407,6 @@ export default function App() {
                         Market Structure
                       </button>
                       <button
-                        onClick={() => setDashboardTab("gamma_levels")}
-                        className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
-                          dashboardTab === "gamma_levels" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
-                        }`}
-                      >
-                        ES Gamma Levels
-                      </button>
-                      <button
                         onClick={() => setDashboardTab("catalysts")}
                         className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
                           dashboardTab === "catalysts" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
@@ -440,9 +432,6 @@ export default function App() {
                     )}
                     {dashboardTab === "structure" && (
                       <StructureTable priceAction={activeReport.price_action} />
-                    )}
-                    {dashboardTab === "gamma_levels" && (
-                      <GammaLevelsView />
                     )}
                     {dashboardTab === "catalysts" && (
                       <NewsFeed
@@ -592,7 +581,7 @@ export default function App() {
                 animate={{ opacity: 1 }}
                 className="max-w-5xl mx-auto"
               >
-                <GammaLevelsView setView={setCurrentView} />
+                <GammaLevelsView setView={setCurrentView} hasEsPlaybook={hasEsPlaybook} token={token} />
               </motion.div>
             ) : (
               <div className="text-center text-zinc-600 text-xs py-8">
