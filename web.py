@@ -7,6 +7,7 @@ import hmac
 import hashlib
 import json
 import os
+import time
 import threading
 import uuid
 from datetime import datetime, timedelta
@@ -23,8 +24,11 @@ from storage.database import (
     check_delivery_logged, get_all_users, register_purchase, has_purchased_product
 )
 
+from flask_compress import Compress
+
 STATIC_DIR = BASE_DIR / "static"
 app = Flask(__name__, static_folder=str(STATIC_DIR), static_url_path="")
+Compress(app)
 
 # Initialize Database Schema on load
 init_db()
@@ -253,9 +257,20 @@ def news():
     return jsonify({"job_id": job_id})
 
 
+# Cache for win-rate calculations (saves disk hits on concurrent visits)
+WIN_RATE_CACHE = None
+WIN_RATE_CACHE_TIME = None
+CACHE_DURATION_SECS = 300  # 5 minutes cache
+
+
 # Bias prediction performance metrics
 @app.route("/api/bias/win-rate")
 def get_bias_win_rate():
+    global WIN_RATE_CACHE, WIN_RATE_CACHE_TIME
+    now = time.time()
+    if WIN_RATE_CACHE is not None and WIN_RATE_CACHE_TIME is not None and (now - WIN_RATE_CACHE_TIME < CACHE_DURATION_SECS):
+        return jsonify(WIN_RATE_CACHE)
+
     files = sorted(REPORTS_DIR.glob("*.json"))
     predictions = {}
     actual_directions = {}
@@ -323,7 +338,7 @@ def get_bias_win_rate():
             else:
                 break
                 
-    return jsonify({
+    response_data = {
         "success": True,
         "total_evaluated": total,
         "correct_predictions": correct,
@@ -331,7 +346,10 @@ def get_bias_win_rate():
         "streak_count": streak_count,
         "streak_type": streak_type,
         "details": details
-    })
+    }
+    WIN_RATE_CACHE = response_data
+    WIN_RATE_CACHE_TIME = now
+    return jsonify(response_data)
 
 
 # ── Onboarding & Settings Routes ──────────────────────────────────────────────
