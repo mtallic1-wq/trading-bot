@@ -547,20 +547,20 @@ def get_es_gamma_levels():
     if GAMMA_CACHE is None:
         load_disk_cache()
         
-    # Determine the target options session date in US/Eastern timezone
-    # Options levels settle after the NYSE close, typically ready after 6:00 PM EST.
+    # Determine the target options session date in PKT timezone (Pakistan Standard Time)
+    # The user requested updates to occur only after 6:00 PM PKT.
     try:
-        tz = pytz.timezone("US/Eastern")
-        now_est = datetime.now(tz)
+        tz = pytz.timezone("Asia/Karachi")
+        now_pkt = datetime.now(tz)
     except Exception as e:
         print(f"[Gamma] Timezone lookup failed: {e}. Falling back to UTC.")
-        now_est = datetime.utcnow()
+        now_pkt = datetime.utcnow()
         
-    if now_est.hour >= 18:
-        current_session_date = now_est.strftime("%Y-%m-%d")
+    if now_pkt.hour >= 18:
+        current_session_date = now_pkt.strftime("%Y-%m-%d")
     else:
-        yesterday_est = now_est - timedelta(days=1)
-        current_session_date = yesterday_est.strftime("%Y-%m-%d")
+        yesterday_pkt = now_pkt - timedelta(days=1)
+        current_session_date = yesterday_pkt.strftime("%Y-%m-%d")
         
     # Check if we already have the successful levels for the current active options session
     already_fetched = False
