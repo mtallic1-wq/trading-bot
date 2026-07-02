@@ -497,14 +497,57 @@ def lemonsqueezy_webhook():
 
 
 # ── Free ES Gamma Levels API (FlashAlpha Integration) ─────────────────────────
+import yfinance as yf
+
 GAMMA_CACHE = None
 GAMMA_CACHE_TIME = None
 GAMMA_CACHE_DURATION = 900  # 15 minutes cache to prevent rate-limiting
+GAMMA_DISK_CACHE_PATH = os.path.join(os.path.dirname(__file__), "storage", "gamma_cache.json")
+
+def load_disk_cache():
+    global GAMMA_CACHE
+    if os.path.exists(GAMMA_DISK_CACHE_PATH):
+        try:
+            with open(GAMMA_DISK_CACHE_PATH, "r") as f:
+                GAMMA_CACHE = json.load(f)
+        except Exception as e:
+            print(f"[Gamma] Error reading disk cache: {e}")
+
+def save_disk_cache(data):
+    try:
+        os.makedirs(os.path.dirname(GAMMA_DISK_CACHE_PATH), exist_ok=True)
+        with open(GAMMA_DISK_CACHE_PATH, "w") as f:
+            json.dump(data, f)
+    except Exception as e:
+        print(f"[Gamma] Error writing disk cache: {e}")
+
+def get_live_es_price():
+    try:
+        ticker = yf.Ticker("ES=F")
+        price = ticker.fast_info.last_price
+        if price:
+            return price
+    except Exception as e:
+        print(f"[Gamma] Error fetching live ES=F from yfinance fast_info: {e}")
+    try:
+        ticker = yf.Ticker("ES=F")
+        hist = ticker.history(period="1d")
+        if not hist.empty:
+            return hist['Close'].iloc[-1]
+    except Exception as e:
+        print(f"[Gamma] Error fetching live ES=F history: {e}")
+    return None
 
 @app.route("/api/gamma/es")
 def get_es_gamma_levels():
     global GAMMA_CACHE, GAMMA_CACHE_TIME
     now = time.time()
+    
+    # Try loading disk cache if memory cache is empty
+    if GAMMA_CACHE is None:
+        load_disk_cache()
+        
+    # Check if memory cache is valid
     if GAMMA_CACHE is not None and GAMMA_CACHE_TIME is not None and (now - GAMMA_CACHE_TIME < GAMMA_CACHE_DURATION):
         return jsonify(GAMMA_CACHE)
         
@@ -518,13 +561,24 @@ def get_es_gamma_levels():
             data = r.json()
             GAMMA_CACHE = data
             GAMMA_CACHE_TIME = now
+            save_disk_cache(data)
             return jsonify(data)
         else:
+            print(f"[Gamma] FlashAlpha returned status {r.status_code}. Using cache.")
             if GAMMA_CACHE is not None:
+                live_price = get_live_es_price()
+                if live_price:
+                    GAMMA_CACHE["underlying_price"] = live_price
+                    GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
                 return jsonify(GAMMA_CACHE)
             return jsonify({"success": False, "error": f"FlashAlpha API returned status {r.status_code}"}), r.status_code
     except Exception as e:
+        print(f"[Gamma] Error fetching options boundaries: {e}. Using cache.")
         if GAMMA_CACHE is not None:
+            live_price = get_live_es_price()
+            if live_price:
+                GAMMA_CACHE["underlying_price"] = live_price
+                GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
             return jsonify(GAMMA_CACHE)
         return jsonify({"success": False, "error": str(e)}), 500
 
