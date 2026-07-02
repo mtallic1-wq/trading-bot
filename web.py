@@ -547,24 +547,64 @@ def get_es_gamma_levels():
     if GAMMA_CACHE is None:
         load_disk_cache()
         
-    # Check if memory cache is valid
-    if GAMMA_CACHE is not None and GAMMA_CACHE_TIME is not None and (now - GAMMA_CACHE_TIME < GAMMA_CACHE_DURATION):
+    # Determine the target options session date in US/Eastern timezone
+    # Options levels settle after the NYSE close, typically ready after 6:00 PM EST.
+    try:
+        tz = pytz.timezone("US/Eastern")
+        now_est = datetime.now(tz)
+    except Exception as e:
+        print(f"[Gamma] Timezone lookup failed: {e}. Falling back to UTC.")
+        now_est = datetime.utcnow()
+        
+    if now_est.hour >= 18:
+        current_session_date = now_est.strftime("%Y-%m-%d")
+    else:
+        yesterday_est = now_est - timedelta(days=1)
+        current_session_date = yesterday_est.strftime("%Y-%m-%d")
+        
+    # Check if we already have the successful levels for the current active options session
+    already_fetched = False
+    if GAMMA_CACHE is not None and GAMMA_CACHE.get("session_date") == current_session_date:
+        already_fetched = True
+        
+    if already_fetched:
+        # We already successfully loaded options levels for today. 
+        # Just update the Spot Price in real time from yfinance and return! (Zero API cost)
+        live_price = get_live_es_price()
+        if live_price:
+            GAMMA_CACHE["underlying_price"] = live_price
+            GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
         return jsonify(GAMMA_CACHE)
         
+    # If we need a new session fetch, check if we had a fetch attempt recently.
+    # We enforce a 30-minute cooling window on API calls if we're rate-limited to avoid burning other credits.
+    if GAMMA_CACHE_TIME is not None and (now - GAMMA_CACHE_TIME < 1800):
+        print("[Gamma] Within 30-minute API cooldown window. Serving cached version.")
+        if GAMMA_CACHE is not None:
+            live_price = get_live_es_price()
+            if live_price:
+                GAMMA_CACHE["underlying_price"] = live_price
+                GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
+            return jsonify(GAMMA_CACHE)
+            
+    # Query FlashAlpha API
     api_key = os.environ.get("FLASHALPHA_API_KEY", "ns5wUS1pXnNcv0I9H7udKxkM1cA3xI1sJSAYfAml")
     headers = {"X-Api-Key": api_key, "Accept": "application/json"}
     url = "https://lab.flashalpha.com/v1/exposure/levels/ES=F"
     
     try:
         r = requests.get(url, headers=headers, timeout=10)
+        # Update attempt time
+        GAMMA_CACHE_TIME = now
+        
         if r.status_code == 200:
             data = r.json()
+            data["session_date"] = current_session_date
             GAMMA_CACHE = data
-            GAMMA_CACHE_TIME = now
             save_disk_cache(data)
             return jsonify(data)
         else:
-            print(f"[Gamma] FlashAlpha returned status {r.status_code}. Using cache.")
+            print(f"[Gamma] FlashAlpha API returned {r.status_code}. Using cache.")
             if GAMMA_CACHE is not None:
                 live_price = get_live_es_price()
                 if live_price:
@@ -573,7 +613,8 @@ def get_es_gamma_levels():
                 return jsonify(GAMMA_CACHE)
             return jsonify({"success": False, "error": f"FlashAlpha API returned status {r.status_code}"}), r.status_code
     except Exception as e:
-        print(f"[Gamma] Error fetching options boundaries: {e}. Using cache.")
+        GAMMA_CACHE_TIME = now
+        print(f"[Gamma] Exception during API call: {e}. Using cache.")
         if GAMMA_CACHE is not None:
             live_price = get_live_es_price()
             if live_price:
