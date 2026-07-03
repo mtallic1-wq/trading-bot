@@ -72,13 +72,14 @@ export default function Sidebar({
       <aside className={`fixed inset-y-0 left-0 z-40 w-64 border-r border-zinc-800 bg-zinc-950 flex flex-col shrink-0 select-none text-zinc-400 font-sans h-screen transition-transform duration-300 md:static md:translate-x-0 ${
         isOpen ? "translate-x-0" : "-translate-x-full"
       }`}>
-      {/* Brand Header */}
       <div className="p-4 flex items-center justify-between border-b border-zinc-900">
         <div className="flex items-center gap-2 text-zinc-100">
-          <div className="w-6 h-6 rounded bg-zinc-800 flex items-center justify-center border border-zinc-700">
-            <Activity className="w-3.5 h-3.5 text-zinc-200" />
-          </div>
-          <span className="font-semibold text-sm tracking-tight">NQ Bias Bot</span>
+          <img 
+            src="/logo.jpg" 
+            alt="NQ Bias Engine Logo" 
+            className="w-6 h-6 rounded object-cover border border-zinc-750" 
+          />
+          <span className="font-semibold text-sm tracking-tight">NQ Bias Engine</span>
         </div>
       </div>
 
