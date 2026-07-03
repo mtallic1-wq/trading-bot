@@ -327,6 +327,17 @@ export default function App() {
 
         {/* Central Workspace Scroll Panel */}
         <main className="flex-1 overflow-y-auto p-6 space-y-6">
+          
+          {/* SEO Header - Single H1 Tag */}
+          <div className="border-b border-zinc-900 pb-4 select-none">
+            <h1 className="text-base md:text-lg font-bold text-zinc-100 tracking-tight">
+              NQ Bias Engine — Free Pre-Market Nasdaq Futures Analysis
+            </h1>
+            <p className="text-[11px] text-zinc-500 mt-0.5">
+              Daily AI-powered volume profile playbooks and swing levels before the NYSE open.
+            </p>
+          </div>
+
           <AnimatePresence mode="wait">
             
             {/* Scraper Job Loader Screen */}
