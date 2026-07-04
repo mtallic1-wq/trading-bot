@@ -11,7 +11,9 @@ import {
   Lock,
   TrendingUp,
   Zap,
-  Sparkles
+  Sparkles,
+  LogIn,
+  LogOut
 } from "lucide-react";
 
 function formatReportDate(dateStr: string): string {
@@ -43,6 +45,8 @@ interface SidebarProps {
   isOpen?: boolean;
   onClose?: () => void;
   hasPremium: boolean;
+  onSyncClick?: () => void;
+  onLogoutClick?: () => void;
 }
 
 export default function Sidebar({
@@ -58,7 +62,9 @@ export default function Sidebar({
   onHelpClick,
   isOpen = false,
   onClose,
-  hasPremium
+  hasPremium,
+  onSyncClick,
+  onLogoutClick
 }: SidebarProps) {
   return (
     <>
@@ -239,6 +245,28 @@ export default function Sidebar({
 
       {/* Sidebar footer items */}
       <div className="p-3 border-t border-zinc-900 mt-auto space-y-1">
+        {userEmail ? (
+          <div className="flex flex-col gap-1 p-2 bg-zinc-900/40 border border-zinc-900 rounded-lg text-[10px] text-zinc-500 my-1">
+            <span className="truncate">Active Account:</span>
+            <span className="truncate text-zinc-300 font-mono font-semibold">{userEmail}</span>
+            <button
+              onClick={onLogoutClick}
+              className="flex items-center gap-1.5 text-rose-450 hover:text-rose-350 mt-1 font-semibold transition self-start"
+            >
+              <LogOut className="w-3 h-3" />
+              <span>Sign Out</span>
+            </button>
+          </div>
+        ) : (
+          <button
+            onClick={onSyncClick}
+            className="w-full flex items-center justify-center gap-2 py-2 px-3 bg-purple-950/20 hover:bg-purple-950/40 border border-purple-900/30 text-purple-300 rounded-lg text-xs font-bold transition shadow my-2 animate-pulse"
+          >
+            <LogIn className="w-3.5 h-3.5 text-purple-400" />
+            <span>Sync Access / Sign In</span>
+          </button>
+        )}
+
         {subStatus !== "active" && (
           <a
             href="https://nqbiasengine.lemonsqueezy.com/checkout/buy/ae27f792-5462-4426-ba19-1192730da6a9"

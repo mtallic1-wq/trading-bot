@@ -818,6 +818,36 @@ def admin_upgrade():
     })
 
 
+# Email direct access authentication
+@app.route("/api/auth/login", methods=["POST"])
+def auth_login():
+    data = request.get_json(silent=True) or {}
+    email = data.get("email")
+    if not email or "@" not in email:
+        return jsonify({"success": False, "error": "Invalid email address"}), 400
+        
+    email_clean = email.strip().lower()
+    user = get_user_by_email(email_clean)
+    if not user:
+        # Automatically register as free user if they do not exist
+        user = register_user(email_clean)
+        
+    is_active = user["subscription_status"] == "active"
+    user_data = {
+        "email": user["email"],
+        "whatsapp": user["whatsapp"],
+        "delivery_time": user["delivery_time"],
+        "timezone": user["timezone"],
+        "subscription_status": user["subscription_status"],
+        "has_nq_playbook": is_active or has_purchased_product(user["email"], "Volume Profile Playbook"),
+        "has_es_playbook": is_active or has_purchased_product(user["email"], "ES Gamma Playbook"),
+        "has_playbook": is_active or has_purchased_product(user["email"], "Volume Profile Playbook"),
+        "has_premium": is_active,
+        "token": user["token"]
+    }
+    return jsonify({"success": True, "user": user_data})
+
+
 
 if __name__ == "__main__":
     STATIC_DIR.mkdir(exist_ok=True)

@@ -8,7 +8,8 @@ import {
   X,
   HelpCircle,
   Menu,
-  Lock
+  Lock,
+  LogIn
 } from "lucide-react";
 
 import InteractiveSpace from "./components/InteractiveSpace";
@@ -63,6 +64,12 @@ export default function App() {
   const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
+  // Login / Sync Modal states
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState<boolean>(false);
+  const [loginEmail, setLoginEmail] = useState<string>("");
+  const [isLoggingIn, setIsLoggingIn] = useState<boolean>(false);
+  const [loginError, setLoginError] = useState<string>("");
+
   // Sub-tabs in the bottom section of dashboard
   const [dashboardTab, setDashboardTab] = useState<"playbook" | "structure" | "gamma_levels" | "catalysts" | "ai_analysis">("playbook");
 
@@ -80,10 +87,18 @@ export default function App() {
     steps: string[];
   } | null>(null);
 
-  // Load token from URL query params
+  // Load token from URL query params or localStorage
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const tokenParam = params.get("token") || "";
+    let tokenParam = params.get("token") || "";
+    
+    if (tokenParam) {
+      localStorage.setItem("nq_user_token", tokenParam);
+      window.history.replaceState({}, document.title, window.location.pathname);
+    } else {
+      tokenParam = localStorage.getItem("nq_user_token") || "";
+    }
+    
     setToken(tokenParam);
     if (tokenParam) {
       fetch(`/api/user/settings?token=${tokenParam}`)
@@ -96,6 +111,9 @@ export default function App() {
             setHasPremium(isPremium);
             setHasNqPlaybook(isPremium || !!data.user.has_nq_playbook);
             setHasEsPlaybook(isPremium || !!data.user.has_es_playbook);
+          } else {
+            localStorage.removeItem("nq_user_token");
+            setToken("");
           }
         })
         .catch((e) => console.error(e));
@@ -168,6 +186,49 @@ export default function App() {
     } catch (err) {
       console.error("Error loading reports", err);
     }
+  };
+
+  const handleLoginSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsLoggingIn(true);
+    setLoginError("");
+    try {
+      const res = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: loginEmail })
+      });
+      const data = await res.json();
+      if (data.success && data.user) {
+        const userToken = data.user.token;
+        localStorage.setItem("nq_user_token", userToken);
+        setToken(userToken);
+        setSubStatus(data.user.subscription_status || "free");
+        setUserEmail(data.user.email || "");
+        const isPremium = !!data.user.has_premium || data.user.subscription_status === "active";
+        setHasPremium(isPremium);
+        setHasNqPlaybook(isPremium || !!data.user.has_nq_playbook);
+        setHasEsPlaybook(isPremium || !!data.user.has_es_playbook);
+        setIsLoginModalOpen(false);
+        setLoginEmail("");
+      } else {
+        setLoginError(data.error || "Login failed");
+      }
+    } catch (err: any) {
+      setLoginError("Connection failed");
+    } finally {
+      setIsLoggingIn(false);
+    }
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem("nq_user_token");
+    setToken("");
+    setUserEmail("");
+    setSubStatus("free");
+    setHasPremium(false);
+    setHasNqPlaybook(false);
+    setHasEsPlaybook(false);
   };
 
   const loadReport = async (date: string) => {
@@ -281,6 +342,8 @@ export default function App() {
         isOpen={isMobileMenuOpen}
         onClose={() => setIsMobileMenuOpen(false)}
         hasPremium={hasPremium}
+        onSyncClick={() => setIsLoginModalOpen(true)}
+        onLogoutClick={handleLogout}
       />
 
       {/* Main Panel Content Area */}
@@ -630,6 +693,64 @@ export default function App() {
           </AnimatePresence>
         </main>
       </div>
+
+      {/* Login / Account Sync Modal */}
+      {isLoginModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 backdrop-blur-sm p-4">
+          <div 
+            className="fixed inset-0" 
+            onClick={() => setIsLoginModalOpen(false)} 
+          />
+          <div className="bg-zinc-950 border border-zinc-850 rounded-xl max-w-sm w-full p-6 relative font-sans shadow-2xl z-10 space-y-4">
+            
+            {/* Close Button */}
+            <button
+              onClick={() => setIsLoginModalOpen(false)}
+              className="absolute top-4 right-4 text-zinc-500 hover:text-zinc-300 transition"
+            >
+              <X className="w-4 h-4" />
+            </button>
+
+            <div className="mx-auto w-10 h-10 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center">
+              <LogIn className="w-5 h-5 text-purple-400" />
+            </div>
+
+            <div className="space-y-1 text-center">
+              <h3 className="text-sm font-bold text-zinc-200 uppercase tracking-wider">
+                Sync Premium Access
+              </h3>
+              <p className="text-[11px] text-zinc-500 leading-relaxed max-w-xs mx-auto">
+                Enter the email address you registered or used on Lemon Squeezy to immediately unlock your subscription features.
+              </p>
+            </div>
+
+            <form onSubmit={handleLoginSubmit} className="space-y-3 pt-2">
+              <div className="flex flex-col gap-1.5">
+                <input
+                  type="email"
+                  required
+                  placeholder="name@email.com"
+                  value={loginEmail}
+                  onChange={(e) => setLoginEmail(e.target.value)}
+                  className="bg-zinc-900 border border-zinc-800 text-zinc-100 px-3 py-2 rounded-lg text-xs focus:outline-none focus:border-zinc-700 transition"
+                />
+              </div>
+              
+              {loginError && (
+                <p className="text-[10px] text-rose-400 font-semibold">{loginError}</p>
+              )}
+
+              <button
+                type="submit"
+                disabled={isLoggingIn}
+                className="w-full py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-zinc-100 rounded-lg text-xs font-semibold transition shadow-md disabled:opacity-50"
+              >
+                {isLoggingIn ? "Syncing Account..." : "Sync Access"}
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
 
       {/* Support & Help Center Modal */}
       <AnimatePresence>
