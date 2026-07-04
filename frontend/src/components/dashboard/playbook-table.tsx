@@ -9,7 +9,7 @@ import {
   TableHeader,
   TableRow
 } from "../ui/table";
-import { GripVertical, X, Info, Lock } from "lucide-react";
+import { X, Info, Lock } from "lucide-react";
 
 interface PlaybookTableProps {
   playbook: any;
@@ -63,9 +63,7 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
         <Table className="w-full">
           <TableHeader>
             <TableRow className="border-b border-zinc-900 hover:bg-transparent">
-              <TableHead className="w-10 px-4"></TableHead>
-              <TableHead className="w-6 px-0"></TableHead>
-              <TableHead className="text-zinc-500 font-medium text-xs py-3">Code</TableHead>
+              <TableHead className="text-zinc-500 font-medium text-xs py-3 pl-4">Code</TableHead>
               <TableHead className="text-zinc-500 font-medium text-xs py-3">Strategy Name</TableHead>
               <TableHead className="text-zinc-500 font-medium text-xs py-3 text-center">Direction</TableHead>
               <TableHead className="text-zinc-500 font-medium text-xs py-3 text-center">Win%</TableHead>
@@ -122,14 +120,7 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
                     onClick={() => setSelectedStrategy(strat)}
                     className="border-b border-zinc-900/40 hover:bg-zinc-900/20 transition cursor-pointer select-none"
                   >
-                    <TableCell className="px-4 py-3.5 text-zinc-700" onClick={(e) => e.stopPropagation()}>
-                      <input type="checkbox" className="rounded border-zinc-800 bg-zinc-950 accent-purple-600 cursor-pointer w-3.5 h-3.5" />
-                    </TableCell>
-                    <TableCell className="px-0 py-3.5 text-zinc-700" onClick={(e) => e.stopPropagation()}>
-                      <GripVertical className="w-3.5 h-3.5 opacity-40 cursor-grab" />
-                    </TableCell>
-                    
-                    <TableCell className="font-semibold text-zinc-200 py-3.5 font-mono">{strat.key}</TableCell>
+                    <TableCell className="font-semibold text-zinc-200 py-3.5 font-mono pl-4">{strat.key}</TableCell>
                     <TableCell className="font-semibold text-zinc-300 py-3.5 text-xs">{strat.name}</TableCell>
                     <TableCell className="text-center py-3.5">{dirBadge}</TableCell>
                     <TableCell className="text-center py-3.5">{winBadge}</TableCell>
