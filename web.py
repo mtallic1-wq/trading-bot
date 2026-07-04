@@ -161,6 +161,16 @@ def wiki():
     return send_from_directory(str(STATIC_DIR), "wiki.html")
 
 
+@app.route("/NQ-volume-profile-playbook.html")
+def nq_playbook_html():
+    return send_from_directory(str(STATIC_DIR), "NQ-volume-profile-playbook.html")
+
+
+@app.route("/ES-options-gamma-playbook.html")
+def es_playbook_html():
+    return send_from_directory(str(STATIC_DIR), "ES-options-gamma-playbook.html")
+
+
 @app.route("/robots.txt")
 def robots():
     return send_from_directory(str(STATIC_DIR), "robots.txt")

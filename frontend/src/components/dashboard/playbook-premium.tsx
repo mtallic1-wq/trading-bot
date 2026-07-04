@@ -181,7 +181,7 @@ export default function PlaybookPremium({ hasPremium, hasNqPlaybook, hasEsPlaybo
             <div className="space-y-6">
               <div className="flex justify-end">
                 <a
-                  href="/static/NQ-volume-profile-playbook.html"
+                  href="/NQ-volume-profile-playbook.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-cyan-950/20 hover:bg-cyan-950/40 text-cyan-450 border border-cyan-900/30 rounded-lg text-xs font-semibold transition"
@@ -269,7 +269,7 @@ export default function PlaybookPremium({ hasPremium, hasNqPlaybook, hasEsPlaybo
             <div className="space-y-6">
               <div className="flex justify-end">
                 <a
-                  href="/static/ES-options-gamma-playbook.html"
+                  href="/ES-options-gamma-playbook.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-emerald-950/20 hover:bg-emerald-950/40 text-emerald-400 border border-emerald-900/30 rounded-lg text-xs font-semibold transition"
