@@ -87,6 +87,46 @@ def format_report_html(report: Dict) -> str:
     white_color = "#EEEEF8"
     muted_color = "#6B6B8A"
     
+    # Format playbook strategies
+    playbook = report.get("playbook", {})
+    day_type = playbook.get("day_type", "RANGE")
+    day_confidence = playbook.get("day_confidence", "MEDIUM")
+    active_strats = playbook.get("active_strategies", [])
+    
+    strategies_html = ""
+    if active_strats:
+        for s in active_strats:
+            name = s.get("name", "Unknown Strategy")
+            key = s.get("key", "")
+            direction = s.get("direction", "N/A")
+            win_rate = s.get("win_rate", "N/A")
+            rr = s.get("rr", "N/A")
+            setup = s.get("setup", "N/A")
+            bull_entry = s.get("bull_entry", "N/A")
+            bear_entry = s.get("bear_entry", "N/A")
+            kill_switch = s.get("kill_switch", "N/A")
+            
+            strategies_html += f"""
+            <div style="background-color: rgba(255, 255, 255, 0.015); border: 1px solid {border_color}; border-radius: 6px; padding: 15px; margin-bottom: 15px; font-family: sans-serif;">
+                <div style="border-bottom: 1px solid {border_color}; padding-bottom: 8px; margin-bottom: 10px;">
+                    <span style="font-size: 14px; font-weight: bold; color: {white_color};">Strategy {key} — {name}</span>
+                </div>
+                <div style="font-size: 11px; color: {muted_color}; margin-bottom: 10px;">
+                    <span style="margin-right: 15px;"><strong>Direction:</strong> <span style="color: #FFB830;">{direction}</span></span>
+                    <span style="margin-right: 15px;"><strong>Win Rate:</strong> <span style="color: #00FF94; font-family: monospace;">{win_rate}</span></span>
+                    <span><strong>R:R:</strong> <span style="color: #4D9EFF; font-family: monospace;">{rr}</span></span>
+                </div>
+                <div style="font-size: 12px; color: {text_color}; line-height: 1.5;">
+                    <p style="margin: 4px 0;"><strong>Setup:</strong> {setup}</p>
+                    <p style="margin: 4px 0; color: #00FF94;"><strong>🟢 Bullish Entry:</strong> {bull_entry}</p>
+                    <p style="margin: 4px 0; color: #FF4D6A;"><strong>🔴 Bearish Entry:</strong> {bear_entry}</p>
+                    <p style="margin: 4px 0; color: #FFB830;"><strong>⚠️ Invalidation / Stop:</strong> {kill_switch}</p>
+                </div>
+            </div>
+            """
+    else:
+        strategies_html = f"<div style='color: {muted_color}; font-size: 12px;'>No active strategies identified for today's market structure.</div>"
+    
     side_color = "#FFB830"  # Neutral
     if "BULL" in side or "BUY" in side:
         side_color = "#00FF94"  # Bullish green
@@ -234,6 +274,13 @@ def format_report_html(report: Dict) -> str:
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                     {macro_rows_html}
                 </table>
+            </td>
+        </tr>
+        <!-- Active Playbook Strategies -->
+        <tr>
+            <td style="border-top: 1px solid {border_color}; padding-top: 20px; padding-bottom: 10px;">
+                <span style="font-size: 12px; font-weight: bold; color: {white_color}; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 12px;">📖 Active Volume Profile Playbook ({day_type} - {day_confidence} Confidence)</span>
+                {strategies_html}
             </td>
         </tr>
         
