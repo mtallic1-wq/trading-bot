@@ -19,7 +19,7 @@ export default function Gauge({ score, label }: GaugeProps) {
   return (
     <div className="flex flex-col items-center justify-center font-sans select-none h-full py-1">
       {/* SVG Arc Gauge */}
-      <div className="relative w-24 h-12">
+      <div className="relative w-24 h-12 mb-2">
         <svg viewBox="0 0 100 50" className="w-full h-full overflow-visible">
           {/* Base track arc */}
           <path
@@ -60,16 +60,17 @@ export default function Gauge({ score, label }: GaugeProps) {
             }}
           />
         </svg>
-        
-        {/* Score overlay */}
-        <span className="absolute bottom-0 left-1/2 -translate-x-1/2 text-xs font-mono font-bold text-zinc-100 mt-1">
-          {clampedScore}%
-        </span>
       </div>
       
-      <span className="text-[10px] text-zinc-500 font-medium uppercase tracking-widest mt-2">
-        {label}
-      </span>
+      {/* Score and Label details block */}
+      <div className="text-center space-y-0.5 mt-1">
+        <div className="text-sm font-mono font-bold text-zinc-100">
+          {clampedScore}%
+        </div>
+        <div className="text-[9px] text-zinc-500 font-semibold uppercase tracking-wider">
+          {label}
+        </div>
+      </div>
     </div>
   );
 }
