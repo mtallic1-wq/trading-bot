@@ -11,8 +11,7 @@ interface PlaybookPremiumProps {
 export default function PlaybookPremium({ hasPremium, hasNqPlaybook, hasEsPlaybook, userEmail }: PlaybookPremiumProps) {
   const [activeTab, setActiveTab] = useState<"nq" | "es">("nq");
   
-  // Unified premium subscription checkout link
-  const premiumCheckoutUrl = "https://nqbiasengine.lemonsqueezy.com/checkout/buy/a34c11f9-068e-4b0f-a2bb-f163e729d7a2";
+  const premiumCheckoutUrl = "https://nqbiasengine.lemonsqueezy.com/checkout/buy/ae27f792-5462-4426-ba19-1192730da6a9";
 
   return (
     <div className="max-w-4xl mx-auto space-y-8 font-sans select-none">
