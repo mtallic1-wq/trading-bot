@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Cpu,
@@ -71,9 +71,6 @@ export default function App() {
   const [isLoggingIn, setIsLoggingIn] = useState<boolean>(false);
   const [loginError, setLoginError] = useState<string>("");
 
-  // Ref to track first load of pre-market reports
-  const isFirstLoadRef = useRef<boolean>(true);
-
   // Sub-tabs in the bottom section of dashboard
   const [dashboardTab, setDashboardTab] = useState<"playbook" | "structure" | "gamma_levels" | "catalysts" | "ai_analysis">("playbook");
 
@@ -116,6 +113,7 @@ export default function App() {
             setHasNqPlaybook(isPremium || !!data.user.has_nq_playbook);
             setHasEsPlaybook(isPremium || !!data.user.has_es_playbook);
             setCurrentView("dashboard");
+            fetchReports();
           } else {
             localStorage.removeItem("nq_user_token");
             setToken("");
@@ -129,11 +127,6 @@ export default function App() {
     } else {
       setCurrentView("landing");
     }
-  }, []);
-
-  // Load report list on mount
-  useEffect(() => {
-    fetchReports();
   }, []);
 
   // Poll job status if a job is active
@@ -222,6 +215,7 @@ export default function App() {
         setHasEsPlaybook(isPremium || !!data.user.has_es_playbook);
         setIsLoginModalOpen(false);
         setLoginEmail("");
+        fetchReports();
       } else {
         setLoginError(data.error || "Login failed");
       }
@@ -243,6 +237,11 @@ export default function App() {
     setCurrentView("landing");
   };
 
+  const handleExplorePreview = () => {
+    setCurrentView("dashboard");
+    fetchReports();
+  };
+
   const loadReport = async (date: string) => {
     setStatus({ text: `Loading ${date}…`, type: "run" });
     try {
@@ -261,11 +260,7 @@ export default function App() {
   const renderReport = (report: any) => {
     setActiveReport(report);
     setActiveDate(report.date);
-    if (!isFirstLoadRef.current) {
-      setCurrentView("dashboard");
-    } else {
-      isFirstLoadRef.current = false;
-    }
+    setCurrentView("dashboard");
   };
 
   const runAnalysis = async () => {
@@ -346,7 +341,12 @@ export default function App() {
         setView={(v) => {
           if (v === "news") runNews();
           else if (v === "history") loadHistoryView();
-          else setCurrentView(v);
+          else {
+            setCurrentView(v);
+            if (v === "dashboard" && reports.length === 0) {
+              fetchReports();
+            }
+          }
           setIsMobileMenuOpen(false);
         }}
         loadReport={loadReport}
@@ -470,7 +470,7 @@ export default function App() {
               >
                 <LandingView
                   onSyncClick={() => setIsLoginModalOpen(true)}
-                  onExploreClick={() => setCurrentView("dashboard")}
+                  onExploreClick={handleExplorePreview}
                   checkoutUrl="https://nqbiasengine.lemonsqueezy.com/checkout/buy/ae27f792-5462-4426-ba19-1192730da6a9"
                 />
               </motion.div>
