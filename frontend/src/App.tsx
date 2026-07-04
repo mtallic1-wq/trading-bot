@@ -257,7 +257,9 @@ export default function App() {
   const renderReport = (report: any) => {
     setActiveReport(report);
     setActiveDate(report.date);
-    setCurrentView("dashboard");
+    if (token || currentView !== "landing") {
+      setCurrentView("dashboard");
+    }
   };
 
   const runAnalysis = async () => {
