@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Card, CardHeader, CardTitle, CardContent } from "../ui/card";
 import { Sliders, RefreshCw, CheckCircle, XCircle } from "lucide-react";
 
 interface SettingsFormProps {
@@ -79,16 +78,27 @@ export default function SettingsForm({ token }: SettingsFormProps) {
     }
   };
 
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    e.currentTarget.style.setProperty("--x", `${x}px`);
+    e.currentTarget.style.setProperty("--y", `${y}px`);
+  };
+
   return (
-    <Card className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden font-sans select-none max-w-xl mx-auto">
-      <CardHeader className="px-5 py-4 border-b border-zinc-900 flex flex-row items-center gap-2">
+    <div 
+      onMouseMove={handleMouseMove}
+      className="spotlight-card relative overflow-hidden font-sans select-none max-w-xl mx-auto p-5"
+    >
+      <div className="flex items-center gap-2 border-b border-zinc-900 pb-4 relative z-10 mb-4">
         <Sliders className="w-4 h-4 text-zinc-400" />
-        <CardTitle className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
+        <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
           Alert Preferences Setup
-        </CardTitle>
-      </CardHeader>
+        </h3>
+      </div>
       
-      <CardContent className="p-5">
+      <div className="relative z-10">
         <form onSubmit={handleSave} className="space-y-4 text-xs">
           
           {/* Email (Readonly) */}
@@ -98,11 +108,9 @@ export default function SettingsForm({ token }: SettingsFormProps) {
               type="text"
               value={email}
               disabled
-              className="bg-zinc-900 border border-zinc-800/60 text-zinc-400 px-3 py-2 rounded-lg cursor-not-allowed opacity-60 focus:outline-none"
+              className="bg-zinc-900/30 border border-zinc-800/40 text-zinc-400 px-3 py-2 rounded-lg cursor-not-allowed opacity-50 focus:outline-none"
             />
           </div>
-
-
 
           {/* Grid: Delivery Time & Timezone */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -113,7 +121,7 @@ export default function SettingsForm({ token }: SettingsFormProps) {
                 type="time"
                 value={deliveryTime}
                 onChange={(e) => setDeliveryTime(e.target.value)}
-                className="bg-zinc-950 border border-zinc-800 text-white px-3 py-2 rounded-lg focus:outline-none focus:border-zinc-700 transition"
+                className="bg-zinc-950/40 border border-zinc-800/80 text-white px-3 py-2 rounded-lg focus:outline-none focus:border-purple-500/50 focus:ring-1 focus:ring-purple-500/20 transition"
               />
             </div>
 
@@ -122,7 +130,7 @@ export default function SettingsForm({ token }: SettingsFormProps) {
               <select
                 value={timezone}
                 onChange={(e) => setTimezone(e.target.value)}
-                className="bg-zinc-950 border border-zinc-800 text-white px-3 py-2 rounded-lg focus:outline-none focus:border-zinc-700 transition cursor-pointer"
+                className="bg-zinc-950/40 border border-zinc-800/80 text-white px-3 py-2 rounded-lg focus:outline-none focus:border-purple-500/50 focus:ring-1 focus:ring-purple-500/20 transition cursor-pointer"
               >
                 {timezones.map(tz => (
                   <option key={tz} value={tz} className="bg-zinc-950 text-zinc-300">
@@ -172,13 +180,13 @@ export default function SettingsForm({ token }: SettingsFormProps) {
           <button
             type="submit"
             disabled={isLoading}
-            className="w-full flex items-center justify-center py-2 px-3 bg-zinc-100 hover:bg-zinc-200 disabled:opacity-40 text-zinc-950 rounded-lg text-xs font-semibold transition"
+            className="w-full flex items-center justify-center py-2 px-3 bg-purple-600 hover:bg-purple-500 disabled:opacity-40 text-white rounded-lg text-xs font-semibold transition cursor-pointer"
           >
             Save Settings
           </button>
 
         </form>
-      </CardContent>
-    </Card>
+      </div>
+    </div>
   );
 }

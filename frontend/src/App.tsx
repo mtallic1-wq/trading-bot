@@ -237,6 +237,14 @@ export default function App() {
     fetchReports();
   };
 
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    e.currentTarget.style.setProperty("--x", `${x}px`);
+    e.currentTarget.style.setProperty("--y", `${y}px`);
+  };
+
   const loadReport = async (date: string) => {
     setStatus({ text: `Loading ${date}…`, type: "run" });
     try {
@@ -495,35 +503,43 @@ export default function App() {
                   <div className="flex items-center justify-between border-b border-zinc-900 pb-2 select-none">
                     
                     {/* Outline Style Tabs */}
-                    <div className="flex bg-zinc-900 border border-zinc-800 rounded-lg p-0.5 flex-wrap gap-y-1">
+                    <div className="flex bg-zinc-950/40 border border-white/5 rounded-full p-1 backdrop-blur-md shadow-inner gap-1 flex-wrap">
                       <button
                         onClick={() => setDashboardTab("playbook")}
-                        className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
-                          dashboardTab === "playbook" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
+                        className={`px-4 py-1.5 text-xs font-semibold rounded-full transition cursor-pointer ${
+                          dashboardTab === "playbook" 
+                            ? "bg-purple-950/20 border border-purple-500/30 text-purple-400 font-bold" 
+                            : "border border-transparent text-zinc-500 hover:text-zinc-300"
                         }`}
                       >
                         Outline Playbook
                       </button>
                       <button
                         onClick={() => setDashboardTab("structure")}
-                        className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
-                          dashboardTab === "structure" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
+                        className={`px-4 py-1.5 text-xs font-semibold rounded-full transition cursor-pointer ${
+                          dashboardTab === "structure" 
+                            ? "bg-purple-950/20 border border-purple-500/30 text-purple-400 font-bold" 
+                            : "border border-transparent text-zinc-500 hover:text-zinc-300"
                         }`}
                       >
                         Market Structure
                       </button>
                       <button
                         onClick={() => setDashboardTab("catalysts")}
-                        className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
-                          dashboardTab === "catalysts" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
+                        className={`px-4 py-1.5 text-xs font-semibold rounded-full transition cursor-pointer ${
+                          dashboardTab === "catalysts" 
+                            ? "bg-purple-950/20 border border-purple-500/30 text-purple-400 font-bold" 
+                            : "border border-transparent text-zinc-500 hover:text-zinc-300"
                         }`}
                       >
                         Sentiment Catalysts
                       </button>
                       <button
                         onClick={() => setDashboardTab("ai_analysis")}
-                        className={`px-3 py-1 text-xs font-semibold rounded-md transition ${
-                          dashboardTab === "ai_analysis" ? "bg-zinc-800 text-zinc-100" : "text-zinc-500 hover:text-zinc-300"
+                        className={`px-4 py-1.5 text-xs font-semibold rounded-full transition cursor-pointer ${
+                          dashboardTab === "ai_analysis" 
+                            ? "bg-purple-950/20 border-purple-500/30 text-purple-400 font-bold" 
+                            : "border border-transparent text-zinc-500 hover:text-zinc-300"
                         }`}
                       >
                         AI Prediction Matrix
@@ -617,17 +633,20 @@ export default function App() {
                 animate={{ opacity: 1 }}
                 className="space-y-4 max-w-5xl mx-auto"
               >
-                <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden">
-                  <div className="px-5 py-4 border-b border-zinc-900">
+                <div 
+                  onMouseMove={handleMouseMove}
+                  className="spotlight-card relative overflow-hidden p-5"
+                >
+                  <div className="border-b border-zinc-900 pb-4 relative z-10 mb-4">
                     <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
                       Saved Signal Forecasts History
                     </h3>
                   </div>
                   
-                  <div className="overflow-x-auto">
+                  <div className="overflow-x-auto relative z-10">
                     <table className="w-full text-xs text-left">
                       <thead>
-                        <tr className="border-b border-zinc-900 text-zinc-500 uppercase text-[10px] tracking-wider bg-zinc-950">
+                        <tr className="border-b border-zinc-900 text-zinc-500 uppercase text-[10px] tracking-wider bg-transparent">
                           <th className="px-6 py-3 font-semibold">Report Date</th>
                           <th className="px-6 py-3 text-center font-semibold">Bias State</th>
                           <th className="px-6 py-3 text-center font-semibold">Action Direction</th>
@@ -640,7 +659,7 @@ export default function App() {
                           <tr
                             key={r.date}
                             onClick={() => renderReport(r)}
-                            className="hover:bg-zinc-900/40 cursor-pointer transition"
+                            className="hover:bg-zinc-900/20 cursor-pointer transition"
                           >
                             <td className="px-6 py-4 font-mono font-bold text-zinc-200 text-sm">
                               {r.date}
@@ -651,7 +670,7 @@ export default function App() {
                                   ? "bg-emerald-950/20 text-emerald-400 border-emerald-900/30"
                                   : r.bias_nq?.includes("BEAR")
                                   ? "bg-rose-950/20 text-rose-400 border-rose-900/30"
-                                  : "bg-zinc-900 text-zinc-400 border-zinc-800"
+                                  : "bg-zinc-900/40 text-zinc-400 border-zinc-800/40"
                               }`}>
                                 {r.bias_nq || "NEUTRAL"}
                               </span>
@@ -810,7 +829,7 @@ export default function App() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
-              className="bg-zinc-950 border border-zinc-800 rounded-xl max-w-md w-full p-6 relative font-sans shadow-2xl"
+              className="bg-zinc-950/80 border-beam-active rounded-xl max-w-md w-full p-6 relative font-sans shadow-2xl backdrop-blur-xl"
             >
               <button
                 onClick={() => setIsHelpOpen(false)}
@@ -852,7 +871,7 @@ export default function App() {
 
               <button
                 onClick={() => setIsHelpOpen(false)}
-                className="w-full mt-6 py-2 bg-zinc-100 hover:bg-zinc-200 text-zinc-950 font-bold rounded-lg text-xs transition"
+                className="w-full mt-6 py-2 bg-purple-600 hover:bg-purple-500 text-white font-bold rounded-lg text-xs transition cursor-pointer"
               >
                 Got it
               </button>

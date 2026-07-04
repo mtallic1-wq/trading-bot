@@ -17,6 +17,15 @@ interface PlaybookTableProps {
 
 export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: PlaybookTableProps) {
   const [selectedStrategy, setSelectedStrategy] = useState<any | null>(null);
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    e.currentTarget.style.setProperty("--x", `${x}px`);
+    e.currentTarget.style.setProperty("--y", `${y}px`);
+  };
+
   if (!playbook || playbook.error) {
     return (
       <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-6 text-center text-zinc-500 font-sans">
@@ -30,7 +39,10 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
   const strategies = playbook.active_strategies || [];
 
   return (
-    <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden font-sans select-none">
+    <div 
+      onMouseMove={handleMouseMove}
+      className="spotlight-card relative overflow-hidden font-sans select-none p-5"
+    >
       <div className="px-5 py-4 border-b border-zinc-900 flex items-center justify-between">
         <div>
           <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
@@ -80,6 +92,28 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
                   </span>
                 );
 
+                const isHighWin = strat.win_rate && (strat.win_rate.includes("70") || strat.win_rate.includes("80") || strat.win_rate.includes("90"));
+                const winBadge = isHighWin ? (
+                  <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-950/20 text-emerald-400 border border-emerald-900/20 font-mono">
+                    {strat.win_rate}
+                  </span>
+                ) : (
+                  <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold bg-zinc-900/40 text-zinc-400 border border-zinc-800/40 font-mono">
+                    {strat.win_rate}
+                  </span>
+                );
+
+                const isHighRR = strat.rr && (strat.rr.includes("1:2") || strat.rr.includes("1:3") || strat.rr.includes("1:4") || strat.rr.includes("1:5") || strat.rr.includes("1:6"));
+                const rrBadge = isHighRR ? (
+                  <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold bg-purple-950/20 text-purple-400 border border-purple-900/20 font-mono">
+                    {strat.rr}
+                  </span>
+                ) : (
+                  <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold bg-zinc-900/40 text-zinc-400 border border-zinc-800/40 font-mono">
+                    {strat.rr}
+                  </span>
+                );
+
                 return (
                   <TableRow
                     key={strat.key}
@@ -87,7 +121,7 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
                     className="border-b border-zinc-900/40 hover:bg-zinc-900/20 transition cursor-pointer select-none"
                   >
                     <TableCell className="px-4 py-3.5 text-zinc-700" onClick={(e) => e.stopPropagation()}>
-                      <input type="checkbox" className="rounded border-zinc-800 bg-zinc-950 accent-zinc-200 cursor-pointer w-3.5 h-3.5" />
+                      <input type="checkbox" className="rounded border-zinc-800 bg-zinc-950 accent-purple-600 cursor-pointer w-3.5 h-3.5" />
                     </TableCell>
                     <TableCell className="px-0 py-3.5 text-zinc-700" onClick={(e) => e.stopPropagation()}>
                       <GripVertical className="w-3.5 h-3.5 opacity-40 cursor-grab" />
@@ -96,8 +130,8 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
                     <TableCell className="font-semibold text-zinc-200 py-3.5 font-mono">{strat.key}</TableCell>
                     <TableCell className="font-semibold text-zinc-300 py-3.5 text-xs">{strat.name}</TableCell>
                     <TableCell className="text-center py-3.5">{dirBadge}</TableCell>
-                    <TableCell className="text-center text-zinc-400 font-mono py-3.5 text-xs">{strat.win_rate}</TableCell>
-                    <TableCell className="text-center text-zinc-400 font-mono py-3.5 text-xs">{strat.rr}</TableCell>
+                    <TableCell className="text-center py-3.5">{winBadge}</TableCell>
+                    <TableCell className="text-center py-3.5">{rrBadge}</TableCell>
                     <TableCell className="text-zinc-400 text-xs py-3.5 max-w-xs truncate" title={strat.entry}>
                       {strat.entry}
                     </TableCell>

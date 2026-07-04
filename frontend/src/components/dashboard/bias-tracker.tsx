@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { TrendingUp, Award, Flame, CheckCircle2, XCircle, AlertCircle, RefreshCw } from "lucide-react";
+import RollingNumber from "./rolling-number";
 
 function formatReportDate(dateStr: string): string {
   if (!dateStr || !dateStr.includes("-")) return dateStr;
@@ -82,6 +83,14 @@ export default function BiasTracker({ loadReport, setView }: BiasTrackerProps) {
   const { win_rate, total_evaluated, correct_predictions, streak_count, streak_type, details } = data;
   const totalLosses = total_evaluated - correct_predictions;
 
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    e.currentTarget.style.setProperty("--x", `${x}px`);
+    e.currentTarget.style.setProperty("--y", `${y}px`);
+  };
+
   return (
     <div className="max-w-5xl mx-auto space-y-6 font-sans select-none">
       
@@ -98,7 +107,7 @@ export default function BiasTracker({ loadReport, setView }: BiasTrackerProps) {
         </div>
         <button
           onClick={fetchData}
-          className="p-1.5 rounded-lg border border-zinc-800 bg-zinc-950 hover:bg-zinc-900 text-zinc-400 hover:text-zinc-200 transition"
+          className="p-1.5 rounded-lg border border-zinc-800 bg-zinc-950 hover:bg-zinc-900 text-zinc-400 hover:text-zinc-200 transition cursor-pointer"
           title="Refresh statistics"
         >
           <RefreshCw className="w-3.5 h-3.5" />
@@ -109,52 +118,74 @@ export default function BiasTracker({ loadReport, setView }: BiasTrackerProps) {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         
         {/* Win Rate */}
-        <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-5 flex items-center justify-between relative overflow-hidden">
+        <div 
+          onMouseMove={handleMouseMove}
+          className="spotlight-card relative p-5 flex items-center justify-between overflow-hidden"
+        >
           <div className="absolute top-0 right-0 w-24 h-24 bg-cyan-500/5 rounded-full blur-xl -mr-6 -mt-6" />
           <div className="space-y-1 z-10">
             <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-wider">WIN RATE</span>
-            <h3 className="text-2xl font-extrabold text-cyan-400 font-mono">{win_rate}%</h3>
+            <div className="text-2xl font-extrabold text-cyan-400 font-mono flex items-center">
+              <RollingNumber value={win_rate} />
+              <span>%</span>
+            </div>
             <span className="text-[10px] text-zinc-500 block">Overall accuracy</span>
           </div>
-          <div className="w-10 h-10 rounded-lg bg-cyan-950/20 border border-cyan-900/30 flex items-center justify-center">
+          <div className="w-10 h-10 rounded-lg bg-cyan-950/20 border border-cyan-900/30 flex items-center justify-center relative z-10">
             <Award className="w-5 h-5 text-cyan-400" />
           </div>
         </div>
 
         {/* Total Wins */}
-        <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-5 flex items-center justify-between relative overflow-hidden">
-          <div className="space-y-1">
+        <div 
+          onMouseMove={handleMouseMove}
+          className="spotlight-card relative p-5 flex items-center justify-between overflow-hidden"
+        >
+          <div className="space-y-1 z-10">
             <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-wider">SUCCESSFUL FORECASTS</span>
-            <h3 className="text-2xl font-extrabold text-emerald-400 font-mono">{correct_predictions}</h3>
+            <div className="text-2xl font-extrabold text-emerald-400 font-mono">
+              <RollingNumber value={correct_predictions} />
+            </div>
             <span className="text-[10px] text-zinc-500 block">Confluent target days reached</span>
           </div>
-          <div className="w-10 h-10 rounded-lg bg-emerald-950/20 border border-emerald-900/30 flex items-center justify-center">
+          <div className="w-10 h-10 rounded-lg bg-emerald-950/20 border border-emerald-900/30 flex items-center justify-center relative z-10">
             <CheckCircle2 className="w-5 h-5 text-emerald-400" />
           </div>
         </div>
 
         {/* Total Losses */}
-        <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-5 flex items-center justify-between relative overflow-hidden">
-          <div className="space-y-1">
+        <div 
+          onMouseMove={handleMouseMove}
+          className="spotlight-card relative p-5 flex items-center justify-between overflow-hidden"
+        >
+          <div className="space-y-1 z-10">
             <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-wider">INCORRECT FORECASTS</span>
-            <h3 className="text-2xl font-extrabold text-rose-400 font-mono">{totalLosses}</h3>
+            <div className="text-2xl font-extrabold text-rose-400 font-mono">
+              <RollingNumber value={totalLosses} />
+            </div>
             <span className="text-[10px] text-zinc-500 block">Opposing trend or range days</span>
           </div>
-          <div className="w-10 h-10 rounded-lg bg-rose-950/20 border border-rose-900/30 flex items-center justify-center">
+          <div className="w-10 h-10 rounded-lg bg-rose-950/20 border border-rose-900/30 flex items-center justify-center relative z-10">
             <XCircle className="w-5 h-5 text-rose-400" />
           </div>
         </div>
 
         {/* Current Streak */}
-        <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-5 flex items-center justify-between relative overflow-hidden">
-          <div className="space-y-1">
+        <div 
+          onMouseMove={handleMouseMove}
+          className="spotlight-card relative p-5 flex items-center justify-between overflow-hidden"
+        >
+          <div className="space-y-1 z-10">
             <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-wider">CURRENT STREAK</span>
-            <h3 className={`text-2xl font-extrabold font-mono ${streak_type === "WIN" ? "text-emerald-400" : "text-rose-400"}`}>
-              {streak_count} {streak_type === "WIN" ? "Wins" : "Losses"}
-            </h3>
+            <div className={`text-2xl font-extrabold font-mono flex items-center gap-1.5 ${streak_type === "WIN" ? "text-emerald-400" : "text-rose-400"}`}>
+              <RollingNumber value={streak_count} />
+              <span className="text-xs uppercase font-sans font-bold">
+                {streak_type === "WIN" ? "Wins" : "Losses"}
+              </span>
+            </div>
             <span className="text-[10px] text-zinc-500 block">Recent performance streak</span>
           </div>
-          <div className={`w-10 h-10 rounded-lg flex items-center justify-center border ${
+          <div className={`w-10 h-10 rounded-lg flex items-center justify-center border relative z-10 ${
             streak_type === "WIN"
               ? "bg-emerald-950/20 border-emerald-900/30"
               : "bg-rose-950/20 border-rose-900/30"
@@ -166,17 +197,20 @@ export default function BiasTracker({ loadReport, setView }: BiasTrackerProps) {
       </div>
 
       {/* History Table */}
-      <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden">
-        <div className="px-5 py-4 border-b border-zinc-900">
+      <div 
+        onMouseMove={handleMouseMove}
+        className="spotlight-card relative overflow-hidden p-5"
+      >
+        <div className="border-b border-zinc-900 pb-4 relative z-10 mb-4">
           <h3 className="text-xs font-bold text-zinc-300 uppercase tracking-wider">
             Detailed Forecast Ledger ({details.length} Days Tracked)
           </h3>
         </div>
         
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto relative z-10">
           <table className="w-full text-xs text-left">
             <thead>
-              <tr className="border-b border-zinc-900 text-zinc-500 uppercase text-[10px] tracking-wider bg-zinc-950">
+              <tr className="border-b border-zinc-900 text-zinc-500 uppercase text-[10px] tracking-wider bg-transparent">
                 <th className="px-6 py-3.5 font-semibold">Trade Date</th>
                 <th className="px-6 py-3.5 text-center font-semibold">Forecasted NQ Bias</th>
                 <th className="px-6 py-3.5 text-center font-semibold">Actual Close State</th>
@@ -191,7 +225,7 @@ export default function BiasTracker({ loadReport, setView }: BiasTrackerProps) {
                     loadReport(row.date);
                     setView("dashboard");
                   }}
-                  className="hover:bg-zinc-900/40 cursor-pointer transition"
+                  className="hover:bg-zinc-900/20 cursor-pointer transition"
                   title="Click to view detailed daily analysis report"
                 >
                   <td className="px-6 py-4 font-mono font-bold text-zinc-200 text-sm">

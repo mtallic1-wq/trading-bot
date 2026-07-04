@@ -14,6 +14,14 @@ interface StructureTableProps {
 }
 
 export default function StructureTable({ priceAction }: StructureTableProps) {
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    e.currentTarget.style.setProperty("--x", `${x}px`);
+    e.currentTarget.style.setProperty("--y", `${y}px`);
+  };
+
   if (!priceAction || priceAction.error) {
     return (
       <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-6 text-center text-zinc-500 font-sans">
@@ -53,7 +61,10 @@ export default function StructureTable({ priceAction }: StructureTableProps) {
   };
 
   return (
-    <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden font-sans select-none">
+    <div 
+      onMouseMove={handleMouseMove}
+      className="spotlight-card relative overflow-hidden font-sans select-none p-5"
+    >
       <div className="px-5 py-4 border-b border-zinc-900 flex items-center justify-between">
         <div>
           <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
