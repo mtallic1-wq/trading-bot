@@ -23,6 +23,7 @@ import SettingsForm from "./components/dashboard/settings-form";
 import PlaybookPremium from "./components/dashboard/playbook-premium";
 import BiasTracker from "./components/dashboard/bias-tracker";
 import GammaLevelsView from "./components/dashboard/gamma-levels-view";
+import LandingView from "./components/dashboard/landing-view";
 
 import {
   badgeCls,
@@ -51,8 +52,8 @@ export default function App() {
   const [activeReport, setActiveReport] = useState<any>(null);
   const [activeDate, setActiveDate] = useState<string>("");
   
-  // App views: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker"
-  const [currentView, setCurrentView] = useState<"dashboard" | "history" | "news" | "settings" | "playbook" | "tracker" | "gamma">("dashboard");
+  // App views: "landing" | "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker" | "gamma"
+  const [currentView, setCurrentView] = useState<"landing" | "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker" | "gamma">("landing");
   const [historyReports, setHistoryReports] = useState<any[]>([]);
   const [liveNewsData, setLiveNewsData] = useState<any>(null);
   const [token, setToken] = useState<string>("");
@@ -111,12 +112,19 @@ export default function App() {
             setHasPremium(isPremium);
             setHasNqPlaybook(isPremium || !!data.user.has_nq_playbook);
             setHasEsPlaybook(isPremium || !!data.user.has_es_playbook);
+            setCurrentView("dashboard");
           } else {
             localStorage.removeItem("nq_user_token");
             setToken("");
+            setCurrentView("landing");
           }
         })
-        .catch((e) => console.error(e));
+        .catch((e) => {
+          console.error(e);
+          setCurrentView("landing");
+        });
+    } else {
+      setCurrentView("landing");
     }
   }, []);
 
@@ -443,6 +451,20 @@ export default function App() {
                     );
                   })}
                 </div>
+              </motion.div>
+            ) : currentView === "landing" ? (
+              /* PUBLIC LANDING GATE VIEW */
+              <motion.div
+                key="landing-page"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+              >
+                <LandingView
+                  onSyncClick={() => setIsLoginModalOpen(true)}
+                  onExploreClick={() => setCurrentView("dashboard")}
+                  checkoutUrl="https://nqbiasengine.lemonsqueezy.com/checkout/buy/ae27f792-5462-4426-ba19-1192730da6a9"
+                />
               </motion.div>
             ) : currentView === "dashboard" && activeReport ? (
               

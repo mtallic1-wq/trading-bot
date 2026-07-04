@@ -34,8 +34,8 @@ function formatReportDate(dateStr: string): string {
 interface SidebarProps {
   reports: string[];
   activeDate: string;
-  currentView: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker" | "gamma";
-  setView: (view: "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker" | "gamma") => void;
+  currentView: "landing" | "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker" | "gamma";
+  setView: (view: "landing" | "dashboard" | "history" | "news" | "settings" | "playbook" | "tracker" | "gamma") => void;
   loadReport: (date: string) => void;
   runAnalysis: () => void;
   isLoading: boolean;
@@ -80,14 +80,17 @@ export default function Sidebar({
         isOpen ? "translate-x-0" : "-translate-x-full"
       }`}>
       <div className="p-4 flex items-center justify-between border-b border-zinc-900">
-        <div className="flex items-center gap-2 text-zinc-100">
+        <button 
+          onClick={() => setView(userEmail ? "dashboard" : "landing")}
+          className="flex items-center gap-2 text-zinc-100 hover:opacity-85 transition"
+        >
           <img 
             src="/logo.jpg" 
             alt="NQ Bias Engine Logo" 
             className="w-6 h-6 rounded object-cover border border-zinc-750" 
           />
           <span className="font-semibold text-sm tracking-tight">NQ Bias Engine</span>
-        </div>
+        </button>
       </div>
 
       {/* Quick Create Action Button */}
