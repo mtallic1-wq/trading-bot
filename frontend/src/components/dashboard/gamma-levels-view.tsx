@@ -39,20 +39,30 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
     }
   };
 
+  const [staleWarning, setStaleWarning] = useState<string>("");
+
   const fetchLevels = async (isRef = false) => {
     if (isRef) setRefreshing(true);
     else setLoading(true);
     setError("");
+    setStaleWarning("");
     try {
       const res = await fetch("/api/gamma/es");
       const json = await res.json();
       if (res.ok && json.levels) {
         setData(json);
+      } else if (data) {
+        // We already have previous data — show it with a warning instead of error screen
+        setStaleWarning(json.error || "API temporarily unavailable. Showing most recent cached data.");
       } else {
         setError(json.error || "Failed to load ES Gamma Levels.");
       }
     } catch (e: any) {
-      setError(e.message || "Network error loading levels.");
+      if (data) {
+        setStaleWarning("Network error. Showing most recent cached data.");
+      } else {
+        setError(e.message || "Network error loading levels.");
+      }
     } finally {
       setLoading(false);
       setRefreshing(false);
@@ -137,6 +147,14 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
           </button>
         </div>
       </div>
+
+      {/* Stale data warning banner */}
+      {staleWarning && (
+        <div className="flex items-center gap-2 p-3 bg-amber-950/20 border border-amber-900/30 rounded-xl text-amber-400 text-xs">
+          <AlertTriangle className="w-4 h-4 shrink-0" />
+          <span>{staleWarning}</span>
+        </div>
+      )}
 
       {/* Spot Price & Active Volatility Regime Banner */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

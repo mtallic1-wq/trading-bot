@@ -537,6 +537,15 @@ GAMMA_CACHE_TIME = None
 GAMMA_CACHE_DURATION = 900  # 15 minutes cache to prevent rate-limiting
 GAMMA_DISK_CACHE_PATH = os.path.join(os.path.dirname(__file__), "storage", "gamma_cache.json")
 
+# Eagerly load disk cache on startup so we always have a fallback
+if os.path.exists(GAMMA_DISK_CACHE_PATH):
+    try:
+        with open(GAMMA_DISK_CACHE_PATH, "r") as f:
+            GAMMA_CACHE = json.load(f)
+            print(f"[Gamma] Loaded disk cache on startup (session: {GAMMA_CACHE.get('session_date', 'unknown')})")
+    except Exception as e:
+        print(f"[Gamma] Startup disk cache load failed: {e}")
+
 def load_disk_cache():
     global GAMMA_CACHE
     if os.path.exists(GAMMA_DISK_CACHE_PATH):
