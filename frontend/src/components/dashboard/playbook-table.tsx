@@ -161,9 +161,9 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
 
       {/* Strategy Detail Modal popup */}
       {selectedStrategy && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 backdrop-blur-sm p-4">
+        <div className="fixed inset-0 z-50 overflow-y-auto bg-black/75 backdrop-blur-sm p-4 flex justify-center items-start pt-10 md:pt-20">
           <div 
-            className="fixed inset-0" 
+            className="fixed inset-0 -z-10" 
             onClick={() => setSelectedStrategy(null)} 
           />
           {!hasNqPlaybook ? (
@@ -210,10 +210,11 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
                 </button>
               </div>
             </div>
-          ) : (            /* Unlocked Strategy Detail Content */
-            <div className="bg-zinc-950/95 border-beam-active rounded-xl max-w-xl w-full relative font-sans shadow-2xl z-10 flex flex-col max-h-[85vh] backdrop-blur-xl">
-              {/* Header (Fixed at top) */}
-              <div className="flex items-start justify-between border-b border-zinc-900 p-6">
+          ) : (
+            /* Unlocked Strategy Detail Content */
+            <div className="bg-zinc-950/95 border-beam-active rounded-xl max-w-xl w-full relative font-sans shadow-2xl z-10 backdrop-blur-xl p-6 space-y-5">
+              {/* Header */}
+              <div className="flex items-start justify-between border-b border-zinc-900 pb-4">
                 <div className="flex flex-col gap-1">
                   <span className="text-[10px] font-mono text-zinc-500 uppercase tracking-widest">
                     Strategy Profile · {selectedStrategy.key}
@@ -230,89 +231,84 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
                 </button>
               </div>
               
-              {/* Body (Scrollable viewport) */}
-              <div className="p-6 overflow-y-auto space-y-5 flex-1">
-                {/* Metrics Grid */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                  <div className="bg-zinc-900/40 border border-zinc-850/40 p-2.5 rounded-lg text-center">
-                    <span className="text-[10px] text-zinc-500 block uppercase font-mono">Direction</span>
-                    <span className="text-xs font-bold text-zinc-200 mt-1 block">
-                      {selectedStrategy.direction}
-                    </span>
-                  </div>
-                  <div className="bg-zinc-900/40 border border-zinc-850/40 p-2.5 rounded-lg text-center">
-                    <span className="text-[10px] text-zinc-500 block uppercase font-mono">Win Rate</span>
-                    <span className="text-xs font-bold text-zinc-200 mt-1 block font-mono">
-                      {selectedStrategy.win_rate}
-                    </span>
-                  </div>
-                  <div className="bg-zinc-900/40 border border-zinc-850/40 p-2.5 rounded-lg text-center">
-                    <span className="text-[10px] text-zinc-500 block uppercase font-mono">R:R Ratio</span>
-                    <span className="text-xs font-bold text-zinc-200 mt-1 block font-mono">
-                      {selectedStrategy.rr}
-                    </span>
-                  </div>
-                  <div className="bg-zinc-900/40 border border-zinc-850/40 p-2.5 rounded-lg text-center">
-                    <span className="text-[10px] text-zinc-500 block uppercase font-mono">Stop Loss</span>
-                    <span className="text-xs font-bold text-zinc-200 mt-1 block font-mono">
-                      {selectedStrategy.stop || "N/A"}
-                    </span>
-                  </div>
+              {/* Metrics Grid */}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="bg-zinc-900/40 border border-zinc-850/40 p-2.5 rounded-lg text-center">
+                  <span className="text-[10px] text-zinc-500 block uppercase font-mono">Direction</span>
+                  <span className="text-xs font-bold text-zinc-200 mt-1 block">
+                    {selectedStrategy.direction}
+                  </span>
                 </div>
-
-                {/* Detailed sections */}
-                <div className="space-y-4 text-xs">
-                  
-                  <div className="space-y-1">
-                    <h4 className="font-semibold text-zinc-400">Trigger Setup</h4>
-                    <p className="text-zinc-300 bg-zinc-900/20 border border-zinc-900 p-2.5 rounded-lg leading-relaxed">
-                      {selectedStrategy.setup}
-                    </p>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="space-y-1">
-                      <h4 className="font-semibold text-emerald-400">🟢 Bullish Entry Rule</h4>
-                      <p className="text-zinc-300 bg-emerald-950/5 border border-emerald-900/10 p-2.5 rounded-lg leading-relaxed">
-                        {selectedStrategy.bull_entry || "N/A"}
-                      </p>
-                    </div>
-                    <div className="space-y-1">
-                      <h4 className="font-semibold text-rose-400">🔴 Bearish Entry Rule</h4>
-                      <p className="text-zinc-300 bg-rose-950/5 border border-rose-900/10 p-2.5 rounded-lg leading-relaxed">
-                        {selectedStrategy.bear_entry || "N/A"}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="space-y-1">
-                    <h4 className="font-semibold text-amber-500">⚠️ Invalidation & Kill Switch</h4>
-                    <p className="text-zinc-300 bg-amber-950/5 border border-amber-900/10 p-2.5 rounded-lg leading-relaxed">
-                      {selectedStrategy.kill_switch || "No explicit invalidation trigger."}
-                    </p>
-                  </div>
-
-                  {selectedStrategy.note && (
-                    <div className="space-y-1 border-t border-zinc-900 pt-3">
-                      <h4 className="font-semibold text-zinc-500 font-mono text-[10px] uppercase">Strategic Note</h4>
-                      <p className="text-zinc-400 italic">
-                        "{selectedStrategy.note}"
-                      </p>
-                    </div>
-                  )}
-
+                <div className="bg-zinc-900/40 border border-zinc-850/40 p-2.5 rounded-lg text-center">
+                  <span className="text-[10px] text-zinc-500 block uppercase font-mono">Win Rate</span>
+                  <span className="text-xs font-bold text-zinc-200 mt-1 block font-mono">
+                    {selectedStrategy.win_rate}
+                  </span>
+                </div>
+                <div className="bg-zinc-900/40 border border-zinc-850/40 p-2.5 rounded-lg text-center">
+                  <span className="text-[10px] text-zinc-500 block uppercase font-mono">R:R Ratio</span>
+                  <span className="text-xs font-bold text-zinc-200 mt-1 block font-mono">
+                    {selectedStrategy.rr}
+                  </span>
+                </div>
+                <div className="bg-zinc-900/40 border border-zinc-850/40 p-2.5 rounded-lg text-center">
+                  <span className="text-[10px] text-zinc-500 block uppercase font-mono">Stop Loss</span>
+                  <span className="text-xs font-bold text-zinc-200 mt-1 block font-mono">
+                    {selectedStrategy.stop || "N/A"}
+                  </span>
                 </div>
               </div>
 
-              {/* Footer (Fixed at bottom) */}
-              <div className="border-t border-zinc-900 p-4 bg-zinc-950/40">
-                <button
-                  onClick={() => setSelectedStrategy(null)}
-                  className="w-full py-2 bg-purple-600 hover:bg-purple-500 text-white font-bold rounded-lg text-xs transition cursor-pointer"
-                >
-                  Close Details
-                </button>
+              {/* Detailed sections */}
+              <div className="space-y-4 text-xs">
+                
+                <div className="space-y-1">
+                  <h4 className="font-semibold text-zinc-400">Trigger Setup</h4>
+                  <p className="text-zinc-300 bg-zinc-900/20 border border-zinc-900 p-2.5 rounded-lg leading-relaxed">
+                    {selectedStrategy.setup}
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="space-y-1">
+                    <h4 className="font-semibold text-emerald-400">🟢 Bullish Entry Rule</h4>
+                    <p className="text-zinc-300 bg-emerald-950/5 border border-emerald-900/10 p-2.5 rounded-lg leading-relaxed">
+                      {selectedStrategy.bull_entry || "N/A"}
+                    </p>
+                  </div>
+                  <div className="space-y-1">
+                    <h4 className="font-semibold text-rose-400">🔴 Bearish Entry Rule</h4>
+                    <p className="text-zinc-300 bg-rose-950/5 border border-rose-900/10 p-2.5 rounded-lg leading-relaxed">
+                      {selectedStrategy.bear_entry || "N/A"}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="space-y-1">
+                  <h4 className="font-semibold text-amber-500">⚠️ Invalidation & Kill Switch</h4>
+                  <p className="text-zinc-300 bg-amber-950/5 border border-amber-900/10 p-2.5 rounded-lg leading-relaxed">
+                    {selectedStrategy.kill_switch || "No explicit invalidation trigger."}
+                  </p>
+                </div>
+
+                {selectedStrategy.note && (
+                  <div className="space-y-1 border-t border-zinc-900 pt-3">
+                    <h4 className="font-semibold text-zinc-500 font-mono text-[10px] uppercase">Strategic Note</h4>
+                    <p className="text-zinc-400 italic">
+                      "{selectedStrategy.note}"
+                    </p>
+                  </div>
+                )}
+
               </div>
+
+              {/* Close Button */}
+              <button
+                onClick={() => setSelectedStrategy(null)}
+                className="w-full mt-2 py-2.5 bg-purple-600 hover:bg-purple-500 text-white font-bold rounded-lg text-xs transition cursor-pointer"
+              >
+                Close Details
+              </button>
             </div>
           )}
         </div>
