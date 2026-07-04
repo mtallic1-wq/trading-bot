@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Volume Profile & Order Flow Trading Glossary | NQ Bias Engine</title>
-  <meta name="description" content="Master Volume Profile and Order Flow trading concepts. Comprehensive definitions of Point of Control (POC), Value Area (VAH/VAL), Initial Balance (IB), and CVD Divergence for Nasdaq (NQ) futures.">
+  <title>Volume Profile & ES Options Gamma Glossary | NQ Bias Engine</title>
+  <meta name="description" content="Master Volume Profile, Order Flow, and ES Options Gamma concepts. Comprehensive definitions of POC, Value Area, Zero-Gamma Flip, Call Wall, Put Wall, and 0DTE Option Magnets.">
   <link rel="canonical" href="https://nqbiasengine.qzz.io/wiki">
   <style>
     :root {
@@ -103,6 +103,22 @@
           "@type": "Answer",
           "text": "The Initial Balance (IB) is the high and low price range established during the first hour of the regular trading session (9:30 AM to 10:30 AM EST). It represents the initial range set by institutional participants."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the Zero-Gamma Flip level in option flow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Zero-Gamma Flip level is the threshold where options dealer hedging behavior changes. Above this level (positive gamma), dealer hedging dampens volatility. Below it (negative gamma), dealer hedging accelerates volatility."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are Call and Put Walls in options gamma tracking?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Call Wall is the strike price with the highest net call gamma concentration, acting as resistance. The Put Wall is the strike price with the highest net put gamma concentration, acting as support."
+        }
       }
     ]
   }
@@ -111,8 +127,8 @@
 <body>
 
   <header>
-    <h1>Volume Profile & Order Flow Glossary</h1>
-    <div class="subtitle">NQ Bias Engine Reference Guide</div>
+    <h1>Volume Profile & ES Options Gamma Glossary</h1>
+    <div class="subtitle">NQ Bias Engine & ES Options Reference Guide</div>
   </header>
 
   <main>
@@ -139,6 +155,23 @@
     <section>
       <h2>Single Prints & Excess</h2>
       <p><strong>Single Prints</strong> are thin areas of volume on a profile chart where price moved rapidly, leaving behind low volume nodes. These act as support/resistance zones. **Excess** refers to rapid rejection at session highs or lows (buying/selling tails), confirming that institutional traders have rejected prices outside of value.</p>
+    </section>
+
+    <hr style="border: none; border-top: 1px solid var(--border); margin: 3rem 0;" />
+
+    <section>
+      <h2>Zero-Gamma Flip Level</h2>
+      <p>The <strong>Zero-Gamma Flip Level</strong> is the estimated S&P 500 index price where option dealers switch from holding net positive gamma to net negative gamma. In the Positive Gamma zone (above flip), dealer hedging behaviors act as a stabilizer (buying dips, selling rallies), leading to low volatility. In the Negative Gamma zone (below flip), dealer hedging accelerates trend directions (selling index futures as prices drop), leading to fast moves and high volatility.</p>
+    </section>
+
+    <section>
+      <h2>Call Wall & Put Wall</h2>
+      <p>The <strong>Call Wall</strong> represents the option strike price with the largest concentration of positive call gamma. It represents S&P 500's primary ceiling/resistance, as dealers sell index futures when price approaches this strike. The <strong>Put Wall</strong> represents the strike price with the largest concentration of positive put gamma, serving as a support floor where dealer buying cushions the market.</p>
+    </section>
+
+    <section>
+      <h2>0DTE Option Magnet</h2>
+      <p>A <strong>0DTE Option Magnet</strong> is a strike price with extremely high open interest and gamma concentration on option contracts expiring today (0 Days to Expiration). Because of massive retail volume in short-dated options, dealer hedging forces frequently pull and pin the index price toward these strike levels as the market approaches the closing bell.</p>
     </section>
   </main>
 
