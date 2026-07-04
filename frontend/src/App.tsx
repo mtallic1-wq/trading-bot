@@ -7,7 +7,8 @@ import {
   XCircle,
   X,
   HelpCircle,
-  Menu
+  Menu,
+  Lock
 } from "lucide-react";
 
 import InteractiveSpace from "./components/InteractiveSpace";
@@ -58,7 +59,7 @@ export default function App() {
   const [userEmail, setUserEmail] = useState<string>("");
   const [hasNqPlaybook, setHasNqPlaybook] = useState<boolean>(false);
   const [hasEsPlaybook, setHasEsPlaybook] = useState<boolean>(false);
-  const [hasPlaybook, setHasPlaybook] = useState<boolean>(false);
+  const [hasPremium, setHasPremium] = useState<boolean>(false);
   const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
@@ -91,9 +92,10 @@ export default function App() {
           if (data.success && data.user) {
             setSubStatus(data.user.subscription_status || "free");
             setUserEmail(data.user.email || "");
-            setHasNqPlaybook(!!data.user.has_nq_playbook);
-            setHasEsPlaybook(!!data.user.has_es_playbook);
-            setHasPlaybook(!!data.user.has_nq_playbook || !!data.user.has_es_playbook);
+            const isPremium = !!data.user.has_premium || data.user.subscription_status === "active";
+            setHasPremium(isPremium);
+            setHasNqPlaybook(isPremium || !!data.user.has_nq_playbook);
+            setHasEsPlaybook(isPremium || !!data.user.has_es_playbook);
           }
         })
         .catch((e) => console.error(e));
@@ -278,7 +280,7 @@ export default function App() {
         onHelpClick={() => setIsHelpOpen(true)}
         isOpen={isMobileMenuOpen}
         onClose={() => setIsMobileMenuOpen(false)}
-        hasPlaybook={hasPlaybook}
+        hasPremium={hasPremium}
       />
 
       {/* Main Panel Content Area */}
@@ -439,7 +441,7 @@ export default function App() {
                   {/* Render active dashboard Tab component */}
                   <div className="transition duration-300">
                     {dashboardTab === "playbook" && (
-                      <PlaybookTable playbook={activeReport.playbook} />
+                      <PlaybookTable playbook={activeReport.playbook} hasNqPlaybook={hasNqPlaybook} setView={setCurrentView} />
                     )}
                     {dashboardTab === "structure" && (
                       <StructureTable priceAction={activeReport.price_action} />
@@ -452,21 +454,46 @@ export default function App() {
                       />
                     )}
                     {dashboardTab === "ai_analysis" && (
-                      <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden p-6 max-h-[500px] overflow-y-auto">
-                        <div className="flex items-center gap-2 mb-4 border-b border-zinc-900 pb-3">
-                          <Cpu className="w-4 h-4 text-zinc-400" />
-                          <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
-                            AI Bias Summary Report ({activeReport.analysis?.source?.split(" (")[0] || "AI System"})
-                          </h3>
-                        </div>
-                        <div
-                          className="text-zinc-300 leading-relaxed text-sm space-y-4"
-                          dangerouslySetInnerHTML={{
-                            __html: parseAnalysis(
-                              activeReport.analysis?.analysis || activeReport.analysis || ""
-                            ),
-                          }}
-                        />
+                      <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden p-6 max-h-[500px] overflow-y-auto relative min-h-[250px] flex flex-col justify-center">
+                        {!hasPremium ? (
+                          /* Locked AI Prediction Teaser Overlay */
+                          <div className="py-6 flex flex-col items-center justify-center text-center space-y-4 max-w-md mx-auto">
+                            <div className="w-10 h-10 rounded-xl bg-zinc-900 border border-zinc-850 flex items-center justify-center shadow-inner">
+                              <Lock className="w-5 h-5 text-purple-400" />
+                            </div>
+                            <div className="space-y-1">
+                              <h4 className="text-xs font-bold text-zinc-200 uppercase tracking-wider">
+                                AI Prediction Matrix Locked
+                              </h4>
+                              <p className="text-[11px] text-zinc-500 leading-relaxed">
+                                Get access to multi-model LLM predictions, pre-market market narrative digests, overnight structural summaries, and target direction forecasts by subscribing to NQ Bias Premium.
+                              </p>
+                            </div>
+                            <button
+                              onClick={() => setCurrentView("playbook")}
+                              className="px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-zinc-100 rounded-xl text-xs font-semibold transition shadow-md"
+                            >
+                              Upgrade to Premium
+                            </button>
+                          </div>
+                        ) : (
+                          <>
+                            <div className="flex items-center gap-2 mb-4 border-b border-zinc-900 pb-3">
+                              <Cpu className="w-4 h-4 text-zinc-400" />
+                              <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
+                                AI Bias Summary Report ({activeReport.analysis?.source?.split(" (")[0] || "AI System"})
+                              </h3>
+                            </div>
+                            <div
+                              className="text-zinc-300 leading-relaxed text-sm space-y-4"
+                              dangerouslySetInnerHTML={{
+                                __html: parseAnalysis(
+                                  activeReport.analysis?.analysis || activeReport.analysis || ""
+                                ),
+                              }}
+                            />
+                          </>
+                        )}
                       </div>
                     )}
                   </div>
@@ -570,7 +597,7 @@ export default function App() {
                 animate={{ opacity: 1 }}
                 className="max-w-5xl mx-auto"
               >
-                <PlaybookPremium hasNqPlaybook={hasNqPlaybook} hasEsPlaybook={hasEsPlaybook} userEmail={userEmail} />
+                <PlaybookPremium hasPremium={hasPremium} hasNqPlaybook={hasNqPlaybook} hasEsPlaybook={hasEsPlaybook} userEmail={userEmail} />
               </motion.div>
             ) : currentView === "tracker" ? (
               

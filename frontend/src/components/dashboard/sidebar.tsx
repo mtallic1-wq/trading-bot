@@ -10,7 +10,8 @@ import {
   BookOpen,
   Lock,
   TrendingUp,
-  Zap
+  Zap,
+  Sparkles
 } from "lucide-react";
 
 function formatReportDate(dateStr: string): string {
@@ -41,7 +42,7 @@ interface SidebarProps {
   onHelpClick: () => void;
   isOpen?: boolean;
   onClose?: () => void;
-  hasPlaybook?: boolean;
+  hasPremium: boolean;
 }
 
 export default function Sidebar({
@@ -57,7 +58,7 @@ export default function Sidebar({
   onHelpClick,
   isOpen = false,
   onClose,
-  hasPlaybook = false
+  hasPremium
 }: SidebarProps) {
   return (
     <>
@@ -173,14 +174,20 @@ export default function Sidebar({
           className={`w-full flex items-center justify-between px-3 py-1.5 rounded-md text-xs font-medium transition ${
             currentView === "playbook"
               ? "bg-zinc-900 text-zinc-100 border border-zinc-800"
-              : "hover:bg-zinc-900/50 text-zinc-400 hover:text-zinc-200"
+              : hasPremium
+              ? "hover:bg-zinc-900/50 text-zinc-400 hover:text-zinc-200"
+              : "hover:bg-purple-950/15 border border-transparent hover:border-purple-900/35 text-zinc-400 hover:text-purple-200"
           }`}
         >
           <div className="flex items-center gap-2.5">
-            <BookOpen className="w-3.5 h-3.5 text-cyan-400" />
-            <span>Playbook Library</span>
+            {hasPremium ? (
+              <BookOpen className="w-3.5 h-3.5 text-cyan-400" />
+            ) : (
+              <Sparkles className="w-3.5 h-3.5 text-purple-400 animate-pulse" />
+            )}
+            <span>{hasPremium ? "Playbook Library" : "Upgrade to Premium"}</span>
           </div>
-          {!hasPlaybook && <Lock className="w-3 h-3 text-zinc-600" />}
+          {!hasPremium && <Lock className="w-3 h-3 text-purple-500/80" />}
         </button>
 
         <a

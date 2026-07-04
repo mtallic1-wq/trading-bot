@@ -419,15 +419,17 @@ def user_settings():
         if success:
             user = get_user_by_token(token)  # reload updated row
             
+    is_active = user["subscription_status"] == "active"
     user_data = {
         "email": user["email"],
         "whatsapp": user["whatsapp"],
         "delivery_time": user["delivery_time"],
         "timezone": user["timezone"],
         "subscription_status": user["subscription_status"],
-        "has_nq_playbook": has_purchased_product(user["email"], "Volume Profile Playbook"),
-        "has_es_playbook": has_purchased_product(user["email"], "ES Gamma Playbook"),
-        "has_playbook": has_purchased_product(user["email"], "Volume Profile Playbook")
+        "has_nq_playbook": is_active or has_purchased_product(user["email"], "Volume Profile Playbook"),
+        "has_es_playbook": is_active or has_purchased_product(user["email"], "ES Gamma Playbook"),
+        "has_playbook": is_active or has_purchased_product(user["email"], "Volume Profile Playbook"),
+        "has_premium": is_active
     }
     return jsonify({"success": True, "user": user_data})
 
@@ -714,9 +716,10 @@ def get_es_gamma_ai_plan():
         return jsonify({"success": False, "error": "Invalid token"}), 401
         
     email = user.get("email")
-    has_es = has_purchased_product(email, "ES Gamma Playbook")
+    is_active = user.get("subscription_status") == "active"
+    has_es = is_active or has_purchased_product(email, "ES Gamma Playbook")
     if not has_es:
-        return jsonify({"success": False, "error": "ES Gamma Playbook purchase required to access AI Premarket Plan"}), 403
+        return jsonify({"success": False, "error": "Premium subscription (or ES Playbook purchase) required to access AI Premarket Plan"}), 403
         
     if GAMMA_CACHE is None:
         load_disk_cache()

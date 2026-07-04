@@ -1,21 +1,123 @@
 import { useState } from "react";
-import { BookOpen, Lock, ShieldCheck, CheckCircle, ExternalLink } from "lucide-react";
+import { BookOpen, Lock, ShieldCheck, CheckCircle, ExternalLink, Sparkles, Zap } from "lucide-react";
 
 interface PlaybookPremiumProps {
+  hasPremium: boolean;
   hasNqPlaybook: boolean;
   hasEsPlaybook: boolean;
   userEmail: string;
 }
 
-export default function PlaybookPremium({ hasNqPlaybook, hasEsPlaybook, userEmail }: PlaybookPremiumProps) {
+export default function PlaybookPremium({ hasPremium, hasNqPlaybook, hasEsPlaybook, userEmail }: PlaybookPremiumProps) {
   const [activeTab, setActiveTab] = useState<"nq" | "es">("nq");
-  const nqCheckoutUrl = "https://nqbiasengine.lemonsqueezy.com/checkout/buy/afa17786-dd1c-463b-9ea8-c745ecd3dec5";
-  const esCheckoutUrl = "https://nqbiasengine.lemonsqueezy.com/checkout/buy/a34c11f9-068e-4b0f-a2bb-f163e729d7a2";
+  
+  // Unified premium subscription checkout link
+  const premiumCheckoutUrl = "https://nqbiasengine.lemonsqueezy.com/checkout/buy/a34c11f9-068e-4b0f-a2bb-f163e729d7a2";
 
   return (
-    <div className="max-w-4xl mx-auto space-y-6 font-sans">
+    <div className="max-w-4xl mx-auto space-y-8 font-sans select-none">
       
-      {/* Playbook Header & Tab Selector */}
+      {/* 1. PREMIUM BENEFITS CARD (UPSell Banner for Free Tier) */}
+      {!hasPremium ? (
+        <div className="relative overflow-hidden rounded-2xl border border-purple-900/30 bg-zinc-950 p-6 md:p-8 shadow-2xl flex flex-col md:flex-row gap-6 md:gap-8 items-stretch justify-between">
+          <div className="absolute top-0 left-0 w-64 h-64 bg-purple-600/5 rounded-full blur-3xl -z-10" />
+          
+          <div className="space-y-4 flex-1">
+            <div className="space-y-1.5">
+              <h2 className="text-sm font-bold text-purple-400 uppercase tracking-widest flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-purple-400 animate-pulse" />
+                <span>NQ Bias Engine Premium</span>
+              </h2>
+              <h3 className="text-xl font-extrabold text-zinc-100 tracking-tight">
+                Unlock Complete Pre-Market Dominance
+              </h3>
+              <p className="text-xs text-zinc-400 leading-relaxed max-w-xl">
+                Get full instant access to all rules-based execution playbooks, advanced market predictions, and custom AI tools. Aligned for professional prop-firm risk limits.
+              </p>
+            </div>
+
+            {/* Benefit Grid List */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-zinc-300">
+              <div className="flex items-start gap-2.5">
+                <div className="w-4.5 h-4.5 rounded bg-zinc-900 border border-zinc-800 flex items-center justify-center shrink-0 mt-0.5">
+                  <CheckCircle className="w-3 h-3 text-purple-400" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-zinc-200 text-[11px]">NQ Volume Profile Playbook</h4>
+                  <span className="text-[10px] text-zinc-500 block leading-tight">6 setups with exact triggers & stop-loss rules.</span>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-2.5">
+                <div className="w-4.5 h-4.5 rounded bg-zinc-900 border border-zinc-800 flex items-center justify-center shrink-0 mt-0.5">
+                  <CheckCircle className="w-3 h-3 text-purple-400" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-zinc-200 text-[11px]">ES Options Gamma Playbook</h4>
+                  <span className="text-[10px] text-zinc-500 block leading-tight">4 MM flow setups (Compression, GEX runs, etc.)</span>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-2.5">
+                <div className="w-4.5 h-4.5 rounded bg-zinc-900 border border-zinc-800 flex items-center justify-center shrink-0 mt-0.5">
+                  <CheckCircle className="w-3 h-3 text-purple-400" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-zinc-200 text-[11px]">Daily AI Premarket Planner</h4>
+                  <span className="text-[10px] text-zinc-500 block leading-tight">LLM premarket trade plans built around option boundaries.</span>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-2.5">
+                <div className="w-4.5 h-4.5 rounded bg-zinc-900 border border-zinc-800 flex items-center justify-center shrink-0 mt-0.5">
+                  <CheckCircle className="w-3 h-3 text-purple-400" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-zinc-200 text-[11px]">AI Prediction Matrix</h4>
+                  <span className="text-[10px] text-zinc-500 block leading-tight">Multi-model LLM predictions and news digests.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Pricing Block */}
+          <div className="md:w-64 flex flex-col justify-center items-center p-5 bg-zinc-900/60 border border-zinc-900 rounded-xl space-y-3 shrink-0 select-none">
+            <div className="text-center">
+              <span className="text-[10px] text-zinc-500 font-semibold uppercase tracking-wider block">Unified Access</span>
+              <div className="flex items-baseline justify-center gap-1 mt-1">
+                <span className="text-2xl font-black text-zinc-100">$5</span>
+                <span className="text-[10px] text-zinc-500 font-mono">/ month</span>
+              </div>
+            </div>
+            
+            <a
+              href={premiumCheckoutUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center gap-1.5 px-4 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-zinc-100 rounded-xl text-xs font-bold transition shadow-lg"
+            >
+              <Zap className="w-3.5 h-3.5 fill-current" />
+              <span>Unlock Premium Access</span>
+            </a>
+
+            <div className="flex items-center justify-center gap-1.5 text-[9px] text-zinc-500">
+              <ShieldCheck className="w-3 h-3 text-emerald-500" />
+              <span>Processed by Lemon Squeezy</span>
+            </div>
+          </div>
+        </div>
+      ) : (
+        /* Premium Member Active Notification */
+        <div className="px-5 py-4 rounded-xl bg-purple-950/20 border border-purple-900/30 text-purple-300 text-xs flex items-center justify-between gap-4 select-none">
+          <div className="flex items-center gap-2">
+            <Sparkles className="w-4 h-4 text-purple-400 animate-pulse" />
+            <span><strong>Premium Account Active!</strong> You have unlocked full access to all playbooks, AI prediction engines, and trading planners.</span>
+          </div>
+          {userEmail && <span className="text-[10px] text-purple-500 font-mono">{userEmail}</span>}
+        </div>
+      )}
+
+      {/* 2. TAB SELECTOR */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-zinc-900 pb-4 gap-4 select-none">
         <div className="space-y-1">
           <h2 className="text-base font-semibold text-zinc-100 flex items-center gap-2">
@@ -50,51 +152,34 @@ export default function PlaybookPremium({ hasNqPlaybook, hasEsPlaybook, userEmai
         </div>
       </div>
 
-      {/* RENDER NQ PLAYBOOK VIEW */}
+      {/* 3. NQ PLAYBOOK STRATEGIES */}
       {activeTab === "nq" && (
         <div className="space-y-6">
           {!hasNqPlaybook ? (
-            /* Pitch / Lock screen for NQ Playbook */
-            <div className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 md:p-10 text-center">
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl -z-10" />
-              
-              <div className="mx-auto w-12 h-12 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center mb-6">
-                <Lock className="w-5 h-5 text-zinc-400" />
+            /* Lock teaser specifically for NQ strategies */
+            <div className="relative overflow-hidden rounded-2xl border border-zinc-900 bg-zinc-950 p-8 text-center space-y-4 select-none">
+              <div className="mx-auto w-10 h-10 rounded-xl bg-zinc-900 border border-zinc-850 flex items-center justify-center">
+                <Lock className="w-5 h-5 text-zinc-500" />
               </div>
-
-              <h3 className="text-lg font-bold text-zinc-100 mb-2">
-                NQ Playbook — 6 Strategies · Volume Profile + Order Flow
-              </h3>
-              <p className="text-xs text-zinc-400 max-w-xl mx-auto leading-relaxed mb-6">
-                Master the E-mini Nasdaq (NQ) futures with a fully rules-based playbook. 
-                Designed for prop firm traders aiming to pass evaluations, stay disciplined, and avoid overtrading.
-              </p>
-
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a
-                  href={nqCheckoutUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-5 py-2.5 bg-zinc-100 hover:bg-zinc-200 text-zinc-950 rounded-xl text-xs font-semibold transition shadow-md w-full sm:w-auto justify-center"
-                >
-                  <span>Unlock NQ Playbook PDF — $5</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
+              <div className="space-y-1.5 max-w-sm mx-auto">
+                <h4 className="text-sm font-bold text-zinc-200 uppercase">NQ Playbook Locked</h4>
+                <p className="text-xs text-zinc-500 leading-relaxed">
+                  Detailed trigger rules, exact execution zones, stop placements, targets, and invalidation kill switches are locked. Subscribe to **Premium** to unlock.
+                </p>
               </div>
-
-              <div className="flex items-center justify-center gap-2 mt-4 text-[10px] text-zinc-500">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
-                <span>Secure payment processed via Lemon Squeezy</span>
-              </div>
+              <a
+                href={premiumCheckoutUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-4 py-2 bg-zinc-900 hover:bg-zinc-850 text-zinc-205 border border-zinc-800 rounded-xl text-xs font-semibold transition"
+              >
+                <span>Subscribe to Unlock</span>
+                <ExternalLink className="w-3 h-3" />
+              </a>
             </div>
           ) : (
-            /* Unlocked NQ Strategies View */
+            /* Unlocked NQ Strategies */
             <div className="space-y-6">
-              <div className="px-4 py-3 rounded-lg bg-emerald-950/20 border border-emerald-900/30 text-emerald-400 text-xs flex items-center gap-2">
-                <CheckCircle className="w-4 h-4" />
-                <span>NQ Playbook Unlocked! PDF download link sent to: {userEmail || "your inbox"}</span>
-              </div>
-
               <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-6 space-y-3">
                 <div className="flex items-center justify-between border-b border-zinc-900 pb-2">
                   <h3 className="text-sm font-bold text-zinc-200 uppercase tracking-wider">
@@ -144,51 +229,34 @@ export default function PlaybookPremium({ hasNqPlaybook, hasEsPlaybook, userEmai
         </div>
       )}
 
-      {/* RENDER ES PLAYBOOK VIEW */}
+      {/* 4. ES PLAYBOOK STRATEGIES */}
       {activeTab === "es" && (
         <div className="space-y-6">
           {!hasEsPlaybook ? (
-            /* Pitch / Lock screen for ES Playbook */
-            <div className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 md:p-10 text-center">
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl -z-10" />
-              
-              <div className="mx-auto w-12 h-12 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center mb-6">
-                <Lock className="w-5 h-5 text-zinc-400" />
+            /* Lock teaser specifically for ES strategies */
+            <div className="relative overflow-hidden rounded-2xl border border-zinc-900 bg-zinc-950 p-8 text-center space-y-4 select-none">
+              <div className="mx-auto w-10 h-10 rounded-xl bg-zinc-900 border border-zinc-850 flex items-center justify-center">
+                <Lock className="w-5 h-5 text-zinc-500" />
               </div>
-
-              <h3 className="text-lg font-bold text-zinc-100 mb-2">
-                ES Options Gamma Playbook — 4 Strategies · Market Maker Flows
-              </h3>
-              <p className="text-xs text-zinc-400 max-w-xl mx-auto leading-relaxed mb-6">
-                Master Options Gamma Exposure (GEX) levels on S&P 500 futures. Design your trades around 
-                mandatory dealer hedging rules, positive/negative volatility pivots, and 0DTE magnets.
-              </p>
-
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a
-                  href={esCheckoutUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-5 py-2.5 bg-zinc-100 hover:bg-zinc-200 text-zinc-950 rounded-xl text-xs font-semibold transition shadow-md w-full sm:w-auto justify-center"
-                >
-                  <span>Unlock ES Gamma Playbook PDF — $5</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
+              <div className="space-y-1.5 max-w-sm mx-auto">
+                <h4 className="text-sm font-bold text-zinc-200 uppercase">ES Gamma Playbook Locked</h4>
+                <p className="text-xs text-zinc-500 leading-relaxed">
+                  Detailed dealer hedging triggers, setup invalidations, stops, and execution note rules are locked. Subscribe to **Premium** to unlock.
+                </p>
               </div>
-
-              <div className="flex items-center justify-center gap-2 mt-4 text-[10px] text-zinc-500">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
-                <span>Secure payment processed via Lemon Squeezy</span>
-              </div>
+              <a
+                href={premiumCheckoutUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-4 py-2 bg-zinc-900 hover:bg-zinc-850 text-zinc-200 border border-zinc-800 rounded-xl text-xs font-semibold transition"
+              >
+                <span>Subscribe to Unlock</span>
+                <ExternalLink className="w-3 h-3" />
+              </a>
             </div>
           ) : (
-            /* Unlocked ES Strategies View */
+            /* Unlocked ES Strategies */
             <div className="space-y-6">
-              <div className="px-4 py-3 rounded-lg bg-emerald-950/20 border border-emerald-900/30 text-emerald-400 text-xs flex items-center gap-2">
-                <CheckCircle className="w-4 h-4" />
-                <span>ES Gamma Playbook Unlocked! PDF download link sent to: {userEmail || "your inbox"}</span>
-              </div>
-
               {/* G1 */}
               <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-6 space-y-3">
                 <div className="flex items-center justify-between border-b border-zinc-900 pb-2">
@@ -252,7 +320,6 @@ export default function PlaybookPremium({ hasNqPlaybook, hasEsPlaybook, userEmai
                   <p><strong>Kill Switch:</strong> A sudden macro news spike driving price more than 15 points away from the magnet in the final hour.</p>
                 </div>
               </div>
-
             </div>
           )}
         </div>
