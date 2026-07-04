@@ -6,7 +6,7 @@ import {
   TableHeader,
   TableRow
 } from "../ui/table";
-import { MoreHorizontal, GripVertical } from "lucide-react";
+import { MoreHorizontal } from "lucide-react";
 import { num } from "../../utils/helpers";
 
 interface StructureTableProps {
@@ -83,9 +83,7 @@ export default function StructureTable({ priceAction }: StructureTableProps) {
         <Table className="w-full">
           <TableHeader>
             <TableRow className="border-b border-zinc-900 hover:bg-transparent">
-              <TableHead className="w-10 px-4"></TableHead>
-              <TableHead className="w-6 px-0"></TableHead>
-              <TableHead className="text-zinc-500 font-medium text-xs py-3">Timeframe</TableHead>
+              <TableHead className="text-zinc-500 font-medium text-xs py-3 pl-4">Timeframe</TableHead>
               <TableHead className="text-zinc-500 font-medium text-xs py-3">Structure</TableHead>
               <TableHead className="text-zinc-500 font-medium text-xs py-3">Price</TableHead>
               <TableHead className="text-zinc-500 font-medium text-xs py-3 text-right">Resistance / Support</TableHead>
@@ -116,16 +114,7 @@ export default function StructureTable({ priceAction }: StructureTableProps) {
 
               return (
                 <TableRow key={tfLabel} className="border-b border-zinc-900/40 hover:bg-zinc-900/10 transition">
-                  {/* Mock Drag handles & Checkboxes matching user screenshot */}
-                  <TableCell className="px-4 py-3.5 text-zinc-700">
-                    <input type="checkbox" className="rounded border-zinc-800 bg-zinc-950 accent-zinc-200 cursor-pointer w-3.5 h-3.5" />
-                  </TableCell>
-                  <TableCell className="px-0 py-3.5 text-zinc-700">
-                    <GripVertical className="w-3.5 h-3.5 opacity-40 cursor-grab" />
-                  </TableCell>
-                  
-                  {/* Values */}
-                  <TableCell className="font-semibold text-zinc-200 py-3.5">{tfLabel}</TableCell>
+                  <TableCell className="font-semibold text-zinc-200 py-3.5 pl-4">{tfLabel}</TableCell>
                   <TableCell className="py-3.5">{renderStatusBadge(structure)}</TableCell>
                   <TableCell className="font-mono text-zinc-300 py-3.5">{num(current)}</TableCell>
                   
