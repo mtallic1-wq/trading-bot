@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 
 interface AreaChartProps {
   candles: any[];
@@ -7,6 +6,14 @@ interface AreaChartProps {
 
 export default function AreaChart({ candles = [] }: AreaChartProps) {
   const [activeRange, setActiveRange] = useState<"5d" | "30d" | "7d">("5d");
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    e.currentTarget.style.setProperty("--x", `${x}px`);
+    e.currentTarget.style.setProperty("--y", `${y}px`);
+  };
 
   // Fallback data if no candles are loaded
   const defaultData = [
@@ -193,12 +200,15 @@ export default function AreaChart({ candles = [] }: AreaChartProps) {
   const dateTicks = rawDateEntries.filter((_, idx) => idx % tickInterval === 0);
 
   return (
-    <Card className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden font-sans">
-      <CardHeader className="flex flex-row items-center justify-between border-b border-zinc-900 px-5 py-4">
+    <div 
+      onMouseMove={handleMouseMove}
+      className="spotlight-card relative overflow-hidden font-sans p-5"
+    >
+      <div className="flex flex-row items-center justify-between border-b border-zinc-900 pb-4 relative z-10">
         <div>
-          <CardTitle className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
+          <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
             NQ Market Trend Index
-          </CardTitle>
+          </h3>
           <span className="text-[10px] text-zinc-500 mt-1 block">
             Pre-market & overnight index fluctuations
           </span>
@@ -231,9 +241,9 @@ export default function AreaChart({ candles = [] }: AreaChartProps) {
             Last 7 days
           </button>
         </div>
-      </CardHeader>
+      </div>
       
-      <CardContent className="p-5">
+      <div className="mt-5 relative z-10">
         {/* Responsive Chart Container */}
         <div className="relative w-full overflow-hidden">
           <svg
@@ -325,7 +335,7 @@ export default function AreaChart({ candles = [] }: AreaChartProps) {
             ))}
           </svg>
         </div>
-      </CardContent>
-    </Card>
+      </div>
+    </div>
   );
 }

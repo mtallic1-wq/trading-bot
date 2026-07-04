@@ -2,18 +2,14 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Cpu,
-  RefreshCw,
-  CheckCircle,
-  XCircle,
   X,
   HelpCircle,
-  Menu,
   Lock,
   LogIn
 } from "lucide-react";
 
 import InteractiveSpace from "./components/InteractiveSpace";
-import Sidebar from "./components/dashboard/sidebar";
+import FloatingDock from "./components/dashboard/floating-dock";
 import Metrics from "./components/dashboard/metrics";
 import AreaChart from "./components/dashboard/area-chart";
 import StructureTable from "./components/dashboard/structure-table";
@@ -63,7 +59,6 @@ export default function App() {
   const [hasEsPlaybook, setHasEsPlaybook] = useState<boolean>(false);
   const [hasPremium, setHasPremium] = useState<boolean>(false);
   const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
   // Login / Sync Modal states
   const [isLoginModalOpen, setIsLoginModalOpen] = useState<boolean>(false);
@@ -329,85 +324,90 @@ export default function App() {
   };
 
   return (
-    <div className="flex h-screen overflow-hidden bg-zinc-950 font-sans text-zinc-300 relative select-none">
+    <div className="flex flex-col h-screen overflow-hidden bg-zinc-950 font-sans text-zinc-300 relative select-none">
       {/* Background 3D Space Field */}
       <InteractiveSpace bias={activeReport?.side || "NEUTRAL"} />
 
-      {/* Sidebar Layout */}
-      <Sidebar
-        reports={reports}
-        activeDate={activeDate}
-        currentView={currentView}
-        setView={(v) => {
-          if (v === "news") runNews();
-          else if (v === "history") loadHistoryView();
-          else {
-            setCurrentView(v);
-            if (v === "dashboard" && reports.length === 0) {
-              fetchReports();
-            }
-          }
-          setIsMobileMenuOpen(false);
-        }}
-        loadReport={loadReport}
-        runAnalysis={runAnalysis}
-        isLoading={!!activeJob}
-        subStatus={subStatus}
-        userEmail={userEmail}
-        onHelpClick={() => setIsHelpOpen(true)}
-        isOpen={isMobileMenuOpen}
-        onClose={() => setIsMobileMenuOpen(false)}
-        hasPremium={hasPremium}
-        onSyncClick={() => setIsLoginModalOpen(true)}
-        onLogoutClick={handleLogout}
-      />
+      {/* Cyber Mesh Grid Overlay & Scanlines */}
+      <div className="cyber-grid" />
+      <div className="laser-h" />
+      <div className="hud-scanline" />
 
-      {/* Main Panel Content Area */}
-      <div className="flex-1 flex flex-col overflow-hidden relative z-10 bg-zinc-950/20">
-        
-        {/* Top Header Breadcrumbs & Status */}
-        <header className="h-14 border-b border-zinc-900 bg-zinc-950/60 backdrop-blur-md px-4 md:px-6 flex items-center justify-between shrink-0 select-none">
-          <div className="flex items-center gap-3">
-            {/* Hamburger Toggle */}
-            <button
-              onClick={() => setIsMobileMenuOpen(true)}
-              className="p-1.5 text-zinc-400 hover:text-zinc-200 md:hidden rounded-lg hover:bg-zinc-900 transition"
-            >
-              <Menu className="w-5 h-5" />
-            </button>
-            
-            <div className="flex items-center gap-2">
-              <span className="text-xs text-zinc-500 font-medium">Dashboard</span>
-              <span className="text-zinc-700 text-xs">/</span>
-              <span className="text-xs text-zinc-200 font-semibold uppercase tracking-wider font-mono">
-                {currentView === "dashboard" ? activeDate || "Live Report" : currentView}
-              </span>
-            </div>
-          </div>
+      {/* Top heads-up-display Header */}
+      <header className="h-14 border-b border-zinc-900 bg-zinc-950/40 backdrop-blur-md px-6 flex items-center justify-between shrink-0 relative z-20">
+        <div className="flex items-center gap-2.5 text-zinc-100 font-sans">
+          <img 
+            src="/logo.jpg" 
+            alt="NQ Bias Engine Logo" 
+            className="w-6 h-6 rounded object-cover border border-zinc-800" 
+          />
+          <span className="font-semibold text-xs tracking-widest uppercase">NQ Bias Engine</span>
+          <span className="px-2 py-0.5 rounded text-[9px] bg-purple-950/30 text-purple-400 border border-purple-900/30 font-bold uppercase tracking-wider">
+            Cockpit Terminal
+          </span>
+        </div>
 
-          {/* Banner logs */}
-          {status.text && (
-            <motion.div
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs border ${
+        <div className="hidden md:flex items-center gap-2">
+          <span className="text-[10px] text-zinc-500 font-medium tracking-wider uppercase">Active Session:</span>
+          <span className="text-xs text-zinc-200 font-bold font-mono uppercase">
+            {currentView === "dashboard" ? activeDate || "Live Report" : currentView}
+          </span>
+        </div>
+
+        <div className="flex items-center gap-4">
+          {/* Status Indicators */}
+          <div className="flex items-center gap-2">
+            {status.text && (
+              <div className={`px-2.5 py-1 rounded text-[10px] border flex items-center gap-1.5 ${
                 status.type === "run"
-                  ? "bg-zinc-900/60 text-zinc-400 border-zinc-800"
+                  ? "bg-zinc-900/40 text-zinc-400 border-zinc-800"
                   : status.type === "done"
                   ? "bg-emerald-950/20 text-emerald-400 border-emerald-900/30"
                   : "bg-rose-950/20 text-rose-400 border-rose-900/30"
-              }`}
-            >
-              {status.type === "run" && <RefreshCw className="w-3.5 h-3.5 animate-spin" />}
-              {status.type === "done" && <CheckCircle className="w-3.5 h-3.5" />}
-              {status.type === "error" && <XCircle className="w-3.5 h-3.5" />}
-              <span>{status.text}</span>
-            </motion.div>
-          )}
-        </header>
+              }`}>
+                <span className={`w-1 h-1 rounded-full ${status.type === "run" ? "bg-zinc-400 animate-ping" : status.type === "done" ? "bg-emerald-400" : "bg-rose-400"}`} />
+                <span>{status.text}</span>
+              </div>
+            )}
 
-        {/* Central Workspace Scroll Panel */}
-        <main className="flex-1 overflow-y-auto p-6 space-y-6">
+            {/* Run Engine Scrape Button */}
+            {currentView === "dashboard" && (
+              <button
+                onClick={runAnalysis}
+                disabled={!!activeJob}
+                className={`p-1.5 rounded border text-[10px] font-bold uppercase transition flex items-center gap-1.5 ${
+                  activeJob 
+                    ? "bg-zinc-900/10 border-zinc-900/30 text-zinc-600 cursor-not-allowed" 
+                    : "bg-purple-950/20 border-purple-900/30 text-purple-400 hover:bg-purple-950/40 hover:border-purple-800/50"
+                }`}
+                title="Run AI Analysis Engine Scrape"
+              >
+                <Cpu className="w-3.5 h-3.5" />
+                <span>Run Engine</span>
+              </button>
+            )}
+          </div>
+
+          {/* Upgrade Banner or Premium badge */}
+          {subStatus === "active" ? (
+            <div className="px-2.5 py-1 rounded text-[9px] bg-purple-950/30 text-purple-400 border border-purple-900/30 font-bold uppercase tracking-widest">
+              Premium Account
+            </div>
+          ) : (
+            <a
+              href="https://nqbiasengine.lemonsqueezy.com/checkout/buy/ae27f792-5462-4426-ba19-1192730da6a9"
+              target="_blank"
+              rel="noreferrer"
+              className="px-2.5 py-1 rounded text-[9px] bg-zinc-100 hover:bg-zinc-200 text-zinc-950 font-bold uppercase tracking-wider transition"
+            >
+              Upgrade
+            </a>
+          )}
+        </div>
+      </header>
+
+      {/* Central Workspace Scroll Panel */}
+      <main className="flex-1 overflow-y-auto px-6 py-6 pb-24 relative z-10 bg-zinc-950/10">
           
           {/* SEO Header - Single H1 Tag */}
           <div className="border-b border-zinc-900 pb-4 select-none">
@@ -722,7 +722,27 @@ export default function App() {
 
           </AnimatePresence>
         </main>
-      </div>
+
+        {/* Floating Bottom Navigation dock */}
+        <FloatingDock
+          currentView={currentView}
+          setView={(v) => {
+            if (v === "news") runNews();
+            else if (v === "history") loadHistoryView();
+            else {
+              setCurrentView(v);
+              if (v === "dashboard" && reports.length === 0) {
+                fetchReports();
+              }
+            }
+          }}
+          userEmail={userEmail}
+          hasPremium={hasPremium}
+          subStatus={subStatus}
+          onSyncClick={() => setIsLoginModalOpen(true)}
+          onLogoutClick={handleLogout}
+          onHelpClick={() => setIsHelpOpen(true)}
+        />
 
       {/* Login / Account Sync Modal */}
       {isLoginModalOpen && (
