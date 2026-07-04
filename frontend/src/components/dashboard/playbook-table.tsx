@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import {
   Table,
   TableBody,
@@ -160,7 +161,7 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
       </div>
 
       {/* Strategy Detail Modal popup */}
-      {selectedStrategy && (
+      {selectedStrategy && createPortal(
         <div className="fixed inset-0 z-50 overflow-y-auto bg-black/75 backdrop-blur-sm p-4 flex justify-center items-start pt-10 md:pt-20">
           <div 
             className="fixed inset-0 -z-10" 
@@ -311,7 +312,8 @@ export default function PlaybookTable({ playbook, hasNqPlaybook, setView }: Play
               </button>
             </div>
           )}
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
