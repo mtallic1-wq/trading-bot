@@ -135,6 +135,7 @@ def update_user_settings(
 
 def update_user_subscription(email: str, status: str) -> bool:
     """Update subscription status (e.g. from lemon squeezy webhooks)."""
+    email_clean = email.strip().lower()
     with get_db_connection() as conn:
         cursor = conn.execute(
             """
@@ -142,10 +143,16 @@ def update_user_subscription(email: str, status: str) -> bool:
             SET subscription_status = ?
             WHERE email = ?
             """,
-            (status, email.strip().lower())
+            (status, email_clean)
         )
         conn.commit()
-        return cursor.rowcount > 0
+        updated = cursor.rowcount > 0
+        
+    if not updated and status == "active":
+        # Automatically register user if they subscribed directly on Lemon Squeezy
+        register_user(email_clean, subscription_status="active")
+        return True
+    return updated
 
 
 def log_delivery(
