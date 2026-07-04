@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Cpu,
@@ -70,6 +70,9 @@ export default function App() {
   const [loginEmail, setLoginEmail] = useState<string>("");
   const [isLoggingIn, setIsLoggingIn] = useState<boolean>(false);
   const [loginError, setLoginError] = useState<string>("");
+
+  // Ref to track first load of pre-market reports
+  const isFirstLoadRef = useRef<boolean>(true);
 
   // Sub-tabs in the bottom section of dashboard
   const [dashboardTab, setDashboardTab] = useState<"playbook" | "structure" | "gamma_levels" | "catalysts" | "ai_analysis">("playbook");
@@ -237,6 +240,7 @@ export default function App() {
     setHasPremium(false);
     setHasNqPlaybook(false);
     setHasEsPlaybook(false);
+    setCurrentView("landing");
   };
 
   const loadReport = async (date: string) => {
@@ -257,8 +261,10 @@ export default function App() {
   const renderReport = (report: any) => {
     setActiveReport(report);
     setActiveDate(report.date);
-    if (token || currentView !== "landing") {
+    if (!isFirstLoadRef.current) {
       setCurrentView("dashboard");
+    } else {
+      isFirstLoadRef.current = false;
     }
   };
 
