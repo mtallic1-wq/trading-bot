@@ -468,6 +468,27 @@ def lemonsqueezy_webhook():
             update_user_subscription(email, db_status)
             print(f"[Webhook] User {email} subscription state updated to {db_status}")
             
+            if db_status == "active":
+                user = get_user_by_email(email)
+                if user:
+                    from delivery import send_email_via_brevo
+                    portal_url = f"https://nqbiasengine.qzz.io/?token={user['token']}"
+                    welcome_html = f"""
+                    <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; color: #111; line-height: 1.6;">
+                      <h2 style="color: #6d28d9; border-bottom: 1px solid #eee; padding-bottom: 10px;">Welcome to NQ Bias Engine Premium!</h2>
+                      <p>Your subscription is active! You now have full access to our pre-market forecasting engine, volume profile strategy playbooks, and ES options levels.</p>
+                      <p>Click the link below to access your unlocked premium dashboard:</p>
+                      <p style="margin: 25px 0;">
+                        <a href="{portal_url}" style="background-color: #6d28d9; color: #fff; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">Access Premium Dashboard</a>
+                      </p>
+                      <p style="font-size: 11px; color: #666;">If the button doesn't work, copy and paste this link into your browser:<br>{portal_url}</p>
+                      <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;" />
+                      <p style="font-size: 11px; color: #999;">NQ Bias Engine — Rules-based setups and option flow intelligence.</p>
+                    </div>
+                    """
+                    send_email_via_brevo(email, "Welcome to NQ Bias Engine Premium!", welcome_html)
+                    print(f"[Webhook] Sent welcome/upgrade email containing login link to {email}")
+            
     elif event_name in ("subscription_cancelled", "subscription_expired"):
         attrs = data.get("data", {}).get("attributes", {})
         email = attrs.get("user_email") or attrs.get("customer_email")
