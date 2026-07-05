@@ -3,7 +3,7 @@ NQ/ES NYSE Bias Bot — Web Dashboard & Signal Delivery Backend
 Start: python web.py
 Opens at: http://localhost:8080
 """
-import hmac
+import hmac  # security-hardened
 import hashlib
 import json
 import os
@@ -18,7 +18,7 @@ from flask import Flask, jsonify, send_from_directory, abort, request
 from apscheduler.schedulers.background import BackgroundScheduler
 import pytz
 
-from config import REPORTS_DIR, BASE_DIR
+from config import REPORTS_DIR, BASE_DIR, ADMIN_API_KEY
 from storage.database import (
     init_db, register_user, get_user_by_email, get_user_by_token,
     update_user_settings, update_user_subscription, log_delivery,
@@ -191,10 +191,17 @@ def list_reports_endpoint():
 # Report detail
 @app.route("/api/report/<date>")
 def get_report(date):
+    # Only accept strict YYYY-MM-DD dates to prevent path traversal.
+    try:
+        datetime.strptime(date, "%Y-%m-%d")
+    except ValueError:
+        abort(404, description="Invalid report date")
+
     fp = REPORTS_DIR / f"{date}.json"
-    if not fp.exists():
+    # Defense in depth: ensure the resolved path stays inside REPORTS_DIR.
+    if fp.resolve().parent != REPORTS_DIR.resolve() or not fp.exists():
         abort(404, description=f"No report for {date}")
-        
+
     report = json.loads(fp.read_text(encoding="utf-8"))
     return jsonify(report)
 
@@ -450,19 +457,21 @@ def user_settings():
 def lemonsqueezy_webhook():
     secret = os.environ.get("LEMON_SQUEEZY_WEBHOOK_SECRET")
     signature = request.headers.get("X-Signature")
-    
-    # Verify webhook signature using HMAC-SHA256
-    if secret:
-        if not signature:
-            return jsonify({"error": "Missing signature header"}), 401
-        payload_data = request.get_data()
-        local_sig = hmac.new(
-            secret.encode("utf-8"),
-            payload_data,
-            hashlib.sha256
-        ).hexdigest()
-        if not hmac.compare_digest(local_sig, signature):
-            return jsonify({"error": "Invalid signature"}), 401
+
+    # Signature verification is mandatory. Refuse to process unverified webhooks.
+    if not secret:
+        print("[Webhook] Rejected: LEMON_SQUEEZY_WEBHOOK_SECRET is not configured")
+        return jsonify({"error": "Webhook not configured"}), 503
+    if not signature:
+        return jsonify({"error": "Missing signature header"}), 401
+    payload_data = request.get_data()
+    local_sig = hmac.new(
+        secret.encode("utf-8"),
+        payload_data,
+        hashlib.sha256
+    ).hexdigest()
+    if not hmac.compare_digest(local_sig, signature):
+        return jsonify({"error": "Invalid signature"}), 401
 
     data = request.get_json(silent=True) or {}
     event_name = data.get("meta", {}).get("event_name")
@@ -630,7 +639,7 @@ def get_es_gamma_levels():
             return jsonify(GAMMA_CACHE)
             
     # Query FlashAlpha API
-    api_key = os.environ.get("FLASHALPHA_API_KEY", "vdT5fhXRjBg1E5guYfBPqeSHbf2aQ3vmZOVUWnfY")
+    api_key = os.environ.get("FLASHALPHA_API_KEY", "")
     headers = {"X-Api-Key": api_key, "Accept": "application/json"}
     url = "https://lab.flashalpha.com/v1/exposure/levels/ES=F"
     
@@ -804,6 +813,13 @@ def get_es_gamma_ai_plan():
 # Admin/Developer Testing Upgrades
 @app.route("/api/admin/upgrade")
 def admin_upgrade():
+    # Require a server-side admin secret. Disabled entirely if ADMIN_API_KEY is unset.
+    if not ADMIN_API_KEY:
+        abort(404)
+    provided = request.headers.get("X-Admin-Key") or request.args.get("key", "")
+    if not hmac.compare_digest(provided, ADMIN_API_KEY):
+        return jsonify({"success": False, "error": "Unauthorized"}), 401
+
     email = request.args.get("email")
     if not email or "@" not in email:
         return jsonify({"success": False, "error": "Valid email address required"}), 400
