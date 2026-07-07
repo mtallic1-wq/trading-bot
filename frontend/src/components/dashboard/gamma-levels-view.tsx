@@ -47,7 +47,12 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
     setError("");
     setStaleWarning("");
     try {
-      const res = await fetch("/api/gamma/es");
+      const queryParams = new URLSearchParams();
+      if (token) queryParams.set("token", token);
+      if (isRef) queryParams.set("bypass_cache", "true");
+      
+      const url = `/api/gamma/es?${queryParams.toString()}`;
+      const res = await fetch(url);
       const json = await res.json();
       if (res.ok && json.levels) {
         setData(json);

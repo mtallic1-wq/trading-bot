@@ -214,26 +214,37 @@ def analyze():
     
     target_date = date_str or datetime.now().strftime("%Y-%m-%d")
     
+    # Check if user is premium
+    token = data.get("token") or request.args.get("token") or request.headers.get("Authorization")
+    is_premium = False
+    if token:
+        user = get_user_by_token(token)
+        if user and user["subscription_status"] == "active":
+            is_premium = True
+            print(f"[Analyze] Premium user {user['email']} triggered refresh. Bypassing cache.")
+    
     # 1. Cached Short-Circuit: If report exists and is less than 3 hours old, return virtual completed job
-    fp = REPORTS_DIR / f"{target_date}.json"
-    if fp.exists():
-        import time
-        try:
-            mtime = fp.stat().st_mtime
-            age_hours = (time.time() - mtime) / 3600.0
-            if age_hours < 3.0:
-                job_id = f"cached_{target_date}"
-                _jobs[job_id] = {
-                    "status": "done",
-                    "result": target_date,
-                    "type": "analysis",
-                    "target_date": target_date
-                }
-                return jsonify({"job_id": job_id})
-            else:
-                print(f"[Cache Bypass] Report for {target_date} is {age_hours:.2f} hours old. Regenerating...")
-        except Exception as e:
-            print(f"[Cache Warning] Failed checking file age: {e}")
+    # Premium users bypass this check to get a fresh calculation from 0
+    if not is_premium:
+        fp = REPORTS_DIR / f"{target_date}.json"
+        if fp.exists():
+            import time
+            try:
+                mtime = fp.stat().st_mtime
+                age_hours = (time.time() - mtime) / 3600.0
+                if age_hours < 3.0:
+                    job_id = f"cached_{target_date}"
+                    _jobs[job_id] = {
+                        "status": "done",
+                        "result": target_date,
+                        "type": "analysis",
+                        "target_date": target_date
+                    }
+                    return jsonify({"job_id": job_id})
+                else:
+                    print(f"[Cache Bypass] Report for {target_date} is {age_hours:.2f} hours old. Regenerating...")
+            except Exception as e:
+                print(f"[Cache Warning] Failed checking file age: {e}")
 
     # 2. Single-Job Lock: If a job is already calculating today's report, join it
     for j_id, job in _jobs.items():
@@ -598,6 +609,15 @@ def get_es_gamma_levels():
     if GAMMA_CACHE is None:
         load_disk_cache()
         
+    token = request.args.get("token") or request.headers.get("Authorization")
+    bypass_cache = request.args.get("bypass_cache") == "true"
+    
+    is_premium = False
+    if token:
+        user = get_user_by_token(token)
+        if user and user["subscription_status"] == "active":
+            is_premium = True
+            
     # Determine the target options session date in PKT timezone (Pakistan Standard Time)
     # The user requested updates to occur only after 6:00 PM PKT.
     try:
@@ -618,7 +638,12 @@ def get_es_gamma_levels():
     if GAMMA_CACHE is not None and GAMMA_CACHE.get("session_date") == current_session_date:
         already_fetched = True
         
-    if already_fetched:
+    use_cache = True
+    if is_premium and bypass_cache:
+        use_cache = False
+        print(f"[Gamma] Premium user triggered direct fetch from options analyzer. Bypassing caching.")
+        
+    if already_fetched and use_cache:
         # We already successfully loaded options levels for today. 
         # Just update the Spot Price in real time from yfinance and return! (Zero API cost)
         live_price = get_live_es_price()
@@ -629,7 +654,7 @@ def get_es_gamma_levels():
         
     # If we need a new session fetch, check if we had a fetch attempt recently.
     # We enforce a 30-minute cooling window on API calls if we're rate-limited to avoid burning other credits.
-    if GAMMA_CACHE_TIME is not None and (now - GAMMA_CACHE_TIME < 1800):
+    if use_cache and GAMMA_CACHE_TIME is not None and (now - GAMMA_CACHE_TIME < 1800):
         print("[Gamma] Within 30-minute API cooldown window. Serving cached version.")
         if GAMMA_CACHE is not None:
             live_price = get_live_es_price()
