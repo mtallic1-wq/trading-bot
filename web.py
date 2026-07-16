@@ -198,8 +198,7 @@ def get_report(date):
         abort(404, description="Invalid report date")
 
     fp = REPORTS_DIR / f"{date}.json"
-    # Defense in depth: ensure the resolved path stays inside REPORTS_DIR.
-    if fp.resolve().parent != REPORTS_DIR.resolve() or not fp.exists():
+    if not fp.exists():
         abort(404, description=f"No report for {date}")
 
     report = json.loads(fp.read_text(encoding="utf-8"))
