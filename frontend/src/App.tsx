@@ -143,7 +143,11 @@ export default function App() {
           
           if (activeJob.type === "analysis") {
             fetchReports();
-            loadReport(job.result);
+            if (job.result && typeof job.result === "object") {
+              renderReport(job.result);
+            } else {
+              loadReport(job.result);
+            }
           } else {
             setCurrentView("news");
             setLiveNewsData(job.result);
