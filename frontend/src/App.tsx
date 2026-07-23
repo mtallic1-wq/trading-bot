@@ -643,7 +643,7 @@ export default function App() {
                 >
                   <div className="border-b border-zinc-900 pb-4 relative z-10 mb-4">
                     <h3 className="text-sm font-semibold text-zinc-200 uppercase tracking-wider">
-                      Saved Signal Forecasts History
+                      Saved Analysis History
                     </h3>
                   </div>
                   

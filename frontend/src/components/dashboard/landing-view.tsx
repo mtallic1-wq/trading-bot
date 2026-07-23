@@ -22,7 +22,7 @@ export default function LandingView({ onSyncClick, onExploreClick, checkoutUrl }
         </h1>
 
         <p className="text-sm md:text-base text-zinc-400 leading-relaxed">
-          Get automated pre-market bias forecasts, daily Volume Profile setups, and S&P 500 options dealer hedging walls delivered to your inbox and phone before the opening bell.
+          Educational pre-market bias analysis, daily Volume Profile study setups, and S&P 500 options dealer-hedging levels — delivered to your inbox before the opening bell for market study and research.
         </p>
 
         {/* Call to Actions */}
@@ -102,9 +102,9 @@ export default function LandingView({ onSyncClick, onExploreClick, checkoutUrl }
             <Lock className="w-4 h-4" />
           </div>
           <div className="space-y-1.5 max-w-sm mx-auto">
-            <h4 className="text-xs font-bold text-zinc-200 uppercase tracking-wider">Premium Execution Strategies Locked</h4>
+            <h4 className="text-xs font-bold text-zinc-200 uppercase tracking-wider">Premium Educational Analysis Locked</h4>
             <p className="text-[10px] text-zinc-500 leading-relaxed">
-              Exact trigger levels, VAH/VAL fade conditions, SPX Call Wall ceilings, SPX Put Wall floors, and daily AI game plans are hidden.
+              Detailed reference levels, VAH/VAL study conditions, SPX Call Wall and Put Wall zones, and daily AI analysis breakdowns are hidden.
             </p>
           </div>
           <a
@@ -153,9 +153,9 @@ export default function LandingView({ onSyncClick, onExploreClick, checkoutUrl }
             <div className="w-7 h-7 rounded-lg bg-purple-950/20 border border-purple-900/30 flex items-center justify-center text-purple-400">
               <BookOpen className="w-4 h-4" />
             </div>
-            <h3 className="text-xs font-bold text-zinc-200 uppercase tracking-wider">10 Strategy Setup Playbooks</h3>
+            <h3 className="text-xs font-bold text-zinc-200 uppercase tracking-wider">10 Strategy Study Playbooks</h3>
             <p className="text-[11px] text-zinc-500 leading-relaxed">
-              Unlock our professional Volume Profile and Option Gamma trading manuals featuring strict execution notes and invalidation triggers.
+              Learn from our educational Volume Profile and Option Gamma study manuals featuring detailed analysis notes and example scenarios.
             </p>
           </div>
 
@@ -170,6 +170,13 @@ export default function LandingView({ onSyncClick, onExploreClick, checkoutUrl }
             </p>
           </div>
         </div>
+      </div>
+
+      {/* 4. DISCLAIMER FOOTER */}
+      <div className="border-t border-zinc-900 pt-6 mt-4">
+        <p className="text-[10px] text-zinc-600 leading-relaxed text-center max-w-2xl mx-auto">
+          <span className="font-semibold text-zinc-500">For educational and informational purposes only. Not financial advice.</span> All content is general market analysis and study material based on publicly available data. We do not provide personalized investment advice, do not execute trades, and do not hold or manage customer funds. Trading futures and options involves substantial risk of loss. You are solely responsible for your own trading decisions. Past performance is not indicative of future results.
+        </p>
       </div>
 
     </div>
