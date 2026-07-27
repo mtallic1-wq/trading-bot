@@ -61,6 +61,9 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
       const json = await res.json();
       if (res.ok && json.levels) {
         setData(json);
+        if (json.warning) {
+          setStaleWarning(json.warning);
+        }
       } else if (data) {
         setStaleWarning(json.error || "API temporarily unavailable. Showing most recent cached data.");
       } else {
