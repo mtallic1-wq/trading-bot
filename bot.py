@@ -15,7 +15,7 @@ if sys.platform == "win32":
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
-from config import NQ_TICKER, GROQ_API_KEY, REPORTS_DIR
+from config import NQ_TICKER, GROQ_API_KEY, REPORTS_DIR, PERSISTENT_DIR
 from analysis.market_structure import get_instrument_data, get_macro_data
 from analysis.bias_engine import get_bias, build_prompt
 from analysis.playbook_matcher import get_playbook_match
@@ -35,8 +35,56 @@ STEPS = [
     "Fetching TradingView news & economic calendar...",
     "Analysing multi-timeframe market structure (D/4H/1H/15m)...",
     "Reading live chart levels from TradingView Desktop...",
+    "Fetching NQ Options Gamma Levels...",
     "Running AI analysis...",
 ]
+
+def fetch_nq_gamma_levels_for_bot():
+    import json
+    import os
+    import time
+    import requests
+    from config import FLASHALPHA_API_KEY
+    
+    cache_path = PERSISTENT_DIR / "storage" / "nq_gamma_cache.json"
+    
+    if cache_path.exists():
+        try:
+            mtime = cache_path.stat().st_mtime
+            # If cache is less than 15 minutes old, use it
+            if (time.time() - mtime) < 900:
+                with open(cache_path, "r") as f:
+                    console.print("[dim][Bot NQ Gamma] Using fresh disk cache.[/]")
+                    return json.load(f)
+        except Exception as e:
+            console.print(f"[dim][Bot NQ Gamma Cache Error] {e}[/]")
+            
+    headers = {"X-Api-Key": FLASHALPHA_API_KEY, "Accept": "application/json"}
+    url = "https://lab.flashalpha.com/v1/exposure/levels/NQ=F"
+    try:
+        r = requests.get(url, headers=headers, timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            # Save to disk cache
+            cache_path.parent.mkdir(exist_ok=True)
+            with open(cache_path, "w") as f:
+                json.dump(data, f)
+            console.print("[dim][Bot NQ Gamma] Successfully fetched and cached NQ levels.[/]")
+            return data
+        else:
+            # Try loading stale cache if API failed
+            if cache_path.exists():
+                with open(cache_path, "r") as f:
+                    console.print(f"[dim][Bot NQ Gamma API Error] status {r.status_code}. Using stale disk cache.[/]")
+                    return json.load(f)
+            return {"error": f"FlashAlpha NQ API returned status {r.status_code}"}
+    except Exception as e:
+        # Try loading stale cache on network exception
+        if cache_path.exists():
+            with open(cache_path, "r") as f:
+                console.print(f"[dim][Bot NQ Gamma API Exception] {e}. Using stale disk cache.[/]")
+                return json.load(f)
+        return {"error": str(e)}
 
 
 class TradingBot:
@@ -77,6 +125,7 @@ class TradingBot:
                 (STEPS[4], "tradingview",     lambda: get_all_tradingview_data(date_str)),
                 (STEPS[5], "price_action",    lambda: get_multi_tf_analysis(NQ_TICKER)),
                 (STEPS[6], "tv_live",         get_live_chart_data),
+                (STEPS[7], "gamma_nq",        fetch_nq_gamma_levels_for_bot),
             ]:
                 progress.update(task, description=step)
                 try:
@@ -86,7 +135,7 @@ class TradingBot:
                     errors.append(f"{key}: {e}")
                 progress.advance(task)
 
-            progress.update(task, description=STEPS[7])
+            progress.update(task, description=STEPS[8])
             try:
                 analysis = get_bias(
                     data.get("nq", {}),
@@ -97,6 +146,7 @@ class TradingBot:
                     date_str,
                     price_action=data.get("price_action", {}),
                     tv_live=data.get("tv_live", {}),
+                    gamma_nq=data.get("gamma_nq", {}),
                 )
             except Exception as e:
                 analysis = {
@@ -132,6 +182,7 @@ class TradingBot:
             "tradingview":   data.get("tradingview", {}),
             "price_action":  data.get("price_action", {}),
             "tv_live":       data.get("tv_live", {}),
+            "gamma_nq":      data.get("gamma_nq", {}),
             "analysis":      analysis,
             "playbook":      playbook,
             "errors":        errors,
@@ -149,6 +200,7 @@ class TradingBot:
             date_str,
             price_action=data.get("price_action", {}),
             tv_live=data.get("tv_live", {}),
+            gamma_nq=data.get("gamma_nq", {}),
         )
         prompt_path = REPORTS_DIR / f"{date_str}.txt"
         prompt_path.write_text(prompt_text, encoding="utf-8")

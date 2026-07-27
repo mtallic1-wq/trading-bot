@@ -11,10 +11,10 @@ from analysis.price_action import format_for_prompt as format_pa
 from scrapers.tradingview_live import format_for_prompt as format_tv_live
 
 SYSTEM_PROMPT = """You are a professional futures trader and market analyst specialising in NQ (Nasdaq-100 futures).
-Your job is to analyse market structure across multiple timeframes combined with macro and news data
+Your job is to analyse market structure across multiple timeframes combined with options gamma levels, macro, and news data
 to determine whether the NYSE session will be predominantly BULLISH (buy side) or BEARISH (sell side) for NQ.
 
-Your analysis uses two equally weighted pillars:
+Your analysis uses four equally weighted pillars:
 
 PILLAR 1 — MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action):
 - Read market structure top-down: Daily → 4H → 1H → 15m
@@ -31,19 +31,24 @@ PILLAR 2 — MACRO & NEWS:
 - Economic calendar: actual vs forecast results
 - Overall news sentiment
 
-PILLAR 3 — TRADER'S CHART KEY LEVELS (TradingView Desktop):
+PILLAR 3 — OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries):
+- Evaluate Zero-Gamma Flip, Call Wall (Ceiling), Put Wall (Floor), and 0DTE Magnet.
+- Spot above Zero-Gamma Flip = Positive Gamma (+GEX) regime. Volatility is dampened, supporting mean reversion, fade setups, and support/resistance walls.
+- Spot below Zero-Gamma Flip = Negative Gamma (-GEX) regime. Volatility is expanded, supporting breakout runs, trend extensions, and high-risk setups.
+
+PILLAR 4 — TRADER'S CHART KEY LEVELS (TradingView Desktop):
 - Supply/demand zones the trader has manually drawn as rectangles (these are the trader's own key areas)
 - Named horizontal levels (e.g., "VAH+low volume", previous highs/lows)
 - Trend line directions drawn on the chart
 - The trader's own long/short position markers (show where they see entries/targets)
 - Price being INSIDE a drawn zone = high significance
 
-COMBINING ALL THREE PILLARS:
-- When structure AND macro/news AND chart levels all agree → HIGH confidence bias
-- When structure is bullish but news is bearish → reduce confidence, note the conflict
-- When price is at or near a drawn zone → that level becomes critical context
-- When structure is ranging/neutral → let macro/news drive the bias
-- Always reference the nearest key levels above and below current price
+COMBINING ALL PILLARS:
+- When structure AND macro/news AND options gamma regime AND chart levels all agree → HIGH confidence bias
+- When structure is bullish but news/GEX is bearish → reduce confidence, note the conflict
+- When price is at options walls or drawn zones → those levels become critical execution boundaries
+- When structure is ranging/neutral → let macro/news and Options Gamma drive the bias
+- Always reference the nearest key levels (previous highs/lows and Options Walls) above and below current price
 
 Output your analysis in this exact format:
 
@@ -65,7 +70,10 @@ Output your analysis in this exact format:
 [Analyse each timeframe: Daily, 4H, 1H, 15m]
 [For each: state structure (BULLISH/BEARISH/RANGING), note any BOS or CHoCH, nearest resistance/support]
 [State overall multi-TF bias and alignment level]
-[This is a primary driver alongside macro/news]
+
+## OPTIONS GAMMA ANALYSIS (GEX)
+[Discuss current NQ Spot location relative to Zero-Gamma Flip, Call Wall, and Put Wall]
+[Explain active Volatility Regime (+GEX or -GEX) and expected trading characteristics for today]
 
 ## PREDICTION
 **NYSE SESSION SIDE: [BUY SIDE / SELL SIDE / NEUTRAL]**
@@ -78,7 +86,7 @@ Output your analysis in this exact format:
 **Confidence: [X]% — [HIGH/MEDIUM/LOW]**
 
 ## TOP REASONS
-1. [Most important reason — news/macro based]
+1. [Most important reason — news/macro/GEX based]
 2. [Second reason]
 3. [Third reason]
 
@@ -88,7 +96,7 @@ Output your analysis in this exact format:
 
 ## WHAT TO WATCH DURING NYSE SESSION
 - [Specific news or data releases to watch]
-- [Key NQ price levels: previous day high/low, weekly high/low, any key round numbers]
+- [Key NQ price levels: Options walls, previous day high/low, weekly high/low, any key round numbers]
 - [Any scheduled events during session hours]
 
 ## ONE-LINE SUMMARY
@@ -109,7 +117,8 @@ IMPORTANT RULES:
 def build_prompt(nq: Dict, macro: Dict, yahoo: Dict,
                  worldmonitor: Dict, tradingview: Dict, date_str: str,
                  price_action: Optional[Dict] = None,
-                 tv_live: Optional[Dict] = None) -> str:
+                 tv_live: Optional[Dict] = None,
+                 gamma_nq: Optional[Dict] = None) -> str:
 
     # Macro section
     macro_lines = []
@@ -175,6 +184,26 @@ def build_prompt(nq: Dict, macro: Dict, yahoo: Dict,
     # Live TradingView chart key levels
     tv_live_text = format_tv_live(tv_live) if tv_live else "  TradingView Desktop not connected"
 
+    # Options Gamma (NQ)
+    gamma_nq_text = "  NQ Options Gamma data unavailable"
+    if gamma_nq and "levels" in gamma_nq:
+        g_levels = gamma_nq.get("levels", {})
+        spot = gamma_nq.get("underlying_price", 0)
+        flip = g_levels.get("gamma_flip", 0)
+        call_wall = g_levels.get("call_wall", 0)
+        put_wall = g_levels.get("put_wall", 0)
+        magnet = g_levels.get("zero_dte_magnet", "None")
+        is_positive = spot > flip if (spot and flip) else True
+        
+        gamma_nq_text = (
+            f"  Spot Price: {spot:.2f}\n"
+            f"  Zero-Gamma Flip: {flip:.2f}\n"
+            f"  Call Wall (Ceiling): {call_wall:.2f}\n"
+            f"  Put Wall (Floor): {put_wall:.2f}\n"
+            f"  0DTE Magnet Strike: {magnet}\n"
+            f"  Active Volatility Regime: {'⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.' if is_positive else '⚠️ Negative Gamma (-GEX) - Volatility expanded. Trend extension and dealer hedging loops active.'}"
+        )
+
     return f"""ANALYSIS DATE: {date_str}
 TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
 
@@ -183,6 +212,9 @@ TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
 
 === NQ — Nasdaq-100 Futures ===
 {inst_summary(nq)}
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+{gamma_nq_text}
 
 === YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
 {yahoo_lines}
@@ -202,7 +234,7 @@ TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
 === TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
 {tv_live_text}
 
-Based on ALL the above — news, macro, multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on {date_str}.
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on {date_str}.
 """
 
 
@@ -237,10 +269,11 @@ def _call_gemini(prompt: str) -> Optional[str]:
 def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
              worldmonitor: Dict, tradingview: Dict, date_str: str,
              price_action: Optional[Dict] = None,
-             tv_live: Optional[Dict] = None) -> Dict:
+             tv_live: Optional[Dict] = None,
+             gamma_nq: Optional[Dict] = None) -> Dict:
 
     prompt = build_prompt(nq, macro, yahoo, worldmonitor, tradingview, date_str,
-                          price_action=price_action, tv_live=tv_live)
+                          price_action=price_action, tv_live=tv_live, gamma_nq=gamma_nq)
 
     # 1. Try Groq (Llama 3.3 70B) first
     if GROQ_API_KEY:
@@ -291,20 +324,20 @@ def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
             print(f"[Gemini Failover Error] failed: {e}")
 
     # 3. Simple rule fallback if both APIs fail/are not set
-    fb = _simple_fallback(nq, macro, yahoo)
+    fb = _simple_fallback(nq, macro, yahoo, gamma_nq)
     return {
         "analysis": (
             "LLM API synthesis unavailable — using simple rule-based fallback.\n\n" + fb
         ),
-        "bias_nq":  _rule_bias(nq, macro),
-        "side":     _rule_side(nq, macro),
+        "bias_nq":  _rule_bias(nq, macro, gamma_nq),
+        "side":     _rule_side(nq, macro, gamma_nq),
         "source":   "Rule-based (fallback)",
     }
 
 
 # ── Simple rule-based fallback ────────────────────────────────────────────────
 
-def _rule_bias(inst: Dict, macro: Dict) -> str:
+def _rule_bias(inst: Dict, macro: Dict, gamma_nq: Optional[Dict] = None) -> str:
     if inst.get("error"):
         return "NEUTRAL"
     trend   = inst.get("trend", "SIDEWAYS")
@@ -326,19 +359,30 @@ def _rule_bias(inst: Dict, macro: Dict) -> str:
     except (TypeError, ValueError):
         pass
 
+    # Gamma GEX confluence: Above flip (+GEX) supports stability/longs, below flip (-GEX) expands selloffs
+    if gamma_nq and "levels" in gamma_nq:
+        g_levels = gamma_nq.get("levels", {})
+        spot = gamma_nq.get("underlying_price", 0)
+        flip = g_levels.get("gamma_flip", 0)
+        if spot and flip:
+            if spot > flip:
+                score += 1
+            else:
+                score -= 1
+
     if score >= 2:  return "BULLISH"
     if score <= -2: return "BEARISH"
     return "NEUTRAL"
 
 
-def _rule_side(nq: Dict, macro: Dict) -> str:
-    b = _rule_bias(nq, macro)
+def _rule_side(nq: Dict, macro: Dict, gamma_nq: Optional[Dict] = None) -> str:
+    b = _rule_bias(nq, macro, gamma_nq)
     if b == "BULLISH": return "BUY SIDE"
     if b == "BEARISH": return "SELL SIDE"
     return "NEUTRAL"
 
 
-def _simple_fallback(nq: Dict, macro: Dict, yahoo: Dict) -> str:
+def _simple_fallback(nq: Dict, macro: Dict, yahoo: Dict, gamma_nq: Optional[Dict] = None) -> str:
     dxy  = macro.get("DXY (Dollar Index)", {})
     vix  = macro.get("VIX (Fear Index)", {})
     tnx  = macro.get("10Y Treasury Yield", {})
@@ -360,8 +404,16 @@ def _simple_fallback(nq: Dict, macro: Dict, yahoo: Dict) -> str:
         else "MIXED"
     )
 
-    b_nq  = _rule_bias(nq, macro)
-    side  = _rule_side(nq, macro)
+    b_nq  = _rule_bias(nq, macro, gamma_nq)
+    side  = _rule_side(nq, macro, gamma_nq)
+
+    gamma_text = "N/A"
+    if gamma_nq and "levels" in gamma_nq:
+        g_levels = gamma_nq.get("levels", {})
+        spot = gamma_nq.get("underlying_price", 0)
+        flip = g_levels.get("gamma_flip", 0)
+        regime = "Positive Gamma (+GEX)" if (spot and flip and spot > flip) else "Negative Gamma (-GEX)" if (spot and flip) else "N/A"
+        gamma_text = f"Spot: {spot:.2f} | Flip: {flip:.2f} ({regime})"
 
     news_sample = "\n".join(
         f"  - {n['title']}" for n in yahoo.get("items", [])[:8]
@@ -384,6 +436,7 @@ def _simple_fallback(nq: Dict, macro: Dict, yahoo: Dict) -> str:
         "",
         "## NQ Market Context",
         f"- NQ: {nq.get('trend','?')} | Price: {nq.get('current_price','?')} | 1D: {nq.get('performance',{}).get('1d_pct','?')}% | 5D: {nq.get('performance',{}).get('5d_pct','?')}%",
+        f"- NQ Options Gamma: {gamma_text}",
         "",
         "---",
         "## NYSE SESSION PREDICTION",

@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import { Zap, Shield, RefreshCw, AlertTriangle, HelpCircle, BookOpen, ExternalLink, Sparkles, Cpu } from "lucide-react";
 
-export default function GammaLevelsView({ setView, hasEsPlaybook, token }: { 
+export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook, token }: { 
   setView?: (view: any) => void;
   hasEsPlaybook: boolean;
+  hasNqPlaybook: boolean;
   token: string;
 }) {
+  const [symbol, setSymbol] = useState<"ES" | "NQ">("ES");
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string>("");
@@ -16,16 +18,18 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
   const [aiError, setAiError] = useState<string>("");
 
   useEffect(() => {
+    setAiPlan("");
     if (data && data.ai_plan) {
       setAiPlan(data.ai_plan);
     }
-  }, [data]);
+  }, [data, symbol]);
 
   const generateAiPlan = async () => {
     setAiLoading(true);
     setAiError("");
     try {
-      const res = await fetch(`/api/gamma/es/plan?token=${token}`);
+      const planEndpoint = symbol === "NQ" ? "/api/gamma/nq/plan" : "/api/gamma/es/plan";
+      const res = await fetch(`${planEndpoint}?token=${token}`);
       const json = await res.json();
       if (res.ok && json.success) {
         setAiPlan(json.plan);
@@ -41,7 +45,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
 
   const [staleWarning, setStaleWarning] = useState<string>("");
 
-  const fetchLevels = async (isRef = false) => {
+  const fetchLevels = async (isRef = false, targetSymbol = symbol) => {
     if (isRef) setRefreshing(true);
     else setLoading(true);
     setError("");
@@ -51,16 +55,16 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
       if (token) queryParams.set("token", token);
       if (isRef) queryParams.set("bypass_cache", "true");
       
-      const url = `/api/gamma/es?${queryParams.toString()}`;
+      const endpoint = targetSymbol === "NQ" ? "/api/gamma/nq" : "/api/gamma/es";
+      const url = `${endpoint}?${queryParams.toString()}`;
       const res = await fetch(url);
       const json = await res.json();
       if (res.ok && json.levels) {
         setData(json);
       } else if (data) {
-        // We already have previous data — show it with a warning instead of error screen
         setStaleWarning(json.error || "API temporarily unavailable. Showing most recent cached data.");
       } else {
-        setError(json.error || "Failed to load ES Gamma Levels.");
+        setError(json.error || `Failed to load ${targetSymbol} Gamma Levels.`);
       }
     } catch (e: any) {
       if (data) {
@@ -75,14 +79,15 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
   };
 
   useEffect(() => {
-    fetchLevels();
-  }, []);
+    setData(null);
+    fetchLevels(false, symbol);
+  }, [symbol]);
 
   if (loading) {
     return (
       <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-12 flex flex-col items-center justify-center space-y-4 min-h-[450px]">
         <RefreshCw className="w-8 h-8 text-cyan-400 animate-spin" />
-        <span className="text-xs text-zinc-500 font-mono tracking-wider">Fetching live S&P 500 options boundaries...</span>
+        <span className="text-xs text-zinc-500 font-mono tracking-wider">Fetching live {symbol === "NQ" ? "Nasdaq-100" : "S&P 500"} options boundaries...</span>
       </div>
     );
   }
@@ -90,10 +95,32 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
   if (error || !data) {
     return (
       <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-12 flex flex-col items-center justify-center space-y-4 text-center min-h-[450px]">
+        <div className="flex bg-zinc-900 border border-zinc-800 rounded-lg p-0.5 font-mono text-[10px] mb-2">
+          <button
+            onClick={() => setSymbol("ES")}
+            className={`px-2 py-1 rounded transition-colors ${
+              symbol === "ES" 
+                ? "bg-purple-950/40 text-purple-400 font-bold border border-purple-900/30" 
+                : "text-zinc-500 hover:text-zinc-300"
+            }`}
+          >
+            ES
+          </button>
+          <button
+            onClick={() => setSymbol("NQ")}
+            className={`px-2 py-1 rounded transition-colors ${
+              symbol === "NQ" 
+                ? "bg-purple-950/40 text-purple-400 font-bold border border-purple-900/30" 
+                : "text-zinc-500 hover:text-zinc-300"
+            }`}
+          >
+            NQ
+          </button>
+        </div>
         <AlertTriangle className="w-10 h-10 text-amber-500" />
-        <h4 className="text-zinc-200 text-sm font-semibold uppercase tracking-wider">ES Gamma Engine Offline</h4>
+        <h4 className="text-zinc-200 text-sm font-semibold uppercase tracking-wider">{symbol} Gamma Engine Offline</h4>
         <p className="text-xs text-zinc-500 max-w-sm leading-relaxed">
-          {error || "Unable to establish connection with the options exposure analyzer. Make sure your API key is correctly configured."}
+          {error || `Unable to establish connection with the ${symbol} options exposure analyzer. Make sure your API key is correctly configured.`}
         </p>
         <button
           onClick={() => fetchLevels()}
@@ -117,16 +144,44 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
   const rangeWidth = Math.max(1, callWall - putWall);
   const spotPercent = Math.min(100, Math.max(0, ((spot - putWall) / rangeWidth) * 100));
 
+  const isUnlocked = symbol === "NQ" ? hasNqPlaybook : hasEsPlaybook;
+
   return (
     <div className="space-y-6 select-none font-sans pb-10">
       
       {/* Top Banner / Tab Meta */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-zinc-900 pb-4 gap-4">
         <div>
-          <h2 className="text-base font-semibold text-zinc-100 flex items-center gap-2">
-            <Zap className="w-5 h-5 text-cyan-400" />
-            <span>S&P 500 Options Gamma Boundaries (ES)</span>
-          </h2>
+          <div className="flex items-center gap-3">
+            <h2 className="text-base font-semibold text-zinc-100 flex items-center gap-2">
+              <Zap className="w-5 h-5 text-cyan-400" />
+              <span>{symbol === "NQ" ? "Nasdaq-100" : "S&P 500"} Options Gamma Boundaries ({symbol})</span>
+            </h2>
+            
+            {/* Symbol Toggle Selector */}
+            <div className="flex bg-zinc-900 border border-zinc-800 rounded-lg p-0.5 font-mono text-[10px]">
+              <button
+                onClick={() => setSymbol("ES")}
+                className={`px-2 py-1 rounded transition-colors ${
+                  symbol === "ES" 
+                    ? "bg-purple-950/40 text-purple-400 font-bold border border-purple-900/30" 
+                    : "text-zinc-500 hover:text-zinc-300"
+                }`}
+              >
+                ES
+              </button>
+              <button
+                onClick={() => setSymbol("NQ")}
+                className={`px-2 py-1 rounded transition-colors ${
+                  symbol === "NQ" 
+                    ? "bg-purple-950/40 text-purple-400 font-bold border border-purple-900/30" 
+                    : "text-zinc-500 hover:text-zinc-300"
+                }`}
+              >
+                NQ
+              </button>
+            </div>
+          </div>
           <span className="text-[11px] text-zinc-500 mt-1 block">
             Real-time mechanical support, resistance, and pinning thresholds derived from options open interest.
           </span>
@@ -167,7 +222,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
         {/* Spot Price Widget */}
         <div className="bg-zinc-900/30 border border-zinc-900 rounded-2xl p-6 flex flex-col justify-center relative overflow-hidden">
           <div className="absolute top-0 right-0 w-24 h-24 bg-cyan-500/5 rounded-full blur-2xl -z-10" />
-          <span className="text-[10px] uppercase font-mono tracking-wider text-zinc-500">ES Spot Price</span>
+          <span className="text-[10px] uppercase font-mono tracking-wider text-zinc-500">{symbol} Spot Price</span>
           <span className="text-3xl font-extrabold text-zinc-100 font-mono tracking-tight mt-2">
             {spot.toFixed(2)}
           </span>
@@ -297,7 +352,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
         <div className="space-y-1 text-center md:text-left">
           <h4 className="text-xs font-bold text-zinc-100 flex items-center justify-center md:justify-start gap-2">
             <BookOpen className="w-4 h-4 text-purple-400" />
-            <span>Unlock the Complete ES Options Gamma Playbook Manual</span>
+            <span>Unlock the Complete {symbol} Options Gamma Playbook Manual</span>
           </h4>
           <p className="text-[11px] text-zinc-400 max-w-xl leading-relaxed">
             Get structural trade setups, rules-based entries, targets, and exit parameters for all Gamma wall interactions. Completely optimized for prop-firm risk management.
@@ -368,18 +423,18 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
       </div>
 
       {/* 4. PREMIUM AI PREMARKET PLANNER */}
-      {!hasEsPlaybook ? (
+      {!isUnlocked ? (
         /* Locked Teaser Card */
         <div className="relative overflow-hidden rounded-2xl border border-zinc-900 bg-zinc-950 p-6 flex flex-col md:flex-row items-center justify-between gap-6 shadow-md select-none">
           <div className="absolute top-0 left-0 w-32 h-32 bg-purple-500/5 rounded-full blur-3xl -z-10" />
           <div className="space-y-1.5 text-center md:text-left">
             <h4 className="text-xs font-bold text-zinc-300 uppercase tracking-wider flex items-center justify-center md:justify-start gap-1.5">
               <Cpu className="w-4 h-4 text-zinc-500" />
-              <span>AI Premarket Trade Planner</span>
+              <span>AI Premarket Trade Planner ({symbol})</span>
               <span className="text-[9px] px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-500 uppercase tracking-widest font-mono">Premium</span>
             </h4>
             <p className="text-xs text-zinc-500 max-w-xl leading-relaxed">
-              Unlock the **ES Gamma Playbook** to activate custom AI-generated premarket plans mapped directly to today's support, resistance, and pinning walls.
+              Unlock the **{symbol === "NQ" ? "Volume Profile Playbook" : "ES Gamma Playbook"}** to activate custom AI-generated premarket plans mapped directly to today's support, resistance, and pinning walls.
             </p>
           </div>
           <button
@@ -397,7 +452,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
             <div className="space-y-1">
               <h4 className="text-xs font-bold text-zinc-200 uppercase tracking-wider flex items-center gap-2">
                 <Sparkles className="w-4 h-4 text-purple-400" />
-                <span>Premium AI Premarket Trade Planner</span>
+                <span>Premium AI Premarket Trade Planner ({symbol})</span>
               </h4>
               <span className="text-[10px] text-zinc-500 block">
                 Generates a tactical trade setup plan around today's active options boundaries.
@@ -432,7 +487,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
               <div className="space-y-1">
                 <h5 className="text-xs font-semibold text-zinc-300 uppercase">Generate Today's Action Plan</h5>
                 <p className="text-[11px] text-zinc-500 leading-relaxed">
-                  Synthesize S&P 500 options boundaries with playbook trade strategies. AI will map out specific "If/Then" triggers for today's trading session.
+                  Synthesize {symbol === "NQ" ? "Nasdaq-100" : "S&P 500"} options boundaries with playbook trade strategies. AI will map out specific "If/Then" triggers for today's trading session.
                 </p>
               </div>
               <button
@@ -468,11 +523,10 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, token }: {
         <div className="space-y-1">
           <h4 className="font-semibold text-zinc-200 uppercase tracking-wider text-[11px]">Help / Quick Legend</h4>
           <p className="leading-relaxed">
-            The values display daily options hedging triggers. Market makers adjust their positions dynamically, causing the S&P 500 spot index to encounter structural friction at the Call/Put Walls, and switch regimes at the Zero-Gamma Flip. Unlocking the <b>ES Gamma Playbook</b> inside the Playbook Library will provide complete, rules-based entry guides for these triggers.
+            The values display daily options hedging triggers. Market makers adjust their positions dynamically, causing the {symbol === "NQ" ? "Nasdaq-100" : "S&P 500"} spot index to encounter structural friction at the Call/Put Walls, and switch regimes at the Zero-Gamma Flip. Unlocking the <b>{symbol === "NQ" ? "Volume Profile Playbook" : "ES Gamma Playbook"}</b> inside the Playbook Library will provide complete, rules-based entry guides for these triggers.
           </p>
         </div>
       </div>
-
     </div>
   );
 }

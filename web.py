@@ -561,26 +561,51 @@ if os.path.exists(GAMMA_DISK_CACHE_PATH):
     try:
         with open(GAMMA_DISK_CACHE_PATH, "r") as f:
             GAMMA_CACHE = json.load(f)
-            print(f"[Gamma] Loaded disk cache on startup (session: {GAMMA_CACHE.get('session_date', 'unknown')})")
+            print(f"[Gamma] Loaded ES disk cache on startup (session: {GAMMA_CACHE.get('session_date', 'unknown')})")
     except Exception as e:
-        print(f"[Gamma] Startup disk cache load failed: {e}")
+        print(f"[Gamma] Startup ES disk cache load failed: {e}")
+
+NQ_GAMMA_CACHE = None
+NQ_GAMMA_CACHE_TIME = None
+NQ_GAMMA_DISK_CACHE_PATH = os.path.join(os.path.dirname(__file__), "storage", "nq_gamma_cache.json")
+
+# Eagerly load NQ disk cache on startup so we always have a fallback
+if os.path.exists(NQ_GAMMA_DISK_CACHE_PATH):
+    try:
+        with open(NQ_GAMMA_DISK_CACHE_PATH, "r") as f:
+            NQ_GAMMA_CACHE = json.load(f)
+            print(f"[Gamma] Loaded NQ disk cache on startup (session: {NQ_GAMMA_CACHE.get('session_date', 'unknown')})")
+    except Exception as e:
+        print(f"[Gamma] Startup NQ disk cache load failed: {e}")
 
 def load_disk_cache():
-    global GAMMA_CACHE
+    global GAMMA_CACHE, NQ_GAMMA_CACHE
     if os.path.exists(GAMMA_DISK_CACHE_PATH):
         try:
             with open(GAMMA_DISK_CACHE_PATH, "r") as f:
                 GAMMA_CACHE = json.load(f)
         except Exception as e:
-            print(f"[Gamma] Error reading disk cache: {e}")
+            print(f"[Gamma] Error reading ES disk cache: {e}")
+            
+    if os.path.exists(NQ_GAMMA_DISK_CACHE_PATH):
+        try:
+            with open(NQ_GAMMA_DISK_CACHE_PATH, "r") as f:
+                NQ_GAMMA_CACHE = json.load(f)
+        except Exception as e:
+            print(f"[Gamma] Error reading NQ disk cache: {e}")
 
-def save_disk_cache(data):
+def save_disk_cache(data, symbol="ES=F"):
     try:
-        os.makedirs(os.path.dirname(GAMMA_DISK_CACHE_PATH), exist_ok=True)
-        with open(GAMMA_DISK_CACHE_PATH, "w") as f:
-            json.dump(data, f)
+        if symbol == "NQ=F":
+            os.makedirs(os.path.dirname(NQ_GAMMA_DISK_CACHE_PATH), exist_ok=True)
+            with open(NQ_GAMMA_DISK_CACHE_PATH, "w") as f:
+                json.dump(data, f)
+        else:
+            os.makedirs(os.path.dirname(GAMMA_DISK_CACHE_PATH), exist_ok=True)
+            with open(GAMMA_DISK_CACHE_PATH, "w") as f:
+                json.dump(data, f)
     except Exception as e:
-        print(f"[Gamma] Error writing disk cache: {e}")
+        print(f"[Gamma] Error writing {symbol} disk cache: {e}")
 
 def get_live_es_price():
     try:
@@ -597,6 +622,23 @@ def get_live_es_price():
             return hist['Close'].iloc[-1]
     except Exception as e:
         print(f"[Gamma] Error fetching live ES=F history: {e}")
+    return None
+
+def get_live_nq_price():
+    try:
+        ticker = yf.Ticker("NQ=F")
+        price = ticker.fast_info.last_price
+        if price:
+            return price
+    except Exception as e:
+        print(f"[Gamma] Error fetching live NQ=F from yfinance fast_info: {e}")
+    try:
+        ticker = yf.Ticker("NQ=F")
+        hist = ticker.history(period="1d")
+        if not hist.empty:
+            return hist['Close'].iloc[-1]
+    except Exception as e:
+        print(f"[Gamma] Error fetching live NQ=F history: {e}")
     return None
 
 @app.route("/api/gamma/es")
@@ -830,6 +872,237 @@ def get_es_gamma_ai_plan():
     GAMMA_CACHE["ai_plan"] = plan_text
     GAMMA_CACHE["ai_plan_date"] = current_session_date
     save_disk_cache(GAMMA_CACHE)
+    
+    return jsonify({"success": True, "plan": plan_text})
+
+
+@app.route("/api/gamma/nq")
+def get_nq_gamma_levels():
+    global NQ_GAMMA_CACHE, NQ_GAMMA_CACHE_TIME
+    now = time.time()
+    
+    # Try loading disk cache if memory cache is empty
+    if NQ_GAMMA_CACHE is None:
+        load_disk_cache()
+        
+    token = request.args.get("token") or request.headers.get("Authorization")
+    bypass_cache = request.args.get("bypass_cache") == "true"
+    
+    is_premium = False
+    if token:
+        user = get_user_by_token(token)
+        if user and user["subscription_status"] == "active":
+            is_premium = True
+            
+    # Determine the target options session date in PKT timezone (Pakistan Standard Time)
+    try:
+        tz = pytz.timezone("Asia/Karachi")
+        now_pkt = datetime.now(tz)
+    except Exception as e:
+        print(f"[Gamma NQ] Timezone lookup failed: {e}. Falling back to UTC.")
+        now_pkt = datetime.utcnow()
+        
+    if now_pkt.hour >= 18:
+        current_session_date = now_pkt.strftime("%Y-%m-%d")
+    else:
+        yesterday_pkt = now_pkt - timedelta(days=1)
+        current_session_date = yesterday_pkt.strftime("%Y-%m-%d")
+        
+    # Check if we already have the successful levels for the current active options session
+    already_fetched = False
+    if NQ_GAMMA_CACHE is not None and NQ_GAMMA_CACHE.get("session_date") == current_session_date:
+        already_fetched = True
+        
+    use_cache = True
+    if is_premium and bypass_cache:
+        use_cache = False
+        print(f"[Gamma NQ] Premium user triggered direct fetch from options analyzer. Bypassing caching.")
+        
+    if already_fetched and use_cache:
+        live_price = get_live_nq_price()
+        if live_price:
+            NQ_GAMMA_CACHE["underlying_price"] = live_price
+            NQ_GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
+        return jsonify(NQ_GAMMA_CACHE)
+        
+    # If we need a new session fetch, check if we had a fetch attempt recently.
+    if use_cache and NQ_GAMMA_CACHE_TIME is not None and (now - NQ_GAMMA_CACHE_TIME < 1800):
+        print("[Gamma NQ] Within 30-minute API cooldown window. Serving cached version.")
+        if NQ_GAMMA_CACHE is not None:
+            live_price = get_live_nq_price()
+            if live_price:
+                NQ_GAMMA_CACHE["underlying_price"] = live_price
+                NQ_GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
+            return jsonify(NQ_GAMMA_CACHE)
+            
+    # Query FlashAlpha API for NQ
+    api_key = os.environ.get("FLASHALPHA_API_KEY", "")
+    headers = {"X-Api-Key": api_key, "Accept": "application/json"}
+    url = "https://lab.flashalpha.com/v1/exposure/levels/NQ=F"
+    
+    try:
+        r = requests.get(url, headers=headers, timeout=10)
+        NQ_GAMMA_CACHE_TIME = now
+        
+        if r.status_code == 200:
+            data = r.json()
+            data["session_date"] = current_session_date
+            NQ_GAMMA_CACHE = data
+            save_disk_cache(data, symbol="NQ=F")
+            return jsonify(data)
+        else:
+            print(f"[Gamma NQ] FlashAlpha API returned {r.status_code}. Using cache.")
+            if NQ_GAMMA_CACHE is not None:
+                live_price = get_live_nq_price()
+                if live_price:
+                    NQ_GAMMA_CACHE["underlying_price"] = live_price
+                    NQ_GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
+                return jsonify(NQ_GAMMA_CACHE)
+            return jsonify({"success": False, "error": f"FlashAlpha API returned status {r.status_code}"}), r.status_code
+    except Exception as e:
+        NQ_GAMMA_CACHE_TIME = now
+        print(f"[Gamma NQ] Exception during API call: {e}. Using cache.")
+        if NQ_GAMMA_CACHE is not None:
+            live_price = get_live_nq_price()
+            if live_price:
+                NQ_GAMMA_CACHE["underlying_price"] = live_price
+                NQ_GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
+            return jsonify(NQ_GAMMA_CACHE)
+        return jsonify({"success": False, "error": str(e)}), 500
+
+
+def generate_nq_playbook_plan(spot, flip, call_wall, put_wall, magnet, is_positive):
+    system_prompt = (
+        "You are an elite institutional options strategist specialized in E-mini Nasdaq-100 futures (NQ) "
+        "and dealer Gamma hedging flows. Your job is to generate a tactical Premarket Trade Plan "
+        "based on the current options boundaries and the active Volatility Regime.\n\n"
+        "Format your response in beautiful, clean Markdown with bullet points, bold key values, and "
+        "a professional trading desk tone."
+    )
+    
+    prompt = f"""
+    Current Market Configuration for E-mini Nasdaq-100 (NQ=F):
+    - Spot Price: {spot:.2f}
+    - Volatility Regime: {"Positive Gamma (+GEX) - Dampened Volatility" if is_positive else "Negative Gamma (-GEX) - Amplified Volatility"}
+    - Zero-Gamma Flip: {flip:.2f}
+    - Call Wall (Ceiling): {call_wall:.2f}
+    - Put Wall (Floor): {put_wall:.2f}
+    - 0DTE Magnet Strike: {magnet}
+
+    Hedge Fund Playbook Strategy Rules:
+    - Strategy G1 (Volatility Compression Fade): Fade Call/Put Walls in Positive Gamma. Look for bid/ask exhaustion. Target Flip.
+    - Strategy G2 (Zero-Gamma Flip Switch): Go short on break and retest of Flip from below. Go long on break and retest of Flip from above.
+    - Strategy G3 (Negative Gamma Run): High-volatility short breakout runs below Flip / Put Wall. Sell support breakdowns or VWAP pullbacks.
+    - Strategy G4 (0DTE Magnet Pin): Directional pin plays towards the Magnet in the final 2 hours of NYSE.
+
+    Task:
+    Provide a highly detailed, professional Premarket Trade Plan containing:
+    1. **Active Volatility Regime Analysis**: Explain dealer hedging behavior for NQ's regime today and expected volatility levels (ATR expectations, which are wider for Nasdaq).
+    2. **Tactical Strategy Triggers**: Provide exact "If/Then" triggers based on today's NQ levels.
+    3. **Step-by-Step Desk Execution Checklist**: List specific action items, target strikes, and invalidation rules for today.
+    """
+    
+    from config import GROQ_API_KEY, GROQ_MODEL, GEMINI_API_KEY
+    if GROQ_API_KEY:
+        try:
+            from groq import Groq
+            client = Groq(api_key=GROQ_API_KEY)
+            response = client.chat.completions.create(
+                model=GROQ_MODEL,
+                max_tokens=2000,
+                temperature=0.2,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user",   "content": prompt},
+                ],
+            )
+            return response.choices[0].message.content
+        except Exception as e:
+            print(f"[AI NQ Plan] Groq failed: {e}")
+            
+    if GEMINI_API_KEY:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+        headers = {"Content-Type": "application/json"}
+        payload = {
+            "contents": [{
+                "parts": [{
+                    "text": f"{system_prompt}\n\n[PROMPT]:\n{prompt}"
+                }]
+            }],
+            "generationConfig": {
+                "temperature": 0.2
+            }
+        }
+        try:
+            r = requests.post(url, headers=headers, json=payload, timeout=20)
+            if r.status_code == 200:
+                res_json = r.json()
+                return res_json["candidates"][0]["content"]["parts"][0]["text"]
+        except Exception as e:
+            print(f"[AI NQ Plan] Gemini failed: {e}")
+            
+    return (
+        "### NQ Premarket Trade Plan (Simple System Fallback)\n\n"
+        f"**Volatility Regime**: {'Positive Gamma (+GEX) - Range-bound' if is_positive else 'Negative Gamma (-GEX) - High Volatility'}\n"
+        f"- Watch for support at the Put Wall (**{put_wall:.2f}**) and resistance at the Call Wall (**{call_wall:.2f}**).\n"
+        f"- The Zero-Gamma Flip pivot sits at **{flip:.2f}**. Stay long above, short below.\n"
+        "- Trigger Strategy G1 if spot approaches walls. Trigger Strategy G2 on Flip crossovers."
+    )
+
+
+@app.route("/api/gamma/nq/plan")
+def get_nq_gamma_ai_plan():
+    global NQ_GAMMA_CACHE
+    token = request.args.get("token")
+    if not token:
+        return jsonify({"success": False, "error": "Authentication token required"}), 401
+        
+    user = get_user_by_token(token)
+    if not user:
+        return jsonify({"success": False, "error": "Invalid token"}), 401
+        
+    email = user.get("email")
+    is_active = user.get("subscription_status") == "active"
+    has_nq = is_active or has_purchased_product(email, "Volume Profile Playbook")
+    if not has_nq:
+        return jsonify({"success": False, "error": "Premium subscription (or NQ Playbook purchase) required to access AI Premarket Plan"}), 403
+        
+    if NQ_GAMMA_CACHE is None:
+        load_disk_cache()
+        
+    if NQ_GAMMA_CACHE is None:
+        return jsonify({"success": False, "error": "GEX Levels data unavailable. Load levels first."}), 500
+        
+    try:
+        tz = pytz.timezone("Asia/Karachi")
+        now_pkt = datetime.now(tz)
+    except Exception as e:
+        print(f"[Gamma NQ Plan] Timezone lookup failed: {e}. Falling back to UTC.")
+        now_pkt = datetime.utcnow()
+        
+    if now_pkt.hour >= 18:
+        current_session_date = now_pkt.strftime("%Y-%m-%d")
+    else:
+        yesterday_pkt = now_pkt - timedelta(days=1)
+        current_session_date = yesterday_pkt.strftime("%Y-%m-%d")
+        
+    # Check cache for plan matching session date
+    if NQ_GAMMA_CACHE.get("ai_plan") and NQ_GAMMA_CACHE.get("ai_plan_date") == current_session_date:
+        return jsonify({"success": True, "plan": NQ_GAMMA_CACHE["ai_plan"]})
+        
+    spot = NQ_GAMMA_CACHE.get("underlying_price", 19500.0)
+    levels = NQ_GAMMA_CACHE.get("levels", {})
+    flip = levels.get("gamma_flip", 19500.0)
+    call_wall = levels.get("call_wall", 19800.0)
+    put_wall = levels.get("put_wall", 19200.0)
+    magnet = levels.get("zero_dte_magnet", "None")
+    is_positive = spot > flip
+    
+    plan_text = generate_nq_playbook_plan(spot, flip, call_wall, put_wall, magnet, is_positive)
+    
+    NQ_GAMMA_CACHE["ai_plan"] = plan_text
+    NQ_GAMMA_CACHE["ai_plan_date"] = current_session_date
+    save_disk_cache(NQ_GAMMA_CACHE, symbol="NQ=F")
     
     return jsonify({"success": True, "plan": plan_text})
 

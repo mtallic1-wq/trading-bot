@@ -728,14 +728,19 @@ export default function App() {
               </motion.div>
             ) : currentView === "gamma" ? (
               
-              /* S&P 500 OPTIONS GAMMA LEVELS (FREE TAB) */
+              /* OPTIONS GAMMA LEVELS */
               <motion.div
                 key="gamma-content"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 className="max-w-5xl mx-auto"
               >
-                <GammaLevelsView setView={setCurrentView} hasEsPlaybook={hasEsPlaybook} token={token} />
+                <GammaLevelsView 
+                  setView={setCurrentView} 
+                  hasEsPlaybook={hasEsPlaybook} 
+                  hasNqPlaybook={hasNqPlaybook} 
+                  token={token} 
+                />
               </motion.div>
             ) : (
               <div className="text-center text-zinc-600 text-xs py-8">
