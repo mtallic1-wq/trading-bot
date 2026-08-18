@@ -835,7 +835,7 @@ def generate_ai_playbook_plan(spot, flip, call_wall, put_wall, magnet, is_positi
             print(f"[AI ES Plan] Groq failed: {e}")
             
     if GEMINI_API_KEY:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
         headers = {"Content-Type": "application/json"}
         payload = {
             "contents": [{
@@ -1109,7 +1109,7 @@ def generate_nq_playbook_plan(spot, flip, call_wall, put_wall, magnet, is_positi
             print(f"[AI NQ Plan] Groq failed: {e}")
             
     if GEMINI_API_KEY:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
         headers = {"Content-Type": "application/json"}
         payload = {
             "contents": [{

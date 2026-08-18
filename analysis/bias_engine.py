@@ -242,7 +242,7 @@ def _call_gemini(prompt: str) -> Optional[str]:
     if not GEMINI_API_KEY:
         return None
     import requests
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     headers = {"Content-Type": "application/json"}
     payload = {
         "contents": [{
