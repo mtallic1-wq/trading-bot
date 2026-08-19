@@ -135,7 +135,7 @@ export default function Metrics({ report }: MetricsProps) {
           </div>
           <p className="text-[11px] text-zinc-500 mt-2 flex items-center gap-1.5">
             <Award className="w-3.5 h-3.5 text-zinc-500" />
-            <span>LLaMA 3.3 Sentiment score</span>
+            <span>AI Sentiment score</span>
           </p>
         </div>
       </div>

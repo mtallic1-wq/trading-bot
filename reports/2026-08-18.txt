@@ -2,18 +2,18 @@ ANALYSIS DATE: 2026-08-18
 TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
 
 === MACROECONOMIC INDICATORS ===
-  DXY (Dollar Index): 99.605 | Day: -0.065% | 5-Day: -0.21%
-  VIX (Fear Index): 15.81 | Day: +10.947% | 5-Day: +2.26%
-  10Y Treasury Yield: 4.726 | Day: +0.639% | 5-Day: +0.57%
-  Gold: 4447.8 | Day: +0.679% | 5-Day: +1.48%
-  Crude Oil: 84.54 | Day: +0.047% | 5-Day: +1.61%
+  DXY (Dollar Index): 99.593 | Day: -0.077% | 5-Day: -0.22%
+  VIX (Fear Index): 15.67 | Day: +9.965% | 5-Day: +1.36%
+  10Y Treasury Yield: 4.712 | Day: +0.341% | 5-Day: +0.28%
+  Gold: 4439.2 | Day: +0.484% | 5-Day: +1.28%
+  Crude Oil: 83.82 | Day: -0.805% | 5-Day: +0.75%
 
 === NQ — Nasdaq-100 Futures ===
-  Price: 29632.75 | Trend: UP
-  1D: -1.54% | 5D: 0.02% | 10D: -0.77%
+  Price: 29665.75 | Trend: UP
+  1D: -1.43% | 5D: 0.13% | 10D: -0.66%
   Prev High: 30343.0 | Prev Low: 30054.5 | Prev Close: 30096.0
   Week High: 30343.0 | Week Low: 29533.5
-  Last 5 Candles: 2026-07-08 UP (O:29373.75 H:29558.75 L:28909.75 C:29468.5) | 2026-07-09 UP (O:29412.0 H:29993.5 L:29395.0 C:29937.0) | 2026-07-10 UP (O:29937.75 H:30077.75 L:29675.0 C:30032.25) | 2026-07-13 DOWN (O:29952.0 H:30041.0 L:29386.5 C:29475.75) | 2026-07-14 UP (O:29446.0 H:29921.75 L:29303.5 C:29790.25) | 2026-07-15 DOWN (O:29805.0 H:30062.5 L:29397.0 C:29693.25) | 2026-07-16 DOWN (O:29709.0 H:29797.0 L:29078.5 C:29225.75) | 2026-07-17 DOWN (O:29191.0 H:29220.0 L:28408.25 C:28773.25) | 2026-07-20 UP (O:28747.75 H:29192.5 L:28709.75 C:28778.75) | 2026-07-21 UP (O:28778.25 H:29364.75 L:28701.0 C:29316.0) | 2026-07-22 DOWN (O:29310.75 H:29342.25 L:28952.0 C:29181.25) | 2026-07-23 DOWN (O:29100.0 H:29282.5 L:28432.5 C:28620.75) | 2026-07-24 DOWN (O:28700.25 H:28736.0 L:28212.5 C:28282.25) | 2026-07-27 DOWN (O:28500.0 H:28763.25 L:27939.0 C:28190.0) | 2026-07-28 DOWN (O:28210.5 H:28228.0 L:27603.5 C:27922.0) | 2026-07-29 DOWN (O:27962.0 H:28178.25 L:27201.5 C:27342.0) | 2026-07-30 UP (O:27202.0 H:28414.5 L:27202.0 C:28237.75) | 2026-07-31 UP (O:28317.0 H:28725.75 L:28079.75 C:28404.25) | 2026-08-03 UP (O:28565.0 H:28964.25 L:28313.5 C:28891.75) | 2026-08-04 UP (O:28930.0 H:29956.5 L:28831.75 C:29863.5) | 2026-08-05 DOWN (O:29777.25 H:30074.0 L:29530.75 C:29615.0) | 2026-08-06 DOWN (O:29569.5 H:29686.25 L:29241.25 C:29488.25) | 2026-08-07 UP (O:29514.25 H:29867.75 L:29453.5 C:29834.75) | 2026-08-10 DOWN (O:29851.25 H:29984.0 L:29718.75 C:29737.0) | 2026-08-11 DOWN (O:29764.5 H:29886.75 L:29533.5 C:29626.0) | 2026-08-12 UP (O:29657.75 H:30001.75 L:29624.5 C:29853.25) | 2026-08-13 UP (O:29825.0 H:30272.75 L:29780.5 C:30188.5) | 2026-08-14 DOWN (O:30210.75 H:30283.0 L:30028.5 C:30141.75) | 2026-08-17 DOWN (O:30170.0 H:30343.0 L:30054.5 C:30096.0) | 2026-08-18 DOWN (O:30077.0 H:30121.25 L:29604.75 C:29632.75)
+  Last 5 Candles: 2026-07-08 UP (O:29373.75 H:29558.75 L:28909.75 C:29468.5) | 2026-07-09 UP (O:29412.0 H:29993.5 L:29395.0 C:29937.0) | 2026-07-10 UP (O:29937.75 H:30077.75 L:29675.0 C:30032.25) | 2026-07-13 DOWN (O:29952.0 H:30041.0 L:29386.5 C:29475.75) | 2026-07-14 UP (O:29446.0 H:29921.75 L:29303.5 C:29790.25) | 2026-07-15 DOWN (O:29805.0 H:30062.5 L:29397.0 C:29693.25) | 2026-07-16 DOWN (O:29709.0 H:29797.0 L:29078.5 C:29225.75) | 2026-07-17 DOWN (O:29191.0 H:29220.0 L:28408.25 C:28773.25) | 2026-07-20 UP (O:28747.75 H:29192.5 L:28709.75 C:28778.75) | 2026-07-21 UP (O:28778.25 H:29364.75 L:28701.0 C:29316.0) | 2026-07-22 DOWN (O:29310.75 H:29342.25 L:28952.0 C:29181.25) | 2026-07-23 DOWN (O:29100.0 H:29282.5 L:28432.5 C:28620.75) | 2026-07-24 DOWN (O:28700.25 H:28736.0 L:28212.5 C:28282.25) | 2026-07-27 DOWN (O:28500.0 H:28763.25 L:27939.0 C:28190.0) | 2026-07-28 DOWN (O:28210.5 H:28228.0 L:27603.5 C:27922.0) | 2026-07-29 DOWN (O:27962.0 H:28178.25 L:27201.5 C:27342.0) | 2026-07-30 UP (O:27202.0 H:28414.5 L:27202.0 C:28237.75) | 2026-07-31 UP (O:28317.0 H:28725.75 L:28079.75 C:28404.25) | 2026-08-03 UP (O:28565.0 H:28964.25 L:28313.5 C:28891.75) | 2026-08-04 UP (O:28930.0 H:29956.5 L:28831.75 C:29863.5) | 2026-08-05 DOWN (O:29777.25 H:30074.0 L:29530.75 C:29615.0) | 2026-08-06 DOWN (O:29569.5 H:29686.25 L:29241.25 C:29488.25) | 2026-08-07 UP (O:29514.25 H:29867.75 L:29453.5 C:29834.75) | 2026-08-10 DOWN (O:29851.25 H:29984.0 L:29718.75 C:29737.0) | 2026-08-11 DOWN (O:29764.5 H:29886.75 L:29533.5 C:29626.0) | 2026-08-12 UP (O:29657.75 H:30001.75 L:29624.5 C:29853.25) | 2026-08-13 UP (O:29825.0 H:30272.75 L:29780.5 C:30188.5) | 2026-08-14 DOWN (O:30210.75 H:30283.0 L:30028.5 C:30141.75) | 2026-08-17 DOWN (O:30170.0 H:30343.0 L:30054.5 C:30096.0) | 2026-08-18 DOWN (O:30077.0 H:30121.25 L:29568.5 C:29665.75)
 
 === OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
   Spot Price: 29735.00
@@ -24,24 +24,24 @@ TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
   Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
 
 === YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
-  1. Anthropic could beat SpaceX for largest 2026 IPO
+  1. Global bond sell-off pressures stocks
   2. The bond market is daring the Fed to hike
   3. Disney's ABC sues FCC over challenge to its broadcast licenses
-  4. Mamdani is going to town on the annoyance economy
+  4. Wall Street clearly loves Google stock, 13F filings reveal
   5. Home Depot tops Q2 forecasts as customers stick to small projects
-  6. Meta to face massive social media addiction trial today
-  7. Top humanoid maker and its dancing robots waltz towards record IPO
-  8. Uber COO says there's a downside to being at the top
-  9. Round Hill files $1B copyright infringement suits against Suno, Anthropic
-  10. Stocks extend losses amid US-Iran tensions as Treasury yields creep higher
+  6. Anthropic could beat Elon Musk's SpaceX for largest 2026 IPO
+  7. AI election backlash shapes Wall Street's stock market views
+  8. Meta to face massive social media addiction trial today
+  9. Apple's anti-AI stance becomes stock market baggage
+  10. Stocks extend losses as Treasury yields creep higher
   11. US 30-year yields hit highest level since 2007 as war, oil worries fester
-  12. Earnings: Klarna stock plunges on trimmed guidance, Home Depot gains
-  13. Cash home sales are in decline, but a handful show a bump
-  14. The Roth conversion window shutting in 2028 most retirees don't know
-  15. Selena Gomez and her mom face $1M+ fraud lawsuit after mental health startup Wondermind collapses
-  16. 15 best new bank account promotions and bonuses
-  17. $20 burritos have Carlson, Vance and Shapiro fighting over inflation
-  18. Jim Cramer names 4 memory stocks to buy amid AI boom
+  12. European bond yields hit multi-year highs on Iran war inflation fears
+  13. Earnings: Klarna stock plunges, Home Depot gains
+  14. Google is buying all of Spirit Airlines’ data to feed its AI models
+  15. 'Crazy overvalued': Scott Galloway says SpaceX is a '$10 to $30 stock'
+  16. A dropout living in a trailer, he got $1 million from Peter Thiel at 19—now he’s a billionaire who says the American Dream isn’t dead
+  17. The Roth conversion window shutting in 2028 most retirees don't know
+  18. Nike's stock plunge is relentless
   19. US Dollar Price Forecast: Fed Minutes Loom as EUR/USD and GBP/USD Test Resistance
   20. Key checks from Walmart and the big box stores: What to watch this week
 
@@ -68,21 +68,21 @@ TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
   Maritime chokepoints | Sample 
 
 === TRADINGVIEW — Market News (https://www.tradingview.com) ===
-  1. Benchmark Treasury yield pushes higher as long-term breakout gathers momentum
-  2. 5 ETF Areas of Last Week 
-  3. Bonds, stocks jolted as Middle East tensions shatter market calm
-  4. Yields give way
-  5. US stock futures drop as fading Iran peace hopes lift oil, bond yields
-  6. Nasdaq 100 Short Exposure Hits $20 Billion as Insiders Near ‘15-Year High’ in Buying: Is a Squeeze Imminent?
-  7. US stocks dip as rising oil prices, yields offset chip gains
-  8. Stock Market Futures Mixed: Dow Futures Slips, Nasdaq 100, S&P 500 Rises as Fed Rate Hike Odds Drop to 30% for September—SanDisk, Micron, HIVE Digital in Focus (UPDATED)
-  9. Bitcoin to $10,000 a 'Faustian Bargain': Bloomberg's Top Strategist Updates BTC Price Outlook
-  10. Crypto News: Bitcoin Wipes Out Last Week's Rally as ETF Outflows Hit $192 Million Over Two Days — BTC OI Rising Into Falling Price, All Top 25 CVDs Negative
-  11. Stay of execution?
-  12. Stock Market Today: S&P 500, Dow Futures Rise, Nasdaq Falls as July Inflation Cools—Cisco Systems, Netflix, Applied Materials in Focus (UPDATED)
-  13. Wall St futures tick higher as oil retreats ahead of inflation data
-  14. Asian stocks rise as US inflation data dents September Fed hike bets
-  15. Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation
+  1. U.S. investors have been buying stocks all month and are sitting on profits. Here's what might make them sell.
+  2. Benchmark Treasury yield pushes higher as long-term breakout gathers momentum
+  3. 5 ETF Areas of Last Week 
+  4. Bonds, stocks jolted as Middle East tensions shatter market calm
+  5. Yields give way
+  6. US stock futures drop as fading Iran peace hopes lift oil, bond yields
+  7. Nasdaq 100 Short Exposure Hits $20 Billion as Insiders Near ‘15-Year High’ in Buying: Is a Squeeze Imminent?
+  8. US stocks dip as rising oil prices, yields offset chip gains
+  9. Stock Market Futures Mixed: Dow Futures Slips, Nasdaq 100, S&P 500 Rises as Fed Rate Hike Odds Drop to 30% for September—SanDisk, Micron, HIVE Digital in Focus (UPDATED)
+  10. Bitcoin to $10,000 a 'Faustian Bargain': Bloomberg's Top Strategist Updates BTC Price Outlook
+  11. Crypto News: Bitcoin Wipes Out Last Week's Rally as ETF Outflows Hit $192 Million Over Two Days — BTC OI Rising Into Falling Price, All Top 25 CVDs Negative
+  12. Stay of execution?
+  13. Stock Market Today: S&P 500, Dow Futures Rise, Nasdaq Falls as July Inflation Cools—Cisco Systems, Netflix, Applied Materials in Focus (UPDATED)
+  14. Wall St futures tick higher as oil retreats ahead of inflation data
+  15. Asian stocks rise as US inflation data dents September Fed hike bets
 
 === ECONOMIC CALENDAR — 2026-08-18 ===
   [0] ADP Employment Change Weekly — Actual: 9.5 | Forecast: None | Prev: 8.25
@@ -100,7 +100,7 @@ TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
   [-1] Manufacturing Production MoM — Actual: 0.2 | Forecast: 0.2 | Prev: 0.3
   [-1] Manufacturing Production YoY — Actual: 1.2 | Forecast: None | Prev: 1.1
   [-1] Capacity Utilization — Actual: 76.3 | Forecast: 76.3 | Prev: 76.2
-  [-1] Industrial Production YoY — Actual: 1.1 | Forecast: None | Prev: 1.1
+  [-1] Industrial Production YoY — Actual: 1.1 | Forecast: None | Prev: 1.29
   [0] Pending Home Sales MoM — Actual: -2.3 | Forecast: 0.3 | Prev: -4.8
   [0] Pending Home Sales YoY — Actual: -2.2 | Forecast: None | Prev: -0.3
   [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.67
@@ -113,29 +113,29 @@ TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
   TF Summary: Daily: BEARISH | 4H: BULLISH | 1H: RANGING | 15m: BEARISH
 
   [Daily] Structure: BEARISH
-    Price: 29658.0 | PrevH: 30343.0 | PrevL: 30054.5
+    Price: 29649.75 | PrevH: 30343.0 | PrevL: 30054.5
     Nearest Resistance (swing high above): 29782.0
     Nearest Support (swing low below): 29160.5
-    Recent: 2026-08-14 DOWN(30210.75->30141.75) > 2026-08-17 DOWN(30170.0->30096.0) > 2026-08-18 DOWN(30077.0->29658.0)
+    Recent: 2026-08-14 DOWN(30210.75->30141.75) > 2026-08-17 DOWN(30170.0->30096.0) > 2026-08-18 DOWN(30077.0->29649.75)
 
   [4H] Structure: BULLISH
-    Price: 29658.0 | PrevH: 29814.25 | PrevL: 29687.25
+    Price: 29649.75 | PrevH: 29814.25 | PrevL: 29687.25
     Nearest Resistance (swing high above): 29686.25
     Nearest Support (swing low below): 29533.5
     CHoCH: CHoCH — broke below swing low (structure flip) @ 30028.5 (2026-08-14)
-    Recent: 2026-08-18 DOWN(29888.75->29810.75) > 2026-08-18 DOWN(29811.0->29747.25) > 2026-08-18 DOWN(29748.5->29658.0)
+    Recent: 2026-08-18 DOWN(29888.75->29810.75) > 2026-08-18 DOWN(29811.0->29747.25) > 2026-08-18 DOWN(29748.5->29649.75)
 
   [1H] Structure: RANGING
-    Price: 29658.0 | PrevH: 29786.0 | PrevL: 29680.5
+    Price: 29649.75 | PrevH: 29769.75 | PrevL: 29604.75
     Nearest Resistance (swing high above): 29686.25
     Nearest Support (swing low below): 29595.75
-    Recent: 2026-08-18 UP(29739.0->29747.25) > 2026-08-18 DOWN(29748.5->29713.0) > 2026-08-18 DOWN(29713.0->29658.0)
+    Recent: 2026-08-18 DOWN(29748.5->29713.0) > 2026-08-18 DOWN(29713.0->29646.25) > 2026-08-18 UP(29647.5->29649.75)
 
   [15m] Structure: BEARISH
-    Price: 29658.0 | PrevH: 29769.75 | PrevL: 29631.25
-    Nearest Resistance (swing high above): 29786.0
+    Price: 29649.25 | PrevH: 29684.75 | PrevL: 29578.0
+    Nearest Resistance (swing high above): 29769.75
     BOS: BOS — broke below swing low @ 29687.25 (2026-08-18)
-    Recent: 2026-08-18 DOWN(29695.75->29690.25) > 2026-08-18 DOWN(29690.75->29687.5) > 2026-08-18 DOWN(29687.25->29658.0)
+    Recent: 2026-08-18 DOWN(29647.5->29587.25) > 2026-08-18 UP(29587.0->29669.25) > 2026-08-18 DOWN(29668.75->29649.25)
 
 
 === TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===

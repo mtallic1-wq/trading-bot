@@ -1,13 +1,13 @@
 {
   "date": "2026-08-18",
-  "created": "2026-08-18T19:07:24.883210",
+  "created": "2026-08-18T19:50:58.289360",
   "is_historical": false,
   "bias_nq": "NEUTRAL",
   "side": "NEUTRAL",
   "nq": {
     "name": "NQ Nasdaq-100 Futures",
     "ticker": "NQ=F",
-    "current_price": 29632.75,
+    "current_price": 29665.75,
     "prev_day_high": 30343.0,
     "prev_day_low": 30054.5,
     "prev_day_close": 30096.0,
@@ -15,9 +15,9 @@
     "week_low": 29533.5,
     "trend": "UP",
     "performance": {
-      "1d_pct": -1.54,
-      "5d_pct": 0.02,
-      "10d_pct": -0.77
+      "1d_pct": -1.43,
+      "5d_pct": 0.13,
+      "10d_pct": -0.66
     },
     "recent_candles": [
       {
@@ -256,37 +256,37 @@
         "date": "2026-08-18",
         "open": 30077.0,
         "high": 30121.25,
-        "low": 29604.75,
-        "close": 29632.75,
+        "low": 29568.5,
+        "close": 29665.75,
         "direction": "DOWN"
       }
     ]
   },
   "macro": {
     "DXY (Dollar Index)": {
-      "price": 99.605,
-      "day_chg": -0.065,
-      "5d_chg": -0.21
+      "price": 99.593,
+      "day_chg": -0.077,
+      "5d_chg": -0.22
     },
     "VIX (Fear Index)": {
-      "price": 15.81,
-      "day_chg": 10.947,
-      "5d_chg": 2.26
+      "price": 15.67,
+      "day_chg": 9.965,
+      "5d_chg": 1.36
     },
     "10Y Treasury Yield": {
-      "price": 4.726,
-      "day_chg": 0.639,
-      "5d_chg": 0.57
+      "price": 4.712,
+      "day_chg": 0.341,
+      "5d_chg": 0.28
     },
     "Gold": {
-      "price": 4447.8,
-      "day_chg": 0.679,
-      "5d_chg": 1.48
+      "price": 4439.2,
+      "day_chg": 0.484,
+      "5d_chg": 1.28
     },
     "Crude Oil": {
-      "price": 84.54,
-      "day_chg": 0.047,
-      "5d_chg": 1.61
+      "price": 83.82,
+      "day_chg": -0.805,
+      "5d_chg": 0.75
     }
   },
   "yahoo": {
@@ -294,8 +294,8 @@
     "url": "https://finance.yahoo.com/",
     "items": [
       {
-        "title": "Anthropic could beat SpaceX for largest 2026 IPO",
-        "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-could-beat-elon-musks-spacex-for-largest-2026-ipo-prediction-markets-show-122619825.html",
+        "title": "Global bond sell-off pressures stocks",
+        "url": "https://finance.yahoo.com/markets/article/global-bond-sell-off-pressures-stocks-alphacheck-135011383.html",
         "source": "Yahoo/homepage"
       },
       {
@@ -309,8 +309,8 @@
         "source": "Yahoo/homepage"
       },
       {
-        "title": "Mamdani is going to town on the annoyance economy",
-        "url": "https://finance.yahoo.com/economy/policy/articles/mamdani-going-town-annoyance-economy-081401464.html",
+        "title": "Wall Street clearly loves Google stock, 13F filings reveal",
+        "url": "https://finance.yahoo.com/markets/stocks/article/wall-street-clearly-loves-google-stock-13f-filings-reveal-131402051.html",
         "source": "Yahoo/homepage"
       },
       {
@@ -319,27 +319,27 @@
         "source": "Yahoo/homepage"
       },
       {
+        "title": "Anthropic could beat Elon Musk's SpaceX for largest 2026 IPO",
+        "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-could-beat-elon-musks-spacex-for-largest-2026-ipo-prediction-markets-show-122619825.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "AI election backlash shapes Wall Street's stock market views",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-election-backlash-shaping-wall-115805981.html",
+        "source": "Yahoo/homepage"
+      },
+      {
         "title": "Meta to face massive social media addiction trial today",
         "url": "https://finance.yahoo.com/technology/article/meta-to-face-massive-social-media-addiction-trial-tuesday-135141870.html",
         "source": "Yahoo/homepage"
       },
       {
-        "title": "Top humanoid maker and its dancing robots waltz towards record IPO",
-        "url": "https://finance.yahoo.com/technology/ai/articles/world-top-humanoid-maker-dancing-065335056.html",
+        "title": "Apple's anti-AI stance becomes stock market baggage",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-anti-ai-position-suddenly-090751266.html",
         "source": "Yahoo/homepage"
       },
       {
-        "title": "Uber COO says there's a downside to being at the top",
-        "url": "https://finance.yahoo.com/small-business/articles/uber-coo-says-theres-downside-004421934.html",
-        "source": "Yahoo/homepage"
-      },
-      {
-        "title": "Round Hill files $1B copyright infringement suits against Suno, Anthropic",
-        "url": "https://finance.yahoo.com/technology/ai/articles/round-hill-files-1-billion-234630235.html",
-        "source": "Yahoo/homepage"
-      },
-      {
-        "title": "Stocks extend losses amid US-Iran tensions as Treasury yields creep higher",
+        "title": "Stocks extend losses as Treasury yields creep higher",
         "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-18-dow-sp-500-nasdaq-080822735.html",
         "source": "Yahoo/homepage"
       },
@@ -349,13 +349,28 @@
         "source": "Yahoo/homepage"
       },
       {
-        "title": "Earnings: Klarna stock plunges on trimmed guidance, Home Depot gains",
+        "title": "European bond yields hit multi-year highs on Iran war inflation fears",
+        "url": "https://finance.yahoo.com/economy/policy/articles/european-bond-yields-hit-multi-104738483.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Earnings: Klarna stock plunges, Home Depot gains",
         "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-klarna-stock-plunges-on-trimmed-guidance-home-depot-gains-115925351.html",
         "source": "Yahoo/homepage"
       },
       {
-        "title": "Cash home sales are in decline, but a handful show a bump",
-        "url": "https://finance.yahoo.com/real-estate/articles/cash-home-sales-decline-most-090000569.html",
+        "title": "Google is buying all of Spirit Airlines\u2019 data to feed its AI models",
+        "url": "https://finance.yahoo.com/technology/ai/articles/google-buying-spirit-airlines-data-130844986.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "'Crazy overvalued': Scott Galloway says SpaceX is a '$10 to $30 stock'",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/crazy-overvalued-scott-galloway-says-123258261.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "A dropout living in a trailer, he got $1 million from Peter Thiel at 19\u2014now he\u2019s a billionaire who says the American Dream isn\u2019t dead",
+        "url": "https://finance.yahoo.com/small-business/articles/dropout-living-trailer-got-1-070200887.html",
         "source": "Yahoo/homepage"
       },
       {
@@ -364,23 +379,8 @@
         "source": "Yahoo/homepage"
       },
       {
-        "title": "Selena Gomez and her mom face $1M+ fraud lawsuit after mental health startup Wondermind collapses",
-        "url": "https://finance.yahoo.com/small-business/articles/selena-gomez-her-mom-face-103000973.html",
-        "source": "Yahoo/homepage"
-      },
-      {
-        "title": "15 best new bank account promotions and bonuses",
-        "url": "https://finance.yahoo.com/personal-finance/banking/article/new-bank-account-bonuses-214704427.html",
-        "source": "Yahoo/homepage"
-      },
-      {
-        "title": "$20 burritos have Carlson, Vance and Shapiro fighting over inflation",
-        "url": "https://finance.yahoo.com/economy/articles/indefensible-ugly-20-burritos-tucker-115500194.html",
-        "source": "Yahoo/homepage"
-      },
-      {
-        "title": "Jim Cramer names 4 memory stocks to buy amid AI boom",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-names-4-memory-112244415.html",
+        "title": "Nike's stock plunge is relentless",
+        "url": "https://finance.yahoo.com/markets/stocks/article/nikes-stock-plunge-is-relentless-182413545.html",
         "source": "Yahoo/homepage"
       },
       {
@@ -631,6 +631,12 @@
     "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
     "news": [
       {
+        "title": "U.S. investors have been buying stocks all month and are sitting on profits. Here's what might make them sell.",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (MarketWatch)",
+        "published": "1787062740"
+      },
+      {
         "title": "Benchmark Treasury yield pushes higher as long-term breakout gathers momentum",
         "summary": "",
         "source": "TradingView/NQ Headlines (Reuters)",
@@ -715,40 +721,34 @@
         "published": "1786602777"
       },
       {
-        "title": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
-        "summary": "",
-        "source": "TradingView/NQ Headlines (Benzinga)",
-        "published": "1786554865"
-      },
-      {
-        "title": "Reddit Stock Joins the S&P 500 but Its Boost Is Already Fading \u2014 Barrons.com",
-        "summary": "",
-        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
-        "published": "1787060940"
-      },
-      {
-        "title": "The Dow Jones Index Opens 0.26% Lower",
-        "summary": "",
-        "source": "TradingView/ES Headlines (Trading Economics)",
-        "published": "1787060419"
-      },
-      {
-        "title": "US Stocks Pull Back Further",
-        "summary": "",
-        "source": "TradingView/ES Headlines (Trading Economics)",
-        "published": "1787060172"
-      },
-      {
-        "title": "S&P 500 Falls 42.05 Points (0.54%)",
-        "summary": "",
-        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
-        "published": "1787059980"
-      },
-      {
-        "title": "US stocks open lower as Iran stalemate lifts oil, yields",
+        "title": "Oil, yields pressure tech while energy and healthcare scale records\u00a0",
         "summary": "",
         "source": "TradingView/ES Headlines (Reuters)",
-        "published": "1787059945"
+        "published": "1787062101"
+      },
+      {
+        "title": "Tech stocks weigh on Wall Street as Iran stalemate lifts oil, yields",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1787061755"
+      },
+      {
+        "title": "US NAR CHIEF ECONOMIST YUN: \u2018HIGHEST MORTGAGE RATES OF THE YEAR HIT IIN THE MIDDLE OF SUMMER \u2026 PULLING BACK CONTRACT SIGNINGS\u2019 IN PENDING HOME SALES",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1787061600"
+      },
+      {
+        "title": "US NAR PENDING HOME SALES INDEX -2.3% TO 71.2 IN JULY VS 72.9 IN JUNE (PREV 72.5); -2.2% FROM JULY 2025 (MARKETS EXPECTED +1.4% FOR JULY VS. JUNE 2026",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1787061600"
+      },
+      {
+        "title": "US NAR PENDING HOME SALES INDEX IN JULY VS. JUNE FOR NORTHEAST -2.0%; MIDWEST -0.7%; SOUTH -2.2%; WEST -4.7%",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1787061600"
       }
     ],
     "economic_calendar": [
@@ -878,7 +878,7 @@
         "impact": "-1",
         "actual": "1.1",
         "forecast": "None",
-        "previous": "1.1"
+        "previous": "1.29"
       },
       {
         "title": "Pending Home Sales MoM",
@@ -975,7 +975,7 @@
         "bos": null,
         "choch": null,
         "label": "Daily",
-        "current": 29658.0,
+        "current": 29649.75,
         "prev_high": 30343.0,
         "prev_low": 30054.5,
         "prev_close": 30096.0,
@@ -1002,8 +1002,8 @@
             "date": "2026-08-18",
             "open": 30077.0,
             "high": 30121.25,
-            "low": 29604.75,
-            "close": 29658.0,
+            "low": 29568.5,
+            "close": 29649.75,
             "direction": "DOWN"
           }
         ],
@@ -1063,7 +1063,7 @@
           "label": "CHoCH \u2014 broke below swing low (structure flip)"
         },
         "label": "4H",
-        "current": 29658.0,
+        "current": 29649.75,
         "prev_high": 29814.25,
         "prev_low": 29687.25,
         "prev_close": 29747.25,
@@ -1090,8 +1090,8 @@
             "date": "2026-08-18",
             "open": 29748.5,
             "high": 29786.0,
-            "low": 29604.75,
-            "close": 29658.0,
+            "low": 29568.5,
+            "close": 29649.75,
             "direction": "DOWN"
           }
         ],
@@ -1146,21 +1146,13 @@
         "bos": null,
         "choch": null,
         "label": "1H",
-        "current": 29658.0,
-        "prev_high": 29786.0,
-        "prev_low": 29680.5,
-        "prev_close": 29713.0,
+        "current": 29649.75,
+        "prev_high": 29769.75,
+        "prev_low": 29604.75,
+        "prev_close": 29646.25,
         "resistance": 29686.25,
         "support": 29595.75,
         "recent_candles": [
-          {
-            "date": "2026-08-18",
-            "open": 29739.0,
-            "high": 29775.75,
-            "low": 29727.0,
-            "close": 29747.25,
-            "direction": "UP"
-          },
           {
             "date": "2026-08-18",
             "open": 29748.5,
@@ -1174,22 +1166,25 @@
             "open": 29713.0,
             "high": 29769.75,
             "low": 29604.75,
-            "close": 29658.0,
+            "close": 29646.25,
             "direction": "DOWN"
+          },
+          {
+            "date": "2026-08-18",
+            "open": 29647.5,
+            "high": 29705.75,
+            "low": 29568.5,
+            "close": 29649.75,
+            "direction": "UP"
           }
         ],
-        "bar_count": 562
+        "bar_count": 563
       },
       "15m": {
         "structure": "BEARISH",
         "sh_score": -0.6,
         "sl_score": -1.0,
         "swings": [
-          {
-            "type": "SL",
-            "price": 30054.5,
-            "date": "2026-08-17"
-          },
           {
             "type": "SL",
             "price": 29853.0,
@@ -1208,6 +1203,11 @@
           {
             "type": "SH",
             "price": 29786.0,
+            "date": "2026-08-18"
+          },
+          {
+            "type": "SH",
+            "price": 29769.75,
             "date": "2026-08-18"
           },
           {
@@ -1234,39 +1234,39 @@
         },
         "choch": null,
         "label": "15m",
-        "current": 29658.0,
-        "prev_high": 29769.75,
-        "prev_low": 29631.25,
-        "prev_close": 29687.5,
-        "resistance": 29786.0,
+        "current": 29649.25,
+        "prev_high": 29684.75,
+        "prev_low": 29578.0,
+        "prev_close": 29669.25,
+        "resistance": 29769.75,
         "support": null,
         "recent_candles": [
           {
             "date": "2026-08-18",
-            "open": 29695.75,
-            "high": 29708.5,
-            "low": 29678.0,
-            "close": 29690.25,
+            "open": 29647.5,
+            "high": 29705.75,
+            "low": 29568.5,
+            "close": 29587.25,
             "direction": "DOWN"
           },
           {
             "date": "2026-08-18",
-            "open": 29690.75,
-            "high": 29769.75,
-            "low": 29631.25,
-            "close": 29687.5,
-            "direction": "DOWN"
+            "open": 29587.0,
+            "high": 29684.75,
+            "low": 29578.0,
+            "close": 29669.25,
+            "direction": "UP"
           },
           {
             "date": "2026-08-18",
-            "open": 29687.25,
-            "high": 29700.5,
-            "low": 29604.75,
-            "close": 29658.0,
+            "open": 29668.75,
+            "high": 29691.25,
+            "low": 29644.0,
+            "close": 29649.25,
             "direction": "DOWN"
           }
         ],
-        "bar_count": 316
+        "bar_count": 319
       }
     }
   },
@@ -1286,7 +1286,7 @@
     "warning": "Estimated fallback levels shown due to FlashAlpha API tier restrictions."
   },
   "analysis": {
-    "analysis": "LLM API synthesis unavailable \u2014 using simple rule-based fallback.\n\n## Macro Environment\n- DXY: 99.605 (day -0.07%) \n- VIX: 15.81 (day +10.95%) (Fear low \u2014 risk-on)\n- 10Y Yield: 4.726 (day +0.64%) \n- Gold: 4447.8 (day +0.68%)\n- Oil: 84.54 (day +0.05%)\n- Environment: **MIXED**\n\n## Recent Headlines (Yahoo Finance)\n  - Anthropic could beat SpaceX for largest 2026 IPO\n  - The bond market is daring the Fed to hike\n  - Disney's ABC sues FCC over challenge to its broadcast licenses\n  - Mamdani is going to town on the annoyance economy\n  - Home Depot tops Q2 forecasts as customers stick to small projects\n  - Meta to face massive social media addiction trial today\n  - Top humanoid maker and its dancing robots waltz towards record IPO\n  - Uber COO says there's a downside to being at the top\n\n## NQ Market Context\n- NQ: UP | Price: 29632.75 | 1D: -1.54% | 5D: 0.02%\n- NQ Options Gamma: Spot: 29735.00 | Flip: 29660.00 (Positive Gamma (+GEX))\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: NEUTRAL**\n**NQ: NEUTRAL**",
+    "analysis": "LLM API synthesis unavailable \u2014 using simple rule-based fallback.\n\n## Macro Environment\n- DXY: 99.593 (day -0.08%) \n- VIX: 15.67 (day +9.96%) (Fear low \u2014 risk-on)\n- 10Y Yield: 4.712 (day +0.34%) \n- Gold: 4439.2 (day +0.48%)\n- Oil: 83.82 (day -0.81%)\n- Environment: **MIXED**\n\n## Recent Headlines (Yahoo Finance)\n  - Global bond sell-off pressures stocks\n  - The bond market is daring the Fed to hike\n  - Disney's ABC sues FCC over challenge to its broadcast licenses\n  - Wall Street clearly loves Google stock, 13F filings reveal\n  - Home Depot tops Q2 forecasts as customers stick to small projects\n  - Anthropic could beat Elon Musk's SpaceX for largest 2026 IPO\n  - AI election backlash shapes Wall Street's stock market views\n  - Meta to face massive social media addiction trial today\n\n## NQ Market Context\n- NQ: UP | Price: 29665.75 | 1D: -1.43% | 5D: 0.13%\n- NQ Options Gamma: Spot: 29735.00 | Flip: 29660.00 (Positive Gamma (+GEX))\n\n---\n## NYSE SESSION PREDICTION\n**SIDE: NEUTRAL**\n**NQ: NEUTRAL**",
     "bias_nq": "NEUTRAL",
     "side": "NEUTRAL",
     "source": "Rule-based (fallback)"
@@ -1300,7 +1300,7 @@
       "Weak TF alignment (-20%) -> range day",
       "Daily structure BEARISH",
       "AI bias NEUTRAL -> mixed signals",
-      "VIX elevated (15.8) -> trending/volatile"
+      "VIX elevated (15.7) -> trending/volatile"
     ],
     "bias": "NEUTRAL",
     "side": "NEUTRAL",
