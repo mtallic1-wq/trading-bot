@@ -108,6 +108,7 @@ IMPORTANT RULES:
 - If news is clearly bearish (bad economic data, geopolitical risk, rate fears), say SELL SIDE
 - If news is clearly bullish (strong earnings, rate cut hopes, good data), say BUY SIDE
 - If news is mixed or unclear, say NEUTRAL with LOW confidence
+- DO NOT output any <think> tags or chain-of-thought reasoning block. Go straight to the markdown analysis output.
 - DXY strongly up = headwind for NQ (tech/growth inversely correlated with USD strength)
 - VIX above 20 and rising = fear/risk-off = bearish for NQ
 - Yields rising sharply = pressure on tech/growth (NQ bearish)
@@ -283,7 +284,7 @@ def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
                 client = Groq(api_key=GROQ_API_KEY)
                 response = client.chat.completions.create(
                     model=GROQ_MODEL,
-                    max_tokens=2500,
+                    max_tokens=4000,
                     temperature=0.0,
                     messages=[
                         {"role": "system", "content": SYSTEM_PROMPT},
@@ -291,6 +292,11 @@ def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
                     ],
                 )
                 text = response.choices[0].message.content
+                # Strip think block if present (Qwen reasoning outputs)
+                import re
+                text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
+                if "<think>" in text:
+                    text = text.split("</think>")[-1].strip()
                 bias_nq, side = _parse_bias(text)
                 return {
                     "analysis": text,
