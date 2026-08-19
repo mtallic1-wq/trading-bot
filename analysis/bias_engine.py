@@ -150,29 +150,29 @@ def build_prompt(nq: Dict, macro: Dict, yahoo: Dict,
             f"  Last 5 Candles: {c_str}"
         )
 
-    # Yahoo news
+    # Yahoo news (limited to top 8 for token constraints)
     yahoo_lines = "\n".join(
         f"  {i+1}. {n['title']}"
-        for i, n in enumerate(yahoo.get("items", [])[:20])
+        for i, n in enumerate(yahoo.get("items", [])[:8])
     ) or "  None available"
 
-    # World Monitor
-    wm_rows = worldmonitor.get("rows", [])[:20]
+    # World Monitor (limited for token constraints)
+    wm_rows = worldmonitor.get("rows", [])[:8]
     wm_text = "\n".join(
         f"  {r['label']} {' '.join(r['values'])}" for r in wm_rows
     )
     if not wm_text:
-        wm_text = worldmonitor.get("raw_snippet", "No data")[:2500]
+        wm_text = worldmonitor.get("raw_snippet", "No data")[:800]
 
-    # TradingView news
-    tv_news = tradingview.get("news", [])[:15]
+    # TradingView news (limited to top 8 for token constraints)
+    tv_news = tradingview.get("news", [])[:8]
     tv_lines = "\n".join(
         f"  {i+1}. {n['title']}"
         for i, n in enumerate(tv_news)
     ) or "  None available"
 
-    # Economic calendar
-    cal = tradingview.get("economic_calendar", [])
+    # Economic calendar (limited to top 15 for token constraints)
+    cal = tradingview.get("economic_calendar", [])[:15]
     cal_lines = "\n".join(
         f"  [{e.get('impact','?')}] {e['title']} — Actual: {e.get('actual','-')} | Forecast: {e.get('forecast','-')} | Prev: {e.get('previous','-')}"
         for e in cal if e.get("title")
@@ -255,7 +255,7 @@ def _call_gemini(prompt: str) -> Optional[str]:
         }
     }
     try:
-        response = requests.post(url, headers=headers, json=payload, timeout=20)
+        response = requests.post(url, headers=headers, json=payload, timeout=35)
         if response.status_code == 200:
             res_json = response.json()
             return res_json["candidates"][0]["content"]["parts"][0]["text"]
