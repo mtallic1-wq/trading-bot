@@ -362,8 +362,8 @@ def format_for_prompt(data: Dict) -> str:
         if choch:
             lines.append(f"    CHoCH: {choch['label']} @ {choch['level']} ({choch['date']})")
 
-        # Recent candles
-        candles = tf.get("recent_candles", [])
+        # Recent candles (limited to last 5 for token constraints)
+        candles = tf.get("recent_candles", [])[-5:]
         if candles:
             c_str = " > ".join(
                 f"{c['date']} {c['direction']}({c['open']}->{c['close']})"
