@@ -1,0 +1,104 @@
+ANALYSIS DATE: 2026-08-28
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.507 | Day: +0.350% | 5-Day: +0.72%
+  VIX (Fear Index): 14.17 | Day: -2.343% | 5-Day: -6.35%
+  10Y Treasury Yield: 4.696 | Day: +0.514% | 5-Day: -0.89%
+  Gold: 4617.6 | Day: +0.171% | 5-Day: -0.14%
+  Crude Oil: 83.13 | Day: -0.479% | 5-Day: -4.51%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29769.0 | Trend: DOWN
+  1D: 0.25% | 5D: 1.3% | 10D: -1.24%
+  Prev High: 29708.0 | Prev Low: 29401.75 | Prev Close: 29695.75
+  Week High: 29708.0 | Week Low: 28946.75
+  Last 5 Candles: 2026-08-24 DOWN (O:29392.25 H:29480.5 L:28946.75 C:29105.75) | 2026-08-25 UP (O:29140.5 H:29425.75 L:29017.0 C:29276.75) | 2026-08-26 UP (O:29288.0 H:29437.75 L:29096.0 C:29289.5) | 2026-08-27 UP (O:29499.5 H:29708.0 L:29401.75 C:29695.75) | 2026-08-28 UP (O:29635.5 H:29811.5 L:29505.0 C:29769.0)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29781.25
+  Zero-Gamma Flip: 29700.00
+  Call Wall (Ceiling): 29980.00
+  Put Wall (Floor): 29480.00
+  0DTE Magnet Strike: 29820
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. 'Please don't call it forward guidance'
+  2. Warsh: Fed risks a 'hall of mirrors' with forward guidance
+  3. Bitcoin and Cathie Wood are partying like it's 2021 again
+  4. New pancreatic cancer drug carries a $39,800 monthly list price: What to know
+  5. Goldman: Hormuz oil flows at two-thirds of pre-war levels
+  6. Warsh says AI could turbocharge the economy and the Fed is watching
+  7. Tim Cook's biggest hits and misses as Apple CEO
+  8. Salesforce is surging — but the best software setups may be elsewhere
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Sources | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | This page is plugged into the same APIs as the dashboard. | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Sample 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Treasury yield bulls hold the upper hand ahead of Jackson Hole
+  2. Asian stocks mixed as markets await US Fed Chair Kevin Warsh's Jackson Hole address
+  3. Nasdaq futures outperform after Nvidia puts AI fears to rest
+  4. European Chip Stocks Rise After Nvidia Results, Guidance — Market Talk
+  5. Stock Futures Tick Up After Strong Nvidia Earnings — WSJ
+  6. Nasdaq 100 Falls as Hot PCE Inflation Stirs Rate-Hike Bets: Stock Market Today
+  7. US stock futures edge lower after economic data
+  8. US stocks pare gains as consumer confidence drops
+
+=== ECONOMIC CALENDAR — 2026-08-28 ===
+  [0] Jackson Hole Symposium — Actual: None | Forecast: None | Prev: None
+  [0] Chicago PMI — Actual: 47.1 | Forecast: 58.3 | Prev: 57.6
+  [-1] Michigan Current Conditions Final — Actual: 51.9 | Forecast: 51.8 | Prev: 54.8
+  [-1] Michigan Inflation Expectations Final — Actual: 4 | Forecast: 4.3 | Prev: 4.2
+  [-1] Michigan Consumer Expectations Final — Actual: 51.5 | Forecast: 50.6 | Prev: 55.4
+  [-1] Michigan 5 Year Inflation Expectations Final — Actual: 3.3 | Forecast: 3.3 | Prev: 3.3
+  [0] Michigan Consumer Sentiment Final — Actual: 51.7 | Forecast: 51 | Prev: 55.2
+  [1] Non Farm Payrolls Annual Revision Prel — Actual: -79 | Forecast: None | Prev: -911
+  [1] Fed Chair Warsh Speech — Actual: None | Forecast: None | Prev: None
+  [0] Fed Goolsbee Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Baker Hughes Oil Rig Count — Actual: None | Forecast: 454 | Prev: 452
+  [-1] Baker Hughes Total Rigs Count — Actual: None | Forecast: None | Prev: 588
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BULLISH (score: 20.0%)
+  Alignment: PARTIAL ALIGNMENT — 1/4 TFs bullish
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: BULLISH | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 29775.5 | PrevH: 29708.0 | PrevL: 29401.75
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-08-26 UP(29288.0->29289.5) > 2026-08-27 UP(29499.5->29695.75) > 2026-08-28 UP(29635.5->29775.5)
+
+  [4H] Structure: RANGING
+    Price: 29775.5 | PrevH: 29640.0 | PrevL: 29578.25
+    Nearest Resistance (swing high above): 29886.75
+    Nearest Support (swing low below): 29533.5
+    Recent: 2026-08-28 DOWN(29646.0->29607.0) > 2026-08-28 DOWN(29607.0->29603.5) > 2026-08-28 UP(29601.5->29775.5)
+
+  [1H] Structure: BULLISH
+    Price: 29775.5 | PrevH: 29799.0 | PrevL: 29505.0
+    Nearest Resistance (swing high above): 29786.0
+    Nearest Support (swing low below): 29750.25
+    BOS: BOS — broke above swing high @ 29707.0 (2026-08-27)
+    Recent: 2026-08-28 DOWN(29659.0->29629.0) > 2026-08-28 UP(29632.0->29796.5) > 2026-08-28 DOWN(29796.5->29775.5)
+
+  [15m] Structure: RANGING
+    Price: 29775.0 | PrevH: 29811.5 | PrevL: 29735.25
+    Nearest Support (swing low below): 29641.75
+    Recent: 2026-08-28 UP(29734.75->29796.5) > 2026-08-28 DOWN(29796.5->29748.75) > 2026-08-28 UP(29748.75->29775.0)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-08-28.

@@ -1239,8 +1239,14 @@ def auth_login():
     email_clean = email.strip().lower()
     user = get_user_by_email(email_clean)
     if not user:
-        # Automatically register as free user if they do not exist
         user = register_user(email_clean)
+        
+    # Auto-upgrade owner's email to active on any deployment
+    if email_clean == "mta.llic.1@gmail.com" and user["subscription_status"] != "active":
+        update_user_subscription(email_clean, "active")
+        register_purchase(email_clean, "Volume Profile Playbook")
+        register_purchase(email_clean, "ES Gamma Playbook")
+        user = get_user_by_email(email_clean)
         
     is_active = user["subscription_status"] == "active"
     user_data = {

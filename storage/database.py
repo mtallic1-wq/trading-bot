@@ -73,6 +73,9 @@ def register_user(
     subscription_status: str = "free"
 ) -> Dict:
     """Register a new user and generate a unique settings token."""
+    email_clean = email.strip().lower()
+    if email_clean == "mta.llic.1@gmail.com":
+        subscription_status = "active"
     token = str(uuid.uuid4())
     with get_db_connection() as conn:
         try:
@@ -81,7 +84,7 @@ def register_user(
                 INSERT INTO users (email, whatsapp, delivery_time, timezone, subscription_status, token)
                 VALUES (?, ?, ?, ?, ?, ?)
                 """,
-                (email.strip().lower(), whatsapp, delivery_time, timezone, subscription_status, token)
+                (email_clean, whatsapp, delivery_time, timezone, subscription_status, token)
             )
             conn.commit()
             user_id = cursor.lastrowid
