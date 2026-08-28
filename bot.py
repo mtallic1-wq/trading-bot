@@ -74,8 +74,17 @@ def fetch_nq_gamma_levels_for_bot():
             console.print("[dim][Bot NQ Gamma] Successfully fetched and cached NQ levels.[/]")
             return data
         else:
-            # Try loading stale cache if API failed
+            # Try loading stale cache if API failed, but only if it is less than 18 hours old
+            is_cache_fresh = False
             if cache_path.exists():
+                try:
+                    mtime = cache_path.stat().st_mtime
+                    if (time.time() - mtime) < 64800:
+                        is_cache_fresh = True
+                except Exception:
+                    pass
+            
+            if is_cache_fresh:
                 with open(cache_path, "r") as f:
                     console.print(f"[dim][Bot NQ Gamma API Error] status {r.status_code}. Using stale disk cache.[/]")
                     return json.load(f)
@@ -109,8 +118,17 @@ def fetch_nq_gamma_levels_for_bot():
             console.print(f"[dim][Bot NQ Gamma API Error] status {r.status_code}. Using estimated fallback levels.[/]")
             return fallback_data
     except Exception as e:
-        # Try loading stale cache on network exception
+        # Try loading stale cache on network exception, but only if it is less than 18 hours old
+        is_cache_fresh = False
         if cache_path.exists():
+            try:
+                mtime = cache_path.stat().st_mtime
+                if (time.time() - mtime) < 64800:
+                    is_cache_fresh = True
+            except Exception:
+                pass
+                
+        if is_cache_fresh:
             with open(cache_path, "r") as f:
                 console.print(f"[dim][Bot NQ Gamma API Exception] {e}. Using stale disk cache.[/]")
                 return json.load(f)

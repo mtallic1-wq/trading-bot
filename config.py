@@ -32,7 +32,7 @@ if PERSISTENT_STORAGE_DIR:
 
 # --- API ---
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL   = "qwen/qwen3.6-27b"
+GROQ_MODEL   = "openai/gpt-oss-120b"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 FLASHALPHA_API_KEY = os.environ.get("FLASHALPHA_API_KEY", "")
 # Secret used to guard the manual admin upgrade endpoint. Must be set in the environment.

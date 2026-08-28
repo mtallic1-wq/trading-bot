@@ -1,0 +1,108 @@
+ANALYSIS DATE: 2026-08-19
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.872 | Day: -0.781% | 5-Day: -1.14%
+  VIX (Fear Index): 15.28 | Day: -3.535% | 5-Day: +5.02%
+  10Y Treasury Yield: 4.647 | Day: -1.254% | 5-Day: -0.75%
+  Gold: 4540.5 | Day: +3.997% | 5-Day: +2.98%
+  Crude Oil: 84.74 | Day: -0.235% | 5-Day: +1.77%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29405.25 | Trend: UP
+  1D: -0.61% | 5D: -1.5% | 10D: -0.71%
+  Prev High: 30121.25 | Prev Low: 29514.0 | Prev Close: 29586.0
+  Week High: 30343.0 | Week Low: 29514.0
+  Last 5 Candles: 2026-07-09 UP (O:29412.0 H:29993.5 L:29395.0 C:29937.0) | 2026-07-10 UP (O:29937.75 H:30077.75 L:29675.0 C:30032.25) | 2026-07-13 DOWN (O:29952.0 H:30041.0 L:29386.5 C:29475.75) | 2026-07-14 UP (O:29446.0 H:29921.75 L:29303.5 C:29790.25) | 2026-07-15 DOWN (O:29805.0 H:30062.5 L:29397.0 C:29693.25) | 2026-07-16 DOWN (O:29709.0 H:29797.0 L:29078.5 C:29225.75) | 2026-07-17 DOWN (O:29191.0 H:29220.0 L:28408.25 C:28773.25) | 2026-07-20 UP (O:28747.75 H:29192.5 L:28709.75 C:28778.75) | 2026-07-21 UP (O:28778.25 H:29364.75 L:28701.0 C:29316.0) | 2026-07-22 DOWN (O:29310.75 H:29342.25 L:28952.0 C:29181.25) | 2026-07-23 DOWN (O:29100.0 H:29282.5 L:28432.5 C:28620.75) | 2026-07-24 DOWN (O:28700.25 H:28736.0 L:28212.5 C:28282.25) | 2026-07-27 DOWN (O:28500.0 H:28763.25 L:27939.0 C:28190.0) | 2026-07-28 DOWN (O:28210.5 H:28228.0 L:27603.5 C:27922.0) | 2026-07-29 DOWN (O:27962.0 H:28178.25 L:27201.5 C:27342.0) | 2026-07-30 UP (O:27202.0 H:28414.5 L:27202.0 C:28237.75) | 2026-07-31 UP (O:28317.0 H:28725.75 L:28079.75 C:28404.25) | 2026-08-03 UP (O:28565.0 H:28964.25 L:28313.5 C:28891.75) | 2026-08-04 UP (O:28930.0 H:29956.5 L:28831.75 C:29863.5) | 2026-08-05 DOWN (O:29777.25 H:30074.0 L:29530.75 C:29615.0) | 2026-08-06 DOWN (O:29569.5 H:29686.25 L:29241.25 C:29488.25) | 2026-08-07 UP (O:29514.25 H:29867.75 L:29453.5 C:29834.75) | 2026-08-10 DOWN (O:29851.25 H:29984.0 L:29718.75 C:29737.0) | 2026-08-11 DOWN (O:29764.5 H:29886.75 L:29533.5 C:29626.0) | 2026-08-12 UP (O:29657.75 H:30001.75 L:29624.5 C:29853.25) | 2026-08-13 UP (O:29825.0 H:30272.75 L:29780.5 C:30188.5) | 2026-08-14 DOWN (O:30210.75 H:30283.0 L:30028.5 C:30141.75) | 2026-08-17 DOWN (O:30170.0 H:30343.0 L:30054.5 C:30096.0) | 2026-08-18 DOWN (O:30077.0 H:30121.25 L:29514.0 C:29586.0) | 2026-08-19 DOWN (O:29566.5 H:29757.25 L:29375.75 C:29405.25)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29735.00
+  Zero-Gamma Flip: 29660.00
+  Call Wall (Ceiling): 29940.00
+  Put Wall (Floor): 29440.00
+  0DTE Magnet Strike: 29780
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Stocks bounce after Treasury boosts bond buybacks
+  2. Moderna stock soars on melanoma vaccine trial success
+  3. Target delivers earnings beat, CEO 'encouraged' by turnaround traction
+  4. Lowe's cautious outlook sends stock lower, flags 'pressure' in DIY spending
+  5. 50% tariffs on Canadian goods paused in eleventh-hour deal
+  6. Tech today: OpenAI's growth disappoints, Meta trial continues
+  7. Tech deploys charm offensive to combat AI data center backlash
+  8. SK Hynix stock rises amid $29B treasury buyback plan
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Sources | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | This page is plugged into the same APIs as the dashboard. | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Sample 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Bonds out, robots in
+  2. Nasdaq 100 sheds over 500 points as Chip stocks lead Wall Street sell-off on Tuesday
+  3. US stocks drop, led by Tech, as bond-yield spike sparks angst
+  4. Chip rout pulls stocks down as bond angst lingers
+  5. Gary Black Says Tesla Stock Will Remain ‘Moribund’ Until Musk Deploys Unsupervised Cybercabs At Scale
+  6. Nasdaq Drops, Chip Stocks Crater As Bond Yields Bite: Stock Market Today
+  7. U.S. investors have been buying stocks all month and are sitting on profits. Here's what might make them sell.
+  8. Benchmark Treasury yield pushes higher as long-term breakout gathers momentum
+
+=== ECONOMIC CALENDAR — 2026-08-19 ===
+  [-1] MBA Purchase Index — Actual: 154.8 | Forecast: None | Prev: 157.9
+  [-1] MBA Mortgage Market Index — Actual: 247.7 | Forecast: None | Prev: 248.6
+  [-1] MBA Mortgage Refinance Index — Actual: 755.9 | Forecast: None | Prev: 744.4
+  [-1] MBA Mortgage Applications — Actual: -0.4 | Forecast: None | Prev: 3.6
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.77 | Forecast: None | Prev: 6.77
+  [-1] EIA Gasoline Production Change — Actual: 0.143 | Forecast: None | Prev: -0.001
+  [0] EIA Crude Oil Stocks Change — Actual: 4.405 | Forecast: -0.6 | Prev: 17.422
+  [-1] EIA Cushing Crude Oil Stocks Change — Actual: -1.314 | Forecast: None | Prev: 1.611
+  [-1] EIA Distillate Stocks Change — Actual: -1.53 | Forecast: -0.9 | Prev: -0.01
+  [-1] EIA Refinery Crude Runs Change — Actual: 0.216 | Forecast: None | Prev: 0.026
+  [-1] EIA Distillate Fuel Production Change — Actual: -0.054 | Forecast: None | Prev: 0.05
+  [-1] EIA Crude Oil Imports Change — Actual: -1.754 | Forecast: None | Prev: 1.768
+  [0] EIA Gasoline Stocks Change — Actual: 0.688 | Forecast: -1.2 | Prev: -0.968
+  [-1] EIA Heating Oil Stocks Change — Actual: -0.537 | Forecast: None | Prev: 0.192
+  [-1] 17-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.755
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BEARISH (score: -30.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: BULLISH | 1H: BEARISH | 15m: RANGING
+
+  [Daily] Structure: BEARISH
+    Price: 29416.0 | PrevH: 30121.25 | PrevL: 29514.0
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-08-17 DOWN(30170.0->30096.0) > 2026-08-18 DOWN(30077.0->29586.0) > 2026-08-19 DOWN(29566.5->29416.0)
+
+  [4H] Structure: BULLISH
+    Price: 29414.5 | PrevH: 29640.75 | PrevL: 29506.75
+    Nearest Resistance (swing high above): 29686.25
+    Nearest Support (swing low below): 29241.25
+    CHoCH: CHoCH — broke below swing low (structure flip) @ 30028.5 (2026-08-14)
+    Recent: 2026-08-19 UP(29517.0->29601.25) > 2026-08-19 DOWN(29600.25->29536.0) > 2026-08-19 DOWN(29535.0->29414.5)
+
+  [1H] Structure: BEARISH
+    Price: 29414.5 | PrevH: 29748.25 | PrevL: 29406.5
+    Nearest Resistance (swing high above): 29609.5
+    Nearest Support (swing low below): 29255.5
+    BOS: BOS — broke below swing low @ 29430.5 (2026-08-19)
+    Recent: 2026-08-19 UP(29535.0->29742.75) > 2026-08-19 DOWN(29743.0->29496.5) > 2026-08-19 DOWN(29496.25->29414.5)
+
+  [15m] Structure: RANGING
+    Price: 29416.25 | PrevH: 29514.25 | PrevL: 29377.25
+    Nearest Resistance (swing high above): 29567.0
+    Recent: 2026-08-19 DOWN(29609.75->29496.5) > 2026-08-19 DOWN(29496.25->29382.5) > 2026-08-19 UP(29382.25->29416.25)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-08-19.

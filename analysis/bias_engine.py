@@ -138,7 +138,7 @@ def build_prompt(nq: Dict, macro: Dict, yahoo: Dict,
         if inst.get("error"):
             return f"  Error: {inst['error']}"
         perf = inst.get("performance", {})
-        candles = inst.get("recent_candles", [])
+        candles = inst.get("recent_candles", [])[-5:]
         c_str = " | ".join(
             f"{c['date']} {c['direction']} (O:{c['open']} H:{c['high']} L:{c['low']} C:{c['close']})"
             for c in candles
@@ -284,7 +284,7 @@ def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
                 client = Groq(api_key=GROQ_API_KEY)
                 response = client.chat.completions.create(
                     model=GROQ_MODEL,
-                    max_tokens=4000,
+                    max_tokens=1500,
                     temperature=0.0,
                     messages=[
                         {"role": "system", "content": SYSTEM_PROMPT},
