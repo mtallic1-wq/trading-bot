@@ -15,11 +15,28 @@ def _path(date_str: str) -> Path:
     return REPORTS_DIR / f"{date_str}.json"
 
 
+import math
+
+def sanitize_floats(obj):
+    """Recursively replace NaN and Inf float values with None (JSON null)."""
+    if isinstance(obj, float):
+        if math.isnan(obj) or math.isinf(obj):
+            return None
+        return obj
+    elif isinstance(obj, dict):
+        return {k: sanitize_floats(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [sanitize_floats(v) for v in obj]
+    return obj
+
+
 def save_report(report: Dict, date_str: Optional[str] = None) -> str:
     """Save a report dict to disk. Returns the file path."""
     if date_str is None:
         date_str = datetime.now().strftime("%Y-%m-%d")
     fp = _path(date_str)
+    # Sanitize floats to prevent NaN in JSON files
+    report = sanitize_floats(report)
     with open(fp, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, default=str)
     return str(fp)

@@ -34,6 +34,20 @@ Compress(app)
 # Initialize Database Schema on load
 init_db()
 
+import math
+
+def sanitize_floats(obj):
+    """Recursively replace NaN and Inf float values with None (JSON null)."""
+    if isinstance(obj, float):
+        if math.isnan(obj) or math.isinf(obj):
+            return None
+        return obj
+    elif isinstance(obj, dict):
+        return {k: sanitize_floats(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [sanitize_floats(v) for v in obj]
+    return obj
+
 # ── Background job store ──────────────────────────────────────────────────────
 _jobs = {}   # job_id -> {"status": "running"|"done"|"error", "result": ..., "error": ...}
 
@@ -202,7 +216,7 @@ def get_report(date):
         abort(404, description=f"No report for {date}")
 
     report = json.loads(fp.read_text(encoding="utf-8"))
-    return jsonify(report)
+    return jsonify(sanitize_floats(report))
 
 
 # Trigger analysis
@@ -266,7 +280,7 @@ def job_status(job_id):
     job = _jobs.get(job_id)
     if not job:
         abort(404, description="Unknown job")
-    return jsonify(job)
+    return jsonify(sanitize_floats(job))
 
 
 # Live news

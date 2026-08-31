@@ -1,0 +1,95 @@
+ANALYSIS DATE: 2026-08-31
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.568 | Day: -0.132% | 5-Day: +0.57%
+  VIX (Fear Index): 15.38 | Day: +6.584% | 5-Day: -2.97%
+  10Y Treasury Yield: 4.752 | Day: +0.678% | 5-Day: +1.02%
+  Gold: 4489.3 | Day: +0.250% | 5-Day: -3.26%
+  Crude Oil: 85.8 | Day: +2.878% | 5-Day: +0.93%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29387.75 | Trend: SIDEWAYS
+  1D: -0.35% | 5D: 0.97% | 10D: -2.35%
+  Prev High: 29811.5 | Prev Low: 29436.25 | Prev Close: 29491.75
+  Week High: 29811.5 | Week Low: 28946.75
+  Last 5 Candles: 2026-08-25 UP (O:29140.5 H:29425.75 L:29017.0 C:29276.75) | 2026-08-26 UP (O:29288.0 H:29437.75 L:29096.0 C:29289.5) | 2026-08-27 UP (O:29499.5 H:29708.0 L:29401.75 C:29695.75) | 2026-08-28 DOWN (O:29635.5 H:29811.5 L:29436.25 C:29491.75) | 2026-08-31 DOWN (O:29540.0 H:29546.25 L:29273.5 C:29387.75)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29392.25
+  Zero-Gamma Flip: 29310.00
+  Call Wall (Ceiling): 29590.00
+  Put Wall (Floor): 29090.00
+  0DTE Magnet Strike: 29430
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Apple investors are $4T richer because of Tim Cook. Today's his last day.
+  2. After an 'extraordinary' earnings season, here's the next big positive for stocks
+  3. Oil prices surge higher as US and Iran exchange fire for first time in a month
+  4. Dow, S&P 500, Nasdaq futures fall as US strikes Iran, rate-hike bets jump
+  5. Venezuelan oil will be used to refill US reserve: Trump
+  6. BYD shows Chinese carmakers' only way out of slump is abroad
+  7. Sony seeking up to $150K a song in lawsuit against Anthropic
+  8. SK Hynix weighs Japan memory fab partnership to supply AI boom
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Sources | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Sample 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. US stock futures slip as Iran tensions push oil higher; September Fed hike bets rise
+  2. US stock futures down as Middle East strikes fuel inflation anxiety
+  3. US stock index futures dip as Middle East strikes worsen inflation fears
+  4. How Are Nasdaq, Dow, S&P 500 Futures Reacting As US Launches Fresh Strike On Iran?
+  5. Stock Futures Drift Lower, Oil Rises Ahead of Jobs Data, Tech Earnings — Barrons.com
+  6. Nasdaq 100 Falls As Warsh Revives Rate Hike Bets: Stock Market Today
+  7. Treasury yield bulls hold the upper hand ahead of Jackson Hole
+  8. Asian stocks mixed as markets await US Fed Chair Kevin Warsh's Jackson Hole address
+
+=== ECONOMIC CALENDAR — 2026-08-31 ===
+  [0] Dallas Fed Manufacturing Index — Actual: None | Forecast: None | Prev: 1.3
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.79
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.715
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: 0.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 29391.5 | PrevH: 29811.5 | PrevL: 29436.25
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-08-27 UP(29499.5->29695.75) > 2026-08-28 DOWN(29635.5->29491.75) > 2026-08-31 DOWN(29540.0->29391.5)
+
+  [4H] Structure: RANGING
+    Price: 29393.5 | PrevH: 29535.0 | PrevL: 29425.25
+    Nearest Resistance (swing high above): 29425.75
+    Nearest Support (swing low below): 29375.75
+    Recent: 2026-08-31 UP(29352.5->29508.25) > 2026-08-31 DOWN(29508.5->29429.75) > 2026-08-31 DOWN(29429.75->29393.5)
+
+  [1H] Structure: RANGING
+    Price: 29393.5 | PrevH: 29486.0 | PrevL: 29380.0
+    Nearest Resistance (swing high above): 29399.25
+    Nearest Support (swing low below): 29375.75
+    Recent: 2026-08-31 DOWN(29458.25->29429.75) > 2026-08-31 DOWN(29429.75->29389.0) > 2026-08-31 UP(29389.5->29393.5)
+
+  [15m] Structure: RANGING
+    Price: 29393.5 | PrevH: 29407.5 | PrevL: 29380.0
+    Nearest Resistance (swing high above): 29398.5
+    Nearest Support (swing low below): 29333.75
+    Recent: 2026-08-31 DOWN(29415.75->29399.25) > 2026-08-31 DOWN(29398.5->29389.0) > 2026-08-31 UP(29389.5->29393.5)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-08-31.

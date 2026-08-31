@@ -39,6 +39,8 @@ def _download(ticker: str, interval: str, end_date: Optional[str], lookback_days
             )
         if isinstance(df.columns, pd.MultiIndex):
             df.columns = df.columns.get_level_values(0)
+        if not df.empty:
+            df = df.dropna(subset=["Open", "High", "Low", "Close"])
         return df
     except Exception:
         return pd.DataFrame()
