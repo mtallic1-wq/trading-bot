@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "created": "2026-08-31T18:15:48.934447",
+  "created": "2026-08-31T18:19:10.787079",
   "is_historical": false,
   "bias_nq": "BEARISH",
   "side": "SELL SIDE",
@@ -264,29 +264,29 @@
   },
   "macro": {
     "DXY (Dollar Index)": {
-      "price": 99.568,
-      "day_chg": -0.132,
+      "price": 99.566,
+      "day_chg": -0.134,
       "5d_chg": 0.57
     },
     "VIX (Fear Index)": {
-      "price": 15.38,
-      "day_chg": 6.584,
-      "5d_chg": -2.97
+      "price": 15.37,
+      "day_chg": 6.514,
+      "5d_chg": -3.03
     },
     "10Y Treasury Yield": {
-      "price": 4.752,
-      "day_chg": 0.678,
-      "5d_chg": 1.02
+      "price": 4.754,
+      "day_chg": 0.72,
+      "5d_chg": 1.06
     },
     "Gold": {
-      "price": 4489.3,
-      "day_chg": 0.25,
-      "5d_chg": -3.26
+      "price": 4495.5,
+      "day_chg": 0.389,
+      "5d_chg": -3.13
     },
     "Crude Oil": {
-      "price": 85.8,
-      "day_chg": 2.878,
-      "5d_chg": 0.93
+      "price": 85.57,
+      "day_chg": 2.602,
+      "5d_chg": 0.66
     }
   },
   "yahoo": {
@@ -399,13 +399,13 @@
         "source": "Yahoo/economic"
       },
       {
-        "title": "Interest Rates, Jobs Data and Other Key Things to Watch this Week",
-        "url": "https://finance.yahoo.com/economy/policy/articles/interest-rates-jobs-data-other-170002500.html",
+        "title": "Mohamed El-Erian Says Kevin Warsh Faces Jackson Hole Balancing Act Between \u2018Reaction Function\u2019 And \u2018Original Secular Spirit\u2019",
+        "url": "https://finance.yahoo.com/economy/policy/articles/mohamed-el-erian-says-kevin-132551787.html",
         "source": "Yahoo/economic"
       },
       {
-        "title": "Mohamed El-Erian Says Kevin Warsh Faces Jackson Hole Balancing Act Between \u2018Reaction Function\u2019 And \u2018Original Secular Spirit\u2019",
-        "url": "https://finance.yahoo.com/economy/policy/articles/mohamed-el-erian-says-kevin-132551787.html",
+        "title": "Interest Rates, Jobs Data and Other Key Things to Watch this Week",
+        "url": "https://finance.yahoo.com/economy/policy/articles/interest-rates-jobs-data-other-170002500.html",
         "source": "Yahoo/economic"
       },
       {
@@ -839,7 +839,7 @@
         "bos": null,
         "choch": null,
         "label": "Daily",
-        "current": 29391.5,
+        "current": 29386.75,
         "prev_high": 29811.5,
         "prev_low": 29436.25,
         "prev_close": 29491.75,
@@ -867,7 +867,7 @@
             "open": 29540.0,
             "high": 29546.25,
             "low": 29273.5,
-            "close": 29391.5,
+            "close": 29386.75,
             "direction": "DOWN"
           }
         ],
@@ -922,7 +922,7 @@
         "bos": null,
         "choch": null,
         "label": "4H",
-        "current": 29393.5,
+        "current": 29386.75,
         "prev_high": 29535.0,
         "prev_low": 29425.25,
         "prev_close": 29429.75,
@@ -950,7 +950,7 @@
             "open": 29429.75,
             "high": 29486.0,
             "low": 29377.5,
-            "close": 29393.5,
+            "close": 29386.75,
             "direction": "DOWN"
           }
         ],
@@ -1005,7 +1005,7 @@
         "bos": null,
         "choch": null,
         "label": "1H",
-        "current": 29393.5,
+        "current": 29386.75,
         "prev_high": 29486.0,
         "prev_low": 29380.0,
         "prev_close": 29389.0,
@@ -1033,8 +1033,8 @@
             "open": 29389.5,
             "high": 29398.0,
             "low": 29377.5,
-            "close": 29393.5,
-            "direction": "UP"
+            "close": 29386.75,
+            "direction": "DOWN"
           }
         ],
         "bar_count": 562
@@ -1088,7 +1088,7 @@
         "bos": null,
         "choch": null,
         "label": "15m",
-        "current": 29393.5,
+        "current": 29388.25,
         "prev_high": 29407.5,
         "prev_low": 29380.0,
         "prev_close": 29389.0,
@@ -1116,8 +1116,8 @@
             "open": 29389.5,
             "high": 29398.0,
             "low": 29377.5,
-            "close": 29393.5,
-            "direction": "UP"
+            "close": 29388.25,
+            "direction": "DOWN"
           }
         ],
         "bar_count": 313
@@ -1140,7 +1140,7 @@
     "warning": "Estimated fallback levels shown due to FlashAlpha API tier restrictions."
   },
   "analysis": {
-    "analysis": "---\n## MACRO ENVIRONMENT SUMMARY\n- **DXY**: Slightly down today (\u20110.13%) but up\u202f+0.57% over 5\u202fdays \u2013 a modest USD strength head\u2011wind for tech.  \n- **VIX**: 15.38, up\u202f+6.6% on the day (still low\u2011ish but rising) \u2013 growing fear, risk\u2011off bias.  \n- **10\u2011Y Treasury Yield**: 4.75\u202f%, up\u202f+0.68% today and +1.02% over 5\u202fdays \u2013 higher financing costs pressuring growth stocks.  \n- **Gold**: 4,489\u202f$, modestly higher (+0.25%) \u2013 safe\u2011haven buying, another risk\u2011off signal.  \n- **Crude Oil**: 85.8\u202f$, up\u202f+2.88% today \u2013 price jump driven by US\u2011Iran tensions, feeding inflation worries.  \n\n**RISK\u2011ON / RISK\u2011OFF**: **RISK\u2011OFF** environment.\n\n## KEY NEWS ANALYSIS\n- **Apple CEO transition** \u2013 Tim\u202fCook\u2019s last day; market sees $4\u202fT wealth boost but no immediate earnings catalyst. Neutral to mildly positive for NQ.  \n- **\u201cExtraordinary\u201d earnings season** \u2013 Broad optimism, but the headline is generic; no concrete upside for NQ today. Neutral.  \n- **US\u2011Iran exchange of fire** \u2013 First clash in a month; pushes oil higher, fuels inflation fears, and revives rate\u2011hike bets. **Bearish** for tech.  \n- **Futures fall as US strikes Iran, rate\u2011hike bets jump** \u2013 Directly signals market selling pressure on Nasdaq futures. **Bearish**.  \n- **Trump\u2019s Venezuelan oil comment** \u2013 Political noise, limited impact on NQ. Neutral.  \n- **BYD, Sony, SK\u202fHynix stories** \u2013 Mostly sector\u2011specific, no immediate Nasdaq\u2011wide effect. Neutral.  \n\n**Overall news sentiment for Nasdaq**: **BEARISH**.\n\n## ECONOMIC EVENTS IMPACT\n- No major economic releases today (only bill auctions and a Dallas Fed manufacturing index with no data).  \n- Market focus is on **inflation\u2011related expectations** (Fed Chair Warsh\u2019s Jackson Hole speech) and **geopolitical risk** from the Middle East.  \n\n## MULTI\u2011TIMEFRAME STRUCTURE\n| Timeframe | Structure | BOS / CHoCH | Nearest Resistance | Nearest Support |\n|-----------|-----------|-------------|--------------------|-----------------|\n| Daily | **RANGING** | No clear BOS/CHoCH | 29,782\u202f (swing high) | 29,160\u202f (swing low) |\n| 4\u2011Hour | **RANGING** | No clear BOS/CHoCH | 29,425\u202f | 29,376\u202f |\n| 1\u2011Hour | **RANGING** | No clear BOS/CHoCH | 29,399\u202f | 29,376\u202f |\n| 15\u2011min | **RANGING** | No clear BOS/CHoCH | 29,398\u202f | 29,334\u202f |\n\n**Overall multi\u2011TF bias**: **Neutral / Ranging** (no alignment).\n\n## OPTIONS GAMMA ANALYSIS (GEX)\n- **Spot**: 29,392\u202f (\u2248\u202f+282\u202fpts above Zero\u2011Gamma Flip at 29,310).  \n- **Zero\u2011Gamma Flip**: 29,310\u202f \u2013 we are in **Positive Gamma (+GEX)** territory.  \n- **Call Wall (Ceiling)**: 29,590\u202f \u2013 strong resistance; price has struggled to breach it.  \n- **Put Wall (Floor)**: 29,090\u202f \u2013 strong support; downside moves likely to be absorbed here.  \n- **0DTE Magnet**: 29,430\u202f \u2013 just above current price, acting as a magnet for short\u2011term flow.  \n\n**Regime**: **Positive Gamma** \u2192 volatility dampened, walls tend to hold, mean\u2011reversion bias. Expect price to respect the 29,090 floor and 29,590 ceiling, with the 29,430 magnet pulling modestly upward if buying pressure appears.\n\n## PREDICTION\n**NYSE SESSION SIDE: SELL SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq\u2011100) | **BEARISH** | **65%** | **MEDIUM** |\n\n**NQ Prediction: BEARISH**  \n**Confidence: 65% \u2014 MEDIUM**\n\n## TOP REASONS\n1. **Geopolitical shock (US\u2011Iran strike) + rising oil** fuels inflation fears and revives rate\u2011hike bets, pressuring tech valuations.  \n2. **Macro backdrop** \u2013 higher yields, modest USD strength, and a rising VIX all point to a risk\u2011off tilt.  \n3. **Positive Gamma regime** limits upside; price sits below the 0DTE magnet and well under the Call Wall, making a breakout unlikely today.\n\n## KEY RISKS\n- **Unexpected dovish tone** from Fed Chair Kevin Warsh at Jackson Hole could lift risk appetite and reverse the sell pressure.  \n- **Positive Gamma walls hold** \u2013 if the 29,430 magnet triggers buying, price could bounce toward the Call Wall, limiting downside.  \n- **Any surprise strong earnings** from major tech names (e.g., Apple post\u2011Cook transition) could inject bullish momentum.\n\n## WHAT",
+    "analysis": "---\n## MACRO ENVIRONMENT SUMMARY\n- **DXY 99.57 (+0.57% 5\u2011day)** \u2013 Dollar strength is a head\u2011wind for tech\u2011heavy NQ.  \n- **VIX 15.37 (+6.5% today, \u20133% 5\u2011day)** \u2013 Still low, but the recent uptick signals rising fear.  \n- **10\u2011yr Yield 4.75% (+1.06% 5\u2011day)** \u2013 Sharply higher yields pressure growth/tech valuations.  \n- **Gold 4,495 (+0.39% today, \u20133.1% 5\u2011day)** \u2013 Slight safe\u2011haven rally, reinforcing risk\u2011off tone.  \n- **Crude Oil 85.6 (+2.6% today, +0.66% 5\u2011day)** \u2013 Oil jump on US\u2011Iran flare\u2011up fuels inflation worries.  \n\n**RISK\u2011ON / RISK\u2011OFF:** **RISK\u2011OFF** environment.\n\n## KEY NEWS ANALYSIS\n| Headline | Impact on NQ |\n|----------|--------------|\n| **Apple investors $4T richer as Tim Cook exits (last day)** | Short\u2011term optimism from wealth effect, but CEO transition adds uncertainty for the sector\u2019s flagship tech stock. Net neutral\u2011to\u2011slightly bearish. |\n| **\u201cExtraordinary\u201d earnings season \u2013 next big positive for stocks** | Broad\u2011based earnings beat could lift sentiment, but the upside is already priced in; limited lift for NQ today. |\n| **Oil prices surge as US & Iran exchange fire** | Higher oil fuels inflation expectations, pushes rate\u2011hike bets, hurts growth\u2011oriented tech. Bearish for NQ. |\n| **US futures fall as Iran strike, rate\u2011hike bets jump** | Direct market reaction: futures down, risk\u2011off bias intensifies. Bearish. |\n| **Venezuelan oil to refill US reserves \u2013 Trump** | Geopolitical tension reinforces commodity\u2011driven inflation fears. Bearish. |\n| **BYD: Chinese carmakers need overseas markets** | Signals continued pressure on Chinese tech exposure, but limited direct NQ impact. Neutral. |\n| **Sony lawsuit vs. Anthropic (AI)** | Highlights regulatory/legal risk in AI space; could dampen AI\u2011driven hype in NQ. Slightly bearish. |\n| **SK Hynix eye Japan fab partnership for AI boom** | Positive for memory sector, but overall risk\u2011off dominates. Neutral. |\n\n**Overall news sentiment:** **BEARISH** for Nasdaq\u2011100.\n\n## ECONOMIC EVENTS IMPACT\n- No major economic releases on 2026\u201108\u201131 (only routine bill auctions).  \n- Market focus is on geopolitical tension and upcoming **Jackson Hole** speeches (Fed Chair Kevin Warsh).  \n\n## MULTI\u2011TIMEFRAME STRUCTURE\n| Timeframe | Structure | BOS / CHoCH | Nearest Resistance | Nearest Support |\n|-----------|-----------|-------------|--------------------|-----------------|\n| **Daily** | RANGING | No clear BOS/CHoCH | ~29782 (swing high) | ~29160 (swing low) |\n| **4\u2011Hour** | RANGING | No clear BOS/CHoCH | 29425.75 | 29375.75 |\n| **1\u2011Hour** | RANGING | No clear BOS/CHoCH | 29399.25 | 29375.75 |\n| **15\u2011min** | RANGING | No clear BOS/CHoCH | 29398.5 | 29333.75 |\n\n**Overall multi\u2011TF bias:** **NEUTRAL / RANGING** \u2013 no alignment, all frames flat.\n\n## OPTIONS GAMMA ANALYSIS (GEX)\n- **Spot 29,392** is **above the Zero\u2011Gamma Flip (29,310)** \u2192 **Positive Gamma (+GEX)** regime.  \n- **Call Wall (Ceiling) at 29,590** and **Put Wall (Floor) at 29,090** are intact; volatility is dampened, and price tends to respect these walls.  \n- Expect **range\u2011bound action** with limited breakout potential unless a catalyst (e.g., Jackson Hole) forces a break of the walls.  \n\n## PREDICTION\n**NYSE SESSION SIDE: SELL SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq\u2011100) | BEARISH | 65% | MEDIUM |\n\n**NQ Prediction:** **BEARISH**  \n**Confidence:** **65% \u2014 MEDIUM**\n\n## TOP REASONS\n1. **Geopolitical tension (US\u2011Iran strike) + rising oil** fuels inflation fears and pushes rate\u2011hike bets, a clear risk\u2011off driver for tech.  \n2. **Rising 10\u2011yr yields & stronger USD** compress valuations of growth\u2011oriented Nasdaq stocks.  \n3. **Positive Gamma environment** keeps price confined; with bearish",
     "bias_nq": "BEARISH",
     "side": "SELL SIDE",
     "source": "Groq (openai/gpt-oss-120b) \u2014 News/Macro Analysis"

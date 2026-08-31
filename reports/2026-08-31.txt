@@ -2,11 +2,11 @@ ANALYSIS DATE: 2026-08-31
 TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
 
 === MACROECONOMIC INDICATORS ===
-  DXY (Dollar Index): 99.568 | Day: -0.132% | 5-Day: +0.57%
-  VIX (Fear Index): 15.38 | Day: +6.584% | 5-Day: -2.97%
-  10Y Treasury Yield: 4.752 | Day: +0.678% | 5-Day: +1.02%
-  Gold: 4489.3 | Day: +0.250% | 5-Day: -3.26%
-  Crude Oil: 85.8 | Day: +2.878% | 5-Day: +0.93%
+  DXY (Dollar Index): 99.566 | Day: -0.134% | 5-Day: +0.57%
+  VIX (Fear Index): 15.37 | Day: +6.514% | 5-Day: -3.03%
+  10Y Treasury Yield: 4.754 | Day: +0.720% | 5-Day: +1.06%
+  Gold: 4495.5 | Day: +0.389% | 5-Day: -3.13%
+  Crude Oil: 85.57 | Day: +2.602% | 5-Day: +0.66%
 
 === NQ — Nasdaq-100 Futures ===
   Price: 29387.75 | Trend: SIDEWAYS
@@ -65,28 +65,28 @@ TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
   TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: RANGING
 
   [Daily] Structure: RANGING
-    Price: 29391.5 | PrevH: 29811.5 | PrevL: 29436.25
+    Price: 29386.75 | PrevH: 29811.5 | PrevL: 29436.25
     Nearest Resistance (swing high above): 29782.0
     Nearest Support (swing low below): 29160.5
-    Recent: 2026-08-27 UP(29499.5->29695.75) > 2026-08-28 DOWN(29635.5->29491.75) > 2026-08-31 DOWN(29540.0->29391.5)
+    Recent: 2026-08-27 UP(29499.5->29695.75) > 2026-08-28 DOWN(29635.5->29491.75) > 2026-08-31 DOWN(29540.0->29386.75)
 
   [4H] Structure: RANGING
-    Price: 29393.5 | PrevH: 29535.0 | PrevL: 29425.25
+    Price: 29386.75 | PrevH: 29535.0 | PrevL: 29425.25
     Nearest Resistance (swing high above): 29425.75
     Nearest Support (swing low below): 29375.75
-    Recent: 2026-08-31 UP(29352.5->29508.25) > 2026-08-31 DOWN(29508.5->29429.75) > 2026-08-31 DOWN(29429.75->29393.5)
+    Recent: 2026-08-31 UP(29352.5->29508.25) > 2026-08-31 DOWN(29508.5->29429.75) > 2026-08-31 DOWN(29429.75->29386.75)
 
   [1H] Structure: RANGING
-    Price: 29393.5 | PrevH: 29486.0 | PrevL: 29380.0
+    Price: 29386.75 | PrevH: 29486.0 | PrevL: 29380.0
     Nearest Resistance (swing high above): 29399.25
     Nearest Support (swing low below): 29375.75
-    Recent: 2026-08-31 DOWN(29458.25->29429.75) > 2026-08-31 DOWN(29429.75->29389.0) > 2026-08-31 UP(29389.5->29393.5)
+    Recent: 2026-08-31 DOWN(29458.25->29429.75) > 2026-08-31 DOWN(29429.75->29389.0) > 2026-08-31 DOWN(29389.5->29386.75)
 
   [15m] Structure: RANGING
-    Price: 29393.5 | PrevH: 29407.5 | PrevL: 29380.0
+    Price: 29388.25 | PrevH: 29407.5 | PrevL: 29380.0
     Nearest Resistance (swing high above): 29398.5
     Nearest Support (swing low below): 29333.75
-    Recent: 2026-08-31 DOWN(29415.75->29399.25) > 2026-08-31 DOWN(29398.5->29389.0) > 2026-08-31 UP(29389.5->29393.5)
+    Recent: 2026-08-31 DOWN(29415.75->29399.25) > 2026-08-31 DOWN(29398.5->29389.0) > 2026-08-31 DOWN(29389.5->29388.25)
 
 
 === TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
