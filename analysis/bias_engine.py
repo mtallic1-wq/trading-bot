@@ -284,7 +284,7 @@ def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
                 client = Groq(api_key=GROQ_API_KEY)
                 response = client.chat.completions.create(
                     model=GROQ_MODEL,
-                    max_tokens=1500,
+                    max_tokens=4000,
                     temperature=0.0,
                     messages=[
                         {"role": "system", "content": SYSTEM_PROMPT},

@@ -1,0 +1,108 @@
+ANALYSIS DATE: 2026-09-03
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.018 | Day: -0.544% | 5-Day: -0.14%
+  VIX (Fear Index): 15.08 | Day: -0.789% | 5-Day: +3.93%
+  10Y Treasury Yield: 4.742 | Day: -1.126% | 5-Day: +1.50%
+  Gold: 4534.0 | Day: +3.841% | 5-Day: -1.64%
+  Crude Oil: 91.67 | Day: +0.725% | 5-Day: +9.75%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29230.25 | Trend: DOWN
+  1D: 0.15% | 5D: -1.57% | 10D: -0.24%
+  Prev High: 29213.0 | Prev Low: 28927.25 | Prev Close: 29186.25
+  Week High: 29811.5 | Week Low: 28927.25
+  Last 5 Candles: 2026-08-28 DOWN (O:29635.5 H:29811.5 L:29436.25 C:29491.75) | 2026-08-31 DOWN (O:29540.0 H:29546.25 L:29273.5 C:29513.0) | 2026-09-01 DOWN (O:29518.25 H:29571.25 L:29002.0 C:29125.5) | 2026-09-02 UP (O:29136.5 H:29213.0 L:28927.25 C:29186.25) | 2026-09-03 UP (O:29177.0 H:29292.75 L:29075.0 C:29230.25)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29231.00
+  Zero-Gamma Flip: 29150.00
+  Call Wall (Ceiling): 29430.00
+  Put Wall (Floor): 28930.00
+  0DTE Magnet Strike: 29270
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Nvidia to buy open-source AI platform Hugging Face for $13B
+  2. Campbell's stock plunges as food maker slashes dividend after sales, profit declines
+  3. Gold prices just hit a key level for traders
+  4. Why US diesel just hit a four-year high
+  5. Number of 401(k) millionaires hits new record high, Fidelity says
+  6. For all the talk of AI, few companies are quantifying gains
+  7. Tesla unveils its long-awaited Cybercab tonight. Here's what analysts will be watching for.
+  8. How Nvidia is still making history
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Sources | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Sample 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. S&P 500, Nasdaq eye tepid open as Middle East tensions weigh
+  2. Asian stocks rise as easing US-Iran tensions lift investor sentiment
+  3. Asian stocks advance as oil slips, Yen in focus
+  4. Wall Street futures fall as oil, Treasury yields rise on Iran tensions
+  5. Bonds boil
+  6. US stock index futures subdued as oil, Treasury yields rise on Iran tensions
+  7. Dow, S&P 500, Nasdaq Futures Decline As Iran Jitters Spook Markets: DJT, USO, DELL, CRDO Stocks In Focus
+  8. S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus
+
+=== ECONOMIC CALENDAR — 2026-09-03 ===
+  [-1] Challenger Job Cuts — Actual: 52.881 | Forecast: None | Prev: 33.429
+  [-1] Nonfarm Productivity QoQ Final — Actual: 1.4 | Forecast: 1.4 | Prev: 0.8
+  [-1] Continuing Jobless Claims — Actual: 1779 | Forecast: None | Prev: 1771
+  [-1] Jobless Claims 4-week Average — Actual: 207.25 | Forecast: None | Prev: 205.75
+  [-1] Unit Labour Costs QoQ Final — Actual: 1.2 | Forecast: 1.3 | Prev: 1.3
+  [0] Imports — Actual: 399.3 | Forecast: None | Prev: 388.5
+  [0] Exports — Actual: 310.7 | Forecast: None | Prev: 314.7
+  [0] Balance of Trade — Actual: -88.6 | Forecast: -90 | Prev: -71.2
+  [0] Fed Waller Speech — Actual: None | Forecast: None | Prev: None
+  [0] Initial Jobless Claims — Actual: 206 | Forecast: 205 | Prev: 204
+  [-1] S&P Global Services PMI Final — Actual: None | Forecast: 56.8 | Prev: 54.6
+  [-1] S&P Global Composite PMI Final — Actual: None | Forecast: 56 | Prev: 54.5
+  [-1] ISM Services Business Activity — Actual: None | Forecast: None | Prev: 59.1
+  [-1] ISM Services Prices — Actual: None | Forecast: None | Prev: 70.3
+  [-1] ISM Services Employment — Actual: None | Forecast: None | Prev: 47.4
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: BEARISH (score: -50.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: RANGING | 15m: BEARISH
+
+  [Daily] Structure: BEARISH
+    Price: 29230.0 | PrevH: 29213.0 | PrevL: 28927.25
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-09-01 DOWN(29518.25->29125.5) > 2026-09-02 UP(29136.5->29186.25) > 2026-09-03 UP(29177.0->29230.0)
+
+  [4H] Structure: RANGING
+    Price: 29230.0 | PrevH: 29292.75 | PrevL: 29101.0
+    Nearest Resistance (swing high above): 29425.75
+    Nearest Support (swing low below): 29220.0
+    Recent: 2026-09-03 DOWN(29245.5->29220.25) > 2026-09-03 DOWN(29220.25->29105.5) > 2026-09-03 UP(29105.5->29230.0)
+
+  [1H] Structure: RANGING
+    Price: 29230.0 | PrevH: 29258.75 | PrevL: 29104.0
+    Nearest Resistance (swing high above): 29233.25
+    Nearest Support (swing low below): 29220.0
+    Recent: 2026-09-03 DOWN(29129.0->29105.5) > 2026-09-03 UP(29105.5->29244.5) > 2026-09-03 DOWN(29243.75->29230.0)
+
+  [15m] Structure: BEARISH
+    Price: 29229.75 | PrevH: 29258.75 | PrevL: 29185.0
+    Nearest Resistance (swing high above): 29255.0
+    Nearest Support (swing low below): 29184.25
+    CHoCH: CHoCH — broke above swing high (structure flip) @ 29186.75 (2026-09-03)
+    Recent: 2026-09-03 UP(29144.75->29189.75) > 2026-09-03 UP(29189.0->29244.5) > 2026-09-03 DOWN(29243.75->29229.75)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-03.

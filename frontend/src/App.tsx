@@ -567,10 +567,10 @@ export default function App() {
                       />
                     )}
                     {dashboardTab === "ai_analysis" && (
-                      <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden p-6 max-h-[500px] overflow-y-auto relative min-h-[250px] flex flex-col justify-center">
+                      <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden p-6 relative min-h-[350px]">
                         {!hasPremium ? (
                           /* Locked AI Prediction Teaser Overlay */
-                          <div className="py-6 flex flex-col items-center justify-center text-center space-y-4 max-w-md mx-auto">
+                          <div className="py-12 flex flex-col items-center justify-center text-center space-y-4 max-w-md mx-auto">
                             <div className="w-10 h-10 rounded-xl bg-zinc-900 border border-zinc-850 flex items-center justify-center shadow-inner">
                               <Lock className="w-5 h-5 text-purple-400" />
                             </div>

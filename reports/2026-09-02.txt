@@ -1,0 +1,107 @@
+ANALYSIS DATE: 2026-09-02
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.607 | Day: -0.063% | 5-Day: +0.44%
+  VIX (Fear Index): 16.09 | Day: -1.530% | 5-Day: +5.79%
+  10Y Treasury Yield: 4.786 | Day: -0.209% | 5-Day: +2.62%
+  Gold: 4408.5 | Day: +1.391% | 5-Day: -4.13%
+  Crude Oil: 89.49 | Day: -0.809% | 5-Day: +8.83%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29081.75 | Trend: DOWN
+  1D: -0.15% | 5D: -0.71% | 10D: -1.46%
+  Prev High: 29571.25 | Prev Low: 29002.0 | Prev Close: 29125.5
+  Week High: 29811.5 | Week Low: 29002.0
+  Last 5 Candles: 2026-08-27 UP (O:29499.5 H:29708.0 L:29401.75 C:29695.75) | 2026-08-28 DOWN (O:29635.5 H:29811.5 L:29436.25 C:29491.75) | 2026-08-31 DOWN (O:29540.0 H:29546.25 L:29273.5 C:29513.0) | 2026-09-01 DOWN (O:29518.25 H:29571.25 L:29002.0 C:29125.5) | 2026-09-02 DOWN (O:29136.5 H:29170.0 L:28927.25 C:29081.75)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29087.50
+  Zero-Gamma Flip: 29010.00
+  Call Wall (Ceiling): 29290.00
+  Put Wall (Floor): 28790.00
+  0DTE Magnet Strike: 29130
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Nvidia's next act is bigger than selling AI chips
+  2. The private sector added 38,000 jobs last month, missing expectations
+  3. Where will the $100B funding come from in Trump's Venezuela oil deal?
+  4. Uber stock gains as tech giant cuts 3,300 jobs in major restructuring
+  5. US diesel hits highest since April as wars strain global supply
+  6. Nvidia didn't like Wall Street's estimates. So it tried to reset them.
+  7. Apple rallies on day Ternus takes helm—how to protect the stock for almost nothing
+  8. Amazon stock just entered the danger zone
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Sources | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Sample 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall Street futures fall as oil, Treasury yields rise on Iran tensions
+  2. Bonds boil
+  3. US stock index futures subdued as oil, Treasury yields rise on Iran tensions
+  4. Dow, S&P 500, Nasdaq Futures Decline As Iran Jitters Spook Markets: DJT, USO, DELL, CRDO Stocks In Focus
+  5. S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus
+  6. Suddenly Wall Street is getting a bit nervous. Here are two ways to prepare for turbulence.
+  7. Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Drop After Trump Says Iran Is ‘Totally Defeated’, Brent Tops $92 — CBRS, PXS, PANW, DELL in Focus (UPDATED)
+  8. Wall St futures kick off September under pressure as yields, oil prices rise
+
+=== ECONOMIC CALENDAR — 2026-09-02 ===
+  [-1] MBA Mortgage Market Index — Actual: 247.3 | Forecast: None | Prev: 245.3
+  [-1] MBA Mortgage Applications — Actual: 0.8 | Forecast: None | Prev: -1
+  [-1] MBA Purchase Index — Actual: 157.8 | Forecast: None | Prev: 154.4
+  [-1] MBA Mortgage Refinance Index — Actual: 732.6 | Forecast: None | Prev: 740.8
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.79 | Forecast: None | Prev: 6.78
+  [0] ADP Employment Change — Actual: 38 | Forecast: 47 | Prev: 46
+  [-1] Factory Orders ex Transportation — Actual: None | Forecast: None | Prev: -0.4
+  [0] Factory Orders MoM — Actual: None | Forecast: 0.6 | Prev: -0.3
+  [-1] EIA Cushing Crude Oil Stocks Change — Actual: None | Forecast: None | Prev: 1.176
+  [-1] EIA Gasoline Production Change — Actual: None | Forecast: None | Prev: 0.061
+  [-1] EIA Distillate Stocks Change — Actual: None | Forecast: -1.3 | Prev: -2.228
+  [-1] EIA Crude Oil Imports Change — Actual: None | Forecast: None | Prev: -0.161
+  [-1] EIA Distillate Fuel Production Change — Actual: None | Forecast: None | Prev: -0.091
+  [-1] EIA Heating Oil Stocks Change — Actual: None | Forecast: None | Prev: 0.027
+  [-1] EIA Refinery Crude Runs Change — Actual: None | Forecast: None | Prev: -0.002
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BEARISH (score: -40.0%)
+  Alignment: PARTIAL ALIGNMENT — 1/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: RANGING | 15m: RANGING
+
+  [Daily] Structure: BEARISH
+    Price: 29052.0 | PrevH: 29571.25 | PrevL: 29002.0
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 28946.75
+    Recent: 2026-08-31 DOWN(29540.0->29513.0) > 2026-09-01 DOWN(29518.25->29125.5) > 2026-09-02 DOWN(29136.5->29052.0)
+
+  [4H] Structure: RANGING
+    Price: 29053.25 | PrevH: 29097.25 | PrevL: 28927.25
+    Nearest Resistance (swing high above): 29425.75
+    Nearest Support (swing low below): 29002.0
+    Recent: 2026-09-02 UP(29054.75->29061.75) > 2026-09-02 UP(29062.25->29084.5) > 2026-09-02 DOWN(29083.75->29053.25)
+
+  [1H] Structure: RANGING
+    Price: 29053.25 | PrevH: 29149.5 | PrevL: 29032.75
+    Nearest Resistance (swing high above): 29120.75
+    Nearest Support (swing low below): 29040.25
+    Recent: 2026-09-02 UP(28987.75->29084.5) > 2026-09-02 DOWN(29083.75->29040.0) > 2026-09-02 UP(29040.25->29053.25)
+
+  [15m] Structure: RANGING
+    Price: 29047.25 | PrevH: 29115.25 | PrevL: 29064.25
+    Nearest Resistance (swing high above): 29104.25
+    Nearest Support (swing low below): 29044.5
+    Recent: 2026-09-02 UP(29040.25->29067.5) > 2026-09-02 UP(29068.5->29098.5) > 2026-09-02 DOWN(29098.5->29047.25)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-02.
