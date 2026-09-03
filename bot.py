@@ -251,6 +251,7 @@ class TradingBot:
             "is_historical": is_hist,
             "bias_nq":       analysis["bias_nq"],
             "side":          analysis["side"],
+            "confidence":    analysis.get("confidence"),
             "nq":            data.get("nq", {}),
             "macro":         data.get("macro", {}),
             "yahoo":         data.get("yahoo", {}),

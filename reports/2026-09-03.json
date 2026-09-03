@@ -1,13 +1,14 @@
 {
   "date": "2026-09-03",
-  "created": "2026-09-03T18:23:20.867021",
+  "created": "2026-09-03T18:36:45.419879",
   "is_historical": false,
-  "bias_nq": "NEUTRAL",
-  "side": "NEUTRAL",
+  "bias_nq": "BULLISH",
+  "side": "BUY SIDE",
+  "confidence": 65,
   "nq": {
     "name": "NQ Nasdaq-100 Futures",
     "ticker": "NQ=F",
-    "current_price": 29230.25,
+    "current_price": 29236.75,
     "prev_day_high": 29213.0,
     "prev_day_low": 28927.25,
     "prev_day_close": 29186.25,
@@ -15,9 +16,9 @@
     "week_low": 28927.25,
     "trend": "DOWN",
     "performance": {
-      "1d_pct": 0.15,
-      "5d_pct": -1.57,
-      "10d_pct": -0.24
+      "1d_pct": 0.17,
+      "5d_pct": -1.55,
+      "10d_pct": -0.22
     },
     "recent_candles": [
       {
@@ -257,36 +258,36 @@
         "open": 29177.0,
         "high": 29292.75,
         "low": 29075.0,
-        "close": 29230.25,
+        "close": 29236.75,
         "direction": "UP"
       }
     ]
   },
   "macro": {
     "DXY (Dollar Index)": {
-      "price": 99.018,
-      "day_chg": -0.544,
+      "price": 99.017,
+      "day_chg": -0.545,
       "5d_chg": -0.14
     },
     "VIX (Fear Index)": {
-      "price": 15.08,
-      "day_chg": -0.789,
-      "5d_chg": 3.93
+      "price": 15.07,
+      "day_chg": -0.855,
+      "5d_chg": 3.86
     },
     "10Y Treasury Yield": {
-      "price": 4.742,
-      "day_chg": -1.126,
-      "5d_chg": 1.5
+      "price": 4.744,
+      "day_chg": -1.084,
+      "5d_chg": 1.54
     },
     "Gold": {
-      "price": 4534.0,
-      "day_chg": 3.841,
-      "5d_chg": -1.64
+      "price": 4525.5,
+      "day_chg": 3.646,
+      "5d_chg": -1.83
     },
     "Crude Oil": {
-      "price": 91.67,
-      "day_chg": 0.725,
-      "5d_chg": 9.75
+      "price": 91.85,
+      "day_chg": 0.923,
+      "5d_chg": 9.96
     }
   },
   "yahoo": {
@@ -294,13 +295,13 @@
     "url": "https://finance.yahoo.com/",
     "items": [
       {
-        "title": "Nvidia to buy open-source AI platform Hugging Face for $13B",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-buy-open-source-ai-120001706.html",
+        "title": "Snowflake stock soars on upbeat outlook as CEO touts AI 'flywheel'",
+        "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-apple-ceo-steps-down-nvidia-mag-7-145623375.html",
         "source": "Yahoo/homepage"
       },
       {
         "title": "Campbell's stock plunges as food maker slashes dividend after sales, profit declines",
-        "url": "https://finance.yahoo.com/markets/article/campbells-stock-plunges-as-food-maker-slashes-dividend-after-sales-profit-declines-123514688.html",
+        "url": "https://finance.yahoo.com/markets/stocks/article/campbells-stock-plunges-as-food-maker-slashes-dividend-after-sales-profit-declines-123514688.html",
         "source": "Yahoo/homepage"
       },
       {
@@ -319,7 +320,12 @@
         "source": "Yahoo/homepage"
       },
       {
-        "title": "For all the talk of AI, few companies are quantifying gains",
+        "title": "Snowflake stock skyrockets on AI-driven Q2 revenue jump",
+        "url": "https://finance.yahoo.com/markets/stocks/article/snowflake-stock-skyrockets-on-ai-driven-q2-revenue-jump-130537300.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Companies' AI implementation has been 'uneven at best': Strategist",
         "url": "https://finance.yahoo.com/technology/article/for-all-their-talk-about-ai-few-companies-are-quantifying-gains-122132208.html",
         "source": "Yahoo/homepage"
       },
@@ -331,11 +337,6 @@
       {
         "title": "How Nvidia is still making history",
         "url": "https://finance.yahoo.com/markets/stocks/article/how-nvidia-is-still-making-history-100126626.html",
-        "source": "Yahoo/homepage"
-      },
-      {
-        "title": "Broadcom just took a page from Dell and Nvidia",
-        "url": "https://finance.yahoo.com/markets/stocks/article/broadcom-just-took-a-page-from-dell-and-nvidia-102718498.html",
         "source": "Yahoo/homepage"
       },
       {
@@ -354,13 +355,13 @@
         "source": "Yahoo/homepage"
       },
       {
-        "title": "Why it's a mistake to put your kids' college savings ahead of your own retirement",
-        "url": "https://finance.yahoo.com/economy/article/why-its-a-mistake-to-put-your-kids-college-savings-ahead-of-your-own-retirement-100000733.html",
+        "title": "TikTok backs out of House meeting to avoid kids safety questions",
+        "url": "https://finance.yahoo.com/media-advertising/articles/tiktok-backs-house-meeting-avoid-222418157.html",
         "source": "Yahoo/homepage"
       },
       {
-        "title": "Joe Rogan stunned after Caleb Hammer says boomers need $2M\u2013$5M",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/no-sympathy-joe-rogan-stunned-114500184.html",
+        "title": "Bessent rallies support for Trump agenda at G20",
+        "url": "https://finance.yahoo.com/economy/policy/articles/bessent-rallies-support-trump-agenda-224246502.html",
         "source": "Yahoo/homepage"
       },
       {
@@ -369,13 +370,8 @@
         "source": "Yahoo/homepage"
       },
       {
-        "title": "Walmart's $6 rotisserie chicken purses are selling out",
-        "url": "https://finance.yahoo.com/media-advertising/articles/walmarts-6-limited-edition-rotisserie-090000270.html",
-        "source": "Yahoo/homepage"
-      },
-      {
-        "title": "Costco shuts down key service without notice",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/costco-shuts-down-key-no-011218190.html",
+        "title": "Rich Dad Poor Dad author shocks fans with $1.2 billion debt",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rich-dad-poor-dad-author-173520373.html",
         "source": "Yahoo/homepage"
       },
       {
@@ -404,6 +400,11 @@
         "source": "Yahoo/economic"
       },
       {
+        "title": "Fed's Christopher Waller signals rate hold at September meeting",
+        "url": "https://finance.yahoo.com/economy/policy/articles/feds-christopher-waller-signals-rate-125226433.html",
+        "source": "Yahoo/economic"
+      },
+      {
         "title": "What To Expect From the August Jobs Report on Friday",
         "url": "https://finance.yahoo.com/economy/policy/articles/expect-august-jobs-report-friday-192209137.html",
         "source": "Yahoo/economic"
@@ -416,11 +417,6 @@
       {
         "title": "August\u2019s manufacturing PMI dips to 54.6; supply chain constraints persist",
         "url": "https://finance.yahoo.com/economy/articles/august-manufacturing-pmi-dips-54-162737105.html",
-        "source": "Yahoo/economic"
-      },
-      {
-        "title": "US Fed Beige Book Shows Data Center Builds Driving Regional Expansion, But Warns Of Rising Cost Pressures",
-        "url": "https://finance.yahoo.com/economy/articles/us-fed-beige-book-shows-185745671.html",
         "source": "Yahoo/economic"
       },
       {
@@ -442,9 +438,14 @@
         "title": "August\u2019s Top Commodity Performers and Underperformers",
         "url": "https://finance.yahoo.com/markets/commodities/articles/august-top-commodity-performers-underperformers-190002131.html",
         "source": "Yahoo/economic"
+      },
+      {
+        "title": "US 10-year yield touches highest level since 2023",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rising-bond-yields-put-pressure-132942744.html",
+        "source": "Yahoo/economic"
       }
     ],
-    "count": 39
+    "count": 38
   },
   "worldmonitor": {
     "source": "World Monitor",
@@ -721,6 +722,18 @@
         "published": "1788142435"
       },
       {
+        "title": "S&P 500 Rises 37.31 Points (0.49%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1788442380"
+      },
+      {
+        "title": "Wall St opens higher after Fed's Waller signals patience on rate policy",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1788442354"
+      },
+      {
         "title": "FED GOV WALLER: ECHOS WILLIAMS, TSY BUYBACKS NO IMPACT ON MONPOL IF YIELD EFFECT SHORT-LIVED",
         "summary": "",
         "source": "TradingView/ES Headlines (Mace News)",
@@ -737,18 +750,6 @@
         "summary": "",
         "source": "TradingView/ES Headlines (Mace News)",
         "published": "1788440760"
-      },
-      {
-        "title": "FED GOV WALLEER Q&A: : IF GET TARIFF \u2018ROLLOFF\u2019 AND NO MORE OIL SPIKE SHOULD GET BETTER INFLATION NUMBERS",
-        "summary": "",
-        "source": "TradingView/ES Headlines (Mace News)",
-        "published": "1788440580"
-      },
-      {
-        "title": "US INITIAL CLAIMS FOR JOBLESS BENEFITS: UNADJUSTED INITIAL CLAIMS 170,626, +30; UNADJUSTED INSURED UNEMP RATE TWO WKS AGO 1.1%, -0.1",
-        "summary": "",
-        "source": "TradingView/ES Headlines (Mace News)",
-        "published": "1788440280"
       }
     ],
     "economic_calendar": [
@@ -975,7 +976,7 @@
         "bos": null,
         "choch": null,
         "label": "Daily",
-        "current": 29230.0,
+        "current": 29231.25,
         "prev_high": 29213.0,
         "prev_low": 28927.25,
         "prev_close": 29186.25,
@@ -1003,7 +1004,7 @@
             "open": 29177.0,
             "high": 29292.75,
             "low": 29075.0,
-            "close": 29230.0,
+            "close": 29231.25,
             "direction": "UP"
           }
         ],
@@ -1058,7 +1059,7 @@
         "bos": null,
         "choch": null,
         "label": "4H",
-        "current": 29230.0,
+        "current": 29231.25,
         "prev_high": 29292.75,
         "prev_low": 29101.0,
         "prev_close": 29105.5,
@@ -1086,7 +1087,7 @@
             "open": 29105.5,
             "high": 29258.75,
             "low": 29104.0,
-            "close": 29230.0,
+            "close": 29231.25,
             "direction": "UP"
           }
         ],
@@ -1141,7 +1142,7 @@
         "bos": null,
         "choch": null,
         "label": "1H",
-        "current": 29230.0,
+        "current": 29231.25,
         "prev_high": 29258.75,
         "prev_low": 29104.0,
         "prev_close": 29244.5,
@@ -1167,9 +1168,9 @@
           {
             "date": "2026-09-03",
             "open": 29243.75,
-            "high": 29245.5,
+            "high": 29246.0,
             "low": 29194.25,
-            "close": 29230.0,
+            "close": 29231.25,
             "direction": "DOWN"
           }
         ],
@@ -1229,21 +1230,13 @@
           "label": "CHoCH \u2014 broke above swing high (structure flip)"
         },
         "label": "15m",
-        "current": 29229.75,
-        "prev_high": 29258.75,
-        "prev_low": 29185.0,
-        "prev_close": 29244.5,
+        "current": 29231.25,
+        "prev_high": 29246.0,
+        "prev_low": 29194.25,
+        "prev_close": 29239.25,
         "resistance": 29255.0,
         "support": 29184.25,
         "recent_candles": [
-          {
-            "date": "2026-09-03",
-            "open": 29144.75,
-            "high": 29244.0,
-            "low": 29144.0,
-            "close": 29189.75,
-            "direction": "UP"
-          },
           {
             "date": "2026-09-03",
             "open": 29189.0,
@@ -1255,13 +1248,21 @@
           {
             "date": "2026-09-03",
             "open": 29243.75,
-            "high": 29245.5,
+            "high": 29246.0,
             "low": 29194.25,
-            "close": 29229.75,
+            "close": 29239.25,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-09-03",
+            "open": 29239.5,
+            "high": 29243.5,
+            "low": 29200.5,
+            "close": 29231.25,
             "direction": "DOWN"
           }
         ],
-        "bar_count": 337
+        "bar_count": 338
       }
     }
   },
@@ -1281,23 +1282,24 @@
     "warning": "Estimated fallback levels shown due to FlashAlpha API tier restrictions."
   },
   "analysis": {
-    "analysis": "---\n## MACRO ENVIRONMENT SUMMARY\n- **DXY** down\u202f0.5% today (5\u2011day slight dip) \u2192 weaker USD, supportive for tech/growth equities.  \n- **VIX** at 15.1, down\u202f0.8% intraday (well below 20) \u2192 declining fear, risk\u2011on bias.  \n- **10\u2011yr Treasury Yield** fell\u202f1.13% today to 4.74% (still elevated but easing) \u2192 lower financing cost for growth stocks.  \n- **Gold** up\u202f3.8% today, reflecting USD weakness more than pure safe\u2011haven demand.  \n- **Crude Oil** modestly higher (+0.7%) \u2013 not a dominant driver.\n\n**RISK\u2011ON environment** overall.\n\n## KEY NEWS ANALYSIS\n- **Nvidia\u2019s $13\u202fB acquisition of Hugging Face** \u2013 massive AI ecosystem expansion, direct upside for the Nasdaq\u2011100\u2019s largest component and related AI stocks.  \n- **Tesla Cybercab unveiling** \u2013 fresh consumer\u2011tech excitement, likely to lift sentiment around high\u2011growth names.  \n- **AI hype articles (Nvidia history, AI gains quantification)** \u2013 reinforce bullish narrative for tech\u2011heavy indices.  \n- **Campbell\u2019s dividend cut** \u2013 isolated consumer\u2011sector weakness, limited impact on NQ.  \n- **Geopolitical headlines** \u2013 \u201cMiddle East tensions weigh\u201d and \u201cIran jitters spook markets\u201d introduce a modest risk\u2011off element, but the overall tone is muted compared with the strong AI\u2011driven upside.  \n\n**Overall news sentiment for Nasdaq:** **BULLISH** (AI\u2011driven growth outweighs isolated negatives).\n\n## ECONOMIC EVENTS IMPACT\n- **Non\u2011farm productivity** met expectations (1.4% vs 1.4% forecast).  \n- **Jobless claims** slightly above forecast (206 vs 205) \u2013 negligible effect.  \n- **Trade balance** marginally better than forecast (\u201188.6 vs \u201190).  \n- **Fed Waller speech** pending \u2013 no surprise expected.  \n\n*No major surprise data; economic backdrop is neutral\u2011to\u2011slightly positive for equities.*\n\n## MULTI\u2011TIMEFRAME STRUCTURE\n| Timeframe | Structure | BOS / CHoCH | Nearest Resistance | Nearest Support |\n|-----------|-----------|-------------|--------------------|-----------------|\n| **Daily** | **BEARISH** | No fresh BOS; price sits just above daily support (\u2248\u202f29160) | 29782 (higher swing) | 29160.5 |\n| **4\u2011Hour** | **RANGING** | No clear BOS; price oscillates between 29220\u201129425 | 29425.75 | 29220.0 |\n| **1\u2011Hour** | **RANGING** | No clear BOS; tight band 29220\u201129233 | 29233.25 | 29220.0 |\n| **15\u2011min** | **BEARISH** (but **CHoCH** at 29186.75 indicating a possible short\u2011term flip) | CHoCH upward break \u2192 short\u2011term bullish bias | 29255.0 | 29184.25 |\n\n**Overall multi\u2011TF bias:** Partial alignment \u2013 2 of 4 frames bearish, 2 ranging with a nascent bullish micro\u2011flip. Confidence from structure alone is **moderate\u2011low**.\n\n## OPTIONS GAMMA ANALYSIS (GEX",
-    "bias_nq": "NEUTRAL",
-    "side": "NEUTRAL",
+    "analysis": "---\n## MACRO ENVIRONMENT SUMMARY\n- **DXY** down 0.55% today (5\u2011day slight dip) \u2192 weaker dollar supports tech/growth equities.  \n- **VIX** at 15.07, down 0.86% today (below 20) \u2192 low fear, risk\u2011on tone.  \n- **10\u2011yr Treasury Yield** at 4.74%, down 1.08% today (still elevated but easing) \u2192 less pressure on high\u2011growth stocks.  \n- **Gold** up 3.65% today, holding strong levels \u2192 safe\u2011haven demand but not pulling capital from equities.  \n- **Crude Oil** up 0.92% today, +9.96% over 5\u202fdays \u2192 modest inflationary pressure but not dominant.\n\n**RISK\u2011ON environment**  \n\n## KEY NEWS ANALYSIS\n- **Snowflake AI \u201cflywheel\u201d outlook** \u2013 Strong AI revenue guidance lifts a core Nasdaq\u2011100 component; reinforces bullish sentiment for cloud/tech names.  \n- **Tesla Cybercab unveiling** \u2013 High\u2011profile EV innovation fuels optimism for Tesla and related semiconductor suppliers (e.g., Nvidia).  \n- **401(k) millionaire count hits record** \u2013 Highlights continued inflow into equity\u2011heavy retirement accounts, a tailwind for the index.  \n- **Campbell\u2019s dividend cut & sales decline** \u2013 Negative for consumer staples but limited impact on the tech\u2011heavy NQ.  \n- **Middle\u2011East (Iran) tensions resurfacing** \u2013 Futures and news wires note \u201ctepid open\u201d and \u201cIran jitters,\u201d adding a modest risk\u2011off bias, but the effect is muted by the falling VIX and dollar.  \n\n**Overall news sentiment:** **BULLISH** for Nasdaq\u2011100 (AI & EV catalysts outweigh geopolitical jitters).\n\n## ECONOMIC EVENTS IMPACT\n- **Non\u2011farm Productivity QoQ (1.4% vs 0.8% prior)** \u2013 Slightly above prior, indicating modest efficiency gains; neutral to mildly bullish for growth stocks.  \n- **Unit Labour Costs (1.2% vs 1.3% forecast)** \u2013 Below expectations, suggesting cost\u2011pressure relief for corporations.  \n- **Trade Balance (\u201188.6\u202fbn vs \u201190 forecast)** \u2013 Slightly better than forecast, but still a deficit; neutral.  \n- **Initial Jobless Claims (206\u202fK vs 205\u202fK forecast)** \u2013 Near\u2011expected, no surprise.  \n\nNo major shock data; macro releases are broadly in line or slightly better than expectations, supporting a **risk\u2011on** stance.\n\n## MULTI\u2011TIMEFRAME STRUCTURE\n| Timeframe | Structure | BOS / CHoCH | Nearest Resistance | Nearest Support |\n|-----------|-----------|-------------|--------------------|-----------------|\n| **Daily** | **BEARISH** | No fresh BOS; price sits just above prior low | 29,782 (higher swing) | 29,160 (recent swing low) |\n| **4\u2011Hour** | **RANGING** | No clear break; price oscillates between 29,220\u201129,425 | 29,425 | 29,220 |\n| **1\u2011Hour** | **RANGING** | No clear break; tight box 29,220\u201129,333 | 29,333 | 29,220 |\n| **15\u2011min** | **BEARISH** | CHoCH at 29,186.75 (structure flip) | 29,255 | 29,184 |\n\n**Overall multi\u2011TF bias:** Partial alignment \u2013 2 bearish TFs (Daily, 15\u202fm) vs 2 ranging. Indicates **cautious bearish tilt** but not decisive.\n\n## OPTIONS GAMMA ANALYSIS (GEX)\n- **Spot (29,231) > Zero\u2011Gamma Flip (29,150)** \u2192 **Positive Gamma (+GEX)** regime.  \n- **Call Wall (Ceiling) at 29,430** and **Put Wall (Floor) at 28,930** are intact; volatility is being dampened, making these walls act as strong support/resistance.  \n- **0DTE Magnet at 29,270** sits just above current price, likely to attract short\u2011term buying pressure if price dips toward it.  \n\n**Expected trading characteristics:**  \n- Lower intraday volatility, price tends to respect the Call/Put walls.  \n- Mean\u2011reversion setups around the magnet and walls are favored; breakout moves require a clear catalyst.\n\n## PREDICTION\n**NYSE SESSION SIDE: BUY SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq\u2011100) | BULLISH | 65% | MEDIUM\u2011HIGH |\n\n**NQ Prediction:** **BULLISH**  \n**Confidence:** **65% \u2014 MEDIUM\u2011HIGH**\n\n## TOP REASONS\n1. **Strong AI & EV news (Snowflake, Tesla)** driving sector\u2011specific upside for core Nasdaq constituents.  \n2. **Macro risk\u2011on backdrop** \u2013 weaker dollar, falling VIX, easing yields, all supportive of growth equities.  \n3. **Positive Gamma environment** \u2013 volatility dampened, allowing bullish catalysts to play out without premature spikes; price likely to hold above the Put Wall and test the Call Wall.\n\n## KEY RISKS\n- **Escalation of Iran\u2011related geopolitical tension** could reignite risk\u2011off sentiment, pushing VIX higher and pulling investors into safe\u2011haven assets.  \n- **Unexpected negative macro data** (e.g., a surprise rise in yields or a sharp DXY rally) would re\u2011impose headwinds for tech.  \n- **Break below the Put Wall (28,930) or the 15\u2011min swing low (29,184)** would invalidate the bullish case and trigger a sharper downside.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- **Mid\u2011day Fed Governor Waller remarks** \u2013 any hawkish tone could lift yields.  \n- **Real\u2011time VIX movement** \u2013 a breach above 20 would signal rising fear.  \n- **Key price levels:**  \n  - **Put Wall:** 28,930 (hard support)  \n  - **0DTE Magnet:** 29,270 (short\u2011term target)  \n  - **Previous day high:** 29,213  \n  - **Call Wall:** 29,430 (resistance)  \n  - **Weekly high:** 29,811 (next major upside target)  \n- **Any fresh AI\u2011related earnings or guidance updates** (e.g., Nvidia, AMD) that could amplify the bullish narrative.\n\n## ONE\u2011LINE SUMMARY\n**2026\u201109\u201103 NYSE SESSION: BUY SIDE \u2014 AI and EV catalysts plus a risk\u2011on macro backdrop outweigh modest bearish structure signals.**",
+    "bias_nq": "BULLISH",
+    "side": "BUY SIDE",
+    "confidence": 65,
     "source": "Groq (openai/gpt-oss-120b) \u2014 News/Macro Analysis"
   },
   "playbook": {
     "day_type": "TREND",
     "day_confidence": "HIGH",
-    "day_score": 4,
+    "day_score": 6,
     "day_reasons": [
       "NQ trend DOWN -> directional momentum",
       "Strong TF alignment (-50%) -> trend day",
       "Daily structure BEARISH",
-      "AI bias NEUTRAL -> mixed signals"
+      "AI bias BULLISH"
     ],
-    "bias": "NEUTRAL",
-    "side": "NEUTRAL",
+    "bias": "BULLISH",
+    "side": "BUY SIDE",
     "active_strategies": [
       {
         "name": "Break of Value + Retest",
@@ -1310,8 +1312,8 @@
         "bear_entry": "Sell first rally to broken VAL (now resistance) \u2014 weak pullback + delta flip",
         "kill_switch": "Price closes back inside yesterday's value and stays",
         "key": "T1",
-        "direction": "BOTH",
-        "entry": "Buy VAL / Sell VAH",
+        "direction": "BUY",
+        "entry": "Buy first pullback to broken VAH (now support) \u2014 weak pullback + delta flip",
         "note": "Wait for the retest \u2014 NEVER chase the initial breakout",
         "condition_met": true
       },
@@ -1326,8 +1328,8 @@
         "bear_entry": "Stop-sell just below LVN edge \u2014 enter at START of gap, target next HVN",
         "kill_switch": "Price falls back inside the fat zone (HVN) it broke from",
         "key": "T2",
-        "direction": "BOTH",
-        "entry": "Buy VAL / Sell VAH",
+        "direction": "BUY",
+        "entry": "Stop-buy just above LVN edge \u2014 enter at START of gap, target next HVN",
         "note": "Enter at START of LVN gap only \u2014 stacked buy/sell imbalances required",
         "condition_met": true
       },
@@ -1342,8 +1344,8 @@
         "bear_entry": "Sell break below range VAL or first micro-pullback to broken VAL",
         "kill_switch": "Breakout closes back inside medium range -> trapped breakout",
         "key": "MY-T",
-        "direction": "BOTH",
-        "entry": "Buy VAL / Sell VAH",
+        "direction": "BUY",
+        "entry": "Buy break above range VAH or first micro-pullback to broken VAH",
         "note": "Wait 30-60 min for a medium range to build and accept (clear POC must form)",
         "condition_met": true
       }

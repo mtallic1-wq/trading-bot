@@ -69,9 +69,11 @@ export const macroSig = (label: string, dc: number, price: any): [string, string
   return ["", "bg-slate-900 text-slate-400 border-slate-800"];
 };
 
-export const extractConf = (t: string): number | null => {
-  const m = (t || "").match(/Confidence:\s*(\d+)%/i);
-  return m ? parseInt(m[1]) : null;
+export const extractConf = (t: any): number | null => {
+  if (typeof t === "number") return t;
+  if (!t || typeof t !== "string") return null;
+  const m = t.match(/Confidence[\s*:]+(\d+)\s*%/i) || t.match(/\|\s*(\d+)\s*%\s*\|\s*(?:HIGH|MEDIUM|LOW)/i);
+  return m ? parseInt(m[1], 10) : null;
 };
 
 export function parseAnalysis(raw: string): string {

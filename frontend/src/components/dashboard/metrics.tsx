@@ -47,7 +47,7 @@ export default function Metrics({ report }: MetricsProps) {
   if (!report) return null;
 
   const side = report.side || "NEUTRAL";
-  const conf = extractConf(report.analysis?.analysis || report.analysis);
+  const conf = extractConf(report.confidence ?? report.analysis?.confidence ?? (report.analysis?.analysis || report.analysis));
   
   // High / Low
   const ph = report.nq?.prev_day_high || "?";
@@ -130,7 +130,10 @@ export default function Metrics({ report }: MetricsProps) {
                 <span>%</span>
               </>
             ) : (
-              <RollingNumber value="100%" />
+              <>
+                <RollingNumber value={55} />
+                <span>%</span>
+              </>
             )}
           </div>
           <p className="text-[11px] text-zinc-500 mt-2 flex items-center gap-1.5">

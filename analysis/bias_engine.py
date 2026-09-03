@@ -297,12 +297,13 @@ def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
                 text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
                 if "<think>" in text:
                     text = text.split("</think>")[-1].strip()
-                bias_nq, side = _parse_bias(text)
+                bias_nq, side, conf = _parse_bias(text)
                 return {
-                    "analysis": text,
-                    "bias_nq":  bias_nq,
-                    "side":     side,
-                    "source":   f"Groq ({GROQ_MODEL}) — News/Macro Analysis",
+                    "analysis":   text,
+                    "bias_nq":    bias_nq,
+                    "side":       side,
+                    "confidence": conf,
+                    "source":     f"Groq ({GROQ_MODEL}) — News/Macro Analysis",
                 }
             except Exception as e:
                 err_str = str(e)
@@ -319,12 +320,13 @@ def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
             print("[Failover] Attempting Gemini 1.5 Flash api failover...")
             text = _call_gemini(prompt)
             if text:
-                bias_nq, side = _parse_bias(text)
+                bias_nq, side, conf = _parse_bias(text)
                 return {
-                    "analysis": text,
-                    "bias_nq":  bias_nq,
-                    "side":     side,
-                    "source":   "Gemini (1.5-flash) — Failover Analysis",
+                    "analysis":   text,
+                    "bias_nq":    bias_nq,
+                    "side":       side,
+                    "confidence": conf,
+                    "source":     "Gemini (1.5-flash) — Failover Analysis",
                 }
         except Exception as e:
             print(f"[Gemini Failover Error] failed: {e}")
@@ -335,9 +337,10 @@ def get_bias(nq: Dict, macro: Dict, yahoo: Dict,
         "analysis": (
             "LLM API synthesis unavailable — using simple rule-based fallback.\n\n" + fb
         ),
-        "bias_nq":  _rule_bias(nq, macro, gamma_nq),
-        "side":     _rule_side(nq, macro, gamma_nq),
-        "source":   "Rule-based (fallback)",
+        "bias_nq":    _rule_bias(nq, macro, gamma_nq),
+        "side":       _rule_side(nq, macro, gamma_nq),
+        "confidence": None,
+        "source":     "Rule-based (fallback)",
     }
 
 
@@ -452,6 +455,7 @@ def _simple_fallback(nq: Dict, macro: Dict, yahoo: Dict, gamma_nq: Optional[Dict
 
 
 def _parse_bias(text: str):
+    import re
     t = text.upper()
 
     side = "NEUTRAL"
@@ -469,4 +473,14 @@ def _parse_bias(text: str):
     if bias_nq == "NEUTRAL" and side == "BUY SIDE":  bias_nq = "BULLISH"
     if bias_nq == "NEUTRAL" and side == "SELL SIDE": bias_nq = "BEARISH"
 
-    return bias_nq, side
+    conf = None
+    m = re.search(r"Confidence[\s*:]+(\d+)\s*%", text, re.IGNORECASE)
+    if not m:
+        m = re.search(r"\|\s*(\d+)\s*%\s*\|\s*(?:HIGH|MEDIUM|LOW)", text, re.IGNORECASE)
+    if m:
+        try:
+            conf = int(m.group(1))
+        except Exception:
+            conf = None
+
+    return bias_nq, side, conf
