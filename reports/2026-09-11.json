@@ -1,0 +1,1331 @@
+{
+  "date": "2026-09-11",
+  "created": "2026-09-11T18:47:53.733932",
+  "is_historical": false,
+  "bias_nq": "BEARISH",
+  "side": "SELL SIDE",
+  "confidence": 65,
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 29390.75,
+    "prev_day_high": 29508.25,
+    "prev_day_low": 29043.25,
+    "prev_day_close": 29135.25,
+    "week_high": 29764.75,
+    "week_low": 29043.25,
+    "trend": "DOWN",
+    "performance": {
+      "1d_pct": 0.88,
+      "5d_pct": -0.45,
+      "10d_pct": -1.03
+    },
+    "recent_candles": [
+      {
+        "date": "2026-07-31",
+        "open": 28317.0,
+        "high": 28725.75,
+        "low": 28079.75,
+        "close": 28404.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-03",
+        "open": 28565.0,
+        "high": 28964.25,
+        "low": 28313.5,
+        "close": 28891.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-04",
+        "open": 28930.0,
+        "high": 29956.5,
+        "low": 28831.75,
+        "close": 29863.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-05",
+        "open": 29777.25,
+        "high": 30074.0,
+        "low": 29530.75,
+        "close": 29615.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-06",
+        "open": 29569.5,
+        "high": 29686.25,
+        "low": 29241.25,
+        "close": 29488.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-07",
+        "open": 29514.25,
+        "high": 29867.75,
+        "low": 29453.5,
+        "close": 29834.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-10",
+        "open": 29851.25,
+        "high": 29984.0,
+        "low": 29718.75,
+        "close": 29737.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-11",
+        "open": 29764.5,
+        "high": 29886.75,
+        "low": 29533.5,
+        "close": 29626.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-12",
+        "open": 29657.75,
+        "high": 30001.75,
+        "low": 29624.5,
+        "close": 29853.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-13",
+        "open": 29825.0,
+        "high": 30272.75,
+        "low": 29780.5,
+        "close": 30188.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-14",
+        "open": 30210.75,
+        "high": 30283.0,
+        "low": 30028.5,
+        "close": 30141.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-17",
+        "open": 30170.0,
+        "high": 30343.0,
+        "low": 30054.5,
+        "close": 30096.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-18",
+        "open": 30077.0,
+        "high": 30121.25,
+        "low": 29514.0,
+        "close": 29586.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-19",
+        "open": 29566.5,
+        "high": 29757.25,
+        "low": 29375.75,
+        "close": 29512.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-20",
+        "open": 29561.5,
+        "high": 29689.75,
+        "low": 29202.75,
+        "close": 29300.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-21",
+        "open": 29327.0,
+        "high": 29539.0,
+        "low": 29220.0,
+        "close": 29387.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-24",
+        "open": 29392.25,
+        "high": 29480.5,
+        "low": 28946.75,
+        "close": 29105.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-25",
+        "open": 29140.5,
+        "high": 29425.75,
+        "low": 29017.0,
+        "close": 29276.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-26",
+        "open": 29288.0,
+        "high": 29437.75,
+        "low": 29096.0,
+        "close": 29289.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-27",
+        "open": 29499.5,
+        "high": 29708.0,
+        "low": 29401.75,
+        "close": 29695.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-28",
+        "open": 29635.5,
+        "high": 29811.5,
+        "low": 29436.25,
+        "close": 29491.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-31",
+        "open": 29540.0,
+        "high": 29546.25,
+        "low": 29273.5,
+        "close": 29513.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-01",
+        "open": 29518.25,
+        "high": 29571.25,
+        "low": 29002.0,
+        "close": 29125.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-02",
+        "open": 29136.5,
+        "high": 29213.0,
+        "low": 28927.25,
+        "close": 29186.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-03",
+        "open": 29177.0,
+        "high": 29584.25,
+        "low": 29075.0,
+        "close": 29524.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-04",
+        "open": 29505.0,
+        "high": 29704.5,
+        "low": 29468.0,
+        "close": 29565.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-08",
+        "open": 29535.25,
+        "high": 29764.75,
+        "low": 29424.75,
+        "close": 29538.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-09",
+        "open": 29526.5,
+        "high": 29633.75,
+        "low": 29333.0,
+        "close": 29448.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-10",
+        "open": 29458.5,
+        "high": 29508.25,
+        "low": 29043.25,
+        "close": 29135.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-11",
+        "open": 29141.0,
+        "high": 29500.25,
+        "low": 29040.5,
+        "close": 29390.75,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 99.033,
+      "day_chg": -0.058,
+      "5d_chg": 0.03
+    },
+    "VIX (Fear Index)": {
+      "price": 16.06,
+      "day_chg": -9.978,
+      "5d_chg": 10.53
+    },
+    "10Y Treasury Yield": {
+      "price": 4.928,
+      "day_chg": -0.324,
+      "5d_chg": 3.49
+    },
+    "Gold": {
+      "price": 4437.5,
+      "day_chg": 1.673,
+      "5d_chg": -1.21
+    },
+    "Crude Oil": {
+      "price": 98.57,
+      "day_chg": -3.815,
+      "5d_chg": 7.96
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Fed rate hike odds surge to 90% on monthly jump in core prices",
+        "url": "https://finance.yahoo.com/economy/policy/article/fed-rate-hike-odds-surge-to-90-on-monthly-jump-in-core-prices-131206510.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US diesel prices cross $6 per gallon, setting new record",
+        "url": "https://finance.yahoo.com/markets/article/us-diesel-prices-cross-6-per-gallon-setting-new-record-122447671.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "IEA: Oil demand may have to fall further as Iran war drags",
+        "url": "https://finance.yahoo.com/energy/articles/iea-warns-oil-demand-may-080000799.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Rising bond yields are driving US stocks toward correction territory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rising-bond-yields-driving-us-093100638.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "America remembers: Twenty-five years after 9/11",
+        "url": "https://finance.yahoo.com/economy/policy/articles/america-remembers-twenty-five-years-040010024.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stocks rise with inflation data in line",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-11-dow-sp-500-nasdaq-cpi-inflation-082201751.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oil falls but on track for 8% weekly gain on supply concerns; US diesel hits record high",
+        "url": "https://finance.yahoo.com/energy/articles/oil-prices-set-end-week-041019228.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "BofA strategists warn of stock volatility as outflows hit US",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-strategists-warn-stock-volatility-084500523.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Global bond selloff sends 10-Year Treasury yields to cusp of 5%",
+        "url": "https://finance.yahoo.com/economy/policy/articles/global-bond-selloff-sends-10-001324539.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Oracle stock surges as AI cloud demand outpaces supply",
+        "url": "https://finance.yahoo.com/markets/article/oracle-stock-surges-as-ai-cloud-demand-outpaces-supply-122103986.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Nvidia CEO Jensen Huang just doubled down on his big 2030 prediction",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-ceo-jensen-huang-just-doubled-down-on-his-big-2030-prediction-115945089.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Anthropic: AI could bring both 15% growth and mass unemployment by 2030",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-says-ai-could-bring-050023811.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Adobe forecast misses estimates, renewing fears about AI impact",
+        "url": "https://finance.yahoo.com/technology/ai/articles/adobe-forecast-misses-estimates-renewing-201136315.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Buc-ee's wins $850K in trademark lawsuit against South Carolina business",
+        "url": "https://finance.yahoo.com/small-business/articles/buc-ees-wins-850-000-220500736.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "America can\u2019t grow its way out of its debt problem",
+        "url": "https://finance.yahoo.com/economy/policy/articles/america-t-grow-way-debt-090029455.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "FBI warns homeowners with paid-off mortgages of major risk",
+        "url": "https://finance.yahoo.com/real-estate/articles/fbi-issues-warning-us-homeowners-105500748.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Nvidia\u2019s Huang dismisses AI fears as a way for cybersecurity firms to drum up business",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-jensen-huang-dismisses-175548952.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Uber's CEO says you could see lower ride prices as a result of its layoffs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ubers-ceo-says-could-see-205953645.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stocks to Consider Before the Fed's September Decision: JPM, EOG, BE",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-consider-feds-september-decision-190000988.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Forget Today's Inflation Report: Fed Chair Kevin Warsh and His Colleagues Have Likely Already Made Up Their Mind for the Sept. 16 FOMC Meeting",
+        "url": "https://finance.yahoo.com/economy/policy/articles/forget-todays-inflation-report-fed-082601737.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Bitcoin and Gold Flash Crash: Why a 2.4% CPI Print Still Ran Hot",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-gold-prices-crash-core-123326049.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Stocks Rise Pre-Bell Ahead of Key Consumer Inflation Report",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-ahead-115746414.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "What a Fed Rate Hike Actually Means for the US Economy and Inflation",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-hike-actually-means-110000286.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as CPI Takes Center Stage; EUR/USD and GBP/USD Key Levels to Watch",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054013689.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Investors Await PPI and CPI Data",
+        "url": "https://finance.yahoo.com/economy/articles/investors-await-ppi-cpi-data-150900361.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Stock futures fall as oil surges past $100, PPI tops forecasts",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-futures-rise-ahead-112834435.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Stock Market Today (Sept. 11, 2026): Nasdaq futures edge higher ahead of key inflation report",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-11-131905180.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Treasury yields rise as investors raise bets on Fed rate hike: AlphaCheck",
+        "url": "https://finance.yahoo.com/markets/article/treasury-yields-rise-as-investors-raise-bets-on-fed-rate-hike-alphacheck-135652896.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Prices Just Jumped Again. That Could Mean Trouble for the Stock Market Next Week",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/prices-just-jumped-again-could-211401536.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Investors on edge as energy costs, surging bond yields roil markets",
+        "url": "https://finance.yahoo.com/economy/policy/articles/stocks-tumble-oil-inflation-fan-024648193.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 44
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs",
+        "values": []
+      },
+      {
+        "label": "Free global intelligence dashboard \u00b7 live now",
+        "values": []
+      },
+      {
+        "label": "Launch the dashboard | See how people use it \u2193",
+        "values": []
+      },
+      {
+        "label": "As featured in | WIRED | 2M+ users | | | Open source \u00b7 AGPL-3.0 | | | Build on it: | REST API \u00b7 MCP \u00b7 npm \u00b7 PyPI \u00b7 Go \u00b7 RubyGems",
+        "values": []
+      },
+      {
+        "label": "worldmonitor.app \u2014 global operations | Captured from the live map \u2014 click to open it",
+        "values": []
+      },
+      {
+        "label": "Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock.",
+        "values": []
+      },
+      {
+        "label": "Top signals | Published pulse Sep 9, 2026",
+        "values": []
+      },
+      {
+        "label": "Top signals",
+        "values": []
+      },
+      {
+        "label": "UK accuses Israeli \u2018terrorists\u2019 of ethnic cleansing in West Bank with government backing | Guardian ME",
+        "values": []
+      },
+      {
+        "label": "Iran targets US forces in Jordan and ships in Hormuz as war escalates | The National",
+        "values": []
+      },
+      {
+        "label": "Why US-Iran war over Hormuz is threatening the Gulf\u2019s waters | Al Jazeera",
+        "values": []
+      },
+      {
+        "label": "Wednesday briefing: Inside sweeping UK sanctions on trade with Israeli settlements | Guardian ME",
+        "values": []
+      },
+      {
+        "label": "Instability index | Published pulse Sep 9, 2026",
+        "values": []
+      },
+      {
+        "label": "Instability index",
+        "values": []
+      },
+      {
+        "label": "\ud83c\uddf2\ud83c\uddf2 | MM | 85 | \u25b2",
+        "values": []
+      },
+      {
+        "label": "\ud83c\uddfa\ud83c\udde6 | UA | 84 | \u25bc",
+        "values": []
+      },
+      {
+        "label": "\ud83c\uddf8\ud83c\uddfe | SY | 80 | \u2500",
+        "values": []
+      },
+      {
+        "label": "\ud83c\uddf7\ud83c\uddfa | RU | 77 | \u25b2",
+        "values": []
+      },
+      {
+        "label": "\ud83c\udde6\ud83c\uddeb | AF | 74 | \u25bc",
+        "values": []
+      },
+      {
+        "label": "Maritime chokepoints | Published pulse Sep 9, 2026",
+        "values": []
+      },
+      {
+        "label": "Maritime chokepoints",
+        "values": []
+      },
+      {
+        "label": "Kerch Strait | 70",
+        "values": []
+      },
+      {
+        "label": "Strait of Hormuz | 70",
+        "values": []
+      },
+      {
+        "label": "Suez Canal | 50",
+        "values": []
+      },
+      {
+        "label": "Bab el-Mandeb | 40",
+        "values": []
+      },
+      {
+        "label": "Bosporus Strait | 30",
+        "values": []
+      },
+      {
+        "label": "Markets | Published pulse Sep 9, 2026",
+        "values": []
+      },
+      {
+        "label": "S&P 500 | equity | 7,674 | -0.58%",
+        "values": []
+      },
+      {
+        "label": "Nasdaq | equity | 26,421 | -0.32%",
+        "values": []
+      },
+      {
+        "label": "Bitcoin | crypto | 79,195 | +1.08%",
+        "values": []
+      },
+      {
+        "label": "Ethereum | crypto | 2,500 | +1.48%",
+        "values": []
+      },
+      {
+        "label": "WTI crude | energy | 94.31 | +1.38%",
+        "values": []
+      },
+      {
+        "label": "Brent | energy | 99.45 | +1.56%",
+        "values": []
+      },
+      {
+        "label": "Gold | metal | 4,442 | +0.07%",
+        "values": []
+      },
+      {
+        "label": "Copper | metal | 6.78 | -0.59%",
+        "values": []
+      },
+      {
+        "label": "Nat gas | energy | 2.88 | -1.20%",
+        "values": []
+      },
+      {
+        "label": "EUR/USD | fx | 1.16 | +0.15%",
+        "values": []
+      },
+      {
+        "label": "USD/JPY | fx | 153.26 | -0.38%",
+        "values": []
+      },
+      {
+        "label": "\u25b8 | Physical premium divergence index \u2014 SGE vs COMEX, with history | PRO",
+        "values": []
+      },
+      {
+        "label": "\u25b8 | Commodity supply-vulnerability rankings \u2014 chokepoint dependency fan-out | PRO",
+        "values": []
+      }
+    ],
+    "notes": [
+      "By the time it's news,you already knew.",
+      "Headlines are the lag. World Monitor streams the world's raw signals \u2014 ships, jets, sirens, cables, markets \u2014 onto one live map, with AI that flags when they converge into something that matters.",
+      "As of 8 September 2026",
+      "What is World Monitor?",
+      "What are you trying to find out?",
+      "Choose the evidence trail that matches the job in front of you. Each route opens a source-backed view, not an empty dashboard.",
+      "Verify a breaking event",
+      "Check current crisis trackers, dated metrics, and cited context before trusting a breaking claim.",
+      "Inspect disruption status, vessel flows, and risk across critical maritime passages.",
+      "Explain a country-risk move"
+    ],
+    "raw_snippet": "World Monitor \u2014 Free Real-Time Global Intelligence Dashboard\nWORLD MONITOR\nCorrelations\nFirst 5 min\nDepth\nFor AI agents\nAttributed providers\nPricing\nFAQ\nBlog\nDocs\nMenu\nCorrelations\nFirst 5 min\nDepth\nFor AI agents\nAttributed providers\nPricing\nFAQ\nBlog\nDocs\nLaunch Dashboard\nFree global intelligence dashboard \u00b7 live now\nBy the time it's news,\nyou already knew.\nHeadlines are the lag. World Monitor streams the world's raw signals \u2014 ships, jets, sirens, cables, markets \u2014 onto one live map, with AI that flags when they converge into something that matters.\nAs of 8 September 2026\nLaunch the dashboard\nSee how people use it \u2193\nFree \u00b7 No signup \u00b7 Loads in seconds\n57\nMap layer types\n461\nNews & OSINT feeds\n748\nAttributed providers\n5\nIndependent alert origins\nAs featured in\nWIRED\n2M+ users\n|\nOpen source \u00b7 AGPL-3.0\n|\nBuild on it:\nREST API \u00b7 MCP \u00b7 npm \u00b7 PyPI \u00b7 Go \u00b7 RubyGems\nWhat is World Monitor?\nWorld Monitor is a free, open-source dashboard that streams geopolitics, markets, shipping, aviation, infrastructure, and cyber signals onto one live world map. It correlates separate feeds into a single operating picture and flags convergence before headlines, with every figure sourced and every method documented.\nWorldMonitor is not an open-source Palantir\nworldmonitor.app \u2014 global operations\nCaptured from the live map \u2014 click to open it\nStart with the question\nWhat are you trying to find out?\nChoose the evidence trail that matches the job in front of you. Each route opens a source-backed view, not an empty dashboard.\n01\nVerify a breaking event\nCheck current crisis trackers, dated metrics, and cited context before trusting a breaking claim.\nOpen evidence\n02\nCheck a chokepoint\nInspect disruption status, vessel flows, and risk across critical maritime passages.\nOpen evidence\n03\nExplain a country-risk move\nTrace the political, security, economic, and resilience signals behind a country's change.\nOpen evidence\nLive right now\nWhat live data is this page showing right now?\nFour of the hundred-plus signals World Monitor watches around the clock.\nTop signals\nPublished pulse Sep 9, 2026\nUK accuses Israeli \u2018terrorists\u2019 of ethnic cleansing in West Bank with government backing\nGuardian ME\nIran targets US forces in Jordan and ships in Hormuz as war escalates\nThe National\nWhy US-Iran war over Hormuz is threatening the Gulf\u2019s waters\nAl Jazeera\nWednesday briefing: Inside sweeping UK sanctions on trade with Israeli settlements\nGuardian ME\nInstability index\nPublished pulse Sep 9, 2026\n\ud83c\uddf2\ud83c\uddf2\nMM\n85\n\u25b2\n\ud83c\uddfa\ud83c\udde6\nUA\n84\n\u25bc\n\ud83c\uddf8\ud83c\uddfe\nSY\n80\n\u2500\n\ud83c\uddf7\ud83c\uddfa\nRU\n77\n\u25b2\n\ud83c\udde6\ud83c\uddeb\nAF\n74\n\u25bc\n12 fused signals per country\nMaritime chokepoints\nPublished pulse Sep 9, 2026\n7 of 13 disrupted\nKerch Strait\n70\nStrait of Hormuz\n70\nSuez Canal\n50\nBab el-Mandeb\n40\nBosporus Strait\n30\nMarkets\nPublished pulse Sep 9, 2026\nUp\n6\n/\n11\nBest\nBRENT +1.6%\nWeakest\nGAS -1.2%\nS&P 500\nequity\n7,674\n-0.58%\nNasdaq\nequity\n26,421\n-0.32%\nBitcoin\ncrypto\n79,195\n+1.08%\nEthereum\ncrypto\n2,500\n+1.48%\nWTI crude\nenergy\n94.31\n+1.38%\nBrent\nenergy\n99.45\n+1.56%\nGold\nmetal\n4,442\n+0.07%"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Why Are Stocks Climbing After the Hot CPI Report? \u2014 WSJ",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Dow Jones Newswires)",
+        "published": "1789133220"
+      },
+      {
+        "title": "Wall St futures pare gains slightly after August inflation data",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1789130354"
+      },
+      {
+        "title": "Take a hike",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1789123145"
+      },
+      {
+        "title": "S&P 500, Dow, Nasdaq End Lower As Surging Oil Raises Odds For A September Rate Hike \u2014 ORCL, ADBE, M, NVDA, UBER In Focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Stocktwits)",
+        "published": "1789080404"
+      },
+      {
+        "title": "Latam markets mixed as oil surge stokes inflation worries; Brazil gains",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1789070663"
+      },
+      {
+        "title": "Stock Market Today: Nasdaq 100 Tumbles as Oil Spikes 6%, Yields Hit 19-Year High",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Benzinga)",
+        "published": "1789064819"
+      },
+      {
+        "title": "Producer Inflation Jumps to 5.4%, Fuels Fed Hike Bets (UPDATED)",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Benzinga)",
+        "published": "1789045327"
+      },
+      {
+        "title": "Benchmark Treasury yield at a crossroads: Breakout or reversal?\u00a0",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1789045150"
+      },
+      {
+        "title": "Forever war?",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1789036662"
+      },
+      {
+        "title": "Asian stocks fall as oil stokes inflation fears",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Moneycontrol)",
+        "published": "1789002657"
+      },
+      {
+        "title": "Tit for tat",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1788950010"
+      },
+      {
+        "title": "Wall St futures muted as oil tops $100 for first time since July",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1788946658"
+      },
+      {
+        "title": "SpaceX Could Be Heading for a $15.5 Billion Index Boost",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (GuruFocus)",
+        "published": "1788897684"
+      },
+      {
+        "title": "S&P 500, Nasdaq Slip as $98 Brent Reignites Inflation Fears: Stock Market Today",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Benzinga)",
+        "published": "1788887596"
+      },
+      {
+        "title": "SpaceX's index weight poised to rise as more shares become available to trade",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1788881069"
+      },
+      {
+        "title": "Wall St opens higher after August inflation report",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1789133646"
+      },
+      {
+        "title": "From deployment to proof: AI\u2019s ROI test comes into focus",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Seeking Alpha)",
+        "published": "1789133590"
+      },
+      {
+        "title": "S&P 500 Rises 69.96 Points (0.92%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1789133580"
+      },
+      {
+        "title": "Stocks, bonds rally after August inflation report",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1789133568"
+      },
+      {
+        "title": "Wall Street rises as consumer inflation comes in line",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Seeking Alpha)",
+        "published": "1789133512"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "CPI",
+        "country": "US",
+        "impact": "0",
+        "actual": "334.98",
+        "forecast": "334.85",
+        "previous": "333.92"
+      },
+      {
+        "title": "CPI s.a",
+        "country": "US",
+        "impact": "0",
+        "actual": "334.131",
+        "forecast": "None",
+        "previous": "332.81"
+      },
+      {
+        "title": "Core Inflation Rate MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "0.3",
+        "forecast": "0.2",
+        "previous": "0.2"
+      },
+      {
+        "title": "Inflation Rate YoY",
+        "country": "US",
+        "impact": "1",
+        "actual": "3.4",
+        "forecast": "3.4",
+        "previous": "3.4"
+      },
+      {
+        "title": "Inflation Rate MoM",
+        "country": "US",
+        "impact": "1",
+        "actual": "0.4",
+        "forecast": "0.4",
+        "previous": "0.1"
+      },
+      {
+        "title": "Core Inflation Rate YoY",
+        "country": "US",
+        "impact": "1",
+        "actual": "2.4",
+        "forecast": "2.4",
+        "previous": "2.5"
+      },
+      {
+        "title": "Michigan Consumer Expectations Prel",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "50.5",
+        "previous": "51.5"
+      },
+      {
+        "title": "Michigan Inflation Expectations Prel",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "4"
+      },
+      {
+        "title": "Michigan Current Conditions Prel",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "51.3",
+        "previous": "51.9"
+      },
+      {
+        "title": "Michigan 5 Year Inflation Expectations Prel",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.3"
+      },
+      {
+        "title": "Michigan Consumer Sentiment Prel",
+        "country": "US",
+        "impact": "1",
+        "actual": "None",
+        "forecast": "51",
+        "previous": "51.7"
+      },
+      {
+        "title": "WASDE Report",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Baker Hughes Total Rigs Count",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "588"
+      },
+      {
+        "title": "Baker Hughes Oil Rig Count",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "449"
+      },
+      {
+        "title": "Monthly Budget Statement",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-404",
+        "previous": "-432"
+      }
+    ]
+  },
+  "price_action": {
+    "ticker": "NQ=F",
+    "bias": "LEANING BEARISH",
+    "score_pct": -30.0,
+    "alignment": "NO ALIGNMENT \u2014 mixed structure across timeframes",
+    "tf_summary": [
+      "Daily: BEARISH",
+      "4H: RANGING",
+      "1H: RANGING",
+      "15m: BULLISH"
+    ],
+    "timeframes": {
+      "Daily": {
+        "structure": "BEARISH",
+        "sh_score": -0.6,
+        "sl_score": -0.6,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 28408.25,
+            "date": "2026-07-17"
+          },
+          {
+            "type": "SL",
+            "price": 27201.5,
+            "date": "2026-07-29"
+          },
+          {
+            "type": "SH",
+            "price": 30074.0,
+            "date": "2026-08-05"
+          },
+          {
+            "type": "SH",
+            "price": 30343.0,
+            "date": "2026-08-17"
+          },
+          {
+            "type": "SL",
+            "price": 28946.75,
+            "date": "2026-08-24"
+          },
+          {
+            "type": "SH",
+            "price": 29811.5,
+            "date": "2026-08-28"
+          },
+          {
+            "type": "SL",
+            "price": 28927.25,
+            "date": "2026-09-02"
+          },
+          {
+            "type": "SH",
+            "price": 29764.75,
+            "date": "2026-09-08"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "Daily",
+        "current": 29401.0,
+        "prev_high": 29508.25,
+        "prev_low": 29043.25,
+        "prev_close": 29135.25,
+        "resistance": 29764.75,
+        "support": 29160.5,
+        "recent_candles": [
+          {
+            "date": "2026-09-09",
+            "open": 29526.5,
+            "high": 29633.75,
+            "low": 29333.0,
+            "close": 29448.75,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-09-10",
+            "open": 29458.5,
+            "high": 29508.25,
+            "low": 29043.25,
+            "close": 29135.25,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-09-11",
+            "open": 29141.0,
+            "high": 29500.25,
+            "low": 29040.5,
+            "close": 29401.0,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 128
+      },
+      "4H": {
+        "structure": "RANGING",
+        "sh_score": 0.2,
+        "sl_score": -0.2,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 29075.0,
+            "date": "2026-09-03"
+          },
+          {
+            "type": "SH",
+            "price": 29704.5,
+            "date": "2026-09-04"
+          },
+          {
+            "type": "SL",
+            "price": 29468.0,
+            "date": "2026-09-04"
+          },
+          {
+            "type": "SH",
+            "price": 29764.75,
+            "date": "2026-09-08"
+          },
+          {
+            "type": "SL",
+            "price": 29424.75,
+            "date": "2026-09-08"
+          },
+          {
+            "type": "SL",
+            "price": 29333.0,
+            "date": "2026-09-09"
+          },
+          {
+            "type": "SH",
+            "price": 29508.25,
+            "date": "2026-09-10"
+          },
+          {
+            "type": "SL",
+            "price": 29043.25,
+            "date": "2026-09-10"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "4H",
+        "current": 29401.0,
+        "prev_high": 29339.75,
+        "prev_low": 29224.5,
+        "prev_close": 29323.25,
+        "resistance": 29425.75,
+        "support": 29375.75,
+        "recent_candles": [
+          {
+            "date": "2026-09-11",
+            "open": 29082.25,
+            "high": 29268.75,
+            "low": 29055.25,
+            "close": 29242.5,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-09-11",
+            "open": 29242.5,
+            "high": 29339.75,
+            "low": 29224.5,
+            "close": 29323.25,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-09-11",
+            "open": 29324.25,
+            "high": 29500.25,
+            "low": 29204.0,
+            "close": 29401.0,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 150
+      },
+      "1H": {
+        "structure": "RANGING",
+        "sh_score": -0.2,
+        "sl_score": -0.2,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 29549.0,
+            "date": "2026-09-09"
+          },
+          {
+            "type": "SL",
+            "price": 29333.0,
+            "date": "2026-09-09"
+          },
+          {
+            "type": "SL",
+            "price": 29364.0,
+            "date": "2026-09-09"
+          },
+          {
+            "type": "SH",
+            "price": 29508.25,
+            "date": "2026-09-10"
+          },
+          {
+            "type": "SH",
+            "price": 29171.5,
+            "date": "2026-09-10"
+          },
+          {
+            "type": "SL",
+            "price": 29043.25,
+            "date": "2026-09-10"
+          },
+          {
+            "type": "SL",
+            "price": 29062.5,
+            "date": "2026-09-10"
+          },
+          {
+            "type": "SL",
+            "price": 29048.5,
+            "date": "2026-09-10"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "1H",
+        "current": 29401.0,
+        "prev_high": 29475.75,
+        "prev_low": 29204.0,
+        "prev_close": 29469.5,
+        "resistance": 29414.75,
+        "support": 29375.75,
+        "recent_candles": [
+          {
+            "date": "2026-09-11",
+            "open": 29310.5,
+            "high": 29337.5,
+            "low": 29289.5,
+            "close": 29323.25,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-09-11",
+            "open": 29324.25,
+            "high": 29475.75,
+            "low": 29204.0,
+            "close": 29469.5,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-09-11",
+            "open": 29468.75,
+            "high": 29500.25,
+            "low": 29347.25,
+            "close": 29401.0,
+            "direction": "DOWN"
+          }
+        ],
+        "bar_count": 556
+      },
+      "15m": {
+        "structure": "BULLISH",
+        "sh_score": 0.6,
+        "sl_score": 0.2,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 29048.5,
+            "date": "2026-09-10"
+          },
+          {
+            "type": "SH",
+            "price": 29268.75,
+            "date": "2026-09-11"
+          },
+          {
+            "type": "SH",
+            "price": 29334.0,
+            "date": "2026-09-11"
+          },
+          {
+            "type": "SH",
+            "price": 29339.75,
+            "date": "2026-09-11"
+          },
+          {
+            "type": "SL",
+            "price": 29224.5,
+            "date": "2026-09-11"
+          },
+          {
+            "type": "SL",
+            "price": 29285.25,
+            "date": "2026-09-11"
+          },
+          {
+            "type": "SL",
+            "price": 29289.5,
+            "date": "2026-09-11"
+          },
+          {
+            "type": "SL",
+            "price": 29204.0,
+            "date": "2026-09-11"
+          }
+        ],
+        "bos": {
+          "direction": "BULLISH",
+          "level": 29339.75,
+          "date": "2026-09-11",
+          "label": "BOS \u2014 broke above swing high"
+        },
+        "choch": null,
+        "label": "15m",
+        "current": 29401.0,
+        "prev_high": 29452.25,
+        "prev_low": 29414.75,
+        "prev_close": 29418.0,
+        "resistance": 29423.75,
+        "support": 29386.75,
+        "recent_candles": [
+          {
+            "date": "2026-09-11",
+            "open": 29468.75,
+            "high": 29500.25,
+            "low": 29434.75,
+            "close": 29443.5,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-09-11",
+            "open": 29442.75,
+            "high": 29452.25,
+            "low": 29414.75,
+            "close": 29418.0,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-09-11",
+            "open": 29417.5,
+            "high": 29431.75,
+            "low": 29347.25,
+            "close": 29401.0,
+            "direction": "DOWN"
+          }
+        ],
+        "bar_count": 315
+      }
+    }
+  },
+  "tv_live": {
+    "available": false,
+    "error": "TradingView Desktop not running."
+  },
+  "gamma_nq": {
+    "underlying_price": 29410.5,
+    "as_of": "2026-09-11T13:47:48.687958Z",
+    "levels": {
+      "gamma_flip": 29330,
+      "call_wall": 29610,
+      "put_wall": 29110,
+      "zero_dte_magnet": "29450"
+    },
+    "warning": "Estimated fallback levels shown due to FlashAlpha API tier restrictions."
+  },
+  "analysis": {
+    "analysis": "---\n## MACRO ENVIRONMENT SUMMARY\n- **DXY**: 99.03, slight daily dip but modest 5\u2011day rise \u2192 modest USD strength, a head\u2011wind for tech.  \n- **VIX**: 16.1, down ~10% today, still low \u2192 risk appetite not extreme, but recent rise over 5\u202fdays hints at underlying nervousness.  \n- **10\u2011Y Treasury Yield**: 4.93%, down 0.32\u202fppt today but up 3.5\u202f% over 5\u202fdays, near 19\u2011year highs \u2192 pressure on growth/tech valuations.  \n- **Gold**: 4,438\u202fUSD, up 1.7\u202f% today, safe\u2011haven demand rising.  \n- **Crude Oil**: 98.6\u202fUSD, down 3.8\u202f% today but +8\u202f% weekly on supply concerns \u2192 fuels inflation worries and Fed\u2011rate\u2011hike expectations.  \n\n**RISK\u2011ON / RISK\u2011OFF**: Mixed but leaning **RISK\u2011OFF** as high yields and Fed\u2011hike odds dominate.\n\n## KEY NEWS ANALYSIS\n1. **Fed rate\u2011hike odds jump to 90%** after core CPI surprise \u2013 signals tighter monetary policy, negative for high\u2011growth tech and NQ.  \n2. **Core inflation MoM 0.3% vs 0.2% forecast** \u2013 reinforces the Fed\u2019s tightening bias.  \n3. **Oil & diesel price spikes** (diesel >\u202f$6/gal, oil near $99) \u2013 raise inflation expectations, further supporting a rate\u2011hike narrative.  \n4. **Rising bond yields driving stocks toward correction** \u2013 directly targets valuation pressure on Nasdaq\u2011100 constituents.  \n5. **BofA warns of heightened volatility & outflows** \u2013 suggests investors may rotate out of risk assets.  \n6. **Stocks rise with inflation data in line** \u2013 a brief, isolated upside, but outweighed by the broader tightening theme.  \n\n**Overall news sentiment for Nasdaq:** **BEARISH**.\n\n## ECONOMIC EVENTS IMPACT\n- **CPI**: Actual 334.98 vs. 334.85 forecast \u2013 marginally higher, confirming inflation stickiness.  \n- **Core CPI MoM**: 0.3% vs. 0.2% forecast \u2013 a surprise upside, bolstering Fed\u2011hike expectations.  \n- **Core CPI YoY**: On\u2011target at 2.4% (forecast 2.4%).  \n- No major surprise on other releases; the slight CPI miss is enough to keep the market in a defensive stance.\n\n## MULTI\u2011TIMEFRAME STRUCTURE\n| Timeframe | Structure | BOS / CHoCH | Nearest Resistance | Nearest Support |\n|-----------|-----------|-------------|--------------------|-----------------|\n| **Daily** | **BEARISH** | Recent down\u2011move, no fresh BOS upward | 29,764.75 (weekly high) | 29,160.5 (near prior swing low) |\n| **4\u2011Hour** | **RANGING** | No clear break; price oscillating within 29,375\u201129,425 | 29,425.75 | 29,375.75 |\n| **1\u2011Hour** | **RANGING** | Minor intraday swing, no decisive BOS | 29,414.75 | 29,375.75 |\n| **15\u2011min** | **BULLISH** | BOS above 29,339.75 (early session) | 29,423.75 | 29,386.75 |\n\n**Overall multi\u2011TF bias:** **LEANING BEARISH** (daily trend dominates; lower TFs lack alignment).\n\n## OPTIONS GAMMA ANALYSIS (GEX)\n- **Spot (29,410)** is **above** the Zero\u2011Gamma Flip (29,330) \u2192 **Positive Gamma (+GEX)** regime.  \n- **Call Wall (Ceiling)** at 29,610 and **Put Wall (Floor)** at 29,110 act as strong resistance and support respectively.  \n- **0\u2011DTE Magnet** at 29,450 sits just above current price, likely pulling price toward it.  \n- **Positive Gamma** implies **dampened volatility** and a tendency for price to respect the walls; mean\u2011reversion setups are favored, and breakout momentum is limited.\n\n## PREDICTION\n**NYSE SESSION SIDE: SELL SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq\u2011100) | **BEARISH** | **65%** | **MEDIUM** |\n\n**NQ Prediction:** **BEARISH**  \n**Confidence:** **65% \u2014 MEDIUM**\n\n## TOP REASONS\n1. **Fed rate\u2011hike odds at 90% & core CPI surprise** \u2013 tight monetary outlook pressures tech valuations.  \n2. **High 10\u2011yr yields (\u22484.9%)** \u2013 a direct head\u2011wind for growth\u2011heavy Nasdaq\u2011100.  \n3. **Positive Gamma environment** \u2013 supports mean\u2011reversion to the **Put Wall (29,110)** and limits bullish breakout strength.\n\n## KEY RISKS\n- **Unexpected positive macro data** (e.g., a sharp drop in yields or a surprise dip in oil prices) could revive risk appetite.  \n- **Break above the Call Wall (29,610)** with strong volume would invalidate the bearish bias and trigger a short\u2011cover rally.  \n- **Rapid reversal in 15\u2011min structure** leading to a sustained move above the 0\u2011DTE magnet could flip short\u2011term bias.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- **Economic releases:** Any mid\u2011day updates on Fed commentary, CPI revisions, or yield curve moves.  \n- **Oil price dynamics:** A pull\u2011back could ease inflation worries; a surge could reinforce bearish pressure.  \n- **Key NQ price levels:**  \n  - **Put Wall:** 29,110 (strong support)  \n  - **Zero\u2011Gamma Flip:** 29,330 (pivot point)  \n  - **0\u2011DTE Magnet:** 29,450 (intraday target)  \n  - **Call Wall:** 29,610 (resistance)  \n  - **Previous Day High/Low:** 29,508 / 29,043  \n  - **Weekly High/Low:** 29,764 / 29,043  \n- **Volume & order flow** around the 0\u2011DTE magnet and the Put Wall for early signs of directional bias.\n\n## ONE\u2011LINE SUMMARY\n**2026\u201109\u201111 NYSE SESSION: SELL SIDE \u2014 Fed\u2011hike odds, sticky inflation and high yields outweigh short\u2011term bullish flickers, keeping Nasdaq\u2011100 under pressure.**",
+    "bias_nq": "BEARISH",
+    "side": "SELL SIDE",
+    "confidence": 65,
+    "source": "Groq (openai/gpt-oss-120b) \u2014 News/Macro Analysis"
+  },
+  "playbook": {
+    "day_type": "TREND",
+    "day_confidence": "HIGH",
+    "day_score": 5,
+    "day_reasons": [
+      "NQ trend DOWN -> directional momentum",
+      "Daily structure BEARISH",
+      "AI bias BEARISH",
+      "VIX elevated (16.1) -> trending/volatile"
+    ],
+    "bias": "BEARISH",
+    "side": "SELL SIDE",
+    "active_strategies": [
+      {
+        "name": "Break of Value + Retest",
+        "type": "TREND",
+        "win_rate": "50-60%",
+        "rr": "1:2 \u2013 1:3",
+        "stop": "12-20 pts",
+        "setup": "Trend day; price breaks VAH/VAL, then retests the broken level",
+        "bull_entry": "Buy first pullback to broken VAH (now support) \u2014 weak pullback + delta flip",
+        "bear_entry": "Sell first rally to broken VAL (now resistance) \u2014 weak pullback + delta flip",
+        "kill_switch": "Price closes back inside yesterday's value and stays",
+        "key": "T1",
+        "direction": "SELL",
+        "entry": "Sell first rally to broken VAL (now resistance) \u2014 weak pullback + delta flip",
+        "note": "Wait for the retest \u2014 NEVER chase the initial breakout",
+        "condition_met": true
+      },
+      {
+        "name": "Thin Zone Break (LVN Air Pocket)",
+        "type": "TREND",
+        "win_rate": "45-55%",
+        "rr": "1:2 \u2013 1:4",
+        "stop": "12-20 pts",
+        "setup": "Price at edge of HVN with LVN (thin gap) beyond it",
+        "bull_entry": "Stop-buy just above LVN edge \u2014 enter at START of gap, target next HVN",
+        "bear_entry": "Stop-sell just below LVN edge \u2014 enter at START of gap, target next HVN",
+        "kill_switch": "Price falls back inside the fat zone (HVN) it broke from",
+        "key": "T2",
+        "direction": "SELL",
+        "entry": "Stop-sell just below LVN edge \u2014 enter at START of gap, target next HVN",
+        "note": "Enter at START of LVN gap only \u2014 stacked buy/sell imbalances required",
+        "condition_met": true
+      },
+      {
+        "name": "Medium Range Acceptance Break",
+        "type": "TREND",
+        "win_rate": "Track own data",
+        "rr": "1:2 \u2013 1:3",
+        "stop": "12-18 pts below range POC",
+        "setup": "30-60 min medium range (20-40 NQ pts) builds, clear POC forms",
+        "bull_entry": "Buy break above range VAH or first micro-pullback to broken VAH",
+        "bear_entry": "Sell break below range VAL or first micro-pullback to broken VAL",
+        "kill_switch": "Breakout closes back inside medium range -> trapped breakout",
+        "key": "MY-T",
+        "direction": "SELL",
+        "entry": "Sell break below range VAL or first micro-pullback to broken VAL",
+        "note": "Wait 30-60 min for a medium range to build and accept (clear POC must form)",
+        "condition_met": true
+      }
+    ],
+    "off_strategies": [
+      "R1",
+      "R2",
+      "MY-R"
+    ],
+    "key_levels": [
+      "Daily Resistance: 29764.75",
+      "Daily Support: 29160.5",
+      "4H Resistance: 29425.75",
+      "4H Support: 29375.75",
+      "1H Resistance: 29414.75",
+      "1H Support: 29375.75",
+      "Prev Day High: 29508.25",
+      "Prev Day Low: 29043.25"
+    ],
+    "risk_note": "TREND RULES: Never fade the trend. Only trade retests/pullbacks. Stop 12-20 pts. 3 losers -> quit for the day."
+  },
+  "errors": []
+}

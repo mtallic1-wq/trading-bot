@@ -1,0 +1,103 @@
+ANALYSIS DATE: 2026-09-18
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 100.475 | Day: +0.254% | 5-Day: +1.37%
+  VIX (Fear Index): 15.38 | Day: -0.389% | 5-Day: -2.90%
+  10Y Treasury Yield: 4.984 | Day: +0.748% | 5-Day: +0.18%
+  Gold: 4401.8 | Day: +0.048% | 5-Day: -0.16%
+  Crude Oil: 97.56 | Day: -4.268% | 5-Day: -2.49%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29753.75 | Trend: DOWN
+  1D: 1.04% | 5D: 1.25% | 10D: 0.78%
+  Prev High: 29498.25 | Prev Low: 28957.75 | Prev Close: 29446.75
+  Week High: 29500.25 | Week Low: 28763.75
+  Last 5 Candles: 2026-09-14 UP (O:28997.75 H:29303.0 L:28816.25 C:29152.25) | 2026-09-15 DOWN (O:29200.0 H:29200.0 L:28918.75 C:28955.0) | 2026-09-16 DOWN (O:28978.25 H:29252.25 L:28763.75 C:28963.5) | 2026-09-17 UP (O:28967.5 H:29498.25 L:28957.75 C:29446.75) | 2026-09-18 UP (O:29723.75 H:29966.75 L:29648.0 C:29753.75)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29757.75
+  Zero-Gamma Flip: 29680.00
+  Call Wall (Ceiling): 29960.00
+  Put Wall (Floor): 29460.00
+  0DTE Magnet Strike: 29800
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Buffett steps down as Berkshire Hathaway chair
+  2. Goldman's Snider: Fears of US earnings bubble are misplaced
+  3. US said to hold off on tariffs until after Xi-Trump summit
+  4. Coinbase CEO Brian Armstrong on the failed crypto bill: 'I would just at this point assume it's dead'
+  5. China's fiscal pullback stretches into August as spending slumps
+  6. Stock futures waver as oil prices slip
+  7. Oil prices edge lower on easing fears over Saudi supply disruption
+  8. BOJ raises interest rates to 31-year high in widely expected move
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 9, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. AAII bearish sentiment climbs to 16-month high as optimism tumbles
+  2. Nasdaq futures lead Wall St gains as oil retreat eases inflation worries
+  3. Apocalypse later
+  4. Nasdaq 100 Rallies as Oil Slides, Yields Retreat: Stock Market Today
+  5. A timely hike
+  6. Wall St futures rise as Fed rate hike lifts long-standing overhang
+  7. Asian stocks mixed as markets digest US Fed's first rate hike since 2023
+  8. Wall Street set to open higher ahead of much-anticipated Fed decision
+
+=== ECONOMIC CALENDAR — 2026-09-18 ===
+  [-1] Industrial Production YoY — Actual: 1.4 | Forecast: None | Prev: 1.1
+  [-1] Manufacturing Production YoY — Actual: 0.9 | Forecast: None | Prev: 1.2
+  [-1] Manufacturing Production MoM — Actual: -0.3 | Forecast: 0.3 | Prev: 0.2
+  [-1] Capacity Utilization — Actual: 76.3 | Forecast: 76.4 | Prev: 76.3
+  [0] Industrial Production MoM — Actual: 0 | Forecast: 0.3 | Prev: 0.2
+  [0] Fed Bowman Speech — Actual: None | Forecast: None | Prev: None
+  [-1] CB Leading Index MoM — Actual: None | Forecast: 0.1 | Prev: 0.2
+  [0] Fed Schmid Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Baker Hughes Total Rigs Count — Actual: None | Forecast: None | Prev: 591
+  [-1] Baker Hughes Oil Rig Count — Actual: None | Forecast: 451 | Prev: 450
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: BEARISH (score: -50.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: BEARISH | 1H: BULLISH | 15m: RANGING
+
+  [Daily] Structure: BEARISH
+    Price: 29756.0 | PrevH: 29498.25 | PrevL: 28957.75
+    Nearest Resistance (swing high above): 29764.75
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-09-16 DOWN(28978.25->28963.5) > 2026-09-17 UP(28967.5->29446.75) > 2026-09-18 UP(29723.75->29756.0)
+
+  [4H] Structure: BEARISH
+    Price: 29756.0 | PrevH: 29944.0 | PrevL: 29822.5
+    Nearest Resistance (swing high above): 29757.25
+    Nearest Support (swing low below): 29468.0
+    CHoCH: CHoCH — broke above swing high (structure flip) @ 29549.75 (2026-09-16)
+    Recent: 2026-09-18 UP(29762.75->29929.5) > 2026-09-18 DOWN(29928.75->29838.75) > 2026-09-18 DOWN(29839.75->29756.0)
+
+  [1H] Structure: BULLISH
+    Price: 29756.0 | PrevH: 29853.5 | PrevL: 29767.75
+    Nearest Resistance (swing high above): 29757.25
+    Nearest Support (swing low below): 29648.0
+    Recent: 2026-09-18 DOWN(29877.25->29838.75) > 2026-09-18 DOWN(29839.75->29776.5) > 2026-09-18 DOWN(29776.25->29756.0)
+
+  [15m] Structure: RANGING
+    Price: 29756.0 | PrevH: 29790.75 | PrevL: 29764.25
+    Nearest Resistance (swing high above): 29762.5
+    Nearest Support (swing low below): 29705.0
+    Recent: 2026-09-18 DOWN(29789.25->29776.5) > 2026-09-18 UP(29776.25->29786.25) > 2026-09-18 DOWN(29786.75->29756.0)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-18.

@@ -1,0 +1,101 @@
+ANALYSIS DATE: 2026-09-08
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.831 | Day: -0.332% | 5-Day: -0.60%
+  VIX (Fear Index): 15.33 | Day: +0.196% | 5-Day: -6.18%
+  10Y Treasury Yield: 4.776 | Day: -0.167% | 5-Day: +0.38%
+  Gold: 4447.3 | Day: +0.395% | 5-Day: +0.37%
+  Crude Oil: 93.32 | Day: +2.011% | 5-Day: +8.82%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29572.75 | Trend: UP
+  1D: 0.03% | 5D: 0.2% | 10D: 1.6%
+  Prev High: 29704.5 | Prev Low: 29468.0 | Prev Close: 29565.25
+  Week High: 29704.5 | Week Low: 28927.25
+  Last 5 Candles: 2026-09-01 DOWN (O:29518.25 H:29571.25 L:29002.0 C:29125.5) | 2026-09-02 UP (O:29136.5 H:29213.0 L:28927.25 C:29186.25) | 2026-09-03 UP (O:29177.0 H:29584.25 L:29075.0 C:29524.75) | 2026-09-04 UP (O:29505.0 H:29704.5 L:29468.0 C:29565.25) | 2026-09-08 UP (O:29535.25 H:29764.75 L:29477.75 C:29572.75)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29599.50
+  Zero-Gamma Flip: 29520.00
+  Call Wall (Ceiling): 29800.00
+  Put Wall (Floor): 29300.00
+  0DTE Magnet Strike: 29640
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Apple's new CEO John Ternus expected to debut foldable iPhone
+  2. Canada slaps retaliatory tariffs of up to 50% on $20B in US goods
+  3. The stock market's hot streak hints at more good times ahead
+  4. Why the CEO of Wegovy maker Novo Nordisk isn't yet sold on the peptide craze
+  5. Novartis twin drug setbacks pile pressure on pipeline and CEO
+  6. Stocks under pressure amid rising oil prices
+  7. Oil prices approach $100 as Middle East conflict flares, Goldman sees potential upside to $120
+  8. US seeks more access to Venezuela's mineral wealth after tapping its oil
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 8, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. The factor derby is down to two horses
+  2. Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Fall as Oil Tops $99 Despite Trump’s Price Drop Prediction— ASML, NVS, CASY in Focus (UPDATED)
+  3. Wall St futures slip as oil surge puts markets on edge
+  4. European Chip Stocks Edge Lower After Monday Sprint — Market Talk
+  5. Just like for SpaceX, investors may look to 'make room' for AI lab IPOs. These stocks could pay the price.
+  6. Wall Street futures lose some steam after jobs growth surprise
+  7. You're Not Tough Enough to Earn These Huge Returns — WSJ
+  8. Nasdaq, S&P 500 futures rise ahead of key jobs report
+
+=== ECONOMIC CALENDAR — 2026-09-08 ===
+  [-1] NFIB Business Optimism Index — Actual: 98.7 | Forecast: 99.3 | Prev: 99.8
+  [-1] Used Car Prices YoY — Actual: 0.4 | Forecast: None | Prev: 1.3
+  [-1] Used Car Prices MoM — Actual: -0.9 | Forecast: None | Prev: -1.4
+  [-1] Consumer Inflation Expectations — Actual: None | Forecast: None | Prev: 3.6
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.885
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.77
+  [-1] 3-Year Note Auction — Actual: None | Forecast: None | Prev: 4.291
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.735
+  [-1] Consumer Credit Change — Actual: None | Forecast: 11.7 | Prev: 14.17
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BEARISH (score: -20.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: BULLISH | 15m: RANGING
+
+  [Daily] Structure: BEARISH
+    Price: 29589.5 | PrevH: 29704.5 | PrevL: 29468.0
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-09-03 UP(29177.0->29524.75) > 2026-09-04 UP(29505.0->29565.25) > 2026-09-08 UP(29535.25->29589.5)
+
+  [4H] Structure: RANGING
+    Price: 29589.5 | PrevH: 29649.0 | PrevL: 29477.75
+    Nearest Resistance (swing high above): 29686.25
+    Nearest Support (swing low below): 29533.5
+    Recent: 2026-09-08 DOWN(29742.75->29535.5) > 2026-09-08 UP(29534.5->29601.0) > 2026-09-08 DOWN(29601.0->29589.5)
+
+  [1H] Structure: BULLISH
+    Price: 29589.5 | PrevH: 29654.75 | PrevL: 29548.0
+    Nearest Resistance (swing high above): 29609.5
+    Nearest Support (swing low below): 29578.25
+    Recent: 2026-09-08 UP(29568.5->29601.0) > 2026-09-08 UP(29601.0->29654.0) > 2026-09-08 DOWN(29653.75->29589.5)
+
+  [15m] Structure: RANGING
+    Price: 29593.75 | PrevH: 29668.25 | PrevL: 29635.75
+    Nearest Resistance (swing high above): 29595.75
+    Nearest Support (swing low below): 29591.5
+    Recent: 2026-09-08 UP(29653.75->29658.5) > 2026-09-08 DOWN(29659.0->29644.5) > 2026-09-08 DOWN(29644.75->29593.75)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-08.

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Zap, Shield, RefreshCw, AlertTriangle, HelpCircle, BookOpen, ExternalLink, Sparkles, Cpu } from "lucide-react";
+import { parseAnalysis } from "../../utils/helpers";
 
 export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook, token }: { 
   setView?: (view: any) => void;
@@ -511,10 +512,13 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
             </div>
           ) : (
             /* Display AI Plan */
-            <div className="bg-zinc-900/10 border border-zinc-900/40 rounded-xl p-5 overflow-y-auto max-h-[500px]">
-              <div className="prose prose-invert prose-xs text-xs text-zinc-400 space-y-3 leading-relaxed whitespace-pre-wrap">
-                {aiPlan}
-              </div>
+            <div className="bg-zinc-950/80 border border-zinc-800 rounded-xl p-6 overflow-y-auto max-h-[750px] shadow-inner">
+              <div
+                className="text-zinc-300 leading-relaxed text-xs space-y-4"
+                dangerouslySetInnerHTML={{
+                  __html: parseAnalysis(aiPlan),
+                }}
+              />
             </div>
           )}
         </div>

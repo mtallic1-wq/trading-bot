@@ -1,0 +1,99 @@
+ANALYSIS DATE: 2026-09-15
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.6 | Day: +0.141% | 5-Day: +0.77%
+  VIX (Fear Index): 16.87 | Day: -1.345% | 5-Day: +7.32%
+  10Y Treasury Yield: 4.992 | Day: +0.625% | 5-Day: +3.87%
+  Gold: 4332.2 | Day: -0.453% | 5-Day: -2.41%
+  Crude Oil: 102.54 | Day: +1.134% | 5-Day: +10.22%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29427.0 | Trend: UP
+  1D: 0.94% | 5D: -0.38% | 10D: -0.29%
+  Prev High: 29303.0 | Prev Low: 28816.25 | Prev Close: 29152.25
+  Week High: 29764.75 | Week Low: 28816.25
+  Last 5 Candles: 2026-09-09 DOWN (O:29526.5 H:29633.75 L:29333.0 C:29448.75) | 2026-09-10 DOWN (O:29458.5 H:29508.25 L:29043.25 C:29135.25) | 2026-09-11 UP (O:29141.0 H:29500.25 L:29040.5 C:29387.0) | 2026-09-14 UP (O:28997.75 H:29303.0 L:28816.25 C:29152.25) | 2026-09-15 DOWN (O:29488.5 H:29495.25 L:29231.0 C:29427.0)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29421.00
+  Zero-Gamma Flip: 29340.00
+  Call Wall (Ceiling): 29620.00
+  Put Wall (Floor): 29120.00
+  0DTE Magnet Strike: 29460
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. US 10-year yield hits highest level since 2007
+  2. Surging US Treasury yields are starting to spook investors
+  3. The AI spending surge isn't showing signs of slowing: Chart of the Day
+  4. Ford revamps 2027 F-150 with hands-free towing, more V8 options, giving customers what they want, exec says
+  5. BofA: Risk of disorderly bond move trims excess bullishness
+  6. One chart shows how much Amodei, Altman have scared people about AI
+  7. Why the midterms and China fears mean Washington will be slow to act on regulating AI
+  8. Google DeepMind staffer says AI may 'kill us all' in exit post
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 9, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St set to open lower as rising oil and yields deepen market gloom
+  2. A Fed Rate Hike Could Be the First of Many. Stocks Are on Red Alert. — Barrons.com
+  3. Dow futures slip as 10-year Treasury yield hits highest level since 2007 ahead of Fed meet
+  4. Wall St futures slip as rising oil, Treasury yields compound AI anxiety
+  5. "The house" visits the House
+  6. Stock Market Today: S&P 500, Dow and Nasdaq Futures Face Pressure as Brent Nears $108 and FOMC Commences Two-Day Meet— MSTR, CRWD, BMM in Focus
+  7. Global AI stocks fall as industry chiefs call for slowing development
+  8. Nasdaq 100 Slips as AI Leaders Urge a Slowdown, 10-Year Yield Touches 5%: Stock Market Today
+
+=== ECONOMIC CALENDAR — 2026-09-15 ===
+  [0] ADP Employment Change Weekly — Actual: 16.25 | Forecast: None | Prev: 12.25
+  [0] NY Empire State Manufacturing Index — Actual: 7.6 | Forecast: 14.75 | Prev: 20.6
+  [-1] Redbook YoY — Actual: 8.5 | Forecast: None | Prev: 8.3
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.74
+  [-1] NOPA Crush Report — Actual: None | Forecast: None | Prev: None
+  [-1] 20-Year Bond Auction — Actual: None | Forecast: None | Prev: 5.204
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: None | Prev: -0.3
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BEARISH (score: -40.0%)
+  Alignment: PARTIAL ALIGNMENT — 1/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: RANGING | 15m: RANGING
+
+  [Daily] Structure: BEARISH
+    Price: 29420.0 | PrevH: 29303.0 | PrevL: 28816.25
+    Nearest Resistance (swing high above): 29764.75
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-09-11 UP(29141.0->29387.0) > 2026-09-14 UP(28997.75->29152.25) > 2026-09-15 DOWN(29488.5->29420.0)
+
+  [4H] Structure: RANGING
+    Price: 29420.0 | PrevH: 29427.25 | PrevL: 29231.0
+    Nearest Resistance (swing high above): 29425.75
+    Nearest Support (swing low below): 29375.75
+    Recent: 2026-09-15 DOWN(29418.0->29316.0) > 2026-09-15 UP(29317.75->29416.5) > 2026-09-15 UP(29416.25->29420.0)
+
+  [1H] Structure: RANGING
+    Price: 29420.0 | PrevH: 29484.5 | PrevL: 29398.0
+    Nearest Resistance (swing high above): 29425.75
+    Nearest Support (swing low below): 29401.75
+    Recent: 2026-09-15 UP(29393.25->29416.5) > 2026-09-15 UP(29416.25->29435.75) > 2026-09-15 DOWN(29433.75->29420.0)
+
+  [15m] Structure: RANGING
+    Price: 29419.25 | PrevH: 29447.0 | PrevL: 29424.75
+    Nearest Resistance (swing high above): 29423.75
+    Nearest Support (swing low below): 29417.25
+    Recent: 2026-09-15 UP(29419.75->29435.75) > 2026-09-15 DOWN(29433.75->29429.75) > 2026-09-15 DOWN(29429.0->29419.25)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-15.

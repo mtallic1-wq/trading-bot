@@ -1,0 +1,109 @@
+ANALYSIS DATE: 2026-09-17
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 100.072 | Day: -0.237% | 5-Day: +0.99%
+  VIX (Fear Index): 15.48 | Day: -12.592% | 5-Day: -13.23%
+  10Y Treasury Yield: 4.953 | Day: -1.059% | 5-Day: +0.18%
+  Gold: 4412.6 | Day: +0.572% | 5-Day: +0.12%
+  Crude Oil: 99.73 | Day: -2.636% | 5-Day: -2.68%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29744.5 | Trend: DOWN
+  1D: 2.7% | 5D: 2.09% | 10D: 1.91%
+  Prev High: 29252.25 | Prev Low: 28763.75 | Prev Close: 28963.5
+  Week High: 29508.25 | Week Low: 28763.75
+  Last 5 Candles: 2026-09-11 UP (O:29141.0 H:29500.25 L:29040.5 C:29387.0) | 2026-09-14 UP (O:28997.75 H:29303.0 L:28816.25 C:29152.25) | 2026-09-15 DOWN (O:29200.0 H:29200.0 L:28918.75 C:28955.0) | 2026-09-16 DOWN (O:28978.25 H:29252.25 L:28763.75 C:28963.5) | 2026-09-17 UP (O:29271.0 H:29753.25 L:29247.75 C:29744.5)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29739.50
+  Zero-Gamma Flip: 29660.00
+  Call Wall (Ceiling): 29940.00
+  Put Wall (Floor): 29440.00
+  0DTE Magnet Strike: 29780
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. 'Oil market is a hot mess,' says analyst as supply shock keeps prices above $100: Chart of the Day
+  2. Ex-Fed chair contender: Warsh has a huge problem
+  3. Why your cell phone bill is getting so expensive — and how that helped persuade the Fed to raise rates
+  4. JPMorgan CEO Jamie Dimon: 'It's not clear to me we've slayed inflation'
+  5. Global bonds recover as Warsh's inflation fight calms market
+  6. Stocks rise as Fed rate hike pacifies markets' inflation worries
+  7. Top strategist: Fed hike won't fix this earnings risk
+  8. Fed hike may trigger another brutal move for Treasury yields
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 9, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Dow futures climb 300 points as markets rebound after Fed rate hike decision
+  2. A timely hike
+  3. Wall St futures rise as Fed rate hike lifts long-standing overhang
+  4. Asian stocks mixed as markets digest US Fed's first rate hike since 2023
+  5. Wall Street set to open higher ahead of much-anticipated Fed decision
+  6. A time to hike?
+  7. Wall Street futures surge ahead of Fed decision: 5 things to know before markets open
+  8. Chinese investors rush into US stocks as Beijing opens wider path overseas
+
+=== ECONOMIC CALENDAR — 2026-09-17 ===
+  [-1] Philly Fed Prices Paid — Actual: 48.6 | Forecast: None | Prev: 40.9
+  [-1] Continuing Jobless Claims — Actual: 1730 | Forecast: 1780 | Prev: 1769
+  [-1] Jobless Claims 4-week Average — Actual: 203.25 | Forecast: None | Prev: 206
+  [-1] Philly Fed New Orders — Actual: 29.2 | Forecast: None | Prev: 30.1
+  [-1] Philly Fed Employment — Actual: 11.8 | Forecast: None | Prev: 27.9
+  [-1] Philly Fed CAPEX Index — Actual: 37.1 | Forecast: None | Prev: 48.2
+  [-1] Philly Fed Business Conditions — Actual: 52.9 | Forecast: None | Prev: 73.6
+  [0] Philadelphia Fed Manufacturing Index — Actual: 37.8 | Forecast: 30.5 | Prev: 47.4
+  [0] Initial Jobless Claims — Actual: 196 | Forecast: 208 | Prev: 206
+  [0] Building Permits MoM Prel — Actual: -2.7 | Forecast: None | Prev: 4.3
+  [0] Housing Starts MoM — Actual: -2.6 | Forecast: None | Prev: -9
+  [1] Housing Starts — Actual: 1.275 | Forecast: 1.31 | Prev: 1.309
+  [1] Building Permits Prel — Actual: 1.394 | Forecast: 1.41 | Prev: 1.433
+  [0] Pending Home Sales MoM — Actual: None | Forecast: 2 | Prev: -2.3
+  [0] Pending Home Sales YoY — Actual: None | Forecast: None | Prev: -2.2
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: BEARISH (score: -80.0%)
+  Alignment: PARTIAL ALIGNMENT — 3/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: BEARISH | 1H: BEARISH | 15m: BULLISH
+
+  [Daily] Structure: BEARISH
+    Price: 29741.5 | PrevH: 29252.25 | PrevL: 28763.75
+    Nearest Resistance (swing high above): 29764.75
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-09-15 DOWN(29200.0->28955.0) > 2026-09-16 DOWN(28978.25->28963.5) > 2026-09-17 UP(29271.0->29741.5)
+
+  [4H] Structure: BEARISH
+    Price: 29741.5 | PrevH: 29624.0 | PrevL: 29485.0
+    Nearest Resistance (swing high above): 29757.25
+    Nearest Support (swing low below): 29468.0
+    CHoCH: CHoCH — broke above swing high (structure flip) @ 29549.75 (2026-09-16)
+    Recent: 2026-09-17 UP(29466.0->29517.75) > 2026-09-17 UP(29517.75->29620.0) > 2026-09-17 UP(29621.0->29741.5)
+
+  [1H] Structure: BEARISH
+    Price: 29741.5 | PrevH: 29753.25 | PrevL: 29595.5
+    Nearest Resistance (swing high above): 29757.25
+    Nearest Support (swing low below): 29578.25
+    CHoCH: CHoCH — broke above swing high (structure flip) @ 29478.0 (2026-09-16)
+    Recent: 2026-09-17 UP(29586.75->29620.0) > 2026-09-17 UP(29621.0->29724.0) > 2026-09-17 UP(29724.25->29741.5)
+
+  [15m] Structure: BULLISH
+    Price: 29740.25 | PrevH: 29732.5 | PrevL: 29708.75
+    Nearest Support (swing low below): 29555.5
+    BOS: BOS — broke above swing high @ 29592.75 (2026-09-17)
+    Recent: 2026-09-17 DOWN(29723.75->29721.75) > 2026-09-17 UP(29721.5->29724.0) > 2026-09-17 UP(29724.25->29740.25)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-17.

@@ -1,0 +1,108 @@
+ANALYSIS DATE: 2026-09-11
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.033 | Day: -0.058% | 5-Day: +0.03%
+  VIX (Fear Index): 16.06 | Day: -9.978% | 5-Day: +10.53%
+  10Y Treasury Yield: 4.928 | Day: -0.324% | 5-Day: +3.49%
+  Gold: 4437.5 | Day: +1.673% | 5-Day: -1.21%
+  Crude Oil: 98.57 | Day: -3.815% | 5-Day: +7.96%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29390.75 | Trend: DOWN
+  1D: 0.88% | 5D: -0.45% | 10D: -1.03%
+  Prev High: 29508.25 | Prev Low: 29043.25 | Prev Close: 29135.25
+  Week High: 29764.75 | Week Low: 29043.25
+  Last 5 Candles: 2026-09-04 UP (O:29505.0 H:29704.5 L:29468.0 C:29565.25) | 2026-09-08 UP (O:29535.25 H:29764.75 L:29424.75 C:29538.75) | 2026-09-09 DOWN (O:29526.5 H:29633.75 L:29333.0 C:29448.75) | 2026-09-10 DOWN (O:29458.5 H:29508.25 L:29043.25 C:29135.25) | 2026-09-11 UP (O:29141.0 H:29500.25 L:29040.5 C:29390.75)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29410.50
+  Zero-Gamma Flip: 29330.00
+  Call Wall (Ceiling): 29610.00
+  Put Wall (Floor): 29110.00
+  0DTE Magnet Strike: 29450
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Fed rate hike odds surge to 90% on monthly jump in core prices
+  2. US diesel prices cross $6 per gallon, setting new record
+  3. IEA: Oil demand may have to fall further as Iran war drags
+  4. Rising bond yields are driving US stocks toward correction territory
+  5. America remembers: Twenty-five years after 9/11
+  6. Stocks rise with inflation data in line
+  7. Oil falls but on track for 8% weekly gain on supply concerns; US diesel hits record high
+  8. BofA strategists warn of stock volatility as outflows hit US
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 9, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Why Are Stocks Climbing After the Hot CPI Report? — WSJ
+  2. Wall St futures pare gains slightly after August inflation data
+  3. Take a hike
+  4. S&P 500, Dow, Nasdaq End Lower As Surging Oil Raises Odds For A September Rate Hike — ORCL, ADBE, M, NVDA, UBER In Focus
+  5. Latam markets mixed as oil surge stokes inflation worries; Brazil gains
+  6. Stock Market Today: Nasdaq 100 Tumbles as Oil Spikes 6%, Yields Hit 19-Year High
+  7. Producer Inflation Jumps to 5.4%, Fuels Fed Hike Bets (UPDATED)
+  8. Benchmark Treasury yield at a crossroads: Breakout or reversal? 
+
+=== ECONOMIC CALENDAR — 2026-09-11 ===
+  [0] CPI — Actual: 334.98 | Forecast: 334.85 | Prev: 333.92
+  [0] CPI s.a — Actual: 334.131 | Forecast: None | Prev: 332.81
+  [1] Core Inflation Rate MoM — Actual: 0.3 | Forecast: 0.2 | Prev: 0.2
+  [1] Inflation Rate YoY — Actual: 3.4 | Forecast: 3.4 | Prev: 3.4
+  [1] Inflation Rate MoM — Actual: 0.4 | Forecast: 0.4 | Prev: 0.1
+  [1] Core Inflation Rate YoY — Actual: 2.4 | Forecast: 2.4 | Prev: 2.5
+  [-1] Michigan Consumer Expectations Prel — Actual: None | Forecast: 50.5 | Prev: 51.5
+  [-1] Michigan Inflation Expectations Prel — Actual: None | Forecast: None | Prev: 4
+  [-1] Michigan Current Conditions Prel — Actual: None | Forecast: 51.3 | Prev: 51.9
+  [-1] Michigan 5 Year Inflation Expectations Prel — Actual: None | Forecast: None | Prev: 3.3
+  [1] Michigan Consumer Sentiment Prel — Actual: None | Forecast: 51 | Prev: 51.7
+  [-1] WASDE Report — Actual: None | Forecast: None | Prev: None
+  [-1] Baker Hughes Total Rigs Count — Actual: None | Forecast: None | Prev: 588
+  [-1] Baker Hughes Oil Rig Count — Actual: None | Forecast: None | Prev: 449
+  [0] Monthly Budget Statement — Actual: None | Forecast: -404 | Prev: -432
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BEARISH (score: -30.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: RANGING | 15m: BULLISH
+
+  [Daily] Structure: BEARISH
+    Price: 29401.0 | PrevH: 29508.25 | PrevL: 29043.25
+    Nearest Resistance (swing high above): 29764.75
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-09-09 DOWN(29526.5->29448.75) > 2026-09-10 DOWN(29458.5->29135.25) > 2026-09-11 UP(29141.0->29401.0)
+
+  [4H] Structure: RANGING
+    Price: 29401.0 | PrevH: 29339.75 | PrevL: 29224.5
+    Nearest Resistance (swing high above): 29425.75
+    Nearest Support (swing low below): 29375.75
+    Recent: 2026-09-11 UP(29082.25->29242.5) > 2026-09-11 UP(29242.5->29323.25) > 2026-09-11 UP(29324.25->29401.0)
+
+  [1H] Structure: RANGING
+    Price: 29401.0 | PrevH: 29475.75 | PrevL: 29204.0
+    Nearest Resistance (swing high above): 29414.75
+    Nearest Support (swing low below): 29375.75
+    Recent: 2026-09-11 UP(29310.5->29323.25) > 2026-09-11 UP(29324.25->29469.5) > 2026-09-11 DOWN(29468.75->29401.0)
+
+  [15m] Structure: BULLISH
+    Price: 29401.0 | PrevH: 29452.25 | PrevL: 29414.75
+    Nearest Resistance (swing high above): 29423.75
+    Nearest Support (swing low below): 29386.75
+    BOS: BOS — broke above swing high @ 29339.75 (2026-09-11)
+    Recent: 2026-09-11 DOWN(29468.75->29443.5) > 2026-09-11 DOWN(29442.75->29418.0) > 2026-09-11 DOWN(29417.5->29401.0)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-11.

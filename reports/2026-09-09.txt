@@ -1,0 +1,102 @@
+ANALYSIS DATE: 2026-09-09
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 98.645 | Day: -0.197% | 5-Day: -1.03%
+  VIX (Fear Index): 16.11 | Day: +2.481% | 5-Day: +5.99%
+  10Y Treasury Yield: 4.804 | Day: -0.042% | 5-Day: +0.17%
+  Gold: 4457.5 | Day: +1.447% | 5-Day: +2.52%
+  Crude Oil: 96.29 | Day: +3.504% | 5-Day: +6.73%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29475.25 | Trend: UP
+  1D: -0.21% | 5D: 1.2% | 10D: 0.68%
+  Prev High: 29764.75 | Prev Low: 29424.75 | Prev Close: 29538.75
+  Week High: 29764.75 | Week Low: 28927.25
+  Last 5 Candles: 2026-09-02 UP (O:29136.5 H:29213.0 L:28927.25 C:29186.25) | 2026-09-03 UP (O:29177.0 H:29584.25 L:29075.0 C:29524.75) | 2026-09-04 UP (O:29505.0 H:29704.5 L:29468.0 C:29565.25) | 2026-09-08 UP (O:29535.25 H:29764.75 L:29424.75 C:29538.75) | 2026-09-09 DOWN (O:29526.5 H:29633.75 L:29333.0 C:29475.25)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29513.00
+  Zero-Gamma Flip: 29430.00
+  Call Wall (Ceiling): 29710.00
+  Put Wall (Floor): 29210.00
+  0DTE Magnet Strike: 29550
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. APPLE EVENTIt's the first John Ternus-led annual event. Follow along here.
+  2. Apple's new CEO John Ternus expected to debut foldable iPhone
+  3. What a $2,000 foldable iPhone launch could mean for Apple's stock
+  4. Ternus takes over as Apple CEO: His biggest challenges ahead
+  5. What the Nike and Lululemon declines signal about athleisure
+  6. Why a $2,000 iPhone likely won't scare off cash-strapped consumers
+  7. Stocks fall as oil climbs
+  8. Bond yields tick higher as oil tops $100: AlphaCheck
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 9, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Tit for tat
+  2. Wall St futures muted as oil tops $100 for first time since July
+  3. SpaceX Could Be Heading for a $15.5 Billion Index Boost
+  4. S&P 500, Nasdaq Slip as $98 Brent Reignites Inflation Fears: Stock Market Today
+  5. SpaceX's index weight poised to rise as more shares become available to trade
+  6. SpaceX stock could see massive buying on Nasdaq 100 rebalance: will SPCX rally?
+  7. SanDisk Up Over 40% Past Month: Can the Rally Last?
+  8. The factor derby is down to two horses
+
+=== ECONOMIC CALENDAR — 2026-09-09 ===
+  [-1] MBA Mortgage Applications — Actual: -2.7 | Forecast: None | Prev: 0.8
+  [-1] MBA Mortgage Market Index — Actual: 240.6 | Forecast: None | Prev: 247.3
+  [-1] MBA Mortgage Refinance Index — Actual: 687.3 | Forecast: None | Prev: 732.6
+  [-1] MBA Purchase Index — Actual: 157.5 | Forecast: None | Prev: 157.8
+  [0] MBA 30-Year Mortgage Rate — Actual: 6.85 | Forecast: None | Prev: 6.79
+  [0] ADP Employment Change Weekly — Actual: 12 | Forecast: None | Prev: 10
+  [-1] Redbook YoY — Actual: 8.3 | Forecast: None | Prev: 9.6
+  [-1] 17-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.855
+  [-1] 10-Year Note Auction — Actual: None | Forecast: None | Prev: 4.683
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: None | Prev: -2.6
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BEARISH (score: -40.0%)
+  Alignment: PARTIAL ALIGNMENT — 1/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: RANGING | 15m: RANGING
+
+  [Daily] Structure: BEARISH
+    Price: 29471.5 | PrevH: 29764.75 | PrevL: 29424.75
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-09-04 UP(29505.0->29565.25) > 2026-09-08 UP(29535.25->29538.75) > 2026-09-09 DOWN(29526.5->29471.5)
+
+  [4H] Structure: RANGING
+    Price: 29471.5 | PrevH: 29609.0 | PrevL: 29368.25
+    Nearest Resistance (swing high above): 29571.25
+    Nearest Support (swing low below): 29468.0
+    Recent: 2026-09-09 UP(29577.0->29588.0) > 2026-09-09 DOWN(29589.5->29396.75) > 2026-09-09 UP(29397.0->29471.5)
+
+  [1H] Structure: RANGING
+    Price: 29471.5 | PrevH: 29567.25 | PrevL: 29382.5
+    Nearest Resistance (swing high above): 29480.5
+    Nearest Support (swing low below): 29468.0
+    Recent: 2026-09-09 DOWN(29397.0->29390.5) > 2026-09-09 UP(29390.75->29558.5) > 2026-09-09 DOWN(29558.25->29471.5)
+
+  [15m] Structure: RANGING
+    Price: 29471.5 | PrevH: 29593.75 | PrevL: 29531.25
+    Nearest Resistance (swing high above): 29512.75
+    Nearest Support (swing low below): 29468.0
+    Recent: 2026-09-09 UP(29479.0->29558.5) > 2026-09-09 UP(29558.25->29562.25) > 2026-09-09 DOWN(29561.25->29471.5)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-09.

@@ -1,0 +1,94 @@
+ANALYSIS DATE: 2026-09-14
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.682 | Day: +0.567% | 5-Day: +0.53%
+  VIX (Fear Index): 17.76 | Day: +12.121% | 5-Day: +16.08%
+  10Y Treasury Yield: 4.983 | Day: +0.161% | 5-Day: +4.16%
+  Gold: 4309.6 | Day: -1.296% | 5-Day: -2.71%
+  Crude Oil: 104.11 | Day: +4.058% | 5-Day: +13.81%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 28844.25 | Trend: DOWN
+  1D: -1.85% | 5D: -2.44% | 10D: -2.2%
+  Prev High: 29500.25 | Prev Low: 29040.5 | Prev Close: 29387.0
+  Week High: 29764.75 | Week Low: 29040.5
+  Last 5 Candles: 2026-09-08 UP (O:29535.25 H:29764.75 L:29424.75 C:29538.75) | 2026-09-09 DOWN (O:29526.5 H:29633.75 L:29333.0 C:29448.75) | 2026-09-10 DOWN (O:29458.5 H:29508.25 L:29043.25 C:29135.25) | 2026-09-11 UP (O:29141.0 H:29500.25 L:29040.5 C:29387.0) | 2026-09-14 DOWN (O:28997.75 H:29111.0 L:28816.25 C:28844.25)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 28840.25
+  Zero-Gamma Flip: 28760.00
+  Call Wall (Ceiling): 29040.00
+  Put Wall (Floor): 28540.00
+  0DTE Magnet Strike: 28880
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Altman on AI: We may lose control
+  2. AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800 word warning
+  3. AI warnings  from Amodei and Altman could hammer this momentum stock
+  4. Cybersecurity stocks get a jolt on gloomy AI warnings
+  5. Bitcoin's late summer rally set to face off against the Fed, Congress
+  6. Stark warnings from Anthropic and OpenAI CEOs are set to disrupt the AI stock trade they built up
+  7. Tech firms hit by AI slowdown call as rate hike fears grow
+  8. China rejects AI 'fearmongering' after Amodei urges slowdown
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 9, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Nasdaq futures slide as AI warnings rattle markets; Nvidia, other chip stocks retreat
+  2. AI warnings knock Nasdaq futures, pressure tech stocks
+  3. Stock futures retreat as investors digest growing AI concerns, higher oil prices
+  4. SPCX Stock Set For Index Boost? Elon Musk ‘Highly Confident’ Nvidia AI Computers Will Launch Into Space Next Year
+  5. Henrik Zeberg Warns of U.S. Market Crash After Nasdaq 100 Rallies to 39,000
+  6. US futures slip as oil surges; AI slowdown fears grow ahead of Fed
+  7. Stock Futures Slide, Oil Rises Ahead of Fed Rate Decision — Barrons.com
+  8. SpaceX Weighting in Nasdaq 100 Set to Rise After Rebalance
+
+=== ECONOMIC CALENDAR — 2026-09-14 ===
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.89
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.8
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: BEARISH (score: -50.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: RANGING | 15m: BEARISH
+
+  [Daily] Structure: BEARISH
+    Price: 28839.0 | PrevH: 29500.25 | PrevL: 29040.5
+    Nearest Resistance (swing high above): 29764.75
+    Nearest Support (swing low below): 28663.0
+    BOS: BOS — broke below swing low @ 28927.25 (2026-09-02)
+    Recent: 2026-09-10 DOWN(29458.5->29135.25) > 2026-09-11 UP(29141.0->29387.0) > 2026-09-14 DOWN(28997.75->28839.0)
+
+  [4H] Structure: RANGING
+    Price: 28837.25 | PrevH: 28977.5 | PrevL: 28816.25
+    Nearest Resistance (swing high above): 29425.75
+    Recent: 2026-09-14 DOWN(29016.75->28917.25) > 2026-09-14 UP(28920.0->28928.75) > 2026-09-14 DOWN(28928.5->28837.25)
+
+  [1H] Structure: RANGING
+    Price: 28837.25 | PrevH: 28945.5 | PrevL: 28845.0
+    Nearest Resistance (swing high above): 29120.75
+    Nearest Support (swing low below): 28816.25
+    Recent: 2026-09-14 UP(28926.75->28928.75) > 2026-09-14 DOWN(28928.5->28879.25) > 2026-09-14 DOWN(28880.0->28837.25)
+
+  [15m] Structure: BEARISH
+    Price: 28835.0 | PrevH: 28905.0 | PrevL: 28857.25
+    Nearest Resistance (swing high above): 28977.5
+    Nearest Support (swing low below): 28816.25
+    Recent: 2026-09-14 DOWN(28917.75->28900.75) > 2026-09-14 DOWN(28900.25->28879.25) > 2026-09-14 DOWN(28880.0->28835.0)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-14.

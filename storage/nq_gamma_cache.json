@@ -1,1 +1,1 @@
-{"underlying_price": 29231.0, "as_of": "2026-09-03T13:23:15.804723Z", "levels": {"gamma_flip": 29150, "call_wall": 29430, "put_wall": 28930, "zero_dte_magnet": "29270"}, "warning": "Estimated fallback levels shown due to FlashAlpha API tier restrictions."}
+{"underlying_price": 30212.5, "as_of": "2026-09-21T13:33:20.812850Z", "levels": {"gamma_flip": 30130, "call_wall": 30410, "put_wall": 29910, "zero_dte_magnet": "30250"}, "warning": "Estimated fallback levels shown due to FlashAlpha API tier restrictions."}

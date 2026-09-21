@@ -1,0 +1,107 @@
+ANALYSIS DATE: 2026-09-10
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 99.099 | Day: +0.333% | 5-Day: -0.46%
+  VIX (Fear Index): 17.65 | Day: +7.230% | 5-Day: +23.25%
+  10Y Treasury Yield: 4.918 | Day: +1.675% | 5-Day: +2.54%
+  Gold: 4395.9 | Day: -0.455% | 5-Day: +0.68%
+  Crude Oil: 99.99 | Day: +4.102% | 5-Day: +9.87%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 29065.0 | Trend: DOWN
+  1D: -1.3% | 5D: -0.42% | 10D: -0.77%
+  Prev High: 29633.75 | Prev Low: 29333.0 | Prev Close: 29448.75
+  Week High: 29764.75 | Week Low: 28927.25
+  Last 5 Candles: 2026-09-03 UP (O:29177.0 H:29584.25 L:29075.0 C:29524.75) | 2026-09-04 UP (O:29505.0 H:29704.5 L:29468.0 C:29565.25) | 2026-09-08 UP (O:29535.25 H:29764.75 L:29424.75 C:29538.75) | 2026-09-09 DOWN (O:29526.5 H:29633.75 L:29333.0 C:29448.75) | 2026-09-10 DOWN (O:29458.5 H:29508.25 L:29043.25 C:29065.0)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 29073.75
+  Zero-Gamma Flip: 28990.00
+  Call Wall (Ceiling): 29270.00
+  Put Wall (Floor): 28770.00
+  0DTE Magnet Strike: 29110
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Trump promises $5,000 payment to US adults if GOP wins midterms
+  2. AT&T CEO weighs in on Starlink's rapid expansion
+  3. Wall Street says Apple's iPhone Duo has 2 problems
+  4. Macy's earnings shine as turnaround strategy hits its stride
+  5. Apple debuts the iPhone Duo, its first foldable, priced at $1,999
+  6. PPI data shows wholesale prices advancing in line with expectations
+  7. Stock futures fall as inflation data matches expectations
+  8. Kevin Warsh's communication strategy risks 'unproductive volatility' in markets: Jan Hatzius
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 9, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Benchmark Treasury yield at a crossroads: Breakout or reversal? 
+  2. Forever war?
+  3. Asian stocks fall as oil stokes inflation fears
+  4. Tit for tat
+  5. Wall St futures muted as oil tops $100 for first time since July
+  6. SpaceX Could Be Heading for a $15.5 Billion Index Boost
+  7. S&P 500, Nasdaq Slip as $98 Brent Reignites Inflation Fears: Stock Market Today
+  8. SpaceX's index weight poised to rise as more shares become available to trade
+
+=== ECONOMIC CALENDAR — 2026-09-10 ===
+  [-1] PPI Ex Food, Energy and Trade MoM — Actual: 0.3 | Forecast: None | Prev: 0.4
+  [-1] PPI — Actual: 157.411 | Forecast: None | Prev: 156.784
+  [-1] PPI YoY — Actual: 5.4 | Forecast: 5.3 | Prev: 4.8
+  [-1] Continuing Jobless Claims — Actual: 1774 | Forecast: 1780 | Prev: 1775
+  [-1] Jobless Claims 4-week Average — Actual: 206 | Forecast: None | Prev: 207.5
+  [-1] PPI Ex Food, Energy and Trade YoY — Actual: 4.7 | Forecast: None | Prev: 4.7
+  [-1] Core PPI YoY — Actual: 4.6 | Forecast: 4.6 | Prev: 4.3
+  [0] Initial Jobless Claims — Actual: 206 | Forecast: 205 | Prev: 207
+  [0] Core PPI MoM — Actual: 0.2 | Forecast: 0.3 | Prev: 0.3
+  [1] PPI MoM — Actual: 0.4 | Forecast: 0.4 | Prev: 0.1
+  [-1] NY Fed Bill Purchases 4 to 12 months — Actual: None | Forecast: 2.122 | Prev: None
+  [-1] Wholesale Inventories MoM — Actual: None | Forecast: 1.3 | Prev: 0.2
+  [0] Existing Home Sales MoM — Actual: None | Forecast: None | Prev: -1.7
+  [1] Existing Home Sales — Actual: None | Forecast: 3.98 | Prev: 4.06
+  [-1] EIA Natural Gas Stocks Change — Actual: None | Forecast: 31 | Prev: 30
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: BEARISH (score: -50.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: RANGING | 15m: BEARISH
+
+  [Daily] Structure: BEARISH
+    Price: 29069.5 | PrevH: 29633.75 | PrevL: 29333.0
+    Nearest Resistance (swing high above): 29782.0
+    Nearest Support (swing low below): 28946.75
+    Recent: 2026-09-08 UP(29535.25->29538.75) > 2026-09-09 DOWN(29526.5->29448.75) > 2026-09-10 DOWN(29458.5->29069.5)
+
+  [4H] Structure: RANGING
+    Price: 29069.5 | PrevH: 29460.25 | PrevL: 29262.75
+    Nearest Resistance (swing high above): 29425.75
+    Nearest Support (swing low below): 29002.0
+    Recent: 2026-09-10 UP(29427.25->29445.0) > 2026-09-10 DOWN(29443.75->29264.5) > 2026-09-10 DOWN(29264.25->29069.5)
+
+  [1H] Structure: RANGING
+    Price: 29069.5 | PrevH: 29278.25 | PrevL: 29043.25
+    Nearest Resistance (swing high above): 29120.75
+    Nearest Support (swing low below): 29040.25
+    Recent: 2026-09-10 DOWN(29375.0->29264.5) > 2026-09-10 DOWN(29264.25->29056.5) > 2026-09-10 UP(29058.0->29069.5)
+
+  [15m] Structure: BEARISH
+    Price: 29068.0 | PrevH: 29098.25 | PrevL: 29054.75
+    Nearest Resistance (swing high above): 29423.75
+    BOS: BOS — broke below swing low @ 29359.25 (2026-09-10)
+    Recent: 2026-09-10 DOWN(29103.75->29056.5) > 2026-09-10 UP(29058.0->29068.75) > 2026-09-10 DOWN(29069.0->29068.0)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-10.

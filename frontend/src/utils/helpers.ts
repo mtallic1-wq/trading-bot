@@ -78,24 +78,40 @@ export const extractConf = (t: any): number | null => {
 
 export function parseAnalysis(raw: string): string {
   if (!raw) return "";
-  let t = raw.replace(/^---\n?/gm, "");
+  let t = raw.replace(/\r\n/g, "\n");
+
+  // Clean markdown horizontal rules
+  t = t.replace(/^---$/gm, '<hr class="border-zinc-800/80 my-4" />');
+
+  // Convert markdown tables
   t = t.replace(/((?:^\|.+\|\n?)+)/gm, (block) => {
     const lines = block.trim().split("\n").filter((l) => l.trim());
     if (lines.length < 2) return block;
     const isSep = (l: string) => /^\|[-:| ]+\|$/.test(l.trim());
-    const parseRow = (l: string, tag: string) =>
-      "<tr>" +
-      l
-        .split("|")
-        .slice(1, -1)
-        .map(
-          (c) =>
-            `<${tag} class="px-2.5 py-1.5 border border-slate-800/80 text-xs">${c.trim()}</${tag}>`
-        )
-        .join("") +
-      "</tr>";
+    const parseRow = (l: string, tag: string) => {
+      const cells = l.split("|").slice(1, -1);
+      return (
+        '<tr class="border-b border-zinc-850/60 last:border-0 hover:bg-zinc-900/30 transition-colors">' +
+        cells
+          .map((c, i) => {
+            const content = c.trim()
+              .replace(/\*\*(.+?)\*\*/g, '<strong class="text-zinc-100 font-semibold">$1</strong>')
+              .replace(/<br\s*\/?>/gi, "<br />");
+            const isHeader = tag === "th";
+            const classes = isHeader
+              ? "px-3.5 py-2.5 bg-zinc-900/90 text-zinc-300 font-semibold text-[11px] uppercase tracking-wider text-left border-b border-zinc-800"
+              : i === 0
+              ? "px-3.5 py-2.5 text-zinc-200 font-medium text-xs whitespace-nowrap bg-zinc-900/20"
+              : "px-3.5 py-2.5 text-zinc-400 text-xs leading-relaxed";
+            return `<${tag} class="${classes}">${content}</${tag}>`;
+          })
+          .join("") +
+        "</tr>"
+      );
+    };
+
     let html =
-      '<div class="overflow-x-auto my-3"><table class="w-auto border-collapse text-xs text-left">';
+      '<div class="overflow-x-auto my-4 rounded-xl border border-zinc-800/80 bg-zinc-950/60 shadow-inner"><table class="w-full border-collapse text-xs text-left">';
     let inBody = false;
     lines.forEach((l) => {
       if (isSep(l)) {
@@ -106,13 +122,26 @@ export function parseAnalysis(raw: string): string {
     });
     return html + "</table></div>";
   });
-  return t
-    .replace(/^## (.+)$/gm, '<h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mt-5 mb-2 pb-1 border-b border-slate-800/80">$1</h2>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-slate-100 font-semibold">$1</strong>')
-    .replace(/^- (.+)$/gm, '<li class="my-1 text-slate-300">$1</li>')
-    .replace(/(<li>[^<]*<\/li>\n?)+/g, (m) => '<ul class="list-disc pl-5 my-2">' + m + "</ul>")
-    .replace(/\n{3,}/g, "\n\n")
-    .replace(/\n\n/g, "</p><p class='mb-2 text-slate-300 leading-relaxed text-sm'>")
-    .replace(/^(?!<)(.+)$/gm, "<p class='mb-2 text-slate-300 leading-relaxed text-sm'>$1</p>")
-    .trim();
+
+  // Headers (### with optional number badge, and ##)
+  t = t.replace(/^### (?:(\d+)\s+)?(.+)$/gm, (_, num, title) => {
+    const badge = num ? `<span class="inline-flex items-center justify-center w-5 h-5 rounded-md bg-purple-950/60 border border-purple-800/50 text-purple-300 text-[10px] font-bold mr-2">${num}</span>` : "";
+    return `<h3 class="text-xs font-bold uppercase tracking-wider text-zinc-200 mt-6 mb-2.5 flex items-center">${badge}${title}</h3>`;
+  });
+
+  t = t.replace(/^## (.+)$/gm, '<h2 class="text-xs font-bold uppercase tracking-wider text-zinc-400 mt-6 mb-3 pb-1.5 border-b border-zinc-800/80">$1</h2>');
+
+  // Bold formatting
+  t = t.replace(/\*\*(.+?)\*\*/g, '<strong class="text-zinc-100 font-semibold">$1</strong>');
+
+  // Lists
+  t = t.replace(/^- (.+)$/gm, '<li class="my-1 text-zinc-300">$1</li>');
+  t = t.replace(/(<li>[^<]*<\/li>\n?)+/g, (m) => '<ul class="list-disc pl-5 my-2 space-y-1">' + m + "</ul>");
+
+  // Paragraphs
+  t = t.replace(/\n{3,}/g, "\n\n");
+  t = t.replace(/\n\n/g, "</p><p class='mb-2.5 text-zinc-300 leading-relaxed text-xs'>");
+  t = t.replace(/^(?!<[h|u|d|t|p|l|hr])(.+)$/gm, "<p class='mb-2.5 text-zinc-300 leading-relaxed text-xs'>$1</p>");
+
+  return t.trim();
 }

@@ -1,0 +1,99 @@
+ANALYSIS DATE: 2026-09-21
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 100.286 | Day: +0.066% | 5-Day: +0.83%
+  VIX (Fear Index): 14.87 | Day: +0.405% | 5-Day: -13.04%
+  10Y Treasury Yield: 4.963 | Day: -0.700% | 5-Day: +0.04%
+  Gold: 4399.8 | Day: -0.567% | 5-Day: +1.10%
+  Crude Oil: 92.62 | Day: -7.657% | 5-Day: -8.65%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30213.0 | Trend: UP
+  1D: 2.02% | 5D: 3.64% | 10D: 2.19%
+  Prev High: 29665.25 | Prev Low: 29352.75 | Prev Close: 29613.68
+  Week High: 29665.25 | Week Low: 28763.75
+  Last 5 Candles: 2026-09-15 DOWN (O:29200.0 H:29200.0 L:28918.75 C:28955.0) | 2026-09-16 DOWN (O:28978.25 H:29252.25 L:28763.75 C:28963.5) | 2026-09-17 UP (O:28967.5 H:29498.25 L:28957.75 C:29446.75) | 2026-09-18 UP (O:29438.75 H:29665.25 L:29352.75 C:29613.68) | 2026-09-21 UP (O:29938.0 H:30275.0 L:29904.0 C:30213.0)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 30212.50
+  Zero-Gamma Flip: 30130.00
+  Call Wall (Ceiling): 30410.00
+  Put Wall (Floor): 29910.00
+  0DTE Magnet Strike: 30250
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Trump, Xi dine with AI titans: What to watch this week
+  2. Oura announces launch of IPO worth up to $2.2B
+  3. Xi heads to Washington: What to expect on tariffs, AI, and a CEO parade
+  4. Novo Nordisk stock falls amid pipeline concerns
+  5. Paramount, Warner Bros jump on merger settlement progress
+  6. Bitcoin prices rip despite the Clarity Act failure
+  7. Stock futures rise ahead of Trump-Xi summit
+  8. The resilient stock market is flashing warning signs
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 21, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. SpaceX Stock Rises and It Could Get a Big Boost Today — Barrons.com
+  2. The Magnificent Seven strike back
+  3. Wall St set for higher open as AI stocks rise, oil slides
+  4. Dow Jones futures gain as oil eases and Wall Street focuses on Trump-Xi summit for trade, AI cues
+  5. SpaceX's Bigger Nasdaq-100 Weight Is Triggering a Major Market Shift
+  6. Wall St futures rise as AI stocks rally, crude prices fall
+  7. Summiteering
+  8. Stock Market Today: S&P 500, Nasdaq 100 Futures Gain as Trump Issues Fresh Warning to Iran — MRVL, AAPL, ACN in Focus
+
+=== ECONOMIC CALENDAR — 2026-09-21 ===
+  [0] UN General Assembly — Actual: None | Forecast: None | Prev: None
+  [0] Fed Goolsbee Speech — Actual: None | Forecast: None | Prev: None
+  [0] Chicago Fed National Activity Index — Actual: -0.04 | Forecast: None | Prev: 0.08
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 3.97
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 4.06
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: -10.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bullish
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: BULLISH | 15m: BULLISH
+
+  [Daily] Structure: BEARISH
+    Price: 30214.25 | PrevH: 29665.25 | PrevL: 29352.75
+    Nearest Resistance (swing high above): 30343.0
+    Nearest Support (swing low below): 29160.5
+    CHoCH: CHoCH — broke above swing high (structure flip) @ 29764.75 (2026-09-08)
+    Recent: 2026-09-17 UP(28967.5->29446.75) > 2026-09-18 UP(29438.75->29613.68) > 2026-09-21 UP(29938.0->30214.25)
+
+  [4H] Structure: RANGING
+    Price: 30213.75 | PrevH: 30266.75 | PrevL: 30172.5
+    Nearest Support (swing low below): 29659.25
+    Recent: 2026-09-21 UP(30087.25->30178.75) > 2026-09-21 UP(30178.5->30247.0) > 2026-09-21 DOWN(30247.5->30213.75)
+
+  [1H] Structure: BULLISH
+    Price: 30213.75 | PrevH: 30275.0 | PrevL: 30222.25
+    Nearest Resistance (swing high above): 30343.0
+    Nearest Support (swing low below): 30054.5
+    BOS: BOS — broke above swing high @ 30130.5 (2026-09-20)
+    Recent: 2026-09-21 UP(30241.25->30247.0) > 2026-09-21 DOWN(30247.5->30225.5) > 2026-09-21 DOWN(30224.25->30213.75)
+
+  [15m] Structure: BULLISH
+    Price: 30213.75 | PrevH: 30238.25 | PrevL: 30219.5
+    Nearest Resistance (swing high above): 30266.75
+    Nearest Support (swing low below): 30075.25
+    CHoCH: CHoCH — broke below swing low (structure flip) @ 30216.0 (2026-09-21)
+    Recent: 2026-09-21 DOWN(30255.75->30225.5) > 2026-09-21 DOWN(30224.25->30223.0) > 2026-09-21 DOWN(30224.0->30213.75)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-21.
