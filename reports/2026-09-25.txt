@@ -1,0 +1,110 @@
+ANALYSIS DATE: 2026-09-25
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 100.951 | Day: -0.335% | 5-Day: +0.73%
+  VIX (Fear Index): 15.14 | Day: -3.382% | 5-Day: +2.23%
+  10Y Treasury Yield: 5.171 | Day: +0.174% | 5-Day: +3.46%
+  Gold: 4325.3 | Day: +0.635% | 5-Day: -2.25%
+  Crude Oil: 92.67 | Day: -2.051% | 5-Day: -7.61%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30868.0 | Trend: UP
+  1D: 0.33% | 5D: 4.24% | 10D: 5.04%
+  Prev High: 30827.5 | Prev Low: 30370.0 | Prev Close: 30766.75
+  Week High: 31094.75 | Week Low: 29352.75
+  Last 5 Candles: 2026-09-21 UP (O:29938.0 H:30862.75 L:29904.0 C:30784.75) | 2026-09-22 UP (O:30780.0 H:31065.5 L:30670.0 C:31028.5) | 2026-09-23 DOWN (O:31008.5 H:31094.75 L:30642.75 C:30764.75) | 2026-09-24 DOWN (O:30780.0 H:30827.5 L:30370.0 C:30766.75) | 2026-09-25 UP (O:30726.5 H:30999.5 L:30679.0 C:30868.0)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 30897.50
+  Zero-Gamma Flip: 30820.00
+  Call Wall (Ceiling): 31100.00
+  Put Wall (Floor): 30600.00
+  0DTE Magnet Strike: 30940
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Meta's Muse just catapulted the stock 16% in a week
+  2. Akamai lands $11.6B Anthropic deal, shares soar
+  3. US-Greenland security deal opens door to American investment
+  4. Diesel export ban undergoing serious consideration by Trump team
+  5. Starbucks to close 250 stores this week
+  6. Stock futures rise amid bond sell-off pressuring markets
+  7. Oil slides as US-Iran truce hopes outweigh Houthi attacks on Saudi Arabia
+  8. Grains drop with Trump-Xi summit yet to offer farm trade details
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 21, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. US stock futures rise as Treasury yields ease after bond sell-off
+  2. Wall St futures gain as AI enthusiasm eases worries over higher oil prices, yields
+  3. Bonds steal the show
+  4. S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus
+  5. Global Bond Selloff Dings Stocks — WSJ
+  6. Treasury Yield Surge Could Be A ‘Headwind’ For Risk Assets, Says Verdence CIO – Flags Pressure On AI Funding
+  7. Wall St set for lower open as oil gains on Mideast uncertainty, eyes on Trump-Xi talks
+  8. Benchmark Treasury yield breaks to new highs, but the move is looking stretched
+
+=== ECONOMIC CALENDAR — 2026-09-25 ===
+  [0] UN General Assembly — Actual: None | Forecast: None | Prev: None
+  [0] Fed Williams Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Durable Goods Orders ex Defense MoM — Actual: 0.1 | Forecast: None | Prev: 1.4
+  [-1] Non Defense Goods Orders Ex Air — Actual: 1.6 | Forecast: 0.5 | Prev: 0.6
+  [0] Durable Goods Orders Ex Transp MoM — Actual: 0.3 | Forecast: 0.6 | Prev: 0.7
+  [1] Durable Goods Orders MoM — Actual: 0 | Forecast: -0.4 | Prev: 0.9
+  [0] Fed Schmid Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Michigan Current Conditions Final — Actual: None | Forecast: 49.5 | Prev: 51.9
+  [-1] Michigan Inflation Expectations Final — Actual: None | Forecast: 4.6 | Prev: 4
+  [-1] Michigan Consumer Expectations Final — Actual: None | Forecast: None | Prev: 51.5
+  [-1] Michigan 5 Year Inflation Expectations Final — Actual: None | Forecast: 3.4 | Prev: 3.3
+  [0] Michigan Consumer Sentiment Final — Actual: None | Forecast: 47.6 | Prev: 51.7
+  [-1] Baker Hughes Oil Rig Count — Actual: None | Forecast: 453 | Prev: 452
+  [-1] Baker Hughes Total Rigs Count — Actual: None | Forecast: None | Prev: 595
+  [0] Fed Hammack Speech — Actual: None | Forecast: None | Prev: None
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: -10.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bullish
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: BULLISH | 15m: BULLISH
+
+  [Daily] Structure: BEARISH
+    Price: 30865.75 | PrevH: 30827.5 | PrevL: 30370.0
+    Nearest Resistance (swing high above): 30968.0
+    Nearest Support (swing low below): 29160.5
+    CHoCH: CHoCH — broke above swing high (structure flip) @ 29764.75 (2026-09-08)
+    Recent: 2026-09-23 DOWN(31008.5->30764.75) > 2026-09-24 DOWN(30780.0->30766.75) > 2026-09-25 UP(30726.5->30865.75)
+
+  [4H] Structure: RANGING
+    Price: 30865.5 | PrevH: 30999.5 | PrevL: 30838.0
+    Nearest Resistance (swing high above): 31094.75
+    Nearest Support (swing low below): 30670.0
+    Recent: 2026-09-25 UP(30776.25->30868.0) > 2026-09-25 UP(30867.25->30961.5) > 2026-09-25 DOWN(30960.5->30865.5)
+
+  [1H] Structure: BULLISH
+    Price: 30865.5 | PrevH: 30978.0 | PrevL: 30871.5
+    Nearest Resistance (swing high above): 30916.5
+    Nearest Support (swing low below): 30745.5
+    BOS: BOS — broke above swing high @ 30827.5 (2026-09-24)
+    Recent: 2026-09-25 UP(30922.75->30961.5) > 2026-09-25 DOWN(30960.5->30877.5) > 2026-09-25 DOWN(30878.0->30865.5)
+
+  [15m] Structure: BULLISH
+    Price: 30865.5 | PrevH: 30908.75 | PrevL: 30853.75
+    Nearest Resistance (swing high above): 30899.25
+    Nearest Support (swing low below): 30838.0
+    CHoCH: CHoCH — broke below swing low (structure flip) @ 30900.0 (2026-09-25)
+    Recent: 2026-09-25 DOWN(30896.25->30877.5) > 2026-09-25 UP(30878.0->30899.0) > 2026-09-25 DOWN(30897.5->30865.5)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-25.

@@ -1,0 +1,106 @@
+ANALYSIS DATE: 2026-09-22
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 100.472 | Day: +0.042% | 5-Day: +0.82%
+  VIX (Fear Index): 14.63 | Day: -1.614% | 5-Day: -14.94%
+  10Y Treasury Yield: 4.937 | Day: -0.524% | 5-Day: -1.18%
+  Gold: 4372.1 | Day: -0.269% | 5-Day: +0.91%
+  Crude Oil: 89.86 | Day: -6.181% | 5-Day: -15.09%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30773.5 | Trend: UP
+  1D: -0.04% | 5D: 6.28% | 10D: 4.18%
+  Prev High: 30862.75 | Prev Low: 29904.0 | Prev Close: 30784.75
+  Week High: 30862.75 | Week Low: 28763.75
+  Last 5 Candles: 2026-09-16 DOWN (O:28978.25 H:29252.25 L:28763.75 C:28963.5) | 2026-09-17 UP (O:28967.5 H:29498.25 L:28957.75 C:29446.75) | 2026-09-18 UP (O:29438.75 H:29665.25 L:29352.75 C:29613.68) | 2026-09-21 UP (O:29938.0 H:30862.75 L:29904.0 C:30784.75) | 2026-09-22 DOWN (O:30780.0 H:30916.5 L:30670.0 C:30773.5)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 30772.75
+  Zero-Gamma Flip: 30690.00
+  Call Wall (Ceiling): 30970.00
+  Put Wall (Floor): 30470.00
+  0DTE Magnet Strike: 30810
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Why Muse added billions to Meta's market cap, Zuckerberg's net worth
+  2. Nvidia's stock is flashing a warning sign as valuation falls
+  3. Bitcoin leads crypto back above $3T as risk builds
+  4. Maye Musk: Elon really wants to live on Mars in the coming decades
+  5. What Xi Jinping wants from his summit with Donald Trump
+  6. Stocks mixed as AI trade powers market
+  7. Oil falls after reports suggest Iran could reopen Hormuz within 7 days
+  8. Copper rises for a sixth day toward record on China tightness
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 21, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. 5% proves a tough hurdle for the Benchmark Treasury Yield 
+  2. Stock Market Today: S&P 500, Dow, Futures Gain Nasdaq 100 Slips as Trump Administration Targets Iranian Airlines— Lennar, Greenland Mines, Accenture in Focus (UPDATED)
+  3. US stock market today: Futures steady after tech rally; oil prices fall on potential US-Iran talks
+  4. Wall St futures pause after AI rally, focus on Mideast tensions
+  5. Europe before the bell: futures steady after Nasdaq's 3% jump
+  6. Dow Futures Slip While S&P 500, Nasdaq Futures Climb After AI Rally: GME, IBRX, AMD, PSKY Stocks In Focus
+  7. Nasdaq Ends Nearly 3% Higher As AI Stocks Pop, AMD Enters $1 Trillion Club —  AMD, ARM, META, AMZN, PSKY In Focus
+  8. What's Going On With SpaceX Stock Today?
+
+=== ECONOMIC CALENDAR — 2026-09-22 ===
+  [0] UN General Assembly — Actual: None | Forecast: None | Prev: None
+  [0] ADP Employment Change Weekly — Actual: 20 | Forecast: None | Prev: 16.25
+  [-1] Redbook YoY — Actual: 7.6 | Forecast: None | Prev: 8.5
+  [-1] Richmond Fed Manufacturing Shipments Index — Actual: None | Forecast: None | Prev: 11
+  [-1] Richmond Fed Manufacturing Index — Actual: None | Forecast: 5 | Prev: 4
+  [-1] Richmond Fed Services Revenues Index — Actual: None | Forecast: None | Prev: -8
+  [0] Fed Williams Speech — Actual: None | Forecast: None | Prev: None
+  [0] Fed Jefferson Speech — Actual: None | Forecast: None | Prev: None
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.85
+  [-1] Money Supply — Actual: None | Forecast: None | Prev: 23.22
+  [-1] 2-Year Note Auction — Actual: None | Forecast: None | Prev: 4.204
+  [0] Fed Barkin Speech — Actual: None | Forecast: None | Prev: None
+  [0] API Crude Oil Stock Change — Actual: None | Forecast: -0.5 | Prev: 7.14
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BEARISH (score: -20.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: BULLISH | 15m: RANGING
+
+  [Daily] Structure: BEARISH
+    Price: 30772.0 | PrevH: 30862.75 | PrevL: 29904.0
+    Nearest Resistance (swing high above): 30807.75
+    Nearest Support (swing low below): 29160.5
+    CHoCH: CHoCH — broke above swing high (structure flip) @ 29764.75 (2026-09-08)
+    Recent: 2026-09-18 UP(29438.75->29613.68) > 2026-09-21 UP(29938.0->30784.75) > 2026-09-22 DOWN(30780.0->30772.0)
+
+  [4H] Structure: RANGING
+    Price: 30772.0 | PrevH: 30850.75 | PrevL: 30670.0
+    Nearest Resistance (swing high above): 30916.5
+    Nearest Support (swing low below): 29659.25
+    Recent: 2026-09-22 DOWN(30846.75->30770.5) > 2026-09-22 UP(30770.25->30776.75) > 2026-09-22 DOWN(30776.75->30772.0)
+
+  [1H] Structure: BULLISH
+    Price: 30772.0 | PrevH: 30791.75 | PrevL: 30745.5
+    Nearest Resistance (swing high above): 30850.75
+    Nearest Support (swing low below): 30670.0
+    Recent: 2026-09-22 DOWN(30814.0->30776.75) > 2026-09-22 DOWN(30776.75->30752.25) > 2026-09-22 UP(30753.0->30772.0)
+
+  [15m] Structure: RANGING
+    Price: 30775.5 | PrevH: 30780.75 | PrevL: 30748.75
+    Nearest Resistance (swing high above): 30844.75
+    Nearest Support (swing low below): 30756.5
+    Recent: 2026-09-22 DOWN(30764.75->30752.25) > 2026-09-22 UP(30753.0->30769.75) > 2026-09-22 UP(30769.5->30775.5)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-22.

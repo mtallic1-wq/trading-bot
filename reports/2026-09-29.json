@@ -1,0 +1,1350 @@
+{
+  "date": "2026-09-29",
+  "created": "2026-09-29T18:34:21.263682",
+  "is_historical": false,
+  "bias_nq": "BEARISH",
+  "side": "SELL SIDE",
+  "confidence": 65,
+  "nq": {
+    "name": "NQ Nasdaq-100 Futures",
+    "ticker": "NQ=F",
+    "current_price": 30673.0,
+    "prev_day_high": 30920.75,
+    "prev_day_low": 30356.75,
+    "prev_day_close": 30566.25,
+    "week_high": 31094.75,
+    "week_low": 30356.75,
+    "trend": "UP",
+    "performance": {
+      "1d_pct": 0.35,
+      "5d_pct": -1.15,
+      "10d_pct": 5.93
+    },
+    "recent_candles": [
+      {
+        "date": "2026-08-18",
+        "open": 30077.0,
+        "high": 30121.25,
+        "low": 29514.0,
+        "close": 29586.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-19",
+        "open": 29566.5,
+        "high": 29757.25,
+        "low": 29375.75,
+        "close": 29512.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-20",
+        "open": 29561.5,
+        "high": 29689.75,
+        "low": 29202.75,
+        "close": 29300.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-21",
+        "open": 29327.0,
+        "high": 29539.0,
+        "low": 29220.0,
+        "close": 29387.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-24",
+        "open": 29392.25,
+        "high": 29480.5,
+        "low": 28946.75,
+        "close": 29105.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-25",
+        "open": 29140.5,
+        "high": 29425.75,
+        "low": 29017.0,
+        "close": 29276.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-26",
+        "open": 29288.0,
+        "high": 29437.75,
+        "low": 29096.0,
+        "close": 29289.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-27",
+        "open": 29499.5,
+        "high": 29708.0,
+        "low": 29401.75,
+        "close": 29695.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-08-28",
+        "open": 29635.5,
+        "high": 29811.5,
+        "low": 29436.25,
+        "close": 29491.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-08-31",
+        "open": 29540.0,
+        "high": 29546.25,
+        "low": 29273.5,
+        "close": 29513.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-01",
+        "open": 29518.25,
+        "high": 29571.25,
+        "low": 29002.0,
+        "close": 29125.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-02",
+        "open": 29136.5,
+        "high": 29213.0,
+        "low": 28927.25,
+        "close": 29186.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-03",
+        "open": 29177.0,
+        "high": 29584.25,
+        "low": 29075.0,
+        "close": 29524.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-04",
+        "open": 29505.0,
+        "high": 29704.5,
+        "low": 29468.0,
+        "close": 29565.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-08",
+        "open": 29535.25,
+        "high": 29764.75,
+        "low": 29424.75,
+        "close": 29538.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-09",
+        "open": 29526.5,
+        "high": 29633.75,
+        "low": 29333.0,
+        "close": 29448.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-10",
+        "open": 29458.5,
+        "high": 29508.25,
+        "low": 29043.25,
+        "close": 29135.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-11",
+        "open": 29141.0,
+        "high": 29500.25,
+        "low": 29040.5,
+        "close": 29387.0,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-14",
+        "open": 28997.75,
+        "high": 29303.0,
+        "low": 28816.25,
+        "close": 29152.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-15",
+        "open": 29200.0,
+        "high": 29200.0,
+        "low": 28918.75,
+        "close": 28955.0,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-16",
+        "open": 28978.25,
+        "high": 29252.25,
+        "low": 28763.75,
+        "close": 28963.5,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-17",
+        "open": 28967.5,
+        "high": 29498.25,
+        "low": 28957.75,
+        "close": 29446.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-18",
+        "open": 29438.75,
+        "high": 29665.25,
+        "low": 29352.75,
+        "close": 29613.68,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-21",
+        "open": 29938.0,
+        "high": 30862.75,
+        "low": 29904.0,
+        "close": 30784.75,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-22",
+        "open": 30780.0,
+        "high": 31065.5,
+        "low": 30670.0,
+        "close": 31028.5,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-23",
+        "open": 31008.5,
+        "high": 31094.75,
+        "low": 30642.75,
+        "close": 30764.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-24",
+        "open": 30780.0,
+        "high": 30827.5,
+        "low": 30370.0,
+        "close": 30766.75,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-25",
+        "open": 30726.5,
+        "high": 30999.5,
+        "low": 30679.0,
+        "close": 30889.25,
+        "direction": "UP"
+      },
+      {
+        "date": "2026-09-28",
+        "open": 30870.0,
+        "high": 30920.75,
+        "low": 30356.75,
+        "close": 30566.25,
+        "direction": "DOWN"
+      },
+      {
+        "date": "2026-09-29",
+        "open": 30560.5,
+        "high": 30717.75,
+        "low": 30372.25,
+        "close": 30673.0,
+        "direction": "UP"
+      }
+    ]
+  },
+  "macro": {
+    "DXY (Dollar Index)": {
+      "price": 101.366,
+      "day_chg": 0.164,
+      "5d_chg": 0.76
+    },
+    "VIX (Fear Index)": {
+      "price": 15.82,
+      "day_chg": -1.556,
+      "5d_chg": 11.33
+    },
+    "10Y Treasury Yield": {
+      "price": 5.23,
+      "day_chg": -0.191,
+      "5d_chg": 5.27
+    },
+    "Gold": {
+      "price": 4190.6,
+      "day_chg": -3.022,
+      "5d_chg": -4.41
+    },
+    "Crude Oil": {
+      "price": 90.32,
+      "day_chg": -2.462,
+      "5d_chg": -4.51
+    }
+  },
+  "yahoo": {
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "items": [
+      {
+        "title": "Anthropic's IPO prospectus leaked \u2014 here's what's in it",
+        "url": "https://finance.yahoo.com/technology/ai/articles/exclusive-anthropics-ipo-prospectus-shows-231722972.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "How Tesla Semi could add billions to the EV maker's financials",
+        "url": "https://finance.yahoo.com/markets/stocks/article/how-tesla-semi-could-add-billions-to-the-ev-makers-financials-131419347.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump's proposed diesel export ban 'is really a terrible idea,' analyst says",
+        "url": "https://finance.yahoo.com/energy/article/trumps-proposed-diesel-export-ban-is-really-a-terrible-idea-analyst-says-115317077.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Nvidia's $150B buyback could fuel next stock rally",
+        "url": "https://finance.yahoo.com/markets/stocks/article/nvidias-150b-buyback-could-fuel-next-stock-rally-092454217.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Why PepsiCo just got hit with a downgrade despite the stock trading at a 52-week low",
+        "url": "https://finance.yahoo.com/markets/stocks/article/why-pepsico-just-got-hit-with-a-downgrade-despite-the-stock-trading-at-a-52-week-low-094331873.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "US bonds having a rough September. Next month may not be much better.",
+        "url": "https://finance.yahoo.com/markets/article/us-treasurys-on-track-for-worst-september-since-2023-132103385.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Goldman board weighs timeline for Solomon to step down as CEO",
+        "url": "https://finance.yahoo.com/markets/article/goldman-board-weighs-timeline-for-solomon-to-step-down-as-ceo-114758970.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Trump predicts Canada will 'capitulate' in weeks as new import bans kick in",
+        "url": "https://finance.yahoo.com/markets/article/trumps-ban-on-canadian-dairy-alcohol-and-motorcycles-goes-into-effect-112740495.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Stock futures climb as leaked Anthropic IPO details raise alarm about AI risks",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-29-dow-sp-500-nasdaq-080526442.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Micron may be sitting on a 'substantial' surprise",
+        "url": "https://finance.yahoo.com/markets/stocks/article/micron-may-be-sitting-on-a-substantial-surprise-103953207.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Muse and other AI Agents will be a nightmare for friction as a business model",
+        "url": "https://finance.yahoo.com/technology/article/muse-and-other-ai-agents-will-be-a-nightmare-for-friction-as-a-business-model-100000672.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Nvidia's cash machine and cheaper stock make the case for historic buyback: Chart of the Day",
+        "url": "https://finance.yahoo.com/markets/article/nvidias-cash-machine-and-cheaper-stock-make-the-case-for-historic-buyback-chart-of-the-day-090000518.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "OpenAI shelves new AI model after internal safety tests",
+        "url": "https://finance.yahoo.com/news/openai-shelves-ai-model-internal-223403113.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "CarMax shares climb as turnaround push shows green shoots",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/carmax-shares-climb-turnaround-push-101724121.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Exclusive-Anthropic warns AI may pose 'existential risks to humanity' in IPO filing",
+        "url": "https://finance.yahoo.com/technology/ai/articles/exclusive-anthropic-warns-ai-may-001709847.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Demand boost for US crops still unclear after China tariff cuts",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/demand-boost-us-crops-still-075324714.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "AI companies must watch out for freeloaders burning through tokens for free",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-companies-must-watch-freeloaders-210000931.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "Netflix Analysts Are Souring on the Stock as Growth Fears Mount",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-analysts-souring-stock-growth-083227265.html",
+        "source": "Yahoo/homepage"
+      },
+      {
+        "title": "What to Expect in Markets This Week: Latest US Inflation, Jobs Data; Micron, CarMax Report",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/expect-markets-week-latest-us-090000416.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "The U.S. economy is running hot and stuck on a hamster wheel as GDP growth must outpace borrowing costs\u2014or risk getting sucked into a debt spiral",
+        "url": "https://finance.yahoo.com/economy/articles/u-economy-running-hot-stuck-172448875.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Tom Lee Says PCE Revision Could Show The Fed Hiked Too Early, Calls Walkback Bullish For Crypto",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-says-pce-revision-162856540.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Bond yields push higher as investors digest global risks, higher-for-longer path for the Fed",
+        "url": "https://finance.yahoo.com/markets/article/bond-yields-push-higher-as-investors-digest-global-risks-higher-for-longer-path-for-the-fed-183719554.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "October Fed rate hike hinges on two looming economic reports",
+        "url": "https://finance.yahoo.com/economy/policy/articles/october-fed-rate-hike-hinges-232828169.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "The Odds of the Fed Ramping Up Its Rate-Hiking Cycle Are Skyrocketing, and 4 Variables -- 2 Directly Tied to President Donald Trump -- Are to Blame",
+        "url": "https://finance.yahoo.com/economy/policy/articles/odds-fed-ramping-rate-hiking-082601235.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Hassett Says \u2018Outside\u2019 Factors Could Upset Growth, Deficit Goals",
+        "url": "https://finance.yahoo.com/economy/articles/hassett-says-outside-factors-could-174720774.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Employment, GDP and Other Key Things to Watch this Week",
+        "url": "https://finance.yahoo.com/economy/articles/employment-gdp-other-key-things-164445580.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "US Hiring Appetite Is Healthy as Economy Powers Ahead",
+        "url": "https://finance.yahoo.com/economy/articles/us-hiring-appetite-healthy-economy-200000220.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Top 5 Market Catalysts That Could Move Stocks and Crypto This Week",
+        "url": "https://finance.yahoo.com/markets/articles/top-5-market-catalysts-could-230000772.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "2 key checks for the AI trade and the economy: What to watch this week",
+        "url": "https://finance.yahoo.com/markets/article/2-key-checks-for-the-ai-trade-and-the-economy-what-to-watch-this-week-100000239.html",
+        "source": "Yahoo/economic"
+      },
+      {
+        "title": "Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging",
+        "url": "https://finance.yahoo.com/economy/policy/articles/why-upcoming-jobs-report-could-110000093.html",
+        "source": "Yahoo/economic"
+      }
+    ],
+    "count": 57
+  },
+  "worldmonitor": {
+    "source": "World Monitor",
+    "url": "https://www.worldmonitor.app",
+    "rows": [
+      {
+        "label": "Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs",
+        "values": []
+      },
+      {
+        "label": "Free global intelligence dashboard \u00b7 live now",
+        "values": []
+      },
+      {
+        "label": "Launch the dashboard | See how people use it \u2193",
+        "values": []
+      },
+      {
+        "label": "As featured in | WIRED | 2M+ users | | | Open source \u00b7 AGPL-3.0 | | | Build on it: | REST API \u00b7 MCP \u00b7 npm \u00b7 PyPI \u00b7 Go \u00b7 RubyGems",
+        "values": []
+      },
+      {
+        "label": "worldmonitor.app \u2014 global operations | Captured from the live map \u2014 click to open it",
+        "values": []
+      },
+      {
+        "label": "Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock.",
+        "values": []
+      },
+      {
+        "label": "Top signals | Published pulse Sep 28, 2026",
+        "values": []
+      },
+      {
+        "label": "Top signals",
+        "values": []
+      },
+      {
+        "label": "Oil heads higher as US-Iran peace talks in stalemate | MyJoyOnline",
+        "values": []
+      },
+      {
+        "label": "Trump expects Iran talks next week after rejecting seven-day truce proposal | France 24",
+        "values": []
+      },
+      {
+        "label": "Trump rejects Iran\u2019s seven-day peace deal to reopen strait of Hormuz | Guardian ME",
+        "values": []
+      },
+      {
+        "label": "China says US trade truce extension creates space to advance talks | CNA",
+        "values": []
+      },
+      {
+        "label": "Instability index | Published pulse Sep 28, 2026",
+        "values": []
+      },
+      {
+        "label": "Instability index",
+        "values": []
+      },
+      {
+        "label": "\ud83c\uddfa\ud83c\udde6 | UA | 93 | \u25b2",
+        "values": []
+      },
+      {
+        "label": "\ud83c\uddf7\ud83c\uddfa | RU | 76 | \u2500",
+        "values": []
+      },
+      {
+        "label": "\ud83c\uddf8\ud83c\uddfe | SY | 72 | \u2500",
+        "values": []
+      },
+      {
+        "label": "\ud83c\uddf2\ud83c\uddfd | MX | 70 | \u2500",
+        "values": []
+      },
+      {
+        "label": "\ud83c\uddf5\ud83c\uddf0 | PK | 70 | \u2500",
+        "values": []
+      },
+      {
+        "label": "Maritime chokepoints | Published pulse Sep 28, 2026",
+        "values": []
+      },
+      {
+        "label": "Maritime chokepoints",
+        "values": []
+      },
+      {
+        "label": "Kerch Strait | 70",
+        "values": []
+      },
+      {
+        "label": "Strait of Hormuz | 70",
+        "values": []
+      },
+      {
+        "label": "Bab el-Mandeb | 40",
+        "values": []
+      },
+      {
+        "label": "Suez Canal | 35",
+        "values": []
+      },
+      {
+        "label": "Bosporus Strait | 30",
+        "values": []
+      },
+      {
+        "label": "Markets | Published pulse Sep 28, 2026",
+        "values": []
+      },
+      {
+        "label": "S&P 500 | equity | 7,743 | +0.51%",
+        "values": []
+      },
+      {
+        "label": "Nasdaq | equity | 27,069 | +0.48%",
+        "values": []
+      },
+      {
+        "label": "Bitcoin | crypto | 83,475 | -0.99%",
+        "values": []
+      },
+      {
+        "label": "Ethereum | crypto | 2,659 | -1.24%",
+        "values": []
+      },
+      {
+        "label": "WTI crude | energy | 94.08 | +1.81%",
+        "values": []
+      },
+      {
+        "label": "Brent | energy | 99.09 | +1.69%",
+        "values": []
+      },
+      {
+        "label": "Gold | metal | 4,231 | -2.09%",
+        "values": []
+      },
+      {
+        "label": "Copper | metal | 6.67 | -1.46%",
+        "values": []
+      },
+      {
+        "label": "Nat gas | energy | 3.12 | -3.35%",
+        "values": []
+      },
+      {
+        "label": "EUR/USD | fx | 1.14 | -0.03%",
+        "values": []
+      },
+      {
+        "label": "USD/JPY | fx | 157.78 | +0.38%",
+        "values": []
+      },
+      {
+        "label": "\u25b8 | Physical premium divergence index \u2014 SGE vs COMEX, with history | PRO",
+        "values": []
+      },
+      {
+        "label": "\u25b8 | Commodity supply-vulnerability rankings \u2014 chokepoint dependency fan-out | PRO",
+        "values": []
+      }
+    ],
+    "notes": [
+      "By the time it's news,you already knew.",
+      "Headlines are the lag. World Monitor streams the world's raw signals \u2014 ships, jets, sirens, cables, markets \u2014 onto one live map, with AI that flags when they converge into something that matters.",
+      "As of 28 September 2026",
+      "What is World Monitor?",
+      "What are you trying to find out?",
+      "Choose the evidence trail that matches the job in front of you. Each route opens a source-backed view, not an empty dashboard.",
+      "Verify a breaking event",
+      "Check current crisis trackers, dated metrics, and cited context before trusting a breaking claim.",
+      "Inspect disruption status, vessel flows, and risk across critical maritime passages.",
+      "Explain a country-risk move"
+    ],
+    "raw_snippet": "World Monitor \u2014 Free Real-Time Global Intelligence Dashboard\nWORLD MONITOR\nCorrelations\nFirst 5 min\nDepth\nFor AI agents\nAttributed providers\nPricing\nFAQ\nBlog\nDocs\nMenu\nCorrelations\nFirst 5 min\nDepth\nFor AI agents\nAttributed providers\nPricing\nFAQ\nBlog\nDocs\nLaunch Dashboard\nFree global intelligence dashboard \u00b7 live now\nBy the time it's news,\nyou already knew.\nHeadlines are the lag. World Monitor streams the world's raw signals \u2014 ships, jets, sirens, cables, markets \u2014 onto one live map, with AI that flags when they converge into something that matters.\nAs of 28 September 2026\nLaunch the dashboard\nSee how people use it \u2193\nFree \u00b7 No signup \u00b7 Loads in seconds\n57\nMap layer types\n461\nNews & OSINT feeds\n757\nAttributed providers\n5\nIndependent alert origins\nAs featured in\nWIRED\n2M+ users\n|\nOpen source \u00b7 AGPL-3.0\n|\nBuild on it:\nREST API \u00b7 MCP \u00b7 npm \u00b7 PyPI \u00b7 Go \u00b7 RubyGems\nWhat is World Monitor?\nWorld Monitor is a free, open-source dashboard that streams geopolitics, markets, shipping, aviation, infrastructure, and cyber signals onto one live world map. It correlates separate feeds into a single operating picture and flags convergence before headlines, with every figure sourced and every method documented.\nWorldMonitor is not an open-source Palantir\nworldmonitor.app \u2014 global operations\nCaptured from the live map \u2014 click to open it\nStart with the question\nWhat are you trying to find out?\nChoose the evidence trail that matches the job in front of you. Each route opens a source-backed view, not an empty dashboard.\n01\nVerify a breaking event\nCheck current crisis trackers, dated metrics, and cited context before trusting a breaking claim.\nOpen evidence\n02\nCheck a chokepoint\nInspect disruption status, vessel flows, and risk across critical maritime passages.\nOpen evidence\n03\nExplain a country-risk move\nTrace the political, security, economic, and resilience signals behind a country's change.\nOpen evidence\nLive right now\nWhat live data is this page showing right now?\nFour of the hundred-plus signals World Monitor watches around the clock.\nTop signals\nPublished pulse Sep 28, 2026\nOil heads higher as US-Iran peace talks in stalemate\nMyJoyOnline\nTrump expects Iran talks next week after rejecting seven-day truce proposal\nFrance 24\nTrump rejects Iran\u2019s seven-day peace deal to reopen strait of Hormuz\nGuardian ME\nChina says US trade truce extension creates space to advance talks\nCNA\nInstability index\nPublished pulse Sep 28, 2026\n\ud83c\uddfa\ud83c\udde6\nUA\n93\n\u25b2\n\ud83c\uddf7\ud83c\uddfa\nRU\n76\n\u2500\n\ud83c\uddf8\ud83c\uddfe\nSY\n72\n\u2500\n\ud83c\uddf2\ud83c\uddfd\nMX\n70\n\u2500\n\ud83c\uddf5\ud83c\uddf0\nPK\n70\n\u2500\n12 fused signals per country\nMaritime chokepoints\nPublished pulse Sep 28, 2026\n7 of 13 disrupted\nKerch Strait\n70\nStrait of Hormuz\n70\nBab el-Mandeb\n40\nSuez Canal\n35\nBosporus Strait\n30\nMarkets\nPublished pulse Sep 28, 2026\nUp\n5\n/\n11\nBest\nWTI +1.8%\nWeakest\nGAS -3.4%\nS&P 500\nequity\n7,743\n+0.51%\nNasdaq\nequity\n27,069\n+0.48%\nBitcoin\ncrypto\n83,475\n-0.99%\nEthereum\ncrypto\n2,659\n-1.24%\nWTI crude\nenergy\n94.08\n+1.81%\nBrent\nenergy\n99.09\n+1.69%\nGold\nmetal\n4,231\n-2.09%\nCopper\nmetal\n6.67\n-1.46%\nNat gas\nenergy\n3.12"
+  },
+  "tradingview": {
+    "source": "TradingView",
+    "chart_nq": "https://www.tradingview.com/chart/?symbol=CME_MINI%3ANQ1%21",
+    "chart_es": "https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21",
+    "news": [
+      {
+        "title": "Stock Market Today: Dow Jones, S&P 500 Futures Slip, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax' \u2014 NVDA, AAR, MTN in Focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Benzinga)",
+        "published": "1790673437"
+      },
+      {
+        "title": "A month ago, this JPMorgan team urged caution on stocks. Now it's going all in on tech.",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (MarketWatch)",
+        "published": "1790672220"
+      },
+      {
+        "title": "Dow, S&P 500, Nasdaq Futures Fall Amid Rising Bond Yields, AI Concerns: KOD, SMMT, CLF, VKTX Stocks In Focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Stocktwits)",
+        "published": "1790652553"
+      },
+      {
+        "title": "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump\u2019s Iran Sanction Relief \u2014 NVDA, BA, AMD, NVTS, CBRS In Focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Stocktwits)",
+        "published": "1790636878"
+      },
+      {
+        "title": "Michael Burry Swaps MU, NBIS, NVDA, PLTR Shorts For Puts \u2014 Says AI Bubble May Burst \u2018Sooner Than Later\u2019",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Stocktwits)",
+        "published": "1790628163"
+      },
+      {
+        "title": "Nasdaq 100 Sinks, Oil Rallies as Trump Rejects Iran's Hormuz Plan: Stock Market Today",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Benzinga)",
+        "published": "1790615013"
+      },
+      {
+        "title": "Oppenheimer: QQQs best placed to lead once rates settle",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Seeking Alpha)",
+        "published": "1790608037"
+      },
+      {
+        "title": "Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Fall as Rising Yields and Trump's Rejection of Hormuz Deal Spook Investors \u2014 LLY, PEP, JEF in Focus (UPDATED)",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Benzinga)",
+        "published": "1790600486"
+      },
+      {
+        "title": "Wall St to open lower as oil spikes after Trump rejects Iran peace proposal",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1790599869"
+      },
+      {
+        "title": "Wall St futures drop as oil spikes after Trump rejects Iran peace proposal",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1790595745"
+      },
+      {
+        "title": "Wall Street futures decline up to 1% as oil prices rise",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Moneycontrol)",
+        "published": "1790594511"
+      },
+      {
+        "title": "Entering the home stretch",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Reuters)",
+        "published": "1790591701"
+      },
+      {
+        "title": "Asian markets decline amid rising oil prices, Middle East tensions, and US futures decline",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Seeking Alpha)",
+        "published": "1790575559"
+      },
+      {
+        "title": "Dow, S&P 500, Nasdaq Futures Fall As Brent Tops $106 After Trump Rejects Iran Proposal: MU, SLV, QNT, META In Focus",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Stocktwits)",
+        "published": "1790564663"
+      },
+      {
+        "title": "Oil climbs, stock futures slip as Trump rejects Iran\u2019s Hormuz proposal",
+        "summary": "",
+        "source": "TradingView/NQ Headlines (Seeking Alpha)",
+        "published": "1790553118"
+      },
+      {
+        "title": "S&P 500 Rises 4.94 Points (0.06%)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Dow Jones Newswires)",
+        "published": "1790688780"
+      },
+      {
+        "title": "Wall St to open higher on oil retreat, tech optimism",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Reuters)",
+        "published": "1790686993"
+      },
+      {
+        "title": "US FHFA HOUSE PRICE INDEX (ADJUSTED) +0.3% IN JULY VS +0.0% IN JUNE; +2.6% IN JULY 2025",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1790686860"
+      },
+      {
+        "title": "US FHFA HOUSE PRICE INDEX (UNADJUSTED) -0.1% IN JULY VS 0.0% IN JUNE; +2.6% IN JULY 2025",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1790686860"
+      },
+      {
+        "title": "US CASE SHILLER 20-CITY HOUSING PRICES +2.5% IN JULY FROM YEAR AGO (VS. +2.1% MARKETS EXPECTED)",
+        "summary": "",
+        "source": "TradingView/ES Headlines (Mace News)",
+        "published": "1790686800"
+      }
+    ],
+    "economic_calendar": [
+      {
+        "title": "Redbook YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "8.2",
+        "forecast": "None",
+        "previous": "7.6"
+      },
+      {
+        "title": "S&P/Case-Shiller Home Price MoM",
+        "country": "US",
+        "impact": "-1",
+        "actual": "0",
+        "forecast": "None",
+        "previous": "0.4"
+      },
+      {
+        "title": "House Price Index MoM",
+        "country": "US",
+        "impact": "-1",
+        "actual": "0.3",
+        "forecast": "0.1",
+        "previous": "0"
+      },
+      {
+        "title": "House Price Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "443.5",
+        "forecast": "None",
+        "previous": "442.3"
+      },
+      {
+        "title": "House Price Index YoY",
+        "country": "US",
+        "impact": "-1",
+        "actual": "2.6",
+        "forecast": "None",
+        "previous": "2.3"
+      },
+      {
+        "title": "S&P/Case-Shiller Home Price YoY",
+        "country": "US",
+        "impact": "0",
+        "actual": "2.5",
+        "forecast": "2.2",
+        "previous": "2.2"
+      },
+      {
+        "title": "NY Fed Bill Purchases 1 to 4 months",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "3.892",
+        "previous": "None"
+      },
+      {
+        "title": "JOLTs Job Quits",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.056"
+      },
+      {
+        "title": "CB Consumer Confidence",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "89.2",
+        "previous": "89.4"
+      },
+      {
+        "title": "JOLTs Job Openings",
+        "country": "US",
+        "impact": "1",
+        "actual": "None",
+        "forecast": "7.23",
+        "previous": "7.271"
+      },
+      {
+        "title": "Dallas Fed Services Revenues Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "6.6"
+      },
+      {
+        "title": "Dallas Fed Services Index",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "4.2"
+      },
+      {
+        "title": "6-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.87"
+      },
+      {
+        "title": "52-Week Bill Auction",
+        "country": "US",
+        "impact": "-1",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "3.98"
+      },
+      {
+        "title": "Fed Goolsbee Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Fed Musalem Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "Fed Williams Speech",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "None",
+        "previous": "None"
+      },
+      {
+        "title": "API Crude Oil Stock Change",
+        "country": "US",
+        "impact": "0",
+        "actual": "None",
+        "forecast": "-1.9",
+        "previous": "1.786"
+      }
+    ]
+  },
+  "price_action": {
+    "ticker": "NQ=F",
+    "bias": "BEARISH",
+    "score_pct": -50.0,
+    "alignment": "PARTIAL ALIGNMENT \u2014 2/4 TFs bearish",
+    "tf_summary": [
+      "Daily: BEARISH",
+      "4H: RANGING",
+      "1H: RANGING",
+      "15m: BEARISH"
+    ],
+    "timeframes": {
+      "Daily": {
+        "structure": "BEARISH",
+        "sh_score": -0.2,
+        "sl_score": -0.6,
+        "swings": [
+          {
+            "type": "SH",
+            "price": 30074.0,
+            "date": "2026-08-05"
+          },
+          {
+            "type": "SH",
+            "price": 30343.0,
+            "date": "2026-08-17"
+          },
+          {
+            "type": "SL",
+            "price": 28946.75,
+            "date": "2026-08-24"
+          },
+          {
+            "type": "SH",
+            "price": 29811.5,
+            "date": "2026-08-28"
+          },
+          {
+            "type": "SL",
+            "price": 28927.25,
+            "date": "2026-09-02"
+          },
+          {
+            "type": "SH",
+            "price": 29764.75,
+            "date": "2026-09-08"
+          },
+          {
+            "type": "SL",
+            "price": 28763.75,
+            "date": "2026-09-16"
+          },
+          {
+            "type": "SH",
+            "price": 31094.75,
+            "date": "2026-09-23"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "Daily",
+        "current": 30673.5,
+        "prev_high": 30920.75,
+        "prev_low": 30356.75,
+        "prev_close": 30566.25,
+        "resistance": 30807.75,
+        "support": 29160.5,
+        "recent_candles": [
+          {
+            "date": "2026-09-25",
+            "open": 30726.5,
+            "high": 30999.5,
+            "low": 30679.0,
+            "close": 30889.25,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-09-28",
+            "open": 30870.0,
+            "high": 30920.75,
+            "low": 30356.75,
+            "close": 30566.25,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-09-29",
+            "open": 30560.5,
+            "high": 30717.75,
+            "low": 30372.25,
+            "close": 30673.5,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 127
+      },
+      "4H": {
+        "structure": "RANGING",
+        "sh_score": 0.2,
+        "sl_score": -0.2,
+        "swings": [
+          {
+            "type": "SH",
+            "price": 29966.75,
+            "date": "2026-09-18"
+          },
+          {
+            "type": "SL",
+            "price": 29659.25,
+            "date": "2026-09-18"
+          },
+          {
+            "type": "SL",
+            "price": 30670.0,
+            "date": "2026-09-22"
+          },
+          {
+            "type": "SH",
+            "price": 31094.75,
+            "date": "2026-09-23"
+          },
+          {
+            "type": "SL",
+            "price": 30642.75,
+            "date": "2026-09-23"
+          },
+          {
+            "type": "SL",
+            "price": 30370.0,
+            "date": "2026-09-24"
+          },
+          {
+            "type": "SH",
+            "price": 30999.5,
+            "date": "2026-09-25"
+          },
+          {
+            "type": "SL",
+            "price": 30356.75,
+            "date": "2026-09-28"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "4H",
+        "current": 30672.75,
+        "prev_high": 30707.0,
+        "prev_low": 30537.75,
+        "prev_close": 30682.0,
+        "resistance": 30999.5,
+        "support": 30670.0,
+        "recent_candles": [
+          {
+            "date": "2026-09-29",
+            "open": 30432.0,
+            "high": 30626.5,
+            "low": 30372.25,
+            "close": 30581.25,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-09-29",
+            "open": 30580.75,
+            "high": 30707.0,
+            "low": 30537.75,
+            "close": 30682.0,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-09-29",
+            "open": 30681.25,
+            "high": 30717.75,
+            "low": 30629.0,
+            "close": 30672.75,
+            "direction": "DOWN"
+          }
+        ],
+        "bar_count": 150
+      },
+      "1H": {
+        "structure": "RANGING",
+        "sh_score": -0.2,
+        "sl_score": -0.2,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 30370.0,
+            "date": "2026-09-24"
+          },
+          {
+            "type": "SH",
+            "price": 30999.5,
+            "date": "2026-09-25"
+          },
+          {
+            "type": "SH",
+            "price": 30951.5,
+            "date": "2026-09-25"
+          },
+          {
+            "type": "SL",
+            "price": 30684.0,
+            "date": "2026-09-25"
+          },
+          {
+            "type": "SH",
+            "price": 30759.25,
+            "date": "2026-09-28"
+          },
+          {
+            "type": "SL",
+            "price": 30531.0,
+            "date": "2026-09-28"
+          },
+          {
+            "type": "SL",
+            "price": 30356.75,
+            "date": "2026-09-28"
+          },
+          {
+            "type": "SL",
+            "price": 30372.25,
+            "date": "2026-09-29"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "1H",
+        "current": 30672.75,
+        "prev_high": 30717.75,
+        "prev_low": 30629.0,
+        "prev_close": 30632.0,
+        "resistance": 30759.25,
+        "support": 30670.0,
+        "recent_candles": [
+          {
+            "date": "2026-09-29",
+            "open": 30642.25,
+            "high": 30707.0,
+            "low": 30629.0,
+            "close": 30682.0,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-09-29",
+            "open": 30681.25,
+            "high": 30717.75,
+            "low": 30629.0,
+            "close": 30632.0,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-09-29",
+            "open": 30631.25,
+            "high": 30676.0,
+            "low": 30629.75,
+            "close": 30672.75,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 557
+      },
+      "15m": {
+        "structure": "BEARISH",
+        "sh_score": -0.2,
+        "sl_score": -0.6,
+        "swings": [
+          {
+            "type": "SL",
+            "price": 30534.75,
+            "date": "2026-09-28"
+          },
+          {
+            "type": "SL",
+            "price": 30533.0,
+            "date": "2026-09-28"
+          },
+          {
+            "type": "SL",
+            "price": 30430.0,
+            "date": "2026-09-28"
+          },
+          {
+            "type": "SL",
+            "price": 30409.25,
+            "date": "2026-09-28"
+          },
+          {
+            "type": "SH",
+            "price": 30635.25,
+            "date": "2026-09-29"
+          },
+          {
+            "type": "SH",
+            "price": 30717.75,
+            "date": "2026-09-29"
+          },
+          {
+            "type": "SL",
+            "price": 30372.25,
+            "date": "2026-09-29"
+          },
+          {
+            "type": "SL",
+            "price": 30537.75,
+            "date": "2026-09-29"
+          }
+        ],
+        "bos": null,
+        "choch": null,
+        "label": "15m",
+        "current": 30672.75,
+        "prev_high": 30666.25,
+        "prev_low": 30629.75,
+        "prev_close": 30665.5,
+        "resistance": 30679.0,
+        "support": 30662.25,
+        "recent_candles": [
+          {
+            "date": "2026-09-29",
+            "open": 30652.75,
+            "high": 30653.0,
+            "low": 30629.0,
+            "close": 30632.0,
+            "direction": "DOWN"
+          },
+          {
+            "date": "2026-09-29",
+            "open": 30631.25,
+            "high": 30666.25,
+            "low": 30629.75,
+            "close": 30665.5,
+            "direction": "UP"
+          },
+          {
+            "date": "2026-09-29",
+            "open": 30666.0,
+            "high": 30676.0,
+            "low": 30655.0,
+            "close": 30672.75,
+            "direction": "UP"
+          }
+        ],
+        "bar_count": 315
+      }
+    }
+  },
+  "tv_live": {
+    "available": false,
+    "error": "TradingView Desktop not running."
+  },
+  "gamma_nq": {
+    "underlying_price": 30674.0,
+    "as_of": "2026-09-29T13:34:14.386834Z",
+    "levels": {
+      "gamma_flip": 30590,
+      "call_wall": 30870,
+      "put_wall": 30370,
+      "zero_dte_magnet": "30710"
+    },
+    "warning": "Estimated fallback levels shown due to FlashAlpha API tier restrictions."
+  },
+  "analysis": {
+    "analysis": "---\n## MACRO ENVIRONMENT SUMMARY\n- **DXY** modestly higher (+0.16% today, +0.76% 5\u2011day) \u2013 a mild head\u2011wind for tech\u2011heavy NQ.  \n- **VIX** low at 15.8 and slipping \u2013 risk\u2011on sentiment, but still well below historic fear levels.  \n- **10\u2011yr Treasury Yield** down 0.19\u202fbp today but still elevated at 5.23\u202f% (up 5.27\u202f% over 5\u202fdays) \u2013 pressure on growth stocks.  \n- **Gold** falling (\u20113\u202f% today) and **Oil** down (\u20112.5\u202f% today) \u2013 broader commodity weakness, neutral for NQ.  \n- **Overall macro tone:** **MIXED** \u2013 low fear but strong dollar and high yields create a modest risk\u2011off bias.\n\n**RISK\u2011ON / RISK\u2011OFF:** Mixed (leaning slightly risk\u2011off).\n\n## KEY NEWS ANALYSIS\n| Headline | Implication for NQ |\n|----------|--------------------|\n| **Anthropic IPO prospectus leaked** | Highlights continued AI hype; could boost AI\u2011related stocks (NVDA, AMD) \u2013 mildly bullish. |\n| **Tesla Semi could add billions** | Positive for EV sector, but impact limited on broader NQ index \u2013 neutral\u2011to\u2011bullish. |\n| **Trump\u2019s proposed diesel export ban** | Trade\u2011policy friction, adds geopolitical risk \u2013 bearish for risk assets. |\n| **Nvidia $150\u202fB buyback** | Massive capital return, reinforces confidence in AI leaders \u2013 strong bullish catalyst. |\n| **PepsiCo downgrade** | Signals that even defensive names face pressure; reflects broader market caution \u2013 bearish. |\n| **US bonds having a rough September** | Reinforces yield\u2011rise narrative, hurting growth valuations \u2013 bearish. |\n| **Goldman board timeline for CEO change** | Corporate governance news, limited direct impact \u2013 neutral. |\n| **Trump dismisses Iran sanction relief** (TradingView) | Political tension spikes, pushes yields higher \u2013 bearish. |\n| **Michael Burry shorts AI stocks** (TradingView) | Prominent contrarian view on AI bubble \u2013 bearish sentiment. |\n| **JPMorgan now \u201call\u2011in on tech\u201d** (TradingView) | Counter\u2011balance to Burry, adds bullish tone \u2013 mixed. |\n\n**Overall news sentiment:** **MIXED**, with a slight tilt **BEARISH** due to political risk, rising\u2011yield concerns, and contrarian AI\u2011bubble warnings outweighing the Nvidia buyback and EV optimism.\n\n## ECONOMIC EVENTS IMPACT\n- **Redbook YoY 8.2\u202f%** (up from 7.6\u202f%) \u2013 indicates solid consumer spending, modestly supportive of equities.  \n- **House Price Indexes** modestly above forecasts \u2013 reinforces a stable housing backdrop.  \n- No major surprise releases (e.g., CPI, Fed rate decision) today.  \n- **Impact:** Neutral to mildly bullish, but not enough to offset the broader bearish news tone.\n\n## MULTI\u2011TIMEFRAME STRUCTURE\n| TF | Structure | BOS / CHoCH | Nearest Resistance | Nearest Support |\n|----|-----------|-------------|--------------------|-----------------|\n| **Daily** | **BEARISH** | No fresh BOS; price below prior swing high (30807) | 30807.75 | 29160.5 (long\u2011term low) |\n| **4\u2011Hour** | **RANGING** | Price oscillating around 30670\u201130710 | 30999.5 | 30670.0 |\n| **1\u2011Hour** | **RANGING** | Minor intraday highs/lows, no clear break | 30759.25 | 30670.0 |\n| **15\u2011min** | **BEARISH** | Recent lower\u2011high formation (30679 \u2192 30666) | 30679.0 | 30662.25 |\n\n**Overall multi\u2011TF bias:** **Partial bearish** (2 of 4 TFs bearish, 2 ranging). Alignment is **partial**, suggesting a modest downside bias but with room for short\u2011term reversals.\n\n## OPTIONS GAMMA ANALYSIS (GEX)\n- **Spot (30674) > Zero\u2011Gamma Flip (30590)** \u2192 **Positive Gamma (+GEX)** regime.  \n- **Call Wall (Ceiling) at 30870** and **Put Wall (Floor) at 30370** are intact; volatility is dampened.  \n- **Implication:** Expect price to respect the 30670\u201130710 support band; mean\u2011reversion trades and fade\u2011outs are favored. Breakouts above the Call Wall would be significant, but current regime favors staying near the lower side of the range.\n\n## PREDICTION\n**NYSE SESSION SIDE:** **SELL SIDE**\n\n| Instrument | Direction | Confidence | Level |\n|------------|-----------|------------|-------|\n| NQ (Nasdaq\u2011100) | **BEARISH** | **65%** | **MEDIUM** |\n\n**NQ Prediction:** **BEARISH**  \n**Confidence:** **65% \u2014 MEDIUM**\n\n## TOP REASONS\n1. **Dominant bearish news tone** \u2013 Trump\u2019s geopolitical moves, Burry\u2019s AI\u2011bubble warning, and rising\u2011yield pressure outweigh the Nvidia buyback boost.  \n2. **Macro head\u2011winds** \u2013 Stronger dollar and persistently high 10\u2011yr yields compress tech valuations.  \n3. **Positive Gamma regime** \u2013 Supports mean\u2011reversion near the 30670\u201130710 support band, limiting upside while keeping downside protection modest.\n\n## KEY RISKS\n- **Unexpected positive catalyst** (e.g., strong earnings from NVDA/AMD, Fed surprise rate cut, or a rapid rally in bond yields reversing).  \n- **Break above the Call Wall (30870)** would invalidate the bearish bias and trigger a rapid upside move.  \n- **Sudden shift to risk\u2011on** (VIX dropping sharply, DXY weakening) could lift tech sentiment.\n\n## WHAT TO WATCH DURING NYSE SESSION\n- **Political headlines** \u2013 Any further statements from Trump on Iran/Hormuz or trade policy.  \n- **Yield movements** \u2013 10\u2011yr Treasury reactions to any Fed commentary; a dip below 5.0\u202f% could ease pressure.  \n- **Key NQ price levels:**  \n  - **Put Wall / Support:** 30370 / 30670 (4H/1H support)  \n  - **Current range:** 30670\u201130710 (magnet zone)  \n  - **Call Wall / Resistance:** 30870  \n  - **Previous day high:** 30920.75  \n  - **Weekly high:** 31094.75 (psychological ceiling)  \n- **Scheduled events:** Fed Goolsbee speech (later today), JOLTs Job Openings release (later session).  \n\n## ONE\u2011LINE SUMMARY\n**2026\u201109\u201129 NYSE SESSION: SELL SIDE \u2014 Mixed news with political risk and high yields outweigh the Nvidia buyback, keeping NQ under bearish pressure in a positive\u2011gamma, support\u2011holding environment.**",
+    "bias_nq": "BEARISH",
+    "side": "SELL SIDE",
+    "confidence": 65,
+    "source": "Groq (openai/gpt-oss-120b) \u2014 News/Macro Analysis"
+  },
+  "playbook": {
+    "day_type": "TREND",
+    "day_confidence": "HIGH",
+    "day_score": 6,
+    "day_reasons": [
+      "NQ trend UP -> directional momentum",
+      "Strong TF alignment (-50%) -> trend day",
+      "Daily structure BEARISH",
+      "AI bias BEARISH"
+    ],
+    "bias": "BEARISH",
+    "side": "SELL SIDE",
+    "active_strategies": [
+      {
+        "name": "Break of Value + Retest",
+        "type": "TREND",
+        "win_rate": "50-60%",
+        "rr": "1:2 \u2013 1:3",
+        "stop": "12-20 pts",
+        "setup": "Trend day; price breaks VAH/VAL, then retests the broken level",
+        "bull_entry": "Buy first pullback to broken VAH (now support) \u2014 weak pullback + delta flip",
+        "bear_entry": "Sell first rally to broken VAL (now resistance) \u2014 weak pullback + delta flip",
+        "kill_switch": "Price closes back inside yesterday's value and stays",
+        "key": "T1",
+        "direction": "SELL",
+        "entry": "Sell first rally to broken VAL (now resistance) \u2014 weak pullback + delta flip",
+        "note": "Wait for the retest \u2014 NEVER chase the initial breakout",
+        "condition_met": true
+      },
+      {
+        "name": "Thin Zone Break (LVN Air Pocket)",
+        "type": "TREND",
+        "win_rate": "45-55%",
+        "rr": "1:2 \u2013 1:4",
+        "stop": "12-20 pts",
+        "setup": "Price at edge of HVN with LVN (thin gap) beyond it",
+        "bull_entry": "Stop-buy just above LVN edge \u2014 enter at START of gap, target next HVN",
+        "bear_entry": "Stop-sell just below LVN edge \u2014 enter at START of gap, target next HVN",
+        "kill_switch": "Price falls back inside the fat zone (HVN) it broke from",
+        "key": "T2",
+        "direction": "SELL",
+        "entry": "Stop-sell just below LVN edge \u2014 enter at START of gap, target next HVN",
+        "note": "Enter at START of LVN gap only \u2014 stacked buy/sell imbalances required",
+        "condition_met": true
+      },
+      {
+        "name": "Medium Range Acceptance Break",
+        "type": "TREND",
+        "win_rate": "Track own data",
+        "rr": "1:2 \u2013 1:3",
+        "stop": "12-18 pts below range POC",
+        "setup": "30-60 min medium range (20-40 NQ pts) builds, clear POC forms",
+        "bull_entry": "Buy break above range VAH or first micro-pullback to broken VAH",
+        "bear_entry": "Sell break below range VAL or first micro-pullback to broken VAL",
+        "kill_switch": "Breakout closes back inside medium range -> trapped breakout",
+        "key": "MY-T",
+        "direction": "SELL",
+        "entry": "Sell break below range VAL or first micro-pullback to broken VAL",
+        "note": "Wait 30-60 min for a medium range to build and accept (clear POC must form)",
+        "condition_met": true
+      }
+    ],
+    "off_strategies": [
+      "R1",
+      "R2",
+      "MY-R"
+    ],
+    "key_levels": [
+      "Daily Resistance: 30807.75",
+      "Daily Support: 29160.5",
+      "4H Resistance: 30999.5",
+      "4H Support: 30670.0",
+      "1H Resistance: 30759.25",
+      "1H Support: 30670.0",
+      "Prev Day High: 30920.75",
+      "Prev Day Low: 30356.75"
+    ],
+    "risk_note": "TREND RULES: Never fade the trend. Only trade retests/pullbacks. Stop 12-20 pts. 3 losers -> quit for the day."
+  },
+  "errors": []
+}

@@ -1,0 +1,108 @@
+ANALYSIS DATE: 2026-09-24
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 101.233 | Day: +0.132% | 5-Day: +0.92%
+  VIX (Fear Index): 16.02 | Day: +5.534% | 5-Day: -9.54%
+  10Y Treasury Yield: 5.112 | Day: -0.039% | 5-Day: +2.12%
+  Gold: 4317.0 | Day: -0.032% | 5-Day: -1.88%
+  Crude Oil: 93.84 | Day: +1.823% | 5-Day: -7.92%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30486.5 | Trend: UP
+  1D: -0.9% | 5D: 3.53% | 10D: 4.64%
+  Prev High: 31094.75 | Prev Low: 30642.75 | Prev Close: 30764.75
+  Week High: 31094.75 | Week Low: 28957.75
+  Last 5 Candles: 2026-09-18 UP (O:29438.75 H:29665.25 L:29352.75 C:29613.68) | 2026-09-21 UP (O:29938.0 H:30862.75 L:29904.0 C:30784.75) | 2026-09-22 UP (O:30780.0 H:31065.5 L:30670.0 C:31028.5) | 2026-09-23 DOWN (O:31008.5 H:31094.75 L:30642.75 C:30764.75) | 2026-09-24 DOWN (O:30780.0 H:30813.0 L:30370.0 C:30486.5)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 30482.00
+  Zero-Gamma Flip: 30400.00
+  Call Wall (Ceiling): 30680.00
+  Put Wall (Floor): 30180.00
+  0DTE Magnet Strike: 30520
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. 30-Year Treasury yield hits highest level since 2004 as stocks fall
+  2. Trump: No moves toward US, China AI guardrails in Xi summit
+  3. Tesla opens Semi factory as investors hunt for proof the truck can scale
+  4. The S&P 500 has never been this concentrated in 2 stocks
+  5. Trump's diesel export ban could backfire, experts warn — here's why
+  6. Stock futures slide as bond sell-off troubles markets, China's Xi Jinping lands in US
+  7. Why so many Americans leave Social Security money on the table
+  8. Why the runaway 10-year yield is an ominous sign for markets
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 21, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Benchmark Treasury yield breaks to new highs, but the move is looking stretched
+  2. Wall St futures retreat as oil gains on Mideast uncertainty, eyes on Trump-Xi talks
+  3. US stock futures fall as bond yields surge; investors eye Trump-Xi talks
+  4. Wall St futures fall on Middle East uncertainties ahead of Trump-Xi talks
+  5. Stock Market Today: S&P 500, Nasdaq 100 Futures Drop as Bessent Says Iranian Aviation Restrictions Are Working — ABNB, ORCL, COST in Focus
+  6. Dow, S&P 500, Nasdaq Futures Dip As Bond Yields Bite And Trump-Xi Meet Grabs Spotlight: Why META, MCD, GOOG, U Stocks Are Trending
+  7. S&P 500, Dow, Nasdaq Drop As Yields Spike Amid Calls For More Rate Hikes — AMZN, GOOGL, NFLX, SPCX, RKLB In Focus
+  8. Nasdaq 100 Slips, 10-Year Yields Hit 19-Year Highs: Stock Market Today
+
+=== ECONOMIC CALENDAR — 2026-09-24 ===
+  [0] UN General Assembly — Actual: None | Forecast: None | Prev: None
+  [1] President Trump and President Xi Summit — Actual: None | Forecast: None | Prev: None
+  [0] Fed Williams Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Building Permits MoM Final — Actual: -2.1 | Forecast: -2.7 | Prev: 4.3
+  [-1] Building Permits Final — Actual: 1.403 | Forecast: 1.394 | Prev: 1.433
+  [0] Fed Barkin Speech — Actual: None | Forecast: None | Prev: None
+  [-1] Jobless Claims 4-week Average — Actual: 202.25 | Forecast: None | Prev: 204
+  [-1] Continuing Jobless Claims — Actual: 1719 | Forecast: 1750 | Prev: 1717
+  [0] Initial Jobless Claims — Actual: 197 | Forecast: 201 | Prev: 198
+  [0] Current Account — Actual: -246 | Forecast: -255 | Prev: -212.6
+  [0] Fed Hammack Speech — Actual: None | Forecast: None | Prev: None
+  [-1] NY Fed Bill Purchases 4 to 12 months — Actual: None | Forecast: 1.946 | Prev: None
+  [0] New Home Sales — Actual: None | Forecast: 0.62 | Prev: 0.607
+  [0] New Home Sales MoM — Actual: None | Forecast: None | Prev: -10.5
+  [0] Fed Paulson Speech — Actual: None | Forecast: None | Prev: None
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: BEARISH (score: -50.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: RANGING | 15m: BEARISH
+
+  [Daily] Structure: BEARISH
+    Price: 30480.75 | PrevH: 31094.75 | PrevL: 30642.75
+    Nearest Resistance (swing high above): 30599.75
+    Nearest Support (swing low below): 29160.5
+    CHoCH: CHoCH — broke above swing high (structure flip) @ 29764.75 (2026-09-08)
+    Recent: 2026-09-22 UP(30780.0->31028.5) > 2026-09-23 DOWN(31008.5->30764.75) > 2026-09-24 DOWN(30780.0->30480.75)
+
+  [4H] Structure: RANGING
+    Price: 30481.0 | PrevH: 30590.0 | PrevL: 30370.0
+    Nearest Resistance (swing high above): 31094.75
+    Nearest Support (swing low below): 29659.25
+    Recent: 2026-09-24 DOWN(30661.75->30559.5) > 2026-09-24 DOWN(30559.25->30462.75) > 2026-09-24 UP(30462.5->30481.0)
+
+  [1H] Structure: RANGING
+    Price: 30481.0 | PrevH: 30512.75 | PrevL: 30428.0
+    Nearest Resistance (swing high above): 30813.0
+    Nearest Support (swing low below): 30370.0
+    Recent: 2026-09-24 UP(30434.75->30488.75) > 2026-09-24 DOWN(30487.75->30462.75) > 2026-09-24 UP(30462.5->30481.0)
+
+  [15m] Structure: BEARISH
+    Price: 30481.0 | PrevH: 30482.5 | PrevL: 30420.25
+    Nearest Resistance (swing high above): 30523.75
+    Nearest Support (swing low below): 30370.0
+    Recent: 2026-09-24 DOWN(30482.0->30471.75) > 2026-09-24 UP(30473.0->30473.0) > 2026-09-24 UP(30472.5->30481.0)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-24.

@@ -1,0 +1,107 @@
+ANALYSIS DATE: 2026-10-01
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 101.798 | Day: +0.343% | 5-Day: +0.50%
+  VIX (Fear Index): 16.44 | Day: +0.612% | 5-Day: +4.91%
+  10Y Treasury Yield: 5.321 | Day: +0.529% | 5-Day: +3.08%
+  Gold: 4202.1 | Day: +0.368% | 5-Day: -2.23%
+  Crude Oil: 90.75 | Day: +0.365% | 5-Day: -4.08%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30818.25 | Trend: UP
+  1D: 0.39% | 5D: 0.17% | 10D: 4.66%
+  Prev High: 30906.0 | Prev Low: 30512.25 | Prev Close: 30698.75
+  Week High: 30999.5 | Week Low: 30356.75
+  Last 5 Candles: 2026-09-25 UP (O:30726.5 H:30999.5 L:30679.0 C:30889.25) | 2026-09-28 DOWN (O:30870.0 H:30920.75 L:30356.75 C:30566.25) | 2026-09-29 UP (O:30560.5 H:30725.5 L:30372.25 C:30613.25) | 2026-09-30 UP (O:30657.25 H:30906.0 L:30512.25 C:30698.75) | 2026-10-01 UP (O:30707.0 H:31151.5 L:30684.5 C:30818.25)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 30820.25
+  Zero-Gamma Flip: 30740.00
+  Call Wall (Ceiling): 31020.00
+  Put Wall (Floor): 30520.00
+  0DTE Magnet Strike: 30860
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Broadcom to lend Anthropic up to $42B in deal to lease chips
+  2. Apple's smart hub shows its vision for a new kind of tech consumer
+  3. September job cuts fell 20%, but employers aren't rushing to hire for the holidays
+  4. Micron just blew Wall Street away again—here's what's next
+  5. Bitcoin just landed a surprising new bull
+  6. Stocks inch higher as Micron earnings boost tech
+  7. The bond market is flashing warning signs as Wall Street watches for key 5.5% level: Chart of the Day
+  8. S&P 500 alarm bells are starting to go off
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 28, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St set for higher open tech gains offset bond-market jitters
+  2. Defense ETF nears bear-market territory 
+  3. Why October Promises More of a Winning Streak for Markets — Barrons.com
+  4. Nasdaq futures surge 200 points: 5 things to know before Wall Street opens
+  5. Bond bruise won't heal
+  6. Stock Market Today: Nasdaq 100 Futures Gain, Dow Jones Drops as Iran Receives US Proposal To Restore Ceasefire — CEG, VICR, MU in Focus
+  7. Dow, S&P 500, Nasdaq Futures Rise Despite Soaring Treasury Yields As Markets Eye Jobs Report: MU, NKE, IBRX, CEG Stocks In Focus
+  8. Nasdaq 100 Climbs as Cooler PCE Cuts Rate Hike Bets, Micron Earnings Loom: Stock Market Today
+
+=== ECONOMIC CALENDAR — 2026-10-01 ===
+  [-1] Challenger Job Cuts — Actual: 43.281 | Forecast: None | Prev: 52.881
+  [-1] Jobless Claims 4-week Average — Actual: 200 | Forecast: None | Prev: 202.5
+  [-1] Continuing Jobless Claims — Actual: 1701 | Forecast: 1730 | Prev: 1712
+  [0] Initial Jobless Claims — Actual: 197 | Forecast: 200 | Prev: 198
+  [0] Fed Schmid Speech — Actual: None | Forecast: None | Prev: None
+  [0] Fed Collins Speech — Actual: None | Forecast: None | Prev: None
+  [0] Fed Barkin Speech — Actual: None | Forecast: None | Prev: None
+  [-1] S&P Global Manufacturing PMI Final — Actual: None | Forecast: 57 | Prev: 53.9
+  [-1] Construction Spending MoM — Actual: None | Forecast: 0 | Prev: -0.5
+  [-1] ISM Manufacturing New Orders — Actual: None | Forecast: None | Prev: 53.7
+  [-1] ISM Manufacturing Prices — Actual: None | Forecast: 72.3 | Prev: 71.1
+  [0] ISM Manufacturing Employment — Actual: None | Forecast: None | Prev: 51.2
+  [1] ISM Manufacturing PMI — Actual: None | Forecast: 55 | Prev: 54.6
+  [-1] EIA Natural Gas Stocks Change — Actual: None | Forecast: 64 | Prev: 53
+  [-1] 8-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.99
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: RANGING / NEUTRAL (score: 10.0%)
+  Alignment: PARTIAL ALIGNMENT — 1/4 TFs bullish
+  TF Summary: Daily: RANGING | 4H: RANGING | 1H: RANGING | 15m: BULLISH
+
+  [Daily] Structure: RANGING
+    Price: 30820.5 | PrevH: 30906.0 | PrevL: 30512.25
+    Nearest Resistance (swing high above): 30968.0
+    Nearest Support (swing low below): 30356.75
+    Recent: 2026-09-29 UP(30560.5->30613.25) > 2026-09-30 UP(30657.25->30698.75) > 2026-10-01 UP(30707.0->30820.5)
+
+  [4H] Structure: RANGING
+    Price: 30820.5 | PrevH: 30949.75 | PrevL: 30757.75
+    Nearest Resistance (swing high above): 30999.5
+    Nearest Support (swing low below): 30670.0
+    Recent: 2026-10-01 DOWN(30941.0->30850.25) > 2026-10-01 UP(30852.5->30881.0) > 2026-10-01 DOWN(30881.0->30820.5)
+
+  [1H] Structure: RANGING
+    Price: 30820.5 | PrevH: 30889.75 | PrevL: 30813.25
+    Nearest Resistance (swing high above): 30827.5
+    Nearest Support (swing low below): 30757.75
+    Recent: 2026-10-01 DOWN(30938.25->30881.0) > 2026-10-01 DOWN(30881.0->30816.5) > 2026-10-01 UP(30817.25->30820.5)
+
+  [15m] Structure: BULLISH
+    Price: 30820.5 | PrevH: 30858.0 | PrevL: 30808.0
+    Nearest Resistance (swing high above): 30834.25
+    Nearest Support (swing low below): 30814.75
+    Recent: 2026-10-01 DOWN(30846.0->30816.5) > 2026-10-01 UP(30817.25->30832.25) > 2026-10-01 DOWN(30832.25->30820.5)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-10-01.

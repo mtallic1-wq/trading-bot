@@ -1,0 +1,107 @@
+ANALYSIS DATE: 2026-09-29
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 101.366 | Day: +0.164% | 5-Day: +0.76%
+  VIX (Fear Index): 15.82 | Day: -1.556% | 5-Day: +11.33%
+  10Y Treasury Yield: 5.23 | Day: -0.191% | 5-Day: +5.27%
+  Gold: 4190.6 | Day: -3.022% | 5-Day: -4.41%
+  Crude Oil: 90.32 | Day: -2.462% | 5-Day: -4.51%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30673.0 | Trend: UP
+  1D: 0.35% | 5D: -1.15% | 10D: 5.93%
+  Prev High: 30920.75 | Prev Low: 30356.75 | Prev Close: 30566.25
+  Week High: 31094.75 | Week Low: 30356.75
+  Last 5 Candles: 2026-09-23 DOWN (O:31008.5 H:31094.75 L:30642.75 C:30764.75) | 2026-09-24 DOWN (O:30780.0 H:30827.5 L:30370.0 C:30766.75) | 2026-09-25 UP (O:30726.5 H:30999.5 L:30679.0 C:30889.25) | 2026-09-28 DOWN (O:30870.0 H:30920.75 L:30356.75 C:30566.25) | 2026-09-29 UP (O:30560.5 H:30717.75 L:30372.25 C:30673.0)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 30674.00
+  Zero-Gamma Flip: 30590.00
+  Call Wall (Ceiling): 30870.00
+  Put Wall (Floor): 30370.00
+  0DTE Magnet Strike: 30710
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. Anthropic's IPO prospectus leaked — here's what's in it
+  2. How Tesla Semi could add billions to the EV maker's financials
+  3. Trump's proposed diesel export ban 'is really a terrible idea,' analyst says
+  4. Nvidia's $150B buyback could fuel next stock rally
+  5. Why PepsiCo just got hit with a downgrade despite the stock trading at a 52-week low
+  6. US bonds having a rough September. Next month may not be much better.
+  7. Goldman board weighs timeline for Solomon to step down as CEO
+  8. Trump predicts Canada will 'capitulate' in weeks as new import bans kick in
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 28, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Stock Market Today: Dow Jones, S&P 500 Futures Slip, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax' — NVDA, AAR, MTN in Focus
+  2. A month ago, this JPMorgan team urged caution on stocks. Now it's going all in on tech.
+  3. Dow, S&P 500, Nasdaq Futures Fall Amid Rising Bond Yields, AI Concerns: KOD, SMMT, CLF, VKTX Stocks In Focus
+  4. S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus
+  5. Michael Burry Swaps MU, NBIS, NVDA, PLTR Shorts For Puts — Says AI Bubble May Burst ‘Sooner Than Later’
+  6. Nasdaq 100 Sinks, Oil Rallies as Trump Rejects Iran's Hormuz Plan: Stock Market Today
+  7. Oppenheimer: QQQs best placed to lead once rates settle
+  8. Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Fall as Rising Yields and Trump's Rejection of Hormuz Deal Spook Investors — LLY, PEP, JEF in Focus (UPDATED)
+
+=== ECONOMIC CALENDAR — 2026-09-29 ===
+  [-1] Redbook YoY — Actual: 8.2 | Forecast: None | Prev: 7.6
+  [-1] S&P/Case-Shiller Home Price MoM — Actual: 0 | Forecast: None | Prev: 0.4
+  [-1] House Price Index MoM — Actual: 0.3 | Forecast: 0.1 | Prev: 0
+  [-1] House Price Index — Actual: 443.5 | Forecast: None | Prev: 442.3
+  [-1] House Price Index YoY — Actual: 2.6 | Forecast: None | Prev: 2.3
+  [0] S&P/Case-Shiller Home Price YoY — Actual: 2.5 | Forecast: 2.2 | Prev: 2.2
+  [-1] NY Fed Bill Purchases 1 to 4 months — Actual: None | Forecast: 3.892 | Prev: None
+  [-1] JOLTs Job Quits — Actual: None | Forecast: None | Prev: 3.056
+  [0] CB Consumer Confidence — Actual: None | Forecast: 89.2 | Prev: 89.4
+  [1] JOLTs Job Openings — Actual: None | Forecast: 7.23 | Prev: 7.271
+  [-1] Dallas Fed Services Revenues Index — Actual: None | Forecast: None | Prev: 6.6
+  [-1] Dallas Fed Services Index — Actual: None | Forecast: None | Prev: 4.2
+  [-1] 6-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.87
+  [-1] 52-Week Bill Auction — Actual: None | Forecast: None | Prev: 3.98
+  [0] Fed Goolsbee Speech — Actual: None | Forecast: None | Prev: None
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: BEARISH (score: -50.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bearish
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: RANGING | 15m: BEARISH
+
+  [Daily] Structure: BEARISH
+    Price: 30673.5 | PrevH: 30920.75 | PrevL: 30356.75
+    Nearest Resistance (swing high above): 30807.75
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-09-25 UP(30726.5->30889.25) > 2026-09-28 DOWN(30870.0->30566.25) > 2026-09-29 UP(30560.5->30673.5)
+
+  [4H] Structure: RANGING
+    Price: 30672.75 | PrevH: 30707.0 | PrevL: 30537.75
+    Nearest Resistance (swing high above): 30999.5
+    Nearest Support (swing low below): 30670.0
+    Recent: 2026-09-29 UP(30432.0->30581.25) > 2026-09-29 UP(30580.75->30682.0) > 2026-09-29 DOWN(30681.25->30672.75)
+
+  [1H] Structure: RANGING
+    Price: 30672.75 | PrevH: 30717.75 | PrevL: 30629.0
+    Nearest Resistance (swing high above): 30759.25
+    Nearest Support (swing low below): 30670.0
+    Recent: 2026-09-29 UP(30642.25->30682.0) > 2026-09-29 DOWN(30681.25->30632.0) > 2026-09-29 UP(30631.25->30672.75)
+
+  [15m] Structure: BEARISH
+    Price: 30672.75 | PrevH: 30666.25 | PrevL: 30629.75
+    Nearest Resistance (swing high above): 30679.0
+    Nearest Support (swing low below): 30662.25
+    Recent: 2026-09-29 DOWN(30652.75->30632.0) > 2026-09-29 UP(30631.25->30665.5) > 2026-09-29 UP(30666.0->30672.75)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-29.

@@ -1,0 +1,107 @@
+ANALYSIS DATE: 2026-09-30
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 101.183 | Day: -0.184% | 5-Day: +0.08%
+  VIX (Fear Index): 15.85 | Day: -1.185% | 5-Day: +4.41%
+  10Y Treasury Yield: 5.234 | Day: -0.400% | 5-Day: +2.35%
+  Gold: 4224.6 | Day: +1.074% | 5-Day: -2.17%
+  Crude Oil: 91.26 | Day: +2.103% | 5-Day: -0.98%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 30703.5 | Trend: UP
+  1D: 0.29% | 5D: -0.2% | 10D: 6.01%
+  Prev High: 30725.5 | Prev Low: 30372.25 | Prev Close: 30613.25
+  Week High: 31094.75 | Week Low: 30356.75
+  Last 5 Candles: 2026-09-24 DOWN (O:30780.0 H:30827.5 L:30370.0 C:30766.75) | 2026-09-25 UP (O:30726.5 H:30999.5 L:30679.0 C:30889.25) | 2026-09-28 DOWN (O:30870.0 H:30920.75 L:30356.75 C:30566.25) | 2026-09-29 UP (O:30560.5 H:30725.5 L:30372.25 C:30613.25) | 2026-09-30 UP (O:30657.25 H:30779.5 L:30512.25 C:30703.5)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 30747.00
+  Zero-Gamma Flip: 30820.00
+  Call Wall (Ceiling): 31100.00
+  Put Wall (Floor): 30600.00
+  0DTE Magnet Strike: 30940
+  Active Volatility Regime: ⚠️ Negative Gamma (-GEX) - Volatility expanded. Trend extension and dealer hedging loops active.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. PCE inflation cools to 3.4%, quieting the case for another Fed rate hike
+  2. Mattel CEO Ynon Kreiz to resign before the holiday season
+  3. Nvidia's Huang on AI buildout: 'We're re-industrializing the US'
+  4. Micron to report Q4 earnings as memory boom powers on
+  5. Why new Apple CEO John Ternus could be laying people off
+  6. 'It's a strong report': US private sector added 90,000 jobs in September
+  7. Stock futures climb ahead of PCE inflation data
+  8. Boeing stock jumps on $20 billion Navy fighter jet win
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Sep 28, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Wall St futures extend gains after economic data
+  2. October doubts
+  3. Stock Market Today: S&P 500, Dow Jones Futures Gain as Investors Await Fed's Preferred Inflation Data — MU, AMD, FNGR in Focus
+  4. Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)
+  5. A month ago, this JPMorgan team urged caution on stocks. Now it's going all in on tech.
+  6. Dow, S&P 500, Nasdaq Futures Fall Amid Rising Bond Yields, AI Concerns: KOD, SMMT, CLF, VKTX Stocks In Focus
+  7. S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus
+  8. Michael Burry Swaps MU, NBIS, NVDA, PLTR Shorts For Puts — Says AI Bubble May Burst ‘Sooner Than Later’
+
+=== ECONOMIC CALENDAR — 2026-09-30 ===
+  [-1] MBA Mortgage Market Index — Actual: 213.6 | Forecast: None | Prev: 227.3
+  [-1] MBA Mortgage Refinance Index — Actual: 557.8 | Forecast: None | Prev: 611
+  [-1] MBA Mortgage Applications — Actual: -6 | Forecast: None | Prev: -1.5
+  [-1] MBA Purchase Index — Actual: 148.2 | Forecast: None | Prev: 154.9
+  [0] MBA 30-Year Mortgage Rate — Actual: 7.3 | Forecast: None | Prev: 7.12
+  [0] ADP Employment Change — Actual: 90 | Forecast: 70 | Prev: 36
+  [-1] Corporate Profits QoQ Final — Actual: 7.7 | Forecast: 8.2 | Prev: 0.5
+  [-1] PCE Prices QoQ Final — Actual: 5 | Forecast: 5.3 | Prev: 4.2
+  [-1] Core PCE Prices QoQ Final — Actual: 3.3 | Forecast: 3.6 | Prev: 3.9
+  [-1] Real Consumer Spending QoQ Final — Actual: 3.8 | Forecast: 3.4 | Prev: 0.7
+  [-1] GDP Sales QoQ Final — Actual: 2.8 | Forecast: 2.2 | Prev: 1.9
+  [-1] Core PCE Price Index YoY — Actual: 3 | Forecast: 3.3 | Prev: 3
+  [-1] Real Personal Spending MoM — Actual: 0.6 | Forecast: None | Prev: 0.1
+  [0] PCE Price Index MoM — Actual: 0.3 | Forecast: 0.4 | Prev: 0.1
+  [0] Goods Trade Balance Adv — Actual: -132.6 | Forecast: -115 | Prev: -118.9
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: LEANING BEARISH (score: -30.0%)
+  Alignment: NO ALIGNMENT — mixed structure across timeframes
+  TF Summary: Daily: BEARISH | 4H: RANGING | 1H: RANGING | 15m: BULLISH
+
+  [Daily] Structure: BEARISH
+    Price: 30706.0 | PrevH: 30725.5 | PrevL: 30372.25
+    Nearest Resistance (swing high above): 30807.75
+    Nearest Support (swing low below): 29160.5
+    Recent: 2026-09-28 DOWN(30870.0->30566.25) > 2026-09-29 UP(30560.5->30613.25) > 2026-09-30 UP(30657.25->30706.0)
+
+  [4H] Structure: RANGING
+    Price: 30707.5 | PrevH: 30707.25 | PrevL: 30512.25
+    Nearest Resistance (swing high above): 30999.5
+    Nearest Support (swing low below): 30670.0
+    Recent: 2026-09-30 UP(30643.5->30691.25) > 2026-09-30 DOWN(30689.25->30590.25) > 2026-09-30 UP(30589.0->30707.5)
+
+  [1H] Structure: RANGING
+    Price: 30707.5 | PrevH: 30779.5 | PrevL: 30535.5
+    Nearest Resistance (swing high above): 30725.5
+    Nearest Support (swing low below): 30684.0
+    Recent: 2026-09-30 UP(30590.25->30590.25) > 2026-09-30 UP(30589.0->30714.25) > 2026-09-30 DOWN(30715.0->30707.5)
+
+  [15m] Structure: BULLISH
+    Price: 30707.5 | PrevH: 30767.5 | PrevL: 30712.0
+    Nearest Resistance (swing high above): 30708.75
+    Nearest Support (swing low below): 30684.0
+    Recent: 2026-09-30 DOWN(30718.5->30714.25) > 2026-09-30 UP(30715.0->30738.75) > 2026-09-30 DOWN(30739.25->30707.5)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-09-30.
