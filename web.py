@@ -14,7 +14,7 @@ import requests
 from datetime import datetime, timedelta
 from pathlib import Path
 
-from flask import Flask, jsonify, send_from_directory, abort, request
+from flask import Flask, jsonify, send_from_directory, abort, request, Response
 from apscheduler.schedulers.background import BackgroundScheduler
 import pytz
 
@@ -655,148 +655,13 @@ def get_live_nq_price():
         print(f"[Gamma] Error fetching live NQ=F history: {e}")
     return None
 
+@app.route("/api/gamma")
 @app.route("/api/gamma/es")
 def get_es_gamma_levels():
-    global GAMMA_CACHE, GAMMA_CACHE_TIME
-    now = time.time()
-    
-    # Try loading disk cache if memory cache is empty
-    if GAMMA_CACHE is None:
-        load_disk_cache()
-        
-    token = request.args.get("token") or request.headers.get("Authorization")
-    bypass_cache = request.args.get("bypass_cache") == "true"
-    
-    is_premium = False
-    if token:
-        user = get_user_by_token(token)
-        if user and user["subscription_status"] == "active":
-            is_premium = True
-            
-    # Determine the target options session date in PKT timezone (Pakistan Standard Time)
-    # The user requested updates to occur only after 6:00 PM PKT.
-    try:
-        tz = pytz.timezone("Asia/Karachi")
-        now_pkt = datetime.now(tz)
-    except Exception as e:
-        print(f"[Gamma] Timezone lookup failed: {e}. Falling back to UTC.")
-        now_pkt = datetime.utcnow()
-        
-    if now_pkt.hour >= 18:
-        current_session_date = now_pkt.strftime("%Y-%m-%d")
-    else:
-        yesterday_pkt = now_pkt - timedelta(days=1)
-        current_session_date = yesterday_pkt.strftime("%Y-%m-%d")
-        
-    # Check if we already have the successful levels for the current active options session
-    already_fetched = False
-    if GAMMA_CACHE is not None and GAMMA_CACHE.get("session_date") == current_session_date:
-        already_fetched = True
-        
-    use_cache = True
-    if is_premium and bypass_cache:
-        use_cache = False
-        print(f"[Gamma] Premium user triggered direct fetch from options analyzer. Bypassing caching.")
-        
-    if already_fetched and use_cache:
-        # We already successfully loaded options levels for today. 
-        # Just update the Spot Price in real time from yfinance and return! (Zero API cost)
-        live_price = get_live_es_price()
-        if live_price:
-            GAMMA_CACHE["underlying_price"] = live_price
-            GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
-        return jsonify(GAMMA_CACHE)
-        
-    # If we need a new session fetch, check if we had a fetch attempt recently.
-    # We enforce a 30-minute cooling window on API calls if we're rate-limited to avoid burning other credits.
-    if use_cache and GAMMA_CACHE_TIME is not None and (now - GAMMA_CACHE_TIME < 1800):
-        print("[Gamma] Within 30-minute API cooldown window. Serving cached version.")
-        if GAMMA_CACHE is not None:
-            live_price = get_live_es_price()
-            if live_price:
-                GAMMA_CACHE["underlying_price"] = live_price
-                GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
-            return jsonify(GAMMA_CACHE)
-            
-    # Query FlashAlpha API
-    api_key = os.environ.get("FLASHALPHA_API_KEY", "")
-    headers = {"X-Api-Key": api_key, "Accept": "application/json"}
-    url = "https://lab.flashalpha.com/v1/exposure/levels/ES=F"
-    
-    try:
-        r = requests.get(url, headers=headers, timeout=10)
-        # Update attempt time
-        GAMMA_CACHE_TIME = now
-        
-        if r.status_code == 200:
-            data = r.json()
-            data["session_date"] = current_session_date
-            GAMMA_CACHE = data
-            save_disk_cache(data)
-            return jsonify(data)
-        else:
-            print(f"[Gamma] FlashAlpha API returned {r.status_code}. Using cache.")
-            if GAMMA_CACHE is not None:
-                live_price = get_live_es_price()
-                if live_price:
-                    GAMMA_CACHE["underlying_price"] = live_price
-                    GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
-                return jsonify(GAMMA_CACHE)
-            
-            # Generate estimated levels from yfinance
-            live_price = get_live_es_price() or 5450.0
-            flip = round((live_price - 25) / 5) * 5
-            call_wall = round((live_price + 60) / 10) * 10
-            put_wall = round((live_price - 80) / 10) * 10
-            magnet = str(round((live_price + 15) / 5) * 5)
-            
-            fallback_data = {
-                "underlying_price": live_price,
-                "session_date": current_session_date,
-                "as_of": datetime.utcnow().isoformat() + "Z",
-                "levels": {
-                    "gamma_flip": flip,
-                    "call_wall": call_wall,
-                    "put_wall": put_wall,
-                    "zero_dte_magnet": magnet
-                },
-                "warning": f"Estimated ES exposure boundaries shown (API status {r.status_code}). Upgrade your FlashAlpha subscription or check API key."
-            }
-            GAMMA_CACHE = fallback_data
-            save_disk_cache(fallback_data, symbol="ES=F")
-            return jsonify(fallback_data)
-    except Exception as e:
-        GAMMA_CACHE_TIME = now
-        print(f"[Gamma] Exception during API call: {e}. Using cache.")
-        if GAMMA_CACHE is not None:
-            live_price = get_live_es_price()
-            if live_price:
-                GAMMA_CACHE["underlying_price"] = live_price
-                GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
-            return jsonify(GAMMA_CACHE)
-            
-        # Generate estimated levels from yfinance
-        live_price = get_live_es_price() or 5450.0
-        flip = round((live_price - 25) / 5) * 5
-        call_wall = round((live_price + 60) / 10) * 10
-        put_wall = round((live_price - 80) / 10) * 10
-        magnet = str(round((live_price + 15) / 5) * 5)
-        
-        fallback_data = {
-            "underlying_price": live_price,
-            "session_date": current_session_date,
-            "as_of": datetime.utcnow().isoformat() + "Z",
-            "levels": {
-                "gamma_flip": flip,
-                "call_wall": call_wall,
-                "put_wall": put_wall,
-                "zero_dte_magnet": magnet
-            },
-            "warning": f"Estimated ES exposure boundaries shown (API exception: {e}). Check configuration."
-        }
-        GAMMA_CACHE = fallback_data
-        save_disk_cache(fallback_data, symbol="ES=F")
-        return jsonify(fallback_data)
+    from analysis.cboe_gex import fetch_cboe_gex
+    bypass = request.args.get("bypass_cache") == "true"
+    data = fetch_cboe_gex("ES", force_refresh=bypass)
+    return jsonify(sanitize_floats(data))
 
 
 def generate_ai_playbook_plan(spot, flip, call_wall, put_wall, magnet, is_positive):
@@ -936,141 +801,19 @@ def get_es_gamma_ai_plan():
 
 @app.route("/api/gamma/nq")
 def get_nq_gamma_levels():
-    global NQ_GAMMA_CACHE, NQ_GAMMA_CACHE_TIME
-    now = time.time()
-    
-    # Try loading disk cache if memory cache is empty
-    if NQ_GAMMA_CACHE is None:
-        load_disk_cache()
-        
-    token = request.args.get("token") or request.headers.get("Authorization")
-    bypass_cache = request.args.get("bypass_cache") == "true"
-    
-    is_premium = False
-    if token:
-        user = get_user_by_token(token)
-        if user and user["subscription_status"] == "active":
-            is_premium = True
-            
-    # Determine the target options session date in PKT timezone (Pakistan Standard Time)
-    try:
-        tz = pytz.timezone("Asia/Karachi")
-        now_pkt = datetime.now(tz)
-    except Exception as e:
-        print(f"[Gamma NQ] Timezone lookup failed: {e}. Falling back to UTC.")
-        now_pkt = datetime.utcnow()
-        
-    if now_pkt.hour >= 18:
-        current_session_date = now_pkt.strftime("%Y-%m-%d")
-    else:
-        yesterday_pkt = now_pkt - timedelta(days=1)
-        current_session_date = yesterday_pkt.strftime("%Y-%m-%d")
-        
-    # Check if we already have the successful levels for the current active options session
-    already_fetched = False
-    if NQ_GAMMA_CACHE is not None and NQ_GAMMA_CACHE.get("session_date") == current_session_date:
-        already_fetched = True
-        
-    use_cache = True
-    if is_premium and bypass_cache:
-        use_cache = False
-        print(f"[Gamma NQ] Premium user triggered direct fetch from options analyzer. Bypassing caching.")
-        
-    if already_fetched and use_cache:
-        live_price = get_live_nq_price()
-        if live_price:
-            NQ_GAMMA_CACHE["underlying_price"] = live_price
-            NQ_GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
-        return jsonify(NQ_GAMMA_CACHE)
-        
-    # If we need a new session fetch, check if we had a fetch attempt recently.
-    if use_cache and NQ_GAMMA_CACHE_TIME is not None and (now - NQ_GAMMA_CACHE_TIME < 1800):
-        print("[Gamma NQ] Within 30-minute API cooldown window. Serving cached version.")
-        if NQ_GAMMA_CACHE is not None:
-            live_price = get_live_nq_price()
-            if live_price:
-                NQ_GAMMA_CACHE["underlying_price"] = live_price
-                NQ_GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
-            return jsonify(NQ_GAMMA_CACHE)
-            
-    # Query FlashAlpha API for NQ
-    api_key = os.environ.get("FLASHALPHA_API_KEY", "")
-    headers = {"X-Api-Key": api_key, "Accept": "application/json"}
-    url = "https://lab.flashalpha.com/v1/exposure/levels/NQ=F"
-    
-    try:
-        r = requests.get(url, headers=headers, timeout=10)
-        NQ_GAMMA_CACHE_TIME = now
-        
-        if r.status_code == 200:
-            data = r.json()
-            data["session_date"] = current_session_date
-            NQ_GAMMA_CACHE = data
-            save_disk_cache(data, symbol="NQ=F")
-            return jsonify(data)
-        else:
-            print(f"[Gamma NQ] FlashAlpha API returned {r.status_code}. Using cache.")
-            if NQ_GAMMA_CACHE is not None:
-                live_price = get_live_nq_price()
-                if live_price:
-                    NQ_GAMMA_CACHE["underlying_price"] = live_price
-                    NQ_GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
-                return jsonify(NQ_GAMMA_CACHE)
-            
-            # Generate estimated levels from yfinance
-            live_price = get_live_nq_price() or 19500.0
-            flip = round((live_price - 80) / 10) * 10
-            call_wall = round((live_price + 200) / 10) * 10
-            put_wall = round((live_price - 300) / 10) * 10
-            magnet = str(round((live_price + 40) / 10) * 10)
-            
-            fallback_data = {
-                "underlying_price": live_price,
-                "session_date": current_session_date,
-                "as_of": datetime.utcnow().isoformat() + "Z",
-                "levels": {
-                    "gamma_flip": flip,
-                    "call_wall": call_wall,
-                    "put_wall": put_wall,
-                    "zero_dte_magnet": magnet
-                },
-                "warning": f"Estimated NQ exposure boundaries shown (API status {r.status_code}). Upgrade your FlashAlpha subscription or check API key."
-            }
-            NQ_GAMMA_CACHE = fallback_data
-            save_disk_cache(fallback_data, symbol="NQ=F")
-            return jsonify(fallback_data)
-    except Exception as e:
-        NQ_GAMMA_CACHE_TIME = now
-        print(f"[Gamma NQ] Exception during API call: {e}. Using cache.")
-        if NQ_GAMMA_CACHE is not None:
-            live_price = get_live_nq_price()
-            if live_price:
-                NQ_GAMMA_CACHE["underlying_price"] = live_price
-                NQ_GAMMA_CACHE["as_of"] = datetime.utcnow().isoformat() + "Z"
-            return jsonify(NQ_GAMMA_CACHE)
-            
-        # Generate estimated levels from yfinance
-        live_price = get_live_nq_price() or 19500.0
-        flip = round((live_price - 80) / 10) * 10
-        call_wall = round((live_price + 200) / 10) * 10
-        put_wall = round((live_price - 300) / 10) * 10
-        magnet = str(round((live_price + 40) / 10) * 10)
-        
-        fallback_data = {
-            "underlying_price": live_price,
-            "session_date": current_session_date,
-            "as_of": datetime.utcnow().isoformat() + "Z",
-            "levels": {
-                "gamma_flip": flip,
-                "call_wall": call_wall,
-                "put_wall": put_wall,
-                "zero_dte_magnet": magnet
-            },
-            "warning": f"Estimated NQ exposure boundaries shown (API exception: {e}). Check configuration."
-        }
-        NQ_GAMMA_CACHE = fallback_data
-        save_disk_cache(fallback_data, symbol="NQ=F")
-        return jsonify(fallback_data)
+    from analysis.cboe_gex import fetch_cboe_gex
+    bypass = request.args.get("bypass_cache") == "true"
+    data = fetch_cboe_gex("NQ", force_refresh=bypass)
+    return jsonify(sanitize_floats(data))
+
+
+@app.route("/api/gamma/dashboard_html")
+def get_gamma_dashboard_html():
+    from analysis.cboe_gex import generate_gex_dashboard_html
+    symbol = request.args.get("symbol", "NQ").upper()
+    html_content = generate_gex_dashboard_html(symbol)
+    return Response(html_content, mimetype="text/html")
+
 
 
 def generate_nq_playbook_plan(spot, flip, call_wall, put_wall, magnet, is_positive):

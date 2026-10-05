@@ -1,0 +1,102 @@
+ANALYSIS DATE: 2026-10-05
+TARGET: NYSE Session (09:30–16:00 ET) — NQ Nasdaq-100 Futures
+
+=== MACROECONOMIC INDICATORS ===
+  DXY (Dollar Index): 102.258 | Day: +0.322% | 5-Day: +1.05%
+  VIX (Fear Index): 16.33 | Day: +6.662% | 5-Day: +1.62%
+  10Y Treasury Yield: 5.277 | Day: +0.764% | 5-Day: +1.79%
+  Gold: 4181.0 | Day: +0.449% | 5-Day: +0.30%
+  Crude Oil: 89.76 | Day: -1.482% | 5-Day: -3.07%
+
+=== NQ — Nasdaq-100 Futures ===
+  Price: 31047.5 | Trend: UP
+  1D: -0.05% | 5D: 1.57% | 10D: 0.85%
+  Prev High: 31282.5 | Prev Low: 30760.25 | Prev Close: 31061.75
+  Week High: 31282.5 | Week Low: 30356.75
+  Last 5 Candles: 2026-09-29 UP (O:30560.5 H:30725.5 L:30372.25 C:30613.25) | 2026-09-30 UP (O:30657.25 H:30906.0 L:30512.25 C:30698.75) | 2026-10-01 UP (O:30707.0 H:31151.5 L:30529.25 C:30760.5) | 2026-10-02 UP (O:30771.25 H:31282.5 L:30760.25 C:31061.75) | 2026-10-05 DOWN (O:31059.0 H:31221.25 L:31003.75 C:31047.5)
+
+=== OPTIONS GAMMA ENVIRONMENT (FlashAlpha NQ boundaries) ===
+  Spot Price: 30807.93
+  Zero-Gamma Flip: 30190.00
+  Call Wall (Ceiling): 31000.00
+  Put Wall (Floor): 30700.00
+  0DTE Magnet Strike: 31200.0
+  Active Volatility Regime: ⚡ Positive Gamma (+GEX) - Volatility dampened. Support/resistance walls hold.
+
+=== YAHOO FINANCE — Headlines (https://finance.yahoo.com) ===
+  1. 'The market has had every reason to sell off' — and it hasn't
+  2. 'A lot of sticker shock': Home heating costs soar for millions amid oil crisis
+  3. Iraq charters  supertanker through Hormuz for first time in decades
+  4. Former Disney CEO explains why he doesn't visit the theme parks
+  5. The secret gift Bob Chapek gave Bob Iger for his $45M sailboat
+  6. Trump aide Hassett says Powell should 'move on' from Fed board
+  7. Dirty Jobs' Mike Rowe: Skilled labor shortage remains the 'pinch point' for the new economy
+  8. What bond market reveals about Congress and the debt
+
+=== WORLD MONITOR — Global Markets (https://www.worldmonitor.app) ===
+  Correlations | First 5 min | Depth | For AI agents | Attributed providers | Pricing | FAQ | Blog | Docs 
+  Free global intelligence dashboard · live now 
+  Launch the dashboard | See how people use it ↓ 
+  As featured in | WIRED | 2M+ users | | | Open source · AGPL-3.0 | | | Build on it: | REST API · MCP · npm · PyPI · Go · RubyGems 
+  worldmonitor.app — global operations | Captured from the live map — click to open it 
+  Live right now | What live data is this page showing right now? | Four of the hundred-plus signals World Monitor watches around the clock. 
+  Top signals | Published pulse Oct 5, 2026 
+  Top signals 
+
+=== TRADINGVIEW — Market News (https://www.tradingview.com) ===
+  1. Stock Market: Will S&P 500 Open Up or Down Today?
+  2. Dow, S&P 500, Nasdaq Futures Rise After Soft Jobs Report As Markets Await Fed Minutes: IBRX, SMCI, VST, SOFI Stocks In Focus
+  3. Stock Futures Little Changed As Investors Await Fed Minutes
+  4. AI rally defies 24-yr high in Treasury yields, but risks are building
+  5. Nasdaq hits new record high, US markets close in green as US job growth undershoots expectations
+  6. AI Is Squeezing Out the Rest of the Stock Market — WSJ
+  7. S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus
+  8. Weak Jobs Lift Tech Stocks to Record Highs, Micron Confirms the AI Rally: This Week on Wall Street
+
+=== ECONOMIC CALENDAR — 2026-10-05 ===
+  [-1] NY Fed Bill Purchases 4 to 12 months — Actual: None | Forecast: 1.946 | Prev: None
+  [-1] S&P Global Composite PMI Final — Actual: None | Forecast: 58.4 | Prev: 56
+  [-1] S&P Global Services PMI Final — Actual: None | Forecast: 58.7 | Prev: 56.5
+  [-1] ISM Services Business Activity — Actual: None | Forecast: None | Prev: 61.7
+  [-1] ISM Services Prices — Actual: None | Forecast: None | Prev: 72.6
+  [-1] ISM Services Employment — Actual: None | Forecast: None | Prev: 47.8
+  [-1] ISM Services New Orders — Actual: None | Forecast: None | Prev: 60.9
+  [1] ISM Services PMI — Actual: None | Forecast: 55.7 | Prev: 55.4
+  [-1] 6-Month Bill Auction — Actual: None | Forecast: None | Prev: 4.285
+  [-1] 3-Month Bill Auction — Actual: None | Forecast: None | Prev: 4.11
+
+=== MULTI-TIMEFRAME PRICE STRUCTURE (Gen1 Price Action) ===
+  Ticker: NQ=F
+  Multi-TF Bias: BULLISH (score: 50.0%)
+  Alignment: PARTIAL ALIGNMENT — 2/4 TFs bullish
+  TF Summary: Daily: RANGING | 4H: BULLISH | 1H: BULLISH | 15m: RANGING
+
+  [Daily] Structure: RANGING
+    Price: 31048.5 | PrevH: 31282.5 | PrevL: 30760.25
+    Nearest Resistance (swing high above): 31094.75
+    Nearest Support (swing low below): 30356.75
+    Recent: 2026-10-01 UP(30707.0->30760.5) > 2026-10-02 UP(30771.25->31061.75) > 2026-10-05 DOWN(31059.0->31048.5)
+
+  [4H] Structure: BULLISH
+    Price: 31048.5 | PrevH: 31221.25 | PrevL: 31075.75
+    Nearest Resistance (swing high above): 31094.75
+    Nearest Support (swing low below): 30670.0
+    Recent: 2026-10-04 UP(31131.0->31146.75) > 2026-10-04 DOWN(31144.75->31077.0) > 2026-10-05 DOWN(31078.75->31048.5)
+
+  [1H] Structure: BULLISH
+    Price: 31048.5 | PrevH: 31081.0 | PrevL: 31003.75
+    Nearest Resistance (swing high above): 31070.5
+    Nearest Support (swing low below): 30982.75
+    Recent: 2026-10-05 DOWN(31062.75->31044.75) > 2026-10-05 DOWN(31045.5->31040.0) > 2026-10-05 UP(31040.25->31048.5)
+
+  [15m] Structure: RANGING
+    Price: 31048.5 | PrevH: 31058.75 | PrevL: 31025.0
+    Nearest Resistance (swing high above): 31081.0
+    Nearest Support (swing low below): 31043.75
+    Recent: 2026-10-05 UP(31040.25->31053.25) > 2026-10-05 DOWN(31054.75->31037.5) > 2026-10-05 UP(31038.5->31048.5)
+
+
+=== TRADER'S CHART — LIVE KEY LEVELS (TradingView Desktop) ===
+  TradingView Desktop not connected — TradingView Desktop not running.
+
+Based on ALL the above — news, macro, options gamma environment (GEX), multi-TF structure, and the trader's own drawn key levels — give your complete analysis and NYSE session prediction for NQ on 2026-10-05.

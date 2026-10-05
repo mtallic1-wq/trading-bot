@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { Zap, Shield, RefreshCw, AlertTriangle, HelpCircle, BookOpen, ExternalLink, Sparkles, Cpu } from "lucide-react";
+import { useState, useEffect, useMemo } from "react";
+import { Zap, Shield, RefreshCw, AlertTriangle, HelpCircle, BookOpen, ExternalLink, Sparkles, Cpu, BarChart3, Activity, Table } from "lucide-react";
 import { parseAnalysis } from "../../utils/helpers";
 
 export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook, token }: { 
@@ -13,10 +13,12 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string>("");
   const [refreshing, setRefreshing] = useState<boolean>(false);
+  const [chartTab, setChartTab] = useState<"gex" | "liquidity" | "table">("gex");
 
   const [aiPlan, setAiPlan] = useState<string>("");
   const [aiLoading, setAiLoading] = useState<boolean>(false);
   const [aiError, setAiError] = useState<string>("");
+  const [staleWarning, setStaleWarning] = useState<string>("");
 
   useEffect(() => {
     setAiPlan("");
@@ -43,8 +45,6 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
       setAiLoading(false);
     }
   };
-
-  const [staleWarning, setStaleWarning] = useState<string>("");
 
   const fetchLevels = async (isRef = false, targetSymbol = symbol) => {
     if (isRef) setRefreshing(true);
@@ -87,11 +87,28 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
     fetchLevels(false, symbol);
   }, [symbol]);
 
+  // Derived maximums for visualization bars
+  const ladder = data?.ladder || [];
+  const maxGexAbs = useMemo(() => {
+    if (!ladder.length) return 1;
+    return Math.max(...ladder.map((r: any) => Math.max(Math.abs(r.call_gex || 0), Math.abs(r.put_gex || 0))), 1);
+  }, [ladder]);
+
+  const maxOI = useMemo(() => {
+    if (!ladder.length) return 1;
+    return Math.max(...ladder.map((r: any) => r.total_oi || 0), 1);
+  }, [ladder]);
+
+  const maxVol = useMemo(() => {
+    if (!ladder.length) return 1;
+    return Math.max(...ladder.map((r: any) => r.total_vol || 0), 1);
+  }, [ladder]);
+
   if (loading) {
     return (
       <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-12 flex flex-col items-center justify-center space-y-4 min-h-[450px]">
         <RefreshCw className="w-8 h-8 text-cyan-400 animate-spin" />
-        <span className="text-xs text-zinc-500 font-mono tracking-wider">Fetching live {symbol === "NQ" ? "Nasdaq-100" : "S&P 500"} options boundaries...</span>
+        <span className="text-xs text-zinc-500 font-mono tracking-wider">Fetching live {symbol === "NQ" ? "Nasdaq-100 (NDX)" : "S&P 500 (SPX)"} Cboe 0DTE exposure...</span>
       </div>
     );
   }
@@ -124,7 +141,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
         <AlertTriangle className="w-10 h-10 text-amber-500" />
         <h4 className="text-zinc-200 text-sm font-semibold uppercase tracking-wider">{symbol} Gamma Engine Offline</h4>
         <p className="text-xs text-zinc-500 max-w-sm leading-relaxed">
-          {error || `Unable to establish connection with the ${symbol} options exposure analyzer. Make sure your API key is correctly configured.`}
+          {error || `Unable to establish connection with the ${symbol} Cboe options exposure feed.`}
         </p>
         <button
           onClick={() => fetchLevels()}
@@ -136,13 +153,15 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
     );
   }
 
-  const spot = data.underlying_price;
-  const levels = data.levels;
+  const spot = data.underlying_price || 0;
+  const levels = data.levels || {};
   const flip = levels.gamma_flip;
   const callWall = levels.call_wall;
   const putWall = levels.put_wall;
-  const magnet = levels.zero_dte_magnet || "None";
-  const isPositive = spot > flip;
+  const magnet = levels.vol_call_magnet || levels.zero_dte_magnet || "None";
+  const maxPain = levels.max_pain || spot;
+  const totalNetGex = data.total_net_gex_m ?? 0;
+  const isPositive = totalNetGex >= 0;
 
   // Calculate percentage spot sits between Put Wall and Call Wall (capped 0-100)
   const rangeWidth = Math.max(1, callWall - putWall);
@@ -172,7 +191,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
                     : "text-zinc-500 hover:text-zinc-300"
                 }`}
               >
-                ES
+                ES (SPX)
               </button>
               <button
                 onClick={() => setSymbol("NQ")}
@@ -182,15 +201,25 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
                     : "text-zinc-500 hover:text-zinc-300"
                 }`}
               >
-                NQ
+                NQ (NDX)
               </button>
             </div>
           </div>
           <span className="text-[11px] text-zinc-500 mt-1 block">
-            Real-time mechanical support, resistance, and pinning thresholds derived from options open interest.
+            Official Cboe 0DTE delayed options quote feed • Structural dealer hedging levels & liquidity profile.
           </span>
         </div>
         <div className="flex items-center gap-3 self-start sm:self-center">
+          <a
+            href={`/api/gamma/dashboard_html?symbol=${symbol}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-3 py-1.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-zinc-300 rounded-xl text-[10px] font-semibold transition shadow-md whitespace-nowrap"
+          >
+            <BarChart3 className="w-3 h-3 text-cyan-400" />
+            <span>Plotly Studio</span>
+            <ExternalLink className="w-2.5 h-2.5 text-zinc-500" />
+          </a>
           <button
             onClick={() => setView && setView("playbook")}
             className="flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-zinc-100 rounded-xl text-[10px] font-semibold transition shadow-md whitespace-nowrap"
@@ -199,7 +228,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
             <span>Unlock Playbook ($5)</span>
           </button>
           <span className="text-[10px] text-zinc-500 font-mono bg-zinc-900 px-3 py-1 rounded-md border border-zinc-800">
-            As of: {data.as_of ? new Date(data.as_of).toLocaleTimeString() : "Live"}
+            {data.as_of ? new Date(data.as_of).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : "Live"}
           </span>
           <button
             onClick={() => fetchLevels(true)}
@@ -226,11 +255,16 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
         {/* Spot Price Widget */}
         <div className="bg-zinc-900/30 border border-zinc-900 rounded-2xl p-6 flex flex-col justify-center relative overflow-hidden">
           <div className="absolute top-0 right-0 w-24 h-24 bg-cyan-500/5 rounded-full blur-2xl -z-10" />
-          <span className="text-[10px] uppercase font-mono tracking-wider text-zinc-500">{symbol} Spot Price</span>
+          <div className="flex items-center justify-between">
+            <span className="text-[10px] uppercase font-mono tracking-wider text-zinc-500">{symbol} Reference Spot</span>
+            <span className="text-[9px] px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 font-mono">
+              {data.cboe_target || (symbol === "NQ" ? "_NDX" : "_SPX")}
+            </span>
+          </div>
           <span className="text-3xl font-extrabold text-zinc-100 font-mono tracking-tight mt-2">
-            {spot.toFixed(2)}
+            {spot.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
           </span>
-          <span className="text-[9.5px] text-zinc-600 mt-1 font-mono">Updated via CME raw feed</span>
+          <span className="text-[9.5px] text-zinc-600 mt-1 font-mono">Official Cboe Verified CDN</span>
         </div>
 
         {/* Volatility Regime Status Card */}
@@ -240,14 +274,23 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
             : "bg-red-950/10 border-red-900/30 text-red-400"
         }`}>
           <div className="space-y-1.5">
-            <span className="text-[10px] uppercase font-mono tracking-wider opacity-60">Volatility Regime State</span>
+            <div className="flex items-center gap-3">
+              <span className="text-[10px] uppercase font-mono tracking-wider opacity-60">Volatility Regime State</span>
+              <span className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded-full border ${
+                isPositive 
+                  ? "bg-emerald-900/40 border-emerald-700/50 text-emerald-300" 
+                  : "bg-red-900/40 border-red-700/50 text-red-300"
+              }`}>
+                {isPositive ? `+${totalNetGex.toFixed(1)}M Net GEX` : `-${Math.abs(totalNetGex).toFixed(1)}M Net GEX`}
+              </span>
+            </div>
             <h4 className="text-lg font-bold tracking-wide uppercase flex items-center gap-2">
-              {isPositive ? "⚡ Positive Gamma (+GEX)" : "⚠️ Negative Gamma (-GEX)"}
+              {isPositive ? "⚡ Positive Gamma (+GEX) • Mean-Reversion" : "⚠️ Negative Gamma (-GEX) • Trend Expansion"}
             </h4>
             <p className="text-xs text-zinc-400 leading-relaxed max-w-xl">
               {isPositive 
-                ? "Market makers hedge counter-cyclically. They buy when index price falls and sell when index price rises, acting as a massive stabilizer. Realized volatility is heavily dampened, favoring range fades and mean reversion."
-                : "Market makers hedge pro-cyclically. They sell as price falls and buy as price rises, creating an amplifying feedback loop. Volatility expands, causing sharp liquidations and rapid trend runs."
+                ? "Dealers hedge counter-cyclically (buying dips & selling rips), creating natural price absorption and volatility dampening. Favour mean-reversion setups fading boundary walls back towards the Flip pivot."
+                : "Dealers hedge pro-cyclically (selling breakdowns & buying rallies), amplifying volatility and initiating fast directional momentum runs. Support walls are fragile; trade breakout momentum."
               }
             </p>
           </div>
@@ -255,51 +298,62 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
         </div>
       </div>
 
-      {/* Levels Table / Value Cards Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      {/* 5 Levels Cards Grid (Flip, Call Wall, Put Wall, VEX Magnet, Max Pain) */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
         
-        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-5 space-y-1.5 shadow-md">
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-4 space-y-1.5 shadow-md">
           <div className="flex items-center justify-between">
-            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Zero-Gamma Flip</span>
+            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Zero Flip</span>
             <div className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
           </div>
-          <div className="text-xl font-bold text-cyan-400 font-mono tracking-tight">
-            {flip ? Math.round(flip) : "N/A"}
+          <div className="text-lg font-bold text-cyan-400 font-mono tracking-tight">
+            {flip ? Math.round(flip).toLocaleString() : "N/A"}
           </div>
-          <p className="text-[10px] text-zinc-500 leading-normal">The absolute pivot strike separating high and low vol regimes.</p>
+          <p className="text-[9.5px] text-zinc-500 leading-normal">Pivot separating high & low volatility regimes.</p>
         </div>
 
-        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-5 space-y-1.5 shadow-md">
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-4 space-y-1.5 shadow-md">
           <div className="flex items-center justify-between">
-            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Call Wall</span>
-            <div className="w-1.5 h-1.5 rounded-full bg-zinc-700" />
+            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">0DTE Call Wall</span>
+            <div className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
           </div>
-          <div className="text-xl font-bold text-zinc-200 font-mono tracking-tight">
-            {callWall ? Math.round(callWall) : "N/A"}
+          <div className="text-lg font-bold text-emerald-400 font-mono tracking-tight">
+            {callWall ? Math.round(callWall).toLocaleString() : "N/A"}
           </div>
-          <p className="text-[10px] text-zinc-500 leading-normal">Strike with highest call gamma. Overhead resistance ceiling.</p>
+          <p className="text-[9.5px] text-zinc-500 leading-normal">Largest positive call GEX. Primary ceiling resistance.</p>
         </div>
 
-        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-5 space-y-1.5 shadow-md">
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-4 space-y-1.5 shadow-md">
           <div className="flex items-center justify-between">
-            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Put Wall</span>
-            <div className="w-1.5 h-1.5 rounded-full bg-zinc-700" />
+            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">0DTE Put Wall</span>
+            <div className="w-1.5 h-1.5 rounded-full bg-red-400" />
           </div>
-          <div className="text-xl font-bold text-zinc-200 font-mono tracking-tight">
-            {putWall ? Math.round(putWall) : "N/A"}
+          <div className="text-lg font-bold text-red-400 font-mono tracking-tight">
+            {putWall ? Math.round(putWall).toLocaleString() : "N/A"}
           </div>
-          <p className="text-[10px] text-zinc-500 leading-normal">Strike with highest put gamma. Primary floor in positive gamma.</p>
+          <p className="text-[9.5px] text-zinc-500 leading-normal">Largest put GEX strike. Primary floor airbag.</p>
         </div>
 
-        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-5 space-y-1.5 shadow-md">
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-4 space-y-1.5 shadow-md">
           <div className="flex items-center justify-between">
-            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">0DTE Magnet</span>
+            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">0DTE VEX Magnet</span>
             <div className="w-1.5 h-1.5 rounded-full bg-purple-400 animate-pulse" />
           </div>
-          <div className="text-xl font-bold text-purple-400 font-mono tracking-tight">
-            {magnet !== "None" ? Math.round(Number(magnet)) : "None"}
+          <div className="text-lg font-bold text-purple-400 font-mono tracking-tight">
+            {magnet !== "None" ? Math.round(Number(magnet)).toLocaleString() : "None"}
           </div>
-          <p className="text-[10px] text-zinc-500 leading-normal">Same-day expiration pinning strike for the afternoon session.</p>
+          <p className="text-[9.5px] text-zinc-500 leading-normal">Peak intraday volume gamma. Hot money pull magnet.</p>
+        </div>
+
+        <div className="bg-zinc-950 border border-zinc-900 rounded-2xl p-4 space-y-1.5 shadow-md col-span-2 sm:col-span-1">
+          <div className="flex items-center justify-between">
+            <span className="text-[10px] text-zinc-500 font-mono uppercase tracking-wider">Max Pain Strike</span>
+            <div className="w-1.5 h-1.5 rounded-full bg-pink-400" />
+          </div>
+          <div className="text-lg font-bold text-pink-400 font-mono tracking-tight">
+            {maxPain ? Math.round(maxPain).toLocaleString() : "N/A"}
+          </div>
+          <p className="text-[9.5px] text-zinc-500 leading-normal">Strike minimizing total expiring options value.</p>
         </div>
 
       </div>
@@ -308,33 +362,42 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
       <div className="border border-zinc-900 bg-zinc-950 p-6 rounded-2xl space-y-4 shadow-lg">
         <div className="flex items-center justify-between text-xs font-mono text-zinc-400 select-none">
           <span className="flex flex-col">
-            <span className="text-[10px] text-zinc-500 uppercase">Put Wall Strike</span>
-            <span className="text-sm font-bold text-zinc-300">{Math.round(putWall)}</span>
+            <span className="text-[10px] text-zinc-500 uppercase">Put Wall Floor</span>
+            <span className="text-sm font-bold text-red-400">{Math.round(putWall).toLocaleString()}</span>
           </span>
           <span className="text-[11px] font-semibold text-zinc-500 uppercase tracking-widest bg-zinc-900 px-3 py-1 rounded border border-zinc-800">
             Spot Alignment Slider
           </span>
           <span className="flex flex-col text-right">
-            <span className="text-[10px] text-zinc-500 uppercase">Call Wall Strike</span>
-            <span className="text-sm font-bold text-zinc-300">{Math.round(callWall)}</span>
+            <span className="text-[10px] text-zinc-500 uppercase">Call Wall Ceiling</span>
+            <span className="text-sm font-bold text-emerald-400">{Math.round(callWall).toLocaleString()}</span>
           </span>
         </div>
         
         <div className="relative h-3 bg-zinc-900 rounded-full border border-zinc-800">
           {/* Active Spot Indicator Pin */}
           <div 
-            className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-cyan-400 border-2 border-zinc-950 shadow-lg flex items-center justify-center transition-all duration-500"
+            className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-cyan-400 border-2 border-zinc-950 shadow-lg flex items-center justify-center transition-all duration-500 z-10"
             style={{ left: `${spotPercent}%` }}
           >
             <div className="w-2 h-2 rounded-full bg-zinc-950" />
           </div>
           
           {/* Flip Level marker */}
-          {flip && flip > putWall && flip < callWall && (
+          {flip && flip >= putWall && flip <= callWall && (
             <div 
-              className="absolute top-0 bottom-0 w-1 bg-cyan-400/30"
+              className="absolute top-0 bottom-0 w-1 bg-cyan-400/50"
               style={{ left: `${((flip - putWall) / rangeWidth) * 100}%` }}
               title={`Zero-Gamma Flip: ${Math.round(flip)}`}
+            />
+          )}
+
+          {/* Max Pain marker */}
+          {maxPain && maxPain >= putWall && maxPain <= callWall && (
+            <div 
+              className="absolute top-0 bottom-0 w-1 bg-pink-400/50"
+              style={{ left: `${((maxPain - putWall) / rangeWidth) * 100}%` }}
+              title={`Max Pain: ${Math.round(maxPain)}`}
             />
           )}
         </div>
@@ -342,13 +405,237 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
         <div className="flex justify-between text-[10px] text-zinc-500 font-mono">
           <span>Oversold / Floor Zone</span>
           {flip && (
-            <span style={{ marginLeft: `${Math.max(5, Math.min(85, ((flip - putWall) / rangeWidth) * 100))}%` }}>
-              Flip Pivot ({Math.round(flip)})
+            <span>
+              Flip Pivot ({Math.round(flip).toLocaleString()})
             </span>
           )}
           <span>Overbought / Ceiling Zone</span>
         </div>
       </div>
+
+      {/* ── CBOE 0DTE GEX PROFILE & LIQUIDITY MAP VISUALIZER ── */}
+      {ladder.length > 0 && (
+        <div className="border border-zinc-900 bg-zinc-950 p-6 rounded-2xl space-y-4 shadow-lg">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-zinc-900 pb-3">
+            <div className="space-y-1">
+              <h4 className="text-xs font-bold text-zinc-200 uppercase tracking-wider flex items-center gap-2">
+                <BarChart3 className="w-4 h-4 text-cyan-400" />
+                <span>0DTE Strike Ladder & Dealer Hedging Profile</span>
+              </h4>
+              <span className="text-[10px] text-zinc-500 block">
+                Calculated strike-by-strike dollar gamma exposure ($M) and contract open interest.
+              </span>
+            </div>
+
+            {/* View Selector Tabs */}
+            <div className="flex bg-zinc-900 border border-zinc-800 rounded-lg p-0.5 font-mono text-[10px]">
+              <button
+                onClick={() => setChartTab("gex")}
+                className={`flex items-center gap-1.5 px-3 py-1 rounded transition-colors ${
+                  chartTab === "gex" 
+                    ? "bg-zinc-800 text-cyan-400 font-bold" 
+                    : "text-zinc-500 hover:text-zinc-300"
+                }`}
+              >
+                <BarChart3 className="w-3 h-3" />
+                <span>GEX Profile ($M)</span>
+              </button>
+              <button
+                onClick={() => setChartTab("liquidity")}
+                className={`flex items-center gap-1.5 px-3 py-1 rounded transition-colors ${
+                  chartTab === "liquidity" 
+                    ? "bg-zinc-800 text-purple-400 font-bold" 
+                    : "text-zinc-500 hover:text-zinc-300"
+                }`}
+              >
+                <Activity className="w-3 h-3" />
+                <span>Liquidity (OI & Vol)</span>
+              </button>
+              <button
+                onClick={() => setChartTab("table")}
+                className={`flex items-center gap-1.5 px-3 py-1 rounded transition-colors ${
+                  chartTab === "table" 
+                    ? "bg-zinc-800 text-zinc-200 font-bold" 
+                    : "text-zinc-500 hover:text-zinc-300"
+                }`}
+              >
+                <Table className="w-3 h-3" />
+                <span>Data Table</span>
+              </button>
+            </div>
+          </div>
+
+          {/* GEX Profile Mode */}
+          {chartTab === "gex" && (
+            <div className="space-y-1.5 font-mono text-xs max-h-[500px] overflow-y-auto pr-2">
+              <div className="flex items-center justify-between text-[10px] text-zinc-500 border-b border-zinc-900 pb-2 px-2">
+                <span className="w-24">Strike</span>
+                <span className="flex-1 text-center">Dealer Net Gamma Profile (Put GEX ← | → Call GEX)</span>
+                <span className="w-24 text-right">Net GEX ($M)</span>
+              </div>
+              {ladder.map((row: any, idx: number) => {
+                const strike = row.strike;
+                const isSpotNearest = Math.abs(strike - spot) <= (symbol === "NQ" ? 15 : 5);
+                const isCallWall = strike === callWall;
+                const isPutWall = strike === putWall;
+                const isFlip = strike === flip;
+                const isPain = strike === maxPain;
+                const isMag = Math.round(strike) === Math.round(Number(magnet));
+
+                const callPct = Math.min(100, (Math.max(0, row.call_gex || 0) / maxGexAbs) * 100);
+                const putPct = Math.min(100, (Math.abs(row.put_gex || 0) / maxGexAbs) * 100);
+
+                return (
+                  <div 
+                    key={idx} 
+                    className={`flex items-center justify-between py-1.5 px-2 rounded-lg transition-colors ${
+                      isSpotNearest 
+                        ? "bg-cyan-950/30 border border-cyan-800/40" 
+                        : isCallWall 
+                        ? "bg-emerald-950/20 border border-emerald-900/30" 
+                        : isPutWall 
+                        ? "bg-red-950/20 border border-red-900/30" 
+                        : "hover:bg-zinc-900/40"
+                    }`}
+                  >
+                    <div className="w-24 flex items-center gap-1.5 shrink-0">
+                      <span className={`font-bold ${isSpotNearest ? "text-cyan-400" : isCallWall ? "text-emerald-400" : isPutWall ? "text-red-400" : "text-zinc-300"}`}>
+                        {Math.round(strike).toLocaleString()}
+                      </span>
+                      {isSpotNearest && <span className="text-[8px] bg-cyan-900 text-cyan-200 px-1 rounded font-bold">SPOT</span>}
+                      {isCallWall && <span className="text-[8px] bg-emerald-900 text-emerald-200 px-1 rounded font-bold">CW</span>}
+                      {isPutWall && <span className="text-[8px] bg-red-900 text-red-200 px-1 rounded font-bold">PW</span>}
+                      {isFlip && <span className="text-[8px] bg-blue-900 text-blue-200 px-1 rounded font-bold">FLIP</span>}
+                      {isPain && <span className="text-[8px] bg-pink-900 text-pink-200 px-1 rounded font-bold">PAIN</span>}
+                      {isMag && <span className="text-[8px] bg-purple-900 text-purple-200 px-1 rounded font-bold">MAG</span>}
+                    </div>
+
+                    {/* Centered bidirectional bar */}
+                    <div className="flex-1 flex items-center h-4 mx-3 bg-zinc-900/80 rounded overflow-hidden relative">
+                      <div className="w-1/2 flex justify-end h-full">
+                        <div 
+                          className="bg-red-500/80 h-full rounded-l transition-all"
+                          style={{ width: `${putPct}%` }}
+                          title={`Put GEX: -$${Math.abs(row.put_gex).toFixed(1)}M`}
+                        />
+                      </div>
+                      <div className="w-0.5 h-full bg-zinc-700 z-10" />
+                      <div className="w-1/2 flex justify-start h-full">
+                        <div 
+                          className="bg-emerald-500/80 h-full rounded-r transition-all"
+                          style={{ width: `${callPct}%` }}
+                          title={`Call GEX: +$${row.call_gex.toFixed(1)}M`}
+                        />
+                      </div>
+                    </div>
+
+                    <div className={`w-24 text-right shrink-0 font-bold ${row.net_gex >= 0 ? "text-emerald-400" : "text-red-400"}`}>
+                      {row.net_gex >= 0 ? `+$${row.net_gex.toFixed(1)}M` : `-$${Math.abs(row.net_gex).toFixed(1)}M`}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+          {/* Liquidity (OI & Volume) Mode */}
+          {chartTab === "liquidity" && (
+            <div className="space-y-1.5 font-mono text-xs max-h-[500px] overflow-y-auto pr-2">
+              <div className="flex items-center justify-between text-[10px] text-zinc-500 border-b border-zinc-900 pb-2 px-2">
+                <span className="w-24">Strike</span>
+                <span className="flex-1 text-center">Contracts Distribution (Purple: OI | Orange: 0DTE Vol)</span>
+                <span className="w-28 text-right">OI / Vol</span>
+              </div>
+              {ladder.map((row: any, idx: number) => {
+                const strike = row.strike;
+                const isSpotNearest = Math.abs(strike - spot) <= (symbol === "NQ" ? 15 : 5);
+                const oiPct = Math.min(100, (row.total_oi / maxOI) * 100);
+                const volPct = Math.min(100, (row.total_vol / maxVol) * 100);
+
+                return (
+                  <div 
+                    key={idx} 
+                    className={`flex items-center justify-between py-1.5 px-2 rounded-lg transition-colors ${
+                      isSpotNearest 
+                        ? "bg-cyan-950/30 border border-cyan-800/40" 
+                        : "hover:bg-zinc-900/40"
+                    }`}
+                  >
+                    <div className="w-24 flex items-center gap-1 shrink-0">
+                      <span className={`font-bold ${isSpotNearest ? "text-cyan-400" : "text-zinc-300"}`}>
+                        {Math.round(strike).toLocaleString()}
+                      </span>
+                    </div>
+
+                    <div className="flex-1 flex flex-col gap-0.5 mx-3">
+                      <div className="h-2 bg-zinc-900 rounded overflow-hidden">
+                        <div 
+                          className="bg-purple-500/80 h-full rounded transition-all"
+                          style={{ width: `${oiPct}%` }}
+                          title={`OI: ${row.total_oi.toLocaleString()} contracts`}
+                        />
+                      </div>
+                      <div className="h-2 bg-zinc-900 rounded overflow-hidden">
+                        <div 
+                          className="bg-amber-500/80 h-full rounded transition-all"
+                          style={{ width: `${volPct}%` }}
+                          title={`Volume: ${row.total_vol.toLocaleString()} contracts`}
+                        />
+                      </div>
+                    </div>
+
+                    <div className="w-28 text-right shrink-0 text-[11px] text-zinc-400">
+                      <span className="text-purple-300 font-semibold">{row.total_oi.toLocaleString()}</span>
+                      <span className="text-zinc-600"> / </span>
+                      <span className="text-amber-300 font-semibold">{row.total_vol.toLocaleString()}</span>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+          {/* Full Table Mode */}
+          {chartTab === "table" && (
+            <div className="overflow-x-auto max-h-[500px] overflow-y-auto font-mono text-xs">
+              <table className="w-full text-left text-zinc-300 border-collapse">
+                <thead className="sticky top-0 bg-zinc-900 text-[10px] text-zinc-400 uppercase tracking-wider border-b border-zinc-800">
+                  <tr>
+                    <th className="py-2.5 px-3">Strike</th>
+                    <th className="py-2.5 px-3 text-right">Call GEX ($M)</th>
+                    <th className="py-2.5 px-3 text-right">Put GEX ($M)</th>
+                    <th className="py-2.5 px-3 text-right">Net GEX ($M)</th>
+                    <th className="py-2.5 px-3 text-right">Call OI</th>
+                    <th className="py-2.5 px-3 text-right">Put OI</th>
+                    <th className="py-2.5 px-3 text-right">0DTE Vol</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-zinc-900">
+                  {ladder.map((row: any, idx: number) => {
+                    const isSpotNearest = Math.abs(row.strike - spot) <= (symbol === "NQ" ? 15 : 5);
+                    return (
+                      <tr 
+                        key={idx}
+                        className={`hover:bg-zinc-900/50 ${isSpotNearest ? "bg-cyan-950/20 font-bold" : ""}`}
+                      >
+                        <td className="py-2 px-3 text-cyan-300">{Math.round(row.strike).toLocaleString()}</td>
+                        <td className="py-2 px-3 text-right text-emerald-400">+${row.call_gex.toFixed(1)}M</td>
+                        <td className="py-2 px-3 text-right text-red-400">-${Math.abs(row.put_gex).toFixed(1)}M</td>
+                        <td className={`py-2 px-3 text-right font-bold ${row.net_gex >= 0 ? "text-emerald-400" : "text-red-400"}`}>
+                          {row.net_gex >= 0 ? `+$${row.net_gex.toFixed(1)}M` : `-$${Math.abs(row.net_gex).toFixed(1)}M`}
+                        </td>
+                        <td className="py-2 px-3 text-right text-zinc-400">{row.oi_call.toLocaleString()}</td>
+                        <td className="py-2 px-3 text-right text-zinc-400">{row.oi_put.toLocaleString()}</td>
+                        <td className="py-2 px-3 text-right text-amber-400">{row.total_vol.toLocaleString()}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Premium CTA banner card */}
       <div className="relative overflow-hidden rounded-2xl border border-purple-900/30 bg-gradient-to-r from-purple-950/20 to-zinc-950 p-5 flex flex-col md:flex-row items-center justify-between gap-6 shadow-md select-none">
@@ -438,7 +725,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
               <span className="text-[9px] px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-500 uppercase tracking-widest font-mono">Premium</span>
             </h4>
             <p className="text-xs text-zinc-500 max-w-xl leading-relaxed">
-              Unlock the **{symbol === "NQ" ? "Volume Profile Playbook" : "ES Gamma Playbook"}** to activate custom AI-generated premarket plans mapped directly to today's support, resistance, and pinning walls.
+              Unlock the **{symbol === "NQ" ? "Volume Profile Playbook" : "ES Gamma Playbook"}** to activate custom AI-generated premarket plans mapped directly to today's Cboe support, resistance, and pinning walls.
             </p>
           </div>
           <button
@@ -459,7 +746,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
                 <span>Premium AI Premarket Trade Planner ({symbol})</span>
               </h4>
               <span className="text-[10px] text-zinc-500 block">
-                Generates a tactical trade setup plan around today's active options boundaries.
+                Generates a tactical trade setup plan around today's active Cboe options boundaries.
               </span>
             </div>
             
@@ -530,7 +817,7 @@ export default function GammaLevelsView({ setView, hasEsPlaybook, hasNqPlaybook,
         <div className="space-y-1">
           <h4 className="font-semibold text-zinc-200 uppercase tracking-wider text-[11px]">Help / Quick Legend</h4>
           <p className="leading-relaxed">
-            The values display daily options hedging triggers. Market makers adjust their positions dynamically, causing the {symbol === "NQ" ? "Nasdaq-100" : "S&P 500"} spot index to encounter structural friction at the Call/Put Walls, and switch regimes at the Zero-Gamma Flip. Unlocking the <b>{symbol === "NQ" ? "Volume Profile Playbook" : "ES Gamma Playbook"}</b> inside the Playbook Library will provide complete, rules-based entry guides for these triggers.
+            The values display daily options hedging triggers pulled directly from Cboe CDN feeds. Market makers adjust their positions dynamically, causing the {symbol === "NQ" ? "Nasdaq-100" : "S&P 500"} spot index to encounter structural friction at the Call/Put Walls, and switch regimes at the Zero-Gamma Flip. Unlocking the <b>{symbol === "NQ" ? "Volume Profile Playbook" : "ES Gamma Playbook"}</b> inside the Playbook Library will provide complete, rules-based entry guides for these triggers.
           </p>
         </div>
       </div>

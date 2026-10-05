@@ -40,127 +40,19 @@ STEPS = [
 ]
 
 def fetch_nq_gamma_levels_for_bot():
-    import json
-    import os
-    import time
-    import requests
-    from datetime import datetime
-    import yfinance as yf
-    from config import FLASHALPHA_API_KEY
-    
-    cache_path = PERSISTENT_DIR / "storage" / "nq_gamma_cache.json"
-    
-    if cache_path.exists():
-        try:
-            mtime = cache_path.stat().st_mtime
-            # If cache is less than 15 minutes old, use it
-            if (time.time() - mtime) < 900:
-                with open(cache_path, "r") as f:
-                    console.print("[dim][Bot NQ Gamma] Using fresh disk cache.[/]")
-                    return json.load(f)
-        except Exception as e:
-            console.print(f"[dim][Bot NQ Gamma Cache Error] {e}[/]")
-            
-    headers = {"X-Api-Key": FLASHALPHA_API_KEY, "Accept": "application/json"}
-    url = "https://lab.flashalpha.com/v1/exposure/levels/NQ=F"
+    from analysis.cboe_gex import fetch_cboe_gex
     try:
-        r = requests.get(url, headers=headers, timeout=10)
-        if r.status_code == 200:
-            data = r.json()
-            # Save to disk cache
-            cache_path.parent.mkdir(exist_ok=True)
-            with open(cache_path, "w") as f:
-                json.dump(data, f)
-            console.print("[dim][Bot NQ Gamma] Successfully fetched and cached NQ levels.[/]")
-            return data
-        else:
-            # Try loading stale cache if API failed, but only if it is less than 18 hours old
-            is_cache_fresh = False
-            if cache_path.exists():
-                try:
-                    mtime = cache_path.stat().st_mtime
-                    if (time.time() - mtime) < 64800:
-                        is_cache_fresh = True
-                except Exception:
-                    pass
-            
-            if is_cache_fresh:
-                with open(cache_path, "r") as f:
-                    console.print(f"[dim][Bot NQ Gamma API Error] status {r.status_code}. Using stale disk cache.[/]")
-                    return json.load(f)
-            
-            # Generate estimated levels from yfinance
-            try:
-                ticker = yf.Ticker("NQ=F")
-                spot = ticker.fast_info.last_price or 19500.0
-            except Exception:
-                spot = 19500.0
-            
-            flip = round((spot - 80) / 10) * 10
-            call_wall = round((spot + 200) / 10) * 10
-            put_wall = round((spot - 300) / 10) * 10
-            magnet = str(round((spot + 40) / 10) * 10)
-            
-            fallback_data = {
-                "underlying_price": spot,
-                "as_of": datetime.utcnow().isoformat() + "Z",
-                "levels": {
-                    "gamma_flip": flip,
-                    "call_wall": call_wall,
-                    "put_wall": put_wall,
-                    "zero_dte_magnet": magnet
-                },
-                "warning": "Estimated fallback levels shown due to FlashAlpha API tier restrictions."
-            }
-            cache_path.parent.mkdir(exist_ok=True)
-            with open(cache_path, "w") as f:
-                json.dump(fallback_data, f)
-            console.print(f"[dim][Bot NQ Gamma API Error] status {r.status_code}. Using estimated fallback levels.[/]")
-            return fallback_data
+        data = fetch_cboe_gex("NQ")
+        console.print(f"[dim][Bot NQ Gamma] Pulled official Cboe 0DTE GEX levels (Regime: {data.get('regime')}, Flip: {data.get('levels', {}).get('gamma_flip')})[/]")
+        return data
     except Exception as e:
-        # Try loading stale cache on network exception, but only if it is less than 18 hours old
-        is_cache_fresh = False
-        if cache_path.exists():
-            try:
-                mtime = cache_path.stat().st_mtime
-                if (time.time() - mtime) < 64800:
-                    is_cache_fresh = True
-            except Exception:
-                pass
-                
-        if is_cache_fresh:
-            with open(cache_path, "r") as f:
-                console.print(f"[dim][Bot NQ Gamma API Exception] {e}. Using stale disk cache.[/]")
-                return json.load(f)
-                
-        # Generate estimated levels from yfinance
-        try:
-            ticker = yf.Ticker("NQ=F")
-            spot = ticker.fast_info.last_price or 19500.0
-        except Exception:
-            spot = 19500.0
-            
-        flip = round((spot - 80) / 10) * 10
-        call_wall = round((spot + 200) / 10) * 10
-        put_wall = round((spot - 300) / 10) * 10
-        magnet = str(round((spot + 40) / 10) * 10)
-        
-        fallback_data = {
-            "underlying_price": spot,
-            "as_of": datetime.utcnow().isoformat() + "Z",
-            "levels": {
-                "gamma_flip": flip,
-                "call_wall": call_wall,
-                "put_wall": put_wall,
-                "zero_dte_magnet": magnet
-            },
-            "warning": "Estimated fallback levels shown due to FlashAlpha API tier restrictions."
+        console.print(f"[dim][Bot NQ Gamma Error] {e}[/]")
+        return {
+            "underlying_price": 30000.0,
+            "levels": {"gamma_flip": 29900, "call_wall": 30200, "put_wall": 29700, "zero_dte_magnet": "30000"},
+            "warning": f"Gamma fallback error: {e}"
         }
-        cache_path.parent.mkdir(exist_ok=True)
-        with open(cache_path, "w") as f:
-            json.dump(fallback_data, f)
-        console.print(f"[dim][Bot NQ Gamma API Exception] {e}. Using estimated fallback levels.[/]")
-        return fallback_data
+
 
 
 class TradingBot:
